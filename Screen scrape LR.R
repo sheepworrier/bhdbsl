@@ -72,7 +72,7 @@ get_single_results_page <- function(base_url, season, division, page_number) {
   final_results_table
 }
 # Grab every match result and the link to the match details page
-results <- pmap_dfr(unname(ref_data), get_season_division_results)
+# results <- pmap_dfr(unname(ref_data), get_season_division_results)
 
 results <- get_season_division_results(ref_data$Season[[15]],
                                        ref_data$Division[[15]],
