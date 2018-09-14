@@ -13,13 +13,14 @@ get_season_division_results <- function(season, division, url) {
     html_node("#hide-container li:nth-child(5) a")
   # Handle the case where the season is incomplete and we only have 1 page of
   # results
-  if (length(num_pages) > 0) {
+  if (length(num_pages_nodes) > 0) {
     num_pages <- num_pages_nodes %>%
       html_text() %>%
       as.integer()
   } else {
     num_pages <- 1
   }
+  print(paste("There are", num_pages, "pages of results"))
   # Create an argument list to pass through to get_single_results_page
   arg_list <- list(rep(substr(url, 1, str_length(url) - 5), num_pages),
                    rep(season, num_pages),
@@ -36,6 +37,7 @@ get_single_results_page <- function(base_url, season, division, page_number) {
               "and season", season))
   # Contruct URL for the results page number in question
   results_page_url <- paste0(base_url, "/", page_number, ".html")
+  print(results_page_url)
   # Use httr to load the results page X
   results_page <- read_html(GET(results_page_url,
                                 add_headers('user-agent' = 'r')))
@@ -72,20 +74,24 @@ get_single_results_page <- function(base_url, season, division, page_number) {
 # Grab every match result and the link to the match details page
 results <- pmap_dfr(unname(ref_data), get_season_division_results)
 
-scrapeMatchPage <- 
-print(paste("Scraping page", pageNum))
+results <- get_season_division_results(ref_data$Season[[15]],
+                                       ref_data$Division[[15]],
+                                       ref_data$`Results URL`[[15]])
 
-matchPageURL <-
-  # "http://brightonhovedistrictsnooker.leaguerepublic.com/l/match/18529450.html"
-  paste0("http://brightonhovedistrictsnooker.leaguerepublic.com/l/match/18526176.html")
-matchPage <- read_html(GET(matchPageURL, add_headers('user-agent' = 'r')))
-potentialFrameTable <- matchPage %>%
-  html_nodes(".divider-x2 table")
-if(length(potentialFrameTable) > 0) {
-  frameTable <- potentialFrameTable %>%
-    .[[1]] %>%
-    html_table(fill=TRUE)
-  colnames(frameTable) <- c("homePlayerName", "homeScore", "awayPlayerName", "awayScore")
-  frameTable$fixtureDate <- paste0(substr())
-}
+# scrapeMatchPage <- function()
+# print(paste("Scraping page", pageNum))
+# 
+# matchPageURL <-
+#   # "http://brightonhovedistrictsnooker.leaguerepublic.com/l/match/18529450.html"
+#   paste0("http://brightonhovedistrictsnooker.leaguerepublic.com/l/match/18526176.html")
+# matchPage <- read_html(GET(matchPageURL, add_headers('user-agent' = 'r')))
+# potentialFrameTable <- matchPage %>%
+#   html_nodes(".divider-x2 table")
+# if(length(potentialFrameTable) > 0) {
+#   frameTable <- potentialFrameTable %>%
+#     .[[1]] %>%
+#     html_table(fill=TRUE)
+#   colnames(frameTable) <- c("homePlayerName", "homeScore", "awayPlayerName", "awayScore")
+#   frameTable$fixtureDate <- paste0(substr())
+# }
 
