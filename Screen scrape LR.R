@@ -74,20 +74,51 @@ get_single_results_page <- function(base_url, season, division, page_number) {
 # Grab every match result and the link to the match details page
 results <- pmap_dfr(unname(ref_data), get_season_division_results)
 
-# scrapeMatchPage <- function()
-# print(paste("Scraping page", pageNum))
-# 
-# matchPageURL <-
-#   # "http://brightonhovedistrictsnooker.leaguerepublic.com/l/match/18529450.html"
-#   paste0("http://brightonhovedistrictsnooker.leaguerepublic.com/l/match/18526176.html")
-# matchPage <- read_html(GET(matchPageURL, add_headers('user-agent' = 'r')))
-# potentialFrameTable <- matchPage %>%
-#   html_nodes(".divider-x2 table")
-# if(length(potentialFrameTable) > 0) {
-#   frameTable <- potentialFrameTable %>%
-#     .[[1]] %>%
-#     html_table(fill=TRUE)
-#   colnames(frameTable) <- c("homePlayerName", "homeScore", "awayPlayerName", "awayScore")
-#   frameTable$fixtureDate <- paste0(substr())
-# }
+scrape_match_page <-
+  function(fixture_date, season, division, home_team, away_team, home_score,
+           away_score, url) {
+    print(paste("Scraping", url))
+    # Use httr ro get the web page containing the match details
+    match_page <- read_html(GET(url, add_headers('user-agent' = 'r')))
+    # Look for the table of frame scores which may or may not exist
+    potential_frame_table <- match_page %>%
+      html_nodes(".divider-x2 table")
+    # If it exists then read into a dataset
+    if(length(potential_frame_table) > 0) {
+      frame_table <- potential_frame_table %>%
+        .[[1]] %>%
+        html_table(fill=TRUE)
+      # Rename column names (as those on the website aren't that helpful)
+      colnames(frame_table) <-
+        c("home_player_name", "home_score", "away_score", "away_player_name")
+      # Construct (almost) final output table.  Just need to add in player IDs
+      frame_scores <-
+        data.frame(fixture_date,
+                   season,
+                   division,
+                   home_team,
+                   away_team,
+                   home_player_id = NA,
+                   home_player_name = frame_table$home_player_name,
+                   home_score = frame_table$home_score,
+                   away_player_id = NA,
+                   away_player_name = frame_table$away_player_name,
+                   away_score = frame_table$away_score)
+      frame_scores
+    }
+  }
 
+# Cloudflare blocks IPs when too many are attempted in quick succession, so
+# will break them down by season
+results_14 <- results %>% filter(season == 14)
+results_15 <- results %>% filter(season == 15)
+results_16 <- results %>% filter(season == 16)
+results_17 <- results %>% filter(season == 17)
+results_18 <- results %>% filter(season == 18)
+
+# Scrape the frame scores from all of the match pages
+frame_scores_14 <- pmap_dfr(unname(results_14), scrape_match_page)
+frame_scores_15 <- pmap_dfr(unname(results_15), scrape_match_page)
+frame_scores_16 <- pmap_dfr(unname(results_16), scrape_match_page)
+frame_scores_17 <- pmap_dfr(unname(results_17), scrape_match_page)
+frame_scores_18 <- pmap_dfr(unname(results_18), scrape_match_page)
