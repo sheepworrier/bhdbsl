@@ -15,9 +15,9 @@ player_id_map <- frame_scores %>%
   arrange(last_name, first_name)
 # Add in any new players since 2014
 new_players <-
-  data.frame(player_id = c(534),
-             first_name = c("Sean"),
-             last_name = c("Payne"))
+  data.frame(player_id = c(534:536),
+             first_name = c("Sean", "Brett", "John"),
+             last_name = c("Payne", "Williams", "Derret"))
 new_players$full_name <- paste(new_players$first_name, new_players$last_name)
 player_id_map <- rbind(player_id_map, new_players)
 
@@ -81,11 +81,13 @@ player_ratings <- summary3 %>%
   inner_join(starting_ranking, by = c("majority_division" = "division"))
 player_ratings[, c("latest_rating", "latest_fixture_date")] <- NA
 player_ratings[, c("frames_played")] <- 0
+rownames(player_ratings) <- player_ratings$player_id
 
 # Iterate through frame_scores, retrieve the player rating before each frame and
 # update with the player rating for both players after each frame
 weight_value <- 10
 for(i in 1:nrow(frame_scores)) {
+  print(paste("Iteration", i))
   row <- frame_scores[i, ]
   home_player = subset(player_ratings, player_id == row$home_player_id)
   away_player = subset(player_ratings, player_id == row$away_player_id)
@@ -112,24 +114,18 @@ for(i in 1:nrow(frame_scores)) {
                                                                       (home_player_ranking + away_player_ranking))
   frame_scores[i, 12] <- home_player_new_ranking
   frame_scores[i, 13] <- away_player_new_ranking
-  player_ratings <- player_ratings %>%
-    mutate(latest_rating =
-             ifelse(player_id == home_player$player_id,
-                    home_player_new_ranking,
-                    ifelse(player_id == away_player$player_id,
-                           away_player_new_ranking,
-                           latest_rating)),
-           latest_fixture_date =
-             ifelse(player_id %in% c(home_player$player_id,
-                                     away_player$player_id),
-                    row$fixture_date,
-                    latest_fixture_date),
-           frames_played =
-             ifelse(player_id == home_player$player_id,
-                    home_player$frames_played + 1,
-                    ifelse(player_id == away_player$player_id,
-                           away_player$frames_played + 1,
-                           frames_played)))
+  player_ratings[player_ratings$player_id == home_player$player_id, 7] <-
+    home_player_new_ranking
+  player_ratings[player_ratings$player_id == home_player$player_id, 8] <-
+    row$fixture_date
+  player_ratings[player_ratings$player_id == home_player$player_id, 9] <-
+    home_player$frames_played + 1
+  player_ratings[player_ratings$player_id == away_player$player_id, 7] <-
+    away_player_new_ranking
+  player_ratings[player_ratings$player_id == away_player$player_id, 8] <-
+    row$fixture_date
+  player_ratings[player_ratings$player_id == away_player$player_id, 9] <-
+    away_player$frames_played + 1
 }
 
 player_ratings_output <- data.frame(player_ratings$season,
