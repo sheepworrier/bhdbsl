@@ -10,15 +10,16 @@ get_season_division_results <- function(season, division, url) {
   results_1st_page <- read_html(GET(url, add_headers('user-agent' = 'r')))
   # Read in the number of results pages
   num_pages_nodes <- results_1st_page %>%
-    html_node("#hide-container li:nth-child(5) a")
-  # Handle the case where the season is incomplete and we only have 1 page of
-  # results
-  if (length(num_pages_nodes) > 0) {
+    html_nodes(".pagination a")
+  # Handles the case where the season is incomplete or we have less than 5 pages
+  # of results
+  if (length(num_pages_nodes) == 0) {
+    num_pages <- 1
+  } else {
     num_pages <- num_pages_nodes %>%
       html_text() %>%
-      as.integer()
-  } else {
-    num_pages <- 1
+      as.integer() %>%
+      max(na.rm = TRUE)
   }
   print(paste("There are", num_pages, "pages of results"))
   # Create an argument list to pass through to get_single_results_page
@@ -37,7 +38,6 @@ get_single_results_page <- function(base_url, season, division, page_number) {
               "and season", season))
   # Contruct URL for the results page number in question
   results_page_url <- paste0(base_url, "/", page_number, ".html")
-  print(results_page_url)
   # Use httr to load the results page X
   results_page <- read_html(GET(results_page_url,
                                 add_headers('user-agent' = 'r')))
@@ -72,11 +72,7 @@ get_single_results_page <- function(base_url, season, division, page_number) {
   final_results_table
 }
 # Grab every match result and the link to the match details page
-# results <- pmap_dfr(unname(ref_data), get_season_division_results)
-
-results <- get_season_division_results(ref_data$Season[[15]],
-                                       ref_data$Division[[15]],
-                                       ref_data$`Results URL`[[15]])
+results <- pmap_dfr(unname(ref_data), get_season_division_results)
 
 # scrapeMatchPage <- function()
 # print(paste("Scraping page", pageNum))
