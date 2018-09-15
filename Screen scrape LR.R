@@ -98,10 +98,8 @@ scrape_match_page <-
                    division,
                    home_team,
                    away_team,
-                   home_player_id = NA,
                    home_player_name = frame_table$home_player_name,
                    home_score = frame_table$home_score,
-                   away_player_id = NA,
                    away_player_name = frame_table$away_player_name,
                    away_score = frame_table$away_score)
       frame_scores
@@ -122,3 +120,11 @@ frame_scores_15 <- pmap_dfr(unname(results_15), scrape_match_page)
 frame_scores_16 <- pmap_dfr(unname(results_16), scrape_match_page)
 frame_scores_17 <- pmap_dfr(unname(results_17), scrape_match_page)
 frame_scores_18 <- pmap_dfr(unname(results_18), scrape_match_page)
+
+# Combine and filter out BYEs
+frame_scores_total <- rbind(frame_scores_14, frame_scores_15, frame_scores_16,
+                            frame_scores_17, frame_scores_18)
+
+# Write the results to a CSV file for use in the ELO ranking
+write_csv(frame_scores_14, "New-website-frame-scores.csv")
+write_csv(results, "New-website-match-scores.csv")
