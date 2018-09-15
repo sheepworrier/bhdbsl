@@ -1,104 +1,148 @@
-library(sqldf)
-setwd("~/Documents/R Code/snooker/")
-frameScores <- read.csv("Old-website-frame-scores.csv")
-frameScores$fixtureDate <- as.Date(frameScores$fixtureDate, "%d/%m/%Y")
-frameScores[, c("postMatchHomeRating", "postMatchAwayRating")] <-NA
+library(tidyverse)
+frame_scores <- read_csv("Old-website-frame-scores.csv")
+
+# Create a unique list of player IDs to use to map the results from the LR
+# website from 2014 onwards
+player_id_map <- frame_scores %>%
+  rename(player_id = home_player_id, player_name = home_player_name) %>%
+  select(player_id, player_name) %>%
+  rbind(frame_scores %>%
+          rename(player_id = away_player_id, player_name = away_player_name) %>%
+          select(player_id, player_name)) %>%
+  distinct() %>%
+  mutate(full_name = player_name) %>%
+  extract(player_name, c("first_name", "last_name"), "([^ ]+) (.*)") %>%
+  arrange(last_name, first_name)
+# Add in any new players since 2014
+new_players <-
+  data.frame(player_id = c(534),
+             first_name = c("Sean"),
+             last_name = c("Payne"))
+new_players$full_name <- paste(new_players$first_name, new_players$last_name)
+player_id_map <- rbind(player_id_map, new_players)
+
+# Load in the frame scores from the LR website 2014 onwards
+new_frame_scores <- read_csv("New-website-frame-scores.csv")
+# Merge with the player_id_map datasets to get the home and away player ids
+new_frame_scores_with_ids <- new_frame_scores %>%
+  left_join(player_id_map %>%
+              select(player_id, full_name),
+            by = c("home_player_name" = "full_name")) %>%
+  rename(home_player_id = player_id) %>%
+  left_join(player_id_map %>%
+              select(player_id, full_name),
+            by = c("away_player_name" = "full_name")) %>%
+  rename(away_player_id = player_id)
+
+frame_scores <- rbind(frame_scores, new_frame_scores_with_ids)
+frame_scores$fixture_date <- as.Date(frame_scores$fixture_date, "%d/%m/%Y")
+frame_scores[, c("post_match_home_rating", "post_match_away_rating")] <-NA
 
 # Get number of matches played in each division per season per player
-summary1 <- sqldf("SELECT playerID, playerName, season, division, count(*) as numFrames
-                  FROM (SELECT homePlayerID AS playerID, homePlayerName AS playerName, season, division
-                  FROM frameScores
-                  UNION ALL
-                  SELECT awayPlayerID AS playerID, awayPlayerName AS playerName, season, division
-                  FROM frameScores)
-                  GROUP BY playerID, playerName, season, division")
+summary1 <- frame_scores %>%
+  rename(player_id = home_player_id, player_name = home_player_name) %>%
+  select(player_id, player_name, season, division) %>%
+  rbind(frame_scores %>%
+          rename(player_id = away_player_id, player_name = away_player_name) %>%
+          select(player_id, player_name, season, division)) %>%
+  count(player_id, player_name, season, division) %>%
+  rename(num_frames = n)
 
-# Pick the main division per season per player based on where they played the majority of their matches.  In case of a tie,
-# choose the hgher division
-summary2 <- sqldf("SELECT playerID, playerName, season, min(division) AS majorityDivision
-                  FROM (SELECT a.playerID, a.playerName, a.season, a.division, a.numFrames
-                  FROM summary1 AS a
-                  INNER JOIN (SELECT playerID, season, max(numFrames) AS mostFramesPlayedInDivision
-                  FROM summary1
-                  GROUP BY playerID, season) AS b
-                  ON a.numFrames = b.mostFramesPlayedInDivision
-                  AND a.playerID = b.playerID
-                  AND a.season = b.season)
-                  GROUP BY playerID, playerName, season")
+# Pick the main division per season per player based on where they played the
+# majority of their matches.  In case of a tie, choose the hgher division
+summary2 <- summary1 %>%
+  select(player_id, player_name, season, division, num_frames) %>%
+  inner_join(summary1 %>%
+               group_by(player_id, season) %>%
+               summarise_at(vars(num_frames), max),
+             by = c("num_frames", "player_id", "season")) %>%
+  group_by(player_id, player_name, season) %>%
+  summarise_at(vars(division), min) %>%
+  rename(majority_division = division)
 
-# Finally summarise further to find the first season a player played a frame and which division they played the majority of
-# them in
-summary3 <- sqldf("SELECT a.playerID, a.playerName, a.season, a.majorityDivision
-                  FROM summary2 AS a
-                  INNER JOIN (SELECT playerID, min(season) AS firstSeason
-                  FROM summary2
-                  GROUP BY playerID) AS b
-                  ON a.playerID = b.playerID
-                  AND a.season = b.firstSeason")
+# Finally summarise further to find the first season a player played a frame and
+# which division they played the majority of them in
+summary3 <- summary2 %>%
+  inner_join(summary2 %>%
+               group_by(player_id) %>%
+               summarise_at(vars(season), min),
+             by = c("player_id", "season"))
 
-# Based on analysis top Division is 5.78 times stronger than 6th top and so on.  If we start at 1500 in the top division
-# calculate the starting rating for the other divisions and assign to each player
-relDivStrength <- c(5.78, 2.81, 2.4, 1.96, 1.57, 1)
-division <- c(1:6)
-startingRanking <- data.frame(division,
-                              relDivStrength)
-startingRanking$value <- 1500 / relDivStrength[1] * startingRanking$relDivStrength
-playerRatings <- merge(summary3, startingRanking, by.x = "majorityDivision", by.y = "division")
-playerRatings[, c("latestRating", "latestFixtureDate")] <- NA
-playerRatings[, c("framesPlayed")] <- 0
+# Based on analysis top Division is 5.78 times stronger than 6th top and so on.
+# If we start at 1500 in the top division calculate the starting rating for the
+# other divisions and assign to each player
+starting_ranking <-
+  data.frame(division = c(1:6),
+             rel_div_strength = c(5.78, 2.81, 2.4, 1.96, 1.57, 1))
+starting_ranking$value <-
+  1500 / starting_ranking$rel_div_strength[1] *
+  starting_ranking$rel_div_strength
+player_ratings <- summary3 %>%
+  inner_join(starting_ranking, by = c("majority_division" = "division"))
+player_ratings[, c("latest_rating", "latest_fixture_date")] <- NA
+player_ratings[, c("frames_played")] <- 0
 
-# Iterate through frameScores, retrieve the player rating before each frame and update with the player rating for both
-# players after each frame
-weightValue <- 10
-for(i in 1:nrow(frameScores)) {
-  row <- frameScores[i,]
-  homePlayer = subset(playerRatings, playerID == row$homePlayerID)
-  awayPlayer = subset(playerRatings, playerID == row$awayPlayerID)
-  if (is.na(homePlayer$latestRating)) {
-    homePlayerRanking <- homePlayer$value
+# Iterate through frame_scores, retrieve the player rating before each frame and
+# update with the player rating for both players after each frame
+weight_value <- 10
+for(i in 1:nrow(frame_scores)) {
+  row <- frame_scores[i, ]
+  home_player = subset(player_ratings, player_id == row$home_player_id)
+  away_player = subset(player_ratings, player_id == row$away_player_id)
+  if (is.na(home_player$latest_rating)) {
+    home_player_ranking <- home_player$value
   } else {
-    homePlayerRanking <- homePlayer$latestRating
+    home_player_ranking <- home_player$latest_rating
   }
-  if (row$homeScore > row$awayScore) {
-    homeFramesWon <- 1
-    awayFramesWon <- 0
+  if (row$home_score > row$away_score) {
+    home_frames_won <- 1
+    away_frames_won <- 0
   } else {
-    homeFramesWon <- 0
-    awayFramesWon <- 1
+    home_frames_won <- 0
+    away_frames_won <- 1
   }
-  if (is.na(awayPlayer$latestRating)) {
-    awayPlayerRanking <- awayPlayer$value
+  if (is.na(away_player$latest_rating)) {
+    away_player_ranking <- away_player$value
   } else {
-    awayPlayerRanking <- awayPlayer$latestRating
+    away_player_ranking <- away_player$latest_rating
   }
-  homePlayerNewRanking <- homePlayerRanking + weightValue * (homeFramesWon - homePlayerRanking /
-                                                                      (homePlayerRanking + awayPlayerRanking))
-  awayPlayerNewRanking <- awayPlayerRanking + weightValue * (awayFramesWon - awayPlayerRanking /
-                                                                      (homePlayerRanking + awayPlayerRanking))
-  frameScores[i, 12] <- homePlayerNewRanking
-  frameScores[i, 13] <- awayPlayerNewRanking
-  playerRatings[as.numeric(rownames(homePlayer)), 7] <- homePlayerNewRanking
-  playerRatings[as.numeric(rownames(homePlayer)), 8] <- row$fixtureDate
-  playerRatings[as.numeric(rownames(homePlayer)), 9] <- homePlayer$framesPlayed + 1
-  playerRatings[as.numeric(rownames(awayPlayer)), 7] <- awayPlayerNewRanking
-  playerRatings[as.numeric(rownames(awayPlayer)), 8] <- row$fixtureDate
-  playerRatings[as.numeric(rownames(awayPlayer)), 9] <- awayPlayer$framesPlayed + 1
-  #print(paste(homePlayerRanking, as.numeric(rownames(homePlayer)), homePlayerNewRanking,
-  #            "vs.",
-  #            awayPlayerRanking, as.numeric(rownames(awayPlayer)), awayPlayerNewRanking))
+  home_player_new_ranking <- home_player_ranking + weight_value * (home_frames_won - home_player_ranking /
+                                                                      (home_player_ranking + away_player_ranking))
+  away_player_new_ranking <- away_player_ranking + weight_value * (away_frames_won - away_player_ranking /
+                                                                      (home_player_ranking + away_player_ranking))
+  frame_scores[i, 12] <- home_player_new_ranking
+  frame_scores[i, 13] <- away_player_new_ranking
+  player_ratings <- player_ratings %>%
+    mutate(latest_rating =
+             ifelse(player_id == home_player$player_id,
+                    home_player_new_ranking,
+                    ifelse(player_id == away_player$player_id,
+                           away_player_new_ranking,
+                           latest_rating)),
+           latest_fixture_date =
+             ifelse(player_id %in% c(home_player$player_id,
+                                     away_player$player_id),
+                    row$fixture_date,
+                    latest_fixture_date),
+           frames_played =
+             ifelse(player_id == home_player$player_id,
+                    home_player$frames_played + 1,
+                    ifelse(player_id == away_player$player_id,
+                           away_player$frames_played + 1,
+                           frames_played)))
 }
 
-playerRatingsOutput <- data.frame(playerRatings$season,
-                                  playerRatings$majorityDivision,
-                                  playerRatings$playerID,
-                                  playerRatings$playerName,
-                                  playerRatings$value,
-                                  playerRatings$latestRating,
-                                  playerRatings$latestFixtureDate,
-                                  playerRatings$framesPlayed)
-colnames(playerRatingsOutput) <- c("DebutSeason", "DebutDivision", "ID", "Name",
-                                   "InitialRating", "LatestRating", "LatestMatchDate", "FramesPlayed")
-playerRatingsOutput$DebutSeason <- playerRatingsOutput$DebutSeason + 2000
+player_ratings_output <- data.frame(player_ratings$season,
+                                    player_ratings$majority_division,
+                                    player_ratings$player_id,
+                                    player_ratings$player_name,
+                                    player_ratings$value,
+                                    player_ratings$latest_rating,
+                                    player_ratings$latest_fixture_date,
+                                    player_ratings$frames_played)
+colnames(player_ratings_output) <- c("debut_season", "debut_division", "id", "name",
+                                   "initial_rating", "latest_rating", "latest_match_date", "frames_played")
+player_ratings_output$debut_season <- player_ratings_output$debut_season + 2000
 
-write.csv(playerRatingsOutput, "Player-ratings-output.csv", row.names = FALSE)
-write.csv(frameScores, "Frame-scores.csv", row.names = FALSE)
+write_csv(player_ratingsOutput, "Player-ratings-output.csv")
+write_csv(frame_scores, "Frame-scores.csv")
