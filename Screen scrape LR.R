@@ -72,7 +72,8 @@ get_single_results_page <- function(base_url, season, division, page_number) {
   final_results_table
 }
 # Grab every match result and the link to the match details page
-results <- pmap_dfr(unname(ref_data), get_season_division_results)
+# results <- pmap_dfr(unname(ref_data), get_season_division_results)
+results <- read_csv("New-website-match-scores.csv")
 
 scrape_match_page <-
   function(fixture_date, season, division, home_team, away_team, home_score,
@@ -83,11 +84,21 @@ scrape_match_page <-
     # Look for the table of frame scores which may or may not exist
     potential_frame_table <- match_page %>%
       html_nodes(".divider-x2 table")
-    # If it exists then read into a dataset
+    # Check whether table exists
     if(length(potential_frame_table) > 0) {
+      # If it exists then read into a dataset
       frame_table <- potential_frame_table %>%
         .[[1]] %>%
         html_table(fill=TRUE)
+      # Read in the player URLs so that we can parse to get the player ID
+      player_urls <- potential_frame_table %>%
+        .[[1]] %>%
+        html_nodes("a") %>%
+        html_attr("href")
+      # Parse URLs to exrtact the player IDs
+      player_ids <- sub("^.+/", "", sub(".html$", "", player_urls))
+      player_id_matrix <-
+        t(matrix(player_ids, nrow = 2, ncol = length(player_ids) / 2))
       # Rename column names (as those on the website aren't that helpful)
       colnames(frame_table) <-
         c("home_player_name", "home_score", "away_score", "away_player_name")
@@ -98,8 +109,10 @@ scrape_match_page <-
                    division,
                    home_team,
                    away_team,
+                   home_player_id = player_id_matrix[, 1],
                    home_player_name = frame_table$home_player_name,
                    home_score = frame_table$home_score,
+                   away_player_id = player_id_matrix[, 2],
                    away_player_name = frame_table$away_player_name,
                    away_score = frame_table$away_score)
       frame_scores
@@ -122,8 +135,9 @@ frame_scores_17 <- pmap_dfr(unname(results_17), scrape_match_page)
 frame_scores_18 <- pmap_dfr(unname(results_18), scrape_match_page)
 
 # Combine and filter out BYEs
-frame_scores_total <- rbind(frame_scores_14, frame_scores_15
-                            , frame_scores_16
+frame_scores_total <- rbind(frame_scores_14
+                            # , frame_scores_15
+                            # , frame_scores_16
                             # , frame_scores_17
                             # , frame_scores_18
                             )
