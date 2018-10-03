@@ -142,7 +142,7 @@ frame_scores_total <- rbind(frame_scores_14
                             , frame_scores_18
                             )
 frame_scores_total <- frame_scores_total %>%
-  filter(!(is.na(home_score) | is.na(away_score)))
+  filter(home_player_id != "" & away_player_id != "")
 
 # Write the results to a CSV file for use in the ELO ranking
 write_csv(frame_scores_total, "New-website-frame-scores.csv")
