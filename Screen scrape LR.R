@@ -136,10 +136,10 @@ frame_scores_18 <- pmap_dfr(unname(results_18), scrape_match_page)
 
 # Combine and filter out BYEs
 frame_scores_total <- rbind(frame_scores_14
-                            # , frame_scores_15
-                            # , frame_scores_16
-                            # , frame_scores_17
-                            # , frame_scores_18
+                            , frame_scores_15
+                            , frame_scores_16
+                            , frame_scores_17
+                            , frame_scores_18
                             )
 frame_scores_total <- frame_scores_total %>%
   filter(!(is.na(home_score) | is.na(away_score)))
