@@ -113,3 +113,20 @@ scrape_match_page <-
       frame_scores
     }
   }
+
+end_of_season_adjustments <- function(last_season, next_season) {
+  # Calculate the change in division (promotion or relegation) and set
+  # adjustment to be 1/2 of the gap between divisions.  Positive for promotion,
+  # negative for relegation
+  players_to_adjust <- player_seasons_majority %>%
+    filter(season == last_season) %>%
+    inner_join(summary2 %>%
+                 filter(season == next_season),
+               by = c("player_id", "player_name")) %>%
+    filter(majority_division.x != majority_division.y) %>%
+    inner_join(starting_ranking, by = c("majority_division.x" = "division")) %>%
+    inner_join(starting_ranking, by = c("majority_division.y" = "division")) %>%
+    rename(new_rating = value.y) %>%
+    select(player_id, player_name, new_rating)
+  players_to_adjust
+}

@@ -1,5 +1,7 @@
 library(tidyverse)
 library(stringdist)
+library(zoo)
+source("common-functions.R")
 # Load in the frame scores from the old Trory website 2010-2013
 frame_scores <- read_csv("Old-website-frame-scores.csv")
 # Create a unique list of player IDs to use to map the results from the LR
@@ -34,7 +36,7 @@ dist <- stringdistmatrix(player_id_map$full_name,
                          method = "jw")
 row.names(dist) <- as.character(player_id_map$full_name)
 colnames(dist) <- as.character(new_player_id_map$full_name)
-# Select the closest match for each domain
+# Select the closest match for each (old) player
 output <-
   data.frame(player_id_map,
              word_close = new_player_id_map[as.numeric(apply(dist,
@@ -70,6 +72,10 @@ player_id_map <- player_id_map %>%
 player_id_map$new_player_id <- ifelse(is.na(player_id_map$new_player_id),
                                       player_id_map$player_id,
                                       player_id_map$new_player_id)
+# Write off to csv file so that it can be used in future as the foundation for
+# incremental changes
+# write_csv(player_id_map, "player-id-map.csv")
+player_id_map <- read_csv("player-id-map.csv")
 # Update the home / away player_ids for the old website frame_scores
 old_frame_scores <- frame_scores %>%
   inner_join(player_id_map, by = c("home_player_id" = "player_id")) %>%
@@ -137,6 +143,20 @@ frame_scores <- frame_scores %>%
 # update with the player rating for both players after each frame
 weight_value <- 10
 last_season <- 10
+# Create a dataframe to handle players taking whole seasons off
+seasons <- data.frame(season = unique(summary2$season), join_condition = 1)
+players <- summary2 %>%
+  distinct(player_id, player_name) %>%
+  mutate(join_condition = 1)
+player_seasons <- players %>%
+  inner_join(seasons, by = "join_condition") %>%
+  select(player_id, player_name, season)
+player_seasons_majority <- player_seasons %>%
+  left_join(summary2, by = c("player_id", "player_name", "season")) %>%
+  group_by(player_id, player_name) %>%
+  mutate_at(vars(majority_division), funs(na.locf(., na.rm = FALSE))) %>%
+  filter(!is.na(majority_division))
+# Loop through all frame scores
 for(i in 1:nrow(frame_scores)) {
   row <- frame_scores[i, ]
   print(paste("Iteration", i, "for season", row$season))
@@ -187,22 +207,6 @@ for(i in 1:nrow(frame_scores)) {
   player_ratings[away_player$player_id, 9] <- away_player$frames_played + 1
 }
 
-end_of_season_adjustments <- function(last_season, next_season) {
-  # Calculate the change in division (promotion or relegation) and set
-  # adjustment to be 1/2 of the gap between divisions.  Positive for promotion,
-  # negative for relegation
-  players_to_adjust <- summary2 %>%
-    filter(season == last_season) %>%
-    inner_join(summary2 %>%
-                 filter(season == next_season),
-               by = c("player_id", "player_name")) %>%
-    filter(majority_division.x != majority_division.y) %>%
-    inner_join(starting_ranking, by = c("majority_division.x" = "division")) %>%
-    inner_join(starting_ranking, by = c("majority_division.y" = "division")) %>%
-    rename(new_rating = value.y) %>%
-    select(player_id, player_name, new_rating)
-  players_to_adjust
-}
 # Tidy up output for CSV
 player_ratings_output <-
   player_ratings[, c(3:4, 1:2, 6:9)]
