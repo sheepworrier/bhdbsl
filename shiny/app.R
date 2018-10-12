@@ -1,78 +1,117 @@
 library(shiny)
+library(shinydashboard)
 library(DT)
+library(tidyverse)
+library(lubridate)
 
-ui <- navbarPage(
-  title = "BHDBSL Results",
-  tabPanel("Player ratings (minimum 20 frames)", DT::dataTableOutput('playerRatings')),
-  tabPanel("Player breakdown",
-           sidebarLayout(
-             sidebarPanel(
-               uiOutput("choose_player")
-             ),
-             mainPanel(
-               plotOutput("plot"),
-               hr(),
-               DT::dataTableOutput('playerResults')
-             )
-           )
+ui <- dashboardPage(
+  skin = "green",
+  dashboardHeader(
+    title = "Brighton, Hove & District Snooker",
+    titleWidth = 350),
+  dashboardSidebar(
+    width = 350,
+    collapsed = TRUE,
+    sidebarMenu(
+      menuItem(
+        "Stat leaders", tabName = "stat-leaders", icon = icon("dashboard")
+        ),
+      menuItem(
+        "Player dashboard", tabName = "player", icon = icon("dashboard")
+        ),
+      menuItem(
+        "Team dashboard", tabName = "team", icon = icon("dashboard")
+        ),
+      menuItem(
+        "Missing scorecards", tabName = "missing", icon = icon("window-restore")
+        )
+    )
+  ),
+  dashboardBody(
+    tabItems(
+      tabItem(
+        tabName = "stat-leaders",
+        fluidRow(
+          column(
+            width = 4,
+            sliderInput(
+              "min_frames", min = 0, max = 100, value = 20,
+              label = "Filter out players playing fewer frames than:")
+          ),
+          column(
+            width = 4,
+            sliderInput(
+              "last_played", min = 2010, max = year(Sys.Date()),
+              value = year(Sys.Date()) - 1, sep = "",
+              label = "Filter out players who haven't played since:")
+          )
+        ),
+        fluidRow(
+          column(
+            width = 12,
+            box(
+              width = NULL,
+              dataTableOutput("ratings_table")
+            )
+          )
+        )
+      ),
+      tabItem(
+        tabName = "player",
+        fluidRow(
+          selectizeInput("choose_player",
+                         choices = NULL,
+                         label = "Choose player to display:",
+                         options = list(placeholder = "select a player"))
+        )
+      ),
+      tabItem(
+        tabName = "team",
+        h2("Team tab content")
+      ),
+      tabItem(
+        tabName = "missing",
+        h2("Missing scorecards tab content")
+      )
+    )
   )
-  #,tabPanel("Player breakdown", DT::dataTableOutput('playerRatings'))
 )
 
 server <- function(input, output) {
-
-  playerRatings <- read.csv("https://www.dropbox.com/s/biiuxon7wxsjopl/Player-ratings-output.csv?dl=1")
-  playerRatingsOuptut <- data.frame(playerRatings$name,
-                                    playerRatings$latest_rating,
-                                    playerRatings$latest_match_date,
-                                    playerRatings$frames_played)
-  playerRatingsOuptut <- subset(playerRatingsOuptut, playerRatings.frames_played >= 20)
-  colnames(playerRatingsOuptut) <- c("name", "Rating", "Most Recent Match", "Total Frames Played")
-  playerRatingsOuptut$`Most Recent Match` <- as.Date(playerRatingsOuptut$`Most Recent Match`, origin = "1970-01-01")
-  rating.order <- order(playerRatingsOuptut$Rating, decreasing = TRUE)
-  playerRatingsOuptut$Rating <- round(playerRatingsOuptut$Rating)
-  name.order <- order(playerRatingsOuptut$name, decreasing = FALSE)
-  playerNames <- playerRatingsOuptut[name.order, ]
+  # Read in the CSV file of the latest player ratings
+  player_current_ratings <-
+    read_csv(
+      paste0("https://www.dropbox.com/s/biiuxon7wxsjopl/",
+             "Player-ratings-output.csv?dl=1")
+    )
+  # Read in the CSV file of the week-by-week player ratings
+  player_ratings_archive <-
+    read_csv(
+      paste0("https://www.dropbox.com/s/uf8adydoz4bfoyw/",
+             "Frame-scores.csv?dl=1")
+    )
   
-  playerWeeklyRatings <- read.csv("https://www.dropbox.com/s/uf8adydoz4bfoyw/Frame-scores.csv?dl=1")
-  playerWeeklyRatings$fixture_date <- as.Date(playerWeeklyRatings$fixture_date, origin = "1970-01-01")
-  date.order <- order(playerWeeklyRatings$fixture_date, decreasing = FALSE)
-  sortedWeeklyRatings <- playerWeeklyRatings[date.order, ]
+  updateSelectizeInput(session = getDefaultReactiveDomain(),
+                       inputId = "choose_player",
+                       choices = unique(player_current_ratings$name),
+                       server = TRUE)
   
-    # display 25 rows initially
-  output$playerRatings <- DT::renderDataTable(
-    DT::datatable(playerRatingsOuptut[rating.order, ], options = list(pageLength = 25), rownames = FALSE)
-  )
-  
-  ratingLinePlot <- reactive({
-    dataToPlotHome <- subset(sortedWeeklyRatings, home_player_name == input$player)
-    dataToPlotHome$rating <- dataToPlotHome$post_match_home_rating
-    dataToPlotAway <- subset(sortedWeeklyRatings, away_player_name == input$player)
-    dataToPlotAway$rating <- dataToPlotAway$post_match_away_rating
-    dataToPlot <- rbind(dataToPlotHome, dataToPlotAway)
-    date.order <- order(dataToPlot$fixture_date, decreasing = FALSE)
-    dataToPlot <- dataToPlot[date.order, ]
-    plot(dataToPlot$fixture_date, dataToPlot$rating, type="n", main="Player rating over time", 
-         xlab = "Fixture Date", ylab = "Rating") 
-    lines(dataToPlot$fixture_date, dataToPlot$rating, type="l") 
+  # Create a reactive container to store dataframes that are generated based on
+  # user input
+  rv <- reactiveValues()
+  # Create a datatable containing the player ratings leaderboard
+  output$ratings_table <- DT::renderDataTable({
+    df <- player_current_ratings %>%
+      filter(frames_played >= input$min_frames &
+               year(latest_match_date) >= input$last_played) %>%
+      select(name, latest_rating, latest_match_date, frames_played) %>%
+      arrange(desc(latest_rating))
+    DT::datatable(
+      df,
+      colnames = c("Name", "Current Rating",
+                   "Last Played", "Frames Played")) %>%
+      formatRound("latest_rating", 0)
   })
-  
-  output$choose_player <- renderUI({
-    selectInput("player", "Choose player", as.list(playerNames$name))
-    })
-  output$plot <- renderPlot({
-    ratingLinePlot()
-  })
-  
-  resultsTable <- reactive({
-    dataToPlot <- subset(sortedWeeklyRatings, home_player_name == input$player | away_player_name == input$player)
-    dataToPlot <- dataToPlot[c(-6, -9)]
-  })
-
-  output$playerResults <- DT::renderDataTable(
-    DT::datatable(resultsTable(), options = list(pageLength = 25), rownames = FALSE)
-  )
-  
 }
 
 shinyApp(ui, server)
