@@ -8,7 +8,7 @@ results_new <- pmap_dfr(unname(ref_data), get_season_division_results)
 results_old <- read_csv("New-website-match-scores.csv")
 # Will definitely scrape any new results, plus any old results that we didn't
 # have frame details for
-new_results_to_scrape <- setdiff(results_old, results_new)
+new_results_to_scrape <- setdiff(results_new, results_old)
 # Read in the formerly scraped frame scores
 frame_scores_old <- read_csv("New-website-frame-scores.csv")
 # Calculate which old results have no frame scores
