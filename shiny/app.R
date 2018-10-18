@@ -11,7 +11,7 @@ ui <- dashboardPage(
     titleWidth = 350),
   dashboardSidebar(
     width = 350,
-    collapsed = TRUE,
+    collapsed = FALSE,
     sidebarMenu(
       menuItem(
         "Stat leaders", tabName = "stat-leaders", icon = icon("dashboard")
@@ -61,8 +61,16 @@ ui <- dashboardPage(
         fluidRow(
           selectizeInput("choose_player",
                          choices = NULL,
-                         label = "Choose player to display:",
-                         options = list(placeholder = "select a player"))
+                         label = "Choose player to display:")
+        ),
+        fluidRow(
+          column(
+            width = 12,
+            box(
+              width = NULL,
+              dataTableOutput("frame_history")
+            )
+          )
         )
       ),
       tabItem(
@@ -90,15 +98,55 @@ server <- function(input, output) {
       paste0("https://www.dropbox.com/s/uf8adydoz4bfoyw/",
              "Frame-scores.csv?dl=1")
     )
-  
-  updateSelectizeInput(session = getDefaultReactiveDomain(),
-                       inputId = "choose_player",
-                       choices = unique(player_current_ratings$name),
-                       server = TRUE)
-  
+  # Derive the missing scorecards
+  missing_scorecards <- 1
   # Create a reactive container to store dataframes that are generated based on
   # user input
   rv <- reactiveValues()
+  # Stash the players names and IDs into a dataframe for use across the app
+  player_df <- player_current_ratings %>%
+    distinct(name, id) %>%
+    arrange(name)
+  # Transform the player_ratings_archive and store output in reactiveValues
+  # to give a player-centric view of frame history  
+  player_frames <- reactive({
+    # Lookup the player ID for the chosen player name
+    player_id <- player_df %>%
+      filter(name == input$choose_player) %>%
+      select(id) %>%
+      as.integer()
+    # Generate player-centric dataframe
+    df <- player_ratings_archive %>%
+      filter(home_player_id == player_id) %>%
+      rename(pts_for = home_score, pts_against = away_score,
+             opp_id = away_player_id, rating = post_match_home_rating) %>%
+      mutate(home_away = "H", opp_team = away_team,
+             won_lost = ifelse(pts_for > pts_against, "W", "L"),
+             opponent = paste0(away_player_name, " (",
+                               round(post_match_away_rating, 0), ")")) %>%
+      select(fixture_date, division, opponent, pts_for, pts_against, won_lost,
+             home_away, opp_team, rating, opp_id) %>%
+      rbind(player_ratings_archive %>%
+              filter(away_player_id == player_id) %>%
+              rename(pts_for = away_score, pts_against = home_score,
+                     opp_id = home_player_id,
+                     rating = post_match_away_rating) %>%
+              mutate(home_away = "A", opp_team = home_team,
+                     won_lost = ifelse(pts_for > pts_against, "W", "L"),
+                     opponent = paste0(home_player_name, " (",
+                                       round(post_match_home_rating, 0),
+                                       ")")) %>%
+              select(fixture_date, division, opponent, pts_for, pts_against,
+                     won_lost, home_away, opp_team, rating, opp_id)) %>%
+      arrange(desc(fixture_date))
+    df
+  })
+  # Update the choices that appear in the dropdown on the player dashboard tab
+  updateSelectizeInput(session = getDefaultReactiveDomain(),
+                       inputId = "choose_player",
+                       choices = player_df$name,
+                       server = TRUE)
+  
   # Create a datatable containing the player ratings leaderboard
   output$ratings_table <- DT::renderDataTable({
     df <- player_current_ratings %>%
@@ -111,6 +159,19 @@ server <- function(input, output) {
       colnames = c("Name", "Current Rating",
                    "Last Played", "Frames Played")) %>%
       formatRound("latest_rating", 0)
+  })
+  # Create a datatable containing the player's frame history
+  output$frame_history <- DT::renderDataTable({
+    # Wait until a player has been chosen
+    req(input$choose_player)
+    df <- player_frames() %>%
+      select(1:9)
+    DT::datatable(
+      df,
+      colnames = c("Date", "Division", "Opponent", "For", "Against", "Result",
+                   "Home/Away", "Opponent's Team", "Rating"),
+      rownames = FALSE) %>%
+      formatRound("rating", 0)
   })
 }
 
