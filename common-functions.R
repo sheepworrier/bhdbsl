@@ -122,11 +122,11 @@ end_of_season_adjustments <- function(last_season, next_season) {
     filter(season == last_season) %>%
     inner_join(summary2 %>%
                  filter(season == next_season),
-               by = c("player_id", "player_name")) %>%
+               by = c("player_id")) %>%
     filter(majority_division.x != majority_division.y) %>%
     inner_join(starting_ranking, by = c("majority_division.x" = "division")) %>%
     inner_join(starting_ranking, by = c("majority_division.y" = "division")) %>%
-    rename(new_rating = value.y) %>%
+    rename(new_rating = value.y, player_name = player_name.x) %>%
     select(player_id, player_name, new_rating)
   players_to_adjust
 }
