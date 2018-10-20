@@ -20,10 +20,3 @@ missing_scorecards <- match_scores %>%
                                  "home_team", "away_team"))
 # Write output to CSV file
 write_csv(missing_scorecards, "missing-scorecards.csv")
-# Create a cross tab of missing scorecards by division and season
-crosstab <- missing_scorecards %>%
-  count(season, division) %>%
-  rename(missing = n) %>%
-  spread(division, missing)
-colnames(crosstab) <-
-  c("season", paste("Division", colnames(crosstab)[2:ncol(crosstab)]))
