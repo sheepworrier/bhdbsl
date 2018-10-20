@@ -79,7 +79,15 @@ ui <- dashboardPage(
       ),
       tabItem(
         tabName = "missing",
-        h2("Missing scorecards tab content")
+        fluidRow(
+          column(
+            width = 12,
+            box(
+              width = NULL,
+              dataTableOutput("missing_summary")
+            )
+          )
+        )
       )
     )
   )
@@ -98,8 +106,21 @@ server <- function(input, output) {
       paste0("https://www.dropbox.com/s/uf8adydoz4bfoyw/",
              "Frame-scores.csv?dl=1")
     )
-  # Derive the missing scorecards
-  missing_scorecards <- 1
+  # Read in the CSV file of the missing scorecards details
+  missing_scorecards <-
+    read_csv(
+      paste0("https://www.dropbox.com/s/c7gdnrfr60im2vt/",
+             "missing-scorecards.csv?dl=1")
+    )
+  # Create a cross tab of missing scorecards by division and season
+  crosstab <- missing_scorecards %>%
+    count(season, division) %>%
+    rename(missing = n) %>%
+    spread(division, missing) %>%
+    arrange(desc(season))
+  colnames(crosstab) <-
+    c("season", paste("Division", colnames(crosstab)[2:ncol(crosstab)]))
+  crosstab[is.na(crosstab)] <- 0
   # Create a reactive container to store dataframes that are generated based on
   # user input
   rv <- reactiveValues()
@@ -172,6 +193,39 @@ server <- function(input, output) {
                    "Home/Away", "Opponent's Team", "Rating"),
       rownames = FALSE) %>%
       formatRound("rating", 0)
+  })
+  # Create a datatable showing the missing scorecards per season and division
+  output$missing_summary <- DT::renderDataTable({
+    DT::datatable(
+      crosstab,
+      caption = "Missing scorecards by season and division",
+      colnames = c("Season", "1st Division", "2nd Division", "3rd Division",
+                   "4th Division", "5th Division", "6th Division"),
+      rownames = FALSE) %>%
+      formatStyle(
+        "Division 1",
+        background = styleColorBar(crosstab$`Division 1`, 'steelblue')
+      ) %>%
+      formatStyle(
+        "Division 2",
+        background = styleColorBar(crosstab$`Division 2`, 'steelblue')
+      ) %>%
+      formatStyle(
+        "Division 3",
+        background = styleColorBar(crosstab$`Division 3`, 'steelblue')
+      ) %>%
+      formatStyle(
+        "Division 4",
+        background = styleColorBar(crosstab$`Division 4`, 'steelblue')
+      ) %>%
+      formatStyle(
+        "Division 5",
+        background = styleColorBar(crosstab$`Division 5`, 'steelblue')
+      ) %>%
+      formatStyle(
+        "Division 6",
+        background = styleColorBar(crosstab$`Division 6`, 'steelblue')
+      )
   })
 }
 
