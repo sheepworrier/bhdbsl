@@ -1,5 +1,6 @@
 library(shiny)
 library(shinydashboard)
+library(shinyWidgets)
 library(DT)
 library(tidyverse)
 library(lubridate)
@@ -81,10 +82,34 @@ ui <- dashboardPage(
         tabName = "missing",
         fluidRow(
           column(
+            width = 7,
+            box(
+              width = NULL,
+              tableOutput("missing_summary_normal")
+            )
+          ),
+          column(
+            width = 5,
+            checkboxGroupButtons(
+              inputId = "seasons",
+              label = "Choose seasons to include: ",
+              choices = c(2010:2018),
+              selected = c(2010:2018)
+            ),
+            checkboxGroupButtons(
+              inputId = "divisions",
+              label = "Choose divisions to include: ",
+              choices = c(1:6),
+              selected = c(1:6)
+            )
+          )
+        ),
+        fluidRow(
+          column(
             width = 12,
             box(
               width = NULL,
-              dataTableOutput("missing_summary")
+              dataTableOutput("missing_scorecards")
             )
           )
         )
@@ -194,38 +219,26 @@ server <- function(input, output) {
       rownames = FALSE) %>%
       formatRound("rating", 0)
   })
-  # Create a datatable showing the missing scorecards per season and division
-  output$missing_summary <- DT::renderDataTable({
+  # Create a normal table showing the missing scorecards per season and division
+  output$missing_summary_normal <- renderTable(
+    crosstab,
+    bordered = TRUE,
+    striped = TRUE,
+    digits = 0
+  )
+  # Create a datatable showing the missing scorecards per selected season and
+  #division
+  output$missing_scorecards <- DT::renderDataTable({
+    df <- missing_scorecards %>%
+      mutate(season = season + 2000) %>%
+      filter(division %in% input$divisions) %>%
+      filter(season %in% input$seasons)
     DT::datatable(
-      crosstab,
-      caption = "Missing scorecards by season and division",
-      colnames = c("Season", "1st Division", "2nd Division", "3rd Division",
-                   "4th Division", "5th Division", "6th Division"),
-      rownames = FALSE) %>%
-      formatStyle(
-        "Division 1",
-        background = styleColorBar(crosstab$`Division 1`, 'steelblue')
-      ) %>%
-      formatStyle(
-        "Division 2",
-        background = styleColorBar(crosstab$`Division 2`, 'steelblue')
-      ) %>%
-      formatStyle(
-        "Division 3",
-        background = styleColorBar(crosstab$`Division 3`, 'steelblue')
-      ) %>%
-      formatStyle(
-        "Division 4",
-        background = styleColorBar(crosstab$`Division 4`, 'steelblue')
-      ) %>%
-      formatStyle(
-        "Division 5",
-        background = styleColorBar(crosstab$`Division 5`, 'steelblue')
-      ) %>%
-      formatStyle(
-        "Division 6",
-        background = styleColorBar(crosstab$`Division 6`, 'steelblue')
-      )
+      df,
+      caption = "Missing scorecards for selected seasons and divisions",
+      colnames = c("Date", "Season", "Division", "Home Team",
+                   "Away Team", "Home Score", "Away Score"),
+      rownames = FALSE)
   })
 }
 
