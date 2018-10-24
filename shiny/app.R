@@ -55,6 +55,19 @@ ui <- dashboardPage(
               dataTableOutput("ratings_table")
             )
           )
+        ),
+        fluidRow(
+          tabBox(
+            id = "player_stats",
+            tabPanel(
+              title = "Overall Win %",
+              dataTableOutput("overall_win_pct")
+            ),
+            tabPanel(
+              title = "Head to Head",
+              dataTableOutput("head_to_head")
+            )
+          )
         )
       ),
       tabItem(
@@ -137,6 +150,18 @@ server <- function(input, output) {
       paste0("https://www.dropbox.com/s/c7gdnrfr60im2vt/",
              "missing-scorecards.csv?dl=1")
     )
+  # Read in the CSV file of the player record summary details
+  player_record_summary <-
+    read_csv(
+      paste0("https://www.dropbox.com/s/sawkbzbboccuihq/",
+             "player-record-summary.csv?dl=1")
+    )
+  # Read in the CSV file of the head to head summary details
+  head_to_head_summary <-
+    read_csv(
+      paste0("https://www.dropbox.com/s/kff1skpll5bgo61/",
+             "head-to-head-summary.csv?dl=1")
+    )
   # Create a cross tab of missing scorecards by division and season
   crosstab <- missing_scorecards %>%
     count(season, division) %>%
@@ -153,6 +178,13 @@ server <- function(input, output) {
   player_df <- player_current_ratings %>%
     distinct(name, id) %>%
     arrange(name)
+  # Create a reactive dataframe of the players who have played enough frames
+  # and recently enough to show in the player dashboard
+  filtered_in_players <- reactive({
+    df <- player_current_ratings %>%
+      filter(frames_played >= input$min_frames &
+               year(latest_match_date) >= input$last_played)
+  })
   # Transform the player_ratings_archive and store output in reactiveValues
   # to give a player-centric view of frame history  
   player_frames <- reactive({
@@ -195,9 +227,7 @@ server <- function(input, output) {
   
   # Create a datatable containing the player ratings leaderboard
   output$ratings_table <- DT::renderDataTable({
-    df <- player_current_ratings %>%
-      filter(frames_played >= input$min_frames &
-               year(latest_match_date) >= input$last_played) %>%
+    df <- filtered_in_players() %>%
       select(name, latest_rating, latest_match_date, frames_played) %>%
       arrange(desc(latest_rating))
     DT::datatable(
@@ -238,6 +268,34 @@ server <- function(input, output) {
       caption = "Missing scorecards for selected seasons and divisions",
       colnames = c("Date", "Season", "Division", "Home Team",
                    "Away Team", "Home Score", "Away Score"),
+      rownames = FALSE)
+  })
+  # Create a datatable showing the overall win percentage
+  output$overall_win_pct <- DT::renderDataTable({
+    df <- player_record_summary %>%
+      inner_join(filtered_in_players(), by = c("player_id" = "id")) %>%
+      group_by(player_name) %>%
+      summarise_at(vars(played, wins), funs(sum)) %>%
+      mutate(win_pct = wins / played) %>%
+      select(player_name, win_pct, played) %>%
+      arrange(desc(win_pct))
+    DT::datatable(
+      df,
+      caption = paste("Overall winning percentage for players who have played",
+                      "at least", input$min_frames, "frames"),
+      colnames = c("Name", "Win %", "Frames Played"),
+      rownames = FALSE) %>%
+      formatPercentage("win_pct", digits = 1)
+  })
+  # Create a datatable showing the head to head summary
+  output$head_to_head <- DT::renderDataTable({
+    df <- head_to_head_summary %>%
+      mutate(record = paste(wins_left, "-", wins_right)) %>%
+      select(played, player_name, record, opponent_name)
+    DT::datatable(
+      df,
+      caption = paste("Head to head for all matchups played more than once"),
+      colnames = c("Frames Played", "Player 1", "Record", "Player 2"),
       rownames = FALSE)
   })
 }
