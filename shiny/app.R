@@ -44,7 +44,7 @@ ui <- dashboardPage(
             sliderInput(
               "last_played", min = 2010, max = year(Sys.Date()),
               value = year(Sys.Date()) - 1, sep = "",
-              label = "Filter out players who haven't played since:")
+              label = "Filter out players who haven't played since before:")
           )
         ),
         fluidRow(
@@ -282,7 +282,8 @@ server <- function(input, output) {
     DT::datatable(
       df,
       caption = paste("Overall winning percentage for players who have played",
-                      "at least", input$min_frames, "frames"),
+                      "at least", input$min_frames, "frames and played at",
+                      "least one frame since", input$last_played),
       colnames = c("Name", "Win %", "Frames Played"),
       rownames = FALSE) %>%
       formatPercentage("win_pct", digits = 1)
