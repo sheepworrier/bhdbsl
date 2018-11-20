@@ -48,14 +48,11 @@ get_single_results_page <- function(base_url, season, division, page_number) {
   match_detail_urls <- results_page %>%
     html_nodes("td:nth-child(9) a") %>%
     html_attr("href")
-  # Convert the  datetime format to DD/MM/YYYY
-  results_table$`Date Time` <- paste0(substr(results_table$`Date Time`, 1, 6),
-                                      "20",
-                                      substr(results_table$`Date Time`, 7, 8))
-  
+
   # Remove empty columns and process strings to give final results table
   final_results_table <-
-    data.frame(fixture_date = results_table$`Date Time`,
+    data.frame(fixture_date = as.Date(results_table$`Date Time`,
+                                      format = "%d/%m/%y"),
                season = season,
                division = division,
                home_team = results_table$`Home Team`,

@@ -7,7 +7,7 @@ ref_data <- read_csv("Snooker-Results-pages-per-season.csv")
 results_new <- pmap_dfr(unname(ref_data), get_season_division_results)
 results_old <- read_csv("New-website-match-scores.csv",
                         col_types = cols(
-                          fixture_date = col_character(),
+                          fixture_date = col_date(),
                           season = col_integer(),
                           division = col_integer(),
                           home_team = col_character(),
@@ -25,7 +25,7 @@ new_results_to_scrape <- results_new %>%
 # Read in the formerly scraped frame scores
 frame_scores_old <- read_csv("New-website-frame-scores.csv",
                              col_types = cols(
-                               fixture_date = col_character(),
+                               fixture_date = col_date(),
                                season = col_integer(),
                                division = col_integer(),
                                home_team = col_character(),
