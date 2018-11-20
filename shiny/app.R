@@ -107,13 +107,17 @@ ui <- dashboardPage(
               inputId = "seasons",
               label = "Choose seasons to include: ",
               choices = c(2010:2018),
-              selected = c(2010:2018)
+              selected = c(2010:2018),
+              justified = TRUE,
+              status = "primary"
             ),
             checkboxGroupButtons(
               inputId = "divisions",
               label = "Choose divisions to include: ",
               choices = c(1:6),
-              selected = c(1:6)
+              selected = c(1:6),
+              justified = TRUE,
+              status = "primary"
             )
           )
         ),
