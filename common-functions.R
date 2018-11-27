@@ -106,7 +106,10 @@ scrape_match_page <-
                    home_score = frame_table$home_score,
                    away_player_id = player_id_matrix[, 2],
                    away_player_name = frame_table$away_player_name,
-                   away_score = frame_table$away_score)
+                   away_score = frame_table$away_score,
+                   stringsAsFactors = FALSE)
+      frame_scores$fixture_date <-
+        as.Date(frame_scores$fixture_date, origin = "1970-01-01")
       frame_scores
     }
   }
