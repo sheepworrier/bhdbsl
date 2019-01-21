@@ -79,6 +79,17 @@ ui <- dashboardPage(
         ),
         fluidRow(
           column(
+            width = 4,
+            valueBoxOutput(
+              "current_player_ranking",
+              width = 12),
+            valueBoxOutput(
+              "current_player_rating",
+              width = 12)
+          )
+        ),
+        fluidRow(
+          column(
             width = 12,
             box(
               width = NULL,
@@ -302,6 +313,25 @@ server <- function(input, output) {
       caption = paste("Head to head for all matchups played more than once"),
       colnames = c("Frames Played", "Player 1", "Record", "Player 2"),
       rownames = FALSE)
+  })
+  # Create a value box for the selected player's current ranking
+  output$current_player_ranking <- renderValueBox({
+    df <- filtered_in_players() %>%
+      arrange(desc(latest_rating))
+    current_ranking <- which(df$name == input$choose_player)
+    valueBox(
+      paste0("#", current_ranking, " / ", nrow(df)), "Current Ranking",
+      icon = icon("line-chart"), color = "yellow"
+    )
+  })
+  # Create a value box for the selected player's current rating
+  output$current_player_rating <- renderValueBox({
+    df <- filtered_in_players()
+    current_rating <- df[which(df$name == input$choose_player), ]$latest_rating
+    valueBox(
+      formatC(current_rating, big.mark = ",", digits = 0, format = "f"),
+      "Current Rating", icon = icon("line-chart"), color = "blue"
+    )
   })
 }
 
