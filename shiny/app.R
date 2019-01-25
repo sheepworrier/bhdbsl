@@ -82,6 +82,12 @@ ui <- dashboardPage(
             width = 4,
             valueBoxOutput(
               "current_player_ranking",
+              width = 12)
+          ),
+          column(
+            width = 4,
+            valueBoxOutput(
+              "best_player_rating",
               width = 12),
             valueBoxOutput(
               "current_player_rating",
@@ -316,21 +322,43 @@ server <- function(input, output) {
   })
   # Create a value box for the selected player's current ranking
   output$current_player_ranking <- renderValueBox({
+    # Wait until a player has been chosen
+    req(input$choose_player)
     df <- filtered_in_players() %>%
       arrange(desc(latest_rating))
     current_ranking <- which(df$name == input$choose_player)
+    
     valueBox(
       paste0("#", current_ranking, " / ", nrow(df)), "Current Ranking",
       icon = icon("line-chart"), color = "yellow"
     )
   })
   # Create a value box for the selected player's current rating
+  output$best_player_rating <- renderValueBox({
+    # Wait until a player has been chosen
+    req(input$choose_player)
+    df <- player_frames()
+    best_rating <- df %>%
+      mutate(best_rating = max(rating))
+    best_rating <- best_rating$best_rating
+    valueBox(
+      formatC(best_rating, big.mark = ",", digits = 0, format = "f"),
+      "Best Rating", icon = icon("line-chart"), color = "yellow"
+    )
+  })  # Create a value box for the selected player's current rating
   output$current_player_rating <- renderValueBox({
+    # Wait until a player has been chosen
+    req(input$choose_player)
     df <- filtered_in_players()
     current_rating <- df[which(df$name == input$choose_player), ]$latest_rating
+    df <- player_frames()
+    best_rating <- df %>%
+      mutate(best_rating = max(rating))
+    best_rating <- best_rating$best_rating
     valueBox(
       formatC(current_rating, big.mark = ",", digits = 0, format = "f"),
-      "Current Rating", icon = icon("line-chart"), color = "blue"
+      "Current Rating", icon = icon("line-chart"),
+      color = ifelse(current_rating >= best_rating, "green", "red")
     )
   })
 }
