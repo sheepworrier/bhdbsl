@@ -95,6 +95,15 @@ ui <- dashboardPage(
             valueBoxOutput(
               "current_player_rating",
               width = 12)
+          ),
+          column(
+            width = 4,
+            valueBoxOutput(
+              "overall_player_win_pct",
+              width = 12),
+            valueBoxOutput(
+              "current_player_win_pct",
+              width = 12)
           )
         ),
         fluidRow(
@@ -415,7 +424,8 @@ server <- function(input, output) {
       formatC(best_rating, big.mark = ",", digits = 0, format = "f"),
       "Best Rating", icon = icon("line-chart"), color = "yellow"
     )
-  })  # Create a value box for the selected player's current rating
+  })
+  # Create a value box for the selected player's current rating
   output$current_player_rating <- renderValueBox({
     # Wait until a player has been chosen
     req(input$choose_player)
@@ -429,6 +439,51 @@ server <- function(input, output) {
       formatC(current_rating, big.mark = ",", digits = 0, format = "f"),
       "Current Rating", icon = icon("line-chart"),
       color = ifelse(current_rating >= best_rating, "green", "red")
+    )
+  })
+  # Create a value box for the selected player's overall win percentage
+  output$overall_player_win_pct <- renderValueBox({
+    # Wait until a player has been chosen
+    req(input$choose_player)
+    df <- player_record_summary %>%
+      filter(player_name == input$choose_player) %>%
+      group_by(player_name) %>%
+      summarise_at(vars(played, wins), funs(sum)) %>%
+      mutate(win_pct = wins / played * 100) %>%
+      select(win_pct)
+    valueBox(
+      paste0(formatC(df$win_pct, digits = 1, format = "f"),
+             "%"),
+      "Overall Win %", icon = icon("line-chart"), color = "yellow"
+    )
+  })
+  # Create a value box for the selected player's overall win percentage
+  output$current_player_win_pct <- renderValueBox({
+    # Wait until a player has been chosen
+    req(input$choose_player)
+    df <- player_record_summary %>%
+      filter(player_name == input$choose_player) %>%
+      group_by(player_name) %>%
+      summarise_at(vars(played, wins), funs(sum)) %>%
+      mutate(win_pct = wins / played * 100) %>%
+      select(win_pct)
+    overall_win_pct <- df$win_pct
+    current_season <- max(player_record_summary$season)
+    df <- player_record_summary %>%
+      filter(player_name == input$choose_player,
+             season == current_season) %>%
+      group_by(player_name) %>%
+      summarise_at(vars(played, wins), funs(sum)) %>%
+      mutate(win_pct = wins / played * 100) %>%
+      select(win_pct)
+    current_win_pct <- ifelse(nrow(df) == 0, NA, df$win_pct)
+    valueBox(
+      ifelse(is.na(current_win_pct), "NA",
+             paste0(formatC(current_win_pct, digits = 1, format = "f"),
+                    "%")),
+      "Current Season Win %", icon = icon("line-chart"),
+      color = ifelse(is.na(current_win_pct), "yellow",
+                     ifelse(current_win_pct >= overall_win_pct, "green", "red"))
     )
   })
 }
