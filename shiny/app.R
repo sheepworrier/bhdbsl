@@ -25,7 +25,10 @@ ui <- dashboardPage(
         ),
       menuItem(
         "Missing scorecards", tabName = "missing", icon = icon("window-restore")
-        )
+        ),
+      menuItem(
+        "Handicap calculator", tabName = "handicaps", icon = icon("calculator")
+      )
     )
   ),
   dashboardBody(
@@ -43,8 +46,8 @@ ui <- dashboardPage(
             width = 4,
             sliderInput(
               "last_played", min = 2010, max = year(Sys.Date()),
-              value = year(Sys.Date()) - 1, sep = "",
-              label = "Filter out players who haven't played since before:")
+              value = year(Sys.Date()) - 2, sep = "",
+              label = "Filter out players who haven't played since:")
           )
         ),
         fluidRow(
@@ -147,6 +150,10 @@ ui <- dashboardPage(
             )
           )
         )
+      ),
+      tabItem(
+        tabName = "handicaps",
+        h2("Handicap tab content")
       )
     )
   )
@@ -204,7 +211,7 @@ server <- function(input, output) {
   filtered_in_players <- reactive({
     df <- player_current_ratings %>%
       filter(frames_played >= input$min_frames &
-               year(latest_match_date) >= input$last_played)
+               year(latest_match_date) > input$last_played)
   })
   # Transform the player_ratings_archive and store output in reactiveValues
   # to give a player-centric view of frame history  
