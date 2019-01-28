@@ -16,16 +16,15 @@ player_record <- frame_scores %>%
          opponent_id = away_player_id, opponent_name = away_player_name,
          opponent_rating = post_match_away_rating,
          pts_for = home_score, pts_against = away_score) %>%
-  mutate(wins = ifelse(pts_for > pts_against, 1, 0),
-         home_away = "H") %>%
+  mutate(home_away = "H") %>%
   rbind(frame_scores %>%
           rename(player_id = away_player_id, player_name = away_player_name,
                  player_rating = post_match_away_rating,
                  opponent_id = home_player_id, opponent_name = home_player_name,
                  opponent_rating = post_match_home_rating,
                  pts_for = away_score, pts_against = home_score) %>%
-          mutate(wins = ifelse(pts_against > pts_for, 1, 0),
-                 home_away = "A"))
+          mutate(home_away = "A")) %>%
+  mutate(wins = ifelse(pts_for > pts_against, 1, 0))
 # Calculate player record by season and division
 player_record_summary <- player_record %>%
   group_by(player_id, player_name, season, division) %>%
