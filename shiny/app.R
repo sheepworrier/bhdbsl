@@ -201,36 +201,49 @@ ui <- dashboardPage(
 )
 
 server <- function(input, output) {
-  # Read in the CSV file of the latest player ratings
-  player_current_ratings <-
-    read_csv(
-      paste0("https://www.dropbox.com/s/biiuxon7wxsjopl/",
-             "Player-ratings-output.csv?dl=1")
-    )
-  # Read in the CSV file of the week-by-week player ratings
-  player_ratings_archive <-
-    read_csv(
-      paste0("https://www.dropbox.com/s/uf8adydoz4bfoyw/",
-             "Frame-scores.csv?dl=1")
-    )
-  # Read in the CSV file of the missing scorecards details
-  missing_scorecards <-
-    read_csv(
-      paste0("https://www.dropbox.com/s/c7gdnrfr60im2vt/",
-             "missing-scorecards.csv?dl=1")
-    )
-  # Read in the CSV file of the player record summary details
-  player_record_summary <-
-    read_csv(
-      paste0("https://www.dropbox.com/s/sawkbzbboccuihq/",
-             "player-record-summary.csv?dl=1")
-    )
-  # Read in the CSV file of the head to head summary details
-  head_to_head_summary <-
-    read_csv(
-      paste0("https://www.dropbox.com/s/kff1skpll5bgo61/",
-             "head-to-head-summary.csv?dl=1")
-    )
+  withProgress(message = "Progress:", value = 0, {
+    num_steps <- 5
+    # Update progress bar
+    incProgress(1 / num_steps, detail = "Loading current player ratings")
+    # Read in the CSV file of the latest player ratings
+    player_current_ratings <-
+      read_csv(
+        paste0("https://www.dropbox.com/s/biiuxon7wxsjopl/",
+               "Player-ratings-output.csv?dl=1")
+      )
+    # Update progress bar
+    incProgress(1 / num_steps, detail = "Loading full frame history")
+    # Read in the CSV file of the week-by-week player ratings
+    player_ratings_archive <-
+      read_csv(
+        paste0("https://www.dropbox.com/s/uf8adydoz4bfoyw/",
+               "Frame-scores.csv?dl=1")
+      )
+    # Update progress bar
+    incProgress(1 / num_steps, detail = "Loading missing scorecards info")
+    # Read in the CSV file of the missing scorecards details
+    missing_scorecards <-
+      read_csv(
+        paste0("https://www.dropbox.com/s/c7gdnrfr60im2vt/",
+               "missing-scorecards.csv?dl=1")
+      )
+    # Update progress bar
+    incProgress(1 / num_steps, detail = "Loading player season summaries")
+    # Read in the CSV file of the player record summary details
+    player_record_summary <-
+      read_csv(
+        paste0("https://www.dropbox.com/s/sawkbzbboccuihq/",
+               "player-record-summary.csv?dl=1")
+      )
+    # Update progress bar
+    incProgress(1 / num_steps, detail = "Loading head to head records")
+    # Read in the CSV file of the head to head summary details
+    head_to_head_summary <-
+      read_csv(
+        paste0("https://www.dropbox.com/s/kff1skpll5bgo61/",
+               "head-to-head-summary.csv?dl=1")
+      )
+  })
   # Create a cross tab of missing scorecards by division and season
   crosstab <- missing_scorecards %>%
     count(season, division) %>%
