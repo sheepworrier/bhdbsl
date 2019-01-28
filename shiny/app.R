@@ -153,7 +153,39 @@ ui <- dashboardPage(
       ),
       tabItem(
         tabName = "handicaps",
-        h2("Handicap tab content")
+        fluidRow(
+          column(
+            width = 4,
+            numericInput(
+              "lower_bound", label = "Handicap of best player:",
+              value = -7
+            )
+          ),
+          column(
+            width = 4,
+            numericInput(
+              "upper_bound", label = "Handicap of worst player:",
+              value = 77
+            )
+          ),
+          column(
+            width = 4,
+            numericInput(
+              "increment", label = "Gap between each handicap level:",
+              value = 7
+              )
+          )
+        ),
+        fluidRow(
+          column(
+            width = 12,
+            box(
+              width = NULL,
+              dataTableOutput("calculated_handicaps"),
+              downloadButton("download_handicaps", "Download")
+            )
+          )
+        )
       )
     )
   )
@@ -264,6 +296,37 @@ server <- function(input, output) {
                    "Last Played", "Frames Played")) %>%
       formatRound("latest_rating", 0)
   })
+  # Create a datatable containing the player ratings leaderboard
+  output$calculated_handicaps <- DT::renderDataTable({
+    df <- filtered_in_players() %>%
+      select(name, latest_rating, latest_match_date, frames_played) %>%
+      arrange(desc(latest_rating))
+    best_player <- max(df$latest_rating)
+    worst_player <- min(df$latest_rating)
+    df$calculated_handicap <-
+      input$upper_bound + input$increment -
+      (input$upper_bound - input$lower_bound) /
+      (best_player - worst_player) * df$latest_rating
+    df$calculated_handicap <-
+      round(df$calculated_handicap / input$increment, digits = 0) *
+      input$increment
+    df <- df %>%
+      select(name, calculated_handicap)
+    rv[["calculated_handicaps"]] <- df
+    DT::datatable(
+      df,
+      colnames = c("Name", "Calculated Handicap")) %>%
+      formatRound("calculated_handicap", 0)
+  })
+  # Downloadable csv of handicaps
+  output$download_handicaps <- downloadHandler(
+    filename = function() {
+      "calculated_handicaps.csv"
+    },
+    content = function(file) {
+      write.csv(rv[["calculated_handicaps"]], file, row.names = FALSE)
+    }
+  )
   # Create a datatable containing the player's frame history
   output$frame_history <- DT::renderDataTable({
     # Wait until a player has been chosen
