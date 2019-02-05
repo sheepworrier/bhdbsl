@@ -69,6 +69,20 @@ ui <- dashboardPage(
             tabPanel(
               title = "Head to Head",
               dataTableOutput("head_to_head")
+            ),
+            tabPanel(
+              title = "Best Players By Division",
+              pickerInput("chosen_division", multiple = FALSE,
+                          choices = c(
+                            "1st Division",
+                            "2nd Division",
+                            "3rd Division",
+                            "4th Division",
+                            "5th Division",
+                            "6th Division"
+                          )
+              ),
+              dataTableOutput("best_players_by_division")
             )
           )
         )
@@ -498,6 +512,29 @@ server <- function(input, output) {
       color = ifelse(is.na(current_win_pct), "yellow",
                      ifelse(current_win_pct >= overall_win_pct, "green", "red"))
     )
+  })
+  # Create a table of win % per player by division
+  output$best_players_by_division <- DT::renderDataTable({
+    req(input$chosen_division)
+    chosen_division <- substr(input$chosen_division, 1, 1) %>%
+      as.integer()
+    df <- player_record_summary %>%
+      filter(division == chosen_division) %>%
+      inner_join(filtered_in_players(), by = c("player_id" = "id")) %>%
+      group_by(player_name, division) %>%
+      summarise_at(vars(played, wins), funs(sum)) %>%
+      mutate(win_pct = wins / played) %>%
+      select(player_name, division, win_pct, played) %>%
+      arrange(desc(win_pct))
+    DT::datatable(
+      df,
+      caption =
+        paste("Overall winning percentage for players who have played",
+              "at least", input$min_frames, "frames (in total) and played at",
+              "least one frame since", input$last_played),
+      colnames = c("Name", "Division", "Win %", "Frames Played"),
+      rownames = FALSE) %>%
+      formatPercentage("win_pct", digits = 1)
   })
 }
 
