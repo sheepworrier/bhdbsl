@@ -9,3 +9,5 @@
 *.numbers
 *.Rproj
 *.dcf
+!player-id-map.csv
+!New-website-players-unmapped.csv
