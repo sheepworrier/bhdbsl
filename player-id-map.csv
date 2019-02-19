@@ -175,7 +175,6 @@ player_id,first_name,last_name,full_name,new_player_id
 297,S.,Grogan,S. Grogan,297
 506,Ryan,Grover,Ryan Grover,506
 83,Eric,Gumbrell,Eric Gumbrell,83
-104,Alan,Gunn,Alan Gunn,104
 386,Sam,Hains,Sam Hains,386
 24,Barry,Hall,Barry Hall,732415457
 155,Jon,Hall,Jon Hall,878576746
@@ -335,7 +334,6 @@ player_id,first_name,last_name,full_name,new_player_id
 323,David,Page,David Page,90176364
 232,Dean,Paice,Dean Paice,688778183
 233,Tony,Paice,Tony Paice,231445676
-105,Robert,Paine,Robert Paine,105
 77,Michael,Palmer,Michael Palmer,351143642
 371,Laurence,Park,Laurence Park,371
 28,Simon,Parker,Simon Parker,28
@@ -387,7 +385,6 @@ player_id,first_name,last_name,full_name,new_player_id
 433,Rick,Rothschild,Rick Rothschild,728690686
 181,Dave,Roughley,Dave Roughley,181
 281,Bob,Rumble,Bob Rumble,281
-214,Jeremy,Saunders,Jeremy Saunders,214
 374,Lloyd,Saunders,Lloyd Saunders,374
 413,Paul,Scorer,Paul Scorer,646410961
 249,T.,Scott,T. Scott,249
@@ -460,7 +457,6 @@ player_id,first_name,last_name,full_name,new_player_id
 70,Michael,Turner-Lee,Michael Turner-Lee,70
 383,Simon,Uddin,Simon Uddin,101751030
 399,Chris,Upton,Chris Upton,399
-344,David,Verey,David Verey,344
 533,Trevor,Vine,Trevor Vine,533
 335,T.,Walters,T. Walters,335
 334,Kevin,Ward,Kevin Ward,480772114
@@ -502,7 +498,7 @@ player_id,first_name,last_name,full_name,new_player_id
 443,Tommy,Wright,Tommy Wright,484159049
 500,Rob,Wykes,Rob Wykes,662568995
 476,Tokki,Yamaguchi,Tokki Yamaguchi,927588200
-214,Jez,Saunders,Jeremy Saunders,833156731
+214,Jez,Saunders,Jez Saunders,833156731
 104,Alan,Gunn,Alan Gunn,246154671
 105,Bob,Paine,Bob Paine,978156264
 344,Dave,Verey,Dave Verey,117247901
