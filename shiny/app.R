@@ -132,7 +132,21 @@ ui <- dashboardPage(
       ),
       tabItem(
         tabName = "team",
-        h2("Team tab content")
+        fluidRow(
+          column(
+            width = 6,
+            uiOutput("home_team_selector"),
+            dataTableOutput("home_team_ratings")
+            ),
+          column(
+            width = 6,
+            uiOutput("away_team_selector"),
+            dataTableOutput("away_team_ratings")
+          )
+        ),
+        fluidRow(
+          dataTableOutput("team_head_to_head")  
+        )
       ),
       tabItem(
         tabName = "missing",
@@ -258,6 +272,12 @@ server <- function(input, output) {
                "head-to-head-summary.csv?dl=1")
       )
   })
+  # Create a vector of the current teams this season
+  current_season_teams <- player_ratings_archive %>%
+    filter(season == max(season)) %>%
+    distinct(home_team) %>%
+    arrange(home_team)
+  current_season_teams <- current_season_teams[["home_team"]]
   # Create a cross tab of missing scorecards by division and season
   crosstab <- missing_scorecards %>%
     count(season, division) %>%
@@ -535,6 +555,78 @@ server <- function(input, output) {
       colnames = c("Name", "Division", "Win %", "Frames Played"),
       rownames = FALSE) %>%
       formatPercentage("win_pct", digits = 1)
+  })
+  # Create a selectizeInput to choose the home team
+  output$home_team_selector <- renderUI({
+    selectizeInput(
+      inputId = "chosen_home_team",
+      label = "Pick the home team:",
+      choices = current_season_teams,
+      selected = NULL)
+  })
+  # Create a selectizeInput to choose the away team
+  output$away_team_selector <- renderUI({
+    selectizeInput(
+      inputId = "chosen_away_team",
+      label = "Pick the away team:",
+      choices = current_season_teams,
+      selected = NULL)
+  })
+  # Create a DT for the home team rankings
+  output$home_team_ratings <- renderDataTable({
+    req(input$chosen_home_team)
+    df <- player_ratings_archive %>%
+      filter(season == max(season))
+    df2 <- df %>%
+      filter(home_team == input$chosen_home_team) %>%
+      rename(player_id = home_player_id, player_name = home_player_name) %>%
+      select(player_id, player_name) %>%
+      bind_rows(df %>%
+                  filter(away_team == input$chosen_home_team) %>%
+                  rename(player_id = away_player_id,
+                         player_name = away_player_name) %>%
+                  select(player_id, player_name)) %>%
+      distinct(player_id, player_name) %>%
+      inner_join(player_current_ratings,
+                 by = c("player_id" = "id", "player_name" = "name")) %>%
+      arrange(desc(latest_rating), player_name) %>%
+      select(player_name, latest_rating, latest_match_date, frames_played)
+    DT::datatable(
+      df2,
+      caption = "Home team ratings",
+      rownames = FALSE,
+      colnames = c("Name", "Current rating", "Last match",
+                   "Total frames played")
+    ) %>%
+      formatRound("latest_rating", digits = 0)
+  })
+  # Create a DT for the away team rankings
+  output$away_team_ratings <- renderDataTable({
+    req(input$chosen_away_team)
+    df <- player_ratings_archive %>%
+      filter(season == max(season))
+    df2 <- df %>%
+      filter(home_team == input$chosen_away_team) %>%
+      rename(player_id = home_player_id, player_name = home_player_name) %>%
+      select(player_id, player_name) %>%
+      bind_rows(df %>%
+                  filter(away_team == input$chosen_away_team) %>%
+                  rename(player_id = away_player_id,
+                         player_name = away_player_name) %>%
+                  select(player_id, player_name)) %>%
+      distinct(player_id, player_name) %>%
+      inner_join(player_current_ratings,
+                 by = c("player_id" = "id", "player_name" = "name")) %>%
+      arrange(desc(latest_rating), player_name) %>%
+      select(player_name, latest_rating, latest_match_date, frames_played)
+    DT::datatable(
+      df2,
+      caption = "Home team ratings",
+      rownames = FALSE,
+      colnames = c("Name", "Current rating", "Last match",
+                   "Total frames played")
+    ) %>%
+      formatRound("latest_rating", digits = 0)
   })
 }
 
