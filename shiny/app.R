@@ -287,6 +287,21 @@ server <- function(input, output) {
   colnames(crosstab) <-
     c("season", paste("Division", colnames(crosstab)[2:ncol(crosstab)]))
   crosstab[is.na(crosstab)] <- 0
+  # Create a dataframe of the form over the last 5 matches
+  player_form <- player_ratings_archive %>%
+    mutate(result = ifelse(home_score > away_score, "W",
+                           ifelse(home_score == away_score, "D", "L"))) %>%
+    rename(player_id = home_player_id, player_name = home_player_name) %>%
+    bind_rows(player_ratings_archive %>%
+                mutate(result = ifelse(home_score < away_score, "W",
+                                       ifelse(home_score == away_score,
+                                              "D", "L"))) %>%
+                rename(player_id = away_player_id,
+                       player_name = away_player_name)) %>%
+    group_by(player_id, player_name) %>%
+    top_n(5, fixture_date) %>%
+    arrange(player_name, fixture_date) %>%
+    summarise(form = paste(result, collapse = ""))
   # Create a reactive container to store dataframes that are generated based on
   # user input
   rv <- reactiveValues()
@@ -562,7 +577,7 @@ server <- function(input, output) {
       inputId = "chosen_home_team",
       label = "Pick the home team:",
       choices = current_season_teams,
-      selected = NULL)
+      selected = current_season_teams[1])
   })
   # Create a selectizeInput to choose the away team
   output$away_team_selector <- renderUI({
@@ -570,7 +585,7 @@ server <- function(input, output) {
       inputId = "chosen_away_team",
       label = "Pick the away team:",
       choices = current_season_teams,
-      selected = NULL)
+      selected = current_season_teams[length(current_season_teams)])
   })
   # Create a DT for the home team rankings
   output$home_team_ratings <- renderDataTable({
@@ -590,13 +605,16 @@ server <- function(input, output) {
       inner_join(player_current_ratings,
                  by = c("player_id" = "id", "player_name" = "name")) %>%
       arrange(desc(latest_rating), player_name) %>%
-      select(player_name, latest_rating, latest_match_date, frames_played)
+      select(player_id, player_name, latest_rating)
+    df3 <- df2 %>%
+      left_join(player_form,
+                by = c("player_id", "player_name")) %>%
+      select(player_name, latest_rating, form)
     DT::datatable(
-      df2,
+      df3,
       caption = "Home team ratings",
       rownames = FALSE,
-      colnames = c("Name", "Current rating", "Last match",
-                   "Total frames played")
+      colnames = c("Name", "Current rating", "Form")
     ) %>%
       formatRound("latest_rating", digits = 0)
   })
@@ -618,15 +636,23 @@ server <- function(input, output) {
       inner_join(player_current_ratings,
                  by = c("player_id" = "id", "player_name" = "name")) %>%
       arrange(desc(latest_rating), player_name) %>%
-      select(player_name, latest_rating, latest_match_date, frames_played)
+      select(player_id, player_name, latest_rating)
+    df3 <- df2 %>%
+      left_join(player_form,
+                by = c("player_id", "player_name")) %>%
+      ungroup() %>%
+      select(player_name, latest_rating, form)
     DT::datatable(
-      df2,
+      df3,
       caption = "Home team ratings",
       rownames = FALSE,
-      colnames = c("Name", "Current rating", "Last match",
-                   "Total frames played")
+      colnames = c("Name", "Current rating", "Form")
     ) %>%
       formatRound("latest_rating", digits = 0)
+  })
+  # Create a head to head table for all the players involved in both teams
+  output$team_head_to_head <- renderDataTable({
+    
   })
 }
 
