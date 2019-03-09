@@ -587,12 +587,13 @@ server <- function(input, output) {
       choices = current_season_teams,
       selected = current_season_teams[length(current_season_teams)])
   })
-  # Create a DT for the home team rankings
-  output$home_team_ratings <- renderDataTable({
-    req(input$chosen_home_team)
-    df <- player_ratings_archive %>%
-      filter(season == max(season))
-    df2 <- df %>%
+  # Create a dataframe of the current season results
+  current_season_frames <- player_ratings_archive %>%
+    filter(season == max(season))
+  # Create a reactive dataframe of the players in the home team who have played
+  # so far this season
+  home_team_players <- reactive({
+    current_season_frames %>%
       filter(home_team == input$chosen_home_team) %>%
       rename(player_id = home_player_id, player_name = home_player_name) %>%
       select(player_id, player_name) %>%
@@ -606,7 +607,29 @@ server <- function(input, output) {
                  by = c("player_id" = "id", "player_name" = "name")) %>%
       arrange(desc(latest_rating), player_name) %>%
       select(player_id, player_name, latest_rating)
-    df3 <- df2 %>%
+  })
+  # Create a reactive dataframe of the players in the away team who have played
+  # so far this season
+  away_team_players <- reactive({
+    current_season_frames %>%
+      filter(home_team == input$chosen_away_team) %>%
+      rename(player_id = home_player_id, player_name = home_player_name) %>%
+      select(player_id, player_name) %>%
+      bind_rows(df %>%
+                  filter(away_team == input$chosen_away_team) %>%
+                  rename(player_id = away_player_id,
+                         player_name = away_player_name) %>%
+                  select(player_id, player_name)) %>%
+      distinct(player_id, player_name) %>%
+      inner_join(player_current_ratings,
+                 by = c("player_id" = "id", "player_name" = "name")) %>%
+      arrange(desc(latest_rating), player_name) %>%
+      select(player_id, player_name, latest_rating)
+  })
+  # Create a DT for the home team rankings
+  output$home_team_ratings <- renderDataTable({
+    req(input$chosen_home_team)
+    df3 <- home_team_players() %>%
       left_join(player_form,
                 by = c("player_id", "player_name")) %>%
       select(player_name, latest_rating, form)
@@ -621,23 +644,7 @@ server <- function(input, output) {
   # Create a DT for the away team rankings
   output$away_team_ratings <- renderDataTable({
     req(input$chosen_away_team)
-    df <- player_ratings_archive %>%
-      filter(season == max(season))
-    df2 <- df %>%
-      filter(home_team == input$chosen_away_team) %>%
-      rename(player_id = home_player_id, player_name = home_player_name) %>%
-      select(player_id, player_name) %>%
-      bind_rows(df %>%
-                  filter(away_team == input$chosen_away_team) %>%
-                  rename(player_id = away_player_id,
-                         player_name = away_player_name) %>%
-                  select(player_id, player_name)) %>%
-      distinct(player_id, player_name) %>%
-      inner_join(player_current_ratings,
-                 by = c("player_id" = "id", "player_name" = "name")) %>%
-      arrange(desc(latest_rating), player_name) %>%
-      select(player_id, player_name, latest_rating)
-    df3 <- df2 %>%
+    df3 <- away_team_players() %>%
       left_join(player_form,
                 by = c("player_id", "player_name")) %>%
       ungroup() %>%
@@ -652,7 +659,23 @@ server <- function(input, output) {
   })
   # Create a head to head table for all the players involved in both teams
   output$team_head_to_head <- renderDataTable({
-    
+    head_to_head_summary_flip <- head_to_head_summary
+    original_colnames <- colnames(head_to_head_summary)
+    flipped_colnames <- original_colnames[c(3:4, 1:2, 5, 7, 6)]
+    colnames(head_to_head_summary_flip) <- flipped_colnames
+    relevant_head_to_head <- head_to_head_summary %>%
+      bind_rows(head_to_head_summary_flip) %>%
+      filter(player_id %in% home_team_players()$player_id,
+               opponent_id %in% away_team_players()$player_id) %>%
+      arrange(desc(played), player_name) %>%
+      mutate(record = paste(wins_left, wins_right, sep = "-")) %>%
+      select(played, player_name, record, opponent_name)
+    DT::datatable(
+      relevant_head_to_head,
+      caption = "Head to head records",
+      rownames = FALSE,
+      colnames = c("Frames played", "Player 1", "Record", "Player 2")
+    )
   })
 }
 
