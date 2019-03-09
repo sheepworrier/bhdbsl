@@ -302,13 +302,16 @@ server <- function(input, output) {
     top_n(5, fixture_date) %>%
     arrange(player_name, fixture_date) %>%
     summarise(form = paste(result, collapse = ""))
-  # Create a reactive container to store dataframes that are generated based on
-  # user input
-  rv <- reactiveValues()
   # Stash the players names and IDs into a dataframe for use across the app
   player_df <- player_current_ratings %>%
     distinct(name, id) %>%
     arrange(name)
+  # Create a dataframe of the current season results
+  current_season_frames <- player_ratings_archive %>%
+    filter(season == max(season))
+  # Create a reactive container to store dataframes that are generated based on
+  # user input
+  rv <- reactiveValues()
   # Create a reactive dataframe of the players who have played enough frames
   # and recently enough to show in the player dashboard
   filtered_in_players <- reactive({
@@ -587,17 +590,15 @@ server <- function(input, output) {
       choices = current_season_teams,
       selected = current_season_teams[length(current_season_teams)])
   })
-  # Create a dataframe of the current season results
-  current_season_frames <- player_ratings_archive %>%
-    filter(season == max(season))
   # Create a reactive dataframe of the players in the home team who have played
   # so far this season
   home_team_players <- reactive({
+    req(input$chosen_home_team)
     current_season_frames %>%
       filter(home_team == input$chosen_home_team) %>%
       rename(player_id = home_player_id, player_name = home_player_name) %>%
       select(player_id, player_name) %>%
-      bind_rows(df %>%
+      bind_rows(current_season_frames %>%
                   filter(away_team == input$chosen_home_team) %>%
                   rename(player_id = away_player_id,
                          player_name = away_player_name) %>%
@@ -611,11 +612,12 @@ server <- function(input, output) {
   # Create a reactive dataframe of the players in the away team who have played
   # so far this season
   away_team_players <- reactive({
+    req(input$chosen_away_team)
     current_season_frames %>%
       filter(home_team == input$chosen_away_team) %>%
       rename(player_id = home_player_id, player_name = home_player_name) %>%
       select(player_id, player_name) %>%
-      bind_rows(df %>%
+      bind_rows(current_season_frames %>%
                   filter(away_team == input$chosen_away_team) %>%
                   rename(player_id = away_player_id,
                          player_name = away_player_name) %>%
@@ -628,7 +630,6 @@ server <- function(input, output) {
   })
   # Create a DT for the home team rankings
   output$home_team_ratings <- renderDataTable({
-    req(input$chosen_home_team)
     df3 <- home_team_players() %>%
       left_join(player_form,
                 by = c("player_id", "player_name")) %>%
