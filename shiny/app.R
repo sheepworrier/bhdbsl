@@ -370,7 +370,7 @@ server <- function(input, output) {
                    "Last Played", "Frames Played")) %>%
       formatRound("latest_rating", 0)
   })
-  # Create a datatable containing the player ratings leaderboard
+  # Create a datatable containing the calculated handicaps
   output$calculated_handicaps <- DT::renderDataTable({
     df <- filtered_in_players() %>%
       select(name, latest_rating, latest_match_date, frames_played) %>%
@@ -433,7 +433,13 @@ server <- function(input, output) {
       caption = "Missing scorecards for selected seasons and divisions",
       colnames = c("Date", "Season", "Division", "Home Team",
                    "Away Team", "Home Score", "Away Score"),
-      rownames = FALSE)
+      rownames = FALSE,
+      filter = "none",
+      extensions = "Scroller",
+      style = "bootstrap",
+      class = "compact",
+      options = list(deferRender = TRUE, scrollY = 300, scroller = TRUE,
+                     dom = "ti"))
   })
   # Create a datatable showing the overall win percentage
   output$overall_win_pct <- DT::renderDataTable({
@@ -450,7 +456,13 @@ server <- function(input, output) {
                       "at least", input$min_frames, "frames and played at",
                       "least one frame since", input$last_played),
       colnames = c("Name", "Win %", "Frames Played"),
-      rownames = FALSE) %>%
+      rownames = FALSE,
+      filter = "none",
+      extensions = "Scroller",
+      style = "bootstrap",
+      class = "compact",
+      options = list(deferRender = TRUE, scrollY = 300, scroller = TRUE,
+                     dom = "ti")) %>%
       formatPercentage("win_pct", digits = 1)
   })
   # Create a datatable showing the head to head summary
@@ -462,7 +474,13 @@ server <- function(input, output) {
       df,
       caption = paste("Head to head for all matchups played more than once"),
       colnames = c("Frames Played", "Player 1", "Record", "Player 2"),
-      rownames = FALSE)
+      rownames = FALSE,
+      filter = "none",
+      extensions = "Scroller",
+      style = "bootstrap",
+      class = "compact",
+      options = list(deferRender = TRUE, scrollY = 300, scroller = TRUE,
+                     dom = "ti"))
   })
   # Create a value box for the selected player's current ranking
   output$current_player_ranking <- renderValueBox({
@@ -571,7 +589,13 @@ server <- function(input, output) {
               "at least", input$min_frames, "frames (in total) and played at",
               "least one frame since", input$last_played),
       colnames = c("Name", "Division", "Win %", "Frames Played"),
-      rownames = FALSE) %>%
+      rownames = FALSE,
+      filter = "none",
+      extensions = "Scroller",
+      style = "bootstrap",
+      class = "compact",
+      options = list(deferRender = TRUE, scrollY = 300,
+                     scroller = TRUE, dom = "ti")) %>%
       formatPercentage("win_pct", digits = 1)
   })
   # Create a selectizeInput to choose the home team
@@ -638,7 +662,13 @@ server <- function(input, output) {
       df3,
       caption = "Home team ratings",
       rownames = FALSE,
-      colnames = c("Name", "Current rating", "Form")
+      colnames = c("Name", "Current rating", "Form"),
+      filter = "none",
+      extensions = "Scroller",
+      style = "bootstrap",
+      class = "compact",
+      options = list(deferRender = TRUE, scrollY = 300, scroller = TRUE,
+                     dom = "ti")
     ) %>%
       formatRound("latest_rating", digits = 0)
   })
@@ -654,7 +684,13 @@ server <- function(input, output) {
       df3,
       caption = "Home team ratings",
       rownames = FALSE,
-      colnames = c("Name", "Current rating", "Form")
+      colnames = c("Name", "Current rating", "Form"),
+      filter = "none",
+      extensions = "Scroller",
+      style = "bootstrap",
+      class = "compact",
+      options = list(deferRender = TRUE, scrollY = 300, scroller = TRUE,
+                     dom = "ti")
     ) %>%
       formatRound("latest_rating", digits = 0)
   })
@@ -675,7 +711,13 @@ server <- function(input, output) {
       relevant_head_to_head,
       caption = "Head to head records",
       rownames = FALSE,
-      colnames = c("Frames played", "Player 1", "Record", "Player 2")
+      colnames = c("Frames played", "Player 1", "Record", "Player 2"),
+      filter = "none",
+      extensions = "Scroller",
+      style = "bootstrap",
+      class = "compact",
+      options = list(deferRender = TRUE, scrollY = 300, scroller = TRUE,
+                     dom = "ti")
     )
   })
 }
