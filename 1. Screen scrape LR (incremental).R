@@ -44,8 +44,7 @@ old_results_to_scrape <- results_old %>%
 # Old result cards will not regularly be entered into the system, so generally
 # just scrape new results for frame scores
 frame_scores_new <-
-  pmap_dfr(unname(rbind(new_results_to_scrape, old_results_to_scrape)),
-                  scrape_match_page)
+  pmap_dfr(unname(new_results_to_scrape), scrape_match_page)
 
 # Combine and filter out BYEs
 frame_scores_total <- rbind(frame_scores_old, frame_scores_new)
