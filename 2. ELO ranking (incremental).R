@@ -131,7 +131,7 @@ player_seasons <- players %>%
 player_seasons_majority <- player_seasons %>%
   left_join(summary2, by = c("player_id", "player_name", "season")) %>%
   group_by(player_id, player_name) %>%
-  mutate_at(vars(majority_division), funs(na.locf(., na.rm = FALSE))) %>%
+  mutate_at(vars(majority_division), list(~na.locf(., na.rm = FALSE))) %>%
   filter(!is.na(majority_division))
 # Loop through all frame scores
 for(i in 1:nrow(frame_scores)) {
