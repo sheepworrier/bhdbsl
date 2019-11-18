@@ -140,8 +140,14 @@ for(i in 1:nrow(frame_scores)) {
   # At the change in seasons, apply adjustments to account for promotions and
   # relegations
   if (row$season != last_season) {
+    # Save off players end of season ratings in their current majority division
+    # If players are relagated / promoted in future then they can pick up where
+    # they left off
+    player_eos_division_ratings <- save_off_end_of_season_ratings(last_season)
     print(paste("Making adjustments at end of season", last_season))
-    players_to_adjust <- end_of_season_adjustments(last_season, row$season)
+    players_to_adjust <-
+      end_of_season_adjustments(last_season, row$season,
+                                player_eos_division_ratings)
     player_ratings <- player_ratings %>%
       left_join(players_to_adjust, by = "player_id") %>%
       mutate_if(is.numeric, funs(ifelse(is.na(.), latest_rating, .))) %>%
@@ -172,6 +178,10 @@ for(i in 1:nrow(frame_scores)) {
     away_player_ranking +
     weight_value * (away_frames_won - away_player_ranking /
                       (home_player_ranking + away_player_ranking))
+  if (is.na(home_player_new_ranking) | is.na(away_player_new_ranking)) {
+    break
+    print("NA appears in the ranking")
+  }
   # Update new ranking alongside frame scores
   frame_scores[i, 12] <- home_player_new_ranking
   frame_scores[i, 13] <- away_player_new_ranking

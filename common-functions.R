@@ -2,12 +2,13 @@ library(rvest)
 library(httr)
 library(tidyverse)
 library(purrr)
+library(polite)
 
 get_season_division_results <- function(season, division, url) {
-  # Use httr to load the results page 1 of X
-  results_1st_page <- read_html(GET(url, add_headers('user-agent' = 'r')))
+  # Create polite session
+  session <- bow(url, force = TRUE)
   # Read in the number of results pages
-  num_pages_nodes <- results_1st_page %>%
+  num_pages_nodes <- scrape(session) %>%
     html_nodes(".pagination a")
   # Handles the case where the season is incomplete or we have less than 5 pages
   # of results
@@ -36,16 +37,15 @@ get_single_results_page <- function(base_url, season, division, page_number) {
               "and season", season))
   # Contruct URL for the results page number in question
   results_page_url <- paste0(base_url, "/", page_number, ".html")
-  # Use httr to load the results page X
-  results_page <- read_html(GET(results_page_url,
-                                add_headers('user-agent' = 'r')))
+  # Create polite session
+  session <- bow(results_page_url, force = TRUE)
   # Use rvest to extract the table of up to 20 results into a dataframe
-  results_table <- results_page %>%
+  results_table <- scrape(session) %>%
     html_nodes("table") %>%
     .[[1]] %>%
     html_table(fill=TRUE)
   # The final column of the above table contains a URL for the match details
-  match_detail_urls <- results_page %>%
+  match_detail_urls <- scrape(session) %>%
     html_nodes("td:nth-child(9) a") %>%
     html_attr("href")
 
@@ -71,10 +71,10 @@ scrape_match_page <-
   function(fixture_date, season, division, home_team, away_team, home_score,
            away_score, url) {
     print(paste("Scraping", url))
-    # Use httr ro get the web page containing the match details
-    match_page <- read_html(GET(url, add_headers('user-agent' = 'r')))
+    # Create polite session
+    session <- bow(url, force = TRUE)
     # Look for the table of frame scores which may or may not exist
-    potential_frame_table <- match_page %>%
+    potential_frame_table <- scrape(session) %>%
       html_nodes(".divider-x2 table")
     # Check whether table exists
     if(length(potential_frame_table) > 0) {
@@ -114,13 +114,14 @@ scrape_match_page <-
     }
   }
 
-end_of_season_adjustments <- function(last_season, next_season) {
+end_of_season_adjustments <-
+  function(last_season, next_season, latest_player_division_ratings) {
   # Calculate the change in division (promotion or relegation) and set
   # adjustment to be 1/2 of the gap between divisions.  Positive for promotion,
   # negative for relegation
   players_to_adjust <- player_seasons_majority %>%
     filter(season == last_season) %>%
-    inner_join(summary2 %>%
+    inner_join(player_seasons_majority %>%
                  filter(season == next_season),
                by = c("player_id")) %>%
     filter(majority_division.x != majority_division.y) %>%
@@ -129,4 +130,13 @@ end_of_season_adjustments <- function(last_season, next_season) {
     rename(new_rating = value.y, player_name = player_name.x) %>%
     select(player_id, player_name, new_rating)
   players_to_adjust
+}
+
+save_off_end_of_season_ratings <- function(last_season) {
+  # If the player_eos_division_ratings doesn't exist then create it
+  
+  # Anti join with the 
+  
+  # Return the results
+  player_eos_division_ratings
 }
