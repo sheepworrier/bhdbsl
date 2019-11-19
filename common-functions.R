@@ -115,7 +115,15 @@ scrape_match_page <-
   }
 
 end_of_season_adjustments <-
-  function(last_season, next_season, latest_player_division_ratings) {
+  function(last_season, next_season) {
+  # Derive the most recent ranking per division per player
+  most_recent_rating_per_player_per_div <-
+    player_seasons_majority %>%
+    filter(season <= last_season) %>%
+    group_by(player_id, majority_division) %>%
+    arrange(player_id, majority_division, desc(season)) %>%
+    slice(1) %>%
+    ungroup()
   # Calculate the change in division (promotion or relegation) and set
   # adjustment to be 1/2 of the gap between divisions.  Positive for promotion,
   # negative for relegation
@@ -127,16 +135,25 @@ end_of_season_adjustments <-
     filter(majority_division.x != majority_division.y) %>%
     inner_join(starting_ranking, by = c("majority_division.x" = "division")) %>%
     inner_join(starting_ranking, by = c("majority_division.y" = "division")) %>%
-    rename(new_rating = value.y, player_name = player_name.x) %>%
+    left_join(most_recent_rating_per_player_per_div %>%
+                select(player_id, season, majority_division, eos_rating),
+              by = c("player_id",
+                     "majority_division.y" = "majority_division")) %>%
+    mutate(new_rating = if_else(!is.na(eos_rating), eos_rating, value.y)) %>%
+    rename(player_name = player_name.x) %>%
     select(player_id, player_name, new_rating)
   players_to_adjust
 }
 
-save_off_end_of_season_ratings <- function(last_season) {
-  # If the player_eos_division_ratings doesn't exist then create it
-  
+save_off_end_of_season_ratings <-
+  function(last_season, player_seasons_majority) {
   # Anti join with the 
-  
+  df <- player_seasons_majority %>%
+      inner_join(player_ratings %>%
+                   select(player_id, latest_rating), by = "player_id") %>%
+    filter(season == last_season) %>%
+    mutate(eos_rating = latest_rating) %>%
+    select(-latest_rating)
   # Return the results
-  player_eos_division_ratings
-}
+  df
+  }

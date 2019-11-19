@@ -132,7 +132,8 @@ player_seasons_majority <- player_seasons %>%
   left_join(summary2, by = c("player_id", "player_name", "season")) %>%
   group_by(player_id, player_name) %>%
   mutate_at(vars(majority_division), list(~na.locf(., na.rm = FALSE))) %>%
-  filter(!is.na(majority_division))
+  filter(!is.na(majority_division)) %>%
+  arrange(player_id, season)
 # Loop through all frame scores
 for(i in 1:nrow(frame_scores)) {
   row <- frame_scores[i, ]
@@ -143,15 +144,19 @@ for(i in 1:nrow(frame_scores)) {
     # Save off players end of season ratings in their current majority division
     # If players are relagated / promoted in future then they can pick up where
     # they left off
-    player_eos_division_ratings <- save_off_end_of_season_ratings(last_season)
+    df_psm <-
+      save_off_end_of_season_ratings(last_season, player_seasons_majority)
+    player_seasons_majority <- player_seasons_majority %>%
+      anti_join(df_psm, by = c("player_id", "season")) %>%
+      bind_rows(df_psm) %>%
+      arrange(player_id, season)
     print(paste("Making adjustments at end of season", last_season))
     players_to_adjust <-
-      end_of_season_adjustments(last_season, row$season,
-                                player_eos_division_ratings)
+      end_of_season_adjustments(last_season, row$season)
     player_ratings <- player_ratings %>%
       left_join(players_to_adjust, by = "player_id") %>%
-      mutate_if(is.numeric, funs(ifelse(is.na(.), latest_rating, .))) %>%
-      mutate(latest_rating = new_rating) %>%
+      mutate(latest_rating = if_else(!is.na(new_rating), new_rating,
+                                     latest_rating)) %>%
       select(1:9)
     rownames(player_ratings) <- player_ratings$player_id
     last_season <- row$season
