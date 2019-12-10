@@ -667,7 +667,7 @@ server <- function(input, output) {
       extensions = "Scroller",
       style = "bootstrap",
       class = "compact",
-      options = list(deferRender = TRUE, scrollY = 300, scroller = TRUE,
+      options = list(deferRender = TRUE, scrollY = 400, scroller = TRUE,
                      dom = "ti")
     ) %>%
       formatRound("latest_rating", digits = 0)
@@ -689,7 +689,7 @@ server <- function(input, output) {
       extensions = "Scroller",
       style = "bootstrap",
       class = "compact",
-      options = list(deferRender = TRUE, scrollY = 300, scroller = TRUE,
+      options = list(deferRender = TRUE, scrollY = 400, scroller = TRUE,
                      dom = "ti")
     ) %>%
       formatRound("latest_rating", digits = 0)
