@@ -4,6 +4,7 @@ library(shinyWidgets)
 library(DT)
 library(tidyverse)
 library(lubridate)
+library(plotly)
 
 ui <- dashboardPage(
   skin = "green",
@@ -125,7 +126,8 @@ ui <- dashboardPage(
             width = 12,
             box(
               width = NULL,
-              dataTableOutput("frame_history")
+              dataTableOutput("frame_history"),
+              plotlyOutput("frame_history_plot")
             )
           )
         )
@@ -413,6 +415,21 @@ server <- function(input, output) {
                    "Home/Away", "Opponent's Team", "Rating"),
       rownames = FALSE) %>%
       formatRound("rating", 0)
+  })
+  # Create a plotly output of the player's frame history
+  output$frame_history_plot <- renderPlotly({
+    p <- player_frames() %>%
+      rename(Date = fixture_date, Rating = rating) %>%
+      plot_ly(x = ~Date, y = ~Rating, type = "scatter", mode = "lines",
+              hoverinfo = "text",
+              text = ~paste0("<b>", Date, "<br>Rating: ",
+                             prettyNum(Rating, digits = 0, big.mark = ","),
+                             "</b><br><br>",
+                             "<b>Opponent:</b> ", opponent, "<br>",
+                             "<b>Opposing Team:</b> ", opp_team, "<br>",
+                             "<b>Result:</b> ", won_lost, " ", pts_for, "-",
+                             pts_against)
+              )
   })
   # Create a normal table showing the missing scorecards per season and division
   output$missing_summary_normal <- renderTable(

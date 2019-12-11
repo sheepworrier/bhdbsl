@@ -112,6 +112,15 @@ scrape_match_page <-
         as.Date(frame_scores$fixture_date, origin = "1970-01-01")
       frame_scores
     }
+    # Look for the table of breaks which may or may not exist
+    potential_break_tables <- scrape(session) %>%
+      html_nodes(".table-hovered")
+    # First and last tables are not what we are looking for, so process
+    # only the one or two in the middle
+    for (i in 2:length(potential_break_tables) - 1) {
+      potential_break_tables[[i]] %>%
+        html_table(fill=TRUE)
+    }
   }
 
 end_of_season_adjustments <-
