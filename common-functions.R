@@ -110,17 +110,42 @@ scrape_match_page <-
                    stringsAsFactors = FALSE)
       frame_scores$fixture_date <-
         as.Date(frame_scores$fixture_date, origin = "1970-01-01")
-      frame_scores
     }
     # Look for the table of breaks which may or may not exist
     potential_break_tables <- scrape(session) %>%
       html_nodes(".table-hovered")
-    # First and last tables are not what we are looking for, so process
-    # only the one or two in the middle
-    for (i in 2:length(potential_break_tables) - 1) {
-      potential_break_tables[[i]] %>%
-        html_table(fill=TRUE)
+    if (length(potential_break_tables) > 2) {
+      # First and last tables are not what we are looking for, so process
+      # only the one or two in the middle
+      for (i in 2:(length(potential_break_tables) - 1)) {
+        # If it exists then read into a dataframe
+        breaks_table <- potential_break_tables[[i]] %>%
+          html_table(fill=TRUE)
+        colnames(breaks_table) <- c("player_name", "high_break")
+        # Remove the handicap from the player name
+        breaks_table$player_name <-
+          str_replace(breaks_table$player_name, " \\[[0-9]+\\]", "")
+        # Read in the player URLs so that we can parse to get the player ID
+        player_urls <- potential_break_tables[[i]] %>%
+          html_nodes("a") %>%
+          html_attr("href")
+        # Parse URLs to exrtact the player IDs
+        player_ids <- sub("^.+/", "", sub(".html$", "", player_urls))
+        # Construct (almost) final output table.  Just need to add in player IDs
+        breaks <-
+          data.frame(fixture_date,
+                     season,
+                     division,
+                     player_id = player_ids,
+                     player_name = breaks_table$player_name,
+                     high_break = breaks_table$high_break,
+                     stringsAsFactors = FALSE)
+        breaks$fixture_date <-
+          as.Date(breaks$fixture_date, origin = "1970-01-01")
+        breaks_new <<- bind_rows(breaks_new, breaks)
+      }
     }
+    frame_scores
   }
 
 end_of_season_adjustments <-

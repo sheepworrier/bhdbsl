@@ -4,8 +4,9 @@ library(readr)
 library(tidyr)
 library(dplyr)
 
-snooker_week <- 6
-test_to_address <- "djp42@cantab.net"
+snooker_week <- 14
+# test_to_address <- "djp42@cantab.net"
+email_addresses <- read_csv("team_email_addresses.csv")
 divisions <- data.frame(division = seq(1, 4),
                         div_text = c("Premier", "Division 1", "Division 2",
                                      "Division 3"),
@@ -38,7 +39,7 @@ msg <- paste0("<u><b>Snooker results for week ", snooker_week, "</b></u>",
 
 weekly_email <-
   gm_mime() %>%
-  gm_to(test_to_address) %>%
+  gm_to(email_addresses$`Email Address`) %>%
   gm_from("deanjohnperry@gmail.com") %>%
   gm_subject(paste("Snooker Results for Week", snooker_week)) %>%
   gm_html_body(msg)

@@ -48,6 +48,14 @@ old_results_to_scrape <- results_old %>%
   anti_join(frame_scores_old, by = c("fixture_date", "season", "division",
                                      "home_team", "away_team")) %>%
   filter(season == 19)
+# Create an empty dataframe
+breaks_new = data.frame(fixture_date = as.Date(character()),
+                    season = numeric(),
+                    division = numeric(),
+                    player_id = character(),
+                    player_name = character(),
+                    high_break = integer(),
+                    stringsAsFactors = FALSE)
 # Scrape the likely fixtures that will now have match scores
 frame_scores_new <-
   pmap_dfr(unname(new_results_to_scrape %>%
@@ -62,3 +70,4 @@ frame_scores_total <- frame_scores_total %>%
 # Write the results to a CSV file for use in the ELO ranking
 write_csv(frame_scores_total, "New-website-frame-scores.csv")
 write_csv(results_new, "New-website-match-scores.csv")
+write_csv(breaks_new, "New-website-breaks.csv", append = TRUE)

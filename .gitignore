@@ -11,3 +11,7 @@
 *.dcf
 !player-id-map.csv
 !New-website-players-unmapped.csv
+!team_email_addresses.csv
+!Snooker-Results-pages-per-season.csv
+!New-website-match-scores.csv
+!New-website-frame-scores.csv
