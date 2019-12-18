@@ -1,0 +1,719 @@
+fixture_date,season,division,home_team,away_team,home_score,away_score
+2010-11-15,10,1,Brighton & Hove Golf Club,Moulsecoomb Club A,NA,NA
+2010-12-06,10,1,East Brighton Golf Club,St. Matthias A,NA,NA
+2010-10-18,10,2,National Association of Railway Clubs A,Aldrington Club A,5,0
+2010-10-25,10,2,Champion House B,Aldrington Club A,NA,NA
+2010-11-01,10,2,Aldrington Club A,Annunciation Club A,NA,NA
+2010-11-08,10,2,Aldrington Club A,St. Matthias B,NA,NA
+2010-11-15,10,2,Preston Club A,Aldrington Club A,NA,NA
+2010-11-22,10,2,Aldrington Club A,Champion House A,NA,NA
+2010-12-06,10,2,Aldrington Club B,Aldrington Club A,NA,NA
+2010-12-13,10,2,Aldrington Club A,National Association of Railway Clubs A,NA,NA
+2011-01-10,10,2,Annunciation Club A,Aldrington Club A,NA,NA
+2011-01-17,10,2,St. Matthias B,Aldrington Club A,NA,NA
+2011-01-24,10,2,Aldrington Club A,Preston Club A,NA,NA
+2011-01-31,10,2,Champion House A,Aldrington Club A,NA,NA
+2011-02-07,10,2,Aldrington Club A,Aldrington Club B,NA,NA
+2011-02-14,10,2,National Association of Railway Clubs A,Aldrington Club A,NA,NA
+2011-02-21,10,2,Champion House B,Aldrington Club A,NA,NA
+2011-02-28,10,2,Aldrington Club A,Annunciation Club A,NA,NA
+2011-03-07,10,2,Aldrington Club A,St. Matthias B,NA,NA
+2011-03-14,10,2,Preston Club A,Aldrington Club A,NA,NA
+2011-03-21,10,2,Aldrington Club A,Champion House A,NA,NA
+2011-03-28,10,2,Aldrington Club B,Aldrington Club A,NA,NA
+2011-04-04,10,2,Aldrington Club A,National Association of Railway Clubs A,NA,NA
+2011-04-11,10,2,Aldrington Club A,Champion House B,NA,NA
+2010-11-08,10,3,Southwick Sports B,Moulsecoomb Club B,NA,NA
+2011-01-31,10,3,St. Matthias C,Southwick Sports A,5,0
+2011-04-11,10,3,Southwick Sports A,Southwick Sports B,NA,NA
+2010-09-06,10,4,Castle Snooker Club D,Goldstone Ex-Services Club B,5,0
+2010-10-11,10,5,National Association of Railway Clubs D,Castle Snooker Club F,NA,NA
+2011-01-31,10,5,Brighton Ex-Services Club,National Association of Railway Clubs D,NA,NA
+2010-10-25,10,6,Brighton Trades Labour Club B,Brighton Trades Labour Club A,NA,NA
+2011-10-03,11,1,Castle Snooker Club A,Moulsecoomb Club A,NA,NA
+2011-10-03,11,1,Castle Snooker Club H,St. Matthias B,NA,NA
+2011-12-12,11,1,Castle Snooker Club A,St. Matthias A,NA,NA
+2012-02-06,11,2,Brighton & Hove Golf Club,Champion House B,NA,NA
+2012-03-26,11,2,Champion House B,Brighton & Hove Golf Club,NA,NA
+2012-03-26,11,2,Preston Club A,St. Matthias C,NA,NA
+2011-09-05,11,3,Southwick Sports B,Hove Deep Sea Anglers A,NA,NA
+2011-09-19,11,3,Annunciation Club B,Southwick Sports B,5,0
+2011-10-03,11,4,Castle Snooker Club D,Moulsecoomb Club C,NA,NA
+2012-04-02,11,5,Brighton Trades Labour Club A,Shoreham Royal British Legion B,5,0
+2011-10-03,11,6,Castle Snooker Club J,Castle Snooker Club G,NA,NA
+2013-01-21,12,1,St. Matthias A,Castle Snooker Club A,5,0
+2013-04-15,12,1,Castle Snooker Club A,St. Matthias B,0,5
+2012-11-05,12,2,Champion House A,Preston Club A,NA,NA
+2013-04-08,12,2,Preston Club A,Annunciation Club B,5,0
+2013-04-15,12,2,Castle Snooker Club C,Preston Club A,5,0
+2012-10-22,12,4,Rileys B,Castle Snooker Club D,NA,NA
+2012-11-12,12,4,Rileys B,Castle Snooker Club F,NA,NA
+2013-01-14,12,4,Rileys B,National Association of Railway Clubs B,NA,NA
+2013-01-21,12,4,National Association of Railway Clubs B,Southwick Sports A,NA,NA
+2013-03-11,12,4,Rileys B,Castle Snooker Club F,NA,NA
+2013-03-11,12,4,Southwick Sports A,National Association of Railway Clubs B,NA,NA
+2013-03-25,12,5,Hove Deep Sea Anglers B,Moulsecoomb Club B,NA,NA
+2013-10-21,13,2,Preston Club A,Champion House A,NA,NA
+2013-12-09,13,2,Preston Club A,Champion House B,NA,NA
+2013-12-16,13,2,Portslade Sports Centre A,Castle Snooker Club D,NA,NA
+2014-01-06,13,2,Castle Snooker Club C,Champion House B,5,0
+2014-02-10,13,2,Champion House B,Preston Club A,NA,NA
+2014-03-17,13,2,Castle Snooker Club D,Champion House B,5,0
+2014-03-31,13,2,Preston Club A,Champion House B,5,0
+2013-09-16,13,3,Southwick Sports A,Hove Deep Sea Anglers A,NA,NA
+2014-02-17,13,3,National Association of Railway Clubs C,Goldstone Ex-Services Club A,5,0
+2013-09-16,13,4,Rileys B,National Association of Railway Clubs B,0,5
+2013-10-21,13,4,Rileys B,Castle Snooker Club G,NA,NA
+2013-10-28,13,4,Rileys B,St. Matthias D,NA,NA
+2013-10-14,13,5,Hove Deep Sea Anglers B,Portslade Sports Centre B,NA,NA
+2013-12-09,13,5,Portslade Sports Centre B,Hove Deep Sea Anglers B,NA,NA
+2014-01-13,13,5,Portslade Sports Centre B,Moulsecoomb Club A,NA,NA
+2013-12-09,13,6,Portslade Sports Centre C,Preston Club B,NA,NA
+2013-12-16,13,6,Portslade Sports Centre D,Castle Snooker Club H,NA,NA
+2014-03-10,13,6,Portslade Sports Centre C,Castle Snooker Club H,5,0
+2014-04-07,13,6,Portslade Sports Centre D,Castle Snooker Club H,NA,NA
+2019-09-16,19,1,St. Matthias C,Castle Club  A,3,3
+2019-11-25,19,2,Hove D.S. Anglers  A,St. Matthias E,1,4
+2019-09-23,19,3,Preston Club,Castle Club F,2,3
+2019-11-25,19,4,Moulsecoomb Club B,N.A.R.C B,0,5
+2019-11-18,19,4,N.A.R.C B,Portslade Legion,3,2
+2019-10-28,19,4,N.A.R.C C,Moulsecoomb Club B,5,0
+2019-09-30,19,4,Portslade Legion,N.A.R.C B,0,5
+2019-09-23,19,4,N.A.R.C B,N.A.R.C C,2,3
+2019-09-16,19,4,Portslade Legion,Moulsecoomb Club B,5,0
+2019-09-09,19,4,Moulsecoomb Club B,N.A.R.C C,1,4
+2019-09-09,19,4,N.A.R.C B,Hove D.S. Anglers  B,2,3
+2015-04-13,14,1,Castle Club  A,St. Matthias B,5,0
+2015-04-13,14,1,N.A.R.C A,St. Matthias A,0,5
+2015-04-13,14,1,Portslade Sports A,Castle Club  B,2,3
+2015-03-30,14,1,Castle Club  B,Castle Club  A,1,4
+2015-03-30,14,1,N.A.R.C A,Portslade Sports A,4,1
+2015-03-30,14,1,St. Matthias B,St. Matthias C,0,5
+2015-03-23,14,1,Castle Club  A,N.A.R.C A,4,1
+2015-03-23,14,1,Portslade Sports A,St. Matthias A,1,4
+2015-03-23,14,1,St. Matthias C,Castle Club  B,3,2
+2015-03-16,14,1,N.A.R.C A,St. Matthias C,2,3
+2015-03-16,14,1,Portslade Sports A,Castle Club  A,2,3
+2015-03-16,14,1,St. Matthias A,St. Matthias B,4,1
+2015-03-09,14,1,Castle Club  A,St. Matthias A,3,2
+2015-03-09,14,1,St. Matthias B,Castle Club  B,1,3
+2015-03-09,14,1,St. Matthias C,Portslade Sports A,4,1
+2015-03-02,14,1,Castle Club  A,St. Matthias C,3,2
+2015-03-02,14,1,N.A.R.C A,St. Matthias B,4,1
+2015-03-02,14,1,St. Matthias A,Castle Club  B,1,4
+2015-02-23,14,1,Castle Club  B,N.A.R.C A,3,2
+2015-02-23,14,1,St. Matthias B,Portslade Sports A,2,3
+2015-02-23,14,1,St. Matthias C,St. Matthias A,3,2
+2015-02-16,14,1,Castle Club  B,Portslade Sports A,3,2
+2015-02-16,14,1,St. Matthias A,N.A.R.C A,2,3
+2015-02-16,14,1,St. Matthias B,Castle Club  A,0,5
+2015-02-09,14,1,Castle Club  A,Castle Club  B,3,2
+2015-02-09,14,1,Portslade Sports A,N.A.R.C A,2,3
+2015-02-09,14,1,St. Matthias C,St. Matthias B,5,0
+2015-02-02,14,1,Castle Club  B,St. Matthias C,3,2
+2015-02-02,14,1,N.A.R.C A,Castle Club  A,0,5
+2015-02-02,14,1,St. Matthias A,Portslade Sports A,1,4
+2015-01-26,14,1,Castle Club  A,Portslade Sports A,4,1
+2015-01-26,14,1,St. Matthias B,St. Matthias A,2,3
+2015-01-26,14,1,St. Matthias C,N.A.R.C A,4,1
+2015-01-19,14,1,Castle Club  B,St. Matthias B,3,2
+2015-01-19,14,1,Portslade Sports A,St. Matthias C,0,5
+2015-01-19,14,1,St. Matthias A,Castle Club  A,2,3
+2015-01-12,14,1,Castle Club  B,St. Matthias A,2,3
+2015-01-12,14,1,St. Matthias B,N.A.R.C A,2,3
+2015-01-12,14,1,St. Matthias C,Castle Club  A,1,4
+2015-01-05,14,1,N.A.R.C A,Castle Club  B,3,2
+2015-01-05,14,1,Portslade Sports A,St. Matthias B,2,3
+2015-01-05,14,1,St. Matthias A,St. Matthias C,1,4
+2014-12-15,14,1,Castle Club  A,St. Matthias B,5,0
+2014-12-15,14,1,N.A.R.C A,St. Matthias A,3,2
+2014-12-15,14,1,Portslade Sports A,Castle Club  B,2,3
+2014-12-08,14,1,Castle Club  B,Castle Club  A,2,3
+2014-12-08,14,1,N.A.R.C A,Portslade Sports A,3,2
+2014-12-08,14,1,St. Matthias B,St. Matthias C,1,4
+2014-11-24,14,1,Castle Club  A,N.A.R.C A,4,1
+2014-11-24,14,1,Portslade Sports A,St. Matthias A,2,3
+2014-11-24,14,1,St. Matthias C,Castle Club  B,2,3
+2014-11-17,14,1,N.A.R.C A,St. Matthias C,1,4
+2014-11-17,14,1,Portslade Sports A,Castle Club  A,1,4
+2014-11-17,14,1,St. Matthias A,St. Matthias B,5,0
+2014-11-10,14,1,Castle Club  A,St. Matthias A,4,1
+2014-11-10,14,1,St. Matthias B,Castle Club  B,2,3
+2014-11-10,14,1,St. Matthias C,Portslade Sports A,1,4
+2014-11-03,14,1,Castle Club  A,St. Matthias C,3,2
+2014-11-03,14,1,N.A.R.C A,St. Matthias B,3,2
+2014-11-03,14,1,St. Matthias A,Castle Club  B,3,2
+2014-10-27,14,1,Castle Club  B,N.A.R.C A,3,2
+2014-10-27,14,1,St. Matthias B,Portslade Sports A,1,4
+2014-10-27,14,1,St. Matthias C,St. Matthias A,2,3
+2014-10-20,14,1,Castle Club  B,Portslade Sports A,2,3
+2014-10-20,14,1,St. Matthias A,N.A.R.C A,1,4
+2014-10-20,14,1,St. Matthias B,Castle Club  A,0,5
+2014-10-13,14,1,Castle Club  A,Castle Club  B,4,1
+2014-10-13,14,1,Portslade Sports A,N.A.R.C A,2,3
+2014-10-13,14,1,St. Matthias C,St. Matthias B,3,2
+2014-10-06,14,1,Castle Club  B,St. Matthias C,3,2
+2014-10-06,14,1,N.A.R.C A,Castle Club  A,1,4
+2014-10-06,14,1,St. Matthias A,Portslade Sports A,4,1
+2014-09-29,14,1,Castle Club  A,Portslade Sports A,5,0
+2014-09-29,14,1,St. Matthias B,St. Matthias A,1,4
+2014-09-29,14,1,St. Matthias C,N.A.R.C A,1,4
+2014-09-22,14,1,Castle Club  B,St. Matthias B,5,0
+2014-09-22,14,1,Portslade Sports A,St. Matthias C,3,2
+2014-09-22,14,1,St. Matthias A,Castle Club  A,2,3
+2014-09-15,14,1,Castle Club  B,St. Matthias A,5,0
+2014-09-15,14,1,St. Matthias B,N.A.R.C A,3,2
+2014-09-15,14,1,St. Matthias C,Castle Club  A,2,3
+2014-09-08,14,1,N.A.R.C A,Castle Club  B,3,2
+2014-09-08,14,1,Portslade Sports A,St. Matthias B,5,0
+2014-09-08,14,1,St. Matthias A,St. Matthias C,2,3
+2015-04-13,14,2,Goldstone Ex Serv. A,Champion House  A,5,0
+2015-04-13,14,2,Rileys Club,Hove D.S. Anglers  A,2,3
+2015-04-13,14,2,Southwick Sports  A,Castle Club  D,1,4
+2015-03-30,14,2,Hove D.S. Anglers  A,Champion House  A,2,3
+2015-03-30,14,2,Rileys Club,Southwick Sports  A,2,3
+2015-03-23,14,2,Castle Club  C,Rileys Club,3,2
+2015-03-23,14,2,Goldstone Ex Serv. A,Castle Club  D,3,2
+2015-03-23,14,2,Southwick Sports  A,Hove D.S. Anglers  A,5,0
+2015-03-16,14,2,Castle Club  D,Champion House  A,2,3
+2015-03-16,14,2,Rileys Club,Goldstone Ex Serv. A,2,3
+2015-03-16,14,2,Southwick Sports  A,Castle Club  C,2,3
+2015-03-09,14,2,Castle Club  C,Hove D.S. Anglers  A,3,2
+2015-03-09,14,2,Champion House  A,Rileys Club,2,3
+2015-03-09,14,2,Goldstone Ex Serv. A,Southwick Sports  A,2,3
+2015-03-02,14,2,Castle Club  C,Goldstone Ex Serv. A,4,1
+2015-03-02,14,2,Hove D.S. Anglers  A,Castle Club  D,3,2
+2015-03-02,14,2,Southwick Sports  A,Champion House  A,3,2
+2015-02-23,14,2,Castle Club  D,Rileys Club,3,2
+2015-02-23,14,2,Champion House  A,Castle Club  C,0,5
+2015-02-23,14,2,Goldstone Ex Serv. A,Hove D.S. Anglers  A,3,2
+2015-02-16,14,2,Champion House  A,Goldstone Ex Serv. A,4,1
+2015-02-16,14,2,Hove D.S. Anglers  A,Rileys Club,5,0
+2015-02-09,14,2,Castle Club  C,Castle Club  D,4,1
+2015-02-09,14,2,Champion House  A,Hove D.S. Anglers  A,1,4
+2015-02-09,14,2,Southwick Sports  A,Rileys Club,2,3
+2015-02-02,14,2,Hove D.S. Anglers  A,Southwick Sports  A,1,4
+2015-02-02,14,2,Rileys Club,Castle Club  C,2,3
+2015-01-26,14,2,Castle Club  C,Southwick Sports  A,3,2
+2015-01-26,14,2,Champion House  A,Castle Club  D,3,2
+2015-01-26,14,2,Goldstone Ex Serv. A,Rileys Club,2,3
+2015-01-19,14,2,Hove D.S. Anglers  A,Castle Club  C,2,3
+2015-01-19,14,2,Rileys Club,Champion House  A,2,3
+2015-01-19,14,2,Southwick Sports  A,Goldstone Ex Serv. A,2,3
+2015-01-12,14,2,Champion House  A,Southwick Sports  A,1,4
+2015-01-12,14,2,Goldstone Ex Serv. A,Castle Club  C,2,3
+2015-01-05,14,2,Castle Club  C,Champion House  A,4,1
+2015-01-05,14,2,Hove D.S. Anglers  A,Goldstone Ex Serv. A,4,1
+2015-01-05,14,2,Rileys Club,Castle Club  D,3,2
+2014-12-15,14,2,Goldstone Ex Serv. A,Champion House  A,3,2
+2014-12-15,14,2,Rileys Club,Hove D.S. Anglers  A,2,3
+2014-12-15,14,2,Southwick Sports  A,Castle Club  D,4,1
+2014-12-08,14,2,Castle Club  D,Castle Club  C,0,5
+2014-12-08,14,2,Hove D.S. Anglers  A,Champion House  A,2,3
+2014-12-08,14,2,Rileys Club,Southwick Sports  A,2,3
+2014-11-24,14,2,Castle Club  C,Rileys Club,3,2
+2014-11-24,14,2,Goldstone Ex Serv. A,Castle Club  D,2,3
+2014-11-24,14,2,Southwick Sports  A,Hove D.S. Anglers  A,2,3
+2014-11-17,14,2,Rileys Club,Goldstone Ex Serv. A,3,2
+2014-11-17,14,2,Southwick Sports  A,Castle Club  C,1,4
+2014-11-10,14,2,Castle Club  C,Hove D.S. Anglers  A,4,1
+2014-11-10,14,2,Champion House  A,Rileys Club,3,2
+2014-11-10,14,2,Goldstone Ex Serv. A,Southwick Sports  A,2,3
+2014-11-03,14,2,Castle Club  C,Goldstone Ex Serv. A,3,2
+2014-11-03,14,2,Hove D.S. Anglers  A,Castle Club  D,3,2
+2014-11-03,14,2,Southwick Sports  A,Champion House  A,4,1
+2014-10-27,14,2,Castle Club  D,Rileys Club,5,0
+2014-10-27,14,2,Champion House  A,Castle Club  C,1,4
+2014-10-27,14,2,Goldstone Ex Serv. A,Hove D.S. Anglers  A,3,2
+2014-10-20,14,2,Castle Club  D,Southwick Sports  A,0,5
+2014-10-20,14,2,Champion House  A,Goldstone Ex Serv. A,3,2
+2014-10-20,14,2,Hove D.S. Anglers  A,Rileys Club,3,2
+2014-10-13,14,2,Castle Club  C,Castle Club  D,5,0
+2014-10-13,14,2,Champion House  A,Hove D.S. Anglers  A,2,3
+2014-10-13,14,2,Southwick Sports  A,Rileys Club,4,1
+2014-10-06,14,2,Castle Club  D,Goldstone Ex Serv. A,2,3
+2014-10-06,14,2,Hove D.S. Anglers  A,Southwick Sports  A,2,3
+2014-10-06,14,2,Rileys Club,Castle Club  C,3,2
+2014-09-29,14,2,Castle Club  C,Southwick Sports  A,3,2
+2014-09-29,14,2,Champion House  A,Castle Club  D,1,4
+2014-09-29,14,2,Goldstone Ex Serv. A,Rileys Club,5,0
+2014-09-22,14,2,Hove D.S. Anglers  A,Castle Club  C,1,4
+2014-09-22,14,2,Rileys Club,Champion House  A,2,3
+2014-09-22,14,2,Southwick Sports  A,Goldstone Ex Serv. A,2,3
+2014-09-15,14,2,Castle Club  D,Hove D.S. Anglers  A,3,2
+2014-09-15,14,2,Champion House  A,Southwick Sports  A,1,4
+2014-09-15,14,2,Goldstone Ex Serv. A,Castle Club  C,1,4
+2014-09-08,14,2,Castle Club  C,Champion House  A,4,1
+2014-09-08,14,2,Hove D.S. Anglers  A,Goldstone Ex Serv. A,0,5
+2014-09-08,14,2,Rileys Club,Castle Club  D,2,3
+2015-04-13,14,3,Annunciation,Champion House  B,2,3
+2015-04-13,14,3,Castle Club E,Portslade Sports C,4,1
+2015-04-13,14,3,St. Matthias D,Castle Club F,4,1
+2015-03-30,14,3,Castle Club F,Castle Club E,3,2
+2015-03-30,14,3,Castle Club G,St. Matthias D,5,0
+2015-03-30,14,3,Portslade Sports C,Annunciation,2,3
+2015-03-23,14,3,Annunciation,Castle Club F,4,1
+2015-03-23,14,3,Castle Club E,Castle Club G,2,3
+2015-03-23,14,3,Champion House  B,Portslade Sports C,4,1
+2015-03-16,14,3,Castle Club F,Champion House  B,4,1
+2015-03-16,14,3,Castle Club G,Annunciation,5,0
+2015-03-16,14,3,St. Matthias D,Castle Club E,3,2
+2015-03-09,14,3,Annunciation,St. Matthias D,0,5
+2015-03-09,14,3,Champion House  B,Castle Club G,1,4
+2015-03-09,14,3,Portslade Sports C,Castle Club F,4,1
+2015-03-02,14,3,Castle Club E,Annunciation,3,2
+2015-03-02,14,3,Castle Club G,Portslade Sports C,4,1
+2015-03-02,14,3,St. Matthias D,Champion House  B,5,0
+2015-02-23,14,3,Castle Club F,Castle Club G,0,5
+2015-02-23,14,3,Champion House  B,Castle Club E,2,3
+2015-02-23,14,3,Portslade Sports C,St. Matthias D,2,3
+2015-02-16,14,3,Castle Club F,St. Matthias D,2,3
+2015-02-16,14,3,Champion House  B,Annunciation,2,3
+2015-02-16,14,3,Portslade Sports C,Castle Club E,3,2
+2015-02-09,14,3,Annunciation,Portslade Sports C,3,2
+2015-02-09,14,3,Castle Club E,Castle Club F,1,4
+2015-02-09,14,3,St. Matthias D,Castle Club G,3,2
+2015-02-02,14,3,Castle Club F,Annunciation,3,2
+2015-02-02,14,3,Castle Club G,Castle Club E,3,2
+2015-02-02,14,3,Portslade Sports C,Champion House  B,3,2
+2015-01-26,14,3,Annunciation,Castle Club G,2,3
+2015-01-26,14,3,Castle Club E,St. Matthias D,1,4
+2015-01-26,14,3,Champion House  B,Castle Club F,2,3
+2015-01-19,14,3,Castle Club F,Portslade Sports C,4,1
+2015-01-19,14,3,Castle Club G,Champion House  B,3,2
+2015-01-19,14,3,St. Matthias D,Annunciation,4,1
+2015-01-12,14,3,Annunciation,Castle Club E,3,2
+2015-01-12,14,3,Champion House  B,St. Matthias D,3,2
+2015-01-12,14,3,Portslade Sports C,Castle Club G,0,5
+2015-01-05,14,3,Castle Club E,Champion House  B,4,1
+2015-01-05,14,3,Castle Club G,Castle Club F,2,3
+2015-01-05,14,3,St. Matthias D,Portslade Sports C,4,1
+2014-12-15,14,3,Annunciation,Champion House  B,3,2
+2014-12-15,14,3,Castle Club E,Portslade Sports C,2,3
+2014-12-15,14,3,St. Matthias D,Castle Club F,3,2
+2014-12-08,14,3,Castle Club F,Castle Club E,4,1
+2014-12-08,14,3,Castle Club G,St. Matthias D,5,0
+2014-12-08,14,3,Portslade Sports C,Annunciation,2,3
+2014-11-24,14,3,Annunciation,Castle Club F,2,3
+2014-11-24,14,3,Castle Club E,Castle Club G,1,4
+2014-11-24,14,3,Champion House  B,Portslade Sports C,3,2
+2014-11-17,14,3,Castle Club F,Champion House  B,4,1
+2014-11-17,14,3,Castle Club G,Annunciation,5,0
+2014-11-17,14,3,St. Matthias D,Castle Club E,2,3
+2014-11-10,14,3,Annunciation,St. Matthias D,2,3
+2014-11-10,14,3,Champion House  B,Castle Club G,1,4
+2014-11-10,14,3,Portslade Sports C,Castle Club F,1,4
+2014-11-03,14,3,Castle Club E,Annunciation,4,1
+2014-11-03,14,3,Castle Club G,Portslade Sports C,3,2
+2014-11-03,14,3,St. Matthias D,Champion House  B,5,0
+2014-10-27,14,3,Castle Club F,Castle Club G,1,4
+2014-10-27,14,3,Champion House  B,Castle Club E,2,3
+2014-10-27,14,3,Portslade Sports C,St. Matthias D,1,4
+2014-10-20,14,3,Castle Club F,St. Matthias D,3,2
+2014-10-20,14,3,Champion House  B,Annunciation,2,3
+2014-10-20,14,3,Portslade Sports C,Castle Club E,2,3
+2014-10-13,14,3,Annunciation,Portslade Sports C,4,1
+2014-10-13,14,3,Castle Club E,Castle Club F,2,3
+2014-10-13,14,3,St. Matthias D,Castle Club G,3,2
+2014-10-06,14,3,Castle Club F,Annunciation,3,2
+2014-10-06,14,3,Castle Club G,Castle Club E,3,2
+2014-10-06,14,3,Portslade Sports C,Champion House  B,4,1
+2014-09-29,14,3,Annunciation,Castle Club G,1,4
+2014-09-29,14,3,Castle Club E,St. Matthias D,1,4
+2014-09-29,14,3,Champion House  B,Castle Club F,2,3
+2014-09-22,14,3,Castle Club F,Portslade Sports C,3,2
+2014-09-22,14,3,Castle Club G,Champion House  B,5,0
+2014-09-22,14,3,St. Matthias D,Annunciation,3,2
+2014-09-15,14,3,Annunciation,Castle Club E,1,4
+2014-09-15,14,3,Champion House  B,St. Matthias D,2,3
+2014-09-15,14,3,Portslade Sports C,Castle Club G,1,4
+2014-09-08,14,3,Castle Club E,Champion House  B,3,2
+2014-09-08,14,3,Castle Club G,Castle Club F,4,1
+2014-09-08,14,3,St. Matthias D,Portslade Sports C,3,2
+2015-04-13,14,4,Castle Club H,Portslade Sports B,2,3
+2015-04-13,14,4,Champion House  C,Goldstone Ex Serv. B,4,1
+2015-04-13,14,4,Hove D.S. Anglers  B,N.A.R.C C,4,1
+2015-04-13,14,4,Southwick Sports  B,Moulsecoomb Club A,3,2
+2015-03-30,14,4,Champion House  C,Southwick Sports  B,2,3
+2015-03-30,14,4,Goldstone Ex Serv. B,N.A.R.C C,1,4
+2015-03-30,14,4,Moulsecoomb Club A,Castle Club H,0,5
+2015-03-30,14,4,Portslade Sports B,Hove D.S. Anglers  B,2,3
+2015-03-23,14,4,Castle Club H,Champion House  C,4,1
+2015-03-23,14,4,Hove D.S. Anglers  B,Moulsecoomb Club A,1,4
+2015-03-23,14,4,N.A.R.C C,Portslade Sports B,2,3
+2015-03-23,14,4,Southwick Sports  B,Goldstone Ex Serv. B,2,3
+2015-03-16,14,4,Champion House  C,Hove D.S. Anglers  B,4,1
+2015-03-16,14,4,Goldstone Ex Serv. B,Portslade Sports B,1,4
+2015-03-16,14,4,Moulsecoomb Club A,N.A.R.C C,3,2
+2015-03-16,14,4,Southwick Sports  B,Castle Club H,2,3
+2015-03-09,14,4,Castle Club H,Goldstone Ex Serv. B,5,0
+2015-03-09,14,4,Hove D.S. Anglers  B,Southwick Sports  B,3,2
+2015-03-09,14,4,N.A.R.C C,Champion House  C,5,0
+2015-03-09,14,4,Portslade Sports B,Moulsecoomb Club A,2,3
+2015-03-02,14,4,Castle Club H,Hove D.S. Anglers  B,1,4
+2015-03-02,14,4,Champion House  C,Portslade Sports B,2,3
+2015-03-02,14,4,Goldstone Ex Serv. B,Moulsecoomb Club A,3,2
+2015-03-02,14,4,Southwick Sports  B,N.A.R.C C,3,2
+2015-02-23,14,4,Hove D.S. Anglers  B,Goldstone Ex Serv. B,4,1
+2015-02-23,14,4,Moulsecoomb Club A,Champion House  C,1,4
+2015-02-23,14,4,N.A.R.C C,Castle Club H,3,2
+2015-02-23,14,4,Portslade Sports B,Southwick Sports  B,4,1
+2015-02-16,14,4,Goldstone Ex Serv. B,Champion House  C,3,2
+2015-02-16,14,4,Moulsecoomb Club A,Southwick Sports  B,3,2
+2015-02-16,14,4,N.A.R.C C,Hove D.S. Anglers  B,2,3
+2015-02-16,14,4,Portslade Sports B,Castle Club H,3,2
+2015-02-09,14,4,Castle Club H,Moulsecoomb Club A,4,1
+2015-02-09,14,4,Hove D.S. Anglers  B,Portslade Sports B,4,1
+2015-02-09,14,4,N.A.R.C C,Goldstone Ex Serv. B,3,2
+2015-02-09,14,4,Southwick Sports  B,Champion House  C,4,1
+2015-02-02,14,4,Champion House  C,Castle Club H,1,4
+2015-02-02,14,4,Goldstone Ex Serv. B,Southwick Sports  B,3,2
+2015-02-02,14,4,Moulsecoomb Club A,Hove D.S. Anglers  B,0,5
+2015-02-02,14,4,Portslade Sports B,N.A.R.C C,3,2
+2015-01-26,14,4,Castle Club H,Southwick Sports  B,5,0
+2015-01-26,14,4,Hove D.S. Anglers  B,Champion House  C,4,1
+2015-01-26,14,4,N.A.R.C C,Moulsecoomb Club A,3,2
+2015-01-26,14,4,Portslade Sports B,Goldstone Ex Serv. B,3,2
+2015-01-19,14,4,Champion House  C,N.A.R.C C,3,2
+2015-01-19,14,4,Goldstone Ex Serv. B,Castle Club H,0,5
+2015-01-19,14,4,Moulsecoomb Club A,Portslade Sports B,2,3
+2015-01-19,14,4,Southwick Sports  B,Hove D.S. Anglers  B,2,3
+2015-01-12,14,4,Hove D.S. Anglers  B,Castle Club H,2,3
+2015-01-12,14,4,Moulsecoomb Club A,Goldstone Ex Serv. B,3,2
+2015-01-12,14,4,N.A.R.C C,Southwick Sports  B,1,4
+2015-01-12,14,4,Portslade Sports B,Champion House  C,3,2
+2015-01-05,14,4,Castle Club H,N.A.R.C C,3,2
+2015-01-05,14,4,Champion House  C,Moulsecoomb Club A,1,4
+2015-01-05,14,4,Goldstone Ex Serv. B,Hove D.S. Anglers  B,1,4
+2015-01-05,14,4,Southwick Sports  B,Portslade Sports B,4,1
+2014-12-15,14,4,Castle Club H,Portslade Sports B,4,1
+2014-12-15,14,4,Champion House  C,Goldstone Ex Serv. B,4,1
+2014-12-15,14,4,Hove D.S. Anglers  B,N.A.R.C C,3,2
+2014-12-15,14,4,Southwick Sports  B,Moulsecoomb Club A,3,2
+2014-12-08,14,4,Champion House  C,Southwick Sports  B,1,4
+2014-12-08,14,4,Goldstone Ex Serv. B,N.A.R.C C,1,4
+2014-12-08,14,4,Moulsecoomb Club A,Castle Club H,0,5
+2014-12-08,14,4,Portslade Sports B,Hove D.S. Anglers  B,3,2
+2014-11-24,14,4,Castle Club H,Champion House  C,5,0
+2014-11-24,14,4,Hove D.S. Anglers  B,Moulsecoomb Club A,3,2
+2014-11-24,14,4,N.A.R.C C,Portslade Sports B,1,4
+2014-11-24,14,4,Southwick Sports  B,Goldstone Ex Serv. B,3,2
+2014-11-17,14,4,Champion House  C,Hove D.S. Anglers  B,3,2
+2014-11-17,14,4,Goldstone Ex Serv. B,Portslade Sports B,3,2
+2014-11-17,14,4,Moulsecoomb Club A,N.A.R.C C,2,3
+2014-11-17,14,4,Southwick Sports  B,Castle Club H,0,5
+2014-11-10,14,4,Castle Club H,Goldstone Ex Serv. B,5,0
+2014-11-10,14,4,Hove D.S. Anglers  B,Southwick Sports  B,4,1
+2014-11-10,14,4,N.A.R.C C,Champion House  C,2,3
+2014-11-10,14,4,Portslade Sports B,Moulsecoomb Club A,3,2
+2014-11-03,14,4,Castle Club H,Hove D.S. Anglers  B,5,0
+2014-11-03,14,4,Champion House  C,Portslade Sports B,2,3
+2014-11-03,14,4,Goldstone Ex Serv. B,Moulsecoomb Club A,0,5
+2014-11-03,14,4,Southwick Sports  B,N.A.R.C C,2,3
+2014-10-27,14,4,Hove D.S. Anglers  B,Goldstone Ex Serv. B,3,2
+2014-10-27,14,4,Moulsecoomb Club A,Champion House  C,1,4
+2014-10-27,14,4,N.A.R.C C,Castle Club H,1,4
+2014-10-27,14,4,Portslade Sports B,Southwick Sports  B,4,1
+2014-10-20,14,4,Goldstone Ex Serv. B,Champion House  C,1,4
+2014-10-20,14,4,Moulsecoomb Club A,Southwick Sports  B,2,3
+2014-10-20,14,4,N.A.R.C C,Hove D.S. Anglers  B,3,2
+2014-10-20,14,4,Portslade Sports B,Castle Club H,2,3
+2014-10-13,14,4,Castle Club H,Moulsecoomb Club A,4,1
+2014-10-13,14,4,Hove D.S. Anglers  B,Portslade Sports B,1,4
+2014-10-13,14,4,N.A.R.C C,Goldstone Ex Serv. B,3,2
+2014-10-13,14,4,Southwick Sports  B,Champion House  C,3,2
+2014-10-06,14,4,Champion House  C,Castle Club H,0,5
+2014-10-06,14,4,Goldstone Ex Serv. B,Southwick Sports  B,0,5
+2014-10-06,14,4,Moulsecoomb Club A,Hove D.S. Anglers  B,3,2
+2014-10-06,14,4,Portslade Sports B,N.A.R.C C,2,3
+2014-09-29,14,4,Castle Club H,Southwick Sports  B,5,0
+2014-09-29,14,4,Hove D.S. Anglers  B,Champion House  C,2,3
+2014-09-29,14,4,N.A.R.C C,Moulsecoomb Club A,1,4
+2014-09-29,14,4,Portslade Sports B,Goldstone Ex Serv. B,4,1
+2014-09-22,14,4,Champion House  C,N.A.R.C C,2,3
+2014-09-22,14,4,Goldstone Ex Serv. B,Castle Club H,1,4
+2014-09-22,14,4,Moulsecoomb Club A,Portslade Sports B,1,4
+2014-09-22,14,4,Southwick Sports  B,Hove D.S. Anglers  B,2,3
+2014-09-15,14,4,Hove D.S. Anglers  B,Castle Club H,1,4
+2014-09-15,14,4,Moulsecoomb Club A,Goldstone Ex Serv. B,3,2
+2014-09-15,14,4,N.A.R.C C,Southwick Sports  B,1,4
+2014-09-15,14,4,Portslade Sports B,Champion House  C,3,2
+2014-09-08,14,4,Castle Club H,N.A.R.C C,3,2
+2014-09-08,14,4,Champion House  C,Moulsecoomb Club A,0,5
+2014-09-08,14,4,Goldstone Ex Serv. B,Hove D.S. Anglers  B,3,2
+2014-09-08,14,4,Southwick Sports  B,Portslade Sports B,3,2
+2015-04-13,14,5,Champion House  D,Castle Club J,4,1
+2015-04-13,14,5,Moulsecoomb Club B,Southwick Sports  C,2,3
+2015-04-13,14,5,Portslade Legion,N.A.R.C B,5,0
+2015-03-30,14,5,Castle Club J,N.A.R.C B,5,0
+2015-03-30,14,5,Champion House  D,Preston Club,3,2
+2015-03-30,14,5,Southwick Sports  C,Portslade Legion,1,4
+2015-03-23,14,5,Moulsecoomb Club B,Champion House  D,0,5
+2015-03-23,14,5,N.A.R.C B,Southwick Sports  C,2,3
+2015-03-23,14,5,Preston Club,Castle Club J,2,3
+2015-03-16,14,5,Castle Club J,Southwick Sports  C,4,1
+2015-03-16,14,5,Champion House  D,Portslade Legion,3,2
+2015-03-16,14,5,Preston Club,Moulsecoomb Club B,4,1
+2015-03-09,14,5,Moulsecoomb Club B,Castle Club J,1,4
+2015-03-09,14,5,N.A.R.C B,Champion House  D,1,4
+2015-03-09,14,5,Portslade Legion,Preston Club,3,2
+2015-03-02,14,5,Champion House  D,Southwick Sports  C,2,3
+2015-03-02,14,5,Moulsecoomb Club B,Portslade Legion,2,3
+2015-03-02,14,5,Preston Club,N.A.R.C B,4,1
+2015-02-23,14,5,N.A.R.C B,Moulsecoomb Club B,4,1
+2015-02-23,14,5,Portslade Legion,Castle Club J,2,3
+2015-02-23,14,5,Southwick Sports  C,Preston Club,3,2
+2015-02-16,14,5,Castle Club J,Champion House  D,1,4
+2015-02-16,14,5,N.A.R.C B,Portslade Legion,3,2
+2015-02-16,14,5,Southwick Sports  C,Moulsecoomb Club B,2,3
+2015-02-09,14,5,N.A.R.C B,Castle Club J,2,3
+2015-02-09,14,5,Portslade Legion,Southwick Sports  C,3,2
+2015-02-09,14,5,Preston Club,Champion House  D,2,3
+2015-02-02,14,5,Castle Club J,Preston Club,3,2
+2015-02-02,14,5,Champion House  D,Moulsecoomb Club B,5,0
+2015-02-02,14,5,Southwick Sports  C,N.A.R.C B,5,0
+2015-01-26,14,5,Moulsecoomb Club B,Preston Club,2,3
+2015-01-26,14,5,Portslade Legion,Champion House  D,1,4
+2015-01-26,14,5,Southwick Sports  C,Castle Club J,3,2
+2015-01-19,14,5,Castle Club J,Moulsecoomb Club B,2,3
+2015-01-19,14,5,Champion House  D,N.A.R.C B,3,2
+2015-01-19,14,5,Preston Club,Portslade Legion,4,1
+2015-01-12,14,5,N.A.R.C B,Preston Club,4,1
+2015-01-12,14,5,Portslade Legion,Moulsecoomb Club B,3,2
+2015-01-12,14,5,Southwick Sports  C,Champion House  D,2,3
+2015-01-05,14,5,Castle Club J,Portslade Legion,2,3
+2015-01-05,14,5,Moulsecoomb Club B,N.A.R.C B,1,4
+2015-01-05,14,5,Preston Club,Southwick Sports  C,1,4
+2014-12-15,14,5,Champion House  D,Castle Club J,5,0
+2014-12-15,14,5,Moulsecoomb Club B,Southwick Sports  C,2,3
+2014-12-15,14,5,Portslade Legion,N.A.R.C B,5,0
+2014-12-08,14,5,Castle Club J,N.A.R.C B,4,1
+2014-12-08,14,5,Champion House  D,Preston Club,2,3
+2014-12-08,14,5,Southwick Sports  C,Portslade Legion,2,3
+2014-11-24,14,5,Moulsecoomb Club B,Champion House  D,1,4
+2014-11-24,14,5,N.A.R.C B,Southwick Sports  C,2,3
+2014-11-24,14,5,Preston Club,Castle Club J,2,3
+2014-11-17,14,5,Castle Club J,Southwick Sports  C,3,2
+2014-11-17,14,5,Champion House  D,Portslade Legion,2,3
+2014-11-17,14,5,Preston Club,Moulsecoomb Club B,4,1
+2014-11-10,14,5,Moulsecoomb Club B,Castle Club J,3,2
+2014-11-10,14,5,N.A.R.C B,Champion House  D,2,3
+2014-11-10,14,5,Portslade Legion,Preston Club,3,2
+2014-11-03,14,5,Champion House  D,Southwick Sports  C,3,2
+2014-11-03,14,5,Moulsecoomb Club B,Portslade Legion,2,3
+2014-11-03,14,5,Preston Club,N.A.R.C B,1,4
+2014-10-27,14,5,N.A.R.C B,Moulsecoomb Club B,0,5
+2014-10-27,14,5,Portslade Legion,Castle Club J,2,3
+2014-10-27,14,5,Southwick Sports  C,Preston Club,3,2
+2014-10-20,14,5,Castle Club J,Champion House  D,4,1
+2014-10-20,14,5,N.A.R.C B,Portslade Legion,3,2
+2014-10-20,14,5,Southwick Sports  C,Moulsecoomb Club B,1,4
+2014-10-13,14,5,N.A.R.C B,Castle Club J,4,1
+2014-10-13,14,5,Portslade Legion,Southwick Sports  C,3,2
+2014-10-13,14,5,Preston Club,Champion House  D,2,3
+2014-10-06,14,5,Castle Club J,Preston Club,3,2
+2014-10-06,14,5,Champion House  D,Moulsecoomb Club B,4,1
+2014-10-06,14,5,Southwick Sports  C,N.A.R.C B,3,2
+2014-09-29,14,5,Moulsecoomb Club B,Preston Club,3,2
+2014-09-29,14,5,Portslade Legion,Champion House  D,3,2
+2014-09-29,14,5,Southwick Sports  C,Castle Club J,1,4
+2014-09-22,14,5,Castle Club J,Moulsecoomb Club B,4,1
+2014-09-22,14,5,Champion House  D,N.A.R.C B,5,0
+2014-09-22,14,5,Preston Club,Portslade Legion,0,5
+2014-09-15,14,5,N.A.R.C B,Preston Club,3,2
+2014-09-15,14,5,Portslade Legion,Moulsecoomb Club B,3,2
+2014-09-15,14,5,Southwick Sports  C,Champion House  D,2,3
+2014-09-08,14,5,Castle Club J,Portslade Legion,2,3
+2014-09-08,14,5,Moulsecoomb Club B,N.A.R.C B,3,2
+2014-09-08,14,5,Preston Club,Southwick Sports  C,1,4
+2016-04-11,15,1,N.A.R.C A,Castle Club  A,3,2
+2016-04-14,15,2,St. Matthias D,Southwick Sports  A,NA,NA
+2016-04-11,15,2,Hove D.S. Anglers  A,Annunciation B,2,3
+2016-04-04,15,2,Annunciation B,Castle Club H,5,0
+2016-03-21,15,2,Castle Club H,Castle Club G,5,0
+2016-03-21,15,2,Goldstone Ex Serv. A,Southwick Sports  A,NA,NA
+2016-03-14,15,2,Southwick Sports  A,Annunciation B,NA,NA
+2016-03-14,15,2,St. Matthias D,Castle Club H,5,0
+2016-03-07,15,2,Hove D.S. Anglers  A,Southwick Sports  A,NA,NA
+2016-02-29,15,2,Southwick Sports  A,Castle Club G,NA,NA
+2016-02-22,15,2,Castle Club H,Southwick Sports  A,NA,NA
+2016-02-15,15,2,Southwick Sports  A,St. Matthias D,NA,NA
+2016-02-01,15,2,Southwick Sports  A,Goldstone Ex Serv. A,NA,NA
+2016-01-25,15,2,Annunciation B,Southwick Sports  A,NA,NA
+2016-01-18,15,2,Southwick Sports  A,Hove D.S. Anglers  A,NA,NA
+2016-01-11,15,2,Castle Club G,Southwick Sports  A,NA,NA
+2016-01-04,15,2,Southwick Sports  A,Castle Club H,NA,NA
+2016-01-04,15,2,St. Matthias D,Castle Club G,5,0
+2015-12-14,15,2,St. Matthias D,Southwick Sports  A,5,0
+2015-12-07,15,2,Castle Club G,Hove D.S. Anglers  A,0,5
+2015-11-30,15,2,Castle Club H,Castle Club G,5,0
+2015-11-02,15,2,Castle Club G,St. Matthias D,0,5
+2016-04-11,15,3,Castle Club  D,Champion House  D,5,0
+2016-04-04,15,3,Castle Club F,Champion House  D,5,0
+2016-02-29,15,3,Champion House  A,Champion House  D,4,1
+2016-04-18,15,4,Moulsecoomb Club A,St. Matthias E,2,3
+2016-04-18,15,4,N.A.R.C C,Portslade Sports,2,3
+2016-04-18,15,4,Portslade Legion,Annunciation  A,0,5
+2016-04-04,15,4,N.A.R.C C,Portslade Legion,3,2
+2016-04-18,15,5,Castle Club J,Moulsecoomb Club B,3,2
+2016-04-18,15,5,Preston Club,N.A.R.C B,5,0
+2016-04-18,15,5,Southwick Sports  B,Goldstone Ex Serv. B,3,2
+2016-04-11,15,5,N.A.R.C B,Goldstone Ex Serv. B,0,5
+2016-04-04,15,5,Castle Club J,N.A.R.C B,5,0
+2016-03-21,15,5,N.A.R.C B,Moulsecoomb Club B,2,3
+2016-03-14,15,5,Southwick Sports  B,N.A.R.C B,5,0
+2016-03-07,15,5,N.A.R.C B,Preston Club,2,3
+2016-02-29,15,5,Castle Club J,Preston Club,2,3
+2016-02-29,15,5,Goldstone Ex Serv. B,N.A.R.C B,5,0
+2016-02-22,15,5,N.A.R.C B,Castle Club J,0,5
+2016-02-15,15,5,Moulsecoomb Club B,N.A.R.C B,5,0
+2016-02-08,15,5,N.A.R.C B,Southwick Sports  B,2,3
+2016-02-01,15,5,Preston Club,N.A.R.C B,4,1
+2016-01-25,15,5,N.A.R.C B,Goldstone Ex Serv. B,3,2
+2016-01-18,15,5,Castle Club J,N.A.R.C B,5,0
+2016-01-11,15,5,N.A.R.C B,Moulsecoomb Club B,2,3
+2016-01-04,15,5,Southwick Sports  B,N.A.R.C B,5,0
+2015-12-21,15,5,N.A.R.C B,Preston Club,0,5
+2015-12-14,15,5,Goldstone Ex Serv. B,N.A.R.C B,3,2
+2015-12-07,15,5,N.A.R.C B,Castle Club J,2,3
+2015-11-30,15,5,Moulsecoomb Club B,N.A.R.C B,4,1
+2015-11-23,15,5,N.A.R.C B,Southwick Sports  B,2,3
+2015-11-16,15,5,Preston Club,N.A.R.C B,3,2
+2015-11-09,15,5,N.A.R.C B,Goldstone Ex Serv. B,1,4
+2015-11-02,15,5,Castle Club J,N.A.R.C B,4,1
+2015-10-26,15,5,N.A.R.C B,Moulsecoomb Club B,2,3
+2015-10-19,15,5,Southwick Sports  B,N.A.R.C B,3,2
+2015-10-12,15,5,N.A.R.C B,Preston Club,1,4
+2015-10-05,15,5,Goldstone Ex Serv. B,N.A.R.C B,2,3
+2015-09-28,15,5,N.A.R.C B,Castle Club J,0,5
+2015-09-21,15,5,Moulsecoomb Club B,N.A.R.C B,4,1
+2015-09-14,15,5,N.A.R.C B,Southwick Sports  B,2,2
+2017-03-06,16,1,Castle Club H,Castle Club E,6,0
+2017-02-27,16,1,St. Matthias B,Castle Club H,6,0
+2017-01-30,16,1,Castle Club E,St. Matthias A,0,6
+2017-04-10,16,4,N.A.R.C B,Moulsecoomb Club A,2,3
+2017-04-03,16,4,N.A.R.C B,Goldstone Ex Serv. B,3,2
+2017-04-03,16,4,Preston Club,Portslade Legion,1,4
+2017-03-27,16,4,Portslade Legion,N.A.R.C B,3,2
+2017-03-20,16,4,N.A.R.C B,Moulsecoomb Club B,3,1
+2017-03-13,16,4,Southwick Sports,N.A.R.C B,4,1
+2017-03-06,16,4,N.A.R.C B,Annunciation  A,3,2
+2017-02-27,16,4,Preston Club,N.A.R.C B,2,3
+2017-02-20,16,4,Moulsecoomb Club A,N.A.R.C B,3,2
+2017-02-13,16,4,Goldstone Ex Serv. B,N.A.R.C B,4,1
+2017-02-06,16,4,N.A.R.C B,Portslade Legion,2,3
+2017-01-30,16,4,Moulsecoomb Club B,N.A.R.C B,2,3
+2017-01-23,16,4,N.A.R.C B,Southwick Sports,2,3
+2017-01-16,16,4,Annunciation  A,N.A.R.C B,3,2
+2017-01-16,16,4,Preston Club,Moulsecoomb Club A,2,3
+2017-01-09,16,4,N.A.R.C B,Preston Club,2,3
+2016-12-19,16,4,N.A.R.C B,Moulsecoomb Club A,2,3
+2016-12-12,16,4,N.A.R.C B,Goldstone Ex Serv. B,3,2
+2016-12-12,16,4,Preston Club,Portslade Legion,0,5
+2016-11-28,16,4,Portslade Legion,N.A.R.C B,3,2
+2016-11-21,16,4,N.A.R.C B,Moulsecoomb Club B,2,3
+2016-11-14,16,4,Southwick Sports,N.A.R.C B,5,0
+2016-11-07,16,4,N.A.R.C B,Annunciation  A,3,2
+2016-10-31,16,4,Preston Club,N.A.R.C B,3,2
+2016-10-24,16,4,Moulsecoomb Club A,N.A.R.C B,2,3
+2016-10-17,16,4,Goldstone Ex Serv. B,N.A.R.C B,5,0
+2016-10-10,16,4,N.A.R.C B,Portslade Legion,1,4
+2016-10-03,16,4,Moulsecoomb Club B,N.A.R.C B,1,4
+2016-09-26,16,4,N.A.R.C B,Southwick Sports,2,3
+2016-09-19,16,4,Annunciation  A,N.A.R.C B,3,2
+2016-09-12,16,4,N.A.R.C B,Preston Club,4,1
+2018-03-12,17,1,N.A.R.C A,St. Matthias B,3,3
+2018-03-05,17,1,St. Matthias A,Castle Club  B,6,0
+2018-02-26,17,1,N.A.R.C A,Castle Club  A,3,3
+2018-02-19,17,1,N.A.R.C A,St. Matthias C,1,5
+2018-01-22,17,1,St. Matthias A,Castle Club  A,1,5
+2017-12-11,17,1,St. Matthias A,N.A.R.C A,2,4
+2017-11-27,17,1,Castle Club  C,St. Matthias A,5,1
+2017-11-13,17,1,St. Matthias C,Castle Club  C,6,0
+2017-10-30,17,1,St. Matthias C,St. Matthias A,5,1
+2017-09-18,17,1,N.A.R.C A,Castle Club  C,4,2
+2017-09-18,17,1,St. Matthias C,Castle Club  A,4,2
+2017-09-11,17,1,Castle Club  A,N.A.R.C A,5,1
+2017-09-11,17,1,St. Matthias B,Castle Club  B,2,4
+2018-04-16,17,2,Annunciation B,Castle Club G,3,2
+2018-02-05,17,2,Goldstone Ex Serv. A,Hove D.S. Anglers  A,3,2
+2018-04-09,17,3,St. Matthias E,Castle Club F,2,3
+2018-02-26,17,3,N.A.R.C C,Moulsecoomb Club A,2,3
+2018-04-16,17,4,N.A.R.C B,Preston Club,1,4
+2018-04-09,17,4,N.A.R.C B,Southwick Sports  B,2,3
+2018-03-26,17,4,Portslade Legion,N.A.R.C B,1,4
+2018-03-19,17,4,N.A.R.C B,Champion House  B,2,3
+2018-03-12,17,4,Goldstone Ex Serv. B,N.A.R.C B,4,1
+2018-03-05,17,4,N.A.R.C B,Annunciation  A,2,3
+2018-02-26,17,4,Annunciation  A,Southwick Sports  B,5,0
+2018-02-26,17,4,Moulsecoomb Club B,N.A.R.C B,0,5
+2018-02-19,17,4,Preston Club,N.A.R.C B,4,1
+2018-02-12,17,4,Southwick Sports  B,N.A.R.C B,2,3
+2018-02-05,17,4,N.A.R.C B,Portslade Legion,2,3
+2018-01-29,17,4,Champion House  B,N.A.R.C B,3,2
+2018-01-22,17,4,N.A.R.C B,Goldstone Ex Serv. B,2,3
+2018-01-15,17,4,Annunciation  A,N.A.R.C B,4,1
+2018-01-08,17,4,N.A.R.C B,Moulsecoomb Club B,4,1
+2017-12-18,17,4,N.A.R.C B,Preston Club,1,4
+2017-12-11,17,4,N.A.R.C B,Southwick Sports  B,3,2
+2017-11-27,17,4,Portslade Legion,N.A.R.C B,5,0
+2017-11-20,17,4,Moulsecoomb Club B,Goldstone Ex Serv. B,0,5
+2017-11-20,17,4,N.A.R.C B,Champion House  B,0,5
+2017-11-13,17,4,Goldstone Ex Serv. B,N.A.R.C B,2,3
+2017-11-06,17,4,N.A.R.C B,Annunciation  A,2,3
+2017-10-30,17,4,Moulsecoomb Club B,N.A.R.C B,2,3
+2017-10-23,17,4,Preston Club,N.A.R.C B,5,0
+2017-10-16,17,4,Southwick Sports  B,N.A.R.C B,3,2
+2017-10-09,17,4,N.A.R.C B,Portslade Legion,2,3
+2017-10-02,17,4,Champion House  B,N.A.R.C B,NA,NA
+2017-09-25,17,4,N.A.R.C B,Goldstone Ex Serv. B,2,3
+2017-09-18,17,4,Annunciation  A,N.A.R.C B,4,1
+2017-09-11,17,4,N.A.R.C B,Moulsecoomb Club B,4,1
+2019-04-08,18,1,Annunciation B,Castle Club  B,NA,NA
+2019-04-08,18,1,Castle Club  A,Castle Club  C,6,0
+2019-04-08,18,1,St. Matthias B,St. Matthias A,2,4
+2019-04-08,18,1,St. Matthias C,N.A.R.C A,6,0
+2019-04-08,18,2,Hove D.S. Anglers  A,Goldstone Ex Serv. A,5,0
+2019-04-08,18,2,Portslade Sports A,St. Matthias D,1,4
+2019-04-08,18,2,St. Matthias E,Champion House  A,3,2
+2019-04-01,18,2,Castle Club G,Hove D.S. Anglers  A,1,4
+2019-04-01,18,2,Champion House  A,St. Matthias D,4,1
+2019-04-01,18,2,Goldstone Ex Serv. A,Portslade Sports A,3,2
+2019-03-04,18,2,St. Matthias E,Goldstone Ex Serv. A,2,3
+2019-02-18,18,2,Goldstone Ex Serv. A,Hove D.S. Anglers  A,4,1
+2019-02-04,18,2,St. Matthias E,Hove D.S. Anglers  A,1,4
+2019-01-14,18,2,Goldstone Ex Serv. A,St. Matthias E,2,3
+2018-11-19,18,2,St. Matthias E,Portslade Sports A,4,1
+2018-11-05,18,2,St. Matthias E,Goldstone Ex Serv. A,4,1
+2018-10-22,18,2,Goldstone Ex Serv. A,Hove D.S. Anglers  A,2,3
+2018-10-08,18,2,St. Matthias E,Hove D.S. Anglers  A,2,3
+2018-09-17,18,2,Goldstone Ex Serv. A,St. Matthias E,3,2
+2019-04-08,18,3,Castle Club F,Hove D.S. Anglers  B,5,0
+2019-04-08,18,3,Moulsecoomb Club A,Annunciation C,3,2
+2019-04-08,18,3,Preston Club,Portslade Sports B,4,1
+2018-12-17,18,4,N.A.R.C B,Southwick Sports  B,1,4
+2018-12-10,18,4,Southwick Sports  B,N.A.R.C C,0,5
+2018-10-29,18,4,Annunciation  A,Goldstone Ex Serv. B,2,3
+2018-10-29,18,4,Champion House  B,Southwick Sports  B,1,4
+2018-10-29,18,4,Moulsecoomb Club B,N.A.R.C B,2,3
+2018-10-29,18,4,N.A.R.C C,Portslade Legion,3,2
+2018-10-22,18,4,Annunciation  A,Portslade Legion,4,1
+2018-10-22,18,4,Moulsecoomb Club B,Goldstone Ex Serv. B,2,3
+2018-10-22,18,4,N.A.R.C C,Champion House  B,3,2
+2018-10-22,18,4,Southwick Sports  B,N.A.R.C B,3,2
+2018-10-15,18,4,Champion House  B,Annunciation  A,1,4
+2018-10-15,18,4,Goldstone Ex Serv. B,N.A.R.C B,2,3
+2018-10-15,18,4,N.A.R.C C,Southwick Sports  B,3,2
+2018-10-15,18,4,Portslade Legion,Moulsecoomb Club B,2,3
+2018-10-08,18,4,Annunciation  A,N.A.R.C C,2,3
+2018-10-08,18,4,Moulsecoomb Club B,Champion House  B,1,4
+2018-10-08,18,4,N.A.R.C B,Portslade Legion,4,1
+2018-10-08,18,4,Southwick Sports  B,Goldstone Ex Serv. B,0,5
+2018-10-01,18,4,Annunciation  A,Southwick Sports  B,4,1
+2018-10-01,18,4,Champion House  B,N.A.R.C B,3,2
+2018-10-01,18,4,N.A.R.C C,Moulsecoomb Club B,3,2
+2018-10-01,18,4,Portslade Legion,Goldstone Ex Serv. B,2,3
+2018-09-24,18,4,N.A.R.C B,N.A.R.C C,0,5
+2018-09-17,18,4,Annunciation  A,N.A.R.C B,4,1
+2018-09-17,18,4,Champion House  B,Portslade Legion,3,2
+2018-09-10,18,4,N.A.R.C B,Moulsecoomb Club B,4,1
