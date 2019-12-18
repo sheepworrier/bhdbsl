@@ -110,6 +110,20 @@ scrape_match_page <-
                    stringsAsFactors = FALSE)
       frame_scores$fixture_date <-
         as.Date(frame_scores$fixture_date, origin = "1970-01-01")
+    } else {
+      frame_scores <-
+        data.frame(fixture_date = as.Date(character()),
+                   season = numeric(),
+                   division = numeric(),
+                   home_team = character(),
+                   away_team = character(),
+                   home_player_id = character(),
+                   home_player_name = character(),
+                   home_score = numeric(),
+                   away_player_id = character(),
+                   away_player_name = character(),
+                   away_score = numeric(),
+                   stringsAsFactors = FALSE)
     }
     # Look for the table of breaks which may or may not exist
     potential_break_tables <- scrape(session) %>%
