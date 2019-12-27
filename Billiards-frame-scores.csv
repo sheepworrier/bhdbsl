@@ -1,0 +1,746 @@
+fixture_date,season,division,home_team,away_team,home_player_id,home_player_name,home_score,away_player_id,away_player_name,away_score
+2016-04-06,15,1,Annunciation B,St. Mathias,132292473,Terry Mills,200,291118927,John Da Silva,158
+2016-04-06,15,1,Annunciation B,St. Mathias,715839724,Chris Mason,200,983276809,David Gillingham,160
+2016-04-06,15,1,Annunciation B,St. Mathias,104037073,Mike Palmer,158,271881781,Lester Grice,200
+2016-04-06,15,1,Champion House,Moulsecoomb  B,37136679,Robert (Bob) Jay,173,546240999,Trevor Caine,200
+2016-04-06,15,1,Champion House,Moulsecoomb  B,578580599,Ian Smith,200,409261140,Fred Cooper,150
+2016-04-06,15,1,Champion House,Moulsecoomb  B,297844767,Mick Lott,186,138786345,Barry Thornton,200
+2016-03-30,15,1,Annunciation A,St. Mathias,588390605,DON PENALVER,143,291118927,John Da Silva,200
+2016-03-30,15,1,Annunciation A,St. Mathias,283685400,Barry Martin,200,745337044,John Muzio,144
+2016-03-30,15,1,Annunciation A,St. Mathias,908008030,Geoff Randall,200,186254812,Nathan Brooks,193
+2016-03-30,15,1,Moulsecoomb  B,Moulsecoomb  A,896685756,Ian Fennell,200,165845675,Tyrone Davis,188
+2016-03-30,15,1,Moulsecoomb  B,Moulsecoomb  A,229907739,Maurice Wickens,195,649511222,Stuart Maplesden,200
+2016-03-30,15,1,Moulsecoomb  B,Moulsecoomb  A,409261140,Fred Cooper,198,370299078,Michael Childs,200
+2016-03-23,15,1,Annunciation B,Moulsecoomb  B,715839724,Chris Mason,200,546240999,Trevor Caine,113
+2016-03-23,15,1,Annunciation B,Moulsecoomb  B,132292473,Terry Mills,179,896685756,Ian Fennell,200
+2016-03-23,15,1,Annunciation B,Moulsecoomb  B,132292473,Terry Mills,116,409261140,Fred Cooper,200
+2016-03-23,15,1,Champion House,Annunciation A,37136679,Robert (Bob) Jay,188,588390605,DON PENALVER,200
+2016-03-23,15,1,Champion House,Annunciation A,578580599,Ian Smith,139,283685400,Barry Martin,200
+2016-03-23,15,1,Champion House,Annunciation A,297844767,Mick Lott,108,908008030,Geoff Randall,200
+2016-03-23,15,1,Moulsecoomb  A,St. Mathias,176460812,Robin Powell,169,745337044,John Muzio,200
+2016-03-23,15,1,Moulsecoomb  A,St. Mathias,370299078,Michael Childs,200,983276809,David Gillingham,169
+2016-03-23,15,1,Moulsecoomb  A,St. Mathias,649511222,Stuart Maplesden,200,186254812,Nathan Brooks,196
+2016-03-16,15,1,Champion House,Moulsecoomb  A,297844767,Mick Lott,200,649511222,Stuart Maplesden,151
+2016-03-16,15,1,Champion House,Moulsecoomb  A,37136679,Robert (Bob) Jay,116,370299078,Michael Childs,200
+2016-03-16,15,1,Champion House,Moulsecoomb  A,578580599,Ian Smith,200,176460812,Robin Powell,156
+2016-03-16,15,1,Moulsecoomb  B,St. Mathias,896685756,Ian Fennell,200,291118927,John Da Silva,192
+2016-03-16,15,1,Moulsecoomb  B,St. Mathias,229907739,Maurice Wickens,200,983276809,David Gillingham,156
+2016-03-16,15,1,Moulsecoomb  B,St. Mathias,546240999,Trevor Caine,179,186254812,Nathan Brooks,200
+2016-03-09,15,1,Annunciation B,Champion House,715839724,Chris Mason,200,297844767,Mick Lott,131
+2016-03-09,15,1,Annunciation B,Champion House,132292473,Terry Mills,200,37136679,Robert (Bob) Jay,160
+2016-03-09,15,1,Annunciation B,Champion House,104037073,Mike Palmer,184,578580599,Ian Smith,200
+2016-03-09,15,1,Moulsecoomb  A,Annunciation A,176460812,Robin Powell,150,482444234,Richard Barrett,200
+2016-03-09,15,1,Moulsecoomb  A,Annunciation A,165845675,Tyrone Davis,174,283685400,Barry Martin,200
+2016-03-09,15,1,Moulsecoomb  A,Annunciation A,649511222,Stuart Maplesden,138,908008030,Geoff Randall,200
+2016-03-02,15,1,Annunciation A,Moulsecoomb  B,908008030,Geoff Randall,200,896685756,Ian Fennell,182
+2016-03-02,15,1,Annunciation A,Moulsecoomb  B,588390605,DON PENALVER,200,546240999,Trevor Caine,177
+2016-03-02,15,1,Annunciation A,Moulsecoomb  B,482444234,Richard Barrett,200,409261140,Fred Cooper,123
+2016-03-02,15,1,Champion House,St. Mathias,37136679,Robert (Bob) Jay,200,745337044,John Muzio,161
+2016-03-02,15,1,Champion House,St. Mathias,297844767,Mick Lott,176,983276809,David Gillingham,200
+2016-03-02,15,1,Champion House,St. Mathias,578580599,Ian Smith,200,186254812,Nathan Brooks,187
+2016-03-02,15,1,Moulsecoomb  A,Annunciation B,165845675,Tyrone Davis,197,715839724,Chris Mason,200
+2016-03-02,15,1,Moulsecoomb  A,Annunciation B,176460812,Robin Powell,200,104037073,Mike Palmer,192
+2016-03-02,15,1,Moulsecoomb  A,Annunciation B,370299078,Michael Childs,185,532826446,Tony Shipley,200
+2016-02-24,15,1,Annunciation B,Annunciation A,715839724,Chris Mason,144,908008030,Geoff Randall,200
+2016-02-24,15,1,Annunciation B,Annunciation A,132292473,Terry Mills,148,283685400,Barry Martin,200
+2016-02-24,15,1,Annunciation B,Annunciation A,532826446,Tony Shipley,88,482444234,Richard Barrett,200
+2016-02-24,15,1,St. Mathias,Moulsecoomb  A,291118927,John Da Silva,152,370299078,Michael Childs,200
+2016-02-24,15,1,St. Mathias,Moulsecoomb  A,745337044,John Muzio,200,176460812,Robin Powell,179
+2016-02-24,15,1,St. Mathias,Moulsecoomb  A,186254812,Nathan Brooks,161,649511222,Stuart Maplesden,200
+2016-02-17,15,1,Moulsecoomb  B,Champion House,896685756,Ian Fennell,200,37136679,Robert (Bob) Jay,102
+2016-02-17,15,1,Moulsecoomb  B,Champion House,409261140,Fred Cooper,184,578580599,Ian Smith,200
+2016-02-17,15,1,Moulsecoomb  B,Champion House,229907739,Maurice Wickens,200,297844767,Mick Lott,110
+2016-02-17,15,1,St. Mathias,Annunciation B,983276809,David Gillingham,110,715839724,Chris Mason,200
+2016-02-17,15,1,St. Mathias,Annunciation B,186254812,Nathan Brooks,153,132292473,Terry Mills,200
+2016-02-17,15,1,St. Mathias,Annunciation B,271881781,Lester Grice,168,104037073,Mike Palmer,200
+2016-02-10,15,1,Moulsecoomb  A,Moulsecoomb  B,165845675,Tyrone Davis,182,896685756,Ian Fennell,200
+2016-02-10,15,1,Moulsecoomb  A,Moulsecoomb  B,370299078,Michael Childs,192,546240999,Trevor Caine,200
+2016-02-10,15,1,Moulsecoomb  A,Moulsecoomb  B,649511222,Stuart Maplesden,200,138786345,Barry Thornton,147
+2016-02-10,15,1,St. Mathias,Annunciation A,983276809,David Gillingham,149,283685400,Barry Martin,200
+2016-02-10,15,1,St. Mathias,Annunciation A,186254812,Nathan Brooks,200,482444234,Richard Barrett,182
+2016-02-10,15,1,St. Mathias,Annunciation A,745337044,John Muzio,141,588390605,DON PENALVER,200
+2016-02-03,15,1,Annunciation A,Champion House,482444234,Richard Barrett,200,297844767,Mick Lott,166
+2016-02-03,15,1,Annunciation A,Champion House,908008030,Geoff Randall,200,37136679,Robert (Bob) Jay,106
+2016-02-03,15,1,Annunciation A,Champion House,588390605,DON PENALVER,187,578580599,Ian Smith,200
+2016-02-03,15,1,Moulsecoomb  B,Annunciation B,138786345,Barry Thornton,155,715839724,Chris Mason,200
+2016-02-03,15,1,Moulsecoomb  B,Annunciation B,896685756,Ian Fennell,200,132292473,Terry Mills,159
+2016-02-03,15,1,Moulsecoomb  B,Annunciation B,409261140,Fred Cooper,154,532826446,Tony Shipley,200
+2016-01-27,15,1,Moulsecoomb  A,Champion House,176460812,Robin Powell,145,297844767,Mick Lott,200
+2016-01-27,15,1,Moulsecoomb  A,Champion House,370299078,Michael Childs,183,37136679,Robert (Bob) Jay,200
+2016-01-27,15,1,Moulsecoomb  A,Champion House,649511222,Stuart Maplesden,166,578580599,Ian Smith,200
+2016-01-27,15,1,St. Mathias,Moulsecoomb  B,291118927,John Da Silva,200,138786345,Barry Thornton,173
+2016-01-27,15,1,St. Mathias,Moulsecoomb  B,983276809,David Gillingham,200,409261140,Fred Cooper,183
+2016-01-27,15,1,St. Mathias,Moulsecoomb  B,186254812,Nathan Brooks,180,896685756,Ian Fennell,200
+2016-01-20,15,1,Annunciation A,Moulsecoomb  A,908008030,Geoff Randall,200,165845675,Tyrone Davis,180
+2016-01-20,15,1,Annunciation A,Moulsecoomb  A,588390605,DON PENALVER,175,370299078,Michael Childs,200
+2016-01-20,15,1,Annunciation A,Moulsecoomb  A,482444234,Richard Barrett,200,176460812,Robin Powell,152
+2016-01-20,15,1,Champion House,Annunciation B,297844767,Mick Lott,116,715839724,Chris Mason,200
+2016-01-20,15,1,Champion House,Annunciation B,37136679,Robert (Bob) Jay,175,132292473,Terry Mills,200
+2016-01-20,15,1,Champion House,Annunciation B,578580599,Ian Smith,200,532826446,Tony Shipley,196
+2016-01-13,15,1,Annunciation B,Moulsecoomb  A,715839724,Chris Mason,200,165845675,Tyrone Davis,198
+2016-01-13,15,1,Annunciation B,Moulsecoomb  A,132292473,Terry Mills,200,370299078,Michael Childs,192
+2016-01-13,15,1,Annunciation B,Moulsecoomb  A,104037073,Mike Palmer,176,176460812,Robin Powell,200
+2016-01-13,15,1,Moulsecoomb  B,Annunciation A,546240999,Trevor Caine,200,908008030,Geoff Randall,193
+2016-01-13,15,1,Moulsecoomb  B,Annunciation A,896685756,Ian Fennell,178,482444234,Richard Barrett,200
+2016-01-13,15,1,Moulsecoomb  B,Annunciation A,409261140,Fred Cooper,174,283685400,Barry Martin,200
+2016-01-13,15,1,St. Mathias,Champion House,983276809,David Gillingham,200,297844767,Mick Lott,187
+2016-01-13,15,1,St. Mathias,Champion House,291118927,John Da Silva,193,37136679,Robert (Bob) Jay,200
+2016-01-13,15,1,St. Mathias,Champion House,745337044,John Muzio,200,578580599,Ian Smith,196
+2016-01-06,15,1,Annunciation A,Annunciation B,482444234,Richard Barrett,167,715839724,Chris Mason,200
+2016-01-06,15,1,Annunciation A,Annunciation B,908008030,Geoff Randall,200,532826446,Tony Shipley,107
+2016-01-06,15,1,Annunciation A,Annunciation B,588390605,DON PENALVER,147,132292473,Terry Mills,200
+2015-12-16,15,1,Annunciation B,St. Mathias,532826446,Tony Shipley,200,745337044,John Muzio,123
+2015-12-16,15,1,Annunciation B,St. Mathias,715839724,Chris Mason,200,137561300,Freddie Blunden,68
+2015-12-16,15,1,Annunciation B,St. Mathias,132292473,Terry Mills,200,186254812,Nathan Brooks,193
+2015-12-16,15,1,Champion House,Moulsecoomb  B,37136679,Robert (Bob) Jay,200,546240999,Trevor Caine,175
+2015-12-16,15,1,Champion House,Moulsecoomb  B,578580599,Ian Smith,200,138786345,Barry Thornton,134
+2015-12-16,15,1,Champion House,Moulsecoomb  B,297844767,Mick Lott,186,409261140,Fred Cooper,200
+2015-12-09,15,1,Annunciation A,St. Mathias,588390605,DON PENALVER,192,745337044,John Muzio,200
+2015-12-09,15,1,Annunciation A,St. Mathias,908008030,Geoff Randall,197,291118927,John Da Silva,200
+2015-12-09,15,1,Annunciation A,St. Mathias,482444234,Richard Barrett,200,186254812,Nathan Brooks,147
+2015-12-09,15,1,Moulsecoomb  B,Moulsecoomb  A,896685756,Ian Fennell,166,165845675,Tyrone Davis,200
+2015-12-09,15,1,Moulsecoomb  B,Moulsecoomb  A,409261140,Fred Cooper,200,176460812,Robin Powell,128
+2015-12-09,15,1,Moulsecoomb  B,Moulsecoomb  A,546240999,Trevor Caine,173,649511222,Stuart Maplesden,200
+2015-12-02,15,1,Annunciation B,Moulsecoomb  B,715839724,Chris Mason,200,896685756,Ian Fennell,140
+2015-12-02,15,1,Annunciation B,Moulsecoomb  B,104037073,Mike Palmer,197,138786345,Barry Thornton,200
+2015-12-02,15,1,Annunciation B,Moulsecoomb  B,132292473,Terry Mills,85,546240999,Trevor Caine,200
+2015-12-02,15,1,Champion House,Annunciation A,578580599,Ian Smith,200,588390605,DON PENALVER,105
+2015-12-02,15,1,Champion House,Annunciation A,37136679,Robert (Bob) Jay,184,908008030,Geoff Randall,200
+2015-12-02,15,1,Champion House,Annunciation A,297844767,Mick Lott,129,482444234,Richard Barrett,200
+2015-11-25,15,1,Champion House,Moulsecoomb  A,37136679,Robert (Bob) Jay,200,370299078,Michael Childs,192
+2015-11-25,15,1,Champion House,Moulsecoomb  A,561230275,Ray Hunter,159,176460812,Robin Powell,200
+2015-11-25,15,1,Champion House,Moulsecoomb  A,578580599,Ian Smith,163,649511222,Stuart Maplesden,200
+2015-11-25,15,1,Moulsecoomb  B,St. Mathias,409261140,Fred Cooper,187,745337044,John Muzio,200
+2015-11-25,15,1,Moulsecoomb  B,St. Mathias,229907739,Maurice Wickens,200,186254812,Nathan Brooks,134
+2015-11-25,15,1,Moulsecoomb  B,St. Mathias,546240999,Trevor Caine,200,291118927,John Da Silva,186
+2015-11-18,15,1,Annunciation B,Champion House,715839724,Chris Mason,123,297844767,Mick Lott,200
+2015-11-18,15,1,Annunciation B,Champion House,532826446,Tony Shipley,200,37136679,Robert (Bob) Jay,187
+2015-11-18,15,1,Annunciation B,Champion House,104037073,Mike Palmer,200,578580599,Ian Smith,140
+2015-11-18,15,1,Moulsecoomb  A,Annunciation A,370299078,Michael Childs,156,482444234,Richard Barrett,200
+2015-11-18,15,1,Moulsecoomb  A,Annunciation A,165845675,Tyrone Davis,200,283685400,Barry Martin,196
+2015-11-18,15,1,Moulsecoomb  A,Annunciation A,176460812,Robin Powell,196,908008030,Geoff Randall,200
+2015-11-11,15,1,Annunciation A,Moulsecoomb  B,588390605,DON PENALVER,89,409261140,Fred Cooper,200
+2015-11-11,15,1,Annunciation A,Moulsecoomb  B,908008030,Geoff Randall,192,138786345,Barry Thornton,200
+2015-11-11,15,1,Annunciation A,Moulsecoomb  B,482444234,Richard Barrett,200,546240999,Trevor Caine,119
+2015-11-11,15,1,Champion House,St. Mathias,37136679,Robert (Bob) Jay,200,745337044,John Muzio,180
+2015-11-11,15,1,Champion House,St. Mathias,578580599,Ian Smith,195,291118927,John Da Silva,200
+2015-11-11,15,1,Champion House,St. Mathias,297844767,Mick Lott,200,186254812,Nathan Brooks,152
+2015-11-11,15,1,Moulsecoomb  A,Annunciation B,165845675,Tyrone Davis,163,132292473,Terry Mills,200
+2015-11-11,15,1,Moulsecoomb  A,Annunciation B,370299078,Michael Childs,191,104037073,Mike Palmer,200
+2015-11-11,15,1,Moulsecoomb  A,Annunciation B,649511222,Stuart Maplesden,119,715839724,Chris Mason,200
+2015-11-04,15,1,Annunciation B,Annunciation A,132292473,Terry Mills,200,908008030,Geoff Randall,118
+2015-11-04,15,1,Annunciation B,Annunciation A,532826446,Tony Shipley,154,482444234,Richard Barrett,200
+2015-11-04,15,1,Annunciation B,Annunciation A,104037073,Mike Palmer,195,283685400,Barry Martin,200
+2015-11-04,15,1,St. Mathias,Moulsecoomb  A,291118927,John Da Silva,200,165845675,Tyrone Davis,193
+2015-11-04,15,1,St. Mathias,Moulsecoomb  A,186254812,Nathan Brooks,200,370299078,Michael Childs,197
+2015-11-04,15,1,St. Mathias,Moulsecoomb  A,745337044,John Muzio,170,176460812,Robin Powell,200
+2015-10-28,15,1,Moulsecoomb  B,Champion House,138786345,Barry Thornton,171,297844767,Mick Lott,200
+2015-10-28,15,1,Moulsecoomb  B,Champion House,409261140,Fred Cooper,187,578580599,Ian Smith,200
+2015-10-28,15,1,Moulsecoomb  B,Champion House,546240999,Trevor Caine,200,37136679,Robert (Bob) Jay,158
+2015-10-28,15,1,St. Mathias,Annunciation B,745337044,John Muzio,200,104037073,Mike Palmer,198
+2015-10-28,15,1,St. Mathias,Annunciation B,271881781,Lester Grice,185,715839724,Chris Mason,200
+2015-10-28,15,1,St. Mathias,Annunciation B,291118927,John Da Silva,149,132292473,Terry Mills,200
+2015-10-21,15,1,Moulsecoomb  A,Moulsecoomb  B,176460812,Robin Powell,129,896685756,Ian Fennell,200
+2015-10-21,15,1,Moulsecoomb  A,Moulsecoomb  B,370299078,Michael Childs,200,546240999,Trevor Caine,160
+2015-10-21,15,1,Moulsecoomb  A,Moulsecoomb  B,649511222,Stuart Maplesden,200,138786345,Barry Thornton,184
+2015-10-21,15,1,St. Mathias,Annunciation A,186254812,Nathan Brooks,173,588390605,DON PENALVER,200
+2015-10-21,15,1,St. Mathias,Annunciation A,745337044,John Muzio,155,908008030,Geoff Randall,200
+2015-10-21,15,1,St. Mathias,Annunciation A,291118927,John Da Silva,101,482444234,Richard Barrett,200
+2015-10-14,15,1,Annunciation A,Champion House,482444234,Richard Barrett,200,297844767,Mick Lott,125
+2015-10-14,15,1,Annunciation A,Champion House,908008030,Geoff Randall,200,37136679,Robert (Bob) Jay,122
+2015-10-14,15,1,Annunciation A,Champion House,588390605,DON PENALVER,155,578580599,Ian Smith,200
+2015-10-14,15,1,Moulsecoomb  B,Annunciation B,896685756,Ian Fennell,194,715839724,Chris Mason,200
+2015-10-14,15,1,Moulsecoomb  B,Annunciation B,409261140,Fred Cooper,185,132292473,Terry Mills,200
+2015-10-14,15,1,Moulsecoomb  B,Annunciation B,546240999,Trevor Caine,155,532826446,Tony Shipley,200
+2015-10-07,15,1,Moulsecoomb  A,Champion House,176460812,Robin Powell,200,37136679,Robert (Bob) Jay,134
+2015-10-07,15,1,Moulsecoomb  A,Champion House,370299078,Michael Childs,189,578580599,Ian Smith,200
+2015-10-07,15,1,Moulsecoomb  A,Champion House,649511222,Stuart Maplesden,125,297844767,Mick Lott,200
+2015-10-07,15,1,St. Mathias,Moulsecoomb  B,745337044,John Muzio,141,546240999,Trevor Caine,200
+2015-10-07,15,1,St. Mathias,Moulsecoomb  B,291118927,John Da Silva,200,138786345,Barry Thornton,192
+2015-10-07,15,1,St. Mathias,Moulsecoomb  B,186254812,Nathan Brooks,170,409261140,Fred Cooper,200
+2015-09-30,15,1,Annunciation A,Moulsecoomb  A,588390605,DON PENALVER,200,165845675,Tyrone Davis,195
+2015-09-30,15,1,Annunciation A,Moulsecoomb  A,908008030,Geoff Randall,200,176460812,Robin Powell,124
+2015-09-30,15,1,Annunciation A,Moulsecoomb  A,482444234,Richard Barrett,200,649511222,Stuart Maplesden,133
+2015-09-30,15,1,Champion House,Annunciation B,37136679,Robert (Bob) Jay,158,104037073,Mike Palmer,200
+2015-09-30,15,1,Champion House,Annunciation B,578580599,Ian Smith,200,532826446,Tony Shipley,134
+2015-09-30,15,1,Champion House,Annunciation B,297844767,Mick Lott,185,715839724,Chris Mason,200
+2015-09-23,15,1,Annunciation B,Moulsecoomb  A,132292473,Terry Mills,200,370299078,Michael Childs,176
+2015-09-23,15,1,Annunciation B,Moulsecoomb  A,715839724,Chris Mason,200,176460812,Robin Powell,137
+2015-09-23,15,1,Annunciation B,Moulsecoomb  A,104037073,Mike Palmer,143,649511222,Stuart Maplesden,200
+2015-09-23,15,1,Moulsecoomb  B,Annunciation A,229907739,Maurice Wickens,200,908008030,Geoff Randall,180
+2015-09-23,15,1,Moulsecoomb  B,Annunciation A,138786345,Barry Thornton,168,482444234,Richard Barrett,200
+2015-09-23,15,1,Moulsecoomb  B,Annunciation A,409261140,Fred Cooper,200,588390605,DON PENALVER,176
+2015-09-23,15,1,St. Mathias,Champion House,137561300,Freddie Blunden,142,297844767,Mick Lott,200
+2015-09-23,15,1,St. Mathias,Champion House,291118927,John Da Silva,169,578580599,Ian Smith,200
+2015-09-23,15,1,St. Mathias,Champion House,745337044,John Muzio,200,37136679,Robert (Bob) Jay,186
+2015-09-16,15,1,Annunciation A,Annunciation B,296433903,Steve Burchett,196,715839724,Chris Mason,200
+2015-09-16,15,1,Annunciation A,Annunciation B,588390605,DON PENALVER,195,532826446,Tony Shipley,200
+2015-09-16,15,1,Annunciation A,Annunciation B,482444234,Richard Barrett,200,132292473,Terry Mills,124
+2015-09-16,15,1,Moulsecoomb  A,St. Mathias,165845675,Tyrone Davis,200,291118927,John Da Silva,183
+2015-09-16,15,1,Moulsecoomb  A,St. Mathias,370299078,Michael Childs,200,745337044,John Muzio,158
+2015-09-16,15,1,Moulsecoomb  A,St. Mathias,176460812,Robin Powell,179,186254812,Nathan Brooks,200
+2017-04-12,16,1,Annunciation,Champion House,283685400,Barry Martin,200,578580599,Ian Smith,123
+2017-04-12,16,1,Annunciation,Champion House,482444234,Richard Barrett,200,37136679,Robert (Bob) Jay,146
+2017-04-12,16,1,Annunciation,Champion House,908008030,Geoff Randall,200,297844767,Mick Lott,181
+2017-04-12,16,1,Moulsecoomb  B,St. Matthias B,409261140,Fred Cooper,187,132292473,Terry Mills,200
+2017-04-12,16,1,Moulsecoomb  B,St. Matthias B,138786345,Barry Thornton,128,715839724,Chris Mason,200
+2017-04-12,16,1,Moulsecoomb  B,St. Matthias B,546240999,Trevor Caine,169,884457139,Chris Davis,200
+2017-04-12,16,1,St. Matthias A,Moulsecoomb  A,530117639,Geoff Akehurst,162,370299078,Michael Childs,200
+2017-04-12,16,1,St. Matthias A,Moulsecoomb  A,983276809,David Gillingham,200,176460812,Robin Powell,179
+2017-04-12,16,1,St. Matthias A,Moulsecoomb  A,271881781,Lester Grice,200,649511222,Stuart Maplesden,146
+2017-03-29,16,1,Champion House,Moulsecoomb  B,297844767,Mick Lott,184,229907739,Maurice Wickens,200
+2017-03-29,16,1,Champion House,Moulsecoomb  B,37136679,Robert (Bob) Jay,132,409261140,Fred Cooper,200
+2017-03-29,16,1,Champion House,Moulsecoomb  B,561230275,Ray Hunter,200,138786345,Barry Thornton,160
+2017-03-29,16,1,Moulsecoomb  A,St. Matthias B,165845675,Tyrone Davis,180,622820041,Russell Hughes,200
+2017-03-29,16,1,Moulsecoomb  A,St. Matthias B,370299078,Michael Childs,179,132292473,Terry Mills,200
+2017-03-29,16,1,Moulsecoomb  A,St. Matthias B,649511222,Stuart Maplesden,200,715839724,Chris Mason,182
+2017-03-29,16,1,St. Matthias A,Annunciation,745337044,John Muzio,144,908008030,Geoff Randall,200
+2017-03-29,16,1,St. Matthias A,Annunciation,983276809,David Gillingham,200,482444234,Richard Barrett,118
+2017-03-29,16,1,St. Matthias A,Annunciation,392836520,Pip Akehurst,161,283685400,Barry Martin,200
+2017-03-15,16,1,Annunciation,Moulsecoomb  A,908008030,Geoff Randall,147,370299078,Michael Childs,200
+2017-03-15,16,1,Annunciation,Moulsecoomb  A,482444234,Richard Barrett,200,176460812,Robin Powell,175
+2017-03-15,16,1,Annunciation,Moulsecoomb  A,283685400,Barry Martin,188,649511222,Stuart Maplesden,200
+2017-03-15,16,1,Moulsecoomb  B,St. Matthias A,896685756,Ian Fennell,136,745337044,John Muzio,200
+2017-03-15,16,1,Moulsecoomb  B,St. Matthias A,138786345,Barry Thornton,160,983276809,David Gillingham,200
+2017-03-15,16,1,Moulsecoomb  B,St. Matthias A,546240999,Trevor Caine,183,271881781,Lester Grice,200
+2017-03-15,16,1,St. Matthias B,Champion House,715839724,Chris Mason,200,297844767,Mick Lott,190
+2017-03-15,16,1,St. Matthias B,Champion House,137561300,Freddie Blunden,156,561230275,Ray Hunter,200
+2017-03-15,16,1,St. Matthias B,Champion House,132292473,Terry Mills,200,578580599,Ian Smith,197
+2017-03-08,16,1,Annunciation,Moulsecoomb  B,908008030,Geoff Randall,200,546240999,Trevor Caine,184
+2017-03-08,16,1,Annunciation,Moulsecoomb  B,482444234,Richard Barrett,192,138786345,Barry Thornton,200
+2017-03-08,16,1,Annunciation,Moulsecoomb  B,283685400,Barry Martin,200,409261140,Fred Cooper,185
+2017-03-08,16,1,Moulsecoomb  A,Champion House,165845675,Tyrone Davis,198,578580599,Ian Smith,200
+2017-03-08,16,1,Moulsecoomb  A,Champion House,370299078,Michael Childs,200,37136679,Robert (Bob) Jay,198
+2017-03-08,16,1,Moulsecoomb  A,Champion House,176460812,Robin Powell,194,297844767,Mick Lott,200
+2017-03-08,16,1,St. Matthias A,St. Matthias B,983276809,David Gillingham,197,715839724,Chris Mason,200
+2017-03-08,16,1,St. Matthias A,St. Matthias B,530117639,Geoff Akehurst,140,137561300,Freddie Blunden,200
+2017-03-08,16,1,St. Matthias A,St. Matthias B,392836520,Pip Akehurst,200,884457139,Chris Davis,106
+2017-02-15,16,1,Champion House,St. Matthias A,37136679,Robert (Bob) Jay,200,745337044,John Muzio,159
+2017-02-15,16,1,Champion House,St. Matthias A,578580599,Ian Smith,149,392836520,Pip Akehurst,200
+2017-02-15,16,1,Champion House,St. Matthias A,297844767,Mick Lott,200,530117639,Geoff Akehurst,147
+2017-02-15,16,1,Moulsecoomb  B,Moulsecoomb  A,138786345,Barry Thornton,200,165845675,Tyrone Davis,197
+2017-02-15,16,1,Moulsecoomb  B,Moulsecoomb  A,409261140,Fred Cooper,147,176460812,Robin Powell,200
+2017-02-15,16,1,Moulsecoomb  B,Moulsecoomb  A,546240999,Trevor Caine,200,370299078,Michael Childs,176
+2017-02-15,16,1,St. Matthias B,Annunciation,132292473,Terry Mills,120,283685400,Barry Martin,200
+2017-02-15,16,1,St. Matthias B,Annunciation,715839724,Chris Mason,200,908008030,Geoff Randall,125
+2017-02-15,16,1,St. Matthias B,Annunciation,137561300,Freddie Blunden,200,482444234,Richard Barrett,128
+2017-02-08,16,1,Champion House,Annunciation,578580599,Ian Smith,167,283685400,Barry Martin,200
+2017-02-08,16,1,Champion House,Annunciation,37136679,Robert (Bob) Jay,114,482444234,Richard Barrett,200
+2017-02-08,16,1,Champion House,Annunciation,297844767,Mick Lott,200,908008030,Geoff Randall,198
+2017-02-08,16,1,Moulsecoomb  A,St. Matthias A,176460812,Robin Powell,184,530117639,Geoff Akehurst,200
+2017-02-08,16,1,Moulsecoomb  A,St. Matthias A,165845675,Tyrone Davis,186,392836520,Pip Akehurst,200
+2017-02-08,16,1,Moulsecoomb  A,St. Matthias A,370299078,Michael Childs,200,745337044,John Muzio,169
+2017-02-08,16,1,St. Matthias B,Moulsecoomb  B,715839724,Chris Mason,200,409261140,Fred Cooper,154
+2017-02-08,16,1,St. Matthias B,Moulsecoomb  B,884457139,Chris Davis,190,138786345,Barry Thornton,200
+2017-02-08,16,1,St. Matthias B,Moulsecoomb  B,132292473,Terry Mills,174,546240999,Trevor Caine,200
+2017-02-01,16,1,Annunciation,St. Matthias A,908008030,Geoff Randall,200,530117639,Geoff Akehurst,127
+2017-02-01,16,1,Annunciation,St. Matthias A,283685400,Barry Martin,154,745337044,John Muzio,200
+2017-02-01,16,1,Annunciation,St. Matthias A,482444234,Richard Barrett,184,983276809,David Gillingham,200
+2017-02-01,16,1,Moulsecoomb  B,Champion House,409261140,Fred Cooper,197,578580599,Ian Smith,200
+2017-02-01,16,1,Moulsecoomb  B,Champion House,138786345,Barry Thornton,172,37136679,Robert (Bob) Jay,200
+2017-02-01,16,1,Moulsecoomb  B,Champion House,229907739,Maurice Wickens,200,297844767,Mick Lott,107
+2017-02-01,16,1,St. Matthias B,Moulsecoomb  A,132292473,Terry Mills,200,176460812,Robin Powell,194
+2017-02-01,16,1,St. Matthias B,Moulsecoomb  A,715839724,Chris Mason,200,165845675,Tyrone Davis,161
+2017-02-01,16,1,St. Matthias B,Moulsecoomb  A,186254812,Nathan Brooks,200,370299078,Michael Childs,197
+2017-01-18,16,1,Champion House,St. Matthias B,297844767,Mick Lott,200,715839724,Chris Mason,144
+2017-01-18,16,1,Champion House,St. Matthias B,37136679,Robert (Bob) Jay,175,137561300,Freddie Blunden,200
+2017-01-18,16,1,Champion House,St. Matthias B,578580599,Ian Smith,200,132292473,Terry Mills,189
+2017-01-18,16,1,Moulsecoomb  A,Annunciation,176460812,Robin Powell,134,283685400,Barry Martin,200
+2017-01-18,16,1,Moulsecoomb  A,Annunciation,370299078,Michael Childs,173,482444234,Richard Barrett,200
+2017-01-18,16,1,Moulsecoomb  A,Annunciation,649511222,Stuart Maplesden,178,908008030,Geoff Randall,200
+2017-01-18,16,1,St. Matthias A,Moulsecoomb  B,530117639,Geoff Akehurst,159,896685756,Ian Fennell,200
+2017-01-18,16,1,St. Matthias A,Moulsecoomb  B,392836520,Pip Akehurst,180,138786345,Barry Thornton,200
+2017-01-18,16,1,St. Matthias A,Moulsecoomb  B,983276809,David Gillingham,200,409261140,Fred Cooper,144
+2017-01-11,16,1,Champion House,Moulsecoomb  A,578580599,Ian Smith,164,165845675,Tyrone Davis,200
+2017-01-11,16,1,Champion House,Moulsecoomb  A,37136679,Robert (Bob) Jay,200,370299078,Michael Childs,165
+2017-01-11,16,1,Champion House,Moulsecoomb  A,297844767,Mick Lott,200,649511222,Stuart Maplesden,144
+2017-01-11,16,1,Moulsecoomb  B,Annunciation,138786345,Barry Thornton,200,482444234,Richard Barrett,147
+2017-01-11,16,1,Moulsecoomb  B,Annunciation,409261140,Fred Cooper,162,908008030,Geoff Randall,200
+2017-01-11,16,1,Moulsecoomb  B,Annunciation,546240999,Trevor Caine,112,283685400,Barry Martin,200
+2017-01-11,16,1,St. Matthias B,St. Matthias A,884457139,Chris Davis,102,745337044,John Muzio,200
+2017-01-11,16,1,St. Matthias B,St. Matthias A,132292473,Terry Mills,148,392836520,Pip Akehurst,200
+2017-01-11,16,1,St. Matthias B,St. Matthias A,137561300,Freddie Blunden,154,983276809,David Gillingham,200
+2017-01-04,16,1,Annunciation,St. Matthias B,908008030,Geoff Randall,5,132292473,Terry Mills,3
+2017-01-04,16,1,Annunciation,St. Matthias B,482444234,Richard Barrett,4,715839724,Chris Mason,5
+2017-01-04,16,1,Moulsecoomb  A,Moulsecoomb  B,165845675,Tyrone Davis,187,409261140,Fred Cooper,200
+2017-01-04,16,1,Moulsecoomb  A,Moulsecoomb  B,370299078,Michael Childs,196,138786345,Barry Thornton,200
+2017-01-04,16,1,Moulsecoomb  A,Moulsecoomb  B,649511222,Stuart Maplesden,200,546240999,Trevor Caine,134
+2017-01-04,16,1,St. Matthias A,Champion House,983276809,David Gillingham,200,297844767,Mick Lott,188
+2017-01-04,16,1,St. Matthias A,Champion House,392836520,Pip Akehurst,200,578580599,Ian Smith,174
+2017-01-04,16,1,St. Matthias A,Champion House,745337044,John Muzio,192,37136679,Robert (Bob) Jay,200
+2016-12-14,16,1,Annunciation,Champion House,588390605,DON PENALVER,144,578580599,Ian Smith,200
+2016-12-14,16,1,Annunciation,Champion House,908008030,Geoff Randall,200,297844767,Mick Lott,111
+2016-12-14,16,1,Annunciation,Champion House,283685400,Barry Martin,200,37136679,Robert (Bob) Jay,166
+2016-12-14,16,1,Moulsecoomb  B,St. Matthias B,138786345,Barry Thornton,193,715839724,Chris Mason,200
+2016-12-14,16,1,Moulsecoomb  B,St. Matthias B,409261140,Fred Cooper,200,132292473,Terry Mills,186
+2016-12-14,16,1,Moulsecoomb  B,St. Matthias B,546240999,Trevor Caine,162,186254812,Nathan Brooks,200
+2016-12-14,16,1,St. Matthias A,Moulsecoomb  A,392836520,Pip Akehurst,200,176460812,Robin Powell,195
+2016-12-14,16,1,St. Matthias A,Moulsecoomb  A,983276809,David Gillingham,200,370299078,Michael Childs,171
+2016-12-14,16,1,St. Matthias A,Moulsecoomb  A,745337044,John Muzio,155,649511222,Stuart Maplesden,200
+2016-11-23,16,1,Champion House,Moulsecoomb  B,37136679,Robert (Bob) Jay,200,138786345,Barry Thornton,189
+2016-11-23,16,1,Champion House,Moulsecoomb  B,578580599,Ian Smith,188,409261140,Fred Cooper,200
+2016-11-23,16,1,Champion House,Moulsecoomb  B,297844767,Mick Lott,200,546240999,Trevor Caine,189
+2016-11-23,16,1,Moulsecoomb  A,St. Matthias B,165845675,Tyrone Davis,195,132292473,Terry Mills,200
+2016-11-23,16,1,Moulsecoomb  A,St. Matthias B,176460812,Robin Powell,200,715839724,Chris Mason,179
+2016-11-23,16,1,Moulsecoomb  A,St. Matthias B,370299078,Michael Childs,200,186254812,Nathan Brooks,170
+2016-11-23,16,1,St. Matthias A,Annunciation,392836520,Pip Akehurst,110,482444234,Richard Barrett,200
+2016-11-23,16,1,St. Matthias A,Annunciation,745337044,John Muzio,200,588390605,DON PENALVER,153
+2016-11-23,16,1,St. Matthias A,Annunciation,983276809,David Gillingham,121,283685400,Barry Martin,200
+2016-11-16,16,1,Annunciation,Moulsecoomb  A,908008030,Geoff Randall,200,370299078,Michael Childs,173
+2016-11-16,16,1,Annunciation,Moulsecoomb  A,588390605,DON PENALVER,200,176460812,Robin Powell,199
+2016-11-16,16,1,Annunciation,Moulsecoomb  A,482444234,Richard Barrett,135,649511222,Stuart Maplesden,200
+2016-11-16,16,1,Moulsecoomb  B,St. Matthias A,896685756,Ian Fennell,200,983276809,David Gillingham,191
+2016-11-16,16,1,Moulsecoomb  B,St. Matthias A,409261140,Fred Cooper,200,392836520,Pip Akehurst,167
+2016-11-16,16,1,Moulsecoomb  B,St. Matthias A,546240999,Trevor Caine,183,745337044,John Muzio,200
+2016-11-16,16,1,St. Matthias B,Champion House,715839724,Chris Mason,200,297844767,Mick Lott,143
+2016-11-16,16,1,St. Matthias B,Champion House,132292473,Terry Mills,200,37136679,Robert (Bob) Jay,169
+2016-11-16,16,1,St. Matthias B,Champion House,186254812,Nathan Brooks,144,578580599,Ian Smith,200
+2016-11-09,16,1,Annunciation,Moulsecoomb  B,908008030,Geoff Randall,200,896685756,Ian Fennell,184
+2016-11-09,16,1,Annunciation,Moulsecoomb  B,283685400,Barry Martin,200,138786345,Barry Thornton,199
+2016-11-09,16,1,Annunciation,Moulsecoomb  B,482444234,Richard Barrett,200,546240999,Trevor Caine,190
+2016-11-09,16,1,Moulsecoomb  A,Champion House,176460812,Robin Powell,200,578580599,Ian Smith,192
+2016-11-09,16,1,Moulsecoomb  A,Champion House,370299078,Michael Childs,200,37136679,Robert (Bob) Jay,134
+2016-11-09,16,1,Moulsecoomb  A,Champion House,649511222,Stuart Maplesden,200,297844767,Mick Lott,169
+2016-11-09,16,1,St. Matthias A,St. Matthias B,983276809,David Gillingham,170,715839724,Chris Mason,200
+2016-11-09,16,1,St. Matthias A,St. Matthias B,291118927,John Da Silva,152,132292473,Terry Mills,200
+2016-11-09,16,1,St. Matthias A,St. Matthias B,530117639,Geoff Akehurst,161,137561300,Freddie Blunden,200
+2016-10-26,16,1,Champion House,St. Matthias A,297844767,Mick Lott,200,983276809,David Gillingham,169
+2016-10-26,16,1,Champion House,St. Matthias A,37136679,Robert (Bob) Jay,154,271881781,Lester Grice,200
+2016-10-26,16,1,Champion House,St. Matthias A,578580599,Ian Smith,172,745337044,John Muzio,200
+2016-10-26,16,1,Moulsecoomb  B,Moulsecoomb  A,896685756,Ian Fennell,197,176460812,Robin Powell,200
+2016-10-26,16,1,Moulsecoomb  B,Moulsecoomb  A,546240999,Trevor Caine,186,370299078,Michael Childs,200
+2016-10-26,16,1,Moulsecoomb  B,Moulsecoomb  A,409261140,Fred Cooper,200,165845675,Tyrone Davis,197
+2016-10-26,16,1,St. Matthias B,Annunciation,622820041,Russell Hughes,200,588390605,DON PENALVER,132
+2016-10-26,16,1,St. Matthias B,Annunciation,137561300,Freddie Blunden,200,908008030,Geoff Randall,123
+2016-10-26,16,1,St. Matthias B,Annunciation,715839724,Chris Mason,200,283685400,Barry Martin,188
+2016-10-19,16,1,Champion House,Annunciation,37136679,Robert (Bob) Jay,172,908008030,Geoff Randall,200
+2016-10-19,16,1,Champion House,Annunciation,297844767,Mick Lott,191,283685400,Barry Martin,200
+2016-10-19,16,1,Champion House,Annunciation,578580599,Ian Smith,200,588390605,DON PENALVER,133
+2016-10-19,16,1,Moulsecoomb  A,St. Matthias A,165845675,Tyrone Davis,170,983276809,David Gillingham,200
+2016-10-19,16,1,Moulsecoomb  A,St. Matthias A,176460812,Robin Powell,200,291118927,John Da Silva,184
+2016-10-19,16,1,Moulsecoomb  A,St. Matthias A,370299078,Michael Childs,199,530117639,Geoff Akehurst,200
+2016-10-19,16,1,St. Matthias B,Moulsecoomb  B,884457139,Chris Davis,200,138786345,Barry Thornton,197
+2016-10-19,16,1,St. Matthias B,Moulsecoomb  B,715839724,Chris Mason,200,546240999,Trevor Caine,134
+2016-10-19,16,1,St. Matthias B,Moulsecoomb  B,132292473,Terry Mills,123,409261140,Fred Cooper,200
+2016-10-12,16,1,Annunciation,St. Matthias A,588390605,DON PENALVER,199,291118927,John Da Silva,200
+2016-10-12,16,1,Annunciation,St. Matthias A,283685400,Barry Martin,187,745337044,John Muzio,200
+2016-10-12,16,1,Annunciation,St. Matthias A,908008030,Geoff Randall,102,983276809,David Gillingham,200
+2016-10-12,16,1,Moulsecoomb  B,Champion House,138786345,Barry Thornton,200,578580599,Ian Smith,176
+2016-10-12,16,1,Moulsecoomb  B,Champion House,409261140,Fred Cooper,200,297844767,Mick Lott,162
+2016-10-12,16,1,Moulsecoomb  B,Champion House,546240999,Trevor Caine,200,37136679,Robert (Bob) Jay,189
+2016-10-12,16,1,St. Matthias B,Moulsecoomb  A,622820041,Russell Hughes,200,176460812,Robin Powell,173
+2016-10-12,16,1,St. Matthias B,Moulsecoomb  A,715839724,Chris Mason,200,370299078,Michael Childs,183
+2016-10-12,16,1,St. Matthias B,Moulsecoomb  A,884457139,Chris Davis,200,649511222,Stuart Maplesden,152
+2016-09-28,16,1,Champion House,St. Matthias B,578580599,Ian Smith,200,186254812,Nathan Brooks,194
+2016-09-28,16,1,Champion House,St. Matthias B,37136679,Robert (Bob) Jay,178,132292473,Terry Mills,200
+2016-09-28,16,1,Champion House,St. Matthias B,297844767,Mick Lott,145,715839724,Chris Mason,200
+2016-09-28,16,1,Moulsecoomb  A,Annunciation,176460812,Robin Powell,200,908008030,Geoff Randall,184
+2016-09-28,16,1,Moulsecoomb  A,Annunciation,370299078,Michael Childs,197,283685400,Barry Martin,200
+2016-09-28,16,1,Moulsecoomb  A,Annunciation,649511222,Stuart Maplesden,200,482444234,Richard Barrett,112
+2016-09-28,16,1,St. Matthias A,Moulsecoomb  B,745337044,John Muzio,200,138786345,Barry Thornton,199
+2016-09-28,16,1,St. Matthias A,Moulsecoomb  B,530117639,Geoff Akehurst,191,546240999,Trevor Caine,200
+2016-09-28,16,1,St. Matthias A,Moulsecoomb  B,392836520,Pip Akehurst,191,409261140,Fred Cooper,200
+2016-09-21,16,1,Champion House,Moulsecoomb  A,37136679,Robert (Bob) Jay,157,370299078,Michael Childs,200
+2016-09-21,16,1,Champion House,Moulsecoomb  A,297844767,Mick Lott,200,165845675,Tyrone Davis,172
+2016-09-21,16,1,Champion House,Moulsecoomb  A,561230275,Ray Hunter,198,649511222,Stuart Maplesden,200
+2016-09-21,16,1,Moulsecoomb  B,Annunciation,896685756,Ian Fennell,194,283685400,Barry Martin,200
+2016-09-21,16,1,Moulsecoomb  B,Annunciation,138786345,Barry Thornton,200,482444234,Richard Barrett,91
+2016-09-21,16,1,Moulsecoomb  B,Annunciation,409261140,Fred Cooper,152,908008030,Geoff Randall,200
+2016-09-21,16,1,St. Matthias B,St. Matthias A,186254812,Nathan Brooks,163,745337044,John Muzio,200
+2016-09-21,16,1,St. Matthias B,St. Matthias A,780126766,Rob Wykes,187,291118927,John Da Silva,200
+2016-09-21,16,1,St. Matthias B,St. Matthias A,715839724,Chris Mason,199,983276809,David Gillingham,200
+2016-09-14,16,1,Annunciation,St. Matthias B,908008030,Geoff Randall,148,715839724,Chris Mason,200
+2016-09-14,16,1,Annunciation,St. Matthias B,588390605,DON PENALVER,200,132292473,Terry Mills,172
+2016-09-14,16,1,Annunciation,St. Matthias B,482444234,Richard Barrett,200,186254812,Nathan Brooks,127
+2016-09-14,16,1,Moulsecoomb  A,Moulsecoomb  B,165845675,Tyrone Davis,169,896685756,Ian Fennell,200
+2016-09-14,16,1,Moulsecoomb  A,Moulsecoomb  B,176460812,Robin Powell,200,138786345,Barry Thornton,172
+2016-09-14,16,1,Moulsecoomb  A,Moulsecoomb  B,370299078,Michael Childs,200,546240999,Trevor Caine,176
+2016-09-14,16,1,St. Matthias A,Champion House,983276809,David Gillingham,200,578580599,Ian Smith,145
+2016-09-14,16,1,St. Matthias A,Champion House,530117639,Geoff Akehurst,175,37136679,Robert (Bob) Jay,200
+2016-09-14,16,1,St. Matthias A,Champion House,291118927,John Da Silva,198,297844767,Mick Lott,200
+2018-04-04,17,1,Annunciation,Champion House,283685400,Barry Martin,2,297844767,Mick Lott,5
+2018-04-04,17,1,Annunciation,Champion House,908008030,Geoff Randall,5,37136679,Robert (Bob) Jay,4
+2018-04-04,17,1,Annunciation,Champion House,482444234,Richard Barrett,5,578580599,Ian Smith,4
+2018-04-04,17,1,Moulsecoomb  A,St. Mathias,176460812,Robin Powell,183,622820041,Russell Hughes,200
+2018-04-04,17,1,Moulsecoomb  A,St. Mathias,165845675,Tyrone Davis,183,983276809,David Gillingham,200
+2018-04-04,17,1,Moulsecoomb  A,St. Mathias,370299078,Michael Childs,196,51829191,Nigel Stilwell,200
+2018-03-28,17,1,Moulsecoomb  A,Annunciation,176460812,Robin Powell,157,908008030,Geoff Randall,200
+2018-03-28,17,1,Moulsecoomb  A,Annunciation,564133408,Paul Phillips,191,482444234,Richard Barrett,200
+2018-03-28,17,1,Moulsecoomb  A,Annunciation,649511222,Stuart Maplesden,200,283685400,Barry Martin,175
+2018-03-28,17,1,St. Mathias,Moulsecoomb  B,392836520,Pip Akehurst,196,39704614,Steve Linton,200
+2018-03-28,17,1,St. Mathias,Moulsecoomb  B,983276809,David Gillingham,200,546240999,Trevor Caine,154
+2018-03-28,17,1,St. Mathias,Moulsecoomb  B,745337044,John Muzio,200,138786345,Barry Thornton,193
+2018-03-14,17,1,Annunciation,St. Mathias,283685400,Barry Martin,200,271881781,Lester Grice,138
+2018-03-14,17,1,Annunciation,St. Mathias,908008030,Geoff Randall,200,622820041,Russell Hughes,150
+2018-03-14,17,1,Annunciation,St. Mathias,482444234,Richard Barrett,133,983276809,David Gillingham,200
+2018-03-14,17,1,Moulsecoomb  B,Champion House,546240999,Trevor Caine,200,578580599,Ian Smith,172
+2018-03-14,17,1,Moulsecoomb  B,Champion House,39704614,Steve Linton,149,37136679,Robert (Bob) Jay,200
+2018-03-14,17,1,Moulsecoomb  B,Champion House,409261140,Fred Cooper,187,297844767,Mick Lott,200
+2018-03-07,17,1,Moulsecoomb  A,Moulsecoomb  B,370299078,Michael Childs,198,138786345,Barry Thornton,200
+2018-03-07,17,1,Moulsecoomb  A,Moulsecoomb  B,176460812,Robin Powell,190,39704614,Steve Linton,200
+2018-03-07,17,1,Moulsecoomb  A,Moulsecoomb  B,564133408,Paul Phillips,200,546240999,Trevor Caine,179
+2018-03-07,17,1,St. Mathias,Champion House,983276809,David Gillingham,150,297844767,Mick Lott,200
+2018-03-07,17,1,St. Mathias,Champion House,51829191,Nigel Stilwell,200,37136679,Robert (Bob) Jay,166
+2018-02-21,17,1,Champion House,Moulsecoomb  A,578580599,Ian Smith,175,564133408,Paul Phillips,200
+2018-02-21,17,1,Champion House,Moulsecoomb  A,37136679,Robert (Bob) Jay,200,176460812,Robin Powell,193
+2018-02-21,17,1,Champion House,Moulsecoomb  A,297844767,Mick Lott,200,649511222,Stuart Maplesden,188
+2018-02-21,17,1,Moulsecoomb  B,Annunciation,896685756,Ian Fennell,188,908008030,Geoff Randall,200
+2018-02-21,17,1,Moulsecoomb  B,Annunciation,138786345,Barry Thornton,185,588390605,DON PENALVER,200
+2018-02-21,17,1,Moulsecoomb  B,Annunciation,409261140,Fred Cooper,200,482444234,Richard Barrett,174
+2018-02-14,17,1,Champion House,Annunciation,578580599,Ian Smith,166,908008030,Geoff Randall,200
+2018-02-14,17,1,Champion House,Annunciation,37136679,Robert (Bob) Jay,189,588390605,DON PENALVER,200
+2018-02-14,17,1,Champion House,Annunciation,297844767,Mick Lott,183,482444234,Richard Barrett,200
+2018-02-14,17,1,St. Mathias,Moulsecoomb  A,983276809,David Gillingham,200,165845675,Tyrone Davis,193
+2018-02-14,17,1,St. Mathias,Moulsecoomb  A,51829191,Nigel Stilwell,200,370299078,Michael Childs,172
+2018-02-14,17,1,St. Mathias,Moulsecoomb  A,271881781,Lester Grice,197,176460812,Robin Powell,200
+2018-01-31,17,1,Annunciation,Moulsecoomb  A,588390605,DON PENALVER,194,165845675,Tyrone Davis,200
+2018-01-31,17,1,Annunciation,Moulsecoomb  A,908008030,Geoff Randall,188,176460812,Robin Powell,200
+2018-01-31,17,1,Annunciation,Moulsecoomb  A,482444234,Richard Barrett,200,564133408,Paul Phillips,167
+2018-01-31,17,1,Moulsecoomb  B,St. Mathias,39704614,Steve Linton,200,530117639,Geoff Akehurst,166
+2018-01-31,17,1,Moulsecoomb  B,St. Mathias,409261140,Fred Cooper,173,983276809,David Gillingham,200
+2018-01-31,17,1,Moulsecoomb  B,St. Mathias,546240999,Trevor Caine,200,392836520,Pip Akehurst,184
+2018-01-24,17,1,Champion House,Moulsecoomb  B,578580599,Ian Smith,200,39704614,Steve Linton,164
+2018-01-24,17,1,Champion House,Moulsecoomb  B,37136679,Robert (Bob) Jay,99,409261140,Fred Cooper,200
+2018-01-24,17,1,Champion House,Moulsecoomb  B,297844767,Mick Lott,200,546240999,Trevor Caine,196
+2018-01-24,17,1,St. Mathias,Annunciation,622820041,Russell Hughes,184,908008030,Geoff Randall,200
+2018-01-24,17,1,St. Mathias,Annunciation,983276809,David Gillingham,200,283685400,Barry Martin,135
+2018-01-24,17,1,St. Mathias,Annunciation,51829191,Nigel Stilwell,152,482444234,Richard Barrett,200
+2018-01-10,17,1,Champion House,St. Mathias,297844767,Mick Lott,200,622820041,Russell Hughes,109
+2018-01-10,17,1,Champion House,St. Mathias,37136679,Robert (Bob) Jay,200,745337044,John Muzio,175
+2018-01-10,17,1,Champion House,St. Mathias,578580599,Ian Smith,151,983276809,David Gillingham,200
+2018-01-10,17,1,Moulsecoomb  B,Moulsecoomb  A,896685756,Ian Fennell,127,165845675,Tyrone Davis,200
+2018-01-10,17,1,Moulsecoomb  B,Moulsecoomb  A,39704614,Steve Linton,200,176460812,Robin Powell,196
+2018-01-10,17,1,Moulsecoomb  B,Moulsecoomb  A,546240999,Trevor Caine,200,564133408,Paul Phillips,195
+2018-01-03,17,1,Annunciation,Moulsecoomb  B,908008030,Geoff Randall,200,896685756,Ian Fennell,95
+2018-01-03,17,1,Annunciation,Moulsecoomb  B,283685400,Barry Martin,200,39704614,Steve Linton,129
+2018-01-03,17,1,Annunciation,Moulsecoomb  B,482444234,Richard Barrett,200,546240999,Trevor Caine,152
+2018-01-03,17,1,Moulsecoomb  A,Champion House,165845675,Tyrone Davis,200,37136679,Robert (Bob) Jay,130
+2018-01-03,17,1,Moulsecoomb  A,Champion House,370299078,Michael Childs,182,578580599,Ian Smith,200
+2018-01-03,17,1,Moulsecoomb  A,Champion House,564133408,Paul Phillips,200,297844767,Mick Lott,190
+2017-12-13,17,1,Annunciation,Champion House,908008030,Geoff Randall,148,297844767,Mick Lott,200
+2017-12-13,17,1,Annunciation,Champion House,283685400,Barry Martin,200,37136679,Robert (Bob) Jay,184
+2017-12-13,17,1,Annunciation,Champion House,482444234,Richard Barrett,200,578580599,Ian Smith,169
+2017-12-13,17,1,Moulsecoomb  A,St. Mathias,176460812,Robin Powell,142,622820041,Russell Hughes,200
+2017-12-13,17,1,Moulsecoomb  A,St. Mathias,564133408,Paul Phillips,137,745337044,John Muzio,200
+2017-12-13,17,1,Moulsecoomb  A,St. Mathias,370299078,Michael Childs,162,983276809,David Gillingham,200
+2017-12-06,17,1,Moulsecoomb  A,Annunciation,564133408,Paul Phillips,200,588390605,DON PENALVER,140
+2017-12-06,17,1,Moulsecoomb  A,Annunciation,176460812,Robin Powell,200,908008030,Geoff Randall,132
+2017-12-06,17,1,Moulsecoomb  A,Annunciation,649511222,Stuart Maplesden,141,482444234,Richard Barrett,200
+2017-12-06,17,1,St. Mathias,Moulsecoomb  B,983276809,David Gillingham,200,39704614,Steve Linton,187
+2017-12-06,17,1,St. Mathias,Moulsecoomb  B,745337044,John Muzio,200,138786345,Barry Thornton,173
+2017-12-06,17,1,St. Mathias,Moulsecoomb  B,392836520,Pip Akehurst,176,546240999,Trevor Caine,200
+2017-11-22,17,1,Annunciation,St. Mathias,283685400,Barry Martin,150,622820041,Russell Hughes,200
+2017-11-22,17,1,Annunciation,St. Mathias,908008030,Geoff Randall,161,392836520,Pip Akehurst,200
+2017-11-22,17,1,Annunciation,St. Mathias,482444234,Richard Barrett,200,983276809,David Gillingham,180
+2017-11-22,17,1,Moulsecoomb  B,Champion House,896685756,Ian Fennell,104,297844767,Mick Lott,200
+2017-11-22,17,1,Moulsecoomb  B,Champion House,138786345,Barry Thornton,173,578580599,Ian Smith,200
+2017-11-22,17,1,Moulsecoomb  B,Champion House,546240999,Trevor Caine,200,37136679,Robert (Bob) Jay,118
+2017-11-15,17,1,Moulsecoomb  A,Moulsecoomb  B,370299078,Michael Childs,192,896685756,Ian Fennell,200
+2017-11-15,17,1,Moulsecoomb  A,Moulsecoomb  B,564133408,Paul Phillips,186,138786345,Barry Thornton,200
+2017-11-15,17,1,Moulsecoomb  A,Moulsecoomb  B,649511222,Stuart Maplesden,200,409261140,Fred Cooper,183
+2017-11-15,17,1,St. Mathias,Champion House,137561300,Freddie Blunden,200,297844767,Mick Lott,193
+2017-11-15,17,1,St. Mathias,Champion House,530117639,Geoff Akehurst,200,37136679,Robert (Bob) Jay,136
+2017-11-15,17,1,St. Mathias,Champion House,983276809,David Gillingham,200,578580599,Ian Smith,176
+2017-11-01,17,1,Champion House,Moulsecoomb  A,297844767,Mick Lott,190,649511222,Stuart Maplesden,200
+2017-11-01,17,1,Champion House,Moulsecoomb  A,37136679,Robert (Bob) Jay,200,370299078,Michael Childs,172
+2017-11-01,17,1,Champion House,Moulsecoomb  A,578580599,Ian Smith,200,165845675,Tyrone Davis,183
+2017-11-01,17,1,Moulsecoomb  B,Annunciation,546240999,Trevor Caine,179,482444234,Richard Barrett,200
+2017-11-01,17,1,Moulsecoomb  B,Annunciation,138786345,Barry Thornton,176,283685400,Barry Martin,200
+2017-11-01,17,1,Moulsecoomb  B,Annunciation,39704614,Steve Linton,175,908008030,Geoff Randall,200
+2017-10-25,17,1,Champion House,Annunciation,297844767,Mick Lott,149,482444234,Richard Barrett,200
+2017-10-25,17,1,Champion House,Annunciation,37136679,Robert (Bob) Jay,73,908008030,Geoff Randall,200
+2017-10-25,17,1,Champion House,Annunciation,578580599,Ian Smith,200,283685400,Barry Martin,195
+2017-10-25,17,1,St. Mathias,Moulsecoomb  A,745337044,John Muzio,197,165845675,Tyrone Davis,200
+2017-10-25,17,1,St. Mathias,Moulsecoomb  A,271881781,Lester Grice,200,176460812,Robin Powell,161
+2017-10-25,17,1,St. Mathias,Moulsecoomb  A,983276809,David Gillingham,200,564133408,Paul Phillips,149
+2017-10-11,17,1,Annunciation,Moulsecoomb  A,283685400,Barry Martin,200,370299078,Michael Childs,159
+2017-10-11,17,1,Annunciation,Moulsecoomb  A,908008030,Geoff Randall,200,564133408,Paul Phillips,181
+2017-10-11,17,1,Annunciation,Moulsecoomb  A,482444234,Richard Barrett,193,649511222,Stuart Maplesden,200
+2017-10-11,17,1,Moulsecoomb  B,St. Mathias,896685756,Ian Fennell,200,622820041,Russell Hughes,188
+2017-10-11,17,1,Moulsecoomb  B,St. Mathias,138786345,Barry Thornton,198,392836520,Pip Akehurst,200
+2017-10-11,17,1,Moulsecoomb  B,St. Mathias,39704614,Steve Linton,200,983276809,David Gillingham,126
+2017-10-04,17,1,Champion House,Moulsecoomb  B,297844767,Mick Lott,200,546240999,Trevor Caine,181
+2017-10-04,17,1,Champion House,Moulsecoomb  B,37136679,Robert (Bob) Jay,154,409261140,Fred Cooper,200
+2017-10-04,17,1,Champion House,Moulsecoomb  B,578580599,Ian Smith,167,138786345,Barry Thornton,200
+2017-10-04,17,1,St. Mathias,Annunciation,983276809,David Gillingham,200,908008030,Geoff Randall,131
+2017-10-04,17,1,St. Mathias,Annunciation,392836520,Pip Akehurst,200,588390605,DON PENALVER,162
+2017-10-04,17,1,St. Mathias,Annunciation,745337044,John Muzio,196,482444234,Richard Barrett,200
+2017-09-20,17,1,Champion House,St. Mathias,297844767,Mick Lott,122,983276809,David Gillingham,200
+2017-09-20,17,1,Champion House,St. Mathias,37136679,Robert (Bob) Jay,200,530117639,Geoff Akehurst,174
+2017-09-20,17,1,Champion House,St. Mathias,578580599,Ian Smith,200,271881781,Lester Grice,167
+2017-09-20,17,1,Moulsecoomb  B,Moulsecoomb  A,896685756,Ian Fennell,200,165845675,Tyrone Davis,188
+2017-09-20,17,1,Moulsecoomb  B,Moulsecoomb  A,409261140,Fred Cooper,200,370299078,Michael Childs,188
+2017-09-20,17,1,Moulsecoomb  B,Moulsecoomb  A,138786345,Barry Thornton,200,564133408,Paul Phillips,173
+2017-09-13,17,1,Annunciation,Moulsecoomb  B,908008030,Geoff Randall,200,39704614,Steve Linton,156
+2017-09-13,17,1,Annunciation,Moulsecoomb  B,482444234,Richard Barrett,200,138786345,Barry Thornton,176
+2017-09-13,17,1,Annunciation,Moulsecoomb  B,283685400,Barry Martin,200,546240999,Trevor Caine,171
+2017-09-13,17,1,Moulsecoomb  A,Champion House,649511222,Stuart Maplesden,155,297844767,Mick Lott,200
+2017-09-13,17,1,Moulsecoomb  A,Champion House,176460812,Robin Powell,143,578580599,Ian Smith,200
+2017-09-13,17,1,Moulsecoomb  A,Champion House,370299078,Michael Childs,200,37136679,Robert (Bob) Jay,190
+2019-04-17,18,1,Annunciation,Champion House,908008030,Geoff Randall,200,297844767,Mick Lott,178
+2019-04-17,18,1,Annunciation,Champion House,482444234,Richard Barrett,147,37136679,Robert (Bob) Jay,200
+2019-04-17,18,1,Annunciation,Champion House,283685400,Barry Martin,200,578580599,Ian Smith,141
+2019-04-17,18,1,Moulsecoomb  A,St. Matthias A,176460812,Robin Powell,175,983276809,David Gillingham,200
+2019-04-17,18,1,Moulsecoomb  A,St. Matthias A,564133408,Paul Phillips,200,530117639,Geoff Akehurst,183
+2019-04-17,18,1,Moulsecoomb  A,St. Matthias A,370299078,Michael Childs,200,745337044,John Muzio,153
+2019-04-17,18,1,St. Matthias B,Moulsecoomb  B,715839724,Chris Mason,200,138786345,Barry Thornton,177
+2019-04-17,18,1,St. Matthias B,Moulsecoomb  B,271881781,Lester Grice,98,409261140,Fred Cooper,200
+2019-04-17,18,1,St. Matthias B,Moulsecoomb  B,992886832,Matt Dumbleton,200,546240999,Trevor Caine,174
+2019-04-03,18,1,Champion House,St. Matthias B,297844767,Mick Lott,104,622820041,Russell Hughes,200
+2019-04-03,18,1,Champion House,St. Matthias B,37136679,Robert (Bob) Jay,200,51829191,Nigel Stilwell,186
+2019-04-03,18,1,Champion House,St. Matthias B,578580599,Ian Smith,181,271881781,Lester Grice,200
+2019-04-03,18,1,Moulsecoomb  A,Annunciation,176460812,Robin Powell,200,482444234,Richard Barrett,126
+2019-04-03,18,1,Moulsecoomb  A,Annunciation,564133408,Paul Phillips,168,588390605,DON PENALVER,200
+2019-04-03,18,1,Moulsecoomb  A,Annunciation,649511222,Stuart Maplesden,173,908008030,Geoff Randall,200
+2019-04-03,18,1,St. Matthias A,Moulsecoomb  B,392836520,Pip Akehurst,200,39704614,Steve Linton,137
+2019-04-03,18,1,St. Matthias A,Moulsecoomb  B,983276809,David Gillingham,200,546240999,Trevor Caine,190
+2019-04-03,18,1,St. Matthias A,Moulsecoomb  B,745337044,John Muzio,200,409261140,Fred Cooper,199
+2019-03-20,18,1,Annunciation,St. Matthias A,482444234,Richard Barrett,200,530117639,Geoff Akehurst,183
+2019-03-20,18,1,Annunciation,St. Matthias A,908008030,Geoff Randall,77,983276809,David Gillingham,200
+2019-03-20,18,1,Annunciation,St. Matthias A,588390605,DON PENALVER,200,392836520,Pip Akehurst,158
+2019-03-20,18,1,Moulsecoomb  B,Champion House,39704614,Steve Linton,200,297844767,Mick Lott,184
+2019-03-20,18,1,Moulsecoomb  B,Champion House,138786345,Barry Thornton,200,37136679,Robert (Bob) Jay,126
+2019-03-20,18,1,Moulsecoomb  B,Champion House,546240999,Trevor Caine,192,578580599,Ian Smith,200
+2019-03-20,18,1,St. Matthias B,Moulsecoomb  A,271881781,Lester Grice,200,176460812,Robin Powell,198
+2019-03-20,18,1,St. Matthias B,Moulsecoomb  A,992886832,Matt Dumbleton,200,370299078,Michael Childs,179
+2019-03-20,18,1,St. Matthias B,Moulsecoomb  A,51829191,Nigel Stilwell,158,564133408,Paul Phillips,200
+2019-03-13,18,1,Annunciation,St. Matthias B,283685400,Barry Martin,200,715839724,Chris Mason,180
+2019-03-13,18,1,Annunciation,St. Matthias B,908008030,Geoff Randall,200,51829191,Nigel Stilwell,173
+2019-03-13,18,1,Annunciation,St. Matthias B,482444234,Richard Barrett,200,992886832,Matt Dumbleton,179
+2019-03-13,18,1,Moulsecoomb  A,Moulsecoomb  B,649511222,Stuart Maplesden,152,546240999,Trevor Caine,200
+2019-03-13,18,1,Moulsecoomb  A,Moulsecoomb  B,370299078,Michael Childs,200,138786345,Barry Thornton,194
+2019-03-13,18,1,Moulsecoomb  A,Moulsecoomb  B,564133408,Paul Phillips,200,409261140,Fred Cooper,168
+2019-03-13,18,1,St. Matthias A,Champion House,392836520,Pip Akehurst,162,297844767,Mick Lott,200
+2019-03-13,18,1,St. Matthias A,Champion House,983276809,David Gillingham,195,37136679,Robert (Bob) Jay,200
+2019-03-13,18,1,St. Matthias A,Champion House,745337044,John Muzio,150,578580599,Ian Smith,200
+2019-02-20,18,1,Champion House,Moulsecoomb  A,297844767,Mick Lott,174,649511222,Stuart Maplesden,200
+2019-02-20,18,1,Champion House,Moulsecoomb  A,37136679,Robert (Bob) Jay,200,176460812,Robin Powell,170
+2019-02-20,18,1,Champion House,Moulsecoomb  A,578580599,Ian Smith,128,564133408,Paul Phillips,200
+2019-02-20,18,1,Moulsecoomb  B,Annunciation,138786345,Barry Thornton,200,588390605,DON PENALVER,171
+2019-02-20,18,1,Moulsecoomb  B,Annunciation,546240999,Trevor Caine,178,908008030,Geoff Randall,200
+2019-02-20,18,1,Moulsecoomb  B,Annunciation,409261140,Fred Cooper,140,482444234,Richard Barrett,200
+2019-02-20,18,1,St. Matthias B,St. Matthias A,992886832,Matt Dumbleton,200,104406518,Terry Bashford,159
+2019-02-20,18,1,St. Matthias B,St. Matthias A,715839724,Chris Mason,200,983276809,David Gillingham,170
+2019-02-20,18,1,St. Matthias B,St. Matthias A,51829191,Nigel Stilwell,200,561705160,Pav Sareen,147
+2019-02-13,18,1,Champion House,Annunciation,297844767,Mick Lott,200,908008030,Geoff Randall,152
+2019-02-13,18,1,Champion House,Annunciation,37136679,Robert (Bob) Jay,142,482444234,Richard Barrett,200
+2019-02-13,18,1,Champion House,Annunciation,578580599,Ian Smith,198,588390605,DON PENALVER,200
+2019-02-13,18,1,Moulsecoomb  B,St. Matthias B,138786345,Barry Thornton,163,715839724,Chris Mason,200
+2019-02-13,18,1,Moulsecoomb  B,St. Matthias B,546240999,Trevor Caine,169,271881781,Lester Grice,200
+2019-02-13,18,1,Moulsecoomb  B,St. Matthias B,39704614,Steve Linton,200,992886832,Matt Dumbleton,160
+2019-02-13,18,1,St. Matthias A,Moulsecoomb  A,530117639,Geoff Akehurst,200,370299078,Michael Childs,194
+2019-02-13,18,1,St. Matthias A,Moulsecoomb  A,392836520,Pip Akehurst,200,649511222,Stuart Maplesden,160
+2019-02-13,18,1,St. Matthias A,Moulsecoomb  A,983276809,David Gillingham,200,564133408,Paul Phillips,161
+2019-02-06,18,1,Annunciation,Moulsecoomb  A,908008030,Geoff Randall,170,370299078,Michael Childs,200
+2019-02-06,18,1,Annunciation,Moulsecoomb  A,588390605,DON PENALVER,200,176460812,Robin Powell,174
+2019-02-06,18,1,Annunciation,Moulsecoomb  A,482444234,Richard Barrett,200,564133408,Paul Phillips,197
+2019-02-06,18,1,Moulsecoomb  B,St. Matthias A,39704614,Steve Linton,200,104406518,Terry Bashford,186
+2019-02-06,18,1,Moulsecoomb  B,St. Matthias A,546240999,Trevor Caine,176,983276809,David Gillingham,200
+2019-02-06,18,1,Moulsecoomb  B,St. Matthias A,409261140,Fred Cooper,200,561705160,Pav Sareen,151
+2019-02-06,18,1,St. Matthias B,Champion House,715839724,Chris Mason,200,297844767,Mick Lott,131
+2019-02-06,18,1,St. Matthias B,Champion House,271881781,Lester Grice,142,37136679,Robert (Bob) Jay,200
+2019-02-06,18,1,St. Matthias B,Champion House,51829191,Nigel Stilwell,200,578580599,Ian Smith,144
+2019-01-23,18,1,Champion House,Moulsecoomb  B,297844767,Mick Lott,200,138786345,Barry Thornton,190
+2019-01-23,18,1,Champion House,Moulsecoomb  B,37136679,Robert (Bob) Jay,200,409261140,Fred Cooper,172
+2019-01-23,18,1,Champion House,Moulsecoomb  B,578580599,Ian Smith,172,39704614,Steve Linton,200
+2019-01-23,18,1,Moulsecoomb  A,St. Matthias B,176460812,Robin Powell,192,271881781,Lester Grice,200
+2019-01-23,18,1,Moulsecoomb  A,St. Matthias B,564133408,Paul Phillips,172,51829191,Nigel Stilwell,200
+2019-01-23,18,1,Moulsecoomb  A,St. Matthias B,649511222,Stuart Maplesden,200,622820041,Russell Hughes,157
+2019-01-23,18,1,St. Matthias A,Annunciation,745337044,John Muzio,156,908008030,Geoff Randall,200
+2019-01-23,18,1,St. Matthias A,Annunciation,392836520,Pip Akehurst,200,482444234,Richard Barrett,171
+2019-01-23,18,1,St. Matthias A,Annunciation,983276809,David Gillingham,186,283685400,Barry Martin,200
+2019-01-16,18,1,Champion House,St. Matthias A,297844767,Mick Lott,200,104406518,Terry Bashford,159
+2019-01-16,18,1,Champion House,St. Matthias A,37136679,Robert (Bob) Jay,173,392836520,Pip Akehurst,200
+2019-01-16,18,1,Champion House,St. Matthias A,578580599,Ian Smith,200,530117639,Geoff Akehurst,164
+2019-01-16,18,1,Moulsecoomb  B,Moulsecoomb  A,138786345,Barry Thornton,165,176460812,Robin Powell,200
+2019-01-16,18,1,Moulsecoomb  B,Moulsecoomb  A,39704614,Steve Linton,163,564133408,Paul Phillips,200
+2019-01-16,18,1,Moulsecoomb  B,Moulsecoomb  A,546240999,Trevor Caine,190,370299078,Michael Childs,200
+2019-01-16,18,1,St. Matthias B,Annunciation,992886832,Matt Dumbleton,98,283685400,Barry Martin,200
+2019-01-16,18,1,St. Matthias B,Annunciation,51829191,Nigel Stilwell,200,908008030,Geoff Randall,148
+2019-01-16,18,1,St. Matthias B,Annunciation,715839724,Chris Mason,185,482444234,Richard Barrett,200
+2019-01-09,18,1,Annunciation,Moulsecoomb  B,908008030,Geoff Randall,200,39704614,Steve Linton,178
+2019-01-09,18,1,Annunciation,Moulsecoomb  B,283685400,Barry Martin,200,546240999,Trevor Caine,185
+2019-01-09,18,1,Annunciation,Moulsecoomb  B,482444234,Richard Barrett,200,409261140,Fred Cooper,148
+2019-01-09,18,1,Moulsecoomb  A,Champion House,176460812,Robin Powell,189,297844767,Mick Lott,200
+2019-01-09,18,1,Moulsecoomb  A,Champion House,370299078,Michael Childs,200,578580599,Ian Smith,153
+2019-01-09,18,1,Moulsecoomb  A,Champion House,564133408,Paul Phillips,171,37136679,Robert (Bob) Jay,200
+2018-12-12,18,1,Annunciation,Champion House,908008030,Geoff Randall,106,297844767,Mick Lott,200
+2018-12-12,18,1,Annunciation,Champion House,482444234,Richard Barrett,200,37136679,Robert (Bob) Jay,170
+2018-12-12,18,1,Annunciation,Champion House,283685400,Barry Martin,200,578580599,Ian Smith,192
+2018-12-12,18,1,Moulsecoomb  A,St. Matthias A,176460812,Robin Powell,200,530117639,Geoff Akehurst,181
+2018-12-12,18,1,Moulsecoomb  A,St. Matthias A,564133408,Paul Phillips,182,392836520,Pip Akehurst,200
+2018-12-12,18,1,Moulsecoomb  A,St. Matthias A,649511222,Stuart Maplesden,151,983276809,David Gillingham,200
+2018-12-12,18,1,St. Matthias B,Moulsecoomb  B,51829191,Nigel Stilwell,200,546240999,Trevor Caine,171
+2018-12-12,18,1,St. Matthias B,Moulsecoomb  B,992886832,Matt Dumbleton,107,138786345,Barry Thornton,200
+2018-12-12,18,1,St. Matthias B,Moulsecoomb  B,271881781,Lester Grice,141,409261140,Fred Cooper,200
+2018-11-21,18,1,Champion House,St. Matthias B,297844767,Mick Lott,200,715839724,Chris Mason,181
+2018-11-21,18,1,Champion House,St. Matthias B,37136679,Robert (Bob) Jay,200,271881781,Lester Grice,144
+2018-11-21,18,1,Champion House,St. Matthias B,578580599,Ian Smith,192,51829191,Nigel Stilwell,200
+2018-11-21,18,1,Moulsecoomb  A,Annunciation,165845675,Tyrone Davis,186,283685400,Barry Martin,200
+2018-11-21,18,1,Moulsecoomb  A,Annunciation,564133408,Paul Phillips,198,908008030,Geoff Randall,200
+2018-11-21,18,1,Moulsecoomb  A,Annunciation,370299078,Michael Childs,200,482444234,Richard Barrett,190
+2018-11-21,18,1,St. Matthias A,Moulsecoomb  B,983276809,David Gillingham,200,546240999,Trevor Caine,196
+2018-11-21,18,1,St. Matthias A,Moulsecoomb  B,104406518,Terry Bashford,140,409261140,Fred Cooper,200
+2018-11-21,18,1,St. Matthias A,Moulsecoomb  B,530117639,Geoff Akehurst,159,138786345,Barry Thornton,200
+2018-11-14,18,1,Annunciation,St. Matthias A,908008030,Geoff Randall,200,745337044,John Muzio,159
+2018-11-14,18,1,Annunciation,St. Matthias A,283685400,Barry Martin,154,983276809,David Gillingham,200
+2018-11-14,18,1,Annunciation,St. Matthias A,482444234,Richard Barrett,200,561705160,Pav Sareen,179
+2018-11-14,18,1,Moulsecoomb  B,Champion House,546240999,Trevor Caine,184,297844767,Mick Lott,200
+2018-11-14,18,1,Moulsecoomb  B,Champion House,409261140,Fred Cooper,200,37136679,Robert (Bob) Jay,181
+2018-11-14,18,1,Moulsecoomb  B,Champion House,138786345,Barry Thornton,200,578580599,Ian Smith,174
+2018-11-14,18,1,St. Matthias B,Moulsecoomb  A,622820041,Russell Hughes,200,165845675,Tyrone Davis,195
+2018-11-14,18,1,St. Matthias B,Moulsecoomb  A,715839724,Chris Mason,200,564133408,Paul Phillips,175
+2018-11-14,18,1,St. Matthias B,Moulsecoomb  A,51829191,Nigel Stilwell,200,370299078,Michael Childs,192
+2018-11-07,18,1,Annunciation,St. Matthias B,908008030,Geoff Randall,200,51829191,Nigel Stilwell,193
+2018-11-07,18,1,Annunciation,St. Matthias B,283685400,Barry Martin,120,715839724,Chris Mason,200
+2018-11-07,18,1,Annunciation,St. Matthias B,482444234,Richard Barrett,200,271881781,Lester Grice,130
+2018-11-07,18,1,Moulsecoomb  A,Moulsecoomb  B,370299078,Michael Childs,200,39704614,Steve Linton,174
+2018-11-07,18,1,Moulsecoomb  A,Moulsecoomb  B,176460812,Robin Powell,200,896685756,Ian Fennell,146
+2018-11-07,18,1,Moulsecoomb  A,Moulsecoomb  B,564133408,Paul Phillips,200,138786345,Barry Thornton,164
+2018-11-07,18,1,St. Matthias A,Champion House,983276809,David Gillingham,177,297844767,Mick Lott,200
+2018-11-07,18,1,St. Matthias A,Champion House,392836520,Pip Akehurst,200,37136679,Robert (Bob) Jay,166
+2018-11-07,18,1,St. Matthias A,Champion House,561705160,Pav Sareen,193,578580599,Ian Smith,200
+2018-10-24,18,1,Champion House,Moulsecoomb  A,578580599,Ian Smith,170,176460812,Robin Powell,200
+2018-10-24,18,1,Champion House,Moulsecoomb  A,37136679,Robert (Bob) Jay,200,564133408,Paul Phillips,191
+2018-10-24,18,1,Champion House,Moulsecoomb  A,297844767,Mick Lott,200,649511222,Stuart Maplesden,189
+2018-10-24,18,1,Moulsecoomb  B,Annunciation,39704614,Steve Linton,180,482444234,Richard Barrett,200
+2018-10-24,18,1,Moulsecoomb  B,Annunciation,409261140,Fred Cooper,182,283685400,Barry Martin,200
+2018-10-24,18,1,Moulsecoomb  B,Annunciation,546240999,Trevor Caine,184,908008030,Geoff Randall,200
+2018-10-24,18,1,St. Matthias B,St. Matthias A,622820041,Russell Hughes,200,104406518,Terry Bashford,139
+2018-10-24,18,1,St. Matthias B,St. Matthias A,715839724,Chris Mason,193,530117639,Geoff Akehurst,200
+2018-10-24,18,1,St. Matthias B,St. Matthias A,51829191,Nigel Stilwell,133,983276809,David Gillingham,200
+2018-10-17,18,1,Champion House,Annunciation,578580599,Ian Smith,184,908008030,Geoff Randall,200
+2018-10-17,18,1,Champion House,Annunciation,37136679,Robert (Bob) Jay,182,482444234,Richard Barrett,200
+2018-10-17,18,1,Champion House,Annunciation,297844767,Mick Lott,145,283685400,Barry Martin,200
+2018-10-17,18,1,Moulsecoomb  B,St. Matthias B,546240999,Trevor Caine,200,622820041,Russell Hughes,110
+2018-10-17,18,1,Moulsecoomb  B,St. Matthias B,138786345,Barry Thornton,200,51829191,Nigel Stilwell,155
+2018-10-17,18,1,Moulsecoomb  B,St. Matthias B,409261140,Fred Cooper,168,271881781,Lester Grice,200
+2018-10-17,18,1,St. Matthias A,Moulsecoomb  A,392836520,Pip Akehurst,200,370299078,Michael Childs,178
+2018-10-17,18,1,St. Matthias A,Moulsecoomb  A,983276809,David Gillingham,200,564133408,Paul Phillips,182
+2018-10-17,18,1,St. Matthias A,Moulsecoomb  A,561705160,Pav Sareen,177,649511222,Stuart Maplesden,200
+2018-10-10,18,1,Annunciation,Moulsecoomb  A,482444234,Richard Barrett,200,370299078,Michael Childs,187
+2018-10-10,18,1,Annunciation,Moulsecoomb  A,283685400,Barry Martin,200,564133408,Paul Phillips,198
+2018-10-10,18,1,Annunciation,Moulsecoomb  A,908008030,Geoff Randall,200,649511222,Stuart Maplesden,171
+2018-10-10,18,1,Moulsecoomb  B,St. Matthias A,896685756,Ian Fennell,149,983276809,David Gillingham,200
+2018-10-10,18,1,Moulsecoomb  B,St. Matthias A,138786345,Barry Thornton,184,104406518,Terry Bashford,200
+2018-10-10,18,1,Moulsecoomb  B,St. Matthias A,409261140,Fred Cooper,182,392836520,Pip Akehurst,200
+2018-10-10,18,1,St. Matthias B,Champion House,622820041,Russell Hughes,200,297844767,Mick Lott,153
+2018-10-10,18,1,St. Matthias B,Champion House,715839724,Chris Mason,200,37136679,Robert (Bob) Jay,187
+2018-10-10,18,1,St. Matthias B,Champion House,271881781,Lester Grice,200,578580599,Ian Smith,174
+2018-09-26,18,1,Champion House,Moulsecoomb  B,578580599,Ian Smith,158,546240999,Trevor Caine,200
+2018-09-26,18,1,Champion House,Moulsecoomb  B,37136679,Robert (Bob) Jay,120,409261140,Fred Cooper,200
+2018-09-26,18,1,Champion House,Moulsecoomb  B,297844767,Mick Lott,127,229907739,Maurice Wickens,200
+2018-09-26,18,1,Moulsecoomb  A,St. Matthias B,176460812,Robin Powell,162,51829191,Nigel Stilwell,200
+2018-09-26,18,1,Moulsecoomb  A,St. Matthias B,370299078,Michael Childs,200,992886832,Matt Dumbleton,160
+2018-09-26,18,1,Moulsecoomb  A,St. Matthias B,165845675,Tyrone Davis,188,271881781,Lester Grice,200
+2018-09-26,18,1,St. Matthias A,Annunciation,104406518,Terry Bashford,181,283685400,Barry Martin,200
+2018-09-26,18,1,St. Matthias A,Annunciation,983276809,David Gillingham,200,908008030,Geoff Randall,189
+2018-09-26,18,1,St. Matthias A,Annunciation,530117639,Geoff Akehurst,172,482444234,Richard Barrett,200
+2018-09-19,18,1,Champion House,St. Matthias A,578580599,Ian Smith,181,104406518,Terry Bashford,200
+2018-09-19,18,1,Champion House,St. Matthias A,37136679,Robert (Bob) Jay,200,561705160,Pav Sareen,152
+2018-09-19,18,1,Champion House,St. Matthias A,297844767,Mick Lott,200,983276809,David Gillingham,157
+2018-09-19,18,1,Moulsecoomb  B,Moulsecoomb  A,896685756,Ian Fennell,164,370299078,Michael Childs,200
+2018-09-19,18,1,Moulsecoomb  B,Moulsecoomb  A,409261140,Fred Cooper,186,564133408,Paul Phillips,200
+2018-09-19,18,1,Moulsecoomb  B,Moulsecoomb  A,546240999,Trevor Caine,146,649511222,Stuart Maplesden,200
+2018-09-19,18,1,St. Matthias B,Annunciation,715839724,Chris Mason,100,908008030,Geoff Randall,200
+2018-09-19,18,1,St. Matthias B,Annunciation,51829191,Nigel Stilwell,149,283685400,Barry Martin,200
+2018-09-19,18,1,St. Matthias B,Annunciation,271881781,Lester Grice,200,482444234,Richard Barrett,116
+2018-09-12,18,1,Annunciation,Moulsecoomb  B,482444234,Richard Barrett,200,39704614,Steve Linton,147
+2018-09-12,18,1,Annunciation,Moulsecoomb  B,283685400,Barry Martin,200,546240999,Trevor Caine,159
+2018-09-12,18,1,Annunciation,Moulsecoomb  B,908008030,Geoff Randall,200,138786345,Barry Thornton,188
+2018-09-12,18,1,Moulsecoomb  A,Champion House,370299078,Michael Childs,200,37136679,Robert (Bob) Jay,80
+2018-09-12,18,1,Moulsecoomb  A,Champion House,564133408,Paul Phillips,188,578580599,Ian Smith,200
+2018-09-12,18,1,Moulsecoomb  A,Champion House,649511222,Stuart Maplesden,200,297844767,Mick Lott,190
+2018-09-12,18,1,St. Matthias A,St. Matthias B,983276809,David Gillingham,186,715839724,Chris Mason,200
+2018-09-12,18,1,St. Matthias A,St. Matthias B,530117639,Geoff Akehurst,160,51829191,Nigel Stilwell,200
+2018-09-12,18,1,St. Matthias A,St. Matthias B,561705160,Pav Sareen,200,271881781,Lester Grice,191
+2019-12-11,19,1,Annunciation,Champion House,532826446,Tony Shipley,200,578580599,Ian Smith,173
+2019-12-11,19,1,Annunciation,Champion House,908008030,Geoff Randall,200,37136679,Robert (Bob) Jay,136
+2019-12-11,19,1,Annunciation,Champion House,482444234,Richard Barrett,155,297844767,Mick Lott,200
+2019-12-11,19,1,Moulsecoomb  A,St. Matthias A,564133408,Paul Phillips,200,983276809,David Gillingham,157
+2019-12-11,19,1,Moulsecoomb  A,St. Matthias A,176460812,Robin Powell,179,530117639,Geoff Akehurst,200
+2019-12-11,19,1,Moulsecoomb  A,St. Matthias A,649511222,Stuart Maplesden,141,561705160,Pav Sareen,200
+2019-12-11,19,1,St. Matthias B,Moulsecoomb  B,715839724,Chris Mason,200,138786345,Barry Thornton,158
+2019-12-11,19,1,St. Matthias B,Moulsecoomb  B,271881781,Lester Grice,107,409261140,Fred Cooper,200
+2019-12-11,19,1,St. Matthias B,Moulsecoomb  B,51829191,Nigel Stilwell,200,546240999,Trevor Caine,199
+2019-11-20,19,1,Champion House,St. Matthias B,578580599,Ian Smith,200,271881781,Lester Grice,156
+2019-11-20,19,1,Champion House,St. Matthias B,37136679,Robert (Bob) Jay,129,51829191,Nigel Stilwell,200
+2019-11-20,19,1,Champion House,St. Matthias B,561230275,Ray Hunter,0,992886832,Matt Dumbleton,200
+2019-11-20,19,1,Moulsecoomb  A,Annunciation,564133408,Paul Phillips,200,482444234,Richard Barrett,154
+2019-11-20,19,1,Moulsecoomb  A,Annunciation,370299078,Michael Childs,200,532826446,Tony Shipley,183
+2019-11-20,19,1,Moulsecoomb  A,Annunciation,649511222,Stuart Maplesden,200,908008030,Geoff Randall,139
+2019-11-20,19,1,St. Matthias A,Moulsecoomb  B,983276809,David Gillingham,200,229907739,Maurice Wickens,171
+2019-11-20,19,1,St. Matthias A,Moulsecoomb  B,530117639,Geoff Akehurst,200,138786345,Barry Thornton,174
+2019-11-20,19,1,St. Matthias A,Moulsecoomb  B,561705160,Pav Sareen,200,546240999,Trevor Caine,141
+2019-11-13,19,1,Annunciation,St. Matthias A,908008030,Geoff Randall,200,983276809,David Gillingham,113
+2019-11-13,19,1,Annunciation,St. Matthias A,482444234,Richard Barrett,200,104406518,Terry Bashford,187
+2019-11-13,19,1,Annunciation,St. Matthias A,532826446,Tony Shipley,172,392836520,Pip Akehurst,200
+2019-11-13,19,1,Moulsecoomb  B,Champion House,546240999,Trevor Caine,200,297844767,Mick Lott,183
+2019-11-13,19,1,Moulsecoomb  B,Champion House,409261140,Fred Cooper,200,578580599,Ian Smith,144
+2019-11-13,19,1,Moulsecoomb  B,Champion House,138786345,Barry Thornton,200,37136679,Robert (Bob) Jay,152
+2019-11-13,19,1,St. Matthias B,Moulsecoomb  A,622820041,Russell Hughes,153,564133408,Paul Phillips,200
+2019-11-13,19,1,St. Matthias B,Moulsecoomb  A,715839724,Chris Mason,121,176460812,Robin Powell,200
+2019-11-13,19,1,St. Matthias B,Moulsecoomb  A,992886832,Matt Dumbleton,164,649511222,Stuart Maplesden,200
+2019-11-06,19,1,Annunciation,St. Matthias B,482444234,Richard Barrett,162,715839724,Chris Mason,200
+2019-11-06,19,1,Annunciation,St. Matthias B,283685400,Barry Martin,112,622820041,Russell Hughes,200
+2019-11-06,19,1,Annunciation,St. Matthias B,908008030,Geoff Randall,33,51829191,Nigel Stilwell,200
+2019-11-06,19,1,Moulsecoomb  A,Moulsecoomb  B,564133408,Paul Phillips,193,138786345,Barry Thornton,200
+2019-11-06,19,1,Moulsecoomb  A,Moulsecoomb  B,176460812,Robin Powell,181,39704614,Steve Linton,200
+2019-11-06,19,1,Moulsecoomb  A,Moulsecoomb  B,649511222,Stuart Maplesden,125,409261140,Fred Cooper,200
+2019-11-06,19,1,St. Matthias A,Champion House,745337044,John Muzio,200,578580599,Ian Smith,174
+2019-11-06,19,1,St. Matthias A,Champion House,983276809,David Gillingham,174,297844767,Mick Lott,200
+2019-11-06,19,1,St. Matthias A,Champion House,392836520,Pip Akehurst,200,37136679,Robert (Bob) Jay,190
+2019-10-23,19,1,Champion House,Moulsecoomb  A,297844767,Mick Lott,200,649511222,Stuart Maplesden,168
+2019-10-23,19,1,Champion House,Moulsecoomb  A,37136679,Robert (Bob) Jay,126,564133408,Paul Phillips,200
+2019-10-23,19,1,Champion House,Moulsecoomb  A,578580599,Ian Smith,200,176460812,Robin Powell,193
+2019-10-23,19,1,Moulsecoomb  B,Annunciation,409261140,Fred Cooper,200,908008030,Geoff Randall,146
+2019-10-23,19,1,Moulsecoomb  B,Annunciation,138786345,Barry Thornton,199,588390605,DON PENALVER,200
+2019-10-23,19,1,Moulsecoomb  B,Annunciation,39704614,Steve Linton,200,482444234,Richard Barrett,94
+2019-10-23,19,1,St. Matthias B,St. Matthias A,715839724,Chris Mason,200,530117639,Geoff Akehurst,175
+2019-10-23,19,1,St. Matthias B,St. Matthias A,271881781,Lester Grice,200,983276809,David Gillingham,130
+2019-10-23,19,1,St. Matthias B,St. Matthias A,51829191,Nigel Stilwell,200,561705160,Pav Sareen,158
+2019-10-16,19,1,Champion House,Annunciation,297844767,Mick Lott,200,908008030,Geoff Randall,182
+2019-10-16,19,1,Champion House,Annunciation,37136679,Robert (Bob) Jay,191,482444234,Richard Barrett,200
+2019-10-16,19,1,Champion House,Annunciation,578580599,Ian Smith,200,588390605,DON PENALVER,190
+2019-10-16,19,1,Moulsecoomb  B,St. Matthias B,409261140,Fred Cooper,200,271881781,Lester Grice,188
+2019-10-16,19,1,Moulsecoomb  B,St. Matthias B,546240999,Trevor Caine,200,992886832,Matt Dumbleton,199
+2019-10-16,19,1,Moulsecoomb  B,St. Matthias B,138786345,Barry Thornton,200,51829191,Nigel Stilwell,193
+2019-10-16,19,1,St. Matthias A,Moulsecoomb  A,392836520,Pip Akehurst,172,176460812,Robin Powell,200
+2019-10-16,19,1,St. Matthias A,Moulsecoomb  A,983276809,David Gillingham,200,649511222,Stuart Maplesden,160
+2019-10-16,19,1,St. Matthias A,Moulsecoomb  A,561705160,Pav Sareen,200,564133408,Paul Phillips,145
+2019-10-09,19,1,Annunciation,Moulsecoomb  A,532826446,Tony Shipley,200,176460812,Robin Powell,175
+2019-10-09,19,1,Annunciation,Moulsecoomb  A,482444234,Richard Barrett,161,649511222,Stuart Maplesden,200
+2019-10-09,19,1,Annunciation,Moulsecoomb  A,283685400,Barry Martin,186,564133408,Paul Phillips,200
+2019-10-09,19,1,Moulsecoomb  B,St. Matthias A,138786345,Barry Thornton,194,392836520,Pip Akehurst,200
+2019-10-09,19,1,Moulsecoomb  B,St. Matthias A,409261140,Fred Cooper,166,983276809,David Gillingham,200
+2019-10-09,19,1,Moulsecoomb  B,St. Matthias A,546240999,Trevor Caine,200,530117639,Geoff Akehurst,172
+2019-10-09,19,1,St. Matthias B,Champion House,715839724,Chris Mason,200,297844767,Mick Lott,95
+2019-10-09,19,1,St. Matthias B,Champion House,992886832,Matt Dumbleton,170,37136679,Robert (Bob) Jay,200
+2019-10-09,19,1,St. Matthias B,Champion House,271881781,Lester Grice,200,578580599,Ian Smith,175
+2019-09-25,19,1,Champion House,Moulsecoomb  B,578580599,Ian Smith,153,138786345,Barry Thornton,200
+2019-09-25,19,1,Champion House,Moulsecoomb  B,37136679,Robert (Bob) Jay,152,39704614,Steve Linton,200
+2019-09-25,19,1,Champion House,Moulsecoomb  B,297844767,Mick Lott,137,409261140,Fred Cooper,200
+2019-09-25,19,1,Moulsecoomb  A,St. Matthias B,176460812,Robin Powell,169,715839724,Chris Mason,200
+2019-09-25,19,1,Moulsecoomb  A,St. Matthias B,370299078,Michael Childs,197,51829191,Nigel Stilwell,200
+2019-09-25,19,1,Moulsecoomb  A,St. Matthias B,564133408,Paul Phillips,198,992886832,Matt Dumbleton,200
+2019-09-25,19,1,St. Matthias A,Annunciation,745337044,John Muzio,163,283685400,Barry Martin,200
+2019-09-25,19,1,St. Matthias A,Annunciation,392836520,Pip Akehurst,200,908008030,Geoff Randall,153
+2019-09-25,19,1,St. Matthias A,Annunciation,983276809,David Gillingham,200,532826446,Tony Shipley,182
+2019-09-18,19,1,Champion House,St. Matthias A,578580599,Ian Smith,193,530117639,Geoff Akehurst,200
+2019-09-18,19,1,Champion House,St. Matthias A,37136679,Robert (Bob) Jay,200,104406518,Terry Bashford,186
+2019-09-18,19,1,Champion House,St. Matthias A,297844767,Mick Lott,152,983276809,David Gillingham,200
+2019-09-18,19,1,Moulsecoomb  B,Moulsecoomb  A,546240999,Trevor Caine,200,176460812,Robin Powell,198
+2019-09-18,19,1,Moulsecoomb  B,Moulsecoomb  A,138786345,Barry Thornton,200,370299078,Michael Childs,199
+2019-09-18,19,1,Moulsecoomb  B,Moulsecoomb  A,409261140,Fred Cooper,152,564133408,Paul Phillips,200
+2019-09-18,19,1,St. Matthias B,Annunciation,992886832,Matt Dumbleton,149,283685400,Barry Martin,200
+2019-09-18,19,1,St. Matthias B,Annunciation,271881781,Lester Grice,164,532826446,Tony Shipley,200
+2019-09-18,19,1,St. Matthias B,Annunciation,51829191,Nigel Stilwell,200,908008030,Geoff Randall,123
+2019-09-11,19,1,Annunciation,Moulsecoomb  B,482444234,Richard Barrett,200,409261140,Fred Cooper,185
+2019-09-11,19,1,Annunciation,Moulsecoomb  B,283685400,Barry Martin,99,138786345,Barry Thornton,200
+2019-09-11,19,1,Annunciation,Moulsecoomb  B,908008030,Geoff Randall,185,546240999,Trevor Caine,200
+2019-09-11,19,1,Moulsecoomb  A,Champion House,165845675,Tyrone Davis,200,297844767,Mick Lott,69
+2019-09-11,19,1,Moulsecoomb  A,Champion House,370299078,Michael Childs,200,37136679,Robert (Bob) Jay,136
+2019-09-11,19,1,Moulsecoomb  A,Champion House,649511222,Stuart Maplesden,200,561230275,Ray Hunter,155
+2019-09-11,19,1,St. Matthias A,St. Matthias B,104406518,Terry Bashford,173,271881781,Lester Grice,200
+2019-09-11,19,1,St. Matthias A,St. Matthias B,983276809,David Gillingham,153,715839724,Chris Mason,200
+2019-09-11,19,1,St. Matthias A,St. Matthias B,530117639,Geoff Akehurst,200,992886832,Matt Dumbleton,193
