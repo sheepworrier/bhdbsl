@@ -518,8 +518,8 @@ server <- function(input, output) {
     req(input$choose_player)
     df <- player_frames()
     best_rating <- df %>%
-      mutate(best_rating = max(rating))
-    best_rating <- best_rating$best_rating
+      summarise(best_rating = max(rating)) %>%
+      pull()
     valueBox(
       formatC(best_rating, big.mark = ",", digits = 0, format = "f"),
       "Best Rating", icon = icon("line-chart"), color = "yellow"
@@ -533,7 +533,7 @@ server <- function(input, output) {
     current_rating <- df[which(df$name == input$choose_player), ]$latest_rating
     df <- player_frames()
     best_rating <- df %>%
-      mutate(best_rating = max(rating))
+      summarise(best_rating = max(rating))
     best_rating <- best_rating$best_rating
     valueBox(
       formatC(current_rating, big.mark = ",", digits = 0, format = "f"),
