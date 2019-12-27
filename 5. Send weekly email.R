@@ -15,6 +15,8 @@ divisions <- data.frame(division = seq(1, 4),
 match_scores <- read_csv("New-website-match-scores.csv") %>%
   filter(season == 19)
 
+breaks <- read_csv("New-website-breaks.csv")
+
 snooker_weeks <- match_scores %>%
   filter(weekdays(fixture_date) == "Monday") %>%
   distinct(fixture_date) %>%
@@ -28,12 +30,22 @@ final_scores <- snooker_weeks %>%
   arrange(division, home_team) %>%
   select(div_text, home_team, home_score, away_score, away_team)
 
+final_breaks <- breaks %>%
+  inner_join(snooker_weeks, by = "fixture_date")  %>%
+  filter(week_number == snooker_week) %>%
+  inner_join(divisions, by = "division") %>%
+  arrange(division, desc(high_break)) %>%
+  select(div_text, player_name, high_break)
+
 msg <- paste0("<u><b>Snooker results for week ", snooker_week, "</b></u>",
               "<br><br>",
               tableHTML(final_scores, rownames = FALSE,
                         headers = c("Division", "Home Team", "Home Score",
                                     "Away Score", "Away Team")),
-              "<br><br>",
+              "<br><br><u><b>Snooker breaks this week</b></u><br><br>",
+              tableHTML(final_breaks, rownames = FALSE,
+                        headers = c("Division", "Name", "High Break")),
+              "<br<br>",
               "Kind regards,<br>",
               "Dean Perry")
 
