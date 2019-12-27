@@ -2,6 +2,7 @@ source("common-functions.R")
 # Import the reference data containing the results URLs per season per division
 # Only needs updating when a new season is added
 ref_data <- read_csv("Snooker-Results-pages-per-season.csv") %>%
+  mutate(sport = "Snooker") %>%
   filter(Season == 19)
 
 # Grab every match result and the link to the match details page
