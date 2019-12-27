@@ -37,6 +37,16 @@ final_breaks <- breaks %>%
   arrange(division, desc(high_break)) %>%
   select(div_text, player_name, high_break)
 
+highest_breaks_per_division <- breaks %>%
+  filter(season == 19) %>%
+  group_by(division) %>%
+  summarise(high_break = max(high_break)) %>%
+  inner_join(breaks %>%
+               filter(season == 19)) %>%
+  inner_join(divisions, by = "division") %>%
+  arrange(division, fixture_date) %>%
+  select(div_text, player_name, fixture_date, high_break)
+
 msg <- paste0("<u><b>Snooker results for week ", snooker_week, "</b></u>",
               "<br><br>",
               tableHTML(final_scores, rownames = FALSE,
@@ -45,7 +55,10 @@ msg <- paste0("<u><b>Snooker results for week ", snooker_week, "</b></u>",
               "<br><br><u><b>Snooker breaks this week</b></u><br><br>",
               tableHTML(final_breaks, rownames = FALSE,
                         headers = c("Division", "Name", "High Break")),
-              "<br<br>",
+              "<br<br><u><b>Top snooker breaks this season</b></u><br><br>",
+              tableHTML(highest_breaks_per_division, rownames = FALSE,
+                        headers = c("Division", "Name", "Date", "High Break")),
+              "<br><br>",
               "Kind regards,<br>",
               "Dean Perry")
 
