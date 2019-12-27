@@ -44,6 +44,8 @@ get_single_results_page <- function(base_url, season, division, page_number) {
     html_nodes("table") %>%
     .[[1]] %>%
     html_table(fill=TRUE)
+  # Remove any notes that have been applied to any of the match results
+  results_table <- results_table[nchar(results_table[, 1]) == 0, ]
   # The final column of the above table contains a URL for the match details
   match_detail_urls <- scrape(session) %>%
     html_nodes("td:nth-child(9) a") %>%
