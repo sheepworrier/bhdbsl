@@ -592,7 +592,8 @@ server <- function(input, output) {
     chosen_division <- substr(input$chosen_division, 1, 1) %>%
       as.integer()
     df <- player_record_summary %>%
-      filter(division == chosen_division) %>%
+      filter(division == chosen_division,
+             played >= input$min_frames) %>%
       inner_join(filtered_in_players(), by = c("player_id" = "id")) %>%
       group_by(player_name, division) %>%
       summarise_at(vars(played, wins), funs(sum)) %>%
