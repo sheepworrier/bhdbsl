@@ -4,7 +4,7 @@ library(tidyverse)
 library(purrr)
 library(polite)
 
-get_season_division_results <- function(season, division, url) {
+get_season_division_results <- function(season, division, url, sport) {
   # Create polite session
   session <- bow(url, force = TRUE)
   # Read in the number of results pages
@@ -25,13 +25,15 @@ get_season_division_results <- function(season, division, url) {
   arg_list <- list(rep(substr(url, 1, str_length(url) - 5), num_pages),
                    rep(season, num_pages),
                    rep(division, num_pages),
-                   seq(1, num_pages))
+                   seq(1, num_pages),
+                   rep(sport, num_pages))
   # Run get_single_results_page successively to populate the result_table
   result_table <- pmap_dfr(arg_list, get_single_results_page)
   result_table
 }
 
-get_single_results_page <- function(base_url, season, division, page_number) {
+get_single_results_page <- function(base_url, season, division, page_number,
+                                    sport) {
   # Print to console to track progress
   print(paste("Scraping page", page_number, "for division", division,
               "and season", season))
@@ -45,33 +47,63 @@ get_single_results_page <- function(base_url, season, division, page_number) {
     .[[1]] %>%
     html_table(fill=TRUE)
   # Remove any notes that have been applied to any of the match results
-  results_table <- results_table[nchar(results_table[, 1]) == 0, ]
+  if (is.na(results_table[1, 1])) {
+    results_table <- results_table[is.na(results_table[, 1]), ]    
+  } else {
+    results_table <- results_table[nchar(results_table[, 1]) == 0, ]
+  }
   # The final column of the above table contains a URL for the match details
   match_detail_urls <- scrape(session) %>%
     html_nodes("td:nth-child(9) a") %>%
     html_attr("href")
 
-  # Remove empty columns and process strings to give final results table
-  final_results_table <-
-    data.frame(fixture_date = as.Date(results_table$`Date Time`,
-                                      format = "%d/%m/%y"),
-               season = season,
-               division = division,
-               home_team = results_table$`Home Team`,
-               away_team = results_table$`Away Team`,
-               home_score = as.integer(substr(results_table$Score, 1, 1)),
-               away_score = as.integer(substr(results_table$Score, 5, 5)),
-               stringsAsFactors = FALSE)
-  # Set absolute URL of match details pages
-  final_results_table$URLs <-
-    paste0("http://brightonhovedistrictsnooker.leaguerepublic.com",
-           match_detail_urls)
+  # Construct final results table for this match - slightly different format if
+  # snooker or billiards
+  if (sport == "Snooker") {
+    print("Gathering Snooker results")
+    # Remove empty columns and process strings to give final results table
+    final_results_table <-
+      data.frame(fixture_date = as.Date(results_table$`Date Time`,
+                                        format = "%d/%m/%y"),
+                 season = season,
+                 division = division,
+                 home_team = results_table$`Home Team`,
+                 away_team = results_table$`Away Team`,
+                 home_score = as.integer(substr(results_table$Score, 1, 1)),
+                 away_score = as.integer(substr(results_table$Score, 5, 5)),
+                 stringsAsFactors = FALSE)
+    # Set absolute URL of match details pages
+    final_results_table$URLs <-
+      paste0("http://brightonhovedistrictsnooker.leaguerepublic.com",
+             match_detail_urls)
+  } else {
+    print("Gathering Billiards results")
+    # Reformat the scores column to split between home and away, scoring and
+    # overall
+    results_table <- results_table[, c(2, 3, 5, 7)]
+    results_table <- results_table %>%
+      mutate(Score = str_remove_all(Score, "\\(")) %>%
+      mutate(Score = str_remove_all(Score, "\\)")) %>%
+      separate(Score, c("home_score", "away_score"), sep = " - ") %>%
+      separate(home_score, c("home_sp", "home_op"), sep = "-") %>%
+      separate(away_score, c("away_sp", "away_op"), sep = "-")
+      
+    final_results_table <- results_table %>%
+      mutate(fixture_date = as.Date(results_table$`Date Time`,
+                                    format = "%d/%m/%y"),
+             season = season,
+             division = division,
+             url =
+               paste0("http://brightonhovedistrictbilliards.leaguerepublic.com",
+                      match_detail_urls)) %>%
+      select(fixture_date, season, division, home_team = `Home Team`,
+             away_team = `Away Team`, home_sp, away_sp, home_op, away_op, url)
+  }
   final_results_table
 }
 
 scrape_match_page <-
-  function(fixture_date, season, division, home_team, away_team, home_score,
-           away_score, url) {
+  function(fixture_date, season, division, home_team, away_team, url) {
     print(paste("Scraping", url))
     # Create polite session
     session <- bow(url, force = TRUE)
@@ -137,28 +169,32 @@ scrape_match_page <-
         # If it exists then read into a dataframe
         breaks_table <- potential_break_tables[[i]] %>%
           html_table(fill=TRUE)
-        colnames(breaks_table) <- c("player_name", "high_break")
-        # Remove the handicap from the player name
-        breaks_table$player_name <-
-          str_replace(breaks_table$player_name, " \\[[0-9]+\\]", "")
-        # Read in the player URLs so that we can parse to get the player ID
-        player_urls <- potential_break_tables[[i]] %>%
-          html_nodes("a") %>%
-          html_attr("href")
-        # Parse URLs to exrtact the player IDs
-        player_ids <- sub("^.+/", "", sub(".html$", "", player_urls))
-        # Construct (almost) final output table.  Just need to add in player IDs
-        breaks <-
-          data.frame(fixture_date,
-                     season,
-                     division,
-                     player_id = player_ids,
-                     player_name = breaks_table$player_name,
-                     high_break = breaks_table$high_break,
-                     stringsAsFactors = FALSE)
-        breaks$fixture_date <-
-          as.Date(breaks$fixture_date, origin = "1970-01-01")
-        breaks_new <<- bind_rows(breaks_new, breaks)
+        # Check if the column heading is High Break
+        if (colnames(breaks_table)[1] == "High Break") {
+          colnames(breaks_table) <- c("player_name", "high_break")
+          # Remove the handicap from the player name
+          breaks_table$player_name <-
+            str_replace(breaks_table$player_name, " \\[[0-9]+\\]", "")
+          # Read in the player URLs so that we can parse to get the player ID
+          player_urls <- potential_break_tables[[i]] %>%
+            html_nodes("a") %>%
+            html_attr("href")
+          # Parse URLs to exrtact the player IDs
+          player_ids <- sub("^.+/", "", sub(".html$", "", player_urls))
+          # Construct (almost) final output table.  Just need to add in player
+          # IDs
+          breaks <-
+            data.frame(fixture_date,
+                       season,
+                       division,
+                       player_id = player_ids,
+                       player_name = breaks_table$player_name,
+                       high_break = breaks_table$high_break,
+                       stringsAsFactors = FALSE)
+          breaks$fixture_date <-
+            as.Date(breaks$fixture_date, origin = "1970-01-01")
+          breaks_new <<- bind_rows(breaks_new, breaks) 
+        }
       }
     }
     frame_scores
