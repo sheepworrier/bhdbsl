@@ -28,6 +28,6 @@ frame_scores_total <- frame_scores_new %>%
   filter(home_player_id != "" & away_player_id != "")
 
 # Write the results to a CSV file for use in the ELO ranking
-write_csv(frame_scores_total, "Billiard-frame-scores.csv")
-write_csv(results_new, "Billiard-match-scores.csv")
-write_csv(breaks_new, "Billiard-breaks.csv")
+write_csv(frame_scores_total, "Billiards-frame-scores.csv")
+write_csv(results_new, "Billiards-match-scores.csv")
+write_csv(breaks_new, "Billiards-breaks.csv")
