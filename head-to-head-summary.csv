@@ -1002,8 +1002,8 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 144776055,Brian Wilkes,866506631,Mark Smith,3,0,3
 144776055,Brian Wilkes,867613624,Ian Dunhill,3,1,2
 144776055,Brian Wilkes,880982797,Ray Hunter,3,2,1
-146404254,Randall Griffith,287057630,Darren Hearn,3,3,0
-146404254,Randall Griffith,899206834,Jez Downs,3,2,1
+146404254,Randall Griffiths,287057630,Darren Hearn,3,3,0
+146404254,Randall Griffiths,899206834,Jez Downs,3,2,1
 147556923,Hong Ming Lee,717256135,Trevor Pickard,3,3,0
 160950731,Locky McCurdy,266477517,Tony Baxter,3,2,1
 160950731,Locky McCurdy,506320151,Frank Taylor,3,2,1
@@ -2307,7 +2307,7 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 26970170,Kai Michael,878576746,Jon Hall,2,0,2
 27255501,Tom Lane,35191252,Nigel Hayward,2,1,1
 27255501,Tom Lane,120138229,Adam Butler,2,0,2
-27255501,Tom Lane,146404254,Randall Griffith,2,0,2
+27255501,Tom Lane,146404254,Randall Griffiths,2,0,2
 27255501,Tom Lane,293122482,Stuart Maplesden,2,0,2
 27255501,Tom Lane,360777082,Mark Bishop,2,0,2
 27255501,Tom Lane,394906196,Mick Mabbitt,2,1,1
@@ -2692,11 +2692,11 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 144776055,Brian Wilkes,953512654,Les Berry,2,1,1
 144776055,Brian Wilkes,970786910,Kevin Sorrell,2,1,1
 144776055,Brian Wilkes,971308746,Clive Harman,2,0,2
-146404254,Randall Griffith,360777082,Mark Bishop,2,1,1
-146404254,Randall Griffith,394906196,Mick Mabbitt,2,2,0
-146404254,Randall Griffith,423038309,Ian Fennell,2,0,2
-146404254,Randall Griffith,732415457,Barry Hall,2,1,1
-146404254,Randall Griffith,971308746,Clive Harman,2,2,0
+146404254,Randall Griffiths,360777082,Mark Bishop,2,1,1
+146404254,Randall Griffiths,394906196,Mick Mabbitt,2,2,0
+146404254,Randall Griffiths,423038309,Ian Fennell,2,0,2
+146404254,Randall Griffiths,732415457,Barry Hall,2,1,1
+146404254,Randall Griffiths,971308746,Clive Harman,2,2,0
 147556923,Hong Ming Lee,384960657,Dave Lewney,2,2,0
 147556923,Hong Ming Lee,436708540,Bob Henley,2,1,1
 147556923,Hong Ming Lee,617751649,Lee Simpson,2,0,2
