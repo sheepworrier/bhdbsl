@@ -47,10 +47,12 @@ get_single_results_page <- function(base_url, season, division, page_number,
     .[[1]] %>%
     html_table(fill=TRUE)
   # Remove any notes that have been applied to any of the match results
-  if (is.na(results_table[1, 1])) {
-    results_table <- results_table[is.na(results_table[, 1]), ]    
-  } else {
-    results_table <- results_table[nchar(results_table[, 1]) == 0, ]
+  if (sport != "Snooker comp") {
+    if (is.na(results_table[1, 1])) {
+      results_table <- results_table[is.na(results_table[, 1]), ]    
+    } else {
+      results_table <- results_table[nchar(results_table[, 1]) == 0, ]
+    }
   }
   # The final column of the above table contains a URL for the match details
   match_detail_urls <- scrape(session) %>%
@@ -76,7 +78,7 @@ get_single_results_page <- function(base_url, season, division, page_number,
     final_results_table$URLs <-
       paste0("http://brightonhovedistrictsnooker.leaguerepublic.com",
              match_detail_urls)
-  } else {
+  } else if (sport == "Billiards") {
     print("Gathering Billiards results")
     # Reformat the scores column to split between home and away, scoring and
     # overall
@@ -99,6 +101,21 @@ get_single_results_page <- function(base_url, season, division, page_number,
                       match_detail_urls)) %>%
       select(fixture_date, season, division, home_team = `Home Team`,
              away_team = `Away Team`, home_sp, away_sp, home_op, away_op, url)
+  } else {
+    print("Gathering Snooker competition results")
+    # Remove empty columns
+    # Filter out any walkovers
+    final_results_table <-
+      data.frame(fixture_date = as.Date(results_table$`Date Time`,
+                                        format = "%d/%m/%y"),
+                 season = season,
+                 division = division,
+                 home_team = results_table$`Home Team`,
+                 away_team = results_table$`Away Team`,
+                 home_score = as.integer(substr(results_table$Score, 1, 1)),
+                 away_score = as.integer(substr(results_table$Score, 5, 5)),
+                 stringsAsFactors = FALSE) %>%
+      filter(!is.na(home_score))
   }
   final_results_table
 }
