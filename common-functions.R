@@ -86,7 +86,8 @@ get_single_results_page <- function(base_url, season, division, page_number,
       mutate(Score = str_remove_all(Score, "\\)")) %>%
       separate(Score, c("home_score", "away_score"), sep = " - ") %>%
       separate(home_score, c("home_sp", "home_op"), sep = "-") %>%
-      separate(away_score, c("away_sp", "away_op"), sep = "-")
+      separate(away_score, c("away_sp", "away_op"), sep = "-") %>%
+      mutate_at(vars(home_sp:away_op), list(as.integer))
       
     final_results_table <- results_table %>%
       mutate(fixture_date = as.Date(results_table$`Date Time`,
