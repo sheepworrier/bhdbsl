@@ -4,8 +4,8 @@ library(readr)
 library(tidyr)
 library(dplyr)
 
-snooker_week <- 16
-billiards_week <- 10
+snooker_week <- 17
+billiards_week <- 11
 # test_to_address <- "djp42@cantab.net"
 email_addresses <- read_csv("team_email_addresses.csv")
 snooker_divisions <- data.frame(division = seq(1, 4),
@@ -82,10 +82,14 @@ msg <- paste0("<u><b>Snooker results for week ", snooker_week, "</b></u>",
               tableHTML(final_snooker_scores, rownames = FALSE,
                         headers = c("Division", "Home Team", "Home Score",
                                     "Away Score", "Away Team")),
-              "<br><br><u><b>Snooker breaks this week</b></u><br><br>",
+              "<br><br>",
+              "<u><b>Snooker breaks this week</b></u>",
+              "<br><br>",
               tableHTML(final_snooker_breaks, rownames = FALSE,
                         headers = c("Division", "Name", "High Break")),
-              "<br<br><u><b>Top snooker breaks this season</b></u><br><br>",
+              "<br<br>",
+              "<u><b>Top snooker breaks this season</b></u>",
+              "<br><br>",
               tableHTML(highest_snooker_breaks_per_division, rownames = FALSE,
                         headers = c("Division", "Name", "Date", "High Break")),
               "<br><br>",
@@ -95,12 +99,17 @@ msg <- paste0("<u><b>Snooker results for week ", snooker_week, "</b></u>",
                         headers = c("Division", "Home Team", "Home OP",
                                     "Home SP", "Away SP", "Away OP",
                                     "Away Team")),
-              "<br><br><u><b>Billiards breaks this week</b></u><br><br>",
+              "<br><br>",
+              "<u><b>Billiards breaks this week</b></u>",
+              "<br><br>",
               tableHTML(final_billiards_breaks, rownames = FALSE,
                         headers = c("Division", "Name", "High Break")),
-              "<br<br><u><b>Top billiards breaks this season</b></u><br><br>",
+              "<br<br>",
+              "<u><b>Top billiards breaks this season</b></u>",
+              "<br><br>",
               tableHTML(highest_billiards_breaks_per_division, rownames = FALSE,
                         headers = c("Division", "Name", "Date", "High Break")),
+              "<br><br>",
               "Kind regards,<br>",
               "Dean Perry",
               "<br><br>",
