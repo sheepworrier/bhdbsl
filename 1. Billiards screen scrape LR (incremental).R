@@ -32,7 +32,8 @@ new_results_to_scrape <- results_new %>%
   anti_join(results_old,
             by = c("fixture_date", "season", "division", "home_team",
                    "away_team", "home_sp", "away_sp", "home_op", "away_op",
-                   "url"))
+                   "url")) %>%
+  select(fixture_date, season, division, home_team, away_team, url)
 # Read in the formerly scraped frame scores
 frame_scores_old <- read_csv("Billiards-frame-scores.csv",
                              col_types = cols(
@@ -51,7 +52,8 @@ frame_scores_old <- read_csv("Billiards-frame-scores.csv",
 old_results_to_scrape <- results_old %>%
   anti_join(frame_scores_old, by = c("fixture_date", "season", "division",
                                      "home_team", "away_team")) %>%
-  filter(season == 19)
+  filter(season == 19) %>%
+  select(fixture_date, season, division, home_team, away_team, url)
 # Create an empty dataframe
 breaks_new = data.frame(fixture_date = as.Date(character()),
                     season = numeric(),
