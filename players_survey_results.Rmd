@@ -1,0 +1,67 @@
+---
+title: "Players' Survey Results"
+output: html_notebook
+---
+
+```{r data_import, echo=FALSE, include=FALSE}
+library(googledrive)
+library(googlesheets4)
+library(ggplot2)
+drive_auth(use_oob = TRUE)
+sheets_auth(token = drive_token())
+
+# drive_files <- drive_ls()
+responses <-
+  sheets_read("1JtHqQnnu_u7-LFeLUzso4lhFV99Kq4LZgtmjPQ9U0e0") %>%
+  rename(`Why did you give this score? LeagueSec` = `Why did you give this score?...17`,
+         `Why did you give this score? CompSec` = `Why did you give this score?...18`,
+         `Why did you give this score? Committee` = `Why did you give this score?...19`,
+         `Why did you give this score? NextSeason` = `Why did you give this score?...20`)
+# Remove duplicates
+retain <- responses %>%
+  group_by_at(c(14:20))
+  summarise(Timestamp = max(Timestamp)) 
+  ungroup()
+cleaned_responses <- responses %>%
+  semi_join(retain) %>%
+  mutate(`How long have you played in the league?` = if_else(`How long have you played in the league?` == "2-4 season",
+                                                             "2-4 seasons",
+                                                             `How long have you played in the league?`))
+```
+
+## Q1 - `r colnames(cleaned_responses)[[2]]`
+
+```{r q1_plot, echo=FALSE}
+q1_summary <- cleaned_responses %>%
+  count(`How long have you played in the league?`) %>%
+  mutate(`How long have you played in the league?` = factor(`How long have you played in the league?`,
+                                                            levels = c("1st season",
+                                                                       "2-4 seasons",
+                                                                       "5-10 seasons",
+                                                                       "10-20 seasons",
+                                                                       "20+ seasons")))
+ggplot(q1_summary, aes(x = `How long have you played in the league?`, y = n)) +
+  geom_bar(stat = "identity", fill="steelblue") +
+  geom_text(aes(label = n), vjust = 1.6, color = "white", size = 3.5) +
+  ylab("Number of players") +
+  xlab("") +
+  theme_minimal()
+```
+
+## Q2 - `r colnames(cleaned_responses)[[3]]`
+
+```{r q2_plot, echo=FALSE}
+q2_summary <- cleaned_responses %>%
+  count(`Which snooker division do you usually play in?`) %>%
+  mutate(`Which snooker division do you usually play in?` = factor(`Which snooker division do you usually play in?`,
+                                                            levels = c("Premier",
+                                                                       "Div 1",
+                                                                       "Div 2",
+                                                                       "Div 3")))
+ggplot(q2_summary, aes(x = `Which snooker division do you usually play in?`, y = n)) +
+  geom_bar(stat = "identity", fill="steelblue") +
+  geom_text(aes(label = n), vjust = 1.6, color = "white", size = 3.5) +
+  ylab("Number of players") +
+  xlab("") +
+  theme_minimal()
+```
