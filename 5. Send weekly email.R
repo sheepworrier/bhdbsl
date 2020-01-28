@@ -4,8 +4,8 @@ library(readr)
 library(tidyr)
 library(dplyr)
 
-snooker_week <- 17
-billiards_week <- 11
+snooker_week <- 18
+billiards_week <- 12
 # test_to_address <- "djp42@cantab.net"
 email_addresses <- read_csv("team_email_addresses.csv")
 snooker_divisions <- data.frame(division = seq(1, 4),
