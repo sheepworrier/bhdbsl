@@ -7,6 +7,7 @@ output: html_notebook
 library(googledrive)
 library(googlesheets4)
 library(ggplot2)
+library(dplyr)
 drive_auth(use_oob = TRUE)
 sheets_auth(token = drive_token())
 
@@ -16,52 +17,544 @@ responses <-
   rename(`Why did you give this score? LeagueSec` = `Why did you give this score?...17`,
          `Why did you give this score? CompSec` = `Why did you give this score?...18`,
          `Why did you give this score? Committee` = `Why did you give this score?...19`,
-         `Why did you give this score? NextSeason` = `Why did you give this score?...20`)
-# Remove duplicates
-retain <- responses %>%
-  group_by_at(c(14:20))
-  summarise(Timestamp = max(Timestamp)) 
-  ungroup()
-cleaned_responses <- responses %>%
-  semi_join(retain) %>%
-  mutate(`How long have you played in the league?` = if_else(`How long have you played in the league?` == "2-4 season",
-                                                             "2-4 seasons",
-                                                             `How long have you played in the league?`))
-```
-
-## Q1 - `r colnames(cleaned_responses)[[2]]`
-
-```{r q1_plot, echo=FALSE}
-q1_summary <- cleaned_responses %>%
-  count(`How long have you played in the league?`) %>%
+         `Why did you give this score? NextSeason` = `Why did you give this score?...20`) %>%
   mutate(`How long have you played in the league?` = factor(`How long have you played in the league?`,
                                                             levels = c("1st season",
                                                                        "2-4 seasons",
                                                                        "5-10 seasons",
                                                                        "10-20 seasons",
-                                                                       "20+ seasons")))
-ggplot(q1_summary, aes(x = `How long have you played in the league?`, y = n)) +
-  geom_bar(stat = "identity", fill="steelblue") +
-  geom_text(aes(label = n), vjust = 1.6, color = "white", size = 3.5) +
-  ylab("Number of players") +
-  xlab("") +
-  theme_minimal()
+                                                                       "20+ seasons")),
+         `Which snooker division do you usually play in?` =
+           factor(`Which snooker division do you usually play in?`,
+                  levels = c("Premier", "Div 1", "Div 2", "Div 3")))
 ```
 
-## Q2 - `r colnames(cleaned_responses)[[3]]`
+## Q1 - `r colnames(responses)[[2]]`
 
-```{r q2_plot, echo=FALSE}
-q2_summary <- cleaned_responses %>%
-  count(`Which snooker division do you usually play in?`) %>%
-  mutate(`Which snooker division do you usually play in?` = factor(`Which snooker division do you usually play in?`,
-                                                            levels = c("Premier",
-                                                                       "Div 1",
-                                                                       "Div 2",
-                                                                       "Div 3")))
-ggplot(q2_summary, aes(x = `Which snooker division do you usually play in?`, y = n)) +
-  geom_bar(stat = "identity", fill="steelblue") +
-  geom_text(aes(label = n), vjust = 1.6, color = "white", size = 3.5) +
+```{r q1a_plot, echo=FALSE}
+q1a_summary <- responses %>%
+  count(`How long have you played in the league?`,
+        `Which snooker division do you usually play in?`)
+
+ggplot(q1a_summary,
+       aes(x = `How long have you played in the league?`, y = n,
+           fill = `Which snooker division do you usually play in?`)) +
+  geom_bar(position = "stack", stat = "identity") +
+  geom_text(aes(label = n), position = position_stack(vjust = 0.5),
+            color = "white", size = 3.5) +
   ylab("Number of players") +
   xlab("") +
-  theme_minimal()
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1),
+        legend.title = element_text(size = 8))
+```
+
+```{r q1b_plot, echo=FALSE}
+q1b_summary <- responses %>%
+  count(`How long have you played in the league?`,
+        `Do you play in a billiards team?`)
+
+ggplot(q1b_summary, aes(x = `How long have you played in the league?`, y = n,
+                       fill = `Do you play in a billiards team?`)) +
+  geom_bar(position = "stack", stat = "identity") +
+  geom_text(aes(label = n), position = position_stack(vjust = 0.5),
+            color = "white", size = 3.5) +
+  ylab("Number of players") +
+  xlab("") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1),
+        legend.title = element_text(size = 8))
+```
+
+## Q2 - `r colnames(responses)[[3]]` & Q3 `r colnames(responses)[[4]]`
+
+```{r q2a_plot, echo=FALSE}
+q2a_summary <- responses %>%
+  count(`Which snooker division do you usually play in?`,
+        `How long have you played in the league?`)
+
+ggplot(q2a_summary,
+       aes(x = `Which snooker division do you usually play in?`, y = n,
+           fill = `How long have you played in the league?`)) +
+  geom_bar(position = "stack", stat = "identity") +
+  geom_text(aes(label = n), position = position_stack(vjust = 0.5),
+            color = "white", size = 3.5) +
+  ylab("Number of players") +
+  xlab("") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1),
+        legend.title = element_text(size = 8))
+```
+
+```{r q2b_plot, echo=FALSE}
+q2b_summary <- responses %>%
+  count(`Which snooker division do you usually play in?`,
+        `Do you play in a billiards team?`)
+
+ggplot(q2b_summary,
+       aes(x = `Which snooker division do you usually play in?`, y = n,
+           fill = `Do you play in a billiards team?`)) +
+  geom_bar(position = "stack", stat = "identity") +
+  geom_text(aes(label = n), position = position_stack(vjust = 0.5),
+            color = "white", size = 3.5) +
+  ylab("Number of players") +
+  xlab("") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1),
+        legend.title = element_text(size = 8))
+```
+
+## Q4 - `r colnames(responses)[[5]]`
+
+```{r q4a_plot, echo=FALSE}
+q4a_summary <- responses %>%
+  count(`Did you enter any snooker singles or pairs competitions this season?`,
+        `Which snooker division do you usually play in?`)
+
+ggplot(q4a_summary,
+       aes(x = `Did you enter any snooker singles or pairs competitions this season?`,
+           y = n,
+           fill = `Which snooker division do you usually play in?`)) +
+  geom_bar(position = "stack", stat = "identity") +
+  geom_text(aes(label = n), position = position_stack(vjust = 0.5),
+            color = "white", size = 3.5) +
+  ylab("Number of players") +
+  xlab("") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1),
+        legend.title = element_text(size = 8))
+```
+
+```{r q4b_plot, echo=FALSE}
+q4b_summary <- responses %>%
+  count(`Did you enter any snooker singles or pairs competitions this season?`,
+        `How long have you played in the league?`)
+
+ggplot(q4b_summary,
+       aes(x = `Did you enter any snooker singles or pairs competitions this season?`,
+           y = n,
+           fill = `How long have you played in the league?`)) +
+  geom_bar(position = "stack", stat = "identity") +
+  geom_text(aes(label = n), position = position_stack(vjust = 0.5),
+            color = "white", size = 3.5) +
+  ylab("Number of players") +
+  xlab("") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1),
+        legend.title = element_text(size = 8))
+```
+
+## Q5 - `r colnames(responses)[[6]]`
+
+```{r q5a_plot, echo=FALSE}
+q5a_summary <- responses %>%
+  count(`Did you enter any billiards singles competitions this season?`,
+        `How long have you played in the league?`)
+
+ggplot(q5a_summary,
+       aes(x = `Did you enter any billiards singles competitions this season?`,
+           y = n,
+           fill = `How long have you played in the league?`)) +
+  geom_bar(position = "stack", stat = "identity") +
+  geom_text(aes(label = n), position = position_stack(vjust = 0.5),
+            color = "white", size = 3.5) +
+  ylab("Number of players") +
+  xlab("") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1),
+        legend.title = element_text(size = 8))
+```
+
+## Q6 - `r colnames(responses)[[7]]`
+
+```{r q6a_plot, echo=FALSE}
+q6a_summary <- responses %>%
+  filter(`Did you enter any snooker singles or pairs competitions this season?` == "Yes" |
+           `Did you enter any billiards singles competitions this season?` == "Yes") %>%
+  count(`Do you feel you were awarded a fair handicap this year?`,
+        `How long have you played in the league?`)
+
+ggplot(q6a_summary,
+       aes(x = `Do you feel you were awarded a fair handicap this year?`,
+           y = n,
+           fill = `How long have you played in the league?`)) +
+  geom_bar(position = "stack", stat = "identity") +
+  geom_text(aes(label = n), position = position_stack(vjust = 0.5),
+            color = "white", size = 3.5) +
+  ylab("Number of players") +
+  xlab("") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1),
+        legend.title = element_text(size = 8))
+```
+
+```{r q6b_plot, echo=FALSE}
+q6b_summary <- responses %>%
+  filter(`Did you enter any snooker singles or pairs competitions this season?` == "Yes" |
+           `Did you enter any billiards singles competitions this season?` == "Yes") %>%
+  count(`Do you feel you were awarded a fair handicap this year?`,
+        `Which snooker division do you usually play in?`)
+
+ggplot(q6b_summary,
+       aes(x = `Do you feel you were awarded a fair handicap this year?`,
+           y = n,
+           fill = `Which snooker division do you usually play in?`)) +
+  geom_bar(position = "stack", stat = "identity") +
+  geom_text(aes(label = n), position = position_stack(vjust = 0.5),
+            color = "white", size = 3.5) +
+  ylab("Number of players") +
+  xlab("") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1),
+        legend.title = element_text(size = 8))
+```
+
+## Q7 - `r colnames(responses)[[8]]`
+
+```{r q7a_plot, echo=FALSE}
+q7a_summary <- responses %>%
+  filter(`Did you enter any snooker singles or pairs competitions this season?` == "Yes" |
+           `Did you enter any billiards singles competitions this season?` == "Yes") %>%
+  count(`The handicaps are now set by a committee. Do you feel they are fairer than last season?`,
+        `How long have you played in the league?`)
+
+ggplot(q7a_summary,
+       aes(x = `The handicaps are now set by a committee. Do you feel they are fairer than last season?`,
+           y = n,
+           fill = `How long have you played in the league?`)) +
+  geom_bar(position = "stack", stat = "identity") +
+  geom_text(aes(label = n), position = position_stack(vjust = 0.5),
+            color = "white", size = 3.5) +
+  ylab("Number of players") +
+  xlab("") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1),
+        legend.title = element_text(size = 8))
+```
+
+```{r q7b_plot, echo=FALSE}
+q7b_summary <- responses %>%
+  filter(`Did you enter any snooker singles or pairs competitions this season?` == "Yes" |
+           `Did you enter any billiards singles competitions this season?` == "Yes") %>%
+  count(`The handicaps are now set by a committee. Do you feel they are fairer than last season?`,
+        `Which snooker division do you usually play in?`)
+
+ggplot(q7b_summary,
+       aes(x = `The handicaps are now set by a committee. Do you feel they are fairer than last season?`,
+           y = n,
+           fill = `Which snooker division do you usually play in?`)) +
+  geom_bar(position = "stack", stat = "identity") +
+  geom_text(aes(label = n), position = position_stack(vjust = 0.5),
+            color = "white", size = 3.5) +
+  ylab("Number of players") +
+  xlab("") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1),
+        legend.title = element_text(size = 8))
+```
+
+## Q8 - `r colnames(responses)[[9]]`
+
+```{r q8a_plot, echo=FALSE}
+q8a_summary <- responses %>%
+  count(`On a scale of 1 to 5 (where 5 is the best), how well is your League Secretary (Dean Perry) performing?`,
+        `How long have you played in the league?`)
+
+ggplot(q8a_summary,
+       aes(x = `On a scale of 1 to 5 (where 5 is the best), how well is your League Secretary (Dean Perry) performing?`,
+           y = n,
+           fill = `How long have you played in the league?`)) +
+  geom_bar(position = "stack", stat = "identity") +
+  geom_text(aes(label = n), position = position_stack(vjust = 0.5),
+            color = "white", size = 3.5) +
+  ylab("Number of players") +
+  xlab("") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1),
+        legend.title = element_text(size = 8))
+```
+
+```{r q8b_plot, echo=FALSE}
+q8b_summary <- responses %>%
+  count(`On a scale of 1 to 5 (where 5 is the best), how well is your League Secretary (Dean Perry) performing?`,
+        `Which snooker division do you usually play in?`)
+
+ggplot(q8b_summary,
+       aes(x = `On a scale of 1 to 5 (where 5 is the best), how well is your League Secretary (Dean Perry) performing?`,
+           y = n,
+           fill = `Which snooker division do you usually play in?`)) +
+  geom_bar(position = "stack", stat = "identity") +
+  geom_text(aes(label = n), position = position_stack(vjust = 0.5),
+            color = "white", size = 3.5) +
+  ylab("Number of players") +
+  xlab("") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1),
+        legend.title = element_text(size = 8))
+```
+
+```{r q8_table, echo=FALSE}
+q8_table <- responses %>%
+  filter(!is.na(`Why did you give this score? LeagueSec`)) %>%
+  arrange(desc(`On a scale of 1 to 5 (where 5 is the best), how well is your League Secretary (Dean Perry) performing?`),
+          `Which snooker division do you usually play in?`,
+          desc(`How long have you played in the league?`)) %>%
+  select(`On a scale of 1 to 5 (where 5 is the best), how well is your League Secretary (Dean Perry) performing?`,
+         `Which snooker division do you usually play in?`,
+         `How long have you played in the league?`,
+         `Why did you give this score? LeagueSec`)
+
+kable(q8_table)
+```
+
+## Q9 - `r colnames(responses)[[10]]`
+
+```{r q9a_plot, echo=FALSE}
+q9a_summary <- responses %>%
+    filter(`Did you enter any snooker singles or pairs competitions this season?` == "Yes" |
+           `Did you enter any billiards singles competitions this season?` == "Yes") %>%
+  count(`On a scale of 1 to 5 (where 5 is the best), how well is your Competition Secretary (Dean Perry) performing?`,
+        `How long have you played in the league?`)
+
+ggplot(q9a_summary,
+       aes(x = `On a scale of 1 to 5 (where 5 is the best), how well is your Competition Secretary (Dean Perry) performing?`,
+           y = n,
+           fill = `How long have you played in the league?`)) +
+  geom_bar(position = "stack", stat = "identity") +
+  geom_text(aes(label = n), position = position_stack(vjust = 0.5),
+            color = "white", size = 3.5) +
+  ylab("Number of players") +
+  xlab("") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1),
+        legend.title = element_text(size = 8))
+```
+
+```{r q9b_plot, echo=FALSE}
+q9b_summary <- responses %>%
+  filter(`Did you enter any snooker singles or pairs competitions this season?` == "Yes" |
+           `Did you enter any billiards singles competitions this season?` == "Yes") %>%
+  count(`On a scale of 1 to 5 (where 5 is the best), how well is your Competition Secretary (Dean Perry) performing?`,
+        `Which snooker division do you usually play in?`)
+
+ggplot(q9b_summary,
+       aes(x = `On a scale of 1 to 5 (where 5 is the best), how well is your Competition Secretary (Dean Perry) performing?`,
+           y = n,
+           fill = `Which snooker division do you usually play in?`)) +
+  geom_bar(position = "stack", stat = "identity") +
+  geom_text(aes(label = n), position = position_stack(vjust = 0.5),
+            color = "white", size = 3.5) +
+  ylab("Number of players") +
+  xlab("") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1),
+        legend.title = element_text(size = 8))
+```
+
+```{r q9_table, echo=FALSE}
+q9_table <- responses %>%
+  filter(!is.na(`Why did you give this score? CompSec`)) %>%
+  filter(`Did you enter any snooker singles or pairs competitions this season?` == "Yes" |
+           `Did you enter any billiards singles competitions this season?` == "Yes") %>%
+  arrange(desc(`On a scale of 1 to 5 (where 5 is the best), how well is your Competition Secretary (Dean Perry) performing?`),
+          `Which snooker division do you usually play in?`,
+          desc(`How long have you played in the league?`)) %>%
+  select(`On a scale of 1 to 5 (where 5 is the best), how well is your Competition Secretary (Dean Perry) performing?`,
+         `Which snooker division do you usually play in?`,
+         `How long have you played in the league?`,
+         `Why did you give this score? CompSec`)
+
+kable(q9_table)
+```
+
+## Q10 - `r colnames(responses)[[11]]`
+
+```{r q10a_plot, echo=FALSE}
+q10a_summary <- responses %>%
+  count(`On a scale of 1 to 5 (where 5 is the best), how well is your Management Committee performing?`,
+        `How long have you played in the league?`)
+
+ggplot(q10a_summary,
+       aes(x = `On a scale of 1 to 5 (where 5 is the best), how well is your Management Committee performing?`,
+           y = n,
+           fill = `How long have you played in the league?`)) +
+  geom_bar(position = "stack", stat = "identity") +
+  geom_text(aes(label = n), position = position_stack(vjust = 0.5),
+            color = "white", size = 3.5) +
+  ylab("Number of players") +
+  xlab("") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1),
+        legend.title = element_text(size = 8))
+```
+
+```{r q10b_plot, echo=FALSE}
+q10b_summary <- responses %>%
+  count(`On a scale of 1 to 5 (where 5 is the best), how well is your Management Committee performing?`,
+        `Which snooker division do you usually play in?`)
+
+ggplot(q10b_summary,
+       aes(x = `On a scale of 1 to 5 (where 5 is the best), how well is your Management Committee performing?`,
+           y = n,
+           fill = `Which snooker division do you usually play in?`)) +
+  geom_bar(position = "stack", stat = "identity") +
+  geom_text(aes(label = n), position = position_stack(vjust = 0.5),
+            color = "white", size = 3.5) +
+  ylab("Number of players") +
+  xlab("") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1),
+        legend.title = element_text(size = 8))
+```
+
+```{r q10_table, echo=FALSE}
+q10_table <- responses %>%
+  filter(!is.na(`Why did you give this score? Committee`)) %>%
+  arrange(desc(`On a scale of 1 to 5 (where 5 is the best), how well is your Management Committee performing?`),
+          `Which snooker division do you usually play in?`,
+          desc(`How long have you played in the league?`)) %>%
+  select(`On a scale of 1 to 5 (where 5 is the best), how well is your Management Committee performing?`,
+         `Which snooker division do you usually play in?`,
+         `How long have you played in the league?`,
+         `Why did you give this score? Committee`)
+
+kable(q10_table)
+```
+
+## Q11 - `r colnames(responses)[[12]]`
+
+```{r q11a_plot, echo=FALSE}
+q11a_summary <- responses %>%
+  count(`How likely are you to play in the league next season?`,
+        `How long have you played in the league?`)
+
+ggplot(q11a_summary,
+       aes(x = `How likely are you to play in the league next season?`,
+           y = n,
+           fill = `How long have you played in the league?`)) +
+  geom_bar(position = "stack", stat = "identity") +
+  geom_text(aes(label = n), position = position_stack(vjust = 0.5),
+            color = "white", size = 3.5) +
+  ylab("Number of players") +
+  xlab("") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1),
+        legend.title = element_text(size = 8))
+```
+
+```{r q11b_plot, echo=FALSE}
+q11b_summary <- responses %>%
+  count(`How likely are you to play in the league next season?`,
+        `Which snooker division do you usually play in?`)
+
+ggplot(q11b_summary,
+       aes(x = `How likely are you to play in the league next season?`,
+           y = n,
+           fill = `Which snooker division do you usually play in?`)) +
+  geom_bar(position = "stack", stat = "identity") +
+  geom_text(aes(label = n), position = position_stack(vjust = 0.5),
+            color = "white", size = 3.5) +
+  ylab("Number of players") +
+  xlab("") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1),
+        legend.title = element_text(size = 8))
+```
+
+```{r q11_table, echo=FALSE}
+q11_table <- responses %>%
+  filter(!is.na(`Why did you give this score? NextSeason`)) %>%
+  filter(`Did you enter any snooker singles or pairs competitions this season?` == "Yes" |
+           `Did you enter any billiards singles competitions this season?` == "Yes") %>%
+  arrange(desc(`How likely are you to play in the league next season?`),
+          `Which snooker division do you usually play in?`,
+          desc(`How long have you played in the league?`)) %>%
+  select(`How likely are you to play in the league next season?`,
+         `Which snooker division do you usually play in?`,
+         `How long have you played in the league?`,
+         `Why did you give this score? NextSeason`)
+
+kable(q11_table)
+```
+
+## Q12 - `r colnames(responses)[[13]]`
+
+```{r q12a_plot, echo=FALSE}
+q12a_summary <- responses %>%
+  count(`If you already play only team snooker or only team billiards, would you be interested in playing both next season?`,
+        `How long have you played in the league?`)
+
+ggplot(q12a_summary,
+       aes(x = `If you already play only team snooker or only team billiards, would you be interested in playing both next season?`,
+           y = n,
+           fill = `How long have you played in the league?`)) +
+  geom_bar(position = "stack", stat = "identity") +
+  geom_text(aes(label = n), position = position_stack(vjust = 0.5),
+            color = "white", size = 3.5) +
+  ylab("Number of players") +
+  xlab("") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1),
+        legend.title = element_text(size = 8))
+```
+
+```{r q12b_plot, echo=FALSE}
+q12b_summary <- responses %>%
+  count(`If you already play only team snooker or only team billiards, would you be interested in playing both next season?`,
+        `Which snooker division do you usually play in?`)
+
+ggplot(q12b_summary,
+       aes(x = `If you already play only team snooker or only team billiards, would you be interested in playing both next season?`,
+           y = n,
+           fill = `Which snooker division do you usually play in?`)) +
+  geom_bar(position = "stack", stat = "identity") +
+  geom_text(aes(label = n), position = position_stack(vjust = 0.5),
+            color = "white", size = 3.5) +
+  ylab("Number of players") +
+  xlab("") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1),
+        legend.title = element_text(size = 8))
+```
+
+## Q13 - `r colnames(responses)[[14]]`
+
+```{r q13_table, echo=FALSE}
+q13_table <- responses %>%
+  filter(!is.na(`What would you like the league to STOP doing to make it better?`)) %>%
+  arrange(`Which snooker division do you usually play in?`,
+          desc(`How long have you played in the league?`)) %>%
+  select(`Which snooker division do you usually play in?`,
+         `How long have you played in the league?`,
+         `What would you like the league to STOP doing to make it better?`)
+
+kable(q13_table)
+```
+
+## Q14 - `r colnames(responses)[[15]]`
+
+```{r q14_table, echo=FALSE}
+q14_table <- responses %>%
+  filter(!is.na(`What would you like the league to START doing to make it better?`)) %>%
+  arrange(`Which snooker division do you usually play in?`,
+          desc(`How long have you played in the league?`)) %>%
+  select(`Which snooker division do you usually play in?`,
+         `How long have you played in the league?`,
+         `What would you like the league to START doing to make it better?`)
+
+kable(q14_table)
+```
+
+## Q15 - `r colnames(responses)[[16]]`
+
+```{r q15_table, echo=FALSE}
+q15_table <- responses %>%
+  filter(!is.na(`What would you like the league to CONTINUE doing?`)) %>%
+  arrange(`Which snooker division do you usually play in?`,
+          desc(`How long have you played in the league?`)) %>%
+  select(`Which snooker division do you usually play in?`,
+         `How long have you played in the league?`,
+         `What would you like the league to CONTINUE doing?`)
+
+kable(q15_table)
 ```
