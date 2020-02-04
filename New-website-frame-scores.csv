@@ -3971,7 +3971,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2017-09-11,17,4,N.A.R.C. B,Moulsecoomb Club B,223983583,Carl Wentworth,57,495939788,Tyrone Davis,4
 2017-09-11,17,4,N.A.R.C. B,Moulsecoomb Club B,858283721,Dave Dunstall,42,978156264,Bob Paine,27
 2017-09-11,17,4,N.A.R.C. B,Moulsecoomb Club B,480154054,Jim Dunstall,63,649240057,Mike Childs,29
-2017-09-11,17,4,N.A.R.C. B,Moulsecoomb Club B,444339215,S Richards,52,567624732,Dave Brampton,31
+2017-09-11,17,4,N.A.R.C. B,Moulsecoomb Club B,444339215,Steve Richards,52,567624732,Dave Brampton,31
 2017-09-11,17,4,N.A.R.C. B,Moulsecoomb Club B,41461520,Luke Pooley,20,943667183,John Stone,37
 2017-09-11,17,4,Portslade Legion,Goldstone Ex Serv. B,229719541,Scott Manning,53,820231590,Alan Rook,40
 2017-09-11,17,4,Portslade Legion,Goldstone Ex Serv. B,845758589,Charlie James,53,386517733,Ady Halley,20
@@ -4023,7 +4023,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2017-09-18,17,3,Southwick Sports  A,St. Matthias E,910809545,Blake Harman,34,598846718,Ben Sorrell,48
 2017-09-18,17,4,Annunciation  A,N.A.R.C. B,279543944,Peter Maurice,32,677110925,Jake Dunstall,59
 2017-09-18,17,4,Annunciation  A,N.A.R.C. B,529382351,Greg Foat,52,858283721,Dave Dunstall,28
-2017-09-18,17,4,Annunciation  A,N.A.R.C. B,288891270,Lewis Copping,57,444339215,S Richards,40
+2017-09-18,17,4,Annunciation  A,N.A.R.C. B,288891270,Lewis Copping,57,444339215,Steve Richards,40
 2017-09-18,17,4,Annunciation  A,N.A.R.C. B,953512654,Les Berry,46,223983583,Carl Wentworth,21
 2017-09-18,17,4,Annunciation  A,N.A.R.C. B,831214643,Tony Shipley,42,41461520,Luke Pooley,25
 2017-09-18,17,4,Champion House  B,Portslade Legion,737709582,Tony Browne,21,229719541,Scott Manning,40
@@ -4097,7 +4097,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2017-09-25,17,4,Moulsecoomb Club B,Annunciation  A,943667183,John Stone,61,351143642,Michael Palmer,25
 2017-09-25,17,4,Moulsecoomb Club B,Annunciation  A,495939788,Tyrone Davis,32,831214643,Tony Shipley,51
 2017-09-25,17,4,N.A.R.C. B,Goldstone Ex Serv. B,858283721,Dave Dunstall,54,820231590,Alan Rook,31
-2017-09-25,17,4,N.A.R.C. B,Goldstone Ex Serv. B,444339215,S Richards,14,294944526,Rob Teanby,54
+2017-09-25,17,4,N.A.R.C. B,Goldstone Ex Serv. B,444339215,Steve Richards,14,294944526,Rob Teanby,54
 2017-09-25,17,4,N.A.R.C. B,Goldstone Ex Serv. B,843981340,Mark Glover,51,70159035,Peter Rea,24
 2017-09-25,17,4,N.A.R.C. B,Goldstone Ex Serv. B,480154054,Jim Dunstall,24,386517733,Ady Halley,43
 2017-09-25,17,4,N.A.R.C. B,Goldstone Ex Serv. B,223983583,Carl Wentworth,34,745152759,Kevin Jewell,43
@@ -4236,7 +4236,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2017-10-09,17,4,Moulsecoomb Club B,Champion House  B,943667183,John Stone,11,737709582,Tony Browne,53
 2017-10-09,17,4,Moulsecoomb Club B,Champion House  B,567624732,Dave Brampton,42,929636592,Danny Wilson,31
 2017-10-09,17,4,Moulsecoomb Club B,Champion House  B,978156264,Bob Paine,11,39289507,Mick Laughlin,46
-2017-10-09,17,4,N.A.R.C. B,Portslade Legion,444339215,S Richards,12,229719541,Scott Manning,67
+2017-10-09,17,4,N.A.R.C. B,Portslade Legion,444339215,Steve Richards,12,229719541,Scott Manning,67
 2017-10-09,17,4,N.A.R.C. B,Portslade Legion,480154054,Jim Dunstall,15,845758589,Charlie James,44
 2017-10-09,17,4,N.A.R.C. B,Portslade Legion,41461520,Luke Pooley,34,936624299,Peter Gallant,46
 2017-10-09,17,4,N.A.R.C. B,Portslade Legion,223983583,Carl Wentworth,43,417786644,Eddie Collins,22
@@ -4313,7 +4313,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2017-10-16,17,4,Portslade Legion,Moulsecoomb Club B,291816585,Jim Somers,24,943667183,John Stone,49
 2017-10-16,17,4,Portslade Legion,Moulsecoomb Club B,69745818,Ian Bowles,50,495939788,Tyrone Davis,10
 2017-10-16,17,4,Portslade Legion,Moulsecoomb Club B,936624299,Peter Gallant,52,567624732,Dave Brampton,38
-2017-10-16,17,4,Southwick Sports  B,N.A.R.C. B,657320021,Brett Strevens,52,444339215,S Richards,11
+2017-10-16,17,4,Southwick Sports  B,N.A.R.C. B,657320021,Brett Strevens,52,444339215,Steve Richards,11
 2017-10-16,17,4,Southwick Sports  B,N.A.R.C. B,804381932,Ryan Harman,17,677110925,Jake Dunstall,65
 2017-10-16,17,4,Southwick Sports  B,N.A.R.C. B,216787426,Jack Perrin,29,843981340,Mark Glover,54
 2017-10-16,17,4,Southwick Sports  B,N.A.R.C. B,426236650,Dave Parrott,49,41461520,Luke Pooley,31
@@ -4384,7 +4384,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2017-10-23,17,4,Moulsecoomb Club B,Southwick Sports  B,943667183,John Stone,48,293577764,Dave Crosskey,31
 2017-10-23,17,4,Moulsecoomb Club B,Southwick Sports  B,649240057,Mike Childs,58,426236650,Dave Parrott,29
 2017-10-23,17,4,Preston Club,N.A.R.C. B,550135528,Clive Jeffrey,48,41461520,Luke Pooley,42
-2017-10-23,17,4,Preston Club,N.A.R.C. B,670870044,David Flanagan,49,444339215,S Richards,10
+2017-10-23,17,4,Preston Club,N.A.R.C. B,670870044,David Flanagan,49,444339215,Steve Richards,10
 2017-10-23,17,4,Preston Club,N.A.R.C. B,688778183,Dean Paice,76,223983583,Carl Wentworth,12
 2017-10-30,17,1,Castle Club  B,St. Matthias B,825399596,Pat Adams,67,278731588,Lester Grice,34
 2017-10-30,17,1,Castle Club  B,St. Matthias B,11133032,Simon Dent,96,60575249,Ash Thurmer,21
@@ -4503,7 +4503,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2017-11-06,17,3,St. Matthias E,Southwick Sports  A,889234854,Paul Smith,26,567316488,Lee Millyard,66
 2017-11-06,17,3,St. Matthias E,Southwick Sports  A,598846718,Ben Sorrell,50,971308746,Clive Harman,18
 2017-11-06,17,3,St. Matthias E,Southwick Sports  A,970786910,Kevin Sorrell,48,76011459,Kane Harman,10
-2017-11-06,17,4,N.A.R.C. B,Annunciation  A,444339215,S Richards,43,279543944,Peter Maurice,24
+2017-11-06,17,4,N.A.R.C. B,Annunciation  A,444339215,Steve Richards,43,279543944,Peter Maurice,24
 2017-11-06,17,4,N.A.R.C. B,Annunciation  A,223983583,Carl Wentworth,51,351143642,Michael Palmer,29
 2017-11-06,17,4,N.A.R.C. B,Annunciation  A,41461520,Luke Pooley,12,953512654,Les Berry,60
 2017-11-06,17,4,Portslade Legion,Champion House  B,845758589,Charlie James,25,880982797,Ray Hunter,37
@@ -4565,7 +4565,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2017-11-13,17,4,Champion House  B,Southwick Sports  B,501266206,David Fox,44,293577764,Dave Crosskey,55
 2017-11-13,17,4,Champion House  B,Southwick Sports  B,929636592,Danny Wilson,57,426236650,Dave Parrott,32
 2017-11-13,17,4,Champion House  B,Southwick Sports  B,852327692,Andy Fletcher,56,657320021,Brett Strevens,45
-2017-11-13,17,4,Goldstone Ex Serv. B,N.A.R.C. B,820231590,Alan Rook,45,444339215,S Richards,59
+2017-11-13,17,4,Goldstone Ex Serv. B,N.A.R.C. B,820231590,Alan Rook,45,444339215,Steve Richards,59
 2017-11-13,17,4,Goldstone Ex Serv. B,N.A.R.C. B,294944526,Rob Teanby,27,843981340,Mark Glover,51
 2017-11-13,17,4,Goldstone Ex Serv. B,N.A.R.C. B,386517733,Ady Halley,8,677110925,Jake Dunstall,45
 2017-11-13,17,4,Goldstone Ex Serv. B,N.A.R.C. B,70159035,Peter Rea,69,223983583,Carl Wentworth,6
@@ -4606,7 +4606,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2017-11-20,17,3,St. Matthias E,Annunciation C,174147986,Lee Cliff,67,951468676,Steve Burchett,31
 2017-11-20,17,3,St. Matthias E,Annunciation C,598846718,Ben Sorrell,24,867613624,Ian Dunhill,58
 2017-11-20,17,4,N.A.R.C. B,Champion House  B,65713327,Dave Reardon,27,39289507,Mick Laughlin,58
-2017-11-20,17,4,N.A.R.C. B,Champion House  B,444339215,S Richards,38,947620111,Neil Cutler,50
+2017-11-20,17,4,N.A.R.C. B,Champion House  B,444339215,Steve Richards,38,947620111,Neil Cutler,50
 2017-11-20,17,4,N.A.R.C. B,Champion House  B,41461520,Luke Pooley,34,501266206,David Fox,69
 2017-11-20,17,4,N.A.R.C. B,Champion House  B,223983583,Carl Wentworth,29,737709582,Tony Browne,63
 2017-11-20,17,4,Preston Club,Annunciation  A,304563362,Dan Marchant,65,831214643,Tony Shipley,55
@@ -4665,7 +4665,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2017-11-27,17,4,Goldstone Ex Serv. B,Annunciation  A,573567936,Steve Marriott,29,279543944,Peter Maurice,52
 2017-11-27,17,4,Portslade Legion,N.A.R.C. B,229719541,Scott Manning,55,223983583,Carl Wentworth,41
 2017-11-27,17,4,Portslade Legion,N.A.R.C. B,845758589,Charlie James,49,41461520,Luke Pooley,11
-2017-11-27,17,4,Portslade Legion,N.A.R.C. B,936624299,Peter Gallant,54,444339215,S Richards,48
+2017-11-27,17,4,Portslade Legion,N.A.R.C. B,936624299,Peter Gallant,54,444339215,Steve Richards,48
 2017-11-27,17,4,Southwick Sports  B,Preston Club,804381932,Ryan Harman,11,304563362,Dan Marchant,50
 2017-11-27,17,4,Southwick Sports  B,Preston Club,657320021,Brett Strevens,44,740135236,Craig Marchant,30
 2017-11-27,17,4,Southwick Sports  B,Preston Club,426236650,Dave Parrott,16,670870044,David Flanagan,60
@@ -4713,7 +4713,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2017-12-11,17,4,Moulsecoomb Club B,Portslade Legion,172646809,Robin Powell,37,229719541,Scott Manning,59
 2017-12-11,17,4,Moulsecoomb Club B,Portslade Legion,943667183,John Stone,40,69745818,Ian Bowles,17
 2017-12-11,17,4,Moulsecoomb Club B,Portslade Legion,567624732,Dave Brampton,48,936624299,Peter Gallant,36
-2017-12-11,17,4,N.A.R.C. B,Southwick Sports  B,444339215,S Richards,42,657320021,Brett Strevens,21
+2017-12-11,17,4,N.A.R.C. B,Southwick Sports  B,444339215,Steve Richards,42,657320021,Brett Strevens,21
 2017-12-11,17,4,N.A.R.C. B,Southwick Sports  B,480154054,Jim Dunstall,10,293577764,Dave Crosskey,56
 2017-12-11,17,4,N.A.R.C. B,Southwick Sports  B,688749133,Dan Hease,69,426236650,Dave Parrott,10
 2017-12-11,17,4,N.A.R.C. B,Southwick Sports  B,223983583,Carl Wentworth,20,216787426,Jack Perrin,54
@@ -4762,7 +4762,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2017-12-18,17,4,Champion House  B,Goldstone Ex Serv. B,737709582,Tony Browne,51,573567936,Steve Marriott,9
 2017-12-18,17,4,Champion House  B,Goldstone Ex Serv. B,929636592,Danny Wilson,36,70159035,Peter Rea,56
 2017-12-18,17,4,Champion House  B,Goldstone Ex Serv. B,852327692,Andy Fletcher,58,745152759,Kevin Jewell,10
-2017-12-18,17,4,N.A.R.C. B,Preston Club,444339215,S Richards,58,304563362,Dan Marchant,51
+2017-12-18,17,4,N.A.R.C. B,Preston Club,444339215,Steve Richards,58,304563362,Dan Marchant,51
 2017-12-18,17,4,N.A.R.C. B,Preston Club,688749133,Dan Hease,37,740135236,Craig Marchant,44
 2017-12-18,17,4,N.A.R.C. B,Preston Club,41461520,Luke Pooley,17,231445676,Tony Paice,52
 2017-12-18,17,4,N.A.R.C. B,Preston Club,223983583,Carl Wentworth,14,688778183,Dean Paice,47
@@ -4826,7 +4826,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2018-01-08,17,3,St. Matthias E,Hove D.S. Anglers  B,598846718,Ben Sorrell,59,319057545,Brendan Lambe,25
 2018-01-08,17,3,St. Matthias E,Hove D.S. Anglers  B,788605510,Mark Rose,47,613893140,Matt Warner,34
 2018-01-08,17,3,St. Matthias E,Hove D.S. Anglers  B,970786910,Kevin Sorrell,65,612265840,Paul Honeysett,16
-2018-01-08,17,4,N.A.R.C. B,Moulsecoomb Club B,444339215,S Richards,51,172646809,Robin Powell,40
+2018-01-08,17,4,N.A.R.C. B,Moulsecoomb Club B,444339215,Steve Richards,51,172646809,Robin Powell,40
 2018-01-08,17,4,N.A.R.C. B,Moulsecoomb Club B,41461520,Luke Pooley,55,649240057,Mike Childs,43
 2018-01-08,17,4,N.A.R.C. B,Moulsecoomb Club B,688749133,Dan Hease,72,495939788,Tyrone Davis,20
 2018-01-08,17,4,N.A.R.C. B,Moulsecoomb Club B,223983583,Carl Wentworth,42,567624732,Dave Brampton,22
@@ -4881,7 +4881,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2018-01-15,17,3,Southwick Sports  A,St. Matthias E,76011459,Kane Harman,30,839313888,Kevin Chrysanthou,49
 2018-01-15,17,3,Southwick Sports  A,St. Matthias E,910809545,Blake Harman,55,889234854,Paul Smith,15
 2018-01-15,17,4,Annunciation  A,N.A.R.C. B,831214643,Tony Shipley,50,41461520,Luke Pooley,39
-2018-01-15,17,4,Annunciation  A,N.A.R.C. B,351143642,Michael Palmer,31,444339215,S Richards,66
+2018-01-15,17,4,Annunciation  A,N.A.R.C. B,351143642,Michael Palmer,31,444339215,Steve Richards,66
 2018-01-15,17,4,Annunciation  A,N.A.R.C. B,529382351,Greg Foat,43,223983583,Carl Wentworth,30
 2018-01-15,17,4,Champion House  B,Portslade Legion,852327692,Andy Fletcher,32,229719541,Scott Manning,50
 2018-01-15,17,4,Champion House  B,Portslade Legion,501266206,David Fox,25,845758589,Charlie James,61
@@ -4937,7 +4937,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2018-01-22,17,4,Moulsecoomb Club B,Annunciation  A,567624732,Dave Brampton,34,831214643,Tony Shipley,52
 2018-01-22,17,4,Moulsecoomb Club B,Annunciation  A,943667183,John Stone,59,351143642,Michael Palmer,21
 2018-01-22,17,4,Moulsecoomb Club B,Annunciation  A,495939788,Tyrone Davis,29,279543944,Peter Maurice,40
-2018-01-22,17,4,N.A.R.C. B,Goldstone Ex Serv. B,444339215,S Richards,47,820231590,Alan Rook,32
+2018-01-22,17,4,N.A.R.C. B,Goldstone Ex Serv. B,444339215,Steve Richards,47,820231590,Alan Rook,32
 2018-01-22,17,4,N.A.R.C. B,Goldstone Ex Serv. B,223983583,Carl Wentworth,44,386517733,Ady Halley,56
 2018-01-22,17,4,N.A.R.C. B,Goldstone Ex Serv. B,688749133,Dan Hease,42,45305697,John Barratt,22
 2018-01-22,17,4,N.A.R.C. B,Goldstone Ex Serv. B,449331249,Dan Tanner,18,70159035,Peter Rea,58
@@ -4989,7 +4989,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2018-01-29,17,4,Annunciation  A,Preston Club,831214643,Tony Shipley,15,304563362,Dan Marchant,54
 2018-01-29,17,4,Annunciation  A,Preston Club,288891270,Lewis Copping,22,670870044,David Flanagan,64
 2018-01-29,17,4,Annunciation  A,Preston Club,953512654,Les Berry,18,688778183,Dean Paice,77
-2018-01-29,17,4,Champion House  B,N.A.R.C. B,39289507,Mick Laughlin,70,444339215,S Richards,25
+2018-01-29,17,4,Champion House  B,N.A.R.C. B,39289507,Mick Laughlin,70,444339215,Steve Richards,25
 2018-01-29,17,4,Champion House  B,N.A.R.C. B,880982797,Ray Hunter,55,223983583,Carl Wentworth,33
 2018-01-29,17,4,Champion House  B,N.A.R.C. B,501266206,David Fox,31,688749133,Dan Hease,64
 2018-01-29,17,4,Champion House  B,N.A.R.C. B,737709582,Tony Browne,51,449331249,Dan Tanner,39
@@ -5043,7 +5043,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2018-02-05,17,4,Moulsecoomb Club B,Champion House  B,495939788,Tyrone Davis,20,880982797,Ray Hunter,60
 2018-02-05,17,4,Moulsecoomb Club B,Champion House  B,943667183,John Stone,10,929636592,Danny Wilson,40
 2018-02-05,17,4,Moulsecoomb Club B,Champion House  B,649240057,Mike Childs,14,39289507,Mick Laughlin,74
-2018-02-05,17,4,N.A.R.C. B,Portslade Legion,444339215,S Richards,43,229719541,Scott Manning,51
+2018-02-05,17,4,N.A.R.C. B,Portslade Legion,444339215,Steve Richards,43,229719541,Scott Manning,51
 2018-02-05,17,4,N.A.R.C. B,Portslade Legion,41461520,Luke Pooley,41,845758589,Charlie James,30
 2018-02-05,17,4,N.A.R.C. B,Portslade Legion,449331249,Dan Tanner,39,291816585,Jim Somers,27
 2018-02-05,17,4,N.A.R.C. B,Portslade Legion,223983583,Carl Wentworth,23,936624299,Peter Gallant,51
@@ -5100,7 +5100,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2018-02-12,17,4,Portslade Legion,Moulsecoomb Club B,936624299,Peter Gallant,61,495939788,Tyrone Davis,23
 2018-02-12,17,4,Portslade Legion,Moulsecoomb Club B,291816585,Jim Somers,19,567624732,Dave Brampton,54
 2018-02-12,17,4,Portslade Legion,Moulsecoomb Club B,69745818,Ian Bowles,34,943667183,John Stone,48
-2018-02-12,17,4,Southwick Sports  B,N.A.R.C. B,961176896,Kelvin Strevens,26,444339215,S Richards,47
+2018-02-12,17,4,Southwick Sports  B,N.A.R.C. B,961176896,Kelvin Strevens,26,444339215,Steve Richards,47
 2018-02-12,17,4,Southwick Sports  B,N.A.R.C. B,293577764,Dave Crosskey,47,41461520,Luke Pooley,6
 2018-02-12,17,4,Southwick Sports  B,N.A.R.C. B,804381932,Ryan Harman,14,223983583,Carl Wentworth,57
 2018-02-12,17,4,Southwick Sports  B,N.A.R.C. B,216787426,Jack Perrin,55,449331249,Dan Tanner,31
@@ -5158,7 +5158,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2018-02-19,17,4,Preston Club,N.A.R.C. B,740135236,Craig Marchant,14,688749133,Dan Hease,79
 2018-02-19,17,4,Preston Club,N.A.R.C. B,670870044,David Flanagan,59,449331249,Dan Tanner,19
 2018-02-19,17,4,Preston Club,N.A.R.C. B,231445676,Tony Paice,63,41461520,Luke Pooley,19
-2018-02-19,17,4,Preston Club,N.A.R.C. B,688778183,Dean Paice,65,444339215,S Richards,14
+2018-02-19,17,4,Preston Club,N.A.R.C. B,688778183,Dean Paice,65,444339215,Steve Richards,14
 2018-02-26,17,2,Castle Club  D,Champion House  A,484159049,Tommy Wright,38,800114325,Roger Whiteley,47
 2018-02-26,17,2,Castle Club  D,Champion House  A,327948141,Ross Etheridge,58,114184042,Ian Smith,23
 2018-02-26,17,2,Castle Club  D,Champion House  A,726498878,Grigory Yashkov,46,949603489,Pete Bennett,50
@@ -5200,7 +5200,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2018-02-26,17,4,Goldstone Ex Serv. B,Portslade Legion,70159035,Peter Rea,72,417786644,Eddie Collins,17
 2018-02-26,17,4,Goldstone Ex Serv. B,Portslade Legion,573567936,Steve Marriott,49,69745818,Ian Bowles,22
 2018-02-26,17,4,Moulsecoomb Club B,N.A.R.C. B,649240057,Mike Childs,28,449331249,Dan Tanner,51
-2018-02-26,17,4,Moulsecoomb Club B,N.A.R.C. B,978156264,Bob Paine,6,444339215,S Richards,38
+2018-02-26,17,4,Moulsecoomb Club B,N.A.R.C. B,978156264,Bob Paine,6,444339215,Steve Richards,38
 2018-02-26,17,4,Moulsecoomb Club B,N.A.R.C. B,495939788,Tyrone Davis,25,41461520,Luke Pooley,57
 2018-03-05,17,2,Annunciation B,St. Matthias D,717256135,Trevor Pickard,8,341869673,Nigel Stilwell,64
 2018-03-05,17,2,Annunciation B,St. Matthias D,680442672,Scott Lawson,68,124523642,Tom Hayes,23
@@ -5239,7 +5239,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2018-03-05,17,4,N.A.R.C. B,Annunciation  A,353057829,Ian Tanner,46,351143642,Michael Palmer,36
 2018-03-05,17,4,N.A.R.C. B,Annunciation  A,41461520,Luke Pooley,28,279543944,Peter Maurice,37
 2018-03-05,17,4,N.A.R.C. B,Annunciation  A,688749133,Dan Hease,57,288891270,Lewis Copping,53
-2018-03-05,17,4,N.A.R.C. B,Annunciation  A,444339215,S Richards,32,953512654,Les Berry,64
+2018-03-05,17,4,N.A.R.C. B,Annunciation  A,444339215,Steve Richards,32,953512654,Les Berry,64
 2018-03-05,17,4,N.A.R.C. B,Annunciation  A,223983583,Carl Wentworth,17,831214643,Tony Shipley,56
 2018-03-05,17,4,Portslade Legion,Champion House  B,229719541,Scott Manning,51,28382047,Steve Harrington,9
 2018-03-05,17,4,Portslade Legion,Champion House  B,845758589,Charlie James,40,929636592,Danny Wilson,58
@@ -5298,7 +5298,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2018-03-12,17,4,Champion House  B,Southwick Sports  B,737709582,Tony Browne,18,961176896,Kelvin Strevens,71
 2018-03-12,17,4,Champion House  B,Southwick Sports  B,929636592,Danny Wilson,61,804381932,Ryan Harman,7
 2018-03-12,17,4,Champion House  B,Southwick Sports  B,39289507,Mick Laughlin,61,657320021,Brett Strevens,25
-2018-03-12,17,4,Goldstone Ex Serv. B,N.A.R.C. B,294944526,Rob Teanby,54,444339215,S Richards,8
+2018-03-12,17,4,Goldstone Ex Serv. B,N.A.R.C. B,294944526,Rob Teanby,54,444339215,Steve Richards,8
 2018-03-12,17,4,Goldstone Ex Serv. B,N.A.R.C. B,386517733,Ady Halley,55,41461520,Luke Pooley,41
 2018-03-12,17,4,Goldstone Ex Serv. B,N.A.R.C. B,820231590,Alan Rook,25,688749133,Dan Hease,64
 2018-03-12,17,4,Goldstone Ex Serv. B,N.A.R.C. B,70159035,Peter Rea,44,223983583,Carl Wentworth,8
@@ -5347,7 +5347,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2018-03-19,17,4,Moulsecoomb Club B,Goldstone Ex Serv. B,978156264,Bob Paine,32,294944526,Rob Teanby,67
 2018-03-19,17,4,Moulsecoomb Club B,Goldstone Ex Serv. B,943667183,John Stone,22,573567936,Steve Marriott,51
 2018-03-19,17,4,N.A.R.C. B,Champion House  B,41461520,Luke Pooley,38,501266206,David Fox,58
-2018-03-19,17,4,N.A.R.C. B,Champion House  B,444339215,S Richards,34,852327692,Andy Fletcher,31
+2018-03-19,17,4,N.A.R.C. B,Champion House  B,444339215,Steve Richards,34,852327692,Andy Fletcher,31
 2018-03-19,17,4,N.A.R.C. B,Champion House  B,688749133,Dan Hease,55,737709582,Tony Browne,44
 2018-03-19,17,4,N.A.R.C. B,Champion House  B,449331249,Dan Tanner,26,929636592,Danny Wilson,40
 2018-03-19,17,4,N.A.R.C. B,Champion House  B,223983583,Carl Wentworth,31,39289507,Mick Laughlin,42
@@ -5405,7 +5405,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2018-03-26,17,4,Goldstone Ex Serv. B,Annunciation  A,573567936,Steve Marriott,56,279543944,Peter Maurice,28
 2018-03-26,17,4,Goldstone Ex Serv. B,Annunciation  A,70159035,Peter Rea,70,831214643,Tony Shipley,44
 2018-03-26,17,4,Portslade Legion,N.A.R.C. B,229719541,Scott Manning,64,688749133,Dan Hease,22
-2018-03-26,17,4,Portslade Legion,N.A.R.C. B,845758589,Charlie James,28,444339215,S Richards,50
+2018-03-26,17,4,Portslade Legion,N.A.R.C. B,845758589,Charlie James,28,444339215,Steve Richards,50
 2018-03-26,17,4,Portslade Legion,N.A.R.C. B,936624299,Peter Gallant,47,223983583,Carl Wentworth,58
 2018-03-26,17,4,Portslade Legion,N.A.R.C. B,417786644,Eddie Collins,25,449331249,Dan Tanner,48
 2018-03-26,17,4,Portslade Legion,N.A.R.C. B,69745818,Ian Bowles,39,41461520,Luke Pooley,48
@@ -5454,7 +5454,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2018-04-09,17,4,Moulsecoomb Club B,Portslade Legion,978156264,Bob Paine,27,417786644,Eddie Collins,56
 2018-04-09,17,4,Moulsecoomb Club B,Portslade Legion,567624732,Dave Brampton,55,69745818,Ian Bowles,26
 2018-04-09,17,4,Moulsecoomb Club B,Portslade Legion,649240057,Mike Childs,63,936624299,Peter Gallant,51
-2018-04-09,17,4,N.A.R.C. B,Southwick Sports  B,444339215,S Richards,67,804381932,Ryan Harman,44
+2018-04-09,17,4,N.A.R.C. B,Southwick Sports  B,444339215,Steve Richards,67,804381932,Ryan Harman,44
 2018-04-09,17,4,N.A.R.C. B,Southwick Sports  B,688749133,Dan Hease,33,293577764,Dave Crosskey,21
 2018-04-09,17,4,N.A.R.C. B,Southwick Sports  B,41461520,Luke Pooley,15,216787426,Jack Perrin,37
 2018-04-09,17,4,N.A.R.C. B,Southwick Sports  B,449331249,Dan Tanner,12,961176896,Kelvin Strevens,65
@@ -5499,7 +5499,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2018-04-16,17,4,Champion House  B,Goldstone Ex Serv. B,737709582,Tony Browne,16,70159035,Peter Rea,76
 2018-04-16,17,4,Champion House  B,Goldstone Ex Serv. B,880982797,Ray Hunter,55,386517733,Ady Halley,13
 2018-04-16,17,4,Champion House  B,Goldstone Ex Serv. B,39289507,Mick Laughlin,47,573567936,Steve Marriott,27
-2018-04-16,17,4,N.A.R.C. B,Preston Club,444339215,S Richards,40,304563362,Dan Marchant,53
+2018-04-16,17,4,N.A.R.C. B,Preston Club,444339215,Steve Richards,40,304563362,Dan Marchant,53
 2018-04-16,17,4,N.A.R.C. B,Preston Club,223983583,Carl Wentworth,45,231445676,Tony Paice,37
 2018-04-16,17,4,N.A.R.C. B,Preston Club,688749133,Dan Hease,26,670870044,David Flanagan,44
 2018-04-16,17,4,N.A.R.C. B,Preston Club,449331249,Dan Tanner,6,688778183,Dean Paice,63
@@ -5573,7 +5573,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2018-09-10,18,4,Goldstone Ex Serv. B,Annunciation  A,573567936,Steve Marriott,22,288891270,Lewis Copping,53
 2018-09-10,18,4,N.A.R.C. B,Moulsecoomb Club B,688749133,Dan Hease,74,172646809,Robin Powell,6
 2018-09-10,18,4,N.A.R.C. B,Moulsecoomb Club B,223983583,Carl Wentworth,40,495939788,Tyrone Davis,12
-2018-09-10,18,4,N.A.R.C. B,Moulsecoomb Club B,444339215,S Richards,49,630748783,Darren Hills,13
+2018-09-10,18,4,N.A.R.C. B,Moulsecoomb Club B,444339215,Steve Richards,49,630748783,Darren Hills,13
 2018-09-10,18,4,N.A.R.C. B,Moulsecoomb Club B,41461520,Luke Pooley,10,649240057,Mike Childs,45
 2018-09-10,18,4,N.A.R.C. B,Moulsecoomb Club B,449331249,Dan Tanner,50,978156264,Bob Paine,11
 2018-09-10,18,4,Portslade Legion,N.A.R.C C,229719541,Scott Manning,56,444350794,Richard Freeman,12
@@ -5636,7 +5636,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2018-09-17,18,3,Southwick Sports  A,Moulsecoomb Club A,971308746,Clive Harman,64,451309825,Maurice Wickens,42
 2018-09-17,18,3,Southwick Sports  A,Moulsecoomb Club A,910809545,Blake Harman,36,724342701,Nigel Lilley,44
 2018-09-17,18,4,Annunciation  A,N.A.R.C. B,279543944,Peter Maurice,63,41461520,Luke Pooley,41
-2018-09-17,18,4,Annunciation  A,N.A.R.C. B,529382351,Greg Foat,49,444339215,S Richards,35
+2018-09-17,18,4,Annunciation  A,N.A.R.C. B,529382351,Greg Foat,49,444339215,Steve Richards,35
 2018-09-17,18,4,Annunciation  A,N.A.R.C. B,351143642,Michael Palmer,53,449331249,Dan Tanner,13
 2018-09-17,18,4,Annunciation  A,N.A.R.C. B,953512654,Les Berry,19,688749133,Dan Hease,66
 2018-09-17,18,4,Annunciation  A,N.A.R.C. B,288891270,Lewis Copping,57,223983583,Carl Wentworth,46
@@ -5713,7 +5713,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2018-09-24,18,4,Moulsecoomb Club B,Annunciation  A,978156264,Bob Paine,35,953512654,Les Berry,62
 2018-09-24,18,4,N.A.R.C. B,N.A.R.C C,688749133,Dan Hease,39,444350794,Richard Freeman,48
 2018-09-24,18,4,N.A.R.C. B,N.A.R.C C,223983583,Carl Wentworth,38,833156731,Jez Saunders,60
-2018-09-24,18,4,N.A.R.C. B,N.A.R.C C,444339215,S Richards,19,144776055,Brian Wilkes,50
+2018-09-24,18,4,N.A.R.C. B,N.A.R.C C,444339215,Steve Richards,19,144776055,Brian Wilkes,50
 2018-09-24,18,4,N.A.R.C. B,N.A.R.C C,449331249,Dan Tanner,26,733453947,Phil Canham,35
 2018-09-24,18,4,N.A.R.C. B,N.A.R.C C,41461520,Luke Pooley,24,411473516,Ray Canham,52
 2018-09-24,18,4,Southwick Sports  B,Portslade Legion,438312525,Simon Atkinson,44,229719541,Scott Manning,61
@@ -5923,7 +5923,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2018-10-22,18,3,Portslade Sports B,Preston Club,327948141,Ross Etheridge,52,146404254,Randall Griffiths,45
 2018-10-22,18,3,Portslade Sports B,Preston Club,567316488,Lee Millyard,66,231445676,Tony Paice,38
 2018-10-22,18,3,Portslade Sports B,Preston Club,704007508,Alan Muir,39,688778183,Dean Paice,48
-2018-10-22,18,4,Southwick Sports  B,N.A.R.C. B,626419381,Darren Woods,48,444339215,S Richards,13
+2018-10-22,18,4,Southwick Sports  B,N.A.R.C. B,626419381,Darren Woods,48,444339215,Steve Richards,13
 2018-10-22,18,4,Southwick Sports  B,N.A.R.C. B,657320021,Brett Strevens,9,688749133,Dan Hease,49
 2018-10-22,18,4,Southwick Sports  B,N.A.R.C. B,804381932,Ryan Harman,44,41461520,Luke Pooley,22
 2018-10-22,18,4,Southwick Sports  B,N.A.R.C. B,216787426,Jack Perrin,42,223983583,Carl Wentworth,56
@@ -6406,7 +6406,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2019-01-07,18,4,Southwick Sports  B,Champion House  B,216787426,Jack Perrin,56,929636592,Danny Wilson,34
 2019-01-07,18,4,Southwick Sports  B,Champion House  B,626419381,Darren Woods,48,39289507,Mick Laughlin,42
 2019-01-07,18,4,Southwick Sports  B,Champion House  B,152643729,Lew Heath,35,852327692,Andy Fletcher,52
-2018-12-17,18,4,N.A.R.C. B,Southwick Sports  B,444339215,S Richards,43,216787426,Jack Perrin,46
+2018-12-17,18,4,N.A.R.C. B,Southwick Sports  B,444339215,Steve Richards,43,216787426,Jack Perrin,46
 2018-12-17,18,4,N.A.R.C. B,Southwick Sports  B,449331249,Dan Tanner,44,804381932,Ryan Harman,54
 2018-12-17,18,4,N.A.R.C. B,Southwick Sports  B,688749133,Dan Hease,48,152643729,Lew Heath,10
 2018-12-17,18,4,N.A.R.C. B,Southwick Sports  B,41461520,Luke Pooley,27,626419381,Darren Woods,59
@@ -7544,7 +7544,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2019-10-07,19,4,Hove D.S. Anglers  B,Portslade Legion,598117191,Jerome Fowler,55,978156264,Bob Paine,25
 2019-10-07,19,4,Hove D.S. Anglers  B,Portslade Legion,613893140,Matt Warner,44,69745818,Ian Bowles,30
 2019-10-07,19,4,Hove D.S. Anglers  B,Portslade Legion,612265840,Paul Honeysett,15,936624299,Peter Gallant,41
-2019-10-07,19,4,N.A.R.C B,Moulsecoomb Club B,444339215,S Richards,48,172646809,Robin Powell,35
+2019-10-07,19,4,N.A.R.C B,Moulsecoomb Club B,444339215,Steve Richards,48,172646809,Robin Powell,35
 2019-10-07,19,4,N.A.R.C B,Moulsecoomb Club B,968651401,Ryan Grover,52,713064363,John Trory,18
 2019-10-07,19,4,N.A.R.C B,Moulsecoomb Club B,144181207,Jack Yates,57,495939788,Tyrone Davis,27
 2019-10-07,19,4,N.A.R.C B,Moulsecoomb Club B,41461520,Luke Pooley,57,649240057,Mike Childs,23
@@ -7698,7 +7698,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2019-10-28,19,4,Annunciation  A,Southwick Sports  C,529382351,Greg Foat,62,45305697,John Barratt,47
 2019-10-28,19,4,Annunciation  A,Southwick Sports  C,831214643,Tony Shipley,33,70159035,Peter Rea,48
 2019-10-28,19,4,Annunciation  A,Southwick Sports  C,351143642,Michael Palmer,60,573567936,Steve Marriott,29
-2019-10-28,19,4,Hove D.S. Anglers  B,N.A.R.C B,213055288,Mike Hartfield,49,444339215,S Richards,62
+2019-10-28,19,4,Hove D.S. Anglers  B,N.A.R.C B,213055288,Mike Hartfield,49,444339215,Steve Richards,62
 2019-10-28,19,4,Hove D.S. Anglers  B,N.A.R.C B,319057545,Brendan Lambe,38,144181207,Jack Yates,48
 2019-10-28,19,4,Hove D.S. Anglers  B,N.A.R.C B,598117191,Jerome Fowler,4,968651401,Ryan Grover,60
 2019-10-28,19,4,Hove D.S. Anglers  B,N.A.R.C B,613893140,Matt Warner,52,449331249,Dan Tanner,25
@@ -7713,7 +7713,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2019-10-21,19,4,Hove D.S. Anglers  B,Southwick Sports  C,213055288,Mike Hartfield,46,386517733,Ady Halley,37
 2019-10-21,19,4,Hove D.S. Anglers  B,Southwick Sports  C,613893140,Matt Warner,32,70159035,Peter Rea,63
 2019-10-21,19,4,Hove D.S. Anglers  B,Southwick Sports  C,612265840,Paul Honeysett,26,45305697,John Barratt,51
-2019-10-21,19,4,Southwick Sports  B,N.A.R.C B,114007838,John Paine,41,444339215,S Richards,50
+2019-10-21,19,4,Southwick Sports  B,N.A.R.C B,114007838,John Paine,41,444339215,Steve Richards,50
 2019-10-21,19,4,Southwick Sports  B,N.A.R.C B,804381932,Ryan Harman,13,144181207,Jack Yates,40
 2019-10-21,19,4,Southwick Sports  B,N.A.R.C B,579164381,Danny Cattell,55,968651401,Ryan Grover,31
 2019-10-21,19,4,Southwick Sports  B,N.A.R.C B,216787426,Jack Perrin,58,449331249,Dan Tanner,27
@@ -7727,7 +7727,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2019-10-14,19,4,N.A.R.C C,Southwick Sports  B,295120010,Andy Yarrow,53,216787426,Jack Perrin,34
 2019-10-14,19,4,N.A.R.C C,Southwick Sports  B,411473516,Ray Canham,14,579164381,Danny Cattell,72
 2019-10-14,19,4,N.A.R.C C,Southwick Sports  B,733453947,Phil Canham,40,114007838,John Paine,49
-2019-10-14,19,4,Southwick Sports  C,N.A.R.C B,820231590,Alan Rook,37,444339215,S Richards,57
+2019-10-14,19,4,Southwick Sports  C,N.A.R.C B,820231590,Alan Rook,37,444339215,Steve Richards,57
 2019-10-14,19,4,Southwick Sports  C,N.A.R.C B,70159035,Peter Rea,62,144181207,Jack Yates,55
 2019-10-14,19,4,Southwick Sports  C,N.A.R.C B,294944526,Rob Teanby,47,968651401,Ryan Grover,14
 2019-10-14,19,4,Southwick Sports  C,N.A.R.C B,745152759,Kevin Jewell,15,223983583,Carl Wentworth,59
@@ -7849,7 +7849,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2019-11-11,19,4,Moulsecoomb Club B,Southwick Sports  B,495939788,Tyrone Davis,33,152643729,Lew Heath,47
 2019-11-11,19,4,Moulsecoomb Club B,Southwick Sports  B,172646809,Robin Powell,76,216787426,Jack Perrin,41
 2019-11-11,19,4,Moulsecoomb Club B,Southwick Sports  B,713064363,John Trory,57,579164381,Danny Cattell,46
-2019-11-11,19,4,N.A.R.C C,N.A.R.C B,382970973,Paul Shaw,40,444339215,S Richards,47
+2019-11-11,19,4,N.A.R.C C,N.A.R.C B,382970973,Paul Shaw,40,444339215,Steve Richards,47
 2019-11-11,19,4,N.A.R.C C,N.A.R.C B,402257815,Jim Cumming,51,144181207,Jack Yates,49
 2019-11-11,19,4,N.A.R.C C,N.A.R.C B,295120010,Andy Yarrow,46,968651401,Ryan Grover,57
 2019-11-11,19,4,N.A.R.C C,N.A.R.C B,144776055,Brian Wilkes,53,41461520,Luke Pooley,13
@@ -8043,7 +8043,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2019-12-09,19,4,Hove D.S. Anglers  B,Moulsecoomb Club B,326225304,Ian Raeburn,75,713064363,John Trory,25
 2019-12-09,19,4,Hove D.S. Anglers  B,Moulsecoomb Club B,901024459,Paul Charman,58,172646809,Robin Powell,50
 2019-12-09,19,4,Hove D.S. Anglers  B,Moulsecoomb Club B,598117191,Jerome Fowler,46,495939788,Tyrone Davis,10
-2019-12-09,19,4,N.A.R.C B,Southwick Sports  C,444339215,S Richards,40,820231590,Alan Rook,22
+2019-12-09,19,4,N.A.R.C B,Southwick Sports  C,444339215,Steve Richards,40,820231590,Alan Rook,22
 2019-12-09,19,4,N.A.R.C B,Southwick Sports  C,968651401,Ryan Grover,34,70159035,Peter Rea,54
 2019-12-09,19,4,N.A.R.C B,Southwick Sports  C,144181207,Jack Yates,30,386517733,Ady Halley,48
 2019-12-09,19,4,N.A.R.C B,Southwick Sports  C,449331249,Dan Tanner,34,573567936,Steve Marriott,61
@@ -8237,7 +8237,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2020-01-06,19,4,Moulsecoomb Club B,N.A.R.C C,495939788,Tyrone Davis,39,295120010,Andy Yarrow,47
 2020-01-06,19,4,Moulsecoomb Club B,N.A.R.C C,172646809,Robin Powell,35,144776055,Brian Wilkes,43
 2020-01-06,19,4,Moulsecoomb Club B,N.A.R.C C,713064363,John Trory,27,411473516,Ray Canham,60
-2020-01-06,19,4,N.A.R.C B,Hove D.S. Anglers  B,444339215,S Richards,34,326225304,Ian Raeburn,47
+2020-01-06,19,4,N.A.R.C B,Hove D.S. Anglers  B,444339215,Steve Richards,34,326225304,Ian Raeburn,47
 2020-01-06,19,4,N.A.R.C B,Hove D.S. Anglers  B,144181207,Jack Yates,13,598117191,Jerome Fowler,52
 2020-01-06,19,4,N.A.R.C B,Hove D.S. Anglers  B,223983583,Carl Wentworth,54,319057545,Brendan Lambe,45
 2020-01-06,19,4,N.A.R.C B,Hove D.S. Anglers  B,968651401,Ryan Grover,18,613893140,Matt Warner,53
@@ -8270,7 +8270,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2020-01-13,19,1,St. Matthias C,Castle Club  A,752709358,Chris Mason,52,59858690,James Constable,21
 2020-01-13,19,2,Castle Club  D,St. Matthias E,163959771,Alex el Deweiny,61,174147986,Lee Cliff,22
 2020-01-13,19,2,Castle Club  D,St. Matthias E,110039677,Mick Miller,48,788605510,Mark Rose,53
-2020-01-13,19,2,Castle Club  D,St. Matthias E,297132315,Andrew Hollick,45,889234854,Paul Smith,6
+2020-01-13,19,2,Castle Club  D,St. Matthias E,88098023,Andy Healey,45,889234854,Paul Smith,6
 2020-01-13,19,2,Castle Club  D,St. Matthias E,212940364,Wayne Jenkinson,72,866506631,Mark Smith,13
 2020-01-13,19,2,Castle Club  D,St. Matthias E,797313851,Dave Anderson,30,970786910,Kevin Sorrell,55
 2020-01-13,19,2,Southwick Sports  A,Hove D.S. Anglers  A,991443521,Adam Griffiths,49,41098823,Mikey Booker,17
@@ -8298,7 +8298,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2020-01-13,19,3,Moulsecoomb Club A,Preston Club,349269645,Barry Thornton,36,688778183,Dean Paice,59
 2020-01-13,19,3,Moulsecoomb Club A,Preston Club,271464632,Paul Phillips,39,740135236,Craig Marchant,67
 2020-01-13,19,3,Moulsecoomb Club A,Preston Club,535728699,Fred Cooper,60,670870044,David Flanagan,56
-2020-01-13,19,4,Annunciation  A,N.A.R.C B,279543944,Peter Maurice,20,444339215,S Richards,61
+2020-01-13,19,4,Annunciation  A,N.A.R.C B,279543944,Peter Maurice,20,444339215,Steve Richards,61
 2020-01-13,19,4,Annunciation  A,N.A.R.C B,529382351,Greg Foat,19,144181207,Jack Yates,50
 2020-01-13,19,4,Annunciation  A,N.A.R.C B,351143642,Michael Palmer,50,968651401,Ryan Grover,31
 2020-01-13,19,4,Annunciation  A,N.A.R.C B,831214643,Tony Shipley,28,449331249,Dan Tanner,49
@@ -8380,7 +8380,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2020-01-20,19,4,Hove D.S. Anglers  B,Annunciation  A,598117191,Jerome Fowler,48,831214643,Tony Shipley,10
 2020-01-20,19,4,Hove D.S. Anglers  B,Annunciation  A,613893140,Matt Warner,41,279543944,Peter Maurice,21
 2020-01-20,19,4,Hove D.S. Anglers  B,Annunciation  A,612265840,Paul Honeysett,18,953512654,Les Berry,52
-2020-01-20,19,4,N.A.R.C B,N.A.R.C C,444339215,S Richards,54,833156731,Jez Saunders,47
+2020-01-20,19,4,N.A.R.C B,N.A.R.C C,444339215,Steve Richards,54,833156731,Jez Saunders,47
 2020-01-20,19,4,N.A.R.C B,N.A.R.C C,144181207,Jack Yates,42,295120010,Andy Yarrow,24
 2020-01-20,19,4,N.A.R.C B,N.A.R.C C,968651401,Ryan Grover,34,411473516,Ray Canham,62
 2020-01-20,19,4,N.A.R.C B,N.A.R.C C,449331249,Dan Tanner,22,733453947,Phil Canham,50
@@ -8455,7 +8455,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2020-01-27,19,4,N.A.R.C C,Hove D.S. Anglers  B,295120010,Andy Yarrow,38,598117191,Jerome Fowler,42
 2020-01-27,19,4,N.A.R.C C,Hove D.S. Anglers  B,411473516,Ray Canham,26,613893140,Matt Warner,90
 2020-01-27,19,4,N.A.R.C C,Hove D.S. Anglers  B,733453947,Phil Canham,40,612265840,Paul Honeysett,7
-2020-01-27,19,4,Portslade Legion,N.A.R.C B,845758589,Charlie James,50,444339215,S Richards,31
+2020-01-27,19,4,Portslade Legion,N.A.R.C B,845758589,Charlie James,50,444339215,Steve Richards,31
 2020-01-27,19,4,Portslade Legion,N.A.R.C B,417786644,Eddie Collins,32,41461520,Luke Pooley,42
 2020-01-27,19,4,Portslade Legion,N.A.R.C B,291816585,Jim Somers,15,968651401,Ryan Grover,42
 2020-01-27,19,4,Portslade Legion,N.A.R.C B,69745818,Ian Bowles,29,449331249,Dan Tanner,53
