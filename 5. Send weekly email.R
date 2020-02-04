@@ -4,7 +4,7 @@ library(readr)
 library(tidyr)
 library(dplyr)
 
-snooker_week <- 18
+snooker_week <- 19
 billiards_week <- 12
 # test_to_address <- "djp42@cantab.net"
 email_addresses <- read_csv("team_email_addresses.csv")
