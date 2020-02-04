@@ -8,6 +8,7 @@ library(googledrive)
 library(googlesheets4)
 library(ggplot2)
 library(dplyr)
+library(knitr)
 drive_auth(use_oob = TRUE)
 sheets_auth(token = drive_token())
 
