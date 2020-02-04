@@ -52,13 +52,13 @@ old_results_to_scrape <- results_old %>%
   filter(season == 19) %>%
   select(-c(home_score, away_score))
 # Create an empty dataframe
-breaks_new = data.frame(fixture_date = as.Date(character()),
-                    season = numeric(),
-                    division = numeric(),
-                    player_id = character(),
-                    player_name = character(),
-                    high_break = integer(),
-                    stringsAsFactors = FALSE)
+breaks_new <- data.frame(fixture_date = as.Date(character()),
+                         season = numeric(),
+                         division = numeric(),
+                         player_id = character(),
+                         player_name = character(),
+                         high_break = integer(),
+                         stringsAsFactors = FALSE)
 # Scrape the likely fixtures that will now have match scores
 frame_scores_new <-
   pmap_dfr(unname(new_results_to_scrape %>%
