@@ -8617,3 +8617,67 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2020-02-10,19,4,Southwick Sports  C,N.A.R.C B,386517733,Ady Halley,68,144181207,Jack Yates,54
 2020-02-10,19,4,Southwick Sports  C,N.A.R.C B,573567936,Steve Marriott,39,449331249,Dan Tanner,36
 2020-02-10,19,4,Southwick Sports  C,N.A.R.C B,45305697,John Barratt,18,223983583,Carl Wentworth,45
+2020-02-17,19,1,Castle Club  C,Castle Club  A,133207947,Jake Richardson,47,523395206,Jamie Lashmar,60
+2020-02-17,19,1,Castle Club  C,Castle Club  A,825399596,Pat Adams,39,670256222,Connor Anderson,67
+2020-02-17,19,1,Castle Club  C,Castle Club  A,948504778,Jon Fordham,10,523395206,Jamie Lashmar,72
+2020-02-17,19,1,Castle Club  C,Castle Club  A,506581042,Glen Dartnell,55,96103077,Paul Norris,54
+2020-02-17,19,1,Castle Club  C,Castle Club  A,133207947,Jake Richardson,18,670256222,Connor Anderson,84
+2020-02-17,19,1,Castle Club  C,Castle Club  A,506581042,Glen Dartnell,11,96103077,Paul Norris,77
+2020-02-17,19,1,N.A.R.C A,St. Matthias C,390364577,Mark Bright,65,617751649,Lee Simpson,8
+2020-02-17,19,1,N.A.R.C A,St. Matthias C,428102632,Anthony Flynn,30,617751649,Lee Simpson,50
+2020-02-17,19,1,N.A.R.C A,St. Matthias C,390364577,Mark Bright,66,809568302,Mark Johnson,40
+2020-02-17,19,1,N.A.R.C A,St. Matthias C,428102632,Anthony Flynn,35,754250007,Freddie Blunden,69
+2020-02-17,19,1,St. Matthias A,St. Matthias B,931210057,Huntley Roberts,100,957784480,Harry Banks,25
+2020-02-17,19,1,St. Matthias A,St. Matthias B,954297832,Pav Sareen,47,278731588,Lester Grice,58
+2020-02-17,19,1,St. Matthias A,St. Matthias B,931210057,Huntley Roberts,46,957784480,Harry Banks,52
+2020-02-17,19,1,St. Matthias A,St. Matthias B,341869673,Nigel Stilwell,39,278731588,Lester Grice,67
+2020-02-17,19,2,Castle Club  D,Hove D.S. Anglers  A,163959771,Alex el Deweiny,48,41098823,Mikey Booker,34
+2020-02-17,19,2,Castle Club  D,Hove D.S. Anglers  A,297132315,Andrew Hollick,83,974385564,Danny Booker,45
+2020-02-17,19,2,Castle Club  D,Hove D.S. Anglers  A,797313851,Dave Anderson,47,878576746,Jon Hall,38
+2020-02-17,19,2,Castle Club  D,Hove D.S. Anglers  A,835677793,Ian Atkinson,36,225850882,John McLellan,60
+2020-02-17,19,2,Castle Club  D,Hove D.S. Anglers  A,212940364,Wayne Jenkinson,68,574248035,Tony Mulhern,24
+2020-02-17,19,2,Champion House  A,St. Matthias E,800114325,Roger Whiteley,58,174147986,Lee Cliff,19
+2020-02-17,19,2,Champion House  A,St. Matthias E,114184042,Ian Smith,49,970786910,Kevin Sorrell,47
+2020-02-17,19,2,Champion House  A,St. Matthias E,949603489,Pete Bennett,61,259288142,Dale Edmonds,20
+2020-02-17,19,2,Champion House  A,St. Matthias E,719124015,Tony Power,50,866506631,Mark Smith,57
+2020-02-17,19,2,Champion House  A,St. Matthias E,836895047,Ian McKay,56,598846718,Ben Sorrell,37
+2020-02-17,19,2,St. Matthias D,Southwick Sports  A,613889718,Terry Bashford,60,76011459,Kane Harman,49
+2020-02-17,19,2,St. Matthias D,Southwick Sports  A,258340682,John Derret,65,490170224,Jamie Matthews,14
+2020-02-17,19,2,St. Matthias D,Southwick Sports  A,873916947,Geoff Akehurst,7,910809545,Blake Harman,63
+2020-02-17,19,2,St. Matthias D,Southwick Sports  A,112887737,Pip Akehurst,73,971308746,Clive Harman,46
+2020-02-17,19,2,St. Matthias D,Southwick Sports  A,608140548,Dave Gillingham,48,171346729,Des Heasman,9
+2020-02-17,19,3,Annunciation C,Castle Club F,504949622,Jimmy Moseley,40,899206834,Jez Downs,8
+2020-02-17,19,3,Annunciation C,Castle Club F,867613624,Ian Dunhill,71,732415457,Barry Hall,39
+2020-02-17,19,3,Annunciation C,Castle Club F,572180407,Gediminas Aleksandravisius (Shorty),38,963206772,Dean Moore,15
+2020-02-17,19,3,Annunciation C,Castle Club F,27255501,Tom Lane,24,537640521,Ian Stoner,68
+2020-02-17,19,3,Annunciation C,Castle Club F,32061370,Toby Prince-Iles,62,879771694,Darren Parker,35
+2020-02-17,19,3,Portslade Sports B,Champion House  B,484159049,Tommy Wright,16,728690686,Rick Rothschild,50
+2020-02-17,19,3,Portslade Sports B,Champion House  B,327948141,Ross Etheridge,32,737709582,Tony Browne,52
+2020-02-17,19,3,Portslade Sports B,Champion House  B,560540608,Mark Siddle,54,852327692,Andy Fletcher,20
+2020-02-17,19,3,Portslade Sports B,Champion House  B,515177310,James Da Costa,31,501266206,David Fox,34
+2020-02-17,19,3,Portslade Sports B,Champion House  B,704007508,Alan Muir,43,880982797,Ray Hunter,40
+2020-02-17,19,3,Preston Club,Portslade Sports A,670870044,David Flanagan,44,360777082,Mark Bishop,69
+2020-02-17,19,3,Preston Club,Portslade Sports A,146404254,Randall Griffiths,48,688252012,Sean Cooper,35
+2020-02-17,19,3,Preston Club,Portslade Sports A,688778183,Dean Paice,40,430890681,Malcolm Cooper,27
+2020-02-17,19,3,Preston Club,Portslade Sports A,231445676,Tony Paice,28,835713833,Olly Stewart,44
+2020-02-17,19,3,Preston Club,Portslade Sports A,617252199,Jim Griffiths,52,623613383,Chris Marsh,43
+2020-02-17,19,4,Annunciation  A,Moulsecoomb Club B,279543944,Peter Maurice,53,495939788,Tyrone Davis,41
+2020-02-17,19,4,Annunciation  A,Moulsecoomb Club B,529382351,Greg Foat,12,951468676,Steve Burchett,47
+2020-02-17,19,4,Annunciation  A,Moulsecoomb Club B,351143642,Michael Palmer,64,844676925,Kieran Williams,36
+2020-02-17,19,4,Annunciation  A,Moulsecoomb Club B,831214643,Tony Shipley,52,172646809,Robin Powell,29
+2020-02-17,19,4,Annunciation  A,Moulsecoomb Club B,953512654,Les Berry,64,713064363,John Trory,32
+2020-02-17,19,4,Hove D.S. Anglers  B,Southwick Sports  C,326225304,Ian Raeburn,45,820231590,Alan Rook,48
+2020-02-17,19,4,Hove D.S. Anglers  B,Southwick Sports  C,598117191,Jerome Fowler,8,70159035,Peter Rea,59
+2020-02-17,19,4,Hove D.S. Anglers  B,Southwick Sports  C,613893140,Matt Warner,61,386517733,Ady Halley,37
+2020-02-17,19,4,Hove D.S. Anglers  B,Southwick Sports  C,674307680,Neil McCafferty,14,573567936,Steve Marriott,53
+2020-02-17,19,4,Hove D.S. Anglers  B,Southwick Sports  C,612265840,Paul Honeysett,12,45305697,John Barratt,49
+2020-02-17,19,4,N.A.R.C C,Portslade Legion,402257815,Jim Cumming,40,845758589,Charlie James,34
+2020-02-17,19,4,N.A.R.C C,Portslade Legion,833156731,Jez Saunders,45,417786644,Eddie Collins,31
+2020-02-17,19,4,N.A.R.C C,Portslade Legion,733453947,Phil Canham,53,978156264,Bob Paine,22
+2020-02-17,19,4,N.A.R.C C,Portslade Legion,411473516,Ray Canham,63,69745818,Ian Bowles,34
+2020-02-17,19,4,N.A.R.C C,Portslade Legion,295120010,Andy Yarrow,52,936624299,Peter Gallant,39
+2020-02-17,19,4,Southwick Sports  B,N.A.R.C B,804381932,Ryan Harman,60,444339215,Steve Richards,61
+2020-02-17,19,4,Southwick Sports  B,N.A.R.C B,216787426,Jack Perrin,71,144181207,Jack Yates,19
+2020-02-17,19,4,Southwick Sports  B,N.A.R.C B,579164381,Danny Cattell,48,968651401,Ryan Grover,52
+2020-02-17,19,4,Southwick Sports  B,N.A.R.C B,567624732,Dave Brampton,58,449331249,Dan Tanner,19
+2020-02-17,19,4,Southwick Sports  B,N.A.R.C B,943667183,John Stone,51,223983583,Carl Wentworth,16
