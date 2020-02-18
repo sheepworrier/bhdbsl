@@ -7,13 +7,13 @@ The League shall be called the Brighton, Hove & District Billiards & Snooker Lea
 ### CONSTITUTION:
 
 The League is established to pursue the following objectives: 
-Participation in the sports of Snooker and Billiards.
-To organise, manage and develop Snooker and Billiards for all members of the League.
-Membership and affiliation to appropriate Leagues and associations for the purpose of establishing regular competitive play for the clubs representative teams.
-The provision of training and playing facilities for its members.
-Promoting and maintaining the highest standards of technical competence, sportsmanship and good behaviour in Snooker and Billiards.
-Uphold the rules of the sport.
-The promotion of the sport.
+- Participation in the sports of Snooker and Billiards.
+- To organise, manage and develop Snooker and Billiards for all members of the League.
+- Membership and affiliation to appropriate Leagues and associations for the purpose of establishing regular competitive play for the clubs representative teams.
+- The provision of training and playing facilities for its members.
+- Promoting and maintaining the highest standards of technical competence, sportsmanship and good behaviour in Snooker and Billiards.
+- Uphold the rules of the sport.
+- The promotion of the sport.
 
 ## 2. MEMBERSHIP:
 
