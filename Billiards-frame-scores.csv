@@ -780,3 +780,15 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2020-02-12,19,1,St. Matthias B,Champion House,715839724,Chris Mason,200,297844767,Mick Lott,176
 2020-02-12,19,1,St. Matthias B,Champion House,271881781,Lester Grice,171,37136679,Robert (Bob) Jay,200
 2020-02-12,19,1,St. Matthias B,Champion House,622820041,Russell Hughes,151,578580599,Ian Smith,200
+2020-02-19,19,1,Champion House,Annunciation,297844767,Mick Lott,199,482444234,Richard Barrett,200
+2020-02-19,19,1,Champion House,Annunciation,37136679,Robert (Bob) Jay,187,283685400,Barry Martin,200
+2020-02-19,19,1,Champion House,Annunciation,578580599,Ian Smith,200,908008030,Geoff Randall,157
+2020-02-19,19,1,Moulsecoomb  B,St. Matthias B,409261140,Fred Cooper,172,715839724,Chris Mason,200
+2020-02-19,19,1,Moulsecoomb  B,St. Matthias B,546240999,Trevor Caine,177,51829191,Nigel Stilwell,200
+2020-02-19,19,1,Moulsecoomb  B,St. Matthias B,39704614,Steve Linton,145,992886832,Matt Dumbleton,200
+2020-02-19,19,1,St. Matthias A,Moulsecoomb  A,983276809,David Gillingham,200,176460812,Robin Powell,185
+2020-02-19,19,1,St. Matthias A,Moulsecoomb  A,561705160,Pav Sareen,200,564133408,Paul Phillips,164
+2020-02-19,19,1,St. Matthias A,Moulsecoomb  A,530117639,Geoff Akehurst,200,423539197,Nigel Lilley,189
+2020-02-12,19,1,Moulsecoomb  B,St. Matthias A,546240999,Trevor Caine,139,392836520,Pip Akehurst,200
+2020-02-12,19,1,Moulsecoomb  B,St. Matthias A,409261140,Fred Cooper,185,983276809,David Gillingham,200
+2020-02-12,19,1,Moulsecoomb  B,St. Matthias A,138786345,Barry Thornton,200,530117639,Geoff Akehurst,175
