@@ -126,6 +126,10 @@ are not able to upload their own result.
 1. * The Website Administrator - will make general changes and updates, keeping the website up to date with fixtures for League matches and Competition Draws.
 * Contact details for these people are available on the Website under the "Contacts” tab.
 
+## 16. Premier Division format
+
+For the Premier Division, teams are to be made up of a minimum of 5 players, so as to allow entry to the Endeavour Team Cup Competition (see Competition Rules). On league match night, a minimum of 3 and maximum of 6 players from each team will play in any one match. A single player can play 2 frames but not consecutively – unless by prior agreement of the team Captains. Any single player may play every week however may not play 2 frames for every week of the league season. To avoid 3 player teams dominating the season, the permitted number of frames for each player shall not exceed ¾ (three quarters) of the maximum number of frames available in a league season (penalty for exceeding allowed number of frames will be the played frame forfeited).  Frames awarded to a player by virtue of having no opponent shall not count towards this limit.
+
 ## ANNUAL COMPETITION RULES
 
 The following Rules will apply to all Competitions, whether Team or Individual, organised by the above League. They should be read in conjunction with, and in addition to, any other Rules published in the League handbook.
