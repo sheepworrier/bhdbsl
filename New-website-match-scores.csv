@@ -1,4 +1,7 @@
 fixture_date,season,division,home_team,away_team,home_score,away_score,URLs
+2020-03-02,19,1,Castle Club  A,St. Matthias C,4,2,http://brightonhovedistrictsnooker.leaguerepublic.com/l/match/27129262.html
+2020-03-02,19,1,St. Matthias A,Castle Club G,5,1,http://brightonhovedistrictsnooker.leaguerepublic.com/l/match/27129261.html
+2020-03-02,19,1,St. Matthias B,Castle Club  C,5,1,http://brightonhovedistrictsnooker.leaguerepublic.com/l/match/27129263.html
 2020-02-24,19,1,Castle Club G,St. Matthias B,4,2,http://brightonhovedistrictsnooker.leaguerepublic.com/l/match/27129260.html
 2020-02-24,19,1,N.A.R.C A,Castle Club  A,1,5,http://brightonhovedistrictsnooker.leaguerepublic.com/l/match/27129259.html
 2020-02-24,19,1,St. Matthias C,St. Matthias A,6,0,http://brightonhovedistrictsnooker.leaguerepublic.com/l/match/27129258.html
@@ -65,6 +68,9 @@ fixture_date,season,division,home_team,away_team,home_score,away_score,URLs
 2019-09-09,19,1,Castle Club  A,N.A.R.C A,6,0,http://brightonhovedistrictsnooker.leaguerepublic.com/l/match/27129196.html
 2019-09-09,19,1,St. Matthias A,St. Matthias C,1,5,http://brightonhovedistrictsnooker.leaguerepublic.com/l/match/27129195.html
 2019-09-09,19,1,St. Matthias B,Castle Club G,5,1,http://brightonhovedistrictsnooker.leaguerepublic.com/l/match/27129197.html
+2020-03-02,19,2,Annunciation B,St. Matthias D,3,2,http://brightonhovedistrictsnooker.leaguerepublic.com/l/match/27129346.html
+2020-03-02,19,2,Hove D.S. Anglers  A,Southwick Sports  A,1,4,http://brightonhovedistrictsnooker.leaguerepublic.com/l/match/27129345.html
+2020-03-02,19,2,St. Matthias E,Castle Club  D,0,5,http://brightonhovedistrictsnooker.leaguerepublic.com/l/match/27129347.html
 2020-02-24,19,2,Castle Club  D,Annunciation B,4,1,http://brightonhovedistrictsnooker.leaguerepublic.com/l/match/27129344.html
 2020-02-24,19,2,Southwick Sports  A,Champion House  A,4,1,http://brightonhovedistrictsnooker.leaguerepublic.com/l/match/27129342.html
 2020-02-24,19,2,St. Matthias D,Hove D.S. Anglers  A,3,2,http://brightonhovedistrictsnooker.leaguerepublic.com/l/match/27129343.html
@@ -131,6 +137,9 @@ fixture_date,season,division,home_team,away_team,home_score,away_score,URLs
 2019-09-09,19,2,Annunciation B,Castle Club  D,2,3,http://brightonhovedistrictsnooker.leaguerepublic.com/l/match/27129281.html
 2019-09-09,19,2,Champion House  A,Southwick Sports  A,2,3,http://brightonhovedistrictsnooker.leaguerepublic.com/l/match/27129279.html
 2019-09-09,19,2,Hove D.S. Anglers  A,St. Matthias D,2,3,http://brightonhovedistrictsnooker.leaguerepublic.com/l/match/27129280.html
+2020-03-02,19,3,Castle Club F,Champion House  B,2,3,http://brightonhovedistrictsnooker.leaguerepublic.com/l/match/27129672.html
+2020-03-02,19,3,Portslade Sports A,Annunciation C,5,0,http://brightonhovedistrictsnooker.leaguerepublic.com/l/match/27129673.html
+2020-03-02,19,3,Preston Club,Moulsecoomb Club A,5,0,http://brightonhovedistrictsnooker.leaguerepublic.com/l/match/27129671.html
 2020-02-24,19,3,Champion House  B,Preston Club,1,4,http://brightonhovedistrictsnooker.leaguerepublic.com/l/match/27129668.html
 2020-02-24,19,3,Moulsecoomb Club A,Portslade Sports A,1,4,http://brightonhovedistrictsnooker.leaguerepublic.com/l/match/27129670.html
 2020-02-24,19,3,Portslade Sports B,Castle Club F,3,2,http://brightonhovedistrictsnooker.leaguerepublic.com/l/match/27129669.html
@@ -197,6 +206,10 @@ fixture_date,season,division,home_team,away_team,home_score,away_score,URLs
 2019-09-09,19,3,Castle Club F,Portslade Sports B,2,3,http://brightonhovedistrictsnooker.leaguerepublic.com/l/match/27129606.html
 2019-09-09,19,3,Portslade Sports A,Moulsecoomb Club A,4,1,http://brightonhovedistrictsnooker.leaguerepublic.com/l/match/27129607.html
 2019-09-09,19,3,Preston Club,Champion House  B,2,3,http://brightonhovedistrictsnooker.leaguerepublic.com/l/match/27129605.html
+2020-03-02,19,4,Moulsecoomb Club B,Portslade Legion,4,1,http://brightonhovedistrictsnooker.leaguerepublic.com/l/match/27129784.html
+2020-03-02,19,4,N.A.R.C B,Annunciation  A,2,3,http://brightonhovedistrictsnooker.leaguerepublic.com/l/match/27129786.html
+2020-03-02,19,4,Southwick Sports  B,Hove D.S. Anglers  B,4,1,http://brightonhovedistrictsnooker.leaguerepublic.com/l/match/27129783.html
+2020-03-02,19,4,Southwick Sports  C,N.A.R.C C,3,2,http://brightonhovedistrictsnooker.leaguerepublic.com/l/match/27129785.html
 2020-02-24,19,4,Annunciation  A,Southwick Sports  C,3,2,http://brightonhovedistrictsnooker.leaguerepublic.com/l/match/27129781.html
 2020-02-24,19,4,Hove D.S. Anglers  B,N.A.R.C B,3,2,http://brightonhovedistrictsnooker.leaguerepublic.com/l/match/27129782.html
 2020-02-24,19,4,N.A.R.C C,Moulsecoomb Club B,4,1,http://brightonhovedistrictsnooker.leaguerepublic.com/l/match/27129780.html
