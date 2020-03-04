@@ -50,8 +50,8 @@ Honorary Treasurer and Honorary Auditor shall be elected at each Annual General 
 
 ## 8. REGISTRATION OF PLAYERS:
 
-1. Players must be registered at least one clear day before taking part in any League match.  Further registrations may be accepted up to the three quarter stage of the season, but the Management Committee shall have the power to accept registrations after that date at their discretion.
-1. Each registered player shall pay the following fees: - £15.00 inclusive - Billiards and Snooker - payable within 30 days of the start of the season. Any subsequent registrations will only be accepted with the fee. Failure to pay will result in Rule 9.7 being instantly applied on the 5th week of the new season. No professional player can be registered with the League.  Registrations are the responsibility of the individual Team Captains and not the Clubs.  No warnings will be given. Fixture book free for each registered player. Cheques to be payable to Brighton, Hove and District Billiard and Snooker League.
+1. Players must be registered at least one clear day before taking part in any League match.  Further registrations may be accepted throughout the season subject to the Management Committee's approval.
+1. Each registered player shall pay the following fees: - £15.00 inclusive - Billiards and Snooker - payable within 30 days of the start of the season. Any subsequent registrations will only be accepted with the fee. Failure to pay will result in Rule 9.7 being instantly applied on the 5th week of the new season. No professional player can be registered with the League.  Registrations are the responsibility of the individual Team Captains and not the Clubs.  No warnings will be given. Cheques to be payable to Brighton, Hove and District Billiard and Snooker League.
 1. Billiard players must be registered at least one clear day before taking part in any league match.
 1. The list of registered players must be shown in the room where play takes place. Home team to nominate their player first before the start of each frame.
 1. Any player playing six games for a higher team during the season shall automatically become registered in that team. It is not permissible to play for another team if in the same Division.
@@ -126,6 +126,10 @@ are not able to upload their own result.
 1. * The Website Administrator - will make general changes and updates, keeping the website up to date with fixtures for League matches and Competition Draws.
 * Contact details for these people are available on the Website under the "Contacts” tab.
 
+## 16. Premier Division format
+
+For the Premier Division, teams are to be made up of a minimum of 5 players, so as to allow entry to the Endeavour Team Cup Competition (see Competition Rules). On league match night, a minimum of 3 and maximum of 6 players from each team will play in any one match. A single player can play 2 frames but not consecutively – unless by prior agreement of the team Captains. Any single player may play every week however may not play 2 frames for every week of the league season. To avoid 3 player teams dominating the season, the permitted number of frames for each player shall not exceed ¾ (three quarters) of the maximum number of frames available in a league season (penalty for exceeding allowed number of frames will be the played frame forfeited).  Frames awarded to a player by virtue of having no opponent shall not count towards this limit.
+
 ## ANNUAL COMPETITION RULES
 
 The following Rules will apply to all Competitions, whether Team or Individual, organised by the above League. They should be read in conjunction with, and in addition to, any other Rules published in the League handbook.
@@ -145,15 +149,15 @@ There will be five players per side, each playing a single frame. Players may on
 
 ### The De-Costa Cup (Snooker Handicap)
 
-Handicaps will be decided by the Management Handicapping Committee prior to the start of the Competition and will remain in force for the Competition up to and including the semi-final stage. The Competition will be on an aggregate of the score over two handicap being taken into account at the start of the match. The final of the Competition will be on an aggregate of the score over four frames, with the handicaps being doubled at the start of the match.
+Handicaps will be decided by the Management Handicapping Committee prior to the start of the Competition and will remain in force for the whole competition.  The competition will be played over the best of three frames up to and inlcuding the semi-final.  The final will be the best of five frames.  The handicap will be on a per frame basis (subject to a maximum of 75).
 
 ### The Division 1-3. The Over 50's, Under 25's, Over 70's Championships.
 
-Will be decided by the best of three frames with the final being played over the best of five frames. The title of "Division 1-3” can be amended dependant on the number of Divisions in the League. In the Age related competitions the players must be under 25 - 50 or over and 70 or over on the date of the of the entry closing date.  The Division Competition is open to any player from division 1-2 or 3 - this competition will now be a handicap competition whereby Div. 1 players will play each frame starting on Scratch, Division 2 players starting each frame on +10 and Division 3 players starting on +20
+Will be decided by the best of three frames with the final being played over the best of five frames. The title of "Division 1-3” can be amended dependant on the number of Divisions in the League. In the Age related competitions the players must be under 25, 50 or over and 70 or over on the date of the of the entry closing date.  The Division 1-3 and the Over 50's are handicap competitions; the handicaps being on a per frame basis (subject to a maximum of 75).
 
 ### The Snooker Pairs Handicap
 
-Handicaps will be decided by the Management Handicapping Committee prior to the start of the competition and will remain in force for the competition up to and including the semi-final stage. No change to the composition of the pair can be allowed i.e. no substitute will be permitted. Both players must be registered with the same club. The competition will be decided on an aggregate of the score over two frames, the handicap being taken into account at the start of the match. The final of the competition will be on an aggregate of the score over four frames, with the handicaps being doubled at the start of the match.
+Handicaps will be decided by the Management Handicapping Committee prior to the start of the competition and will remain in force for the whole competition. No change to the composition of the pair can be allowed i.e. no substitute will be permitted. Both players must be registered with the same club. The competition will be played over the best of three frames up to and including the smi-final.  The final will be played over the best of five frames.  The handicap will be on a per frame basis (subject to a maximum of 75).
 
 ### The Snooker Open Championship
 
