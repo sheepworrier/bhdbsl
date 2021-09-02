@@ -16,7 +16,8 @@ results_old <- read_csv("New-website-match-scores.csv",
                           away_team = col_character(),
                           home_score = col_integer(),
                           away_score = col_integer(),
-                          URLs = col_character()))
+                          URLs = col_character())) %>%
+  filter(!is.na(home_score))
 # Update results_new to include any results from result_old that are nor from
 # the current season
 results_new <- results_new %>%
@@ -30,6 +31,7 @@ new_results_to_scrape <- results_new %>%
   anti_join(results_old, by = c("fixture_date", "season", "division",
                                 "home_team", "away_team", "home_score",
                                 "away_score", "URLs")) %>%
+  filter(!is.na(home_score)) %>%
   select(-c(home_score, away_score))
 # Read in the formerly scraped frame scores
 frame_scores_old <- read_csv("New-website-frame-scores.csv",

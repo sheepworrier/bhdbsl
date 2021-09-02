@@ -2,14 +2,13 @@ library(rvest)
 library(httr)
 library(tidyverse)
 library(purrr)
-library(polite)
 
 get_season_division_results <- function(season, division, url, sport) {
-  # Create polite session
-  session <- bow(url, force = TRUE)
+  # Create session
+  session <- read_html(url)
   # Read in the number of results pages
-  num_pages_nodes <- scrape(session) %>%
-    html_nodes(".pagination a")
+  num_pages_nodes <- session %>%
+    html_nodes("#hide-container .flex a")
   # Handles the case where the season is incomplete or we have less than 5 pages
   # of results
   if (length(num_pages_nodes) == 0) {
@@ -40,9 +39,9 @@ get_single_results_page <- function(base_url, season, division, page_number,
   # Contruct URL for the results page number in question
   results_page_url <- paste0(base_url, "/", page_number, ".html")
   # Create polite session
-  session <- bow(results_page_url, force = TRUE)
+  session <- read_html(results_page_url)
   # Use rvest to extract the table of up to 20 results into a dataframe
-  results_table <- scrape(session) %>%
+  results_table <- session %>%
     html_nodes("table") %>%
     .[[1]] %>%
     html_table(fill=TRUE)
@@ -55,7 +54,7 @@ get_single_results_page <- function(base_url, season, division, page_number,
     }
   }
   # The final column of the above table contains a URL for the match details
-  match_detail_urls <- scrape(session) %>%
+  match_detail_urls <- session %>%
     html_nodes("td:nth-child(9) a") %>%
     html_attr("href")
 
@@ -73,7 +72,8 @@ get_single_results_page <- function(base_url, season, division, page_number,
                  away_team = results_table$`Away Team`,
                  home_score = as.integer(substr(results_table$Score, 1, 1)),
                  away_score = as.integer(substr(results_table$Score, 5, 5)),
-                 stringsAsFactors = FALSE)
+                 stringsAsFactors = FALSE) %>%
+      filter(!is.na(home_score))
     # Set absolute URL of match details pages
     final_results_table$URLs <-
       paste0("http://brightonhovedistrictsnooker.leaguerepublic.com",
@@ -124,9 +124,9 @@ scrape_match_page <-
   function(fixture_date, season, division, home_team, away_team, url) {
     print(paste("Scraping", url))
     # Create polite session
-    session <- bow(url, force = TRUE)
+    session <- read_html(url)
     # Look for the table of frame scores which may or may not exist
-    potential_frame_table <- scrape(session) %>%
+    potential_frame_table <- session %>%
       html_nodes(".divider-x2 table")
     # Check whether table exists
     if(length(potential_frame_table) > 0) {
@@ -178,7 +178,7 @@ scrape_match_page <-
                    stringsAsFactors = FALSE)
     }
     # Look for the table of breaks which may or may not exist
-    potential_break_tables <- scrape(session) %>%
+    potential_break_tables <- session %>%
       html_nodes(".table-hovered")
     if (length(potential_break_tables) > 2) {
       # First and last tables are not what we are looking for, so process
