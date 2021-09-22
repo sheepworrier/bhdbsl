@@ -1,9 +1,10 @@
 source("common-functions.R")
+current_season <- 21
 # Import the reference data containing the results URLs per season per division
 # Only needs updating when a new season is added
 ref_data <- read_csv("Snooker-Results-pages-per-season.csv") %>%
   mutate(sport = "Snooker") %>%
-  filter(Season == 19)
+  filter(Season == current_season)
 
 # Grab every match result and the link to the match details page
 results_new <- pmap_dfr(unname(ref_data), get_season_division_results)
@@ -51,7 +52,7 @@ frame_scores_old <- read_csv("New-website-frame-scores.csv",
 old_results_to_scrape <- results_old %>%
   anti_join(frame_scores_old, by = c("fixture_date", "season", "division",
                                      "home_team", "away_team")) %>%
-  filter(season == 19) %>%
+  filter(season == current_season) %>%
   select(-c(home_score, away_score))
 # Create an empty dataframe
 breaks_new <- data.frame(fixture_date = as.Date(character()),

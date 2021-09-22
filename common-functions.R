@@ -55,7 +55,7 @@ get_single_results_page <- function(base_url, season, division, page_number,
   }
   # The final column of the above table contains a URL for the match details
   match_detail_urls <- session %>%
-    html_nodes("td:nth-child(9) a") %>%
+    html_nodes(".right .bold") %>%
     html_attr("href")
 
   # Construct final results table for this match - slightly different format if
@@ -127,7 +127,7 @@ scrape_match_page <-
     session <- read_html(url)
     # Look for the table of frame scores which may or may not exist
     potential_frame_table <- session %>%
-      html_nodes(".divider-x2 table")
+      html_nodes(".spacer-bottom table")
     # Check whether table exists
     if(length(potential_frame_table) > 0) {
       # If it exists then read into a dataset
@@ -179,7 +179,7 @@ scrape_match_page <-
     }
     # Look for the table of breaks which may or may not exist
     potential_break_tables <- session %>%
-      html_nodes(".table-hovered")
+      html_nodes("table")
     if (length(potential_break_tables) > 2) {
       # First and last tables are not what we are looking for, so process
       # only the one or two in the middle
