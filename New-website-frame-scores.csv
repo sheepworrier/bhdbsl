@@ -35,7 +35,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2015-09-14,15,1,St. Matthias A,St. Matthias B,947143243,Chris Davis,68,278731588,Lester Grice,17
 2015-09-14,15,1,St. Matthias A,St. Matthias B,5820499,Paul Bartlett,82,60575249,Ash Thurmer,66
 2015-09-14,15,1,St. Matthias A,St. Matthias B,748064029,Paul Hughes,32,662568995,Rob Wykes,67
-2015-09-14,15,1,St. Matthias A,St. Matthias B,323907964,Russ Hughes,58,608140548,Dave Gillingham,55
+2015-09-14,15,1,St. Matthias A,St. Matthias B,323907964,Russ Hughes,58,608140548,David Gillingham,55
 2015-09-14,15,2,Goldstone Ex Serv. A,Annunciation B,16253983,Tony Simmonds,52,326342962,Geoff Randall,18
 2015-09-14,15,2,Goldstone Ex Serv. A,Annunciation B,412256116,Andy Sutton,52,556095121,Tom Wright,39
 2015-09-14,15,2,Goldstone Ex Serv. A,Annunciation B,848997254,Tom Parker,45,151836319,Phil Byford,36
@@ -99,7 +99,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2015-09-21,15,1,Castle Club  B,St. Matthias A,59858690,James Constable,27,802242736,Steve Hughes,64
 2015-09-21,15,1,St. Matthias B,Castle Club  C,96354463,Rob Pickard,58,506581042,Glen Dartnell,61
 2015-09-21,15,1,St. Matthias B,Castle Club  C,662568995,Rob Wykes,66,948504778,Jon Fordham,29
-2015-09-21,15,1,St. Matthias B,Castle Club  C,608140548,Dave Gillingham,19,133207947,Jake Richardson,59
+2015-09-21,15,1,St. Matthias B,Castle Club  C,608140548,David Gillingham,19,133207947,Jake Richardson,59
 2015-09-21,15,1,St. Matthias B,Castle Club  C,278731588,Lester Grice,68,34787509,Dave McCarthy,30
 2015-09-21,15,1,St. Matthias B,Castle Club  C,732321233,Nathan Brooks,48,258340682,John Derret,65
 2015-09-21,15,1,St. Matthias C,Castle Club  A,617751649,Lee Simpson,80,766684900,John Gillard,7
@@ -252,7 +252,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2015-10-05,15,1,St. Matthias A,Castle Club  C,802242736,Steve Hughes,58,34787509,Dave McCarthy,67
 2015-10-05,15,1,St. Matthias B,St. Matthias C,957784480,Harry Banks,17,752709358,Chris Mason,69
 2015-10-05,15,1,St. Matthias B,St. Matthias C,278731588,Lester Grice,23,617751649,Lee Simpson,70
-2015-10-05,15,1,St. Matthias B,St. Matthias C,608140548,Dave Gillingham,18,809568302,Mark Johnson,54
+2015-10-05,15,1,St. Matthias B,St. Matthias C,608140548,David Gillingham,18,809568302,Mark Johnson,54
 2015-10-05,15,1,St. Matthias B,St. Matthias C,662568995,Rob Wykes,63,384960657,Dave Lewney,52
 2015-10-05,15,1,St. Matthias B,St. Matthias C,96354463,Rob Pickard,21,666735933,Mike Collier,61
 2015-10-05,15,2,Annunciation B,Southwick Sports  A,655917217,Terry Mills,30,773216781,Sean Payne,68
@@ -468,7 +468,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2015-10-26,15,1,St. Matthias B,Castle Club  B,662568995,Rob Wykes,64,523395206,Jamie Lashmar,18
 2015-10-26,15,1,St. Matthias B,Castle Club  B,957784480,Harry Banks,76,670256222,Connor Anderson,48
 2015-10-26,15,1,St. Matthias B,Castle Club  B,96354463,Rob Pickard,61,26970170,Kai Michael,53
-2015-10-26,15,1,St. Matthias B,Castle Club  B,608140548,Dave Gillingham,29,927588200,Tokki Yamaguchi,80
+2015-10-26,15,1,St. Matthias B,Castle Club  B,608140548,David Gillingham,29,927588200,Tokki Yamaguchi,80
 2015-10-26,15,1,St. Matthias C,Castle Club  C,617751649,Lee Simpson,74,506581042,Glen Dartnell,51
 2015-10-26,15,1,St. Matthias C,Castle Club  C,752709358,Chris Mason,63,825399596,Pat Adams,26
 2015-10-26,15,1,St. Matthias C,Castle Club  C,809568302,Mark Johnson,57,133207947,Jake Richardson,23
@@ -605,7 +605,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2015-11-09,15,1,Castle Club  C,St. Matthias B,258340682,John Derret,36,278731588,Lester Grice,41
 2015-11-09,15,1,Castle Club  C,St. Matthias B,948504778,Jon Fordham,55,96354463,Rob Pickard,59
 2015-11-09,15,1,Castle Club  C,St. Matthias B,506581042,Glen Dartnell,29,957784480,Harry Banks,71
-2015-11-09,15,1,Castle Club  C,St. Matthias B,34787509,Dave McCarthy,21,608140548,Dave Gillingham,53
+2015-11-09,15,1,Castle Club  C,St. Matthias B,34787509,Dave McCarthy,21,608140548,David Gillingham,53
 2015-11-09,15,1,St. Matthias A,Castle Club  B,323907964,Russ Hughes,77,523395206,Jamie Lashmar,21
 2015-11-09,15,1,St. Matthias A,Castle Club  B,5820499,Paul Bartlett,8,356397577,David Morgan,61
 2015-11-09,15,1,St. Matthias A,Castle Club  B,947143243,Chris Davis,60,26970170,Kai Michael,23
@@ -681,7 +681,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2015-11-16,15,1,St. Matthias A,Castle Club  A,802242736,Steve Hughes,9,307140835,Tony Strange,61
 2015-11-16,15,1,St. Matthias B,N.A.R.C A,60575249,Ash Thurmer,32,764177688,Barry Martin,59
 2015-11-16,15,1,St. Matthias B,N.A.R.C A,278731588,Lester Grice,64,90176364,David Page,39
-2015-11-16,15,1,St. Matthias B,N.A.R.C A,608140548,Dave Gillingham,72,797962517,Dave Lewis,32
+2015-11-16,15,1,St. Matthias B,N.A.R.C A,608140548,David Gillingham,72,797962517,Dave Lewis,32
 2015-11-16,15,1,St. Matthias B,N.A.R.C A,662568995,Rob Wykes,45,646410961,Paul Scorer,58
 2015-11-16,15,1,St. Matthias B,N.A.R.C A,957784480,Harry Banks,14,428102632,Anthony Flynn,78
 2015-11-16,15,2,Annunciation B,Castle Club G,734416600,DON PENALVER,48,746406369,Loz O'Keefe,43
@@ -753,7 +753,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2015-11-23,15,1,N.A.R.C A,Castle Club  B,428102632,Anthony Flynn,64,59858690,James Constable,28
 2015-11-23,15,1,St. Matthias C,St. Matthias B,754250007,Freddie Blunden,70,662568995,Rob Wykes,30
 2015-11-23,15,1,St. Matthias C,St. Matthias B,617751649,Lee Simpson,32,278731588,Lester Grice,64
-2015-11-23,15,1,St. Matthias C,St. Matthias B,384960657,Dave Lewney,58,608140548,Dave Gillingham,34
+2015-11-23,15,1,St. Matthias C,St. Matthias B,384960657,Dave Lewney,58,608140548,David Gillingham,34
 2015-11-23,15,1,St. Matthias C,St. Matthias B,752709358,Chris Mason,62,96354463,Rob Pickard,43
 2015-11-23,15,1,St. Matthias C,St. Matthias B,809568302,Mark Johnson,41,732321233,Nathan Brooks,88
 2015-11-23,15,2,Goldstone Ex Serv. A,Hove D.S. Anglers  A,436708540,Bob Henley,5,974385564,Danny Booker,68
@@ -887,7 +887,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2015-12-07,15,1,Castle Club  A,St. Matthias B,561171273,Andy Norman,60,662568995,Rob Wykes,59
 2015-12-07,15,1,Castle Club  A,St. Matthias B,515186402,Ben Evans,39,278731588,Lester Grice,56
 2015-12-07,15,1,Castle Club  A,St. Matthias B,96103077,Paul Norris,78,96354463,Rob Pickard,11
-2015-12-07,15,1,Castle Club  A,St. Matthias B,619390728,Steve Stylianou,74,608140548,Dave Gillingham,32
+2015-12-07,15,1,Castle Club  A,St. Matthias B,619390728,Steve Stylianou,74,608140548,David Gillingham,32
 2015-12-07,15,1,N.A.R.C A,Castle Club  C,90176364,David Page,90,948504778,Jon Fordham,26
 2015-12-07,15,1,N.A.R.C A,Castle Club  C,797962517,Dave Lewis,36,133207947,Jake Richardson,48
 2015-12-07,15,1,N.A.R.C A,Castle Club  C,646410961,Paul Scorer,55,506581042,Glen Dartnell,54
@@ -949,7 +949,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2015-12-07,15,5,Preston Club,Southwick Sports  B,688778183,Dean Paice,61,971308746,Clive Harman,36
 2015-12-07,15,5,Preston Club,Southwick Sports  B,266477517,Tony Baxter,42,291198629,Tony Burt,15
 2015-12-14,15,1,Castle Club  B,St. Matthias B,670256222,Connor Anderson,71,60575249,Ash Thurmer,35
-2015-12-14,15,1,Castle Club  B,St. Matthias B,523395206,Jamie Lashmar,39,608140548,Dave Gillingham,67
+2015-12-14,15,1,Castle Club  B,St. Matthias B,523395206,Jamie Lashmar,39,608140548,David Gillingham,67
 2015-12-14,15,1,Castle Club  B,St. Matthias B,963958265,Rodney Moogan,32,278731588,Lester Grice,64
 2015-12-14,15,1,Castle Club  B,St. Matthias B,231975313,Danny English,51,662568995,Rob Wykes,23
 2015-12-14,15,1,Castle Club  B,St. Matthias B,26970170,Kai Michael,50,96354463,Rob Pickard,95
@@ -1050,7 +1050,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2016-01-04,15,1,N.A.R.C A,St. Matthias C,764177688,Barry Martin,19,752709358,Chris Mason,51
 2016-01-04,15,1,N.A.R.C A,St. Matthias C,646410961,Paul Scorer,16,754250007,Freddie Blunden,51
 2016-01-04,15,1,N.A.R.C A,St. Matthias C,428102632,Anthony Flynn,66,809568302,Mark Johnson,42
-2016-01-04,15,1,St. Matthias A,St. Matthias B,600385553,Darren Welfare,19,608140548,Dave Gillingham,61
+2016-01-04,15,1,St. Matthias A,St. Matthias B,600385553,Darren Welfare,19,608140548,David Gillingham,61
 2016-01-04,15,1,St. Matthias A,St. Matthias B,947143243,Chris Davis,15,278731588,Lester Grice,60
 2016-01-04,15,1,St. Matthias A,St. Matthias B,748064029,Paul Hughes,28,662568995,Rob Wykes,42
 2016-01-04,15,1,St. Matthias A,St. Matthias B,323907964,Russ Hughes,50,96354463,Rob Pickard,16
@@ -1105,7 +1105,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2016-01-11,15,1,St. Matthias B,Castle Club  C,957784480,Harry Banks,25,11133032,Simon Dent,77
 2016-01-11,15,1,St. Matthias B,Castle Club  C,278731588,Lester Grice,19,133207947,Jake Richardson,81
 2016-01-11,15,1,St. Matthias B,Castle Club  C,662568995,Rob Wykes,26,825399596,Pat Adams,65
-2016-01-11,15,1,St. Matthias B,Castle Club  C,608140548,Dave Gillingham,64,948504778,Jon Fordham,12
+2016-01-11,15,1,St. Matthias B,Castle Club  C,608140548,David Gillingham,64,948504778,Jon Fordham,12
 2016-01-11,15,1,St. Matthias C,Castle Club  A,617751649,Lee Simpson,62,561171273,Andy Norman,20
 2016-01-11,15,1,St. Matthias C,Castle Club  A,752709358,Chris Mason,44,96103077,Paul Norris,81
 2016-01-11,15,1,St. Matthias C,Castle Club  A,809568302,Mark Johnson,77,619390728,Steve Stylianou,70
@@ -1178,7 +1178,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2016-01-18,15,1,N.A.R.C A,St. Matthias B,797962517,Dave Lewis,58,732321233,Nathan Brooks,39
 2016-01-18,15,1,N.A.R.C A,St. Matthias B,646410961,Paul Scorer,61,662568995,Rob Wykes,35
 2016-01-18,15,1,N.A.R.C A,St. Matthias B,764177688,Barry Martin,45,278731588,Lester Grice,65
-2016-01-18,15,1,N.A.R.C A,St. Matthias B,428102632,Anthony Flynn,35,608140548,Dave Gillingham,62
+2016-01-18,15,1,N.A.R.C A,St. Matthias B,428102632,Anthony Flynn,35,608140548,David Gillingham,62
 2016-01-18,15,2,Castle Club G,Annunciation B,746406369,Loz O'Keefe,52,717256135,Trevor Pickard,15
 2016-01-18,15,2,Castle Club G,Annunciation B,844676925,Kieran Williams,57,655917217,Terry Mills,58
 2016-01-18,15,2,Castle Club G,Annunciation B,415524562,Dave King,64,556095121,Tom Wright,23
@@ -1238,7 +1238,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2016-01-25,15,1,St. Matthias A,Castle Club  C,748064029,Paul Hughes,65,825399596,Pat Adams,32
 2016-01-25,15,1,St. Matthias A,Castle Club  C,802242736,Steve Hughes,47,34787509,Dave McCarthy,58
 2016-01-25,15,1,St. Matthias B,St. Matthias C,96354463,Rob Pickard,76,617751649,Lee Simpson,44
-2016-01-25,15,1,St. Matthias B,St. Matthias C,608140548,Dave Gillingham,18,754250007,Freddie Blunden,58
+2016-01-25,15,1,St. Matthias B,St. Matthias C,608140548,David Gillingham,18,754250007,Freddie Blunden,58
 2016-01-25,15,1,St. Matthias B,St. Matthias C,662568995,Rob Wykes,39,809568302,Mark Johnson,83
 2016-01-25,15,1,St. Matthias B,St. Matthias C,278731588,Lester Grice,56,384960657,Dave Lewney,49
 2016-01-25,15,1,St. Matthias B,St. Matthias C,732321233,Nathan Brooks,19,752709358,Chris Mason,76
@@ -1370,7 +1370,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2016-02-08,15,1,St. Matthias A,St. Matthias C,748064029,Paul Hughes,24,754250007,Freddie Blunden,63
 2016-02-08,15,1,St. Matthias B,Castle Club  A,278731588,Lester Grice,53,561171273,Andy Norman,63
 2016-02-08,15,1,St. Matthias B,Castle Club  A,96354463,Rob Pickard,53,515186402,Ben Evans,31
-2016-02-08,15,1,St. Matthias B,Castle Club  A,608140548,Dave Gillingham,16,96103077,Paul Norris,67
+2016-02-08,15,1,St. Matthias B,Castle Club  A,608140548,David Gillingham,16,96103077,Paul Norris,67
 2016-02-08,15,1,St. Matthias B,Castle Club  A,957784480,Harry Banks,29,307140835,Tony Strange,61
 2016-02-08,15,1,St. Matthias B,Castle Club  A,732321233,Nathan Brooks,38,619390728,Steve Stylianou,64
 2016-02-08,15,2,Castle Club H,Annunciation B,426009127,Bav Patel,67,326342962,Geoff Randall,17
@@ -1435,7 +1435,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2016-02-15,15,1,St. Matthias B,Castle Club  B,957784480,Harry Banks,59,231975313,Danny English,55
 2016-02-15,15,1,St. Matthias B,Castle Club  B,278731588,Lester Grice,41,865803068,Dave Jones,57
 2016-02-15,15,1,St. Matthias B,Castle Club  B,662568995,Rob Wykes,17,523395206,Jamie Lashmar,57
-2016-02-15,15,1,St. Matthias B,Castle Club  B,608140548,Dave Gillingham,61,26970170,Kai Michael,39
+2016-02-15,15,1,St. Matthias B,Castle Club  B,608140548,David Gillingham,61,26970170,Kai Michael,39
 2016-02-15,15,1,St. Matthias B,Castle Club  B,96354463,Rob Pickard,22,59858690,James Constable,68
 2016-02-15,15,1,St. Matthias C,Castle Club  C,617751649,Lee Simpson,16,506581042,Glen Dartnell,69
 2016-02-15,15,1,St. Matthias C,Castle Club  C,809568302,Mark Johnson,63,948504778,Jon Fordham,24
@@ -1493,7 +1493,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2016-02-22,15,1,Castle Club  B,Castle Club  A,231975313,Danny English,12,619390728,Steve Stylianou,50
 2016-02-22,15,1,St. Matthias B,St. Matthias A,278731588,Lester Grice,23,947143243,Chris Davis,44
 2016-02-22,15,1,St. Matthias B,St. Matthias A,662568995,Rob Wykes,84,192463126,Gerry Lindsey,10
-2016-02-22,15,1,St. Matthias B,St. Matthias A,608140548,Dave Gillingham,53,748064029,Paul Hughes,38
+2016-02-22,15,1,St. Matthias B,St. Matthias A,608140548,David Gillingham,53,748064029,Paul Hughes,38
 2016-02-22,15,1,St. Matthias B,St. Matthias A,732321233,Nathan Brooks,35,802242736,Steve Hughes,73
 2016-02-22,15,1,St. Matthias C,N.A.R.C A,617751649,Lee Simpson,65,90176364,David Page,25
 2016-02-22,15,1,St. Matthias C,N.A.R.C A,384960657,Dave Lewney,25,797962517,Dave Lewis,65
@@ -1610,7 +1610,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2016-03-07,15,1,St. Matthias A,Castle Club  A,802242736,Steve Hughes,57,307140835,Tony Strange,42
 2016-03-07,15,1,St. Matthias B,N.A.R.C A,278731588,Lester Grice,54,428102632,Anthony Flynn,45
 2016-03-07,15,1,St. Matthias B,N.A.R.C A,662568995,Rob Wykes,49,764177688,Barry Martin,43
-2016-03-07,15,1,St. Matthias B,N.A.R.C A,608140548,Dave Gillingham,31,646410961,Paul Scorer,72
+2016-03-07,15,1,St. Matthias B,N.A.R.C A,608140548,David Gillingham,31,646410961,Paul Scorer,72
 2016-03-07,15,1,St. Matthias B,N.A.R.C A,732321233,Nathan Brooks,26,797962517,Dave Lewis,67
 2016-03-07,15,2,Annunciation B,Castle Club G,326342962,Geoff Randall,66,463709832,Danny Wong,18
 2016-03-07,15,2,Annunciation B,Castle Club G,717256135,Trevor Pickard,68,844676925,Kieran Williams,38
@@ -1672,7 +1672,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2016-03-14,15,1,N.A.R.C A,Castle Club  B,797962517,Dave Lewis,78,26970170,Kai Michael,28
 2016-03-14,15,1,N.A.R.C A,Castle Club  B,646410961,Paul Scorer,28,927588200,Tokki Yamaguchi,70
 2016-03-14,15,1,N.A.R.C A,Castle Club  B,428102632,Anthony Flynn,69,59858690,James Constable,76
-2016-03-14,15,1,St. Matthias C,St. Matthias B,617751649,Lee Simpson,75,608140548,Dave Gillingham,43
+2016-03-14,15,1,St. Matthias C,St. Matthias B,617751649,Lee Simpson,75,608140548,David Gillingham,43
 2016-03-14,15,1,St. Matthias C,St. Matthias B,666735933,Mike Collier,58,662568995,Rob Wykes,37
 2016-03-14,15,1,St. Matthias C,St. Matthias B,752709358,Chris Mason,82,96354463,Rob Pickard,72
 2016-03-14,15,1,St. Matthias C,St. Matthias B,384960657,Dave Lewney,28,278731588,Lester Grice,48
@@ -1783,7 +1783,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2016-04-04,15,1,Castle Club  A,St. Matthias B,561171273,Andy Norman,70,278731588,Lester Grice,42
 2016-04-04,15,1,Castle Club  A,St. Matthias B,766684900,John Gillard,71,662568995,Rob Wykes,34
 2016-04-04,15,1,Castle Club  A,St. Matthias B,96103077,Paul Norris,50,96354463,Rob Pickard,36
-2016-04-04,15,1,Castle Club  A,St. Matthias B,307140835,Tony Strange,83,608140548,Dave Gillingham,20
+2016-04-04,15,1,Castle Club  A,St. Matthias B,307140835,Tony Strange,83,608140548,David Gillingham,20
 2016-04-04,15,1,Castle Club  A,St. Matthias B,619390728,Steve Stylianou,22,732321233,Nathan Brooks,56
 2016-04-04,15,1,N.A.R.C A,Castle Club  C,90176364,David Page,70,258340682,John Derret,16
 2016-04-04,15,1,N.A.R.C A,Castle Club  C,646410961,Paul Scorer,57,133207947,Jake Richardson,35
@@ -1915,7 +1915,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2016-09-12,16,2,Hove D.S. Anglers  A,St. Matthias D,974385564,Danny Booker,64,275738778,John Da Silva,14
 2016-09-12,16,2,Hove D.S. Anglers  A,St. Matthias D,574248035,Tony Mulhern,84,124523642,Tom Hayes,40
 2016-09-12,16,2,Hove D.S. Anglers  A,St. Matthias D,721321839,Matt Peake,33,670034050,John Muzio,46
-2016-09-12,16,2,Hove D.S. Anglers  A,St. Matthias D,225850882,John McLellan,15,608140548,Dave Gillingham,63
+2016-09-12,16,2,Hove D.S. Anglers  A,St. Matthias D,225850882,John McLellan,15,608140548,David Gillingham,63
 2016-09-12,16,3,Castle Club G,Champion House  B,773216781,Sean Payne,20,809647573,John Taylor,56
 2016-09-12,16,3,Castle Club G,Champion House  B,120138229,Adam Butler,35,567316488,Lee Millyard,42
 2016-09-12,16,3,Castle Club G,Champion House  B,83590771,Nick Brayne,46,737709582,Tony Browne,21
@@ -2054,7 +2054,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2016-09-26,16,2,Castle Club F,Goldstone Ex Serv. A,899206834,Jez Downs,68,954080507,Sam Corsby,64
 2016-09-26,16,2,Castle Club F,Goldstone Ex Serv. A,537640521,Ian Stoner,17,436708540,Bob Henley,48
 2016-09-26,16,2,Castle Club F,Goldstone Ex Serv. A,225247539,Barry Knight,35,848997254,Tom Parker,69
-2016-09-26,16,2,Castle Club K,St. Matthias D,554804357,Curtis Lambert,63,608140548,Dave Gillingham,51
+2016-09-26,16,2,Castle Club K,St. Matthias D,554804357,Curtis Lambert,63,608140548,David Gillingham,51
 2016-09-26,16,2,Castle Club K,St. Matthias D,231975313,Danny English,89,275738778,John Da Silva,20
 2016-09-26,16,2,Castle Club K,St. Matthias D,889684922,Zixun Wang,67,670034050,John Muzio,39
 2016-09-26,16,2,Castle Club K,St. Matthias D,837429850,Paul Beecham,42,703030938,Ollie Thurmer,29
@@ -2138,7 +2138,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2016-10-03,16,2,Hove D.S. Anglers  A,Annunciation B,225850882,John McLellan,55,717256135,Trevor Pickard,27
 2016-10-03,16,2,St. Matthias D,Castle Club F,703030938,Ollie Thurmer,48,669385277,Steve Towler,50
 2016-10-03,16,2,St. Matthias D,Castle Club F,275738778,John Da Silva,32,899206834,Jez Downs,54
-2016-10-03,16,2,St. Matthias D,Castle Club F,608140548,Dave Gillingham,74,537640521,Ian Stoner,10
+2016-10-03,16,2,St. Matthias D,Castle Club F,608140548,David Gillingham,74,537640521,Ian Stoner,10
 2016-10-03,16,2,St. Matthias D,Castle Club F,873916947,Geoff Akehurst,69,225247539,Barry Knight,35
 2016-10-03,16,2,St. Matthias D,Castle Club F,124523642,Tom Hayes,68,732415457,Barry Hall,44
 2016-10-03,16,3,Castle Club J,Champion House  C,867613624,Ian Dunhill,69,807603289,Kevin Gardner,16
@@ -2209,7 +2209,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2016-10-10,16,2,Castle Club K,Hove D.S. Anglers  A,991823299,Miggy Louro,48,574248035,Tony Mulhern,38
 2016-10-10,16,2,Goldstone Ex Serv. A,St. Matthias D,16253983,Tony Simmonds,62,670034050,John Muzio,55
 2016-10-10,16,2,Goldstone Ex Serv. A,St. Matthias D,954080507,Sam Corsby,45,275738778,John Da Silva,13
-2016-10-10,16,2,Goldstone Ex Serv. A,St. Matthias D,436708540,Bob Henley,9,608140548,Dave Gillingham,93
+2016-10-10,16,2,Goldstone Ex Serv. A,St. Matthias D,436708540,Bob Henley,9,608140548,David Gillingham,93
 2016-10-10,16,2,Goldstone Ex Serv. A,St. Matthias D,848997254,Tom Parker,57,124523642,Tom Hayes,65
 2016-10-10,16,2,Goldstone Ex Serv. A,St. Matthias D,412256116,Andy Sutton,51,873916947,Geoff Akehurst,14
 2016-10-10,16,3,Castle Club G,Champion House  C,773216781,Sean Payne,60,501266206,David Fox,15
@@ -2285,7 +2285,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2016-10-17,16,2,St. Matthias D,Champion House  A,873916947,Geoff Akehurst,4,800114325,Roger Whiteley,55
 2016-10-17,16,2,St. Matthias D,Champion House  A,275738778,John Da Silva,17,118679261,Mick Lott,52
 2016-10-17,16,2,St. Matthias D,Champion House  A,112887737,Pip Akehurst,51,719124015,Tony Power,29
-2016-10-17,16,2,St. Matthias D,Champion House  A,608140548,Dave Gillingham,90,114184042,Ian Smith,3
+2016-10-17,16,2,St. Matthias D,Champion House  A,608140548,David Gillingham,90,114184042,Ian Smith,3
 2016-10-17,16,3,Castle Club J,Hove D.S. Anglers  B,1251038,Ben Clift,46,319057545,Brendan Lambe,39
 2016-10-17,16,3,Castle Club J,Hove D.S. Anglers  B,867613624,Ian Dunhill,52,613893140,Matt Warner,48
 2016-10-17,16,3,Castle Club J,Hove D.S. Anglers  B,32061370,Toby Prince-Iles,53,809984729,Neil Scutt,36
@@ -2363,7 +2363,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2016-10-24,16,2,St. Matthias D,Castle Club  D,124523642,Tom Hayes,48,110039677,Mick Miller,4
 2016-10-24,16,2,St. Matthias D,Castle Club  D,275738778,John Da Silva,64,736672590,Dean Perry,31
 2016-10-24,16,2,St. Matthias D,Castle Club  D,112887737,Pip Akehurst,56,704007508,Alan Muir,12
-2016-10-24,16,2,St. Matthias D,Castle Club  D,608140548,Dave Gillingham,57,204951513,Mike Holding,12
+2016-10-24,16,2,St. Matthias D,Castle Club  D,608140548,David Gillingham,57,204951513,Mike Holding,12
 2016-10-24,16,3,Hove D.S. Anglers  B,Champion House  C,114319292,Oliver Gorrod,35,28382047,Steve Harrington,53
 2016-10-24,16,3,Hove D.S. Anglers  B,Champion House  C,613893140,Matt Warner,70,501266206,David Fox,71
 2016-10-24,16,3,Hove D.S. Anglers  B,Champion House  C,901024459,Paul Charman,24,39289507,Mick Laughlin,58
@@ -2435,7 +2435,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2016-10-31,16,2,St. Matthias D,Hove D.S. Anglers  A,703030938,Ollie Thurmer,27,41098823,Mikey Booker,61
 2016-10-31,16,2,St. Matthias D,Hove D.S. Anglers  A,112887737,Pip Akehurst,70,574248035,Tony Mulhern,42
 2016-10-31,16,2,St. Matthias D,Hove D.S. Anglers  A,873916947,Geoff Akehurst,26,225850882,John McLellan,70
-2016-10-31,16,2,St. Matthias D,Hove D.S. Anglers  A,608140548,Dave Gillingham,81,721321839,Matt Peake,16
+2016-10-31,16,2,St. Matthias D,Hove D.S. Anglers  A,608140548,David Gillingham,81,721321839,Matt Peake,16
 2016-10-31,16,3,Champion House  B,Castle Club G,567316488,Lee Millyard,6,773216781,Sean Payne,55
 2016-10-31,16,3,Champion House  B,Castle Club G,809647573,John Taylor,54,83590771,Nick Brayne,50
 2016-10-31,16,3,Champion House  B,Castle Club G,737709582,Tony Browne,59,654650203,Alan O'Sullivan,37
@@ -2498,7 +2498,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2016-11-07,16,2,Annunciation B,St. Matthias D,655917217,Terry Mills,40,112887737,Pip Akehurst,51
 2016-11-07,16,2,Annunciation B,St. Matthias D,490170224,Jamie Matthews,79,873916947,Geoff Akehurst,35
 2016-11-07,16,2,Annunciation B,St. Matthias D,463709832,Danny Wong,67,124523642,Tom Hayes,34
-2016-11-07,16,2,Annunciation B,St. Matthias D,717256135,Trevor Pickard,17,608140548,Dave Gillingham,60
+2016-11-07,16,2,Annunciation B,St. Matthias D,717256135,Trevor Pickard,17,608140548,David Gillingham,60
 2016-11-07,16,2,Castle Club K,Goldstone Ex Serv. A,554804357,Curtis Lambert,55,954080507,Sam Corsby,19
 2016-11-07,16,2,Castle Club K,Goldstone Ex Serv. A,231975313,Danny English,61,16253983,Tony Simmonds,4
 2016-11-07,16,2,Castle Club K,Goldstone Ex Serv. A,889684922,Zixun Wang,51,436708540,Bob Henley,35
@@ -2590,7 +2590,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2016-11-14,16,2,St. Matthias D,Castle Club K,112887737,Pip Akehurst,34,837429850,Paul Beecham,46
 2016-11-14,16,2,St. Matthias D,Castle Club K,873916947,Geoff Akehurst,22,649307517,Wes Kingham,63
 2016-11-14,16,2,St. Matthias D,Castle Club K,124523642,Tom Hayes,43,554804357,Curtis Lambert,33
-2016-11-14,16,2,St. Matthias D,Castle Club K,608140548,Dave Gillingham,59,231975313,Danny English,19
+2016-11-14,16,2,St. Matthias D,Castle Club K,608140548,David Gillingham,59,231975313,Danny English,19
 2016-11-14,16,3,Castle Club J,Castle Club G,867613624,Ian Dunhill,24,773216781,Sean Payne,61
 2016-11-14,16,3,Castle Club J,Castle Club G,982531289,Rory Griffiths,44,219885164,Joe Cartwright,43
 2016-11-14,16,3,Castle Club J,Castle Club G,32061370,Toby Prince-Iles,61,83590771,Nick Brayne,47
@@ -2648,7 +2648,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2016-11-21,16,2,Annunciation B,Hove D.S. Anglers  A,717256135,Trevor Pickard,62,225850882,John McLellan,18
 2016-11-21,16,2,Annunciation B,Hove D.S. Anglers  A,490170224,Jamie Matthews,26,574248035,Tony Mulhern,60
 2016-11-21,16,2,Annunciation B,Hove D.S. Anglers  A,655917217,Terry Mills,35,721321839,Matt Peake,48
-2016-11-21,16,2,Castle Club F,St. Matthias D,537640521,Ian Stoner,8,608140548,Dave Gillingham,73
+2016-11-21,16,2,Castle Club F,St. Matthias D,537640521,Ian Stoner,8,608140548,David Gillingham,73
 2016-11-21,16,2,Castle Club F,St. Matthias D,669385277,Steve Towler,56,703030938,Ollie Thurmer,10
 2016-11-21,16,2,Castle Club F,St. Matthias D,899206834,Jez Downs,13,112887737,Pip Akehurst,49
 2016-11-21,16,2,Castle Club F,St. Matthias D,732415457,Barry Hall,70,873916947,Geoff Akehurst,28
@@ -2734,7 +2734,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2016-11-28,16,2,Hove D.S. Anglers  A,Castle Club K,721321839,Matt Peake,43,231975313,Danny English,66
 2016-11-28,16,2,Hove D.S. Anglers  A,Castle Club K,574248035,Tony Mulhern,25,649307517,Wes Kingham,73
 2016-11-28,16,2,Hove D.S. Anglers  A,Castle Club K,225850882,John McLellan,66,991823299,Miggy Louro,20
-2016-11-28,16,2,St. Matthias D,Goldstone Ex Serv. A,608140548,Dave Gillingham,79,16253983,Tony Simmonds,44
+2016-11-28,16,2,St. Matthias D,Goldstone Ex Serv. A,608140548,David Gillingham,79,16253983,Tony Simmonds,44
 2016-11-28,16,2,St. Matthias D,Goldstone Ex Serv. A,703030938,Ollie Thurmer,19,954080507,Sam Corsby,64
 2016-11-28,16,2,St. Matthias D,Goldstone Ex Serv. A,873916947,Geoff Akehurst,74,436708540,Bob Henley,44
 2016-11-28,16,2,St. Matthias D,Goldstone Ex Serv. A,124523642,Tom Hayes,61,412256116,Andy Sutton,55
@@ -2811,7 +2811,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2016-12-12,16,2,Champion House  A,St. Matthias D,800114325,Roger Whiteley,37,670034050,John Muzio,41
 2016-12-12,16,2,Champion House  A,St. Matthias D,114184042,Ian Smith,38,703030938,Ollie Thurmer,58
 2016-12-12,16,2,Champion House  A,St. Matthias D,949603489,Pete Bennett,12,112887737,Pip Akehurst,52
-2016-12-12,16,2,Champion House  A,St. Matthias D,719124015,Tony Power,46,608140548,Dave Gillingham,42
+2016-12-12,16,2,Champion House  A,St. Matthias D,719124015,Tony Power,46,608140548,David Gillingham,42
 2016-12-12,16,2,Champion House  A,St. Matthias D,836895047,Ian McKay,66,873916947,Geoff Akehurst,18
 2016-12-12,16,2,Goldstone Ex Serv. A,Castle Club  D,848997254,Tom Parker,63,484159049,Tommy Wright,24
 2016-12-12,16,2,Goldstone Ex Serv. A,Castle Club  D,954080507,Sam Corsby,23,736672590,Dean Perry,47
@@ -2879,7 +2879,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2016-12-19,16,2,Castle Club  D,St. Matthias D,713064363,John Trory,36,112887737,Pip Akehurst,54
 2016-12-19,16,2,Castle Club  D,St. Matthias D,736672590,Dean Perry,46,873916947,Geoff Akehurst,39
 2016-12-19,16,2,Castle Club  D,St. Matthias D,704007508,Alan Muir,59,124523642,Tom Hayes,34
-2016-12-19,16,2,Castle Club  D,St. Matthias D,204951513,Mike Holding,21,608140548,Dave Gillingham,54
+2016-12-19,16,2,Castle Club  D,St. Matthias D,204951513,Mike Holding,21,608140548,David Gillingham,54
 2016-12-19,16,2,Castle Club K,Champion House  A,889684922,Zixun Wang,61,800114325,Roger Whiteley,34
 2016-12-19,16,2,Castle Club K,Champion House  A,837429850,Paul Beecham,28,949603489,Pete Bennett,56
 2016-12-19,16,2,Castle Club K,Champion House  A,649307517,Wes Kingham,24,836895047,Ian McKay,62
@@ -2969,7 +2969,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2017-01-09,16,2,Hove D.S. Anglers  A,St. Matthias D,41098823,Mikey Booker,53,670034050,John Muzio,26
 2017-01-09,16,2,Hove D.S. Anglers  A,St. Matthias D,721321839,Matt Peake,29,112887737,Pip Akehurst,63
 2017-01-09,16,2,Hove D.S. Anglers  A,St. Matthias D,574248035,Tony Mulhern,36,124523642,Tom Hayes,55
-2017-01-09,16,2,Hove D.S. Anglers  A,St. Matthias D,225850882,John McLellan,40,608140548,Dave Gillingham,44
+2017-01-09,16,2,Hove D.S. Anglers  A,St. Matthias D,225850882,John McLellan,40,608140548,David Gillingham,44
 2017-01-09,16,3,Castle Club G,Champion House  B,773216781,Sean Payne,60,567316488,Lee Millyard,53
 2017-01-09,16,3,Castle Club G,Champion House  B,120138229,Adam Butler,73,737709582,Tony Browne,24
 2017-01-09,16,3,Castle Club G,Champion House  B,654650203,Alan O'Sullivan,61,266591683,Chris Roche,82
@@ -3048,7 +3048,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2017-01-16,16,2,St. Matthias D,Annunciation B,112887737,Pip Akehurst,57,326342962,Geoff Randall,6
 2017-01-16,16,2,St. Matthias D,Annunciation B,873916947,Geoff Akehurst,40,490170224,Jamie Matthews,73
 2017-01-16,16,2,St. Matthias D,Annunciation B,124523642,Tom Hayes,51,463709832,Danny Wong,24
-2017-01-16,16,2,St. Matthias D,Annunciation B,608140548,Dave Gillingham,69,717256135,Trevor Pickard,29
+2017-01-16,16,2,St. Matthias D,Annunciation B,608140548,David Gillingham,69,717256135,Trevor Pickard,29
 2017-01-16,16,3,Champion House  B,Castle Club J,3508579,John Murray,44,287057630,Darren Hearn,28
 2017-01-16,16,3,Champion House  B,Castle Club J,809647573,John Taylor,35,867613624,Ian Dunhill,62
 2017-01-16,16,3,Champion House  B,Castle Club J,266591683,Chris Roche,51,1251038,Ben Clift,4
@@ -3106,7 +3106,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2017-01-23,16,2,Castle Club K,St. Matthias D,837429850,Paul Beecham,19,124523642,Tom Hayes,55
 2017-01-23,16,2,Castle Club K,St. Matthias D,889684922,Zixun Wang,38,112887737,Pip Akehurst,72
 2017-01-23,16,2,Castle Club K,St. Matthias D,649307517,Wes Kingham,52,873916947,Geoff Akehurst,18
-2017-01-23,16,2,Castle Club K,St. Matthias D,673242409,Alan Colvin,18,608140548,Dave Gillingham,60
+2017-01-23,16,2,Castle Club K,St. Matthias D,673242409,Alan Colvin,18,608140548,David Gillingham,60
 2017-01-23,16,2,Champion House  A,Hove D.S. Anglers  A,800114325,Roger Whiteley,55,41098823,Mikey Booker,7
 2017-01-23,16,2,Champion House  A,Hove D.S. Anglers  A,719124015,Tony Power,57,974385564,Danny Booker,46
 2017-01-23,16,2,Champion House  A,Hove D.S. Anglers  A,949603489,Pete Bennett,47,574248035,Tony Mulhern,39
@@ -3178,7 +3178,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2017-01-30,16,2,Hove D.S. Anglers  A,Annunciation B,721321839,Matt Peake,36,147556923,Hong Ming Lee,54
 2017-01-30,16,2,Hove D.S. Anglers  A,Annunciation B,574248035,Tony Mulhern,34,490170224,Jamie Matthews,66
 2017-01-30,16,2,Hove D.S. Anglers  A,Annunciation B,225850882,John McLellan,27,326342962,Geoff Randall,41
-2017-01-30,16,2,St. Matthias D,Castle Club F,608140548,Dave Gillingham,67,669385277,Steve Towler,27
+2017-01-30,16,2,St. Matthias D,Castle Club F,608140548,David Gillingham,67,669385277,Steve Towler,27
 2017-01-30,16,2,St. Matthias D,Castle Club F,670034050,John Muzio,30,963206772,Dean Moore,61
 2017-01-30,16,2,St. Matthias D,Castle Club F,112887737,Pip Akehurst,51,899206834,Jez Downs,43
 2017-01-30,16,2,St. Matthias D,Castle Club F,124523642,Tom Hayes,43,732415457,Barry Hall,56
@@ -3256,7 +3256,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2017-02-06,16,2,Goldstone Ex Serv. A,St. Matthias D,16253983,Tony Simmonds,75,124523642,Tom Hayes,18
 2017-02-06,16,2,Goldstone Ex Serv. A,St. Matthias D,436708540,Bob Henley,51,670034050,John Muzio,41
 2017-02-06,16,2,Goldstone Ex Serv. A,St. Matthias D,954080507,Sam Corsby,9,112887737,Pip Akehurst,61
-2017-02-06,16,2,Goldstone Ex Serv. A,St. Matthias D,412256116,Andy Sutton,17,608140548,Dave Gillingham,62
+2017-02-06,16,2,Goldstone Ex Serv. A,St. Matthias D,412256116,Andy Sutton,17,608140548,David Gillingham,62
 2017-02-06,16,2,Goldstone Ex Serv. A,St. Matthias D,848997254,Tom Parker,62,873916947,Geoff Akehurst,18
 2017-02-06,16,3,Castle Club G,Champion House  C,120138229,Adam Butler,69,28382047,Steve Harrington,15
 2017-02-06,16,3,Castle Club G,Champion House  C,524571340,Mohammed Alhdi,76,501266206,David Fox,22
@@ -3472,7 +3472,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2017-02-27,16,2,Goldstone Ex Serv. A,Annunciation B,436708540,Bob Henley,38,490170224,Jamie Matthews,54
 2017-02-27,16,2,Goldstone Ex Serv. A,Annunciation B,848997254,Tom Parker,59,463709832,Danny Wong,21
 2017-02-27,16,2,Goldstone Ex Serv. A,Annunciation B,412256116,Andy Sutton,36,717256135,Trevor Pickard,46
-2017-02-27,16,2,St. Matthias D,Hove D.S. Anglers  A,608140548,Dave Gillingham,51,41098823,Mikey Booker,43
+2017-02-27,16,2,St. Matthias D,Hove D.S. Anglers  A,608140548,David Gillingham,51,41098823,Mikey Booker,43
 2017-02-27,16,2,St. Matthias D,Hove D.S. Anglers  A,873916947,Geoff Akehurst,15,974385564,Danny Booker,51
 2017-02-27,16,2,St. Matthias D,Hove D.S. Anglers  A,670034050,John Muzio,62,721321839,Matt Peake,23
 2017-02-27,16,2,St. Matthias D,Hove D.S. Anglers  A,112887737,Pip Akehurst,41,574248035,Tony Mulhern,25
@@ -3528,7 +3528,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2017-03-06,16,1,N.A.R.C A,St. Matthias A,646410961,Paul Scorer,64,748064029,Paul Hughes,60
 2017-03-06,16,1,N.A.R.C A,St. Matthias A,428102632,Anthony Flynn,55,802242736,Steve Hughes,15
 2017-03-06,16,1,N.A.R.C A,St. Matthias A,646410961,Paul Scorer,75,748064029,Paul Hughes,15
-2017-03-06,16,2,Annunciation B,St. Matthias D,326342962,Geoff Randall,68,608140548,Dave Gillingham,33
+2017-03-06,16,2,Annunciation B,St. Matthias D,326342962,Geoff Randall,68,608140548,David Gillingham,33
 2017-03-06,16,2,Annunciation B,St. Matthias D,147556923,Hong Ming Lee,72,112887737,Pip Akehurst,33
 2017-03-06,16,2,Annunciation B,St. Matthias D,463709832,Danny Wong,66,670034050,John Muzio,40
 2017-03-06,16,2,Annunciation B,St. Matthias D,717256135,Trevor Pickard,52,873916947,Geoff Akehurst,29
@@ -3624,7 +3624,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2017-03-13,16,2,Hove D.S. Anglers  A,Champion House  A,574248035,Tony Mulhern,70,114184042,Ian Smith,9
 2017-03-13,16,2,St. Matthias D,Castle Club K,670034050,John Muzio,14,649307517,Wes Kingham,60
 2017-03-13,16,2,St. Matthias D,Castle Club K,112887737,Pip Akehurst,48,837429850,Paul Beecham,37
-2017-03-13,16,2,St. Matthias D,Castle Club K,608140548,Dave Gillingham,67,889684922,Zixun Wang,39
+2017-03-13,16,2,St. Matthias D,Castle Club K,608140548,David Gillingham,67,889684922,Zixun Wang,39
 2017-03-13,16,2,St. Matthias D,Castle Club K,873916947,Geoff Akehurst,22,673242409,Alan Colvin,59
 2017-03-13,16,2,St. Matthias D,Castle Club K,124523642,Tom Hayes,61,650794494,Chris Kingham,25
 2017-03-13,16,3,Castle Club J,Castle Club G,1251038,Ben Clift,23,306438070,Martin Stocker,57
@@ -3693,7 +3693,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2017-03-20,16,2,Annunciation B,Hove D.S. Anglers  A,717256135,Trevor Pickard,34,721321839,Matt Peake,46
 2017-03-20,16,2,Annunciation B,Hove D.S. Anglers  A,463709832,Danny Wong,62,574248035,Tony Mulhern,48
 2017-03-20,16,2,Castle Club F,St. Matthias D,963206772,Dean Moore,48,670034050,John Muzio,31
-2017-03-20,16,2,Castle Club F,St. Matthias D,899206834,Jez Downs,8,608140548,Dave Gillingham,68
+2017-03-20,16,2,Castle Club F,St. Matthias D,899206834,Jez Downs,8,608140548,David Gillingham,68
 2017-03-20,16,2,Castle Club F,St. Matthias D,225247539,Barry Knight,2,112887737,Pip Akehurst,60
 2017-03-20,16,2,Castle Club F,St. Matthias D,732415457,Barry Hall,50,873916947,Geoff Akehurst,15
 2017-03-20,16,2,Castle Club F,St. Matthias D,537640521,Ian Stoner,12,124523642,Tom Hayes,66
@@ -3778,7 +3778,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2017-03-27,16,2,St. Matthias D,Goldstone Ex Serv. A,670034050,John Muzio,36,16253983,Tony Simmonds,59
 2017-03-27,16,2,St. Matthias D,Goldstone Ex Serv. A,112887737,Pip Akehurst,68,954080507,Sam Corsby,45
 2017-03-27,16,2,St. Matthias D,Goldstone Ex Serv. A,873916947,Geoff Akehurst,54,436708540,Bob Henley,29
-2017-03-27,16,2,St. Matthias D,Goldstone Ex Serv. A,608140548,Dave Gillingham,54,848997254,Tom Parker,67
+2017-03-27,16,2,St. Matthias D,Goldstone Ex Serv. A,608140548,David Gillingham,54,848997254,Tom Parker,67
 2017-03-27,16,2,St. Matthias D,Goldstone Ex Serv. A,124523642,Tom Hayes,17,412256116,Andy Sutton,56
 2017-03-27,16,3,Castle Club J,St. Matthias E,867613624,Ian Dunhill,58,174147986,Lee Cliff,30
 2017-03-27,16,3,Castle Club J,St. Matthias E,32061370,Toby Prince-Iles,46,889234854,Paul Smith,13
@@ -3845,7 +3845,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2017-04-03,16,2,Castle Club K,Annunciation B,81430997,Ricky Voiello,30,463709832,Danny Wong,56
 2017-04-03,16,2,Champion House  A,St. Matthias D,114184042,Ian Smith,23,124523642,Tom Hayes,46
 2017-04-03,16,2,Champion House  A,St. Matthias D,800114325,Roger Whiteley,59,112887737,Pip Akehurst,25
-2017-04-03,16,2,Champion House  A,St. Matthias D,949603489,Pete Bennett,33,608140548,Dave Gillingham,59
+2017-04-03,16,2,Champion House  A,St. Matthias D,949603489,Pete Bennett,33,608140548,David Gillingham,59
 2017-04-03,16,2,Champion House  A,St. Matthias D,719124015,Tony Power,65,873916947,Geoff Akehurst,20
 2017-04-03,16,2,Champion House  A,St. Matthias D,836895047,Ian McKay,22,670034050,John Muzio,59
 2017-04-03,16,2,Goldstone Ex Serv. A,Castle Club  D,16253983,Tony Simmonds,51,822983250,Alasdair Pratt,36
@@ -3895,7 +3895,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2017-04-10,16,2,Castle Club  D,St. Matthias D,822983250,Alasdair Pratt,66,124523642,Tom Hayes,27
 2017-04-10,16,2,Castle Club  D,St. Matthias D,484159049,Tommy Wright,73,112887737,Pip Akehurst,23
 2017-04-10,16,2,Castle Club  D,St. Matthias D,736672590,Dean Perry,51,873916947,Geoff Akehurst,10
-2017-04-10,16,2,Castle Club  D,St. Matthias D,704007508,Alan Muir,29,608140548,Dave Gillingham,61
+2017-04-10,16,2,Castle Club  D,St. Matthias D,704007508,Alan Muir,29,608140548,David Gillingham,61
 2017-04-10,16,2,Castle Club K,Champion House  A,650794494,Chris Kingham,66,800114325,Roger Whiteley,70
 2017-04-10,16,2,Castle Club K,Champion House  A,837429850,Paul Beecham,64,114184042,Ian Smith,22
 2017-04-10,16,2,Castle Club K,Champion House  A,889684922,Zixun Wang,80,949603489,Pete Bennett,48
@@ -3950,7 +3950,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2017-09-11,17,2,Hove D.S. Anglers  A,St. Matthias D,41098823,Mikey Booker,55,124523642,Tom Hayes,30
 2017-09-11,17,2,Hove D.S. Anglers  A,St. Matthias D,878576746,Jon Hall,59,873916947,Geoff Akehurst,53
 2017-09-11,17,2,Hove D.S. Anglers  A,St. Matthias D,225850882,John McLellan,26,112887737,Pip Akehurst,54
-2017-09-11,17,2,Hove D.S. Anglers  A,St. Matthias D,574248035,Tony Mulhern,33,608140548,Dave Gillingham,60
+2017-09-11,17,2,Hove D.S. Anglers  A,St. Matthias D,574248035,Tony Mulhern,33,608140548,David Gillingham,60
 2017-09-11,17,3,Castle Club F,Southwick Sports  A,732415457,Barry Hall,45,493830161,Luke Strevens,42
 2017-09-11,17,3,Castle Club F,Southwick Sports  A,899206834,Jez Downs,60,567316488,Lee Millyard,13
 2017-09-11,17,3,Castle Club F,Southwick Sports  A,963206772,Dean Moore,63,76011459,Kane Harman,33
@@ -3998,7 +3998,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2017-09-18,17,2,Castle Club G,Champion House  A,120138229,Adam Butler,79,949603489,Pete Bennett,33
 2017-09-18,17,2,Castle Club G,Champion House  A,83590771,Nick Brayne,65,836895047,Ian McKay,49
 2017-09-18,17,2,Castle Club G,Champion House  A,306438070,Martin Stocker,62,114184042,Ian Smith,23
-2017-09-18,17,2,St. Matthias D,Annunciation B,608140548,Dave Gillingham,66,463709832,Danny Wong,34
+2017-09-18,17,2,St. Matthias D,Annunciation B,608140548,David Gillingham,66,463709832,Danny Wong,34
 2017-09-18,17,2,St. Matthias D,Annunciation B,124523642,Tom Hayes,26,326342962,Geoff Randall,59
 2017-09-18,17,2,St. Matthias D,Annunciation B,157282960,Vern Asbury,0,649078882,Richard Barrett,59
 2017-09-18,17,2,St. Matthias D,Annunciation B,112887737,Pip Akehurst,63,734416600,DON PENALVER,22
@@ -4069,7 +4069,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2017-09-25,17,2,Champion House  A,Hove D.S. Anglers  A,114184042,Ian Smith,25,574248035,Tony Mulhern,61
 2017-09-25,17,2,Goldstone Ex Serv. A,St. Matthias D,16253983,Tony Simmonds,59,670034050,John Muzio,20
 2017-09-25,17,2,Goldstone Ex Serv. A,St. Matthias D,436708540,Bob Henley,26,124523642,Tom Hayes,37
-2017-09-25,17,2,Goldstone Ex Serv. A,St. Matthias D,954080507,Sam Corsby,36,608140548,Dave Gillingham,59
+2017-09-25,17,2,Goldstone Ex Serv. A,St. Matthias D,954080507,Sam Corsby,36,608140548,David Gillingham,59
 2017-09-25,17,2,Goldstone Ex Serv. A,St. Matthias D,412256116,Andy Sutton,31,112887737,Pip Akehurst,54
 2017-09-25,17,3,Castle Club F,Annunciation C,732415457,Barry Hall,14,867613624,Ian Dunhill,57
 2017-09-25,17,3,Castle Club F,Annunciation C,899206834,Jez Downs,36,951468676,Steve Burchett,27
@@ -4137,7 +4137,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2017-10-02,17,2,St. Matthias D,Castle Club G,157282960,Vern Asbury,63,233353638,Mark Burgess,24
 2017-10-02,17,2,St. Matthias D,Castle Club G,124523642,Tom Hayes,48,83590771,Nick Brayne,60
 2017-10-02,17,2,St. Matthias D,Castle Club G,112887737,Pip Akehurst,87,654650203,Alan O'Sullivan,52
-2017-10-02,17,2,St. Matthias D,Castle Club G,608140548,Dave Gillingham,74,773216781,Sean Payne,14
+2017-10-02,17,2,St. Matthias D,Castle Club G,608140548,David Gillingham,74,773216781,Sean Payne,14
 2017-10-02,17,3,Annunciation C,St. Matthias E,867613624,Ian Dunhill,42,174147986,Lee Cliff,55
 2017-10-02,17,3,Annunciation C,St. Matthias E,951468676,Steve Burchett,65,889234854,Paul Smith,17
 2017-10-02,17,3,Annunciation C,St. Matthias E,27255501,Tom Lane,42,839313888,Kevin Chrysanthou,21
@@ -4179,10 +4179,10 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2017-10-09,17,1,Castle Club  B,St. Matthias C,11133032,Simon Dent,88,809568302,Mark Johnson,27
 2017-10-09,17,1,Castle Club  B,St. Matthias C,515186402,Ben Evans,60,617751649,Lee Simpson,33
 2017-10-09,17,1,Castle Club  B,St. Matthias C,876526526,Ash Bull,43,752709358,Chris Mason,88
-2017-10-09,17,1,St. Matthias A,Castle Club  C,608140548,Dave Gillingham,77,948504778,Jon Fordham,50
+2017-10-09,17,1,St. Matthias A,Castle Club  C,608140548,David Gillingham,77,948504778,Jon Fordham,50
 2017-10-09,17,1,St. Matthias A,Castle Club  C,192463126,Gerry Lindsey,18,506581042,Glen Dartnell,52
 2017-10-09,17,1,St. Matthias A,Castle Club  C,5820499,Paul Bartlett,2,34787509,Dave McCarthy,54
-2017-10-09,17,1,St. Matthias A,Castle Club  C,608140548,Dave Gillingham,59,133207947,Jake Richardson,45
+2017-10-09,17,1,St. Matthias A,Castle Club  C,608140548,David Gillingham,59,133207947,Jake Richardson,45
 2017-10-09,17,1,St. Matthias A,Castle Club  C,748064029,Paul Hughes,52,26970170,Kai Michael,44
 2017-10-09,17,1,St. Matthias A,Castle Club  C,802242736,Steve Hughes,52,34787509,Dave McCarthy,36
 2017-10-09,17,1,St. Matthias B,Castle Club  A,662568995,Rob Wykes,15,523395206,Jamie Lashmar,74
@@ -4410,7 +4410,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2017-10-30,17,2,Castle Club G,Goldstone Ex Serv. A,83590771,Nick Brayne,18,954080507,Sam Corsby,46
 2017-10-30,17,2,St. Matthias D,Hove D.S. Anglers  A,157282960,Vern Asbury,51,974385564,Danny Booker,30
 2017-10-30,17,2,St. Matthias D,Hove D.S. Anglers  A,703030938,Ollie Thurmer,50,41098823,Mikey Booker,48
-2017-10-30,17,2,St. Matthias D,Hove D.S. Anglers  A,608140548,Dave Gillingham,94,213264678,Martin Hall,2
+2017-10-30,17,2,St. Matthias D,Hove D.S. Anglers  A,608140548,David Gillingham,94,213264678,Martin Hall,2
 2017-10-30,17,2,St. Matthias D,Hove D.S. Anglers  A,112887737,Pip Akehurst,60,574248035,Tony Mulhern,22
 2017-10-30,17,2,St. Matthias D,Hove D.S. Anglers  A,124523642,Tom Hayes,17,225850882,John McLellan,50
 2017-10-30,17,3,Annunciation C,Portslade Sports,951468676,Steve Burchett,54,688252012,Sean Cooper,11
@@ -4474,7 +4474,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2017-11-06,17,2,Annunciation B,St. Matthias D,490170224,Jamie Matthews,36,670034050,John Muzio,63
 2017-11-06,17,2,Annunciation B,St. Matthias D,680442672,Scott Lawson,67,873916947,Geoff Akehurst,13
 2017-11-06,17,2,Annunciation B,St. Matthias D,326342962,Geoff Randall,79,112887737,Pip Akehurst,12
-2017-11-06,17,2,Annunciation B,St. Matthias D,463709832,Danny Wong,47,608140548,Dave Gillingham,71
+2017-11-06,17,2,Annunciation B,St. Matthias D,463709832,Danny Wong,47,608140548,David Gillingham,71
 2017-11-06,17,2,Champion House  A,Castle Club G,800114325,Roger Whiteley,49,120138229,Adam Butler,42
 2017-11-06,17,2,Champion House  A,Castle Club G,114184042,Ian Smith,28,306438070,Martin Stocker,42
 2017-11-06,17,2,Champion House  A,Castle Club G,949603489,Pete Bennett,42,773216781,Sean Payne,37
@@ -4535,7 +4535,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2017-11-13,17,2,St. Matthias D,Goldstone Ex Serv. A,703030938,Ollie Thurmer,18,455401154,Kai Ellis,61
 2017-11-13,17,2,St. Matthias D,Goldstone Ex Serv. A,124523642,Tom Hayes,37,848997254,Tom Parker,69
 2017-11-13,17,2,St. Matthias D,Goldstone Ex Serv. A,112887737,Pip Akehurst,55,436708540,Bob Henley,31
-2017-11-13,17,2,St. Matthias D,Goldstone Ex Serv. A,608140548,Dave Gillingham,67,954080507,Sam Corsby,24
+2017-11-13,17,2,St. Matthias D,Goldstone Ex Serv. A,608140548,David Gillingham,67,954080507,Sam Corsby,24
 2017-11-13,17,3,Annunciation C,Castle Club F,287057630,Darren Hearn,51,899206834,Jez Downs,52
 2017-11-13,17,3,Annunciation C,Castle Club F,27255501,Tom Lane,22,732415457,Barry Hall,42
 2017-11-13,17,3,Annunciation C,Castle Club F,867613624,Ian Dunhill,48,35191252,Nigel Hayward,49
@@ -4583,7 +4583,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2017-11-20,17,2,Castle Club G,St. Matthias D,773216781,Sean Payne,72,670034050,John Muzio,37
 2017-11-20,17,2,Castle Club G,St. Matthias D,667627563,Aeran Jenkinson,68,873916947,Geoff Akehurst,34
 2017-11-20,17,2,Castle Club G,St. Matthias D,306438070,Martin Stocker,22,112887737,Pip Akehurst,88
-2017-11-20,17,2,Castle Club G,St. Matthias D,654650203,Alan O'Sullivan,46,608140548,Dave Gillingham,68
+2017-11-20,17,2,Castle Club G,St. Matthias D,654650203,Alan O'Sullivan,46,608140548,David Gillingham,68
 2017-11-20,17,2,Goldstone Ex Serv. A,Castle Club  D,16253983,Tony Simmonds,58,327948141,Ross Etheridge,27
 2017-11-20,17,2,Goldstone Ex Serv. A,Castle Club  D,848997254,Tom Parker,69,726498878,Grigory Yashkov,10
 2017-11-20,17,2,Goldstone Ex Serv. A,Castle Club  D,436708540,Bob Henley,20,822983250,Alasdair Pratt,60
@@ -4729,7 +4729,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2017-12-18,17,2,Annunciation B,Castle Club G,717256135,Trevor Pickard,45,654650203,Alan O'Sullivan,69
 2017-12-18,17,2,Annunciation B,Castle Club G,490170224,Jamie Matthews,13,667627563,Aeran Jenkinson,60
 2017-12-18,17,2,Castle Club  D,St. Matthias D,726498878,Grigory Yashkov,26,670034050,John Muzio,77
-2017-12-18,17,2,Castle Club  D,St. Matthias D,736672590,Dean Perry,21,608140548,Dave Gillingham,71
+2017-12-18,17,2,Castle Club  D,St. Matthias D,736672590,Dean Perry,21,608140548,David Gillingham,71
 2017-12-18,17,2,Castle Club  D,St. Matthias D,704007508,Alan Muir,43,124523642,Tom Hayes,61
 2017-12-18,17,2,Castle Club  D,St. Matthias D,484159049,Tommy Wright,25,112887737,Pip Akehurst,41
 2017-12-18,17,2,Goldstone Ex Serv. A,Champion House  A,848997254,Tom Parker,54,800114325,Roger Whiteley,32
@@ -4859,7 +4859,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2018-01-15,17,2,St. Matthias D,Annunciation B,157282960,Vern Asbury,56,463709832,Danny Wong,21
 2018-01-15,17,2,St. Matthias D,Annunciation B,670034050,John Muzio,44,717256135,Trevor Pickard,72
 2018-01-15,17,2,St. Matthias D,Annunciation B,112887737,Pip Akehurst,65,490170224,Jamie Matthews,60
-2018-01-15,17,2,St. Matthias D,Annunciation B,608140548,Dave Gillingham,63,326342962,Geoff Randall,5
+2018-01-15,17,2,St. Matthias D,Annunciation B,608140548,David Gillingham,63,326342962,Geoff Randall,5
 2018-01-15,17,3,Annunciation C,Moulsecoomb Club A,867613624,Ian Dunhill,47,349269645,Barry Thornton,40
 2018-01-15,17,3,Annunciation C,Moulsecoomb Club A,287057630,Darren Hearn,11,535728699,Fred Cooper,51
 2018-01-15,17,3,Annunciation C,Moulsecoomb Club A,27255501,Tom Lane,56,394906196,Mick Mabbitt,41
@@ -4911,7 +4911,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2018-01-22,17,2,Goldstone Ex Serv. A,St. Matthias D,848997254,Tom Parker,57,157282960,Vern Asbury,27
 2018-01-22,17,2,Goldstone Ex Serv. A,St. Matthias D,954080507,Sam Corsby,69,112887737,Pip Akehurst,17
 2018-01-22,17,2,Goldstone Ex Serv. A,St. Matthias D,436708540,Bob Henley,62,873916947,Geoff Akehurst,35
-2018-01-22,17,2,Goldstone Ex Serv. A,St. Matthias D,412256116,Andy Sutton,33,608140548,Dave Gillingham,61
+2018-01-22,17,2,Goldstone Ex Serv. A,St. Matthias D,412256116,Andy Sutton,33,608140548,David Gillingham,61
 2018-01-22,17,3,Castle Club F,Annunciation C,899206834,Jez Downs,55,844676925,Kieran Williams,68
 2018-01-22,17,3,Castle Club F,Annunciation C,963206772,Dean Moore,60,287057630,Darren Hearn,18
 2018-01-22,17,3,Castle Club F,Annunciation C,225247539,Barry Knight,51,867613624,Ian Dunhill,48
@@ -4963,7 +4963,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2018-01-29,17,2,Hove D.S. Anglers  A,Annunciation B,901024459,Paul Charman,26,734416600,DON PENALVER,49
 2018-01-29,17,2,St. Matthias D,Castle Club G,124523642,Tom Hayes,37,120138229,Adam Butler,75
 2018-01-29,17,2,St. Matthias D,Castle Club G,670034050,John Muzio,50,83590771,Nick Brayne,38
-2018-01-29,17,2,St. Matthias D,Castle Club G,608140548,Dave Gillingham,81,654650203,Alan O'Sullivan,1
+2018-01-29,17,2,St. Matthias D,Castle Club G,608140548,David Gillingham,81,654650203,Alan O'Sullivan,1
 2018-01-29,17,2,St. Matthias D,Castle Club G,112887737,Pip Akehurst,28,667627563,Aeran Jenkinson,55
 2018-01-29,17,2,St. Matthias D,Castle Club G,157282960,Vern Asbury,32,773216781,Sean Payne,63
 2018-01-29,17,3,Annunciation C,St. Matthias E,287057630,Darren Hearn,46,839313888,Kevin Chrysanthou,16
@@ -5062,7 +5062,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2018-02-12,17,2,Hove D.S. Anglers  A,Castle Club G,878576746,Jon Hall,32,120138229,Adam Butler,60
 2018-02-12,17,2,Hove D.S. Anglers  A,Castle Club G,574248035,Tony Mulhern,31,83590771,Nick Brayne,44
 2018-02-12,17,2,Hove D.S. Anglers  A,Castle Club G,225850882,John McLellan,54,306438070,Martin Stocker,32
-2018-02-12,17,2,St. Matthias D,Champion House  A,608140548,Dave Gillingham,79,800114325,Roger Whiteley,39
+2018-02-12,17,2,St. Matthias D,Champion House  A,608140548,David Gillingham,79,800114325,Roger Whiteley,39
 2018-02-12,17,2,St. Matthias D,Champion House  A,124523642,Tom Hayes,54,114184042,Ian Smith,29
 2018-02-12,17,2,St. Matthias D,Champion House  A,341869673,Nigel Stilwell,59,949603489,Pete Bennett,61
 2018-02-12,17,2,St. Matthias D,Champion House  A,112887737,Pip Akehurst,57,719124015,Tony Power,8
@@ -5169,7 +5169,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2018-02-26,17,2,Castle Club G,Goldstone Ex Serv. A,120138229,Adam Butler,66,848997254,Tom Parker,42
 2018-02-26,17,2,Castle Club G,Goldstone Ex Serv. A,773216781,Sean Payne,59,954080507,Sam Corsby,18
 2018-02-26,17,2,Castle Club G,Goldstone Ex Serv. A,654650203,Alan O'Sullivan,74,412256116,Andy Sutton,45
-2018-02-26,17,2,St. Matthias D,Hove D.S. Anglers  A,608140548,Dave Gillingham,60,41098823,Mikey Booker,36
+2018-02-26,17,2,St. Matthias D,Hove D.S. Anglers  A,608140548,David Gillingham,60,41098823,Mikey Booker,36
 2018-02-26,17,2,St. Matthias D,Hove D.S. Anglers  A,341869673,Nigel Stilwell,68,974385564,Danny Booker,25
 2018-02-26,17,2,St. Matthias D,Hove D.S. Anglers  A,124523642,Tom Hayes,23,721321839,Matt Peake,48
 2018-02-26,17,2,St. Matthias D,Hove D.S. Anglers  A,112887737,Pip Akehurst,59,574248035,Tony Mulhern,29
@@ -5269,7 +5269,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2018-03-12,17,2,St. Matthias D,Goldstone Ex Serv. A,112887737,Pip Akehurst,44,16253983,Tony Simmonds,62
 2018-03-12,17,2,St. Matthias D,Goldstone Ex Serv. A,670034050,John Muzio,41,436708540,Bob Henley,53
 2018-03-12,17,2,St. Matthias D,Goldstone Ex Serv. A,873916947,Geoff Akehurst,10,954080507,Sam Corsby,69
-2018-03-12,17,2,St. Matthias D,Goldstone Ex Serv. A,608140548,Dave Gillingham,83,412256116,Andy Sutton,8
+2018-03-12,17,2,St. Matthias D,Goldstone Ex Serv. A,608140548,David Gillingham,83,412256116,Andy Sutton,8
 2018-03-12,17,3,Annunciation C,Castle Club F,867613624,Ian Dunhill,38,732415457,Barry Hall,61
 2018-03-12,17,3,Annunciation C,Castle Club F,32061370,Toby Prince-Iles,1,669385277,Steve Towler,56
 2018-03-12,17,3,Annunciation C,Castle Club F,287057630,Darren Hearn,47,537640521,Ian Stoner,34
@@ -5315,7 +5315,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2018-03-19,17,2,Castle Club G,St. Matthias D,773216781,Sean Payne,52,112887737,Pip Akehurst,39
 2018-03-19,17,2,Castle Club G,St. Matthias D,667627563,Aeran Jenkinson,43,670034050,John Muzio,54
 2018-03-19,17,2,Castle Club G,St. Matthias D,120138229,Adam Butler,47,124523642,Tom Hayes,48
-2018-03-19,17,2,Castle Club G,St. Matthias D,83590771,Nick Brayne,22,608140548,Dave Gillingham,64
+2018-03-19,17,2,Castle Club G,St. Matthias D,83590771,Nick Brayne,22,608140548,David Gillingham,64
 2018-03-19,17,2,Castle Club G,St. Matthias D,306438070,Martin Stocker,37,873916947,Geoff Akehurst,61
 2018-03-19,17,2,Goldstone Ex Serv. A,Castle Club  D,848997254,Tom Parker,61,822983250,Alasdair Pratt,41
 2018-03-19,17,2,Goldstone Ex Serv. A,Castle Club  D,16253983,Tony Simmonds,34,327948141,Ross Etheridge,45
@@ -5464,7 +5464,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2018-04-09,17,4,Preston Club,Goldstone Ex Serv. B,740135236,Craig Marchant,34,70159035,Peter Rea,61
 2018-04-09,17,4,Preston Club,Goldstone Ex Serv. B,670870044,David Flanagan,61,745152759,Kevin Jewell,30
 2018-04-09,17,4,Preston Club,Goldstone Ex Serv. B,231445676,Tony Paice,32,573567936,Steve Marriott,36
-2018-04-16,17,2,Castle Club  D,St. Matthias D,726498878,Grigory Yashkov,21,608140548,Dave Gillingham,62
+2018-04-16,17,2,Castle Club  D,St. Matthias D,726498878,Grigory Yashkov,21,608140548,David Gillingham,62
 2018-04-16,17,2,Castle Club  D,St. Matthias D,484159049,Tommy Wright,59,670034050,John Muzio,33
 2018-04-16,17,2,Castle Club  D,St. Matthias D,327948141,Ross Etheridge,34,112887737,Pip Akehurst,73
 2018-04-16,17,2,Castle Club  D,St. Matthias D,704007508,Alan Muir,17,124523642,Tom Hayes,43
@@ -5544,7 +5544,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2018-09-10,18,2,Champion House  A,Portslade Sports A,114184042,Ian Smith,9,360777082,Mark Bishop,46
 2018-09-10,18,2,Hove D.S. Anglers  A,St. Matthias D,41098823,Mikey Booker,56,670034050,John Muzio,26
 2018-09-10,18,2,Hove D.S. Anglers  A,St. Matthias D,974385564,Danny Booker,68,124523642,Tom Hayes,35
-2018-09-10,18,2,Hove D.S. Anglers  A,St. Matthias D,721321839,Matt Peake,1,608140548,Dave Gillingham,72
+2018-09-10,18,2,Hove D.S. Anglers  A,St. Matthias D,721321839,Matt Peake,1,608140548,David Gillingham,72
 2018-09-10,18,2,Hove D.S. Anglers  A,St. Matthias D,225850882,John McLellan,67,873916947,Geoff Akehurst,28
 2018-09-10,18,2,Hove D.S. Anglers  A,St. Matthias D,225850882,John McLellan,36,112887737,Pip Akehurst,87
 2018-09-10,18,2,St. Matthias E,Castle Club G,866506631,Mark Smith,14,597923939,David Lovegrove,71
@@ -5683,7 +5683,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2018-09-24,18,2,Champion House  A,Hove D.S. Anglers  A,836895047,Ian McKay,51,574248035,Tony Mulhern,29
 2018-09-24,18,2,St. Matthias E,St. Matthias D,174147986,Lee Cliff,13,124523642,Tom Hayes,55
 2018-09-24,18,2,St. Matthias E,St. Matthias D,970786910,Kevin Sorrell,3,258340682,John Derret,37
-2018-09-24,18,2,St. Matthias E,St. Matthias D,788605510,Mark Rose,5,608140548,Dave Gillingham,72
+2018-09-24,18,2,St. Matthias E,St. Matthias D,788605510,Mark Rose,5,608140548,David Gillingham,72
 2018-09-24,18,2,St. Matthias E,St. Matthias D,866506631,Mark Smith,53,112887737,Pip Akehurst,58
 2018-09-24,18,2,St. Matthias E,St. Matthias D,598846718,Ben Sorrell,40,613889718,Terry Bashford,53
 2018-09-24,18,3,Castle Club F,Southwick Sports  A,899206834,Jez Downs,51,805165161,Steve Owen,67
@@ -5754,7 +5754,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2018-10-01,18,2,Portslade Sports A,St. Matthias E,360777082,Mark Bishop,31,788605510,Mark Rose,63
 2018-10-01,18,2,Portslade Sports A,St. Matthias E,430890681,Malcolm Cooper,45,259288142,Dale Edmonds,32
 2018-10-01,18,2,St. Matthias D,Castle Club G,258340682,John Derret,22,120138229,Adam Butler,66
-2018-10-01,18,2,St. Matthias D,Castle Club G,608140548,Dave Gillingham,18,597923939,David Lovegrove,60
+2018-10-01,18,2,St. Matthias D,Castle Club G,608140548,David Gillingham,18,597923939,David Lovegrove,60
 2018-10-01,18,2,St. Matthias D,Castle Club G,670034050,John Muzio,32,773216781,Sean Payne,54
 2018-10-01,18,2,St. Matthias D,Castle Club G,124523642,Tom Hayes,10,654650203,Alan O'Sullivan,70
 2018-10-01,18,2,St. Matthias D,Castle Club G,112887737,Pip Akehurst,48,83590771,Nick Brayne,25
@@ -5904,7 +5904,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2018-10-22,18,2,Champion House  A,St. Matthias E,949603489,Pete Bennett,56,889234854,Paul Smith,46
 2018-10-22,18,2,Champion House  A,St. Matthias E,719124015,Tony Power,33,970786910,Kevin Sorrell,42
 2018-10-22,18,2,Champion House  A,St. Matthias E,114184042,Ian Smith,53,598846718,Ben Sorrell,66
-2018-10-22,18,2,St. Matthias D,Portslade Sports A,608140548,Dave Gillingham,50,835713833,Olly Stewart,36
+2018-10-22,18,2,St. Matthias D,Portslade Sports A,608140548,David Gillingham,50,835713833,Olly Stewart,36
 2018-10-22,18,2,St. Matthias D,Portslade Sports A,703030938,Ollie Thurmer,66,360777082,Mark Bishop,36
 2018-10-22,18,2,St. Matthias D,Portslade Sports A,873916947,Geoff Akehurst,23,688252012,Sean Cooper,74
 2018-10-22,18,2,St. Matthias D,Portslade Sports A,613889718,Terry Bashford,35,623613383,Chris Marsh,80
@@ -6058,7 +6058,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2018-11-12,18,2,Hove D.S. Anglers  A,Champion House  A,574248035,Tony Mulhern,17,719124015,Tony Power,58
 2018-11-12,18,2,Hove D.S. Anglers  A,Champion House  A,225850882,John McLellan,27,836895047,Ian McKay,56
 2018-11-12,18,2,St. Matthias D,St. Matthias E,124523642,Tom Hayes,47,174147986,Lee Cliff,39
-2018-11-12,18,2,St. Matthias D,St. Matthias E,608140548,Dave Gillingham,60,889234854,Paul Smith,26
+2018-11-12,18,2,St. Matthias D,St. Matthias E,608140548,David Gillingham,60,889234854,Paul Smith,26
 2018-11-12,18,2,St. Matthias D,St. Matthias E,873916947,Geoff Akehurst,25,970786910,Kevin Sorrell,61
 2018-11-12,18,2,St. Matthias D,St. Matthias E,112887737,Pip Akehurst,48,866506631,Mark Smith,40
 2018-11-12,18,2,St. Matthias D,St. Matthias E,670034050,John Muzio,70,598846718,Ben Sorrell,46
@@ -6306,7 +6306,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2019-01-07,18,2,Hove D.S. Anglers  A,St. Matthias D,41098823,Mikey Booker,41,258340682,John Derret,54
 2019-01-07,18,2,Hove D.S. Anglers  A,St. Matthias D,878576746,Jon Hall,37,124523642,Tom Hayes,53
 2019-01-07,18,2,Hove D.S. Anglers  A,St. Matthias D,721321839,Matt Peake,42,112887737,Pip Akehurst,62
-2019-01-07,18,2,Hove D.S. Anglers  A,St. Matthias D,574248035,Tony Mulhern,58,608140548,Dave Gillingham,47
+2019-01-07,18,2,Hove D.S. Anglers  A,St. Matthias D,574248035,Tony Mulhern,58,608140548,David Gillingham,47
 2019-01-07,18,2,St. Matthias E,Castle Club G,788605510,Mark Rose,60,597923939,David Lovegrove,21
 2019-01-07,18,2,St. Matthias E,Castle Club G,598846718,Ben Sorrell,77,306438070,Martin Stocker,31
 2019-01-07,18,2,St. Matthias E,Castle Club G,970786910,Kevin Sorrell,56,654650203,Alan O'Sullivan,28
@@ -6340,7 +6340,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2018-12-10,18,2,Goldstone Ex Serv. A,Portslade Sports A,954080507,Sam Corsby,58,623613383,Chris Marsh,44
 2018-12-10,18,2,Goldstone Ex Serv. A,Portslade Sports A,848997254,Tom Parker,13,835713833,Olly Stewart,67
 2018-12-10,18,2,Goldstone Ex Serv. A,Portslade Sports A,412256116,Andy Sutton,24,688252012,Sean Cooper,36
-2018-10-29,18,2,St. Matthias D,Hove D.S. Anglers  A,608140548,Dave Gillingham,10,974385564,Danny Booker,37
+2018-10-29,18,2,St. Matthias D,Hove D.S. Anglers  A,608140548,David Gillingham,10,974385564,Danny Booker,37
 2018-10-29,18,2,St. Matthias D,Hove D.S. Anglers  A,258340682,John Derret,51,41098823,Mikey Booker,31
 2018-10-29,18,2,St. Matthias D,Hove D.S. Anglers  A,112887737,Pip Akehurst,66,225850882,John McLellan,44
 2019-01-14,18,3,Annunciation C,Preston Club,844676925,Kieran Williams,60,670870044,David Flanagan,40
@@ -6537,7 +6537,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2019-01-28,18,2,St. Matthias D,Castle Club G,124523642,Tom Hayes,22,597923939,David Lovegrove,64
 2019-01-28,18,2,St. Matthias D,Castle Club G,670034050,John Muzio,49,306438070,Martin Stocker,63
 2019-01-28,18,2,St. Matthias D,Castle Club G,112887737,Pip Akehurst,67,654650203,Alan O'Sullivan,38
-2019-01-28,18,2,St. Matthias D,Castle Club G,608140548,Dave Gillingham,54,120138229,Adam Butler,17
+2019-01-28,18,2,St. Matthias D,Castle Club G,608140548,David Gillingham,54,120138229,Adam Butler,17
 2019-02-04,18,3,Hove D.S. Anglers  B,Southwick Sports  A,809984729,Neil Scutt,12,493830161,Luke Strevens,61
 2019-02-04,18,3,Hove D.S. Anglers  B,Southwick Sports  A,901024459,Paul Charman,13,76011459,Kane Harman,62
 2019-02-04,18,3,Hove D.S. Anglers  B,Southwick Sports  A,319057545,Brendan Lambe,49,171346729,Des Heasman,56
@@ -6612,7 +6612,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2019-02-11,18,2,St. Matthias D,Champion House  A,703030938,Ollie Thurmer,10,114184042,Ian Smith,68
 2019-02-11,18,2,St. Matthias D,Champion House  A,670034050,John Muzio,32,949603489,Pete Bennett,68
 2019-02-11,18,2,St. Matthias D,Champion House  A,112887737,Pip Akehurst,62,719124015,Tony Power,24
-2019-02-11,18,2,St. Matthias D,Champion House  A,608140548,Dave Gillingham,68,836895047,Ian McKay,18
+2019-02-11,18,2,St. Matthias D,Champion House  A,608140548,David Gillingham,68,836895047,Ian McKay,18
 2019-02-11,18,3,Castle Club F,Preston Club,899206834,Jez Downs,47,146404254,Randall Griffiths,37
 2019-02-11,18,3,Castle Club F,Preston Club,732415457,Barry Hall,40,670870044,David Flanagan,59
 2019-02-11,18,3,Castle Club F,Preston Club,879771694,Darren Parker,59,251261063,Rob Barnes,41
@@ -6665,7 +6665,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2019-02-18,18,2,St. Matthias D,Portslade Sports A,112887737,Pip Akehurst,52,360777082,Mark Bishop,40
 2019-02-18,18,2,St. Matthias D,Portslade Sports A,124523642,Tom Hayes,12,835713833,Olly Stewart,62
 2019-02-18,18,2,St. Matthias D,Portslade Sports A,873916947,Geoff Akehurst,10,623613383,Chris Marsh,57
-2019-02-18,18,2,St. Matthias D,Portslade Sports A,608140548,Dave Gillingham,57,688252012,Sean Cooper,26
+2019-02-18,18,2,St. Matthias D,Portslade Sports A,608140548,David Gillingham,57,688252012,Sean Cooper,26
 2019-02-18,18,3,Annunciation C,Moulsecoomb Club A,207592931,Gediminas Aleksandravisius (Shorty),60,535728699,Fred Cooper,29
 2019-02-18,18,3,Annunciation C,Moulsecoomb Club A,287057630,Darren Hearn,56,394906196,Mick Mabbitt,35
 2019-02-18,18,3,Annunciation C,Moulsecoomb Club A,867613624,Ian Dunhill,26,724342701,Nigel Lilley,34
@@ -6725,7 +6725,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2019-02-25,18,2,St. Matthias D,Hove D.S. Anglers  A,258340682,John Derret,32,974385564,Danny Booker,53
 2019-02-25,18,2,St. Matthias D,Hove D.S. Anglers  A,670034050,John Muzio,64,721321839,Matt Peake,62
 2019-02-25,18,2,St. Matthias D,Hove D.S. Anglers  A,112887737,Pip Akehurst,48,225850882,John McLellan,28
-2019-02-25,18,2,St. Matthias D,Hove D.S. Anglers  A,608140548,Dave Gillingham,64,574248035,Tony Mulhern,39
+2019-02-25,18,2,St. Matthias D,Hove D.S. Anglers  A,608140548,David Gillingham,64,574248035,Tony Mulhern,39
 2019-02-25,18,3,Annunciation C,Castle Club F,287057630,Darren Hearn,37,899206834,Jez Downs,44
 2019-02-25,18,3,Annunciation C,Castle Club F,867613624,Ian Dunhill,46,537640521,Ian Stoner,37
 2019-02-25,18,3,Annunciation C,Castle Club F,32061370,Toby Prince-Iles,60,879771694,Darren Parker,55
@@ -6852,10 +6852,10 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2018-02-05,17,1,St. Matthias A,Castle Club  C,748064029,Paul Hughes,63,26970170,Kai Michael,21
 2018-02-05,17,1,St. Matthias A,Castle Club  C,802242736,Steve Hughes,29,34787509,Dave McCarthy,65
 2018-02-05,17,1,St. Matthias A,Castle Club  C,748064029,Paul Hughes,49,506581042,Glen Dartnell,76
-2018-02-05,17,1,St. Matthias B,Castle Club  A,608140548,Dave Gillingham,13,670256222,Connor Anderson,90
+2018-02-05,17,1,St. Matthias B,Castle Club  A,608140548,David Gillingham,13,670256222,Connor Anderson,90
 2018-02-05,17,1,St. Matthias B,Castle Club  A,957784480,Harry Banks,14,865803068,Dave Jones,72
 2018-02-05,17,1,St. Matthias B,Castle Club  A,278731588,Lester Grice,31,670256222,Connor Anderson,72
-2018-02-05,17,1,St. Matthias B,Castle Club  A,608140548,Dave Gillingham,22,59858690,James Constable,65
+2018-02-05,17,1,St. Matthias B,Castle Club  A,608140548,David Gillingham,22,59858690,James Constable,65
 2018-02-05,17,1,St. Matthias B,Castle Club  A,957784480,Harry Banks,68,865803068,Dave Jones,25
 2018-02-05,17,1,St. Matthias B,Castle Club  A,278731588,Lester Grice,27,59858690,James Constable,67
 2018-01-29,17,1,Castle Club  A,Castle Club  C,356397577,David Morgan,75,133207947,Jake Richardson,14
@@ -7125,12 +7125,12 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2019-03-18,18,2,Castle Club G,St. Matthias D,83590771,Nick Brayne,61,873916947,Geoff Akehurst,52
 2019-03-18,18,2,Champion House  A,Goldstone Ex Serv. A,800114325,Roger Whiteley,55,848997254,Tom Parker,29
 2019-03-18,18,2,Champion House  A,Goldstone Ex Serv. A,118679261,Mick Lott,28,16253983,Tony Simmonds,55
-2019-03-18,18,2,Champion House  A,Goldstone Ex Serv. A,949603489,Pete Bennett,53,163959771,Alex el Deweiny,19
+2019-03-18,18,2,Champion House  A,Goldstone Ex Serv. A,949603489,Pete Bennett,53,163959771,Alex El-Deweiny,19
 2019-03-18,18,2,Champion House  A,Goldstone Ex Serv. A,719124015,Tony Power,36,412256116,Andy Sutton,51
 2019-03-18,18,2,Champion House  A,Goldstone Ex Serv. A,836895047,Ian McKay,11,436708540,Bob Henley,57
 2019-03-11,18,2,Goldstone Ex Serv. A,Castle Club G,455401154,Kai Ellis,51,597923939,David Lovegrove,12
 2019-03-11,18,2,Goldstone Ex Serv. A,Castle Club G,16253983,Tony Simmonds,8,773216781,Sean Payne,48
-2019-03-11,18,2,Goldstone Ex Serv. A,Castle Club G,163959771,Alex el Deweiny,55,120138229,Adam Butler,29
+2019-03-11,18,2,Goldstone Ex Serv. A,Castle Club G,163959771,Alex El-Deweiny,55,120138229,Adam Butler,29
 2019-03-11,18,2,Goldstone Ex Serv. A,Castle Club G,848997254,Tom Parker,15,654650203,Alan O'Sullivan,55
 2019-03-11,18,2,Goldstone Ex Serv. A,Castle Club G,436708540,Bob Henley,55,306438070,Martin Stocker,62
 2019-03-11,18,2,Hove D.S. Anglers  A,Champion House  A,878576746,Jon Hall,63,118679261,Mick Lott,40
@@ -7233,7 +7233,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2019-03-25,18,2,Portslade Sports A,Castle Club G,835713833,Olly Stewart,62,306438070,Martin Stocker,24
 2019-03-25,18,2,Portslade Sports A,Castle Club G,688252012,Sean Cooper,4,654650203,Alan O'Sullivan,46
 2019-03-25,18,2,St. Matthias D,Goldstone Ex Serv. A,124523642,Tom Hayes,43,848997254,Tom Parker,51
-2019-03-25,18,2,St. Matthias D,Goldstone Ex Serv. A,258340682,John Derret,51,163959771,Alex el Deweiny,27
+2019-03-25,18,2,St. Matthias D,Goldstone Ex Serv. A,258340682,John Derret,51,163959771,Alex El-Deweiny,27
 2019-03-25,18,2,St. Matthias D,Goldstone Ex Serv. A,112887737,Pip Akehurst,35,16253983,Tony Simmonds,50
 2019-03-25,18,2,St. Matthias D,Goldstone Ex Serv. A,670034050,John Muzio,36,436708540,Bob Henley,40
 2019-03-25,18,2,St. Matthias D,Goldstone Ex Serv. A,873916947,Geoff Akehurst,3,412256116,Andy Sutton,66
@@ -7286,7 +7286,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2019-09-09,19,1,St. Matthias B,Castle Club G,278731588,Lester Grice,23,426009127,Bav Patel,67
 2019-09-09,19,2,Annunciation B,Castle Club  D,649078882,Richard Barrett,68,297132315,Andrew Hollick,58
 2019-09-09,19,2,Annunciation B,Castle Club  D,444639447,Andy Wong,25,776466881,Chris Willets,55
-2019-09-09,19,2,Annunciation B,Castle Club  D,717256135,Trevor Pickard,58,163959771,Alex el Deweiny,67
+2019-09-09,19,2,Annunciation B,Castle Club  D,717256135,Trevor Pickard,58,163959771,Alex El-Deweiny,67
 2019-09-09,19,2,Annunciation B,Castle Club  D,463709832,Danny Wong,58,110039677,Mick Miller,19
 2019-09-09,19,2,Annunciation B,Castle Club  D,27255501,Tom Lane,28,736672590,Dean Perry,72
 2019-09-09,19,2,Champion House  A,Southwick Sports  A,800114325,Roger Whiteley,47,490170224,Jamie Matthews,25
@@ -7297,7 +7297,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2019-09-09,19,2,Hove D.S. Anglers  A,St. Matthias D,974385564,Danny Booker,77,613889718,Terry Bashford,70
 2019-09-09,19,2,Hove D.S. Anglers  A,St. Matthias D,878576746,Jon Hall,16,124523642,Tom Hayes,54
 2019-09-09,19,2,Hove D.S. Anglers  A,St. Matthias D,721321839,Matt Peake,35,670034050,John Muzio,69
-2019-09-09,19,2,Hove D.S. Anglers  A,St. Matthias D,225850882,John McLellan,36,608140548,Dave Gillingham,71
+2019-09-09,19,2,Hove D.S. Anglers  A,St. Matthias D,225850882,John McLellan,36,608140548,David Gillingham,71
 2019-09-09,19,3,Castle Club F,Portslade Sports B,732415457,Barry Hall,68,567316488,Lee Millyard,32
 2019-09-09,19,3,Castle Club F,Portslade Sports B,899206834,Jez Downs,55,560540608,Mark Siddle,63
 2019-09-09,19,3,Castle Club F,Portslade Sports B,963206772,Dean Moore,41,515177310,James Da Costa,54
@@ -7360,7 +7360,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2019-09-16,19,1,Castle Club G,St. Matthias A,426009127,Bav Patel,25,748064029,Paul Hughes,61
 2019-09-16,19,1,Castle Club G,St. Matthias A,342068862,Jake Pass,78,954297832,Pav Sareen,35
 2019-09-16,19,1,Castle Club G,St. Matthias A,426009127,Bav Patel,22,802242736,Steve Hughes,66
-2019-09-30,19,2,Castle Club  D,Champion House  A,163959771,Alex el Deweiny,58,118679261,Mick Lott,20
+2019-09-30,19,2,Castle Club  D,Champion House  A,163959771,Alex El-Deweiny,58,118679261,Mick Lott,20
 2019-09-30,19,2,Castle Club  D,Champion House  A,835677793,Ian Atkinson,49,114184042,Ian Smith,34
 2019-09-30,19,2,Castle Club  D,Champion House  A,797313851,Dave Anderson,52,949603489,Pete Bennett,44
 2019-09-30,19,2,Castle Club  D,Champion House  A,110039677,Mick Miller,66,719124015,Tony Power,41
@@ -7389,11 +7389,11 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2019-09-23,19,2,St. Matthias E,St. Matthias D,598846718,Ben Sorrell,42,258340682,John Derret,56
 2019-09-23,19,2,St. Matthias E,St. Matthias D,259288142,Dale Edmonds,22,112887737,Pip Akehurst,79
 2019-09-23,19,2,St. Matthias E,St. Matthias D,304563362,Dan Marchant,54,873916947,Geoff Akehurst,45
-2019-09-23,19,2,St. Matthias E,St. Matthias D,788605510,Mark Rose,22,608140548,Dave Gillingham,69
+2019-09-23,19,2,St. Matthias E,St. Matthias D,788605510,Mark Rose,22,608140548,David Gillingham,69
 2019-09-16,19,2,Castle Club  D,St. Matthias E,797313851,Dave Anderson,70,889234854,Paul Smith,1
 2019-09-16,19,2,Castle Club  D,St. Matthias E,835677793,Ian Atkinson,52,304563362,Dan Marchant,34
 2019-09-16,19,2,Castle Club  D,St. Matthias E,241561840,Simon Stott,19,259288142,Dale Edmonds,46
-2019-09-16,19,2,Castle Club  D,St. Matthias E,163959771,Alex el Deweiny,71,598846718,Ben Sorrell,20
+2019-09-16,19,2,Castle Club  D,St. Matthias E,163959771,Alex El-Deweiny,71,598846718,Ben Sorrell,20
 2019-09-16,19,2,Castle Club  D,St. Matthias E,736672590,Dean Perry,23,788605510,Mark Rose,58
 2019-09-16,19,2,Southwick Sports  A,Hove D.S. Anglers  A,493830161,Luke Strevens,73,41098823,Mikey Booker,43
 2019-09-16,19,2,Southwick Sports  A,Hove D.S. Anglers  A,490170224,Jamie Matthews,47,878576746,Jon Hall,51
@@ -7401,7 +7401,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2019-09-16,19,2,Southwick Sports  A,Hove D.S. Anglers  A,971308746,Clive Harman,39,721321839,Matt Peake,51
 2019-09-16,19,2,Southwick Sports  A,Hove D.S. Anglers  A,910809545,Blake Harman,24,574248035,Tony Mulhern,62
 2019-09-16,19,2,St. Matthias D,Annunciation B,258340682,John Derret,46,326342962,Geoff Randall,60
-2019-09-16,19,2,St. Matthias D,Annunciation B,608140548,Dave Gillingham,81,717256135,Trevor Pickard,36
+2019-09-16,19,2,St. Matthias D,Annunciation B,608140548,David Gillingham,81,717256135,Trevor Pickard,36
 2019-09-16,19,2,St. Matthias D,Annunciation B,670034050,John Muzio,23,444639447,Andy Wong,62
 2019-09-16,19,2,St. Matthias D,Annunciation B,873916947,Geoff Akehurst,64,463709832,Danny Wong,72
 2019-09-16,19,2,St. Matthias D,Annunciation B,112887737,Pip Akehurst,43,680442672,Scott Lawson,65
@@ -7506,7 +7506,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2019-10-07,19,1,St. Matthias B,Castle Club  A,96354463,Rob Pickard,52,144293731,Simon Parry,65
 2019-10-07,19,1,St. Matthias B,Castle Club  A,278731588,Lester Grice,10,59858690,James Constable,67
 2019-10-07,19,2,Castle Club  D,St. Matthias D,797313851,Dave Anderson,24,112887737,Pip Akehurst,80
-2019-10-07,19,2,Castle Club  D,St. Matthias D,163959771,Alex el Deweiny,61,608140548,Dave Gillingham,68
+2019-10-07,19,2,Castle Club  D,St. Matthias D,163959771,Alex El-Deweiny,61,608140548,David Gillingham,68
 2019-10-07,19,2,Castle Club  D,St. Matthias D,835677793,Ian Atkinson,53,124523642,Tom Hayes,49
 2019-10-07,19,2,Castle Club  D,St. Matthias D,736672590,Dean Perry,44,670034050,John Muzio,26
 2019-10-07,19,2,Castle Club  D,St. Matthias D,88098023,Andy Healey,62,873916947,Geoff Akehurst,40
@@ -7606,7 +7606,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2019-10-14,19,1,St. Matthias C,Castle Club  C,617751649,Lee Simpson,101,948504778,Jon Fordham,14
 2019-10-14,19,1,St. Matthias C,Castle Club  C,752709358,Chris Mason,70,133207947,Jake Richardson,46
 2019-10-14,19,1,St. Matthias C,Castle Club  C,809568302,Mark Johnson,66,948504778,Jon Fordham,24
-2019-10-28,19,2,Castle Club  D,Annunciation B,163959771,Alex el Deweiny,51,326342962,Geoff Randall,54
+2019-10-28,19,2,Castle Club  D,Annunciation B,163959771,Alex El-Deweiny,51,326342962,Geoff Randall,54
 2019-10-28,19,2,Castle Club  D,Annunciation B,835677793,Ian Atkinson,9,649078882,Richard Barrett,55
 2019-10-28,19,2,Castle Club  D,Annunciation B,88098023,Andy Healey,37,288891270,Lewis Copping,43
 2019-10-28,19,2,Castle Club  D,Annunciation B,797313851,Dave Anderson,78,463709832,Danny Wong,11
@@ -7621,7 +7621,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2019-10-28,19,2,St. Matthias D,Hove D.S. Anglers  A,112887737,Pip Akehurst,51,974385564,Danny Booker,64
 2019-10-28,19,2,St. Matthias D,Hove D.S. Anglers  A,670034050,John Muzio,69,225850882,John McLellan,55
 2019-10-28,19,2,St. Matthias D,Hove D.S. Anglers  A,485725000,Steve Reid,46,574248035,Tony Mulhern,73
-2019-10-21,19,2,Castle Club  D,Hove D.S. Anglers  A,163959771,Alex el Deweiny,40,41098823,Mikey Booker,68
+2019-10-21,19,2,Castle Club  D,Hove D.S. Anglers  A,163959771,Alex El-Deweiny,40,41098823,Mikey Booker,68
 2019-10-21,19,2,Castle Club  D,Hove D.S. Anglers  A,88098023,Andy Healey,55,974385564,Danny Booker,48
 2019-10-21,19,2,Castle Club  D,Hove D.S. Anglers  A,297132315,Andrew Hollick,17,721321839,Matt Peake,61
 2019-10-21,19,2,Castle Club  D,Hove D.S. Anglers  A,797313851,Dave Anderson,50,225850882,John McLellan,41
@@ -7633,7 +7633,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2019-10-21,19,2,Champion House  A,St. Matthias E,836895047,Ian McKay,55,259288142,Dale Edmonds,38
 2019-10-21,19,2,St. Matthias D,Southwick Sports  A,258340682,John Derret,60,910809545,Blake Harman,22
 2019-10-21,19,2,St. Matthias D,Southwick Sports  A,124523642,Tom Hayes,49,971308746,Clive Harman,35
-2019-10-21,19,2,St. Matthias D,Southwick Sports  A,608140548,Dave Gillingham,72,76011459,Kane Harman,19
+2019-10-21,19,2,St. Matthias D,Southwick Sports  A,608140548,David Gillingham,72,76011459,Kane Harman,19
 2019-10-21,19,2,St. Matthias D,Southwick Sports  A,873916947,Geoff Akehurst,16,490170224,Jamie Matthews,55
 2019-10-21,19,2,St. Matthias D,Southwick Sports  A,112887737,Pip Akehurst,43,171346729,Des Heasman,32
 2019-10-14,19,2,Annunciation B,St. Matthias E,649078882,Richard Barrett,71,304563362,Dan Marchant,38
@@ -7646,7 +7646,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2019-10-14,19,2,Southwick Sports  A,Castle Club  D,76011459,Kane Harman,47,835677793,Ian Atkinson,57
 2019-10-14,19,2,Southwick Sports  A,Castle Club  D,910809545,Blake Harman,27,88098023,Andy Healey,66
 2019-10-14,19,2,Southwick Sports  A,Castle Club  D,971308746,Clive Harman,44,212940364,Wayne Jenkinson,62
-2019-10-14,19,2,St. Matthias D,Champion House  A,608140548,Dave Gillingham,65,836895047,Ian McKay,13
+2019-10-14,19,2,St. Matthias D,Champion House  A,608140548,David Gillingham,65,836895047,Ian McKay,13
 2019-10-14,19,2,St. Matthias D,Champion House  A,112887737,Pip Akehurst,41,118679261,Mick Lott,74
 2019-10-14,19,2,St. Matthias D,Champion House  A,258340682,John Derret,59,949603489,Pete Bennett,46
 2019-10-14,19,2,St. Matthias D,Champion House  A,124523642,Tom Hayes,71,719124015,Tony Power,24
@@ -7750,7 +7750,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2019-11-04,19,1,St. Matthias B,Castle Club  C,278731588,Lester Grice,19,948504778,Jon Fordham,56
 2019-11-04,19,1,St. Matthias B,Castle Club  C,96354463,Rob Pickard,62,34787509,Dave McCarthy,20
 2019-11-04,19,1,St. Matthias B,Castle Club  C,278731588,Lester Grice,63,506581042,Glen Dartnell,61
-2019-11-04,19,2,Annunciation B,St. Matthias D,680442672,Scott Lawson,29,608140548,Dave Gillingham,81
+2019-11-04,19,2,Annunciation B,St. Matthias D,680442672,Scott Lawson,29,608140548,David Gillingham,81
 2019-11-04,19,2,Annunciation B,St. Matthias D,326342962,Geoff Randall,73,124523642,Tom Hayes,49
 2019-11-04,19,2,Annunciation B,St. Matthias D,717256135,Trevor Pickard,68,670034050,John Muzio,30
 2019-11-04,19,2,Annunciation B,St. Matthias D,649078882,Richard Barrett,66,258340682,John Derret,42
@@ -7823,7 +7823,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2019-11-11,19,2,Southwick Sports  A,Annunciation B,76011459,Kane Harman,58,649078882,Richard Barrett,64
 2019-11-11,19,2,Southwick Sports  A,Annunciation B,910809545,Blake Harman,48,288891270,Lewis Copping,53
 2019-11-11,19,2,St. Matthias D,St. Matthias E,124523642,Tom Hayes,55,788605510,Mark Rose,63
-2019-11-11,19,2,St. Matthias D,St. Matthias E,608140548,Dave Gillingham,23,866506631,Mark Smith,57
+2019-11-11,19,2,St. Matthias D,St. Matthias E,608140548,David Gillingham,23,866506631,Mark Smith,57
 2019-11-11,19,2,St. Matthias D,St. Matthias E,112887737,Pip Akehurst,53,304563362,Dan Marchant,19
 2019-11-11,19,2,St. Matthias D,St. Matthias E,485725000,Steve Reid,40,259288142,Dale Edmonds,75
 2019-11-11,19,2,St. Matthias D,St. Matthias E,258340682,John Derret,52,598846718,Ben Sorrell,30
@@ -7962,7 +7962,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2019-11-25,19,2,Annunciation B,Champion House  A,649078882,Richard Barrett,39,836895047,Ian McKay,49
 2019-11-25,19,2,Annunciation B,Champion House  A,288891270,Lewis Copping,55,114184042,Ian Smith,32
 2019-11-25,19,2,St. Matthias D,Castle Club  D,124523642,Tom Hayes,74,241561840,Simon Stott,24
-2019-11-25,19,2,St. Matthias D,Castle Club  D,873916947,Geoff Akehurst,56,163959771,Alex el Deweiny,60
+2019-11-25,19,2,St. Matthias D,Castle Club  D,873916947,Geoff Akehurst,56,163959771,Alex El-Deweiny,60
 2019-11-25,19,2,St. Matthias D,Castle Club  D,613889718,Terry Bashford,11,797313851,Dave Anderson,47
 2019-11-25,19,2,St. Matthias D,Castle Club  D,485725000,Steve Reid,32,835677793,Ian Atkinson,53
 2019-11-25,19,2,St. Matthias D,Castle Club  D,112887737,Pip Akehurst,53,110039677,Mick Miller,40
@@ -8007,12 +8007,12 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2019-10-21,19,1,St. Matthias A,St. Matthias B,802242736,Steve Hughes,68,662568995,Rob Wykes,56
 2019-10-21,19,1,St. Matthias A,St. Matthias B,748064029,Paul Hughes,72,957784480,Harry Banks,27
 2019-10-21,19,1,St. Matthias A,St. Matthias B,802242736,Steve Hughes,56,96354463,Rob Pickard,21
-2019-12-09,19,2,Castle Club  D,Southwick Sports  A,163959771,Alex el Deweiny,9,991443521,Adam Griffiths,57
+2019-12-09,19,2,Castle Club  D,Southwick Sports  A,163959771,Alex El-Deweiny,9,991443521,Adam Griffiths,57
 2019-12-09,19,2,Castle Club  D,Southwick Sports  A,797313851,Dave Anderson,69,493830161,Luke Strevens,52
 2019-12-09,19,2,Castle Club  D,Southwick Sports  A,241561840,Simon Stott,56,490170224,Jamie Matthews,48
 2019-12-09,19,2,Castle Club  D,Southwick Sports  A,212940364,Wayne Jenkinson,44,171346729,Des Heasman,22
 2019-12-09,19,2,Castle Club  D,Southwick Sports  A,110039677,Mick Miller,53,971308746,Clive Harman,38
-2019-12-09,19,2,Champion House  A,St. Matthias D,118679261,Mick Lott,24,608140548,Dave Gillingham,65
+2019-12-09,19,2,Champion House  A,St. Matthias D,118679261,Mick Lott,24,608140548,David Gillingham,65
 2019-12-09,19,2,Champion House  A,St. Matthias D,114184042,Ian Smith,54,124523642,Tom Hayes,44
 2019-12-09,19,2,Champion House  A,St. Matthias D,949603489,Pete Bennett,62,670034050,John Muzio,24
 2019-12-09,19,2,Champion House  A,St. Matthias D,719124015,Tony Power,46,873916947,Geoff Akehurst,22
@@ -8071,7 +8071,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2019-12-16,19,1,St. Matthias C,N.A.R.C A,617751649,Lee Simpson,35,428102632,Anthony Flynn,55
 2019-12-16,19,1,St. Matthias C,N.A.R.C A,809568302,Mark Johnson,62,390364577,Mark Bright,16
 2019-12-16,19,1,St. Matthias C,N.A.R.C A,752709358,Chris Mason,72,646410961,Paul Scorer,24
-2019-12-16,19,2,Hove D.S. Anglers  A,Castle Club  D,41098823,Mikey Booker,64,163959771,Alex el Deweiny,53
+2019-12-16,19,2,Hove D.S. Anglers  A,Castle Club  D,41098823,Mikey Booker,64,163959771,Alex El-Deweiny,53
 2019-12-16,19,2,Hove D.S. Anglers  A,Castle Club  D,878576746,Jon Hall,66,797313851,Dave Anderson,59
 2019-12-16,19,2,Hove D.S. Anglers  A,Castle Club  D,974385564,Danny Booker,38,212940364,Wayne Jenkinson,57
 2019-12-16,19,2,Hove D.S. Anglers  A,Castle Club  D,721321839,Matt Peake,58,736672590,Dean Perry,57
@@ -8079,7 +8079,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2019-12-16,19,2,Southwick Sports  A,St. Matthias D,991443521,Adam Griffiths,50,873916947,Geoff Akehurst,37
 2019-12-16,19,2,Southwick Sports  A,St. Matthias D,490170224,Jamie Matthews,44,124523642,Tom Hayes,31
 2019-12-16,19,2,Southwick Sports  A,St. Matthias D,171346729,Des Heasman,32,670034050,John Muzio,54
-2019-12-16,19,2,Southwick Sports  A,St. Matthias D,76011459,Kane Harman,45,608140548,Dave Gillingham,73
+2019-12-16,19,2,Southwick Sports  A,St. Matthias D,76011459,Kane Harman,45,608140548,David Gillingham,73
 2019-12-16,19,2,Southwick Sports  A,St. Matthias D,971308746,Clive Harman,26,112887737,Pip Akehurst,65
 2019-12-16,19,3,Castle Club F,Annunciation C,899206834,Jez Downs,61,27255501,Tom Lane,43
 2019-12-16,19,3,Castle Club F,Annunciation C,732415457,Barry Hall,63,32061370,Toby Prince-Iles,12
@@ -8218,7 +8218,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2020-01-06,19,2,Hove D.S. Anglers  A,St. Matthias D,878576746,Jon Hall,46,112887737,Pip Akehurst,57
 2020-01-06,19,2,Hove D.S. Anglers  A,St. Matthias D,721321839,Matt Peake,65,670034050,John Muzio,51
 2020-01-06,19,2,Hove D.S. Anglers  A,St. Matthias D,225850882,John McLellan,44,124523642,Tom Hayes,25
-2020-01-06,19,2,Hove D.S. Anglers  A,St. Matthias D,574248035,Tony Mulhern,16,608140548,Dave Gillingham,70
+2020-01-06,19,2,Hove D.S. Anglers  A,St. Matthias D,574248035,Tony Mulhern,16,608140548,David Gillingham,70
 2020-01-06,19,3,Castle Club F,Portslade Sports B,899206834,Jez Downs,51,484159049,Tommy Wright,44
 2020-01-06,19,3,Castle Club F,Portslade Sports B,732415457,Barry Hall,49,515177310,James Da Costa,4
 2020-01-06,19,3,Castle Club F,Portslade Sports B,669385277,Steve Towler,61,327948141,Ross Etheridge,30
@@ -8268,7 +8268,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2020-01-13,19,1,St. Matthias C,Castle Club  A,345558874,Zack Richardson,64,523395206,Jamie Lashmar,71
 2020-01-13,19,1,St. Matthias C,Castle Club  A,809568302,Mark Johnson,16,144293731,Simon Parry,54
 2020-01-13,19,1,St. Matthias C,Castle Club  A,752709358,Chris Mason,52,59858690,James Constable,21
-2020-01-13,19,2,Castle Club  D,St. Matthias E,163959771,Alex el Deweiny,61,174147986,Lee Cliff,22
+2020-01-13,19,2,Castle Club  D,St. Matthias E,163959771,Alex El-Deweiny,61,174147986,Lee Cliff,22
 2020-01-13,19,2,Castle Club  D,St. Matthias E,110039677,Mick Miller,48,788605510,Mark Rose,53
 2020-01-13,19,2,Castle Club  D,St. Matthias E,88098023,Andy Healey,45,889234854,Paul Smith,6
 2020-01-13,19,2,Castle Club  D,St. Matthias E,212940364,Wayne Jenkinson,72,866506631,Mark Smith,13
@@ -8282,7 +8282,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2020-01-13,19,2,St. Matthias D,Annunciation B,670034050,John Muzio,39,717256135,Trevor Pickard,58
 2020-01-13,19,2,St. Matthias D,Annunciation B,258340682,John Derret,48,326342962,Geoff Randall,61
 2020-01-13,19,2,St. Matthias D,Annunciation B,112887737,Pip Akehurst,31,680442672,Scott Lawson,58
-2020-01-13,19,2,St. Matthias D,Annunciation B,608140548,Dave Gillingham,94,288891270,Lewis Copping,24
+2020-01-13,19,2,St. Matthias D,Annunciation B,608140548,David Gillingham,94,288891270,Lewis Copping,24
 2020-01-13,19,3,Annunciation C,Portslade Sports A,287057630,Darren Hearn,25,835713833,Olly Stewart,50
 2020-01-13,19,3,Annunciation C,Portslade Sports A,27255501,Tom Lane,25,360777082,Mark Bishop,70
 2020-01-13,19,3,Annunciation C,Portslade Sports A,32061370,Toby Prince-Iles,65,430890681,Malcolm Cooper,38
@@ -8359,7 +8359,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2020-01-20,19,2,St. Matthias E,St. Matthias D,970786910,Kevin Sorrell,8,112887737,Pip Akehurst,43
 2020-01-20,19,2,St. Matthias E,St. Matthias D,174147986,Lee Cliff,56,873916947,Geoff Akehurst,22
 2020-01-20,19,2,St. Matthias E,St. Matthias D,866506631,Mark Smith,55,670034050,John Muzio,27
-2020-01-20,19,2,St. Matthias E,St. Matthias D,788605510,Mark Rose,18,608140548,Dave Gillingham,66
+2020-01-20,19,2,St. Matthias E,St. Matthias D,788605510,Mark Rose,18,608140548,David Gillingham,66
 2020-01-20,19,3,Moulsecoomb Club A,Annunciation C,394906196,Mick Mabbitt,37,287057630,Darren Hearn,50
 2020-01-20,19,3,Moulsecoomb Club A,Annunciation C,349269645,Barry Thornton,42,867613624,Ian Dunhill,66
 2020-01-20,19,3,Moulsecoomb Club A,Annunciation C,724342701,Nigel Lilley,49,27255501,Tom Lane,4
@@ -8407,13 +8407,13 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2020-01-27,19,1,N.A.R.C A,Castle Club G,428102632,Anthony Flynn,46,773216781,Sean Payne,31
 2020-01-27,19,1,N.A.R.C A,Castle Club G,646410961,Paul Scorer,56,426009127,Bav Patel,78
 2020-01-27,19,1,St. Matthias C,St. Matthias B,617751649,Lee Simpson,70,278731588,Lester Grice,9
-2020-01-27,19,1,St. Matthias C,St. Matthias B,752709358,Chris Mason,68,608140548,Dave Gillingham,38
+2020-01-27,19,1,St. Matthias C,St. Matthias B,752709358,Chris Mason,68,608140548,David Gillingham,38
 2020-01-27,19,1,St. Matthias C,St. Matthias B,809568302,Mark Johnson,60,278731588,Lester Grice,67
 2020-01-27,19,1,St. Matthias C,St. Matthias B,754250007,Freddie Blunden,53,957784480,Harry Banks,12
-2020-01-27,19,1,St. Matthias C,St. Matthias B,809568302,Mark Johnson,16,608140548,Dave Gillingham,71
+2020-01-27,19,1,St. Matthias C,St. Matthias B,809568302,Mark Johnson,16,608140548,David Gillingham,71
 2020-01-27,19,1,St. Matthias C,St. Matthias B,754250007,Freddie Blunden,25,957784480,Harry Banks,57
 2020-01-27,19,2,Castle Club  D,Champion House  A,241561840,Simon Stott,60,118679261,Mick Lott,53
-2020-01-27,19,2,Castle Club  D,Champion House  A,163959771,Alex el Deweiny,65,719124015,Tony Power,28
+2020-01-27,19,2,Castle Club  D,Champion House  A,163959771,Alex El-Deweiny,65,719124015,Tony Power,28
 2020-01-27,19,2,Castle Club  D,Champion House  A,797313851,Dave Anderson,39,949603489,Pete Bennett,58
 2020-01-27,19,2,Castle Club  D,Champion House  A,88098023,Andy Healey,67,836895047,Ian McKay,49
 2020-01-27,19,2,Castle Club  D,Champion House  A,110039677,Mick Miller,60,114184042,Ian Smith,40
@@ -8480,7 +8480,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2020-02-03,19,2,Castle Club  D,St. Matthias D,297132315,Andrew Hollick,59,124523642,Tom Hayes,39
 2020-02-03,19,2,Castle Club  D,St. Matthias D,88098023,Andy Healey,60,670034050,John Muzio,25
 2020-02-03,19,2,Castle Club  D,St. Matthias D,241561840,Simon Stott,26,112887737,Pip Akehurst,56
-2020-02-03,19,2,Castle Club  D,St. Matthias D,212940364,Wayne Jenkinson,48,608140548,Dave Gillingham,34
+2020-02-03,19,2,Castle Club  D,St. Matthias D,212940364,Wayne Jenkinson,48,608140548,David Gillingham,34
 2020-02-03,19,2,Champion House  A,Annunciation B,800114325,Roger Whiteley,53,326342962,Geoff Randall,57
 2020-02-03,19,2,Champion House  A,Annunciation B,118679261,Mick Lott,62,649078882,Richard Barrett,83
 2020-02-03,19,2,Champion House  A,Annunciation B,949603489,Pete Bennett,14,680442672,Scott Lawson,51
@@ -8581,7 +8581,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2020-02-10,19,2,St. Matthias D,Champion House  A,258340682,John Derret,45,118679261,Mick Lott,18
 2020-02-10,19,2,St. Matthias D,Champion House  A,670034050,John Muzio,20,949603489,Pete Bennett,59
 2020-02-10,19,2,St. Matthias D,Champion House  A,112887737,Pip Akehurst,56,114184042,Ian Smith,22
-2020-02-10,19,2,St. Matthias D,Champion House  A,608140548,Dave Gillingham,88,836895047,Ian McKay,17
+2020-02-10,19,2,St. Matthias D,Champion House  A,608140548,David Gillingham,88,836895047,Ian McKay,17
 2020-02-10,19,3,Castle Club F,Moulsecoomb Club A,899206834,Jez Downs,22,535728699,Fred Cooper,47
 2020-02-10,19,3,Castle Club F,Moulsecoomb Club A,732415457,Barry Hall,57,394906196,Mick Mabbitt,13
 2020-02-10,19,3,Castle Club F,Moulsecoomb Club A,963206772,Dean Moore,52,271464632,Paul Phillips,60
@@ -8631,7 +8631,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2020-02-17,19,1,St. Matthias A,St. Matthias B,954297832,Pav Sareen,47,278731588,Lester Grice,58
 2020-02-17,19,1,St. Matthias A,St. Matthias B,931210057,Huntley Roberts,46,957784480,Harry Banks,52
 2020-02-17,19,1,St. Matthias A,St. Matthias B,341869673,Nigel Stilwell,39,278731588,Lester Grice,67
-2020-02-17,19,2,Castle Club  D,Hove D.S. Anglers  A,163959771,Alex el Deweiny,48,41098823,Mikey Booker,34
+2020-02-17,19,2,Castle Club  D,Hove D.S. Anglers  A,163959771,Alex El-Deweiny,48,41098823,Mikey Booker,34
 2020-02-17,19,2,Castle Club  D,Hove D.S. Anglers  A,297132315,Andrew Hollick,83,974385564,Danny Booker,45
 2020-02-17,19,2,Castle Club  D,Hove D.S. Anglers  A,797313851,Dave Anderson,47,878576746,Jon Hall,38
 2020-02-17,19,2,Castle Club  D,Hove D.S. Anglers  A,835677793,Ian Atkinson,36,225850882,John McLellan,60
@@ -8645,7 +8645,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2020-02-17,19,2,St. Matthias D,Southwick Sports  A,258340682,John Derret,65,490170224,Jamie Matthews,14
 2020-02-17,19,2,St. Matthias D,Southwick Sports  A,873916947,Geoff Akehurst,7,910809545,Blake Harman,63
 2020-02-17,19,2,St. Matthias D,Southwick Sports  A,112887737,Pip Akehurst,73,971308746,Clive Harman,46
-2020-02-17,19,2,St. Matthias D,Southwick Sports  A,608140548,Dave Gillingham,48,171346729,Des Heasman,9
+2020-02-17,19,2,St. Matthias D,Southwick Sports  A,608140548,David Gillingham,48,171346729,Des Heasman,9
 2020-02-17,19,3,Annunciation C,Castle Club F,504949622,Jimmy Moseley,40,899206834,Jez Downs,8
 2020-02-17,19,3,Annunciation C,Castle Club F,867613624,Ian Dunhill,71,732415457,Barry Hall,39
 2020-02-17,19,3,Annunciation C,Castle Club F,207592931,Gediminas Aleksandravisius (Shorty),38,963206772,Dean Moore,15
@@ -8684,9 +8684,9 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2020-02-24,19,1,Castle Club G,St. Matthias B,426009127,Bav Patel,48,957784480,Harry Banks,40
 2020-02-24,19,1,Castle Club G,St. Matthias B,773216781,Sean Payne,64,60575249,Ash Thurmer,2
 2020-02-24,19,1,Castle Club G,St. Matthias B,766684900,John Gillard,57,278731588,Lester Grice,40
-2020-02-24,19,1,Castle Club G,St. Matthias B,773216781,Sean Payne,19,608140548,Dave Gillingham,75
+2020-02-24,19,1,Castle Club G,St. Matthias B,773216781,Sean Payne,19,608140548,David Gillingham,75
 2020-02-24,19,1,Castle Club G,St. Matthias B,766684900,John Gillard,76,278731588,Lester Grice,43
-2020-02-24,19,1,Castle Club G,St. Matthias B,654650203,Alan O'Sullivan,27,608140548,Dave Gillingham,93
+2020-02-24,19,1,Castle Club G,St. Matthias B,654650203,Alan O'Sullivan,27,608140548,David Gillingham,93
 2020-02-24,19,1,N.A.R.C A,Castle Club  A,390364577,Mark Bright,42,356397577,David Morgan,72
 2020-02-24,19,1,N.A.R.C A,Castle Club  A,428102632,Anthony Flynn,17,523395206,Jamie Lashmar,87
 2020-02-24,19,1,N.A.R.C A,Castle Club  A,390364577,Mark Bright,57,356397577,David Morgan,9
@@ -8697,7 +8697,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2020-02-24,19,1,St. Matthias C,St. Matthias A,754250007,Freddie Blunden,73,931210057,Huntley Roberts,55
 2020-02-24,19,1,St. Matthias C,St. Matthias A,752709358,Chris Mason,67,802242736,Steve Hughes,32
 2020-02-24,19,1,St. Matthias C,St. Matthias A,754250007,Freddie Blunden,57,341869673,Nigel Stilwell,12
-2020-02-24,19,2,Castle Club  D,Annunciation B,163959771,Alex el Deweiny,43,444639447,Andy Wong,35
+2020-02-24,19,2,Castle Club  D,Annunciation B,163959771,Alex El-Deweiny,43,444639447,Andy Wong,35
 2020-02-24,19,2,Castle Club  D,Annunciation B,212940364,Wayne Jenkinson,77,463709832,Danny Wong,11
 2020-02-24,19,2,Castle Club  D,Annunciation B,88098023,Andy Healey,46,649078882,Richard Barrett,58
 2020-02-24,19,2,Castle Club  D,Annunciation B,797313851,Dave Anderson,43,288891270,Lewis Copping,35
@@ -8758,9 +8758,9 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2020-03-02,19,1,St. Matthias B,Castle Club  C,96354463,Rob Pickard,56,133207947,Jake Richardson,45
 2020-03-02,19,1,St. Matthias B,Castle Club  C,957784480,Harry Banks,71,948504778,Jon Fordham,37
 2020-03-02,19,1,St. Matthias B,Castle Club  C,96354463,Rob Pickard,53,506581042,Glen Dartnell,32
-2020-03-02,19,1,St. Matthias B,Castle Club  C,608140548,Dave Gillingham,77,480772114,Kevin Ward,17
+2020-03-02,19,1,St. Matthias B,Castle Club  C,608140548,David Gillingham,77,480772114,Kevin Ward,17
 2020-03-02,19,1,St. Matthias B,Castle Club  C,957784480,Harry Banks,16,133207947,Jake Richardson,68
-2020-03-02,19,1,St. Matthias B,Castle Club  C,608140548,Dave Gillingham,62,480772114,Kevin Ward,53
+2020-03-02,19,1,St. Matthias B,Castle Club  C,608140548,David Gillingham,62,480772114,Kevin Ward,53
 2020-03-02,19,2,Annunciation B,St. Matthias D,326342962,Geoff Randall,66,258340682,John Derret,9
 2020-03-02,19,2,Annunciation B,St. Matthias D,649078882,Richard Barrett,30,112887737,Pip Akehurst,55
 2020-03-02,19,2,Annunciation B,St. Matthias D,680442672,Scott Lawson,52,124523642,Tom Hayes,53
@@ -8771,7 +8771,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2020-03-02,19,2,Hove D.S. Anglers  A,Southwick Sports  A,878576746,Jon Hall,36,493830161,Luke Strevens,70
 2020-03-02,19,2,Hove D.S. Anglers  A,Southwick Sports  A,721321839,Matt Peake,41,76011459,Kane Harman,66
 2020-03-02,19,2,Hove D.S. Anglers  A,Southwick Sports  A,574248035,Tony Mulhern,46,910809545,Blake Harman,48
-2020-03-02,19,2,St. Matthias E,Castle Club  D,174147986,Lee Cliff,56,163959771,Alex el Deweiny,57
+2020-03-02,19,2,St. Matthias E,Castle Club  D,174147986,Lee Cliff,56,163959771,Alex El-Deweiny,57
 2020-03-02,19,2,St. Matthias E,Castle Club  D,970786910,Kevin Sorrell,47,297132315,Andrew Hollick,56
 2020-03-02,19,2,St. Matthias E,Castle Club  D,259288142,Dale Edmonds,32,736672590,Dean Perry,56
 2020-03-02,19,2,St. Matthias E,Castle Club  D,866506631,Mark Smith,20,797313851,Dave Anderson,58
@@ -8908,7 +8908,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2021-09-13,21,1,St. Matthias A,Castle Club G,341869673,Nigel Stilwell,49,426009127,Bav Patel,73
 2021-09-13,21,1,St. Matthias A,Castle Club G,802242736,Stephen Hughes,50,561171273,Andrew Norman,67
 2021-09-20,21,2,Annunciation,Hove Deep Sea Anglers,504949622,Jimmy Moseley,46,721321839,Matt Peake,31
-2021-09-20,21,2,Annunciation,Hove Deep Sea Anglers,207592931,(shorty) Gediminas Aleksandravicius,40,326225304,Ian Raeburn,47
+2021-09-20,21,2,Annunciation,Hove Deep Sea Anglers,207592931,Gediminas Aleksandravisius (Shorty),40,326225304,Ian Raeburn,47
 2021-09-20,21,2,Annunciation,Hove Deep Sea Anglers,867613624,Ian Dunhill,59,598117191,Jerome Fowler,16
 2021-09-20,21,2,Annunciation,Hove Deep Sea Anglers,32061370,Toby Prince-Iles,61,613893140,Matt Warner,27
 2021-09-20,21,2,Annunciation,Hove Deep Sea Anglers,288891270,Lewis Copping,63,319057545,Brendan Lambe,12
