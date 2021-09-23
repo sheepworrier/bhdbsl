@@ -238,15 +238,13 @@ end_of_season_adjustments <-
                  filter(season == next_season),
                by = c("player_id")) %>%
     filter(majority_division.x != majority_division.y) %>%
-    inner_join(starting_ranking, by = c("majority_division.x" = "division")) %>%
-    inner_join(starting_ranking, by = c("majority_division.y" = "division")) %>%
-    left_join(most_recent_rating_per_player_per_div %>%
-                select(player_id, season, majority_division, eos_rating),
-              by = c("player_id",
-                     "majority_division.y" = "majority_division")) %>%
-    mutate(new_rating = if_else(!is.na(eos_rating), eos_rating, value.y)) %>%
+    left_join(division_ratings_range,
+              by = c("majority_division.y" = "majority_division")) %>%
+    mutate(latest_rating = if_else(majority_division.x > majority_division.y,
+                                   max(lowest_rating, eos_rating.x),
+                                   min(highest_rating, eos_rating.x))) %>%
     rename(player_name = player_name.x) %>%
-    select(player_id, player_name, new_rating)
+    select(player_id, player_name, latest_rating)
   players_to_adjust
 }
 

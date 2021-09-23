@@ -1,5 +1,6 @@
 library(stringdist)
 library(zoo)
+library(dplyr)
 source("common-functions.R")
 # Read in the mappings already defined between players on the old and new
 # wesbite
@@ -77,7 +78,7 @@ summary1 <- frame_scores %>%
   count(player_id, player_name, season, division) %>%
   rename(num_frames = n)
 # Pick the main division per season per player based on where they played the
-# majority of their matches.  In case of a tie, choose the hgher division
+# majority of their matches.  In case of a tie, choose the higher division
 summary2 <- summary1 %>%
   select(player_id, player_name, season, division, num_frames) %>%
   inner_join(summary1 %>%
@@ -100,17 +101,14 @@ summary3 <- summary2 %>%
 # other divisions and assign to each player
 starting_ranking <-
   data.frame(division = c(1:6),
-             rel_div_strength = c(5.78, 2.81, 2.4, 1.96, 1.57, 1))
-starting_ranking$value <-
-  1500 / starting_ranking$rel_div_strength[1] *
-  starting_ranking$rel_div_strength
+             rel_div_strength = c(5.78, 2.81, 2.4, 1.96, 1.57, 1)) %>%
+  mutate(value = 1500 / max(rel_div_strength) * rel_div_strength)
 player_ratings <- summary3 %>%
-  inner_join(starting_ranking, by = c("majority_division" = "division"))
-player_ratings$latest_rating <- player_ratings$value
-player_ratings$latest_fixture_date <- as.Date("2010-01-01")
-player_ratings[, c("frames_played")] <- 0
-player_ratings <- as.data.frame(player_ratings)
-rownames(player_ratings) <- player_ratings$player_id
+  inner_join(starting_ranking, by = c("majority_division" = "division")) %>%
+  mutate(latest_rating = value,
+         latest_fixture_date = as.Date("2010-01-01"),
+         frames_played = 0) %>%
+  ungroup()
 # Sort the frame_scores by date, division and home_team
 ## Possible issue here where Premier division players can play twice on the same
 ## night, but it *seems* to preserve scorecard order
@@ -131,9 +129,9 @@ player_seasons <- players %>%
 player_seasons_majority <- player_seasons %>%
   left_join(summary2, by = c("player_id", "player_name", "season")) %>%
   group_by(player_id, player_name) %>%
+  arrange(player_id, season) %>%
   mutate_at(vars(majority_division), list(~na.locf(., na.rm = FALSE))) %>%
-  filter(!is.na(majority_division)) %>%
-  arrange(player_id, season)
+  filter(!is.na(majority_division))
 # Loop through all frame scores
 for(i in 1:nrow(frame_scores)) {
   row <- frame_scores[i, ]
@@ -142,23 +140,26 @@ for(i in 1:nrow(frame_scores)) {
   # relegations
   if (row$season != last_season) {
     # Save off players end of season ratings in their current majority division
-    # If players are relagated / promoted in future then they can pick up where
-    # they left off
     df_psm <-
       save_off_end_of_season_ratings(last_season, player_seasons_majority)
     player_seasons_majority <- player_seasons_majority %>%
       anti_join(df_psm, by = c("player_id", "season")) %>%
       bind_rows(df_psm) %>%
       arrange(player_id, season)
+    # Work out the range of abilities in each division so promoted / relegated
+    # ratings can be adjusted (if needed) to be within that range
+    division_ratings_range <- df_psm %>%
+      filter(season == last_season) %>%
+      group_by(majority_division) %>%
+      summarise(lowest_rating = min(eos_rating),
+                highest_rating = max(eos_rating),
+                .groups = "drop")
     print(paste("Making adjustments at end of season", last_season))
+    # Calculate which players were promoted or relegated and derive new ratings
     players_to_adjust <-
       end_of_season_adjustments(last_season, row$season)
-    player_ratings <- player_ratings %>%
-      left_join(players_to_adjust, by = "player_id") %>%
-      mutate(latest_rating = if_else(!is.na(new_rating), new_rating,
-                                     latest_rating)) %>%
-      select(1:9)
-    rownames(player_ratings) <- player_ratings$player_id
+    # Update player_ratings with new ratings
+    player_ratings <- rows_update(player_ratings, players_to_adjust, by = "player_id")
     last_season <- row$season
   }
   # Set up temporary dataframes for home and away player from the player_ratings
@@ -190,13 +191,21 @@ for(i in 1:nrow(frame_scores)) {
   # Update new ranking alongside frame scores
   frame_scores[i, 12] <- home_player_new_ranking
   frame_scores[i, 13] <- away_player_new_ranking
-  # Update player rating table ready for nect iteration involving this player
-  player_ratings[home_player$player_id, 7] <- home_player_new_ranking
-  player_ratings[home_player$player_id, 8] <- row$fixture_date
-  player_ratings[home_player$player_id, 9] <- home_player$frames_played + 1
-  player_ratings[away_player$player_id, 7] <- away_player_new_ranking
-  player_ratings[away_player$player_id, 8] <- row$fixture_date
-  player_ratings[away_player$player_id, 9] <- away_player$frames_played + 1
+  # Update player rating table ready for next iteration involving this player
+  home_player <- home_player %>%
+    select(player_id, frames_played) %>%
+    mutate(latest_rating = home_player_new_ranking,
+           latest_fixture_date = row$fixture_date,
+           frames_played = frames_played + 1)
+  away_player <- away_player %>%
+    select(player_id, frames_played) %>%
+    mutate(latest_rating = away_player_new_ranking,
+           latest_fixture_date = row$fixture_date,
+           frames_played = frames_played + 1)
+  player_ratings <-
+    rows_update(player_ratings, home_player, by = c("player_id"))
+  player_ratings <-
+    rows_update(player_ratings, away_player, by = c("player_id"))
 }
 
 # Tidy up output for CSV
