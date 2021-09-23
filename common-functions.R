@@ -82,7 +82,7 @@ get_single_results_page <- function(base_url, season, division, page_number,
     print("Gathering Billiards results")
     # Reformat the scores column to split between home and away, scoring and
     # overall
-    results_table <- results_table[, c(2, 3, 5, 7)]
+    results_table <- results_table[, c(2, 3, 4, 5)]
     results_table <- results_table %>%
       mutate(Score = str_remove_all(Score, "\\(")) %>%
       mutate(Score = str_remove_all(Score, "\\)")) %>%
@@ -100,7 +100,8 @@ get_single_results_page <- function(base_url, season, division, page_number,
                paste0("http://brightonhovedistrictbilliards.leaguerepublic.com",
                       match_detail_urls)) %>%
       select(fixture_date, season, division, home_team = `Home Team`,
-             away_team = `Away Team`, home_sp, away_sp, home_op, away_op, url)
+             away_team = `Away Team`, home_sp, away_sp, home_op, away_op, url)  %>%
+      filter(!is.na(home_sp))
   } else {
     print("Gathering Snooker competition results")
     # Remove empty columns
