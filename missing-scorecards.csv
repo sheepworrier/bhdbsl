@@ -72,7 +72,6 @@ fixture_date,season,division,home_team,away_team,home_score,away_score
 2013-12-16,13,6,Portslade Sports Centre D,Castle Snooker Club H,NA,NA
 2014-03-10,13,6,Portslade Sports Centre C,Castle Snooker Club H,5,0
 2014-04-07,13,6,Portslade Sports Centre D,Castle Snooker Club H,NA,NA
-2020-01-06,19,1,St. Matthias B,Castle Club G,NA,NA
 2019-11-25,19,2,Hove D.S. Anglers  A,St. Matthias E,1,4
 2019-11-18,19,4,N.A.R.C B,Portslade Legion,3,2
 2019-10-21,19,4,Annunciation  A,Moulsecoomb Club B,5,0
@@ -524,22 +523,10 @@ fixture_date,season,division,home_team,away_team,home_score,away_score
 2014-09-08,14,5,Moulsecoomb Club B,N.A.R.C B,3,2
 2014-09-08,14,5,Preston Club,Southwick Sports  C,1,4
 2016-04-11,15,1,N.A.R.C A,Castle Club  A,3,2
-2016-04-14,15,2,St. Matthias D,Southwick Sports  A,NA,NA
 2016-04-11,15,2,Hove D.S. Anglers  A,Annunciation B,2,3
 2016-04-04,15,2,Annunciation B,Castle Club H,5,0
 2016-03-21,15,2,Castle Club H,Castle Club G,5,0
-2016-03-21,15,2,Goldstone Ex Serv. A,Southwick Sports  A,NA,NA
-2016-03-14,15,2,Southwick Sports  A,Annunciation B,NA,NA
 2016-03-14,15,2,St. Matthias D,Castle Club H,5,0
-2016-03-07,15,2,Hove D.S. Anglers  A,Southwick Sports  A,NA,NA
-2016-02-29,15,2,Southwick Sports  A,Castle Club G,NA,NA
-2016-02-22,15,2,Castle Club H,Southwick Sports  A,NA,NA
-2016-02-15,15,2,Southwick Sports  A,St. Matthias D,NA,NA
-2016-02-01,15,2,Southwick Sports  A,Goldstone Ex Serv. A,NA,NA
-2016-01-25,15,2,Annunciation B,Southwick Sports  A,NA,NA
-2016-01-18,15,2,Southwick Sports  A,Hove D.S. Anglers  A,NA,NA
-2016-01-11,15,2,Castle Club G,Southwick Sports  A,NA,NA
-2016-01-04,15,2,Southwick Sports  A,Castle Club H,NA,NA
 2016-01-04,15,2,St. Matthias D,Castle Club G,5,0
 2015-12-14,15,2,St. Matthias D,Southwick Sports  A,5,0
 2015-12-07,15,2,Castle Club G,Hove D.S. Anglers  A,0,5
@@ -662,11 +649,9 @@ fixture_date,season,division,home_team,away_team,home_score,away_score
 2017-10-23,17,4,Preston Club,N.A.R.C B,5,0
 2017-10-16,17,4,Southwick Sports  B,N.A.R.C B,3,2
 2017-10-09,17,4,N.A.R.C B,Portslade Legion,2,3
-2017-10-02,17,4,Champion House  B,N.A.R.C B,NA,NA
 2017-09-25,17,4,N.A.R.C B,Goldstone Ex Serv. B,2,3
 2017-09-18,17,4,Annunciation  A,N.A.R.C B,4,1
 2017-09-11,17,4,N.A.R.C B,Moulsecoomb Club B,4,1
-2019-04-08,18,1,Annunciation B,Castle Club  B,NA,NA
 2019-04-08,18,1,Castle Club  A,Castle Club  C,6,0
 2019-04-08,18,1,St. Matthias B,St. Matthias A,2,4
 2019-04-08,18,1,St. Matthias C,N.A.R.C A,6,0
