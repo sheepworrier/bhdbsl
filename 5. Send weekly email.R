@@ -4,19 +4,19 @@ library(readr)
 library(tidyr)
 library(dplyr)
 
-snooker_week <- 24
-billiards_week <- 15
+current_season <- 21
+snooker_week <- 2
+billiards_week <- 2
 # test_to_address <- "djp42@cantab.net"
 email_addresses <- read_csv("team_email_addresses.csv")
-snooker_divisions <- data.frame(division = seq(1, 4),
-                                div_text = c("Premier", "Division 1", 
-                                             "Division 2", "Division 3"),
+snooker_divisions <- data.frame(division = seq(1, 2),
+                                div_text = c("Premier", "Division 1"),
                                 stringsAsFactors = FALSE)
 
 snooker_match_scores <- read_csv("New-website-match-scores.csv") %>%
-  filter(season == 19)
+  filter(season == current_season)
 billiards_match_scores <- read_csv("Billiards-match-scores.csv") %>%
-  filter(season == 19)
+  filter(season == current_season)
 
 snooker_breaks <- read_csv("New-website-breaks.csv")
 billiards_breaks <- read_csv("Billiards-breaks.csv")
@@ -59,20 +59,20 @@ final_billiards_breaks <- billiards_breaks %>%
   select(div_text, player_name, high_break)
 
 highest_snooker_breaks_per_division <- snooker_breaks %>%
-  filter(season == 19) %>%
+  filter(season == current_season) %>%
   group_by(division) %>%
   summarise(high_break = max(high_break)) %>%
   inner_join(snooker_breaks %>%
-               filter(season == 19)) %>%
+               filter(season == current_season)) %>%
   inner_join(snooker_divisions, by = "division") %>%
   arrange(division, fixture_date) %>%
   select(div_text, player_name, fixture_date, high_break)
 highest_billiards_breaks_per_division <- billiards_breaks %>%
-  filter(season == 19) %>%
+  filter(season == current_season) %>%
   group_by(division) %>%
   summarise(high_break = max(high_break)) %>%
   inner_join(billiards_breaks %>%
-               filter(season == 19)) %>%
+               filter(season == current_season)) %>%
   mutate(div_text = "Division 1") %>%
   arrange(division, fixture_date) %>%
   select(div_text, player_name, fixture_date, high_break)
@@ -82,7 +82,7 @@ msg <- paste0("<u><b>Snooker results for week ", snooker_week, "</b></u>",
               tableHTML(final_snooker_scores, rownames = FALSE,
                         headers = c("Division", "Home Team", "Home Score",
                                     "Away Score", "Away Team")),
-              "<br><br>",
+              "<br>",
               "<u><b>Snooker breaks this week</b></u>",
               "<br><br>",
               tableHTML(final_snooker_breaks, rownames = FALSE,
