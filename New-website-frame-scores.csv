@@ -3963,7 +3963,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2017-09-11,17,3,Moulsecoomb Club A,N.A.R.C C,293122482,Stuart Maplesden,23,733453947,Phil Canham,60
 2017-09-11,17,3,Portslade Sports,Annunciation C,430890681,Malcolm Cooper,53,867613624,Ian Dunhill,65
 2017-09-11,17,3,Portslade Sports,Annunciation C,835713833,Olly Stewart,69,951468676,Steve Burchett,20
-2017-09-11,17,3,Portslade Sports,Annunciation C,360777082,Mark Bishop,72,207592931,Gediminas Aleksandravisius (Shorty),15
+2017-09-11,17,3,Portslade Sports,Annunciation C,360777082,Mark Bishop,72,207592931,(shorty) Gediminas Aleksandravicius,15
 2017-09-11,17,3,Portslade Sports,Annunciation C,409212679,Mark Chapman,37,27255501,Tom Lane,53
 2017-09-11,17,3,Portslade Sports,Annunciation C,688252012,Sean Cooper,52,287057630,Darren Hearn,30
 2017-09-11,17,3,St. Matthias E,Hove D.S. Anglers  B,970786910,Kevin Sorrell,55,114319292,Oliver Gorrod,9
@@ -4281,7 +4281,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2017-10-16,17,2,St. Matthias D,Champion House  A,157282960,Vern Asbury,13,118679261,Mick Lott,51
 2017-10-16,17,3,Annunciation C,Southwick Sports  A,287057630,Darren Hearn,21,971308746,Clive Harman,45
 2017-10-16,17,3,Annunciation C,Southwick Sports  A,27255501,Tom Lane,25,171346729,Des Heasman,71
-2017-10-16,17,3,Annunciation C,Southwick Sports  A,207592931,Gediminas Aleksandravisius (Shorty),49,76011459,Kane Harman,48
+2017-10-16,17,3,Annunciation C,Southwick Sports  A,207592931,(shorty) Gediminas Aleksandravicius,49,76011459,Kane Harman,48
 2017-10-16,17,3,Annunciation C,Southwick Sports  A,867613624,Ian Dunhill,22,493830161,Luke Strevens,47
 2017-10-16,17,3,Annunciation C,Southwick Sports  A,32061370,Toby Prince-Iles,44,910809545,Blake Harman,31
 2017-10-16,17,3,Castle Club F,St. Matthias E,713064363,John Trory,29,174147986,Lee Cliff,54
@@ -4359,7 +4359,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2017-10-23,17,3,N.A.R.C C,Annunciation C,411473516,Ray Canham,25,951468676,Steve Burchett,57
 2017-10-23,17,3,N.A.R.C C,Annunciation C,833156731,Jez Saunders,53,287057630,Darren Hearn,52
 2017-10-23,17,3,N.A.R.C C,Annunciation C,733453947,Phil Canham,58,32061370,Toby Prince-Iles,10
-2017-10-23,17,3,N.A.R.C C,Annunciation C,402257815,Jim Cumming,45,207592931,Gediminas Aleksandravisius (Shorty),51
+2017-10-23,17,3,N.A.R.C C,Annunciation C,402257815,Jim Cumming,45,207592931,(shorty) Gediminas Aleksandravicius,51
 2017-10-23,17,3,Portslade Sports,St. Matthias E,688252012,Sean Cooper,39,598846718,Ben Sorrell,36
 2017-10-23,17,3,Portslade Sports,St. Matthias E,835713833,Olly Stewart,62,646614924,Norman Moye,14
 2017-10-23,17,3,Portslade Sports,St. Matthias E,430890681,Malcolm Cooper,14,970786910,Kevin Sorrell,61
@@ -4417,7 +4417,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2017-10-30,17,3,Annunciation C,Portslade Sports,867613624,Ian Dunhill,75,409212679,Mark Chapman,54
 2017-10-30,17,3,Annunciation C,Portslade Sports,27255501,Tom Lane,20,360777082,Mark Bishop,64
 2017-10-30,17,3,Annunciation C,Portslade Sports,287057630,Darren Hearn,44,430890681,Malcolm Cooper,37
-2017-10-30,17,3,Annunciation C,Portslade Sports,207592931,Gediminas Aleksandravisius (Shorty),38,835713833,Olly Stewart,49
+2017-10-30,17,3,Annunciation C,Portslade Sports,207592931,(shorty) Gediminas Aleksandravicius,38,835713833,Olly Stewart,49
 2017-10-30,17,3,Hove D.S. Anglers  B,St. Matthias E,319057545,Brendan Lambe,21,174147986,Lee Cliff,60
 2017-10-30,17,3,Hove D.S. Anglers  B,St. Matthias E,114319292,Oliver Gorrod,46,839313888,Kevin Chrysanthou,33
 2017-10-30,17,3,Hove D.S. Anglers  B,St. Matthias E,613893140,Matt Warner,44,598846718,Ben Sorrell,12
@@ -4491,7 +4491,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2017-11-06,17,3,Castle Club F,N.A.R.C C,225247539,Barry Knight,52,733453947,Phil Canham,33
 2017-11-06,17,3,Castle Club F,N.A.R.C C,537640521,Ian Stoner,35,411473516,Ray Canham,47
 2017-11-06,17,3,Moulsecoomb Club A,Annunciation C,394906196,Mick Mabbitt,28,867613624,Ian Dunhill,59
-2017-11-06,17,3,Moulsecoomb Club A,Annunciation C,451309825,Maurice Wickens,55,207592931,Gediminas Aleksandravisius (Shorty),38
+2017-11-06,17,3,Moulsecoomb Club A,Annunciation C,451309825,Maurice Wickens,55,207592931,(shorty) Gediminas Aleksandravicius,38
 2017-11-06,17,3,Moulsecoomb Club A,Annunciation C,271464632,Paul Phillips,52,32061370,Toby Prince-Iles,43
 2017-11-06,17,3,Moulsecoomb Club A,Annunciation C,535728699,Fred Cooper,59,580088564,Tom Trafford,30
 2017-11-06,17,3,Moulsecoomb Club A,Annunciation C,293122482,Stuart Maplesden,58,287057630,Darren Hearn,11
@@ -4539,7 +4539,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2017-11-13,17,3,Annunciation C,Castle Club F,287057630,Darren Hearn,51,899206834,Jez Downs,52
 2017-11-13,17,3,Annunciation C,Castle Club F,27255501,Tom Lane,22,732415457,Barry Hall,42
 2017-11-13,17,3,Annunciation C,Castle Club F,867613624,Ian Dunhill,48,35191252,Nigel Hayward,49
-2017-11-13,17,3,Annunciation C,Castle Club F,207592931,Gediminas Aleksandravisius (Shorty),37,963206772,Dean Moore,57
+2017-11-13,17,3,Annunciation C,Castle Club F,207592931,(shorty) Gediminas Aleksandravicius,37,963206772,Dean Moore,57
 2017-11-13,17,3,Annunciation C,Castle Club F,32061370,Toby Prince-Iles,44,537640521,Ian Stoner,56
 2017-11-13,17,3,Moulsecoomb Club A,Portslade Sports,349269645,Barry Thornton,60,360777082,Mark Bishop,50
 2017-11-13,17,3,Moulsecoomb Club A,Portslade Sports,271464632,Paul Phillips,59,623613383,Chris Marsh,67
@@ -4602,7 +4602,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2017-11-20,17,3,Portslade Sports,Southwick Sports  A,409212679,Mark Chapman,46,910809545,Blake Harman,35
 2017-11-20,17,3,Portslade Sports,Southwick Sports  A,498330760,Mo Collins,33,76011459,Kane Harman,60
 2017-11-20,17,3,St. Matthias E,Annunciation C,839313888,Kevin Chrysanthou,42,287057630,Darren Hearn,38
-2017-11-20,17,3,St. Matthias E,Annunciation C,866506631,Mark Smith,18,207592931,Gediminas Aleksandravisius (Shorty),52
+2017-11-20,17,3,St. Matthias E,Annunciation C,866506631,Mark Smith,18,207592931,(shorty) Gediminas Aleksandravicius,52
 2017-11-20,17,3,St. Matthias E,Annunciation C,174147986,Lee Cliff,67,951468676,Steve Burchett,31
 2017-11-20,17,3,St. Matthias E,Annunciation C,598846718,Ben Sorrell,24,867613624,Ian Dunhill,58
 2017-11-20,17,4,N.A.R.C. B,Champion House  B,65713327,Dave Reardon,27,39289507,Mick Laughlin,58
@@ -4636,7 +4636,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2017-11-27,17,3,Annunciation C,Hove D.S. Anglers  B,27255501,Tom Lane,57,114319292,Oliver Gorrod,31
 2017-11-27,17,3,Annunciation C,Hove D.S. Anglers  B,951468676,Steve Burchett,41,598117191,Jerome Fowler,56
 2017-11-27,17,3,Annunciation C,Hove D.S. Anglers  B,287057630,Darren Hearn,23,319057545,Brendan Lambe,47
-2017-11-27,17,3,Annunciation C,Hove D.S. Anglers  B,207592931,Gediminas Aleksandravisius (Shorty),31,613893140,Matt Warner,40
+2017-11-27,17,3,Annunciation C,Hove D.S. Anglers  B,207592931,(shorty) Gediminas Aleksandravicius,31,613893140,Matt Warner,40
 2017-11-27,17,3,Annunciation C,Hove D.S. Anglers  B,867613624,Ian Dunhill,77,809984729,Neil Scutt,8
 2017-11-27,17,3,Castle Club F,Portslade Sports,899206834,Jez Downs,43,623613383,Chris Marsh,33
 2017-11-27,17,3,Castle Club F,Portslade Sports,732415457,Barry Hall,54,835713833,Olly Stewart,59
@@ -4695,7 +4695,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2017-12-11,17,3,Portslade Sports,N.A.R.C C,430890681,Malcolm Cooper,50,733453947,Phil Canham,70
 2017-12-11,17,3,Portslade Sports,N.A.R.C C,688252012,Sean Cooper,17,411473516,Ray Canham,46
 2017-12-11,17,3,Southwick Sports  A,Annunciation C,493830161,Luke Strevens,44,951468676,Steve Burchett,52
-2017-12-11,17,3,Southwick Sports  A,Annunciation C,171346729,Des Heasman,29,207592931,Gediminas Aleksandravisius (Shorty),40
+2017-12-11,17,3,Southwick Sports  A,Annunciation C,171346729,Des Heasman,29,207592931,(shorty) Gediminas Aleksandravicius,40
 2017-12-11,17,3,Southwick Sports  A,Annunciation C,76011459,Kane Harman,56,32061370,Toby Prince-Iles,36
 2017-12-11,17,3,Southwick Sports  A,Annunciation C,910809545,Blake Harman,47,287057630,Darren Hearn,36
 2017-12-11,17,3,Southwick Sports  A,Annunciation C,971308746,Clive Harman,64,867613624,Ian Dunhill,57
@@ -4816,7 +4816,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2018-01-08,17,3,Moulsecoomb Club A,N.A.R.C C,394906196,Mick Mabbitt,18,402257815,Jim Cumming,46
 2018-01-08,17,3,Moulsecoomb Club A,N.A.R.C C,271464632,Paul Phillips,50,411473516,Ray Canham,33
 2018-01-08,17,3,Moulsecoomb Club A,N.A.R.C C,724342701,Nigel Lilley,53,833156731,Jez Saunders,38
-2018-01-08,17,3,Portslade Sports,Annunciation C,409212679,Mark Chapman,17,207592931,Gediminas Aleksandravisius (Shorty),53
+2018-01-08,17,3,Portslade Sports,Annunciation C,409212679,Mark Chapman,17,207592931,(shorty) Gediminas Aleksandravicius,53
 2018-01-08,17,3,Portslade Sports,Annunciation C,688252012,Sean Cooper,49,867613624,Ian Dunhill,55
 2018-01-08,17,3,Portslade Sports,Annunciation C,623613383,Chris Marsh,41,844676925,Kieran Williams,45
 2018-01-08,17,3,Portslade Sports,Annunciation C,430890681,Malcolm Cooper,60,27255501,Tom Lane,52
@@ -5069,7 +5069,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2018-02-12,17,2,St. Matthias D,Champion House  A,670034050,John Muzio,52,836895047,Ian McKay,38
 2018-02-12,17,3,Annunciation C,Southwick Sports  A,867613624,Ian Dunhill,52,493830161,Luke Strevens,44
 2018-02-12,17,3,Annunciation C,Southwick Sports  A,32061370,Toby Prince-Iles,30,171346729,Des Heasman,55
-2018-02-12,17,3,Annunciation C,Southwick Sports  A,207592931,Gediminas Aleksandravisius (Shorty),53,971308746,Clive Harman,35
+2018-02-12,17,3,Annunciation C,Southwick Sports  A,207592931,(shorty) Gediminas Aleksandravicius,53,971308746,Clive Harman,35
 2018-02-12,17,3,Annunciation C,Southwick Sports  A,287057630,Darren Hearn,46,76011459,Kane Harman,57
 2018-02-12,17,3,Annunciation C,Southwick Sports  A,27255501,Tom Lane,53,910809545,Blake Harman,42
 2018-02-12,17,3,Castle Club F,St. Matthias E,899206834,Jez Downs,31,839313888,Kevin Chrysanthou,57
@@ -5177,7 +5177,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2018-02-26,17,3,Annunciation C,Portslade Sports,867613624,Ian Dunhill,15,623613383,Chris Marsh,49
 2018-02-26,17,3,Annunciation C,Portslade Sports,844676925,Kieran Williams,56,688252012,Sean Cooper,26
 2018-02-26,17,3,Annunciation C,Portslade Sports,287057630,Darren Hearn,14,409212679,Mark Chapman,50
-2018-02-26,17,3,Annunciation C,Portslade Sports,207592931,Gediminas Aleksandravisius (Shorty),55,360777082,Mark Bishop,39
+2018-02-26,17,3,Annunciation C,Portslade Sports,207592931,(shorty) Gediminas Aleksandravicius,55,360777082,Mark Bishop,39
 2018-02-26,17,3,Annunciation C,Portslade Sports,27255501,Tom Lane,18,835713833,Olly Stewart,67
 2018-02-26,17,3,Hove D.S. Anglers  B,St. Matthias E,809984729,Neil Scutt,27,970786910,Kevin Sorrell,49
 2018-02-26,17,3,Hove D.S. Anglers  B,St. Matthias E,319057545,Brendan Lambe,32,174147986,Lee Cliff,52
@@ -5222,7 +5222,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2018-03-05,17,3,Castle Club F,N.A.R.C C,963206772,Dean Moore,55,382970973,Paul Shaw,43
 2018-03-05,17,3,Castle Club F,N.A.R.C C,537640521,Ian Stoner,55,733453947,Phil Canham,45
 2018-03-05,17,3,Moulsecoomb Club A,Annunciation C,535728699,Fred Cooper,38,867613624,Ian Dunhill,41
-2018-03-05,17,3,Moulsecoomb Club A,Annunciation C,724342701,Nigel Lilley,40,207592931,Gediminas Aleksandravisius (Shorty),50
+2018-03-05,17,3,Moulsecoomb Club A,Annunciation C,724342701,Nigel Lilley,40,207592931,(shorty) Gediminas Aleksandravicius,50
 2018-03-05,17,3,Moulsecoomb Club A,Annunciation C,394906196,Mick Mabbitt,13,844676925,Kieran Williams,45
 2018-03-05,17,3,Moulsecoomb Club A,Annunciation C,271464632,Paul Phillips,48,32061370,Toby Prince-Iles,13
 2018-03-05,17,3,Moulsecoomb Club A,Annunciation C,293122482,Stuart Maplesden,63,27255501,Tom Lane,46
@@ -5339,7 +5339,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2018-03-19,17,3,St. Matthias E,Annunciation C,970786910,Kevin Sorrell,48,32061370,Toby Prince-Iles,34
 2018-03-19,17,3,St. Matthias E,Annunciation C,788605510,Mark Rose,42,867613624,Ian Dunhill,35
 2018-03-19,17,3,St. Matthias E,Annunciation C,598846718,Ben Sorrell,44,27255501,Tom Lane,28
-2018-03-19,17,3,St. Matthias E,Annunciation C,889234854,Paul Smith,27,207592931,Gediminas Aleksandravisius (Shorty),51
+2018-03-19,17,3,St. Matthias E,Annunciation C,889234854,Paul Smith,27,207592931,(shorty) Gediminas Aleksandravicius,51
 2018-03-19,17,3,St. Matthias E,Annunciation C,866506631,Mark Smith,40,951468676,Steve Burchett,52
 2018-03-19,17,4,Moulsecoomb Club B,Goldstone Ex Serv. B,495939788,Tyrone Davis,19,820231590,Alan Rook,55
 2018-03-19,17,4,Moulsecoomb Club B,Goldstone Ex Serv. B,649240057,Mike Childs,22,386517733,Ady Halley,24
@@ -5377,7 +5377,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2018-03-26,17,3,Annunciation C,Hove D.S. Anglers  B,867613624,Ian Dunhill,57,114319292,Oliver Gorrod,50
 2018-03-26,17,3,Annunciation C,Hove D.S. Anglers  B,27255501,Tom Lane,18,598117191,Jerome Fowler,46
 2018-03-26,17,3,Annunciation C,Hove D.S. Anglers  B,32061370,Toby Prince-Iles,72,809984729,Neil Scutt,32
-2018-03-26,17,3,Annunciation C,Hove D.S. Anglers  B,207592931,Gediminas Aleksandravisius (Shorty),38,613893140,Matt Warner,50
+2018-03-26,17,3,Annunciation C,Hove D.S. Anglers  B,207592931,(shorty) Gediminas Aleksandravicius,38,613893140,Matt Warner,50
 2018-03-26,17,3,Annunciation C,Hove D.S. Anglers  B,287057630,Darren Hearn,30,612265840,Paul Honeysett,56
 2018-03-26,17,3,Castle Club F,Portslade Sports,732415457,Barry Hall,57,688252012,Sean Cooper,24
 2018-03-26,17,3,Castle Club F,Portslade Sports,899206834,Jez Downs,11,623613383,Chris Marsh,58
@@ -5912,7 +5912,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2018-10-22,18,3,Annunciation C,Moulsecoomb Club A,844676925,Kieran Williams,57,423038309,Ian Fennell,39
 2018-10-22,18,3,Annunciation C,Moulsecoomb Club A,867613624,Ian Dunhill,66,394906196,Mick Mabbitt,41
 2018-10-22,18,3,Annunciation C,Moulsecoomb Club A,32061370,Toby Prince-Iles,51,535728699,Fred Cooper,44
-2018-10-22,18,3,Annunciation C,Moulsecoomb Club A,207592931,Gediminas Aleksandravisius (Shorty),56,724342701,Nigel Lilley,28
+2018-10-22,18,3,Annunciation C,Moulsecoomb Club A,207592931,(shorty) Gediminas Aleksandravicius,56,724342701,Nigel Lilley,28
 2018-10-22,18,3,Annunciation C,Moulsecoomb Club A,27255501,Tom Lane,28,271464632,Paul Phillips,59
 2018-10-22,18,3,Hove D.S. Anglers  B,Castle Club F,809984729,Neil Scutt,27,899206834,Jez Downs,60
 2018-10-22,18,3,Hove D.S. Anglers  B,Castle Club F,901024459,Paul Charman,22,732415457,Barry Hall,41
@@ -5963,7 +5963,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2018-10-29,18,2,Portslade Sports A,Champion House  A,360777082,Mark Bishop,6,118679261,Mick Lott,74
 2018-10-29,18,2,Portslade Sports A,Champion House  A,409212679,Mark Chapman,47,114184042,Ian Smith,20
 2018-10-29,18,3,Annunciation C,Castle Club F,844676925,Kieran Williams,47,899206834,Jez Downs,26
-2018-10-29,18,3,Annunciation C,Castle Club F,207592931,Gediminas Aleksandravisius (Shorty),64,732415457,Barry Hall,69
+2018-10-29,18,3,Annunciation C,Castle Club F,207592931,(shorty) Gediminas Aleksandravicius,64,732415457,Barry Hall,69
 2018-10-29,18,3,Annunciation C,Castle Club F,27255501,Tom Lane,52,669385277,Steve Towler,43
 2018-10-29,18,3,Annunciation C,Castle Club F,32061370,Toby Prince-Iles,59,537640521,Ian Stoner,39
 2018-10-29,18,3,Annunciation C,Castle Club F,867613624,Ian Dunhill,51,35191252,Nigel Hayward,34
@@ -6079,7 +6079,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2018-11-05,18,3,Preston Club,Annunciation C,670870044,David Flanagan,51,867613624,Ian Dunhill,10
 2018-11-05,18,3,Preston Club,Annunciation C,740135236,Craig Marchant,55,844676925,Kieran Williams,29
 2018-11-05,18,3,Preston Club,Annunciation C,231445676,Tony Paice,75,32061370,Toby Prince-Iles,51
-2018-11-05,18,3,Preston Club,Annunciation C,688778183,Dean Paice,49,207592931,Gediminas Aleksandravisius (Shorty),26
+2018-11-05,18,3,Preston Club,Annunciation C,688778183,Dean Paice,49,207592931,(shorty) Gediminas Aleksandravicius,26
 2018-11-19,18,1,Annunciation B,Castle Club  A,444639447,Andy Wong,60,356397577,David Morgan,49
 2018-11-19,18,1,Annunciation B,Castle Club  A,463709832,Danny Wong,1,865803068,Dave Jones,75
 2018-11-19,18,1,Annunciation B,Castle Club  A,717256135,Trevor Pickard,4,96103077,Paul Norris,51
@@ -6359,7 +6359,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2019-01-14,18,3,Southwick Sports  A,Moulsecoomb Club A,971308746,Clive Harman,59,271464632,Paul Phillips,9
 2019-01-14,18,3,Southwick Sports  A,Moulsecoomb Club A,301960429,Brian Collins,56,293122482,Stuart Maplesden,21
 2019-01-07,18,3,Castle Club F,Annunciation C,899206834,Jez Downs,19,844676925,Kieran Williams,53
-2019-01-07,18,3,Castle Club F,Annunciation C,732415457,Barry Hall,35,207592931,Gediminas Aleksandravisius (Shorty),63
+2019-01-07,18,3,Castle Club F,Annunciation C,732415457,Barry Hall,35,207592931,(shorty) Gediminas Aleksandravicius,63
 2019-01-07,18,3,Castle Club F,Annunciation C,537640521,Ian Stoner,49,867613624,Ian Dunhill,39
 2019-01-07,18,3,Castle Club F,Annunciation C,669385277,Steve Towler,15,27255501,Tom Lane,55
 2019-01-07,18,3,Castle Club F,Annunciation C,35191252,Nigel Hayward,18,32061370,Toby Prince-Iles,43
@@ -6381,7 +6381,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2018-12-17,18,3,Moulsecoomb Club A,Annunciation C,394906196,Mick Mabbitt,55,27255501,Tom Lane,44
 2018-12-17,18,3,Moulsecoomb Club A,Annunciation C,724342701,Nigel Lilley,53,867613624,Ian Dunhill,19
 2018-12-17,18,3,Moulsecoomb Club A,Annunciation C,535728699,Fred Cooper,56,32061370,Toby Prince-Iles,11
-2018-12-17,18,3,Moulsecoomb Club A,Annunciation C,271464632,Paul Phillips,57,207592931,Gediminas Aleksandravisius (Shorty),37
+2018-12-17,18,3,Moulsecoomb Club A,Annunciation C,271464632,Paul Phillips,57,207592931,(shorty) Gediminas Aleksandravicius,37
 2018-12-17,18,3,Preston Club,Portslade Sports B,146404254,Randall Griffiths,69,484159049,Tommy Wright,38
 2018-12-17,18,3,Preston Club,Portslade Sports B,740135236,Craig Marchant,16,327948141,Ross Etheridge,56
 2018-12-17,18,3,Preston Club,Portslade Sports B,231445676,Tony Paice,70,567316488,Lee Millyard,33
@@ -6390,7 +6390,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2018-12-10,18,3,Annunciation C,Southwick Sports  A,27255501,Tom Lane,24,171346729,Des Heasman,54
 2018-12-10,18,3,Annunciation C,Southwick Sports  A,32061370,Toby Prince-Iles,53,971308746,Clive Harman,62
 2018-12-10,18,3,Annunciation C,Southwick Sports  A,867613624,Ian Dunhill,14,493830161,Luke Strevens,57
-2018-12-10,18,3,Annunciation C,Southwick Sports  A,207592931,Gediminas Aleksandravisius (Shorty),63,910809545,Blake Harman,42
+2018-12-10,18,3,Annunciation C,Southwick Sports  A,207592931,(shorty) Gediminas Aleksandravicius,63,910809545,Blake Harman,42
 2018-12-10,18,3,Hove D.S. Anglers  B,Moulsecoomb Club A,901024459,Paul Charman,55,349269645,Barry Thornton,36
 2018-12-10,18,3,Hove D.S. Anglers  B,Moulsecoomb Club A,319057545,Brendan Lambe,13,423038309,Ian Fennell,80
 2018-12-10,18,3,Hove D.S. Anglers  B,Moulsecoomb Club A,410854609,Dave Lowe,34,724342701,Nigel Lilley,60
@@ -6557,7 +6557,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2019-01-28,18,3,Annunciation C,Portslade Sports B,844676925,Kieran Williams,58,560540608,Mark Siddle,39
 2019-01-28,18,3,Annunciation C,Portslade Sports B,32061370,Toby Prince-Iles,35,567316488,Lee Millyard,64
 2019-01-28,18,3,Annunciation C,Portslade Sports B,27255501,Tom Lane,28,704007508,Alan Muir,64
-2019-01-28,18,3,Annunciation C,Portslade Sports B,207592931,Gediminas Aleksandravisius (Shorty),35,327948141,Ross Etheridge,49
+2019-01-28,18,3,Annunciation C,Portslade Sports B,207592931,(shorty) Gediminas Aleksandravicius,35,327948141,Ross Etheridge,49
 2019-01-28,18,3,Moulsecoomb Club A,Castle Club F,423038309,Ian Fennell,63,732415457,Barry Hall,25
 2019-01-28,18,3,Moulsecoomb Club A,Castle Club F,724342701,Nigel Lilley,25,899206834,Jez Downs,47
 2019-01-28,18,3,Moulsecoomb Club A,Castle Club F,535728699,Fred Cooper,4,879771694,Darren Parker,51
@@ -6623,7 +6623,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2019-02-11,18,3,Moulsecoomb Club A,Hove D.S. Anglers  B,724342701,Nigel Lilley,43,674307680,Neil McCafferty,52
 2019-02-11,18,3,Moulsecoomb Club A,Hove D.S. Anglers  B,394906196,Mick Mabbitt,46,612265840,Paul Honeysett,11
 2019-02-11,18,3,Southwick Sports  A,Annunciation C,493830161,Luke Strevens,56,867613624,Ian Dunhill,19
-2019-02-11,18,3,Southwick Sports  A,Annunciation C,171346729,Des Heasman,61,207592931,Gediminas Aleksandravisius (Shorty),26
+2019-02-11,18,3,Southwick Sports  A,Annunciation C,171346729,Des Heasman,61,207592931,(shorty) Gediminas Aleksandravicius,26
 2019-02-11,18,3,Southwick Sports  A,Annunciation C,76011459,Kane Harman,59,580088564,Tom Trafford,26
 2019-02-11,18,3,Southwick Sports  A,Annunciation C,910809545,Blake Harman,39,27255501,Tom Lane,48
 2019-02-11,18,3,Southwick Sports  A,Annunciation C,971308746,Clive Harman,44,32061370,Toby Prince-Iles,46
@@ -6666,7 +6666,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2019-02-18,18,2,St. Matthias D,Portslade Sports A,124523642,Tom Hayes,12,835713833,Olly Stewart,62
 2019-02-18,18,2,St. Matthias D,Portslade Sports A,873916947,Geoff Akehurst,10,623613383,Chris Marsh,57
 2019-02-18,18,2,St. Matthias D,Portslade Sports A,608140548,David Gillingham,57,688252012,Sean Cooper,26
-2019-02-18,18,3,Annunciation C,Moulsecoomb Club A,207592931,Gediminas Aleksandravisius (Shorty),60,535728699,Fred Cooper,29
+2019-02-18,18,3,Annunciation C,Moulsecoomb Club A,207592931,(shorty) Gediminas Aleksandravicius,60,535728699,Fred Cooper,29
 2019-02-18,18,3,Annunciation C,Moulsecoomb Club A,287057630,Darren Hearn,56,394906196,Mick Mabbitt,35
 2019-02-18,18,3,Annunciation C,Moulsecoomb Club A,867613624,Ian Dunhill,26,724342701,Nigel Lilley,34
 2019-02-18,18,3,Annunciation C,Moulsecoomb Club A,844676925,Kieran Williams,62,271464632,Paul Phillips,49
@@ -7430,7 +7430,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2019-09-23,19,3,Portslade Sports A,Portslade Sports B,409212679,Mark Chapman,35,327948141,Ross Etheridge,55
 2019-09-23,19,3,Portslade Sports A,Portslade Sports B,835713833,Olly Stewart,62,560540608,Mark Siddle,37
 2019-09-23,19,3,Portslade Sports A,Portslade Sports B,430890681,Malcolm Cooper,38,704007508,Alan Muir,54
-2019-09-16,19,3,Annunciation C,Portslade Sports A,207592931,Gediminas Aleksandravisius (Shorty),36,360777082,Mark Bishop,51
+2019-09-16,19,3,Annunciation C,Portslade Sports A,207592931,(shorty) Gediminas Aleksandravicius,36,360777082,Mark Bishop,51
 2019-09-16,19,3,Annunciation C,Portslade Sports A,32061370,Toby Prince-Iles,27,412256116,Andy Sutton,52
 2019-09-16,19,3,Annunciation C,Portslade Sports A,27255501,Tom Lane,29,623613383,Chris Marsh,69
 2019-09-16,19,3,Annunciation C,Portslade Sports A,504949622,Jimmy Moseley,36,688252012,Sean Cooper,55
@@ -7770,7 +7770,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2019-11-04,19,3,Castle Club F,Champion House  B,963206772,Dean Moore,57,852327692,Andy Fletcher,32
 2019-11-04,19,3,Castle Club F,Champion House  B,537640521,Ian Stoner,41,28382047,Steve Harrington,49
 2019-11-04,19,3,Portslade Sports A,Annunciation C,360777082,Mark Bishop,50,287057630,Darren Hearn,25
-2019-11-04,19,3,Portslade Sports A,Annunciation C,623613383,Chris Marsh,51,207592931,Gediminas Aleksandravisius (Shorty),38
+2019-11-04,19,3,Portslade Sports A,Annunciation C,623613383,Chris Marsh,51,207592931,(shorty) Gediminas Aleksandravicius,38
 2019-11-04,19,3,Portslade Sports A,Annunciation C,430890681,Malcolm Cooper,33,504949622,Jimmy Moseley,34
 2019-11-04,19,3,Portslade Sports A,Annunciation C,688252012,Sean Cooper,51,867613624,Ian Dunhill,9
 2019-11-04,19,3,Portslade Sports A,Annunciation C,835713833,Olly Stewart,52,27255501,Tom Lane,32
@@ -7827,7 +7827,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2019-11-11,19,2,St. Matthias D,St. Matthias E,112887737,Pip Akehurst,53,304563362,Dan Marchant,19
 2019-11-11,19,2,St. Matthias D,St. Matthias E,485725000,Steve Reid,40,259288142,Dale Edmonds,75
 2019-11-11,19,2,St. Matthias D,St. Matthias E,258340682,John Derret,52,598846718,Ben Sorrell,30
-2019-11-11,19,3,Annunciation C,Moulsecoomb Club A,207592931,Gediminas Aleksandravisius (Shorty),57,535728699,Fred Cooper,20
+2019-11-11,19,3,Annunciation C,Moulsecoomb Club A,207592931,(shorty) Gediminas Aleksandravicius,57,535728699,Fred Cooper,20
 2019-11-11,19,3,Annunciation C,Moulsecoomb Club A,32061370,Toby Prince-Iles,36,349269645,Barry Thornton,48
 2019-11-11,19,3,Annunciation C,Moulsecoomb Club A,287057630,Darren Hearn,50,394906196,Mick Mabbitt,13
 2019-11-11,19,3,Annunciation C,Moulsecoomb Club A,504949622,Jimmy Moseley,6,271464632,Paul Phillips,63
@@ -7898,7 +7898,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2019-11-18,19,3,Portslade Sports A,Champion House  B,360777082,Mark Bishop,36,929636592,Danny Wilson,6
 2019-11-18,19,3,Preston Club,Annunciation C,146404254,Randall Griffiths,33,287057630,Darren Hearn,23
 2019-11-18,19,3,Preston Club,Annunciation C,251261063,Rob Barnes,50,867613624,Ian Dunhill,63
-2019-11-18,19,3,Preston Club,Annunciation C,740135236,Craig Marchant,25,207592931,Gediminas Aleksandravisius (Shorty),47
+2019-11-18,19,3,Preston Club,Annunciation C,740135236,Craig Marchant,25,207592931,(shorty) Gediminas Aleksandravicius,47
 2019-11-18,19,3,Preston Club,Annunciation C,670870044,David Flanagan,58,27255501,Tom Lane,29
 2019-11-18,19,3,Preston Club,Annunciation C,688778183,Dean Paice,88,32061370,Toby Prince-Iles,48
 2019-11-18,19,4,Hove D.S. Anglers  B,N.A.R.C C,809984729,Neil Scutt,40,833156731,Jez Saunders,8
@@ -7980,7 +7980,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2019-11-25,19,3,Portslade Sports B,Annunciation C,484159049,Tommy Wright,50,867613624,Ian Dunhill,56
 2019-11-25,19,3,Portslade Sports B,Annunciation C,560540608,Mark Siddle,40,32061370,Toby Prince-Iles,38
 2019-11-25,19,3,Portslade Sports B,Annunciation C,704007508,Alan Muir,52,27255501,Tom Lane,25
-2019-11-25,19,3,Portslade Sports B,Annunciation C,567316488,Lee Millyard,56,207592931,Gediminas Aleksandravisius (Shorty),37
+2019-11-25,19,3,Portslade Sports B,Annunciation C,567316488,Lee Millyard,56,207592931,(shorty) Gediminas Aleksandravicius,37
 2019-11-25,19,4,Portslade Legion,Hove D.S. Anglers  B,845758589,Charlie James,52,326225304,Ian Raeburn,54
 2019-11-25,19,4,Portslade Legion,Hove D.S. Anglers  B,291816585,Jim Somers,29,598117191,Jerome Fowler,60
 2019-11-25,19,4,Portslade Legion,Hove D.S. Anglers  B,417786644,Eddie Collins,24,809984729,Neil Scutt,47
@@ -8084,7 +8084,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2019-12-16,19,3,Castle Club F,Annunciation C,899206834,Jez Downs,61,27255501,Tom Lane,43
 2019-12-16,19,3,Castle Club F,Annunciation C,732415457,Barry Hall,63,32061370,Toby Prince-Iles,12
 2019-12-16,19,3,Castle Club F,Annunciation C,963206772,Dean Moore,43,504949622,Jimmy Moseley,24
-2019-12-16,19,3,Castle Club F,Annunciation C,669385277,Steve Towler,5,207592931,Gediminas Aleksandravisius (Shorty),43
+2019-12-16,19,3,Castle Club F,Annunciation C,669385277,Steve Towler,5,207592931,(shorty) Gediminas Aleksandravicius,43
 2019-12-16,19,3,Champion House  B,Portslade Sports B,728690686,Rick Rothschild,48,484159049,Tommy Wright,38
 2019-12-16,19,3,Champion House  B,Portslade Sports B,852327692,Andy Fletcher,50,515177310,James Da Costa,68
 2019-12-16,19,3,Champion House  B,Portslade Sports B,737709582,Tony Browne,63,60309233,Dan Harley,40
@@ -8431,7 +8431,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2020-01-27,19,3,Annunciation C,Preston Club,32061370,Toby Prince-Iles,60,146404254,Randall Griffiths,23
 2020-01-27,19,3,Annunciation C,Preston Club,287057630,Darren Hearn,25,251261063,Rob Barnes,52
 2020-01-27,19,3,Annunciation C,Preston Club,504949622,Jimmy Moseley,12,670870044,David Flanagan,57
-2020-01-27,19,3,Annunciation C,Preston Club,207592931,Gediminas Aleksandravisius (Shorty),23,688778183,Dean Paice,41
+2020-01-27,19,3,Annunciation C,Preston Club,207592931,(shorty) Gediminas Aleksandravicius,23,688778183,Dean Paice,41
 2020-01-27,19,3,Champion House  B,Portslade Sports A,852327692,Andy Fletcher,63,360777082,Mark Bishop,50
 2020-01-27,19,3,Champion House  B,Portslade Sports A,728690686,Rick Rothschild,24,412256116,Andy Sutton,60
 2020-01-27,19,3,Champion House  B,Portslade Sports A,737709582,Tony Browne,47,623613383,Chris Marsh,63
@@ -8591,7 +8591,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2020-02-10,19,3,Champion House  B,Annunciation C,501266206,David Fox,14,504949622,Jimmy Moseley,50
 2020-02-10,19,3,Champion House  B,Annunciation C,852327692,Andy Fletcher,52,27255501,Tom Lane,48
 2020-02-10,19,3,Champion House  B,Annunciation C,880982797,Ray Hunter,14,867613624,Ian Dunhill,52
-2020-02-10,19,3,Champion House  B,Annunciation C,737709582,Tony Browne,47,207592931,Gediminas Aleksandravisius (Shorty),51
+2020-02-10,19,3,Champion House  B,Annunciation C,737709582,Tony Browne,47,207592931,(shorty) Gediminas Aleksandravicius,51
 2020-02-10,19,3,Portslade Sports B,Preston Club,567316488,Lee Millyard,55,146404254,Randall Griffiths,9
 2020-02-10,19,3,Portslade Sports B,Preston Club,560540608,Mark Siddle,50,617252199,Jim Griffiths,23
 2020-02-10,19,3,Portslade Sports B,Preston Club,327948141,Ross Etheridge,53,670870044,David Flanagan,27
@@ -8648,7 +8648,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2020-02-17,19,2,St. Matthias D,Southwick Sports  A,608140548,David Gillingham,48,171346729,Des Heasman,9
 2020-02-17,19,3,Annunciation C,Castle Club F,504949622,Jimmy Moseley,40,899206834,Jez Downs,8
 2020-02-17,19,3,Annunciation C,Castle Club F,867613624,Ian Dunhill,71,732415457,Barry Hall,39
-2020-02-17,19,3,Annunciation C,Castle Club F,207592931,Gediminas Aleksandravisius (Shorty),38,963206772,Dean Moore,15
+2020-02-17,19,3,Annunciation C,Castle Club F,207592931,(shorty) Gediminas Aleksandravicius,38,963206772,Dean Moore,15
 2020-02-17,19,3,Annunciation C,Castle Club F,27255501,Tom Lane,24,537640521,Ian Stoner,68
 2020-02-17,19,3,Annunciation C,Castle Club F,32061370,Toby Prince-Iles,62,879771694,Darren Parker,35
 2020-02-17,19,3,Portslade Sports B,Champion House  B,484159049,Tommy Wright,16,728690686,Rick Rothschild,50
@@ -8782,7 +8782,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2020-03-02,19,3,Castle Club F,Champion House  B,669385277,Steve Towler,37,501266206,David Fox,48
 2020-03-02,19,3,Castle Club F,Champion House  B,35191252,Nigel Hayward,59,39289507,Mick Laughlin,45
 2020-03-02,19,3,Portslade Sports A,Annunciation C,360777082,Mark Bishop,60,287057630,Darren Hearn,25
-2020-03-02,19,3,Portslade Sports A,Annunciation C,623613383,Chris Marsh,45,207592931,Gediminas Aleksandravisius (Shorty),26
+2020-03-02,19,3,Portslade Sports A,Annunciation C,623613383,Chris Marsh,45,207592931,(shorty) Gediminas Aleksandravicius,26
 2020-03-02,19,3,Portslade Sports A,Annunciation C,835713833,Olly Stewart,51,32061370,Toby Prince-Iles,41
 2020-03-02,19,3,Portslade Sports A,Annunciation C,688252012,Sean Cooper,69,27255501,Tom Lane,62
 2020-03-02,19,3,Portslade Sports A,Annunciation C,430890681,Malcolm Cooper,48,504949622,Jimmy Moseley,27
@@ -8841,7 +8841,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2020-03-09,19,2,St. Matthias D,St. Matthias E,124523642,Tom Hayes,57,788605510,Mark Rose,29
 2020-03-09,19,2,St. Matthias D,St. Matthias E,613889718,Terry Bashford,33,866506631,Mark Smith,55
 2020-03-09,19,2,St. Matthias D,St. Matthias E,670034050,John Muzio,43,598846718,Ben Sorrell,9
-2020-03-09,19,3,Annunciation C,Moulsecoomb Club A,207592931,Gediminas Aleksandravisius (Shorty),16,423038309,Ian Fennell,57
+2020-03-09,19,3,Annunciation C,Moulsecoomb Club A,207592931,(shorty) Gediminas Aleksandravicius,16,423038309,Ian Fennell,57
 2020-03-09,19,3,Annunciation C,Moulsecoomb Club A,504949622,Jimmy Moseley,49,535728699,Fred Cooper,29
 2020-03-09,19,3,Annunciation C,Moulsecoomb Club A,27255501,Tom Lane,44,349269645,Barry Thornton,64
 2020-03-09,19,3,Annunciation C,Moulsecoomb Club A,32061370,Toby Prince-Iles,79,271464632,Paul Phillips,26
@@ -8908,7 +8908,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2021-09-13,21,1,St. Matthias A,Castle Club G,341869673,Nigel Stilwell,49,426009127,Bav Patel,73
 2021-09-13,21,1,St. Matthias A,Castle Club G,802242736,Stephen Hughes,50,561171273,Andrew Norman,67
 2021-09-20,21,2,Annunciation,Hove Deep Sea Anglers,504949622,Jimmy Moseley,46,721321839,Matt Peake,31
-2021-09-20,21,2,Annunciation,Hove Deep Sea Anglers,207592931,Gediminas Aleksandravisius (Shorty),40,326225304,Ian Raeburn,47
+2021-09-20,21,2,Annunciation,Hove Deep Sea Anglers,207592931,(shorty) Gediminas Aleksandravicius,40,326225304,Ian Raeburn,47
 2021-09-20,21,2,Annunciation,Hove Deep Sea Anglers,867613624,Ian Dunhill,59,598117191,Jerome Fowler,16
 2021-09-20,21,2,Annunciation,Hove Deep Sea Anglers,32061370,Toby Prince-Iles,61,613893140,Matt Warner,27
 2021-09-20,21,2,Annunciation,Hove Deep Sea Anglers,288891270,Lewis Copping,63,319057545,Brendan Lambe,12
