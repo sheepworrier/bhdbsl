@@ -801,3 +801,9 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2021-09-15,21,1,St. Matthias B,Moulsecoomb  A,51829191,Nigel Stilwell,145,409261140,Fred Cooper,200
 2021-09-15,21,1,St. Matthias B,Moulsecoomb  A,64193048,Les Hogarth,185,176460812,Robin Powell,200
 2021-09-15,21,1,St. Matthias B,Moulsecoomb  A,992886832,Matthew Dumbleton,136,564133408,Paul Phillips,200
+2021-09-29,21,1,Moulsecoomb  A,St. Matthias A,176460812,Robin Powell,200,283685400,Barry Martin,186
+2021-09-29,21,1,Moulsecoomb  A,St. Matthias A,564133408,Paul Phillips,200,983276809,David Gillingham,152
+2021-09-29,21,1,Moulsecoomb  A,St. Matthias A,409261140,Fred Cooper,200,736978195,Jason Alford,93
+2021-09-29,21,1,St. Matthias B,Moulsecoomb  B,992886832,Matthew Dumbleton,128,39704614,Steve Linton,200
+2021-09-29,21,1,St. Matthias B,Moulsecoomb  B,104406518,Terry Bashford,200,138786345,Barry Thornton,197
+2021-09-29,21,1,St. Matthias B,Moulsecoomb  B,271881781,Lester Grice,186,546240999,Trevor Cain,200
