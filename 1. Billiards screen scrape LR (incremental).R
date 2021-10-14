@@ -1,4 +1,5 @@
 source("common-functions.R")
+library(assertthat)
 current_season <- 21
 # Import the reference data containing the results URLs per season per division
 # Only needs updating when a new season is added
@@ -28,13 +29,17 @@ results_new <- results_new %>%
 
 # Will definitely scrape any new results, plus any old results that we didn't
 # have frame details for
-# new_results_to_scrape <- setdiff(results_new, results_old)
-new_results_to_scrape <- results_new %>%
+new_results_to_check <- results_new %>%
   anti_join(results_old,
             by = c("fixture_date", "season", "division", "home_team",
                    "away_team", "home_sp", "away_sp", "home_op", "away_op",
                    "url")) %>%
-  select(fixture_date, season, division, home_team, away_team, url)
+  select(fixture_date, season, division, home_team, away_team,
+         home_score = home_op, away_score = away_op, url)
+new_results_to_scrape <- new_results_to_check %>%
+  select(-c(home_score, away_score))
+new_results_to_check <- new_results_to_check %>%
+  select(-c(season, division, url))
 # Read in the formerly scraped frame scores
 frame_scores_old <- read_csv("Billiards-frame-scores.csv",
                              col_types = cols(
@@ -68,7 +73,15 @@ frame_scores_new <-
   pmap_dfr(unname(new_results_to_scrape %>%
                     bind_rows(old_results_to_scrape)),
            scrape_match_page)
-
+# Sum the frame scores for comparing with the match scores
+summed_frame_scores <- frame_scores_new %>%
+  group_by(fixture_date, home_team, away_team) %>%
+  summarise(home_score = sum(home_score),
+            away_score = sum(away_score)) %>%
+  ungroup()
+# Check that the sum of the frame scores equals the overall match score
+assert_that(all.equal(summed_frame_scores, new_results_to_check),
+            msg = "ERROR: scores don't add up")
 # Combine and filter out BYEs
 frame_scores_total <- rbind(frame_scores_old, frame_scores_new)
 frame_scores_total <- frame_scores_total %>%
