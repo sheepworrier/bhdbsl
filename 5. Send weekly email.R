@@ -5,7 +5,7 @@ library(tidyr)
 library(dplyr)
 
 current_season <- 21
-snooker_week <- 5
+snooker_week <- 6
 billiards_week <- 5
 # test_to_address <- "djp42@cantab.net"
 email_addresses <- read_csv("team_email_addresses.csv")
