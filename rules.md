@@ -1,11 +1,5 @@
 # Players should be conversant with the following RULES
 
-## Temporary rule changes for current season
-In case of conflict with any other rules that follow, the rules in this section should take precedent.  If in doubt, please contact the League Secretary for clarification:
-
-- In Division 1 players are now able to play two frames in the same match - allowing any Division 1 player to be able play up to a total of 36 frames this season (3/4 of the maximum amount).
-- On match night the player(s) who will play twice will be decided by random draw at the start of the evening.
-
 ## 1. NAME:
 
 The League shall be called the Brighton, Hove & District Billiards & Snooker League.
