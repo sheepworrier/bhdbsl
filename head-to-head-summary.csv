@@ -23,6 +23,7 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 231445676,Tony Paice,529382351,Greg Foat,10,7,3
 278731588,Lester Grice,670256222,Connor Anderson,10,1,9
 278731588,Lester Grice,752709358,Chris Mason,10,1,9
+341869673,Nigel Stilwell,617751649,Lee Simpson,10,2,8
 426236650,Dave Parrott,649240057,Mike Childs,10,3,7
 523395206,Jamie Lashmar,617751649,Lee Simpson,10,4,6
 670256222,Connor Anderson,957784480,Harry Banks,10,8,2
@@ -32,7 +33,6 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 96103077,Paul Norris,323907964,Russ Hughes,9,6,3
 96103077,Paul Norris,752709358,Chris Mason,9,4,5
 266591683,Chris Roche,529382351,Greg Foat,9,9,0
-341869673,Nigel Stilwell,617751649,Lee Simpson,9,1,8
 384960657,Dave Lewney,957784480,Harry Banks,9,7,2
 428102632,Anthony Flynn,617751649,Lee Simpson,9,4,5
 428102632,Anthony Flynn,748064029,Paul Hughes,9,5,4
@@ -339,6 +339,7 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 608140548,David Gillingham,836895047,Ian McKay,5,4,1
 612265840,Paul Honeysett,936624299,Peter Gallant,5,2,3
 613893140,Matt Warner,724342701,Nigel Lilley,5,2,3
+617751649,Lee Simpson,748064029,Paul Hughes,5,3,2
 619390728,Steve Stylianou,666735933,Mike Collier,5,1,4
 646410961,Paul Scorer,662568995,Rob Wykes,5,4,1
 646410961,Paul Scorer,666735933,Mike Collier,5,2,3
@@ -357,6 +358,7 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 670256222,Connor Anderson,754250007,Freddie Blunden,5,2,3
 688778183,Dean Paice,704007508,Alan Muir,5,4,1
 732321233,Nathan Brooks,802242736,Steve Hughes,5,2,3
+748064029,Paul Hughes,754250007,Freddie Blunden,5,2,3
 748064029,Paul Hughes,957784480,Harry Banks,5,4,1
 748064029,Paul Hughes,963958265,Rodney Moogan,5,4,1
 752709358,Chris Mason,809788967,Brett Williams,5,5,0
@@ -640,7 +642,6 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 608140548,David Gillingham,809568302,Mark Johnson,4,1,3
 613893140,Matt Warner,835713833,Olly Stewart,4,0,4
 617751649,Lee Simpson,646410961,Paul Scorer,4,3,1
-617751649,Lee Simpson,748064029,Paul Hughes,4,3,1
 617751649,Lee Simpson,752709358,Chris Mason,4,2,2
 617751649,Lee Simpson,797962517,Dave Lewis,4,3,1
 617751649,Lee Simpson,947143243,Chris Davis,4,1,3
@@ -677,7 +678,6 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 733453947,Phil Canham,835713833,Olly Stewart,4,0,4
 736672590,Dean Perry,954080507,Sam Corsby,4,2,2
 745152759,Kevin Jewell,978156264,Bob Paine,4,2,2
-748064029,Paul Hughes,754250007,Freddie Blunden,4,1,3
 752709358,Chris Mason,764177688,Barry Martin,4,2,2
 764177688,Barry Martin,957784480,Harry Banks,4,3,1
 766684900,John Gillard,957784480,Harry Banks,4,3,1
@@ -696,6 +696,7 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 929636592,Danny Wilson,936624299,Peter Gallant,4,2,2
 936624299,Peter Gallant,953512654,Les Berry,4,2,2
 943667183,John Stone,966905561,Tony Dade,4,3,1
+954297832,Pav Sareen,957784480,Harry Banks,4,2,2
 966905561,Tony Dade,971308746,Clive Harman,4,0,4
 3,Neal Gozzett,619390728,Steve Stylianou,3,1,2
 3,Neal Gozzett,754250007,Freddie Blunden,3,0,3
@@ -1031,6 +1032,7 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 120138229,Adam Butler,848997254,Tom Parker,3,2,1
 124523642,Tom Hayes,412256116,Andy Sutton,3,1,2
 124523642,Tom Hayes,490170224,Jamie Matthews,3,2,1
+124523642,Tom Hayes,654650203,Alan O'Sullivan,3,0,3
 124523642,Tom Hayes,704007508,Alan Muir,3,2,1
 124523642,Tom Hayes,721321839,Matt Peake,3,1,2
 124523642,Tom Hayes,788605510,Mark Rose,3,1,2
@@ -1532,7 +1534,6 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 943667183,John Stone,978156264,Bob Paine,3,1,2
 947143243,Chris Davis,948504778,Jon Fordham,3,2,1
 949603489,Pete Bennett,954080507,Sam Corsby,3,1,2
-954297832,Pav Sareen,957784480,Harry Banks,3,2,1
 1,Tim Dawes,384960657,Dave Lewney,2,0,2
 1,Tim Dawes,444639447,Andy Wong,2,0,2
 1,Tim Dawes,837429850,Paul Beecham,2,1,1
@@ -2727,7 +2728,6 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 124523642,Tom Hayes,480154054,Jim Dunstall,2,2,0
 124523642,Tom Hayes,537640521,Ian Stoner,2,2,0
 124523642,Tom Hayes,574248035,Tony Mulhern,2,1,1
-124523642,Tom Hayes,654650203,Alan O'Sullivan,2,0,2
 124523642,Tom Hayes,677110925,Jake Dunstall,2,2,0
 124523642,Tom Hayes,680442672,Scott Lawson,2,1,1
 124523642,Tom Hayes,719124015,Tony Power,2,1,1
@@ -3673,6 +3673,7 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 501266206,David Fox,574248035,Tony Mulhern,2,0,2
 501266206,David Fox,613893140,Matt Warner,2,1,1
 501266206,David Fox,669385277,Steve Towler,2,1,1
+501266206,David Fox,670870044,David Flanagan,2,0,2
 501266206,David Fox,732415457,Barry Hall,2,0,2
 501266206,David Fox,809984729,Neil Scutt,2,1,1
 501266206,David Fox,831214643,Tony Shipley,2,1,1
@@ -3871,6 +3872,7 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 613893140,Matt Warner,948504778,Jon Fordham,2,0,2
 613893140,Matt Warner,968651401,Ryan Grover,2,2,0
 617252199,Jim Griffiths,728690686,Rick Rothschild,2,2,0
+617252199,Jim Griffiths,737709582,Tony Browne,2,0,2
 617751649,Lee Simpson,662568995,Rob Wykes,2,1,1
 617751649,Lee Simpson,717256135,Trevor Pickard,2,2,0
 617751649,Lee Simpson,732321233,Nathan Brooks,2,2,0
