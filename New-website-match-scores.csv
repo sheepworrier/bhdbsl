@@ -1,4 +1,7 @@
 fixture_date,season,division,home_team,away_team,home_score,away_score,URLs
+2021-11-01,21,1,Castle Club C,St. Matthias C,3,3,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31009945.html
+2021-11-01,21,1,N.A.R.C A,St. Matthias D,3,3,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31009948.html
+2021-11-01,21,1,St. Matthias A,Castle Club G,5,1,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31009951.html
 2021-10-25,21,1,Castle Club G,St. Matthias D,4,2,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31009936.html
 2021-10-25,21,1,St. Matthias C,St. Matthias A,1,5,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31009942.html
 2021-10-18,21,1,Castle Club C,St. Matthias A,1,5,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31009926.html
@@ -14,7 +17,11 @@ fixture_date,season,division,home_team,away_team,home_score,away_score,URLs
 2021-09-13,21,1,Castle Club C,St. Matthias C,2,4,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31009883.html
 2021-09-13,21,1,N.A.R.C A,St. Matthias D,4,2,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31009886.html
 2021-09-13,21,1,St. Matthias A,Castle Club G,0,6,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31009890.html
-2021-10-25,21,2,Brighton Castle Juniors,Hove Deep Sea Anglers,0,4,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31009919.html
+2021-11-01,21,2,Hove Deep Sea Anglers,Annunciation,1,4,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31010032.html
+2021-11-01,21,2,Portslade Sports B,Portslade Sports A,3,2,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31009949.html
+2021-11-01,21,2,Preston Club,Southwick Sports B,2,3,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31009982.html
+2021-11-01,21,2,Southwick Sports A,N.A.R.C B,4,1,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31010033.html
+2021-11-01,21,2,Southwick Sports C,Moulsecoomb Club,4,1,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31010034.html
 2021-10-25,21,2,Portslade Sports A,N.A.R.C B,3,2,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31009930.html
 2021-10-25,21,2,Preston Club,Champion House B,4,1,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31010091.html
 2021-10-25,21,2,Southwick Sports B,Moulsecoomb Club,3,2,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31010082.html
@@ -24,7 +31,6 @@ fixture_date,season,division,home_team,away_team,home_score,away_score,URLs
 2021-10-18,21,2,Portslade Legion,N.A.R.C B,3,2,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31010007.html
 2021-10-18,21,2,Portslade Sports B,Preston Club,2,3,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31009913.html
 2021-10-18,21,2,Southwick Sports B,Portslade Sports A,3,2,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31010100.html
-2021-10-18,21,2,Southwick Sports C,Brighton Castle Juniors,2,3,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31009915.html
 2021-10-11,21,2,Annunciation,N.A.R.C B,5,0,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31009944.html
 2021-10-11,21,2,Champion House B,Southwick Sports C,4,1,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31010047.html
 2021-10-11,21,2,Portslade Legion,Portslade Sports A,1,4,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31009972.html
@@ -33,23 +39,19 @@ fixture_date,season,division,home_team,away_team,home_score,away_score,URLs
 2021-10-11,21,2,Southwick Sports A,Moulsecoomb Club,3,2,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31010017.html
 2021-10-04,21,2,Annunciation,Portslade Sports B,1,4,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31009935.html
 2021-10-04,21,2,Champion House B,N.A.R.C B,4,1,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31009909.html
-2021-10-04,21,2,Portslade Legion,Brighton Castle Juniors,2,3,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31010015.html
 2021-10-04,21,2,Portslade Sports A,Southwick Sports A,5,0,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31009956.html
 2021-10-04,21,2,Southwick Sports B,Hove Deep Sea Anglers,2,3,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31010001.html
 2021-10-04,21,2,Southwick Sports C,Preston Club,1,4,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31010083.html
 2021-09-27,21,2,Annunciation,Southwick Sports B,2,3,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31010063.html
-2021-09-27,21,2,Brighton Castle Juniors,N.A.R.C B,3,2,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31009952.html
 2021-09-27,21,2,Moulsecoomb Club,Hove Deep Sea Anglers,3,2,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31009953.html
 2021-09-27,21,2,Portslade Legion,Southwick Sports C,3,2,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31010088.html
 2021-09-27,21,2,Portslade Sports B,Champion House B,3,2,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31009931.html
 2021-09-27,21,2,Preston Club,Southwick Sports A,3,2,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31009932.html
 2021-09-20,21,2,Annunciation,Hove Deep Sea Anglers,4,1,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31009891.html
-2021-09-20,21,2,Moulsecoomb Club,Brighton Castle Juniors,3,1,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31009893.html
 2021-09-20,21,2,N.A.R.C B,Portslade Legion,1,4,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31009894.html
 2021-09-20,21,2,Portslade Sports A,Preston Club,2,3,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31009895.html
 2021-09-20,21,2,Southwick Sports A,Portslade Sports B,3,2,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31009896.html
 2021-09-20,21,2,Southwick Sports C,Champion House B,2,3,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31009897.html
-2021-09-13,21,2,Brighton Castle Juniors,Southwick Sports B,0,5,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31009882.html
 2021-09-13,21,2,Champion House B,Annunciation,1,4,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31009884.html
 2021-09-13,21,2,Hove Deep Sea Anglers,Moulsecoomb Club,4,1,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31009885.html
 2021-09-13,21,2,Portslade Legion,Preston Club,1,4,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31009887.html
