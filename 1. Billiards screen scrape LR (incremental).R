@@ -39,7 +39,8 @@ new_results_to_check <- results_new %>%
 new_results_to_scrape <- new_results_to_check %>%
   select(-c(home_score, away_score))
 new_results_to_check <- new_results_to_check %>%
-  select(-c(season, division, url))
+  select(-c(season, division, url)) %>%
+  arrange(fixture_date, home_team, away_team)
 # Read in the formerly scraped frame scores
 frame_scores_old <- read_csv("Billiards-frame-scores.csv",
                              col_types = cols(
@@ -78,7 +79,8 @@ summed_frame_scores <- frame_scores_new %>%
   group_by(fixture_date, home_team, away_team) %>%
   summarise(home_score = sum(home_score),
             away_score = sum(away_score)) %>%
-  ungroup()
+  ungroup() %>%
+  arrange(fixture_date, home_team, away_team)
 # Check that the sum of the frame scores equals the overall match score
 assert_that(all.equal(summed_frame_scores, new_results_to_check),
             msg = "ERROR: scores don't add up")
