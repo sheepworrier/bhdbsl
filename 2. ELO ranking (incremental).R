@@ -215,6 +215,32 @@ colnames(player_ratings_output) <-
   c("debut_season", "debut_division", "id", "name",
     "initial_rating", "latest_rating", "latest_match_date", "frames_played")
 player_ratings_output$debut_season <- player_ratings_output$debut_season + 2000
+# Create additional output for Google Data Studio
+gds_output <- frame_scores %>%
+  mutate(Season = 2000 + season,
+         Location = "H") %>%
+  select(Date = fixture_date, Season, Division = division, Location,
+         `Player Team` = home_team, `Opponent Team` = away_team,
+         `Player ID` = home_player_id, `Player Name` = home_player_name,
+         `Player Score` = home_score, `Opponent ID` = away_player_id,
+         `Opponent Name` = away_player_name, `Opponent Score` = away_score,
+         `Player Rating` = post_match_home_rating,
+         `Opponent Rating` = post_match_away_rating) %>%
+  bind_rows(frame_scores %>%
+              mutate(Season = 2000 + season,
+                     Location = "A") %>%
+              select(Date = fixture_date, Season, Division = division, Location,
+                     `Player Team` = away_team, `Opponent Team` = home_team,
+                     `Player ID` = away_player_id, `Player Name` = away_player_name,
+                     `Player Score` = away_score, `Opponent ID` = home_player_id,
+                     `Opponent Name` = home_player_name, `Opponent Score` = home_score,
+                     `Player Rating` = post_match_away_rating,
+                     `Opponent Rating` = post_match_home_rating)) %>%
+  left_join(player_ratings_output %>%
+              mutate(`Latest Match` = TRUE) %>%
+              select(`Player ID` = id, Date = latest_match_date,
+                     `Player Rating` = latest_rating, `Latest Match`))
 
 write_csv(player_ratings_output, "Player-ratings-output.csv")
 write_csv(frame_scores, "Frame-scores.csv")
+write_csv(gds_output, "Google Data Studio Outputs/Snooker Frame Scores.csv")
