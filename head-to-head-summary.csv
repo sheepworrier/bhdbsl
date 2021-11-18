@@ -150,6 +150,7 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 394906196,Mick Mabbitt,430890681,Malcolm Cooper,6,1,5
 394906196,Mick Mabbitt,612265840,Paul Honeysett,6,4,2
 412256116,Andy Sutton,574248035,Tony Mulhern,6,1,5
+426009127,Bav Patel,428102632,Anthony Flynn,6,1,5
 426009127,Bav Patel,617751649,Lee Simpson,6,2,4
 428102632,Anthony Flynn,515186402,Ben Evans,6,1,5
 428102632,Anthony Flynn,754250007,Freddie Blunden,6,2,4
@@ -309,7 +310,6 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 411473516,Ray Canham,866506631,Mark Smith,5,3,2
 412256116,Andy Sutton,717256135,Trevor Pickard,5,2,3
 423038309,Ian Fennell,954080507,Sam Corsby,5,4,1
-426009127,Bav Patel,428102632,Anthony Flynn,5,1,4
 426009127,Bav Patel,523395206,Jamie Lashmar,5,1,4
 426009127,Bav Patel,662568995,Rob Wykes,5,3,2
 426009127,Bav Patel,670256222,Connor Anderson,5,1,4
@@ -1261,6 +1261,7 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 386517733,Ady Halley,943667183,John Stone,3,2,1
 390364577,Mark Bright,506581042,Glen Dartnell,3,3,0
 390364577,Mark Bright,617751649,Lee Simpson,3,1,2
+390364577,Mark Bright,773216781,Sean Payne,3,2,1
 390364577,Mark Bright,809568302,Mark Johnson,3,1,2
 392533233,Jack Wright,411473516,Ray Canham,3,0,3
 392533233,Jack Wright,498330760,Mo Collins,3,2,1
@@ -2722,6 +2723,7 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 120138229,Adam Butler,970786910,Kevin Sorrell,2,2,0
 121263797,Jim Pelling,341869673,Nigel Stilwell,2,1,1
 121263797,Jim Pelling,506581042,Glen Dartnell,2,0,2
+121263797,Jim Pelling,654650203,Alan O'Sullivan,2,0,2
 121263797,Jim Pelling,948504778,Jon Fordham,2,1,1
 123792666,Jamie Thomas,293577764,Dave Crosskey,2,2,0
 123792666,Jamie Thomas,392533233,Jack Wright,2,2,0
@@ -2741,6 +2743,7 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 124523642,Tom Hayes,436708540,Bob Henley,2,1,1
 124523642,Tom Hayes,463709832,Danny Wong,2,1,1
 124523642,Tom Hayes,480154054,Jim Dunstall,2,2,0
+124523642,Tom Hayes,506581042,Glen Dartnell,2,0,2
 124523642,Tom Hayes,537640521,Ian Stoner,2,2,0
 124523642,Tom Hayes,574248035,Tony Mulhern,2,1,1
 124523642,Tom Hayes,677110925,Jake Dunstall,2,2,0
@@ -3409,10 +3412,10 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 386517733,Ady Halley,968651401,Ryan Grover,2,0,2
 386517733,Ady Halley,980908578,Jake Whatman,2,2,0
 386517733,Ady Halley,982531289,Rory Griffiths,2,0,2
+390364577,Mark Bright,426009127,Bav Patel,2,1,1
 390364577,Mark Bright,662568995,Rob Wykes,2,2,0
 390364577,Mark Bright,670256222,Connor Anderson,2,1,1
 390364577,Mark Bright,748064029,Paul Hughes,2,1,1
-390364577,Mark Bright,773216781,Sean Payne,2,2,0
 390364577,Mark Bright,957784480,Harry Banks,2,1,1
 392533233,Jack Wright,409212679,Mark Chapman,2,0,2
 392533233,Jack Wright,444350794,Richard Freeman,2,1,1
@@ -3507,6 +3510,7 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 417786644,Eddie Collins,737709582,Tony Browne,2,0,2
 417786644,Eddie Collins,746406369,Loz O'Keefe,2,0,2
 417786644,Eddie Collins,831214643,Tony Shipley,2,0,2
+417786644,Eddie Collins,852327692,Andy Fletcher,2,0,2
 417786644,Eddie Collins,922772801,Nick Buonanno,2,0,2
 417786644,Eddie Collins,929636592,Danny Wilson,2,0,2
 417786644,Eddie Collins,943667183,John Stone,2,1,1
@@ -3534,6 +3538,7 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 426236650,Dave Parrott,966905561,Tony Dade,2,0,2
 428102632,Anthony Flynn,444639447,Andy Wong,2,1,1
 428102632,Anthony Flynn,629014363,Lee Shepherd,2,0,2
+428102632,Anthony Flynn,654650203,Alan O'Sullivan,2,2,0
 428102632,Anthony Flynn,662568995,Rob Wykes,2,0,2
 428102632,Anthony Flynn,732321233,Nathan Brooks,2,2,0
 428102632,Anthony Flynn,809647573,John Taylor,2,2,0
@@ -3953,6 +3958,7 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 670034050,John Muzio,866506631,Mark Smith,2,0,2
 670034050,John Muzio,889684922,Zixun Wang,2,0,2
 670034050,John Muzio,915035871,Kevin Graysmark,2,2,0
+670034050,John Muzio,948504778,Jon Fordham,2,1,1
 670034050,John Muzio,954297832,Pav Sareen,2,1,1
 670034050,John Muzio,974385564,Danny Booker,2,0,2
 670256222,Connor Anderson,717256135,Trevor Pickard,2,2,0
