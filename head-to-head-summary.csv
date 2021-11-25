@@ -57,6 +57,7 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 323907964,Russ Hughes,345558874,Zack Richardson,8,2,6
 394906196,Mick Mabbitt,936624299,Peter Gallant,8,1,7
 426009127,Bav Patel,646410961,Paul Scorer,8,1,7
+426009127,Bav Patel,754250007,Freddie Blunden,8,5,3
 506581042,Glen Dartnell,809568302,Mark Johnson,8,2,6
 515186402,Ben Evans,752709358,Chris Mason,8,3,5
 523395206,Jamie Lashmar,646410961,Paul Scorer,8,6,2
@@ -89,7 +90,7 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 345558874,Zack Richardson,523395206,Jamie Lashmar,7,4,3
 384960657,Dave Lewney,428102632,Anthony Flynn,7,4,3
 384960657,Dave Lewney,802242736,Steve Hughes,7,4,3
-426009127,Bav Patel,754250007,Freddie Blunden,7,5,2
+426009127,Bav Patel,617751649,Lee Simpson,7,3,4
 428102632,Anthony Flynn,948504778,Jon Fordham,7,5,2
 444350794,Richard Freeman,889234854,Paul Smith,7,3,4
 484159049,Tommy Wright,732415457,Barry Hall,7,5,2
@@ -151,7 +152,6 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 394906196,Mick Mabbitt,612265840,Paul Honeysett,6,4,2
 412256116,Andy Sutton,574248035,Tony Mulhern,6,1,5
 426009127,Bav Patel,428102632,Anthony Flynn,6,1,5
-426009127,Bav Patel,617751649,Lee Simpson,6,2,4
 428102632,Anthony Flynn,515186402,Ben Evans,6,1,5
 428102632,Anthony Flynn,754250007,Freddie Blunden,6,2,4
 428102632,Anthony Flynn,865803068,Dave Jones,6,3,3
@@ -162,6 +162,7 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 523395206,Jamie Lashmar,809568302,Mark Johnson,6,5,1
 535728699,Fred Cooper,688252012,Sean Cooper,6,5,1
 537640521,Ian Stoner,704007508,Alan Muir,6,2,4
+612265840,Paul Honeysett,936624299,Peter Gallant,6,2,4
 619390728,Steve Stylianou,748064029,Paul Hughes,6,4,2
 619390728,Steve Stylianou,809568302,Mark Johnson,6,2,4
 670256222,Connor Anderson,748064029,Paul Hughes,6,5,1
@@ -340,7 +341,6 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 567624732,Dave Brampton,953512654,Les Berry,5,3,2
 573567936,Steve Marriott,936624299,Peter Gallant,5,3,2
 608140548,David Gillingham,836895047,Ian McKay,5,4,1
-612265840,Paul Honeysett,936624299,Peter Gallant,5,2,3
 613893140,Matt Warner,724342701,Nigel Lilley,5,2,3
 617751649,Lee Simpson,748064029,Paul Hughes,5,3,2
 619390728,Steve Stylianou,666735933,Mike Collier,5,1,4
@@ -965,6 +965,7 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 41461520,Luke Pooley,231445676,Tony Paice,3,0,3
 41461520,Luke Pooley,417786644,Eddie Collins,3,1,2
 41461520,Luke Pooley,495939788,Tyrone Davis,3,3,0
+41461520,Luke Pooley,501266206,David Fox,3,0,3
 41461520,Luke Pooley,573567936,Steve Marriott,3,0,3
 41461520,Luke Pooley,676753614,Don James,3,0,3
 41461520,Luke Pooley,745152759,Kevin Jewell,3,1,2
@@ -985,6 +986,7 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 60575249,Ash Thurmer,646410961,Paul Scorer,3,0,3
 60575249,Ash Thurmer,666735933,Mike Collier,3,1,2
 60575249,Ash Thurmer,766684900,John Gillard,3,0,3
+60575249,Ash Thurmer,773216781,Sean Payne,3,0,3
 60575249,Ash Thurmer,794630189,Mark Coles,3,0,3
 60575249,Ash Thurmer,809568302,Mark Johnson,3,1,2
 69745818,Ian Bowles,70159035,Peter Rea,3,0,3
@@ -1159,6 +1161,7 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 278731588,Lester Grice,384960657,Dave Lewney,3,2,1
 278731588,Lester Grice,444639447,Andy Wong,3,3,0
 278731588,Lester Grice,515186402,Ben Evans,3,2,1
+278731588,Lester Grice,654650203,Alan O'Sullivan,3,3,0
 278731588,Lester Grice,683709119,Ronnie Beard,3,3,0
 278731588,Lester Grice,717256135,Trevor Pickard,3,2,1
 278731588,Lester Grice,800114325,Roger Whiteley,3,3,0
@@ -1261,6 +1264,7 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 386517733,Ady Halley,943667183,John Stone,3,2,1
 390364577,Mark Bright,506581042,Glen Dartnell,3,3,0
 390364577,Mark Bright,617751649,Lee Simpson,3,1,2
+390364577,Mark Bright,748064029,Paul Hughes,3,2,1
 390364577,Mark Bright,773216781,Sean Payne,3,2,1
 390364577,Mark Bright,809568302,Mark Johnson,3,1,2
 392533233,Jack Wright,411473516,Ray Canham,3,0,3
@@ -1312,6 +1316,7 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 428102632,Anthony Flynn,490170224,Jamie Matthews,3,3,0
 428102632,Anthony Flynn,529382351,Greg Foat,3,3,0
 428102632,Anthony Flynn,773216781,Sean Payne,3,3,0
+428102632,Anthony Flynn,954297832,Pav Sareen,3,1,2
 430890681,Malcolm Cooper,535728699,Fred Cooper,3,1,2
 430890681,Malcolm Cooper,820231590,Alan Rook,3,2,1
 430890681,Malcolm Cooper,867613624,Ian Dunhill,3,1,2
@@ -2504,7 +2509,6 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 41461520,Luke Pooley,293577764,Dave Crosskey,2,1,1
 41461520,Luke Pooley,351143642,Michael Palmer,2,0,2
 41461520,Luke Pooley,426236650,Dave Parrott,2,1,1
-41461520,Luke Pooley,501266206,David Fox,2,0,2
 41461520,Luke Pooley,612265840,Paul Honeysett,2,1,1
 41461520,Luke Pooley,688778183,Dean Paice,2,0,2
 41461520,Luke Pooley,804381932,Ryan Harman,2,1,1
@@ -2546,7 +2550,6 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 60575249,Ash Thurmer,480772114,Kevin Ward,2,0,2
 60575249,Ash Thurmer,523395206,Jamie Lashmar,2,1,1
 60575249,Ash Thurmer,595079459,Ben Fordham,2,0,2
-60575249,Ash Thurmer,773216781,Sean Payne,2,0,2
 60575249,Ash Thurmer,927588200,Tokki Yamaguchi,2,0,2
 69745818,Ian Bowles,231445676,Tony Paice,2,0,2
 69745818,Ian Bowles,288891270,Lewis Copping,2,0,2
@@ -2838,6 +2841,7 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 171346729,Des Heasman,319057545,Brendan Lambe,2,2,0
 171346729,Des Heasman,402257815,Jim Cumming,2,2,0
 171346729,Des Heasman,423038309,Ian Fennell,2,0,2
+171346729,Des Heasman,573567936,Steve Marriott,2,2,0
 171346729,Des Heasman,579164381,Danny Cattell,2,0,2
 171346729,Des Heasman,613893140,Matt Warner,2,0,2
 171346729,Des Heasman,670256222,Connor Anderson,2,0,2
@@ -3066,6 +3070,7 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 271464632,Paul Phillips,649240057,Mike Childs,2,2,0
 271464632,Paul Phillips,670870044,David Flanagan,2,0,2
 271464632,Paul Phillips,688252012,Sean Cooper,2,0,2
+271464632,Paul Phillips,704007508,Alan Muir,2,1,1
 271464632,Paul Phillips,717256135,Trevor Pickard,2,1,1
 271464632,Paul Phillips,802242736,Steve Hughes,2,0,2
 271464632,Paul Phillips,835713833,Olly Stewart,2,1,1
@@ -3084,7 +3089,6 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 278731588,Lester Grice,523395206,Jamie Lashmar,2,0,2
 278731588,Lester Grice,588421173,Anish Gokool,2,0,2
 278731588,Lester Grice,600385553,Darren Welfare,2,1,1
-278731588,Lester Grice,654650203,Alan O'Sullivan,2,2,0
 278731588,Lester Grice,764177688,Barry Martin,2,2,0
 278731588,Lester Grice,797962517,Dave Lewis,2,1,1
 278731588,Lester Grice,836895047,Ian McKay,2,1,1
@@ -3244,7 +3248,9 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 319057545,Brendan Lambe,971308746,Clive Harman,2,1,1
 323907964,Russ Hughes,356397577,David Morgan,2,1,1
 323907964,Russ Hughes,384960657,Dave Lewney,2,0,2
+323907964,Russ Hughes,390364577,Mark Bright,2,1,1
 323907964,Russ Hughes,426009127,Bav Patel,2,1,1
+323907964,Russ Hughes,428102632,Anthony Flynn,2,1,1
 323907964,Russ Hughes,654650203,Alan O'Sullivan,2,1,1
 323907964,Russ Hughes,662568995,Rob Wykes,2,1,1
 323907964,Russ Hughes,752709358,Chris Mason,2,1,1
@@ -3294,6 +3300,7 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 341869673,Nigel Stilwell,717256135,Trevor Pickard,2,2,0
 341869673,Nigel Stilwell,752709358,Chris Mason,2,1,1
 341869673,Nigel Stilwell,809568302,Mark Johnson,2,1,1
+341869673,Nigel Stilwell,963958265,Rodney Moogan,2,1,1
 345558874,Zack Richardson,384960657,Dave Lewney,2,2,0
 345558874,Zack Richardson,428102632,Anthony Flynn,2,2,0
 345558874,Zack Richardson,444639447,Andy Wong,2,2,0
@@ -3415,7 +3422,6 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 390364577,Mark Bright,426009127,Bav Patel,2,1,1
 390364577,Mark Bright,662568995,Rob Wykes,2,2,0
 390364577,Mark Bright,670256222,Connor Anderson,2,1,1
-390364577,Mark Bright,748064029,Paul Hughes,2,1,1
 390364577,Mark Bright,957784480,Harry Banks,2,1,1
 392533233,Jack Wright,409212679,Mark Chapman,2,0,2
 392533233,Jack Wright,444350794,Richard Freeman,2,1,1
@@ -3505,6 +3511,7 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 417786644,Eddie Collins,529382351,Greg Foat,2,0,2
 417786644,Eddie Collins,535728699,Fred Cooper,2,0,2
 417786644,Eddie Collins,612265840,Paul Honeysett,2,2,0
+417786644,Eddie Collins,613893140,Matt Warner,2,0,2
 417786644,Eddie Collins,688252012,Sean Cooper,2,0,2
 417786644,Eddie Collins,733453947,Phil Canham,2,0,2
 417786644,Eddie Collins,737709582,Tony Browne,2,0,2
@@ -3546,7 +3553,6 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 428102632,Anthony Flynn,837429850,Paul Beecham,2,2,0
 428102632,Anthony Flynn,850059806,Heng Wong,2,1,1
 428102632,Anthony Flynn,876526526,Ash Bull,2,0,2
-428102632,Anthony Flynn,954297832,Pav Sareen,2,1,1
 428102632,Anthony Flynn,963958265,Rodney Moogan,2,0,2
 430602171,Steve Morgan,800114325,Roger Whiteley,2,0,2
 430890681,Malcolm Cooper,501266206,David Fox,2,2,0
