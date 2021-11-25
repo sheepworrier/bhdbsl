@@ -243,4 +243,5 @@ gds_output <- frame_scores %>%
 
 write_csv(player_ratings_output, "Player-ratings-output.csv")
 write_csv(frame_scores, "Frame-scores.csv")
-write_csv(gds_output, "Google Data Studio Outputs/Snooker Frame Scores.csv")
+write_csv(gds_output, "Google Data Studio Outputs/Snooker Frame Scores.csv",
+          na = "")
