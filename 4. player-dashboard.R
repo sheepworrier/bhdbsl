@@ -35,12 +35,19 @@ player_record_summary <- player_record %>%
   mutate(losses = played - wins)
 # Calculate head-to-head stats
 head_to_head_summary <- player_record %>%
-  filter(player_id < opponent_id) %>%
   group_by(player_id, player_name, opponent_id, opponent_name) %>%
   summarise(played = n(), wins_left = sum(wins)) %>%
   filter(played > 1) %>%
   mutate(wins_right = played - wins_left) %>%
-  arrange(desc(played))
+  arrange(desc(played)) %>%
+  mutate(keep = if_else(wins_left > wins_right,
+                        1,
+                        if_else(wins_left == wins_right &
+                                  player_id < opponent_id,
+                                1,
+                                0))) %>%
+  filter(keep == 1) %>%
+  select(-keep)
 # Write out to CSVs
 write_csv(player_record_summary, "player-record-summary.csv")
 write_csv(head_to_head_summary, "head-to-head-summary.csv")
