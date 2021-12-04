@@ -241,6 +241,24 @@ gds_output <- frame_scores %>%
               select(`Player ID` = id, Date = latest_match_date,
                      `Player Rating` = latest_rating, `Latest Match`))
 
+# Convert ELO ratings to handicaps
+max_rating <- max(gds_output$`Player Rating`)
+min_rating <- min(gds_output$`Player Rating`)
+upper_bound <- 84
+lower_bound <- -14
+increment <- 7
+
+gds_output <- gds_output %>%
+  mutate(`Player Handicap` =
+           round((upper_bound - (upper_bound - lower_bound) /
+                    (max_rating - min_rating) * (`Player Rating` - lower_bound)) /
+                   increment, 0) * 7,
+         `Opponent Handicap` =
+           round((upper_bound - (upper_bound - lower_bound) /
+                    (max_rating - min_rating) * (`Opponent Rating` - lower_bound)) /
+                   increment, 0) * 7) %>%
+  select(-c(`Player Rating`, `Opponent Rating`))
+
 write_csv(player_ratings_output, "Player-ratings-output.csv")
 write_csv(frame_scores, "Frame-scores.csv")
 write_csv(gds_output, "Google Data Studio Outputs/Snooker Frame Scores.csv",
