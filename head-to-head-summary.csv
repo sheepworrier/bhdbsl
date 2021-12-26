@@ -90,6 +90,7 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 617751649,Lee Simpson,278731588,Lester Grice,7,5,2
 617751649,Lee Simpson,426009127,Bav Patel,7,4,3
 617751649,Lee Simpson,506581042,Glen Dartnell,7,5,2
+617751649,Lee Simpson,748064029,Paul Hughes,7,4,3
 617751649,Lee Simpson,794630189,Mark Coles,7,6,1
 646410961,Paul Scorer,133207947,Jake Richardson,7,5,2
 646410961,Paul Scorer,323907964,Russ Hughes,7,4,3
@@ -299,7 +300,6 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 574248035,Tony Mulhern,3508579,John Murray,5,4,1
 608140548,David Gillingham,836895047,Ian McKay,5,4,1
 613893140,Matt Warner,39289507,Mick Laughlin,5,5,0
-617751649,Lee Simpson,748064029,Paul Hughes,5,3,2
 646410961,Paul Scorer,341869673,Nigel Stilwell,5,4,1
 646410961,Paul Scorer,506581042,Glen Dartnell,5,4,1
 646410961,Paul Scorer,662568995,Rob Wykes,5,4,1
@@ -946,6 +946,7 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 231445676,Tony Paice,395,Herby Burchell,3,3,0
 231445676,Tony Paice,41461520,Luke Pooley,3,3,0
 231445676,Tony Paice,114184042,Ian Smith,3,3,0
+231445676,Tony Paice,349269645,Barry Thornton,3,3,0
 231445676,Tony Paice,363402934,Rod Phillippe,3,3,0
 231445676,Tony Paice,495939788,Tyrone Davis,3,3,0
 231445676,Tony Paice,503528426,Larry Maloney,3,2,1
@@ -1009,6 +1010,7 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 323907964,Russ Hughes,732321233,Nathan Brooks,3,3,0
 323907964,Russ Hughes,876526526,Ash Bull,3,2,1
 323907964,Russ Hughes,957784480,Harry Banks,3,3,0
+326225304,Ian Raeburn,804381932,Ryan Harman,3,2,1
 326342962,Geoff Randall,34787509,Dave McCarthy,3,3,0
 326342962,Geoff Randall,110039677,Mick Miller,3,2,1
 326342962,Geoff Randall,258340682,John Derret,3,3,0
@@ -1022,6 +1024,7 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 341869673,Nigel Stilwell,59858690,James Constable,3,2,1
 341869673,Nigel Stilwell,654650203,Alan O'Sullivan,3,2,1
 341869673,Nigel Stilwell,680442672,Scott Lawson,3,2,1
+341869673,Nigel Stilwell,754250007,Freddie Blunden,3,2,1
 341869673,Nigel Stilwell,773216781,Sean Payne,3,3,0
 345558874,Zack Richardson,136,Dave Bonwick,3,3,0
 345558874,Zack Richardson,11133032,Simon Dent,3,2,1
@@ -1180,6 +1183,7 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 574248035,Tony Mulhern,704007508,Alan Muir,3,2,1
 574248035,Tony Mulhern,866506631,Mark Smith,3,2,1
 579164381,Danny Cattell,27255501,Tom Lane,3,2,1
+579164381,Danny Cattell,613893140,Matt Warner,3,2,1
 598117191,Jerome Fowler,144776055,Brian Wilkes,3,2,1
 598552542,John Colgan,490170224,Jamie Matthews,3,2,1
 600385553,Darren Welfare,63,Colin Penson,3,3,0
@@ -1263,6 +1267,7 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 670256222,Connor Anderson,809568302,Mark Johnson,3,3,0
 670256222,Connor Anderson,948504778,Jon Fordham,3,3,0
 670256222,Connor Anderson,954297832,Pav Sareen,3,3,0
+670870044,David Flanagan,271464632,Paul Phillips,3,3,0
 670870044,David Flanagan,880982797,Ray Hunter,3,3,0
 676753614,Don James,41461520,Luke Pooley,3,3,0
 676753614,Don James,479705187,Keith McQueen,3,3,0
@@ -1283,6 +1288,7 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 688778183,Dean Paice,279543944,Peter Maurice,3,2,1
 688778183,Dean Paice,567624732,Dave Brampton,3,3,0
 688778183,Dean Paice,719124015,Tony Power,3,3,0
+688778183,Dean Paice,724342701,Nigel Lilley,3,3,0
 688778183,Dean Paice,835713833,Olly Stewart,3,2,1
 688778183,Dean Paice,852327692,Andy Fletcher,3,3,0
 688778183,Dean Paice,971308746,Clive Harman,3,3,0
@@ -2612,7 +2618,6 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 231445676,Tony Paice,39289507,Mick Laughlin,2,2,0
 231445676,Tony Paice,69745818,Ian Bowles,2,2,0
 231445676,Tony Paice,271464632,Paul Phillips,2,1,1
-231445676,Tony Paice,349269645,Barry Thornton,2,2,0
 231445676,Tony Paice,351143642,Michael Palmer,2,1,1
 231445676,Tony Paice,394906196,Mick Mabbitt,2,1,1
 231445676,Tony Paice,537640521,Ian Stoner,2,1,1
@@ -2704,6 +2709,7 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 278731588,Lester Grice,600385553,Darren Welfare,2,1,1
 278731588,Lester Grice,764177688,Barry Martin,2,2,0
 278731588,Lester Grice,797962517,Dave Lewis,2,1,1
+278731588,Lester Grice,802242736,Stephen Hughes,2,1,1
 278731588,Lester Grice,836895047,Ian McKay,2,1,1
 278731588,Lester Grice,884365412,Dave Haslam,2,1,1
 278731588,Lester Grice,947620111,Neil Cutler,2,2,0
@@ -2849,7 +2855,6 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 326225304,Ian Raeburn,279543944,Peter Maurice,2,2,0
 326225304,Ian Raeburn,351143642,Michael Palmer,2,2,0
 326225304,Ian Raeburn,713064363,John Trory,2,2,0
-326225304,Ian Raeburn,804381932,Ryan Harman,2,1,1
 326225304,Ian Raeburn,820231590,Alan Rook,2,1,1
 326225304,Ian Raeburn,845758589,Charlie James,2,2,0
 326342962,Geoff Randall,124523642,Tom Hayes,2,2,0
@@ -3411,7 +3416,6 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 579164381,Danny Cattell,172646809,Robin Powell,2,2,0
 579164381,Danny Cattell,231445676,Tony Paice,2,2,0
 579164381,Danny Cattell,294944526,Rob Teanby,2,2,0
-579164381,Danny Cattell,613893140,Matt Warner,2,1,1
 579164381,Danny Cattell,641692362,Bob Taylor,2,2,0
 579164381,Danny Cattell,800114325,Roger Whiteley,2,2,0
 579164381,Danny Cattell,858283721,Dave Dunstall,2,1,1
@@ -3606,7 +3610,6 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 670256222,Connor Anderson,878576746,Jon Hall,2,2,0
 670256222,Connor Anderson,947143243,Chris Davis,2,2,0
 670870044,David Flanagan,27255501,Tom Lane,2,2,0
-670870044,David Flanagan,271464632,Paul Phillips,2,2,0
 670870044,David Flanagan,501266206,David Fox,2,2,0
 670870044,David Flanagan,567624732,Dave Brampton,2,2,0
 670870044,David Flanagan,724342701,Nigel Lilley,2,2,0
@@ -3660,7 +3663,6 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 688778183,Dean Paice,669385277,Steve Towler,2,2,0
 688778183,Dean Paice,688252012,Sean Cooper,2,2,0
 688778183,Dean Paice,717256135,Trevor Pickard,2,2,0
-688778183,Dean Paice,724342701,Nigel Lilley,2,2,0
 688778183,Dean Paice,867613624,Ian Dunhill,2,1,1
 688778183,Dean Paice,910809545,Blake Harman,2,1,1
 688778183,Dean Paice,947620111,Neil Cutler,2,2,0
