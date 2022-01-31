@@ -5,8 +5,8 @@ library(tidyr)
 library(dplyr)
 
 current_season <- 21
-snooker_week <- 15
-billiards_week <- 13
+snooker_week <- 17
+billiards_week <- 15
 # test_to_address <- "djp42@cantab.net"
 email_addresses <- read_csv("team_email_addresses.csv")
 snooker_divisions <- data.frame(division = seq(1, 2),
@@ -112,12 +112,12 @@ msg <- paste0("<u><b>Snooker results for week ", snooker_week, "</b></u>",
                         headers = c("Division", "Home Team", "Home OP",
                                     "Home SP", "Away SP", "Away OP",
                                     "Away Team")),
-              "<br><br>",
+              "<br>",
               "<u><b>Billiards breaks this week</b></u>",
               "<br><br>",
               tableHTML(final_billiards_breaks, rownames = FALSE,
                         headers = c("Division", "Name", "High Break")),
-              "<br<br>",
+              "<br<br><br>",
               "<u><b>Top billiards breaks this season</b></u>",
               "<br><br>",
               tableHTML(highest_billiards_breaks_per_division, rownames = FALSE,
@@ -130,8 +130,6 @@ msg <- paste0("<u><b>Snooker results for week ", snooker_week, "</b></u>",
               "<tr><td>Open</td><td>Quarter Final</td><td>TBC</td></tr>",
               "<tr><td>Sexton</td><td>1</td><td>28/02/2022</td></tr>",
               "</table>",
-              "<br><br>",
-              "<u><b>Billiards results for week ", billiards_week, "</b></u>",
               "<br><br>",
               "Kind regards,<br>",
               "Dean Perry",

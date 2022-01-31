@@ -5691,7 +5691,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2012-09-10,12,4,National Association of Railway Clubs B,Castle Snooker Club F,858283721,Dave Dunstall,61,546362444,Anthony Trory,14,768.9790180343844,441.1541281388557
 2012-09-10,12,4,National Association of Railway Clubs B,Castle Snooker Club F,199,Mark Holloway,12,948504778,Jon Fordham,55,451.8951652748538,428.7710925228225
 2012-09-10,12,4,National Association of Railway Clubs B,Castle Snooker Club F,677110925,Jake Dunstall,32,713064363,John Trory,23,401.07477975916277,263.24622623317947
-2012-09-10,12,4,National Association of Railway Clubs B,Castle Snooker Club F,480154054,Jim Dunstall,15,426,Omar Hilton,39,358.8957554504246,517.0365966127481
+2012-09-10,12,4,National Association of Railway Clubs B,Castle Snooker Club F,480154054,Jim Dunstall,15,727093355,Omar Hilton,39,358.8957554504246,517.0365966127481
 2012-09-10,12,4,National Association of Railway Clubs B,Castle Snooker Club F,439,Stacey Kaukel,9,825399596,Pat Adams,51,498.65051903114187,518.6505190311418
 2012-09-10,12,4,St. Matthias D,Rileys B,670034050,John Muzio,55,181,Dave Roughley,36,578.0087490885118,637.0860863306432
 2012-09-10,12,4,St. Matthias D,Rileys B,267,John Grice,24,180,Pat Sweeney,46,516.8470999668551,576.0973740582104
@@ -5774,7 +5774,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2012-09-17,12,3,National Association of Railway Clubs C,Rileys A,833156731,Jez Saunders,23,889234854,Paul Smith,39,437.96195457570593,466.9224877051206
 2012-09-17,12,3,National Association of Railway Clubs C,Rileys A,56647981,Keith Mitchell,20,970786910,Kevin Sorrell,70,449.1135312544843,706.4139478034301
 2012-09-17,12,4,Castle Snooker Club F,Goldstone Ex-Services Club B,825399596,Pat Adams,32,16253983,Tony Simmonds,71,510.7298822161221,798.8883496099813
-2012-09-17,12,4,Castle Snooker Club F,Goldstone Ex-Services Club B,426,Omar Hilton,56,386517733,Ady Halley,26,526.624993113468,466.5680278241817
+2012-09-17,12,4,Castle Snooker Club F,Goldstone Ex-Services Club B,727093355,Omar Hilton,56,386517733,Ady Halley,26,526.624993113468,466.5680278241817
 2012-09-17,12,4,Castle Snooker Club F,Goldstone Ex-Services Club B,713064363,John Trory,28,294,Bob Tullett,61,257.07933346258227,596.6609082627098
 2012-09-17,12,4,Castle Snooker Club F,Goldstone Ex-Services Club B,948504778,Jon Fordham,53,573567936,Steve Marriott,17,437.99116847599936,357.50811456241956
 2012-09-17,12,4,Castle Snooker Club F,Goldstone Ex-Services Club B,40,Shykul Malique,48,83,Eric Gumbrell,32,501.5085669440952,343.32517959797184
@@ -6237,7 +6237,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2012-10-22,12,3,National Association of Railway Clubs C,Goldstone Ex-Services Club A,382970973,Paul Shaw,55,954080507,Sam Corsby,52,597.608387003659,586.0881690750508
 2012-10-22,12,3,National Association of Railway Clubs C,Goldstone Ex-Services Club A,733453947,Phil Canham,62,455401154,Kai Ellis,32,504.31720071735316,735.3295944711025
 2012-10-22,12,4,Castle Snooker Club F,St. Matthias D,825399596,Pat Adams,52,670034050,John Muzio,28,532.0506369119994,549.227805352062
-2012-10-22,12,4,Castle Snooker Club F,St. Matthias D,426,Omar Hilton,57,278,Dave Fairbairn,25,536.0329549154832,458.3459989173308
+2012-10-22,12,4,Castle Snooker Club F,St. Matthias D,727093355,Omar Hilton,57,278,Dave Fairbairn,25,536.0329549154832,458.3459989173308
 2012-10-22,12,4,Castle Snooker Club F,St. Matthias D,713064363,John Trory,26,275738778,John Da Silva,67,248.22165623238416,517.0927728514614
 2012-10-22,12,4,Castle Snooker Club F,St. Matthias D,429738563,Adam Buckingham,55,703030938,Ollie Thurmer,50,490.8053747144843,498.36614449848554
 2012-10-22,12,4,Castle Snooker Club F,St. Matthias D,948504778,Jon Fordham,43,873916947,Geoff Akehurst,24,440.50463564374775,337.0190306806579
@@ -6325,7 +6325,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2012-10-29,12,3,National Association of Railway Clubs C,Portslade Sports Centre A,833156731,Jez Saunders,17,327948141,Ross Etheridge,51,412.74327400955974,581.6213828407122
 2012-10-29,12,3,National Association of Railway Clubs C,Portslade Sports Centre A,402257815,Jim Cumming,19,88,Steve Collins,63,433.27221147449336,815.7210646310314
 2012-10-29,12,4,Castle Snooker Club F,National Association of Railway Clubs B,825399596,Pat Adams,67,858283721,Dave Dunstall,34,543.7713610256644,741.4875051274913
-2012-10-29,12,4,Castle Snooker Club F,National Association of Railway Clubs B,426,Omar Hilton,51,199,Mark Holloway,15,545.4191327491174,464.6466974738905
+2012-10-29,12,4,Castle Snooker Club F,National Association of Railway Clubs B,727093355,Omar Hilton,51,199,Mark Holloway,15,545.4191327491174,464.6466974738905
 2012-10-29,12,4,Castle Snooker Club F,National Association of Railway Clubs B,713064363,John Trory,17,677110925,Jake Dunstall,56,240.50584378969796,402.90444663972517
 2012-10-29,12,4,Castle Snooker Club F,National Association of Railway Clubs B,546362444,Anthony Trory,48,480154054,Jim Dunstall,23,450.28697949436014,361.6171226222708
 2012-10-29,12,4,Castle Snooker Club F,National Association of Railway Clubs B,38,Rob Bowden,55,202,Bob Firth,35,428.31247740781527,423.6333333370376
@@ -6587,7 +6587,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2012-11-19,12,3,Rileys A,Portslade Sports Centre A,464085958,Gerwyn Bowen,39,141540226,Pete Hazell,54,478.12000206645007,756.9713216108998
 2012-11-19,12,3,Rileys A,Portslade Sports Centre A,866506631,Mark Smith,17,608140548,David Gillingham,52,531.6763881882091,914.4059451666341
 2012-11-19,12,3,Rileys A,Portslade Sports Centre A,598846718,Ben Sorrell,47,327948141,Ross Etheridge,13,445.1187530992266,590.9086702413657
-2012-11-19,12,4,Castle Snooker Club F,Southwick Sports A,426,Omar Hilton,68,805165161,Steve Owen,19,555.3825456368517,531.4792065668671
+2012-11-19,12,4,Castle Snooker Club F,Southwick Sports A,727093355,Omar Hilton,68,805165161,Steve Owen,19,555.3825456368517,531.4792065668671
 2012-11-19,12,4,Castle Snooker Club F,Southwick Sports A,825399596,Pat Adams,58,915035871,Kevin Graysmark,12,553.0357599990984,459.9887733829925
 2012-11-19,12,4,Castle Snooker Club F,Southwick Sports A,713064363,John Trory,30,420230435,Jack Fielder,66,247.6606085312583,599.0578706408076
 2012-11-19,12,4,Castle Snooker Club F,Southwick Sports A,948504778,Jon Fordham,44,307,Alister Morrison,52,432.774645128753,706.9541418322353
@@ -6876,7 +6876,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2012-12-17,12,4,St. Matthias D,Castle Snooker Club F,124523642,Tom Hayes,46,713064363,John Trory,54,517.3274988253128,254.0731588697358
 2012-12-17,12,4,St. Matthias D,Castle Snooker Club F,670034050,John Muzio,63,948504778,Jon Fordham,24,584.0215187815242,433.7993258080886
 2012-12-17,12,4,St. Matthias D,Castle Snooker Club F,278,Dave Fairbairn,25,825399596,Pat Adams,55,423.2664298890671,561.8074496872473
-2012-12-17,12,4,St. Matthias D,Castle Snooker Club F,275738778,John Da Silva,30,426,Omar Hilton,55,533.3384339516344,565.2719081459197
+2012-12-17,12,4,St. Matthias D,Castle Snooker Club F,275738778,John Da Silva,30,727093355,Omar Hilton,55,533.3384339516344,565.2719081459197
 2012-12-17,12,4,St. Matthias D,Castle Snooker Club F,172899919,Derek Dale,10,429738563,Adam Buckingham,50,316.4829824022959,470.33325864421516
 2012-12-17,12,5,Brighton Trades Labour Club,Portslade Royal British Legion,490170224,Jamie Matthews,43,229719541,Scott Manning,47,437.73272574258584,831.5088052150372
 2012-12-17,12,5,Brighton Trades Labour Club,Portslade Royal British Legion,98,Tony Collins,52,845758589,Charlie James,31,386.0411293432028,312.0784187402826
@@ -6960,7 +6960,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2013-01-07,12,4,Castle Snooker Club D,Southwick Sports A,899206834,Jez Downs,27,420230435,Jack Fielder,56,401.91178958189306,628.2032583135057
 2013-01-07,12,4,Castle Snooker Club D,Southwick Sports A,537640521,Ian Stoner,65,307,Alister Morrison,40,425.4079634994084,701.7405848916305
 2013-01-07,12,4,Castle Snooker Club D,Southwick Sports A,225247539,Barry Knight,36,301960429,Brian Collins,50,416.11420025598767,658.0102197507881
-2013-01-07,12,4,National Association of Railway Clubs B,Castle Snooker Club F,858283721,Dave Dunstall,24,426,Omar Hilton,49,751.7850635708853,576.7622843219366
+2013-01-07,12,4,National Association of Railway Clubs B,Castle Snooker Club F,858283721,Dave Dunstall,24,727093355,Omar Hilton,49,751.7850635708853,576.7622843219366
 2013-01-07,12,4,National Association of Railway Clubs B,Castle Snooker Club F,202,Bob Firth,32,948504778,Jon Fordham,45,384.09169144728946,443.31354920199226
 2013-01-07,12,4,National Association of Railway Clubs B,Castle Snooker Club F,223983583,Carl Wentworth,28,713064363,John Trory,52,473.9441249272528,267.2170752319207
 2013-01-07,12,4,National Association of Railway Clubs B,Castle Snooker Club F,480154054,Jim Dunstall,43,429738563,Adam Buckingham,31,366.87661464127564,458.9425503982592
@@ -7048,7 +7048,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2013-01-14,12,3,National Association of Railway Clubs C,Rileys A,144776055,Brian Wilkes,52,598846718,Ben Sorrell,33,512.5032870988558,426.6253775949942
 2013-01-14,12,4,Castle Snooker Club F,Goldstone Ex-Services Club B,38,Rob Bowden,52,386517733,Ady Halley,43,438.0815066889239,414.34331226396836
 2013-01-14,12,4,Castle Snooker Club F,Goldstone Ex-Services Club B,510918620,Robert Bowden,52,386517733,Ady Halley,43,437.29397130099494,404.499007964219
-2013-01-14,12,4,Castle Snooker Club F,Goldstone Ex-Services Club B,426,Omar Hilton,61,149,Tony Nealgrove,27,583.67352338768,297.635696360395
+2013-01-14,12,4,Castle Snooker Club F,Goldstone Ex-Services Club B,727093355,Omar Hilton,61,149,Tony Nealgrove,27,583.67352338768,297.635696360395
 2013-01-14,12,4,Castle Snooker Club F,Goldstone Ex-Services Club B,713064363,John Trory,47,573567936,Steve Marriott,37,278.5406440903307,337.4201602339956
 2013-01-14,12,4,Castle Snooker Club F,Goldstone Ex-Services Club B,429738563,Adam Buckingham,42,16253983,Tony Simmonds,67,451.84766614294824,841.8804170310993
 2013-01-14,12,4,Castle Snooker Club F,Goldstone Ex-Services Club B,948504778,Jon Fordham,92,83,Eric Gumbrell,21,451.94184234352076,327.73627408935334
@@ -7131,7 +7131,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2013-01-21,12,4,Castle Snooker Club F,Rileys B,825399596,Pat Adams,62,179,Mick Jones,48,571.7339138148834,543.6787015876793
 2013-01-21,12,4,Castle Snooker Club F,Rileys B,546362444,Anthony Trory,49,180,Pat Sweeney,35,465.11371722986866,542.2894148407348
 2013-01-21,12,4,Castle Snooker Club F,Rileys B,713064363,John Trory,39,183,Simon Alexander,59,270.60523112945106,431.4140474222574
-2013-01-21,12,4,Castle Snooker Club F,Rileys B,426,Omar Hilton,54,181,Dave Roughley,55,574.4206139882423,687.1793827071708
+2013-01-21,12,4,Castle Snooker Club F,Rileys B,727093355,Omar Hilton,54,181,Dave Roughley,55,574.4206139882423,687.1793827071708
 2013-01-21,12,4,Castle Snooker Club F,Rileys B,948504778,Jon Fordham,61,182,Brian Welfare,33,461.52476457347024,406.16932837622625
 2013-01-21,12,4,Goldstone Ex-Services Club B,Castle Snooker Club D,16253983,Tony Simmonds,50,669385277,Steve Towler,10,849.6202701717874,523.7407942459103
 2013-01-21,12,4,Goldstone Ex-Services Club B,Castle Snooker Club D,386517733,Ady Halley,57,537640521,Ian Stoner,36,414.7509513296099,415.1560201340175
@@ -7397,7 +7397,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2013-02-11,12,3,Rileys A,Champion House C,174147986,Lee Cliff,45,3508579,John Murray,37,589.3633142733732,593.4976591908982
 2013-02-11,12,3,Rileys A,Champion House C,970786910,Kevin Sorrell,41,880982797,Ray Hunter,46,725.37933592328,588.9217156694995
 2013-02-11,12,3,Rileys A,Champion House C,866506631,Mark Smith,54,506320151,Frank Taylor,10,486.38640084505323,595.9640693072142
-2013-02-11,12,4,Castle Snooker Club D,Castle Snooker Club F,732415457,Barry Hall,34,426,Omar Hilton,56,487.98646260681994,583.7006829643029
+2013-02-11,12,4,Castle Snooker Club D,Castle Snooker Club F,732415457,Barry Hall,34,727093355,Omar Hilton,56,487.98646260681994,583.7006829643029
 2013-02-11,12,4,Castle Snooker Club D,Castle Snooker Club F,963206772,Dean Moore,16,948504778,Jon Fordham,55,639.2376253607356,464.9168274281128
 2013-02-11,12,4,Castle Snooker Club D,Castle Snooker Club F,669385277,Steve Towler,64,429738563,Adam Buckingham,38,533.0038735972762,442.58458679158224
 2013-02-11,12,4,Castle Snooker Club D,Castle Snooker Club F,225247539,Barry Knight,29,546362444,Anthony Trory,62,416.453549152465,474.67495979908927
@@ -7483,7 +7483,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2013-02-18,12,3,National Association of Railway Clubs C,Goldstone Ex-Services Club A,402257815,Jim Cumming,16,412256116,Andy Sutton,51,401.868979137191,676.2200331788151
 2013-02-18,12,3,National Association of Railway Clubs C,Goldstone Ex-Services Club A,411473516,Ray Canham,16,954080507,Sam Corsby,55,473.8336098521853,598.6841554424183
 2013-02-18,12,3,National Association of Railway Clubs C,Goldstone Ex-Services Club A,733453947,Phil Canham,69,436708540,Bob Henley,27,558.7719426712448,548.9356558129516
-2013-02-18,12,4,Castle Snooker Club F,St. Matthias D,426,Omar Hilton,69,124523642,Tom Hayes,17,593.2680045482491,525.7172831916686
+2013-02-18,12,4,Castle Snooker Club F,St. Matthias D,727093355,Omar Hilton,69,124523642,Tom Hayes,17,593.2680045482491,525.7172831916686
 2013-02-18,12,4,Castle Snooker Club F,St. Matthias D,948504778,Jon Fordham,62,278,Dave Fairbairn,45,474.3391191000501,404.71107402105207
 2013-02-18,12,4,Castle Snooker Club F,St. Matthias D,546362444,Anthony Trory,31,670034050,John Muzio,65,465.7236376821617,594.8458594236274
 2013-02-18,12,4,Castle Snooker Club F,St. Matthias D,713064363,John Trory,55,703030938,Ollie Thurmer,23,288.8055525206601,477.07195055622395
@@ -7576,7 +7576,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2013-02-25,12,3,National Association of Railway Clubs C,Portslade Sports Centre A,382970973,Paul Shaw,33,89,Mike Atkins,70,582.2002173676186,863.8787590941918
 2013-02-25,12,3,National Association of Railway Clubs C,Portslade Sports Centre A,733453947,Phil Canham,44,608140548,David Gillingham,50,551.3061914081351,945.587886572443
 2013-02-25,12,3,National Association of Railway Clubs C,Portslade Sports Centre A,56647981,Keith Mitchell,11,88,Steve Collins,65,433.29641656077564,872.9473567377961
-2013-02-25,12,4,Castle Snooker Club F,National Association of Railway Clubs B,426,Omar Hilton,46,677110925,Jake Dunstall,11,601.6705525782685,421.43004931926754
+2013-02-25,12,4,Castle Snooker Club F,National Association of Railway Clubs B,727093355,Omar Hilton,46,677110925,Jake Dunstall,11,601.6705525782685,421.43004931926754
 2013-02-25,12,4,Castle Snooker Club F,National Association of Railway Clubs B,713064363,John Trory,37,439,Stacey Kaukel,46,281.18723017092145,476.99951820306245
 2013-02-25,12,4,Castle Snooker Club F,National Association of Railway Clubs B,948504778,Jon Fordham,57,858283721,Dave Dunstall,21,486.59817615710597,738.9349987964962
 2013-02-25,12,4,Castle Snooker Club F,National Association of Railway Clubs B,546362444,Anthony Trory,56,480154054,Jim Dunstall,23,474.1792206263879,332.65863949619904
@@ -7836,7 +7836,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2013-03-18,12,3,Rileys A,Portslade Sports Centre A,464085958,Gerwyn Bowen,48,327948141,Ross Etheridge,35,504.6236949413583,579.0747945664284
 2013-03-18,12,3,Rileys A,Portslade Sports Centre A,970786910,Kevin Sorrell,79,608140548,David Gillingham,30,743.06368675023,949.7276147919478
 2013-03-18,12,3,Rileys A,Portslade Sports Centre A,866506631,Mark Smith,58,88,Steve Collins,33,491.7249014009937,867.4746799095583
-2013-03-18,12,4,Castle Snooker Club F,Southwick Sports A,426,Omar Hilton,73,138,Jack McCulloch,40,610.7782227481954,493.9818459693182
+2013-03-18,12,4,Castle Snooker Club F,Southwick Sports A,727093355,Omar Hilton,73,138,Jack McCulloch,40,610.7782227481954,493.9818459693182
 2013-03-18,12,4,Castle Snooker Club F,Southwick Sports A,713064363,John Trory,29,805165161,Steve Owen,49,264.2661314052816,525.136306136247
 2013-03-18,12,4,Castle Snooker Club F,Southwick Sports A,948504778,Jon Fordham,56,420230435,Jack Fielder,47,506.6633370991248,668.1694120237897
 2013-03-18,12,4,Castle Snooker Club F,Southwick Sports A,38,Rob Bowden,28,307,Alister Morrison,48,451.6660825627748,763.6218273719892
@@ -9073,7 +9073,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2013-11-25,13,2,Annunciation Club,Castle Snooker Club D,810143915,Ben Welfare,49,133207947,Jake Richardson,75,650.7205480271141,748.3036514256466
 2013-11-25,13,2,Annunciation Club,Castle Snooker Club D,600385553,Darren Welfare,63,825399596,Pat Adams,67,1021.7342799978549,640.4439175531294
 2013-11-25,13,2,Annunciation Club,Castle Snooker Club D,279543944,Peter Maurice,48,948504778,Jon Fordham,66,514.6038406843347,527.4060024971196
-2013-11-25,13,2,Annunciation Club,Castle Snooker Club D,529382351,Greg Foat,22,426,Omar Hilton,55,315.28915292635537,617.6850803882338
+2013-11-25,13,2,Annunciation Club,Castle Snooker Club D,529382351,Greg Foat,22,727093355,Omar Hilton,55,315.28915292635537,617.6850803882338
 2013-11-25,13,2,Annunciation Club,Castle Snooker Club D,202090738,Alan Head,45,256835252,James Burton,39,626.3747905580543,689.0420817879416
 2013-11-25,13,2,Castle Snooker Club C,Champion House A,278731588,Lester Grice,65,800114325,Roger Whiteley,31,943.8357108532842,877.8856728886229
 2013-11-25,13,2,Castle Snooker Club C,Champion House A,16,Mick Beck,49,947620111,Neil Cutler,58,971.7881220490336,629.6864362409509
@@ -9160,7 +9160,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2013-12-09,13,2,Castle Snooker Club D,Castle Snooker Club C,948504778,Jon Fordham,35,278731588,Lester Grice,59,520.2364667544703,951.0052465959336
 2013-12-09,13,2,Castle Snooker Club D,Castle Snooker Club C,825399596,Pat Adams,33,16,Mick Beck,51,632.4991068581234,979.7329327440397
 2013-12-09,13,2,Castle Snooker Club D,Castle Snooker Club C,561171273,Andy Norman,53,463709832,Danny Wong,28,861.1529903655577,820.8685374301426
-2013-12-09,13,2,Castle Snooker Club D,Castle Snooker Club C,426,Omar Hilton,61,717256135,Trevor Pickard,53,629.3312811591642,849.4810854076668
+2013-12-09,13,2,Castle Snooker Club D,Castle Snooker Club C,727093355,Omar Hilton,61,717256135,Trevor Pickard,53,629.3312811591642,849.4810854076668
 2013-12-09,13,2,Castle Snooker Club D,Castle Snooker Club C,133207947,Jake Richardson,68,17,Tony Funnell,40,758.7845748695443,813.4344256088808
 2013-12-09,13,2,Champion House A,Portslade Sports Centre A,719124015,Tony Power,54,141540226,Pete Hazell,52,875.7191251852524,819.7728615556307
 2013-12-09,13,2,Champion House A,Portslade Sports Centre A,114184042,Ian Smith,11,662568995,Rob Wykes,54,593.0202039960294,833.5879069103387
@@ -19847,3 +19847,72 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2022-01-10,21,2,Southwick Sports B,Portslade Legion,76011459,Kane Harman,78,599868559,Sam Germin,56,597.0709925834126,695.8406926828202
 2022-01-10,21,2,Southwick Sports B,Portslade Legion,216787426,Jack Perrin,55,417786644,Eddie Collins,3,540.4866541280908,168.68456595140358
 2022-01-10,21,2,Southwick Sports B,Portslade Legion,579164381,Danny Cattell,53,936624299,Peter Gallant,33,961.2608673316521,303.6971311462483
+2022-01-17,21,1,Castle Club G,St. Matthias A,773216781,Sean Payne,84,341869673,Nigel Stilwell,32,952.9487442257913,976.6214740096866
+2022-01-17,21,1,Castle Club G,St. Matthias A,561171273,Andrew Norman,73,954297832,Pav Sareen,8,1299.5222065041667,1323.8763831439849
+2022-01-17,21,1,Castle Club G,St. Matthias A,654650203,Alan O'Sullivan,17,341869673,Nigel Stilwell,59,734.7933640031015,985.2658009736034
+2022-01-17,21,1,Castle Club G,St. Matthias A,773216781,Sean Payne,63,954297832,Pav Sareen,15,964.5778883987858,1312.2472389709903
+2022-01-17,21,1,Castle Club G,St. Matthias A,561171273,Andrew Norman,52,748064029,Paul Hughes,9,1310.3958751761731,1537.4564760048627
+2022-01-17,21,1,Castle Club G,St. Matthias A,727093355,Omar Hilton,51,802242736,Stephen Hughes,48,716.0723203435441,1181.68589649015
+2022-01-17,21,1,St. Matthias D,Castle Club C,427046178,Micky Sandall,24,506581042,Glen Dartnell,45,1446.624479943199,1016.0102347180746
+2022-01-17,21,1,St. Matthias D,Castle Club C,124523642,Tom Hayes,27,133207947,Jake Richardson,56,646.0108855692665,1245.8839503891586
+2022-01-17,21,1,St. Matthias D,Castle Club C,258340682,John Derret,53,948504778,Jon Fordham,46,1284.4266524840887,947.282373272988
+2022-01-17,21,1,St. Matthias D,Castle Club C,112887737,Pip Akehurst,46,212940364,Wayne Jenkinson,58,1339.0085745167264,869.9768189242434
+2022-01-17,21,1,St. Matthias D,Castle Club C,613889718,Terry Bashford,26,835677793,Ian Atkinson,52,663.1251603675241,766.7907011027289
+2022-01-17,21,1,St. Matthias D,Castle Club C,112887737,Pip Akehurst,69,133207947,Jake Richardson,54,1348.6483095415667,1236.2442153643183
+2022-01-17,21,2,Hove Deep Sea Anglers,Portslade Sports A,326225304,Ian Raeburn,49,688252012,Sean Cooper,52,599.8322216428086,379.0727288409914
+2022-01-17,21,2,Hove Deep Sea Anglers,Portslade Sports A,721321839,Matt Peake,55,835713833,Olly Stewart,38,616.9659784744465,1033.0491560319617
+2022-01-17,21,2,Hove Deep Sea Anglers,Portslade Sports A,901024459,Paul Charman,46,360777082,Mark Bishop,56,304.419977841527,730.3821995534521
+2022-01-17,21,2,Hove Deep Sea Anglers,Portslade Sports A,319057545,Brendan Lambe,44,623613383,Chris Marsh,35,241.98070531067998,794.1223256815688
+2022-01-17,21,2,Hove Deep Sea Anglers,Portslade Sports A,612265840,Paul Honeysett,19,412256116,Andy Sutton,57,152.58895397809607,592.3094052552374
+2022-01-17,21,2,Portslade Legion,Moulsecoomb Club,229719541,Scott Manning,46,713064363,John Trory,9,1126.0474780469197,226.83789223898648
+2022-01-17,21,2,Portslade Legion,Moulsecoomb Club,599868559,Sam Germin,45,349269645,Barry Thornton,51,682.1271651233353,332.69661331658637
+2022-01-17,21,2,Portslade Legion,Moulsecoomb Club,18804941,Ian Sinfield,42,724342701,Nigel Lilley,30,794.1021454938395,630.8207611678931
+2022-01-17,21,2,Portslade Legion,Moulsecoomb Club,776930055,Tom Bashford,41,535728699,Fred Cooper,47,692.2964974651252,336.5135057858178
+2022-01-17,21,2,Portslade Legion,Moulsecoomb Club,936624299,Peter Gallant,45,271464632,Paul Phillips,29,317.4314238006846,651.9631374096309
+2022-01-17,21,2,Portslade Sports B,Annunciation,327948141,Ross Etheridge,34,463709832,Danny Wong,45,617.5346513197918,801.6563782293288
+2022-01-17,21,2,Portslade Sports B,Annunciation,484159049,Tommy Wright,56,504949622,Jimmy Moseley,31,551.411648315161,529.5935776775361
+2022-01-17,21,2,Portslade Sports B,Annunciation,515177310,James Da Costa,55,207592931,(shorty) Gediminas Aleksandravicius,33,610.9841203231492,611.4644479740032
+2022-01-17,21,2,Portslade Sports B,Annunciation,567316488,Lee Millyard,53,867613624,Ian Dunhill,14,626.621719237945,541.200816671989
+2022-01-17,21,2,Portslade Sports B,Annunciation,704007508,Alan Muir,29,288891270,Lewis Copping,54,473.64586210253253,668.3996079532758
+2022-01-17,21,2,Southwick Sports A,Southwick Sports C,493830161,Luke Strevens,73,820231590,Alan Rook,2,684.0281621052343,272.59821478729145
+2022-01-17,21,2,Southwick Sports A,Southwick Sports C,910809545,Blake Harman,36,386517733,Ady Halley,39,305.9185836372217,374.5608933652219
+2022-01-17,21,2,Southwick Sports A,Southwick Sports C,490170224,Jamie Matthews,60,630359340,John Stevens,20,857.7477456807115,660.4928336118916
+2022-01-17,21,2,Southwick Sports A,Southwick Sports C,171346729,Des Heasman,80,641692362,Bob Taylor,31,602.6951971289309,667.2962656533352
+2022-01-17,21,2,Southwick Sports A,Southwick Sports C,971308746,Clive Harman,45,573567936,Steve Marriott,26,627.4429356163433,427.9264221283192
+2022-01-24,21,1,St. Matthias C,Castle Club G,278731588,Lester Grice,31,426009127,Bav Patel,60,1109.4553925488576,1178.1296942752188
+2022-01-24,21,1,St. Matthias C,Castle Club G,957784480,Harry Banks,58,773216781,Sean Payne,33,922.7608171591883,954.3003556002059
+2022-01-24,21,1,St. Matthias C,Castle Club G,384960657,Dave Lewney,54,426009127,Bav Patel,68,1509.0696157518782,1189.3978514154496
+2022-01-24,21,1,St. Matthias C,Castle Club G,278731588,Lester Grice,57,654650203,Alan O'Sullivan,48,1117.423876858717,726.8248796932421
+2022-01-24,21,1,St. Matthias C,Castle Club G,957784480,Harry Banks,65,773216781,Sean Payne,35,932.928843321035,944.1323294383592
+2022-01-24,21,1,St. Matthias C,Castle Club G,384960657,Dave Lewney,48,654650203,Alan O'Sullivan,55,1495.5710395102344,740.3234559348858
+2022-01-24,21,1,St. Matthias D,N.A.R.C A,124523642,Tom Hayes,39,428102632,Anthony Flynn,59,639.276502582063,1279.2686315357755
+2022-01-24,21,1,St. Matthias D,N.A.R.C A,258340682,John Derret,10,390364577,Mark Bright,60,1275.6008494189457,1635.0162196540073
+2022-01-24,21,1,St. Matthias D,N.A.R.C A,112887737,Pip Akehurst,47,963958265,Rodney Moogan,73,1336.2098219071556,832.298680381364
+2022-01-24,21,1,St. Matthias D,N.A.R.C A,613889718,Terry Bashford,33,121263797,Jim Pelling,65,656.5495441060198,1360.3721678547652
+2022-01-24,21,1,St. Matthias D,N.A.R.C A,258340682,John Derret,19,390364577,Mark Bright,70,1266.8356919341431,1643.7813771388098
+2022-01-24,21,1,St. Matthias D,N.A.R.C A,112887737,Pip Akehurst,59,963958265,Rodney Moogan,5,1343.8860535613364,824.6224487271832
+2022-01-24,21,2,Champion House B,Preston Club,737709582,Tony Browne,46,617252199,Jim Griffiths,63,635.8480364285209,653.4932443172247
+2022-01-24,21,2,Champion House B,Preston Club,719124015,Tony Power,59,146404254,Randall Griffiths,52,607.6412063942595,625.6002964147534
+2022-01-24,21,2,Champion House B,Preston Club,852327692,Andy Fletcher,46,607982644,Andy Murden,55,437.3888808412575,736.8177935139835
+2022-01-24,21,2,Champion House B,Preston Club,39289507,Mick Laughlin,31,688778183,Dean Paice,46,458.2605609841945,1112.7284512076044
+2022-01-24,21,2,Champion House B,Preston Club,501266206,David Fox,43,231445676,Tony Paice,16,190.81658721355188,712.0029040646021
+2022-01-24,21,2,Hove Deep Sea Anglers,Portslade Legion,326225304,Ian Raeburn,30,18804941,Ian Sinfield,59,591.2259022093484,802.7084649272997
+2022-01-24,21,2,Hove Deep Sea Anglers,Portslade Legion,721321839,Matt Peake,39,776930055,Tom Bashford,24,627.5413445326284,681.7211314069433
+2022-01-24,21,2,Hove Deep Sea Anglers,Portslade Legion,598117191,Jerome Fowler,17,229719541,Scott Manning,53,531.3253964158021,1132.511930310865
+2022-01-24,21,2,Hove Deep Sea Anglers,Portslade Legion,613893140,Matt Warner,47,599868559,Sam Germin,13,610.41830346998,671.4847508970875
+2022-01-24,21,2,Hove Deep Sea Anglers,Portslade Legion,612265840,Paul Honeysett,32,936624299,Peter Gallant,59,146.09608851131782,323.9242892674629
+2022-01-24,21,2,Moulsecoomb Club,Portslade Sports B,172646809,Robin Powell,51,327948141,Ross Etheridge,65,341.4450965843491,624.7518610944245
+2022-01-24,21,2,Moulsecoomb Club,Portslade Sports B,349269645,Barry Thornton,20,484159049,Tommy Wright,60,325.17046232909195,558.9377993026553
+2022-01-24,21,2,Moulsecoomb Club,Portslade Sports B,724342701,Nigel Lilley,42,593038759,Graham Jones,34,641.5456931023961,718.7047260067083
+2022-01-24,21,2,Moulsecoomb Club,Portslade Sports B,271464632,Paul Phillips,24,515177310,James Da Costa,65,641.6386660840425,621.3085916487377
+2022-01-24,21,2,Moulsecoomb Club,Portslade Sports B,535728699,Fred Cooper,57,704007508,Alan Muir,55,348.2061648076365,461.9532030807138
+2022-01-24,21,2,Portslade Sports A,Annunciation,360777082,Mark Bishop,61,287057630,Darren Hearn,43,734.5872771991832,190.24436574466816
+2022-01-24,21,2,Portslade Sports A,Annunciation,688252012,Sean Cooper,59,504949622,Jimmy Moseley,26,390.729231869185,517.9370746493425
+2022-01-24,21,2,Portslade Sports A,Annunciation,623613383,Chris Marsh,68,32061370,Toby Prince-Iles,32,799.6689427571101,299.20504381349366
+2022-01-24,21,2,Portslade Sports A,Annunciation,412256116,Andy Sutton,47,207592931,(shorty) Gediminas Aleksandravicius,37,602.4685301827924,601.3053230464482
+2022-01-24,21,2,Portslade Sports A,Annunciation,835713833,Olly Stewart,60,288891270,Lewis Copping,46,1040.9059851308023,660.5427788544353
+2022-01-24,21,2,Southwick Sports B,Southwick Sports A,110039677,Mick Miller,53,493830161,Luke Strevens,48,657.6689501110932,673.7530099351216
+2022-01-24,21,2,Southwick Sports B,Southwick Sports A,216787426,Jack Perrin,55,991443521,Adam Griffiths,48,552.2070501763562,753.3787176425561
+2022-01-24,21,2,Southwick Sports B,Southwick Sports A,567624732,Dave Brampton,18,971308746,Clive Harman,53,480.38852680066657,636.2044096480183
+2022-01-24,21,2,Southwick Sports B,Southwick Sports A,579164381,Danny Cattell,36,490170224,Jamie Matthews,45,950.6918039368421,868.3168090755215
+2022-01-24,21,2,Southwick Sports B,Southwick Sports A,76011459,Kane Harman,41,171346729,Des Heasman,57,587.1178700883277,612.6483196240158
