@@ -5,8 +5,8 @@ library(tidyr)
 library(dplyr)
 
 current_season <- 21
-snooker_week <- 17
-billiards_week <- 15
+snooker_week <- 18
+billiards_week <- 16
 # test_to_address <- "djp42@cantab.net"
 email_addresses <- read_csv("team_email_addresses.csv")
 snooker_divisions <- data.frame(division = seq(1, 2),
@@ -98,7 +98,7 @@ msg <- paste0("<u><b>Snooker results for week ", snooker_week, "</b></u>",
               "<table frame = 'box'>",
               "<tr><th>Competition</th><th>Round</th><th>Deadline</th></tr>",
               "<tr><td>Open</td><td>2</td><td>28/02/2022</td></tr>",
-              "<tr><td>DeCosta</td><td>2</td><td>31/01/2022</td></tr>",
+              "<tr><td>DeCosta</td><td>3</td><td>28/02/2022</td></tr>",
               "<tr><td>Pairs</td><td>2</td><td>28/02/2022</td></tr>",
               "<tr><td>Div 1</td><td>2</td><td>28/02/2022</td></tr>",
               "<tr><td>Under 25s</td><td>Semi-Final</td><td>TBC</td></tr>",
