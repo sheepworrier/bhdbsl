@@ -21,6 +21,7 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 948504778,Jon Fordham,748064029,Paul Hughes,11,7,4
 957784480,Harry Banks,646410961,Paul Scorer,11,6,5
 231445676,Tony Paice,529382351,Greg Foat,10,7,3
+428102632,Anthony Flynn,748064029,Paul Hughes,10,6,4
 617751649,Lee Simpson,341869673,Nigel Stilwell,10,8,2
 617751649,Lee Simpson,523395206,Jamie Lashmar,10,6,4
 649240057,Mike Childs,426236650,Dave Parrott,10,7,3
@@ -33,7 +34,6 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 96103077,Paul Norris,323907964,Russ Hughes,9,6,3
 266591683,Chris Roche,529382351,Greg Foat,9,9,0
 384960657,Dave Lewney,957784480,Harry Banks,9,7,2
-428102632,Anthony Flynn,748064029,Paul Hughes,9,5,4
 617751649,Lee Simpson,428102632,Anthony Flynn,9,5,4
 617751649,Lee Simpson,957784480,Harry Banks,9,7,2
 752709358,Chris Mason,96103077,Paul Norris,9,5,4
@@ -381,6 +381,7 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 970786910,Kevin Sorrell,179,Mick Jones,5,4,1
 970786910,Kevin Sorrell,858283721,Dave Dunstall,5,3,2
 971308746,Clive Harman,32061370,Toby Prince-Iles,5,4,1
+971308746,Clive Harman,271464632,Paul Phillips,5,4,1
 971308746,Clive Harman,573567936,Steve Marriott,5,4,1
 974385564,Danny Booker,800114325,Roger Whiteley,5,4,1
 3,Neal Gozzett,223,Ollie Stalley,4,2,2
@@ -709,7 +710,6 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 966905561,Tony Dade,39289507,Mick Laughlin,4,3,1
 970786910,Kevin Sorrell,409212679,Mark Chapman,4,4,0
 970786910,Kevin Sorrell,411473516,Ray Canham,4,3,1
-971308746,Clive Harman,271464632,Paul Phillips,4,3,1
 971308746,Clive Harman,966905561,Tony Dade,4,4,0
 974385564,Danny Booker,423038309,Ian Fennell,4,3,1
 3,Neal Gozzett,802242736,Steve Hughes,3,3,0
@@ -916,6 +916,7 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 171346729,Des Heasman,487,"Jim, Sr. Stevens",3,3,0
 171346729,Des Heasman,27255501,Tom Lane,3,3,0
 171346729,Des Heasman,32061370,Toby Prince-Iles,3,3,0
+171346729,Des Heasman,172646809,Robin Powell,3,2,1
 171346729,Des Heasman,223983583,Carl Wentworth,3,2,1
 171346729,Des Heasman,535728699,Fred Cooper,3,3,0
 172646809,Robin Powell,216787426,Jack Perrin,3,2,1
@@ -1067,6 +1068,7 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 382970973,Paul Shaw,275738778,John Da Silva,3,2,1
 384960657,Dave Lewney,5820499,Paul Bartlett,3,2,1
 384960657,Dave Lewney,34787509,Dave McCarthy,3,2,1
+384960657,Dave Lewney,124523642,Tom Hayes,3,2,1
 384960657,Dave Lewney,764177688,Barry Martin,3,2,1
 386517733,Ady Halley,291816585,Jim Somers,3,3,0
 386517733,Ady Halley,293577764,Dave Crosskey,3,2,1
@@ -2430,6 +2432,7 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 120138229,Adam Butler,878576746,Jon Hall,2,2,0
 120138229,Adam Butler,970786910,Kevin Sorrell,2,2,0
 121263797,Jim Pelling,341869673,Nigel Stilwell,2,1,1
+121263797,Jim Pelling,802242736,Stephen Hughes,2,1,1
 121263797,Jim Pelling,948504778,Jon Fordham,2,1,1
 123792666,Jamie Thomas,371,Laurence Park,2,2,0
 123792666,Jamie Thomas,32061370,Toby Prince-Iles,2,2,0
@@ -2443,7 +2446,6 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 124523642,Tom Hayes,149,Tony Nealgrove,2,2,0
 124523642,Tom Hayes,174147986,Lee Cliff,2,2,0
 124523642,Tom Hayes,360777082,Mark Bishop,2,1,1
-124523642,Tom Hayes,384960657,Dave Lewney,2,1,1
 124523642,Tom Hayes,386517733,Ady Halley,2,2,0
 124523642,Tom Hayes,436708540,Bob Henley,2,1,1
 124523642,Tom Hayes,463709832,Danny Wong,2,1,1
@@ -2527,7 +2529,6 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 163959771,Alex El-Deweiny,174147986,Lee Cliff,2,2,0
 163959771,Alex El-Deweiny,428102632,Anthony Flynn,2,1,1
 171346729,Des Heasman,41461520,Luke Pooley,2,2,0
-171346729,Des Heasman,172646809,Robin Powell,2,2,0
 171346729,Des Heasman,207592931,(shorty) Gediminas Aleksandravicius,2,1,1
 171346729,Des Heasman,231445676,Tony Paice,2,1,1
 171346729,Des Heasman,319057545,Brendan Lambe,2,2,0
@@ -2647,6 +2648,7 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 229719541,Scott Manning,546362444,Anthony Trory,2,2,0
 229719541,Scott Manning,646614924,Norman Moye,2,2,0
 229719541,Scott Manning,657320021,Brett Strevens,2,1,1
+229719541,Scott Manning,737709582,Tony Browne,2,1,1
 229719541,Scott Manning,745152759,Kevin Jewell,2,2,0
 229719541,Scott Manning,822983250,Alasdair Pratt,2,2,0
 229719541,Scott Manning,835713833,Olly Stewart,2,1,1
@@ -2986,6 +2988,7 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 360777082,Mark Bishop,351143642,Michael Palmer,2,2,0
 360777082,Mark Bishop,410854609,Dave Lowe,2,2,0
 360777082,Mark Bishop,493830161,Luke Strevens,2,1,1
+360777082,Mark Bishop,567624732,Dave Brampton,2,2,0
 360777082,Mark Bishop,728690686,Rick Rothschild,2,2,0
 360777082,Mark Bishop,807603289,Kevin Gardner,2,2,0
 360777082,Mark Bishop,867613624,Ian Dunhill,2,2,0
@@ -3163,6 +3166,7 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 426009127,Bav Patel,974385564,Danny Booker,2,2,0
 426236650,Dave Parrott,845758589,Charlie James,2,1,1
 428102632,Anthony Flynn,144293731,Simon Parry,2,2,0
+428102632,Anthony Flynn,341869673,Nigel Stilwell,2,2,0
 428102632,Anthony Flynn,444639447,Andy Wong,2,1,1
 428102632,Anthony Flynn,654650203,Alan O'Sullivan,2,2,0
 428102632,Anthony Flynn,732321233,Nathan Brooks,2,2,0
@@ -3762,6 +3766,7 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 724342701,Nigel Lilley,319057545,Brendan Lambe,2,2,0
 724342701,Nigel Lilley,737709582,Tony Browne,2,2,0
 724342701,Nigel Lilley,867613624,Ian Dunhill,2,2,0
+724342701,Nigel Lilley,910809545,Blake Harman,2,2,0
 724342701,Nigel Lilley,936624299,Peter Gallant,2,2,0
 728690686,Rick Rothschild,173,Dave Alderton,2,2,0
 728690686,Rick Rothschild,440,Gordon Carter,2,2,0
@@ -3859,6 +3864,7 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 754250007,Freddie Blunden,90176364,David Page,2,2,0
 754250007,Freddie Blunden,231975313,Danny English,2,2,0
 754250007,Freddie Blunden,258340682,John Derret,2,2,0
+754250007,Freddie Blunden,613889718,Terry Bashford,2,2,0
 754250007,Freddie Blunden,680442672,Scott Lawson,2,2,0
 754250007,Freddie Blunden,764177688,Barry Martin,2,2,0
 754250007,Freddie Blunden,809647573,John Taylor,2,2,0
