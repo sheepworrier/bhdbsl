@@ -5,8 +5,9 @@ library(tidyr)
 library(dplyr)
 
 current_season <- 21
-snooker_week <- 20
-billiards_week <- 17
+snooker_week <- 22
+billiards_week <- 18
+max_premier_frames <- 30
 # test_to_address <- "djp42@cantab.net"
 email_addresses <- read_csv("team_email_addresses.csv")
 snooker_divisions <- data.frame(division = seq(1, 2),
@@ -77,6 +78,13 @@ highest_billiards_breaks_per_division <- billiards_breaks %>%
   arrange(division, fixture_date) %>%
   select(div_text, player_name, fixture_date, high_break)
 
+player_premier_record_summary <- read_csv("player-record-summary.csv") %>%
+  filter(season == current_season,
+         division == 1) %>%
+  slice_max(order_by = played, n = 8) %>%
+  arrange(desc(played)) %>%
+  select(player_name, played)
+
 msg <- paste0("<u><b>Snooker results for week ", snooker_week, "</b></u>",
               "<br><br>",
               tableHTML(final_snooker_scores, rownames = FALSE,
@@ -93,16 +101,23 @@ msg <- paste0("<u><b>Snooker results for week ", snooker_week, "</b></u>",
               tableHTML(highest_snooker_breaks_per_division, rownames = FALSE,
                         headers = c("Division", "Name", "Date", "High Break")),
               "<br><br>",
+              "<br<br>",
+              "<u><b>Premier frames played (limit ", max_premier_frames, ")",
+              "</b></u>",
+              "<br><br>",
+              tableHTML(player_premier_record_summary, rownames = FALSE,
+                        headers = c("Name", "Frames Played")),
+              "<br><br>",
               "<u><b>Snooker Competition Dates</b></u>",
               "<br><br>",
               "<table frame = 'box'>",
               "<tr><th>Competition</th><th>Round</th><th>Deadline</th></tr>",
-              "<tr><td>Open</td><td>2</td><td>28/02/2022</td></tr>",
-              "<tr><td>DeCosta</td><td>3</td><td>28/02/2022</td></tr>",
-              "<tr><td>Pairs</td><td>2</td><td>28/02/2022</td></tr>",
-              "<tr><td>Div 1</td><td>2</td><td>28/02/2022</td></tr>",
+              "<tr><td>Open</td><td>Quarter Final</td><td>31/03/2022</td></tr>",
+              "<tr><td>DeCosta</td><td>Quarter Final</td><td>31/03/2022</td></tr>",
+              "<tr><td>Pairs</td><td>Quarter Final</td><td>31/03/2022</td></tr>",
+              "<tr><td>Div 1</td><td>Quarter Final</td><td>31/03/2022</td></tr>",
               "<tr><td>Under 25s</td><td>Semi-Final</td><td>TBC</td></tr>",
-              "<tr><td>Over 50s</td><td>Quarter Final</td><td>TBC</td></tr>",
+              "<tr><td>Over 50s</td><td>Quarter Final</td><td>31/03/2022</td></tr>",
               "<tr><td>Over 70s</td><td>Final</td><td>TBC</td></tr>",
               "</table>",
               "<br><br>",
@@ -127,8 +142,8 @@ msg <- paste0("<u><b>Snooker results for week ", snooker_week, "</b></u>",
               "<br><br>",
               "<table frame = 'box'>",
               "<tr><th>Competition</th><th>Round</th><th>Deadline</th></tr>",
-              "<tr><td>Open</td><td>Quarter Final</td><td>TBC</td></tr>",
-              "<tr><td>Sexton</td><td>1</td><td>28/02/2022</td></tr>",
+              "<tr><td>Open</td><td>Quarter Final</td><td>31/03/2022</td></tr>",
+              "<tr><td>Sexton</td><td>Quarter Final</td><td>31/03/2022</td></tr>",
               "</table>",
               "<br><br>",
               "Kind regards,<br>",
