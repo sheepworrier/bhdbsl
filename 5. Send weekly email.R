@@ -3,10 +3,9 @@ library(tableHTML)
 library(readr)
 library(tidyr)
 library(dplyr)
+library(lubridate)
 
 current_season <- 21
-snooker_week <- 22
-billiards_week <- 18
 max_premier_frames <- 30
 # test_to_address <- "djp42@cantab.net"
 email_addresses <- read_csv("team_email_addresses.csv")
@@ -15,45 +14,58 @@ snooker_divisions <- data.frame(division = seq(1, 2),
                                 stringsAsFactors = FALSE)
 
 snooker_match_scores <- read_csv("New-website-match-scores.csv") %>%
-  filter(season == current_season)
+  filter(season == current_season) %>%
+  mutate(fixture_week = floor_date(fixture_date,
+                                   unit = "week",
+                                   week_start = 1))
 billiards_match_scores <- read_csv("Billiards-match-scores.csv") %>%
-  filter(season == current_season)
+  filter(season == current_season) %>%
+  mutate(fixture_week = floor_date(fixture_date,
+                                   unit = "week",
+                                   week_start = 1))
 
-snooker_breaks <- read_csv("New-website-breaks.csv")
-billiards_breaks <- read_csv("Billiards-breaks.csv")
+snooker_breaks <- read_csv("New-website-breaks.csv") %>%
+  mutate(fixture_week = floor_date(fixture_date,
+                                   unit = "week",
+                                   week_start = 1))
+billiards_breaks <- read_csv("Billiards-breaks.csv") %>%
+  mutate(fixture_week = floor_date(fixture_date,
+                                   unit = "week",
+                                   week_start = 1))
 
 snooker_weeks <- snooker_match_scores %>%
-  filter(weekdays(fixture_date) == "Monday") %>%
-  distinct(fixture_date) %>%
-  arrange(fixture_date) %>%
+  distinct(fixture_week) %>%
+  arrange(fixture_week) %>%
   mutate(week_number = row_number())
 billiards_weeks <- billiards_match_scores %>%
-  filter(weekdays(fixture_date) == "Wednesday") %>%
-  distinct(fixture_date) %>%
-  arrange(fixture_date) %>%
+  distinct(fixture_week) %>%
+  arrange(fixture_week) %>%
   mutate(week_number = row_number())
 
+snooker_week <- max(snooker_weeks$week_number)
+billiards_week <- max(billiards_weeks$week_number)
+
 final_snooker_scores <- snooker_weeks %>%
-  inner_join(snooker_match_scores, by = "fixture_date") %>%
+  inner_join(snooker_match_scores, by = "fixture_week") %>%
   filter(week_number == snooker_week) %>%
   inner_join(snooker_divisions, by = "division") %>%
   arrange(division, home_team) %>%
   select(div_text, home_team, home_score, away_score, away_team)
 final_billiards_scores <- billiards_weeks %>%
-  inner_join(billiards_match_scores, by = "fixture_date") %>%
+  inner_join(billiards_match_scores, by = "fixture_week") %>%
   filter(week_number == billiards_week) %>%
   mutate(div_text = "Division 1") %>%
   arrange(division, home_team) %>%
   select(div_text, home_team, home_op, home_sp, away_sp, away_op, away_team)
 
 final_snooker_breaks <- snooker_breaks %>%
-  inner_join(snooker_weeks, by = "fixture_date")  %>%
+  inner_join(snooker_weeks, by = "fixture_week")  %>%
   filter(week_number == snooker_week) %>%
   inner_join(snooker_divisions, by = "division") %>%
   arrange(division, desc(high_break)) %>%
   select(div_text, player_name, high_break)
 final_billiards_breaks <- billiards_breaks %>%
-  inner_join(billiards_weeks, by = "fixture_date")  %>%
+  inner_join(billiards_weeks, by = "fixture_week")  %>%
   filter(week_number == billiards_week) %>%
   mutate(div_text = "Division 1") %>%
   arrange(division, desc(high_break)) %>%
