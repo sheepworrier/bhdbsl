@@ -1,6 +1,7 @@
 library(stringdist)
 library(zoo)
 library(dplyr)
+library(googlesheets4)
 source("common-functions.R")
 # Read in the mappings already defined between players on the old and new
 # wesbite
@@ -263,3 +264,7 @@ write_csv(player_ratings_output, "Player-ratings-output.csv")
 write_csv(frame_scores, "Frame-scores.csv")
 write_csv(gds_output, "Google Data Studio Outputs/Snooker Frame Scores.csv",
           na = "")
+# Write to Google Sheets for consumption in Google Data Studio
+gs4_auth()
+ss <- gs4_find("GitHub")
+sheet_write(gds_output, ss = ss, sheet = "Snooker Frame Scores")
