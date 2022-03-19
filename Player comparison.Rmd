@@ -1,0 +1,68 @@
+---
+title: "Player comparison"
+output: html_notebook
+params:
+  player_left: 515177310
+  player_right: 579164381
+---
+
+```{r attach_libraries_and_get_data, message=FALSE, warning=FALSE, include=FALSE}
+library(readr)
+library(tidyr)
+library(dplyr)
+library(ggplot2)
+gds_output <- read_csv("Google Data Studio Outputs/Snooker Frame Scores.csv")
+head_to_head <- read_csv("head-to-head-summary.csv")
+player_record_summary <- read_csv("player-record-summary.csv")
+player_left_name <- gds_output %>%
+  filter(`Player ID` == params$player_left) %>%
+  slice(1) %>%
+  pull(`Player Name`)
+player_right_name <- gds_output %>%
+  filter(`Player ID` == params$player_right) %>%
+  slice(1) %>%
+  pull(`Player Name`)
+current_handicap_left <- gds_output %>%
+  filter(`Player ID` == params$player_left,
+         `Latest Match` == TRUE) %>%
+  pull(`Player Handicap`)
+current_handicap_right <- gds_output %>%
+  filter(`Player ID` == params$player_right,
+         `Latest Match` == TRUE) %>%
+  pull(`Player Handicap`)
+matches_played_left <- gds_output %>%
+  filter(`Player ID` == params$player_left) %>%
+  nrow()
+matches_played_right <- gds_output %>%
+  filter(`Player ID` == params$player_right) %>%
+  nrow()
+record_summary <- player_record_summary %>%
+  filter(player_id == params$player_left) %>%
+  select(season, division, played_left = played, wins_left = wins,
+         losses_left = losses, win_pct_left = win_pct, pts_for_left = pts_for,
+         pts_against_left = pts_against) %>%
+  full_join(player_record_summary %>%
+  filter(player_id == params$player_right) %>%
+  select(season, division, played_right = played, wins_right = wins,
+         losses_right = losses, win_pct_right = win_pct, pts_for_right = pts_for,
+         pts_against_right = pts_against)) %>%
+  arrange(season, division)
+handicap_history <- gds_output %>%
+  filter(`Player ID` == params$player_left) %>%
+  select(`Player Name`, Date, `Player Handicap`) %>%
+  bind_rows(gds_output %>%
+              filter(`Player ID` == params$player_right) %>%
+              select(`Player Name`, Date, `Player Handicap`))
+```
+
+## Handicap history
+
+```{r handicap_line_chart, echo=FALSE, message=TRUE, warning=TRUE}
+ggplot(data = handicap_history,
+       aes(x = Date, y = `Player Handicap`, group = `Player Name`)) +
+  geom_line(aes(color = `Player Name`))
+```
+
+## Head to head
+
+## Key stats
