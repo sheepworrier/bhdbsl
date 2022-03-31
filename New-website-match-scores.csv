@@ -1,4 +1,6 @@
 fixture_date,season,division,home_team,away_team,home_score,away_score,URLs
+2022-03-28,21,1,N.A.R.C A,Castle Club C,4,2,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31010087.html
+2022-03-28,21,1,St. Matthias D,Castle Club G,4,2,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31010093.html
 2022-03-21,21,1,Castle Club G,N.A.R.C A,4,2,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31010079.html
 2022-03-21,21,1,St. Matthias A,St. Matthias D,3,3,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31010084.html
 2022-03-21,21,1,St. Matthias C,Castle Club C,5,1,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31010085.html
@@ -51,6 +53,11 @@ fixture_date,season,division,home_team,away_team,home_score,away_score,URLs
 2021-09-13,21,1,Castle Club C,St. Matthias C,2,4,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31009883.html
 2021-09-13,21,1,N.A.R.C A,St. Matthias D,4,2,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31009886.html
 2021-09-13,21,1,St. Matthias A,Castle Club G,0,6,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31009890.html
+2022-03-28,21,2,Champion House B,Southwick Sports B,2,3,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31010031.html
+2022-03-28,21,2,Moulsecoomb Club,Annunciation,2,3,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31009928.html
+2022-03-28,21,2,Portslade Sports A,Hove Deep Sea Anglers,4,1,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31010067.html
+2022-03-28,21,2,Preston Club,Portslade Sports B,2,3,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31010099.html
+2022-03-28,21,2,Southwick Sports A,Portslade Legion,3,2,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31009983.html
 2022-03-21,21,2,Annunciation,Portslade Legion,2,3,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31010077.html
 2022-03-21,21,2,Hove Deep Sea Anglers,Champion House B,2,3,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31010040.html
 2022-03-21,21,2,Moulsecoomb Club,Southwick Sports C,2,3,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31009979.html

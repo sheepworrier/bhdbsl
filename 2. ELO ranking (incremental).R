@@ -4,7 +4,7 @@ library(dplyr)
 library(googlesheets4)
 source("common-functions.R")
 # Read in the mappings already defined between players on the old and new
-# wesbite
+# website
 player_id_map <- read_csv("player-id-map.csv")
 # Read in the players from the new website we have already decided don't have an
 # equivalent on the old website
@@ -265,6 +265,6 @@ write_csv(frame_scores, "Frame-scores.csv")
 write_csv(gds_output, "Google Data Studio Outputs/Snooker Frame Scores.csv",
           na = "")
 # Write to Google Sheets for consumption in Google Data Studio
-gs4_auth()
+gs4_auth(email = TRUE)
 ss <- gs4_find("GitHub")
 sheet_write(gds_output, ss = ss, sheet = "Snooker Frame Scores")
