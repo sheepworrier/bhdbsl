@@ -5,8 +5,8 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 278731588,Lester Grice,341869673,Nigel Stilwell,17,16,1
 428102632,Anthony Flynn,802242736,Steve Hughes,17,13,4
 748064029,Paul Hughes,96354463,Rob Pickard,16,15,1
+341869673,Nigel Stilwell,957784480,Harry Banks,15,14,1
 752709358,Chris Mason,523395206,Jamie Lashmar,15,8,7
-341869673,Nigel Stilwell,957784480,Harry Banks,14,14,0
 278731588,Lester Grice,428102632,Anthony Flynn,13,7,6
 646410961,Paul Scorer,748064029,Paul Hughes,13,10,3
 845758589,Charlie James,392533233,Jack Wright,13,7,6
@@ -142,6 +142,7 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 275738778,John Da Silva,899206834,Jez Downs,6,4,2
 278731588,Lester Grice,963958265,Rodney Moogan,6,5,1
 307140835,Tony Strange,802242736,Steve Hughes,6,5,1
+323907964,Russ Hughes,617751649,Lee Simpson,6,3,3
 341869673,Nigel Stilwell,506581042,Glen Dartnell,6,3,3
 345558874,Zack Richardson,96103077,Paul Norris,6,5,1
 384960657,Dave Lewney,963958265,Rodney Moogan,6,6,0
@@ -253,7 +254,6 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 307140835,Tony Strange,34787509,Dave McCarthy,5,5,0
 307140835,Tony Strange,748064029,Paul Hughes,5,4,1
 319057545,Brendan Lambe,98,Tony Collins,5,3,2
-323907964,Russ Hughes,617751649,Lee Simpson,5,3,2
 326342962,Geoff Randall,41098823,Mikey Booker,5,3,2
 327948141,Ross Etheridge,412256116,Andy Sutton,5,4,1
 345558874,Zack Richardson,307140835,Tony Strange,5,3,2
@@ -533,6 +533,7 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 327948141,Ross Etheridge,535728699,Fred Cooper,4,3,1
 327948141,Ross Etheridge,880982797,Ray Hunter,4,2,2
 341869673,Nigel Stilwell,654650203,Alan O'Sullivan,4,3,1
+341869673,Nigel Stilwell,754250007,Freddie Blunden,4,3,1
 341869673,Nigel Stilwell,773216781,Sean Payne,4,3,1
 345558874,Zack Richardson,600385553,Darren Welfare,4,3,1
 345558874,Zack Richardson,748064029,Paul Hughes,4,4,0
@@ -1039,6 +1040,7 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 319057545,Brendan Lambe,535728699,Fred Cooper,3,3,0
 319057545,Brendan Lambe,884374645,Wayne Iddon,3,3,0
 323907964,Russ Hughes,133207947,Jake Richardson,3,3,0
+323907964,Russ Hughes,278731588,Lester Grice,3,2,1
 323907964,Russ Hughes,629014363,Lee Shepherd,3,2,1
 323907964,Russ Hughes,666735933,Mike Collier,3,3,0
 323907964,Russ Hughes,670256222,Connor Anderson,3,2,1
@@ -1058,7 +1060,6 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 341869673,Nigel Stilwell,11133032,Simon Dent,3,2,1
 341869673,Nigel Stilwell,59858690,James Constable,3,2,1
 341869673,Nigel Stilwell,680442672,Scott Lawson,3,2,1
-341869673,Nigel Stilwell,754250007,Freddie Blunden,3,2,1
 341869673,Nigel Stilwell,963958265,Rodney Moogan,3,2,1
 345558874,Zack Richardson,136,Dave Bonwick,3,3,0
 345558874,Zack Richardson,11133032,Simon Dent,3,2,1
@@ -2781,7 +2782,6 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 278731588,Lester Grice,231445676,Tony Paice,2,2,0
 278731588,Lester Grice,258340682,John Derret,2,2,0
 278731588,Lester Grice,279543944,Peter Maurice,2,2,0
-278731588,Lester Grice,323907964,Russ Hughes,2,1,1
 278731588,Lester Grice,463709832,Danny Wong,2,1,1
 278731588,Lester Grice,503528426,Larry Maloney,2,2,0
 278731588,Lester Grice,600385553,Darren Welfare,2,1,1
@@ -3603,6 +3603,7 @@ player_id,player_name,opponent_id,opponent_name,played,wins_left,wins_right
 617751649,Lee Simpson,732321233,Nathan Brooks,2,2,0
 617751649,Lee Simpson,837429850,Paul Beecham,2,2,0
 617751649,Lee Simpson,927588200,Tokki Yamaguchi,2,1,1
+617751649,Lee Simpson,954297832,Pav Sareen,2,2,0
 619390728,Steve Stylianou,5,Paul Osiecki,2,2,0
 619390728,Steve Stylianou,22,Tim Shutt,2,2,0
 619390728,Steve Stylianou,136,Dave Bonwick,2,2,0
