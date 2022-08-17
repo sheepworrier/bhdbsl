@@ -8,7 +8,7 @@ editor: visual
 execute: 
   echo: false
 params:
-  input_filename: "fixtures_2021-22 LeagueRepublic.csv"
+  input_filename: "fixtures_2022-23 DP v4.csv"
 ---
 
 ```{r}
@@ -28,20 +28,19 @@ fixtures <- read_csv(params$input_filename) %>%
          Date)
 ```
 
-
 ## `r report_title`
 
 This report how well the fixtures respect the following constraints:
 
-- Portslade Sports A and B should not be at home on the same date
-- Castle Club C and G should not be at home on the same date
-- NARC A and B should not be at home on the same date
-- Southwick Sports should not have 3 teams at home on the same date
-- St Matthias A and D should not be home on the same date
-- St Matthias should not have 3 teams at home on the same date
-- Teams should not have consecutive home matches
-- Teams should not have consecutive away matches
-- Teams should play eack other at regular intervals in the season
+-   Portslade Sports A and B should not be at home on the same date
+-   Castle Club C and G should not be at home on the same date
+-   NARC A and B should not be at home on the same date
+-   Southwick Sports should not have 3 teams at home on the same date
+-   St Matthias A and D should not be home on the same date
+-   St Matthias should not have 3 teams at home on the same date
+-   Teams should not have consecutive home matches
+-   Teams should not have consecutive away matches
+-   Teams should play eack other at regular intervals in the season
 
 ## Portslade Sports
 
