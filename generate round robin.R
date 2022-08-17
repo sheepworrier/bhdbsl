@@ -11,9 +11,9 @@ prem_fixtures <-
 # List of Div 1 teams
 div1_teams <-
   c("St. Matthias B", "N.A.R.C B", "Portslade Legion", "Portslade Sports A",
-    "Portslade Sports B", "Hove Deep Sea Anglers", "Moulsecoomb A",
-    "Moulsecoomb B", "Preston Club", "Champsion House", "Southwick Sports A",
-    "Southwick Sports B", "Southwick Sports C")
+    "Portslade Sports B", "Hove Deep Sea Anglers", "Moulsecoomb Club A",
+    "Moulsecoomb Club B", "Preston Club", "Champion House",
+    "Southwick Sports A", "Southwick Sports B", "Southwick Sports C")
 # Generate a 13-team single round robin
 div1_fixtures <-
   roundrobin(div1_teams, randomize = FALSE, second_round = FALSE, seed = 1234)
