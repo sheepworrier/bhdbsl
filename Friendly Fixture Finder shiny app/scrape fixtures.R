@@ -22,7 +22,8 @@ get_single_fixtures_page <- function(page_number, base_url) {
     html_table() %>%
     as_tibble(.name_repair = "unique") %>%
     select(2, 3, 5, 6) %>%
-    mutate(competition = competition_name)
+    mutate(competition = competition_name,
+           Club = str_remove(Club, " #\\d$| Table \\d$"))
   fixtures_table
 }
 # URL of initial page of fixtures
