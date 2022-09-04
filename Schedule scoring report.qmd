@@ -1,0 +1,160 @@
+---
+title: "Schedule scoring report"
+format:
+  html:
+    df-print: paged
+    self-contained: true
+editor: visual
+execute: 
+  echo: false
+params:
+  input_filename: "fixtures_2022-23 DP v4.csv"
+---
+
+```{r}
+#| output: false
+library(readr)
+library(dplyr)
+library(stringr)
+library(lubridate)
+library(stringr)
+library(zoo)
+report_title <- str_remove(params$input_filename, "fixtures_") %>%
+  str_remove(".csv")
+fixtures <- read_csv(params$input_filename) %>%
+  filter(!is.na(Division)) %>%
+  mutate(Date = as.Date(Date, format = "%d/%m/%Y")) %>%
+  select(`Fixture ID`, Division, `Home Team`, `Away Team`,
+         Date)
+```
+
+## `r report_title`
+
+This report how well the fixtures respect the following constraints:
+
+-   Portslade Sports A and B should not be at home on the same date
+-   Castle Club C and G should not be at home on the same date
+-   NARC A and B should not be at home on the same date
+-   Southwick Sports should not have 3 teams at home on the same date
+-   St Matthias A and D should not be home on the same date
+-   St Matthias should not have 3 teams at home on the same date
+-   Teams should not have consecutive home matches
+-   Teams should not have consecutive away matches
+-   Teams should play eack other at regular intervals in the season
+
+## Portslade Sports
+
+```{r}
+fixtures %>%
+  filter(str_detect(`Home Team`, "Portslade Sports")) %>%
+  count(Date, sort = TRUE) %>%
+  filter(n > 1)
+```
+
+## Castle Club
+
+```{r}
+fixtures %>%
+  filter(str_detect(`Home Team`, "Castle Club")) %>%
+  count(Date, name = "Number of Teams at Home") %>%
+  filter(`Number of Teams at Home` > 1)
+```
+
+## N.A.R.C
+
+```{r}
+fixtures %>%
+  filter(str_detect(`Home Team`, "N.A.R.C")) %>%
+  count(Date, name = "Number of Teams at Home") %>%
+  filter(`Number of Teams at Home` > 1)
+```
+
+## Southwick Sports
+
+```{r}
+fixtures %>%
+  filter(str_detect(`Home Team`, "Southwick Sports")) %>%
+  count(Date, name = "Number of Teams at Home") %>%
+  filter(`Number of Teams at Home` > 2)
+```
+
+## St Matthias A & D
+
+```{r}
+fixtures %>%
+  filter(`Home Team` %in% c("St. Matthias A", "St. Matthias D")) %>%
+  count(Date, name = "Number of Teams at Home") %>%
+  filter(`Number of Teams at Home` > 2)
+```
+
+## St Matthias Overall
+
+```{r}
+fixtures %>%
+  filter(str_detect(`Home Team`, "St. Matthias")) %>%
+  count(Date, name = "Number of Teams at Home") %>%
+  filter(`Number of Teams at Home` > 2)
+```
+
+## Consecutive home matches
+
+```{r}
+fixtures %>%
+  arrange(`Home Team`, Date) %>%
+  rename(Team = `Home Team`) %>%
+  mutate(consecutive = if_else(as.numeric(Date - lag(Date)) == 7, 1, 0),
+         `Start Date` = if_else(is.na(consecutive) | consecutive == 0,
+                                Date,
+                                NA_Date_),
+         `Start Date` = na.locf(`Start Date`)) %>%
+  group_by(Team, `Start Date`) %>%
+  summarise(`Number of Consecutive Matches` = sum(consecutive, na.rm = TRUE) + 1,
+            .groups = "keep") %>%
+  filter(`Number of Consecutive Matches` > 1)
+```
+
+## Consecutive away matches
+
+```{r}
+fixtures %>%
+  arrange(`Away Team`, Date) %>%
+  rename(Team = `Away Team`) %>%
+  mutate(consecutive = if_else(as.numeric(Date - lag(Date)) == 7, 1, 0),
+         `Start Date` = if_else(is.na(consecutive) | consecutive == 0,
+                                Date,
+                                NA_Date_),
+         `Start Date` = na.locf(`Start Date`)) %>%
+  group_by(Team, `Start Date`) %>%
+  summarise(`Number of Consecutive Matches` = sum(consecutive, na.rm = TRUE) + 1,
+            .groups = "keep") %>%
+  filter(`Number of Consecutive Matches` > 1)
+```
+
+## Gaps between playing the same opponent (Premier)
+
+```{r}
+fixture_gaps <- fixtures %>%
+  select(Division, team = `Home Team`, opponent = `Away Team`, Date) %>%
+  bind_rows(fixtures %>%
+              select(Division, team = `Away Team`, opponent = `Home Team`, Date)) %>%
+  arrange(team, opponent, Date) %>%
+  mutate(days_since_played_opponent = if_else(lag(opponent) == opponent,
+                                              as.numeric(Date - lag(Date)),
+                                              NA_real_)) %>%
+  filter(!is.na(days_since_played_opponent))
+hist(fixture_gaps %>%
+       filter(Division == "Premier Division") %>%
+       pull(days_since_played_opponent),
+     main = "Distribution of fixture gaps between same opponents",
+     xlab = "Days between fixtures with same opponents")
+```
+
+## Gaps between playing the same opponent (Div 1)
+
+```{r}
+hist(fixture_gaps %>%
+       filter(Division == "Division 1") %>%
+       pull(days_since_played_opponent),
+     main = "Distribution of fixture gaps between same opponents",
+     xlab = "Days between fixtures with same opponents")
+```
