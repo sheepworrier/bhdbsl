@@ -72,12 +72,11 @@ get_single_results_page <- function(base_url, season, division, page_number,
                  away_team = results_table$`Away Team`,
                  home_score = as.integer(substr(results_table$Score, 1, 1)),
                  away_score = as.integer(substr(results_table$Score, 5, 5)),
+                 URLs = paste0("http://brightonhovedistrictsnooker.",
+                               "leaguerepublic.com",
+                               match_detail_urls),
                  stringsAsFactors = FALSE) %>%
       filter(!is.na(home_score))
-    # Set absolute URL of match details pages
-    final_results_table$URLs <-
-      paste0("http://brightonhovedistrictsnooker.leaguerepublic.com",
-             match_detail_urls)
   } else if (sport == "Billiards") {
     print("Gathering Billiards results")
     # Reformat the scores column to split between home and away, scoring and
