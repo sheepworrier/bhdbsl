@@ -1,5 +1,5 @@
 source("common-functions.R")
-current_season <- 21
+current_season <- 22
 # Import the reference data containing the results URLs per season per division
 # Only needs updating when a new season is added
 ref_data <- read_csv("Snooker-Results-pages-per-season.csv") %>%

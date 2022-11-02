@@ -906,3 +906,36 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2022-04-13,21,1,St. Matthias A,Champion House,983276809,David Gillingham,200,297844767,Mick Lott,78
 2022-04-13,21,1,St. Matthias A,Champion House,561705160,Pav Sareen,199,578580599,Ian Smith,200
 2022-04-13,21,1,St. Matthias A,Champion House,283685400,Barry Martin,200,285715540,Tony Power,175
+2022-10-26,22,1,Hassocks A,Moulsecoomb B,455660500,Vince Elphick,186,104037073,Mike Palmer,200
+2022-10-26,22,1,Hassocks A,Moulsecoomb B,127285371,Stuart Williamson,200,138786345,Barry Thornton,159
+2022-10-26,22,1,Hassocks A,Moulsecoomb B,283685400,Barry Martin,200,546240999,Trevor Cain,159
+2022-10-26,22,1,Moulsecoomb A,St. Matthias B,409261140,Fred Cooper,200,856864967,Mark Lawson,189
+2022-10-26,22,1,Moulsecoomb A,St. Matthias B,176460812,Robin Powell,196,271881781,Lester Grice,200
+2022-10-26,22,1,Moulsecoomb A,St. Matthias B,564133408,Paul Phillips,200,104406518,Terry Bashford,189
+2022-10-19,22,1,Hassocks A,St. Matthias A,455660500,Vince Elphick,200,673468954,Micky Sandall,182
+2022-10-19,22,1,Hassocks A,St. Matthias A,283685400,Barry Martin,200,983276809,David Gillingham,177
+2022-10-19,22,1,Hassocks A,St. Matthias A,127285371,Stuart Williamson,200,561705160,Pav Sareen,111
+2022-10-19,22,1,Moulsecoomb B,Moulsecoomb A,138786345,Barry Thornton,200,165845675,Tyrone Davis,194
+2022-10-19,22,1,Moulsecoomb B,Moulsecoomb A,532826446,Tony Shipley,200,564133408,Paul Phillips,167
+2022-10-19,22,1,Moulsecoomb B,Moulsecoomb A,39704614,Steve Linton,200,176460812,Robin Powell,153
+2022-10-05,22,1,Moulsecoomb A,Hassocks A,409261140,Fred Cooper,176,792784781,James Dew,200
+2022-10-05,22,1,Moulsecoomb A,Hassocks A,176460812,Robin Powell,181,736978195,Jason Alford,200
+2022-10-05,22,1,Moulsecoomb A,Hassocks A,564133408,Paul Phillips,168,127285371,Stuart Williamson,200
+2022-10-05,22,1,St. Matthias A,St. Matthias B,392836520,Pip Akehurst,200,271881781,Lester Grice,125
+2022-10-05,22,1,St. Matthias A,St. Matthias B,561705160,Pav Sareen,174,992886832,Matthew Dumbleton,200
+2022-10-05,22,1,St. Matthias A,St. Matthias B,983276809,David Gillingham,169,51829191,Nigel Stilwell,200
+2022-09-28,22,1,Moulsecoomb A,St. Matthias A,165845675,Tyrone Davis,190,968064280,John Evans,200
+2022-09-28,22,1,Moulsecoomb A,St. Matthias A,176460812,Robin Powell,200,886456541,Dean Perry,197
+2022-09-28,22,1,Moulsecoomb A,St. Matthias A,564133408,Paul Phillips,194,561705160,Pav Sareen,200
+2022-09-21,22,1,Hassocks A,St. Matthias B,455660500,Vince Elphick,169,992886832,Matthew Dumbleton,200
+2022-09-21,22,1,Hassocks A,St. Matthias B,283685400,Barry Martin,137,51829191,Nigel Stilwell,200
+2022-09-21,22,1,Hassocks A,St. Matthias B,127285371,Stuart Williamson,200,271881781,Lester Grice,111
+2022-09-21,22,1,St. Matthias A,Moulsecoomb B,983276809,David Gillingham,185,532826446,Tony Shipley,200
+2022-09-21,22,1,St. Matthias A,Moulsecoomb B,673468954,Micky Sandall,166,104037073,Mike Palmer,200
+2022-09-21,22,1,St. Matthias A,Moulsecoomb B,561705160,Pav Sareen,171,138786345,Barry Thornton,200
+2022-09-14,22,1,Moulsecoomb B,Hassocks A,532826446,Tony Shipley,159,127285371,Stuart Williamson,200
+2022-09-14,22,1,Moulsecoomb B,Hassocks A,138786345,Barry Thornton,200,792784781,James Dew,152
+2022-09-14,22,1,Moulsecoomb B,Hassocks A,104037073,Mike Palmer,196,283685400,Barry Martin,200
+2022-09-14,22,1,St. Matthias B,Moulsecoomb A,271881781,Lester Grice,200,409261140,Fred Cooper,189
+2022-09-14,22,1,St. Matthias B,Moulsecoomb A,856864967,Mark Lawson,120,176460812,Robin Powell,200
+2022-09-14,22,1,St. Matthias B,Moulsecoomb A,104406518,Terry Bashford,162,564133408,Paul Phillips,200

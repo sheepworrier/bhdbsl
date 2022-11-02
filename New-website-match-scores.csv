@@ -1,4 +1,41 @@
 fixture_date,season,division,home_team,away_team,home_score,away_score,URLs
+2022-10-31,22,1,St. Matthias D,N.A.R.C A,2,4,http://brightonhovedistrictsnooker.leaguerepublic.com/match/32993966.html
+2022-10-24,22,1,St. Matthias D,Castle Club C,1,5,http://brightonhovedistrictsnooker.leaguerepublic.com/match/32993965.html
+2022-10-17,22,1,N.A.R.C A,St. Matthias A,2,4,http://brightonhovedistrictsnooker.leaguerepublic.com/match/32993962.html
+2022-10-17,22,1,St. Matthias C,St. Matthias D,3,3,http://brightonhovedistrictsnooker.leaguerepublic.com/match/32993963.html
+2022-10-10,22,1,N.A.R.C A,Castle Club C,3,3,http://brightonhovedistrictsnooker.leaguerepublic.com/match/32993960.html
+2022-10-03,22,1,Castle Club C,St. Matthias A,3,3,http://brightonhovedistrictsnooker.leaguerepublic.com/match/32993957.html
+2022-10-03,22,1,St. Matthias C,N.A.R.C A,3,3,http://brightonhovedistrictsnooker.leaguerepublic.com/match/32993959.html
+2022-09-26,22,1,Castle Club C,St. Matthias C,2,4,http://brightonhovedistrictsnooker.leaguerepublic.com/match/32993955.html
+2022-09-26,22,1,St. Matthias A,St. Matthias D,5,1,http://brightonhovedistrictsnooker.leaguerepublic.com/match/32993956.html
+2022-10-24,22,2,Champion House,Portslade Sports A,2,3,http://brightonhovedistrictsnooker.leaguerepublic.com/match/32994048.html
+2022-10-24,22,2,Moulsecoomb Club B,Hove Deep Sea Anglers,4,1,http://brightonhovedistrictsnooker.leaguerepublic.com/match/32994049.html
+2022-10-24,22,2,Portslade Legion,Southwick Sports A,2,3,http://brightonhovedistrictsnooker.leaguerepublic.com/match/32994052.html
+2022-10-24,22,2,Portslade Sports B,Preston Club,4,1,http://brightonhovedistrictsnooker.leaguerepublic.com/match/32994051.html
+2022-10-24,22,2,Southwick Sports B,N.A.R.C B,5,0,http://brightonhovedistrictsnooker.leaguerepublic.com/match/32994047.html
+2022-10-24,22,2,St. Matthias B,Moulsecoomb Club A,4,1,http://brightonhovedistrictsnooker.leaguerepublic.com/match/32994050.html
+2022-10-17,22,2,Hove Deep Sea Anglers,St. Matthias B,3,2,http://brightonhovedistrictsnooker.leaguerepublic.com/match/32994041.html
+2022-10-17,22,2,Moulsecoomb Club A,Portslade Sports B,1,4,http://brightonhovedistrictsnooker.leaguerepublic.com/match/32994043.html
+2022-10-17,22,2,N.A.R.C B,Champion House,0,5,http://brightonhovedistrictsnooker.leaguerepublic.com/match/32994045.html
+2022-10-17,22,2,Portslade Sports A,Moulsecoomb Club B,4,1,http://brightonhovedistrictsnooker.leaguerepublic.com/match/32994044.html
+2022-10-17,22,2,Preston Club,Portslade Legion,3,2,http://brightonhovedistrictsnooker.leaguerepublic.com/match/32994042.html
+2022-10-17,22,2,Southwick Sports C,Southwick Sports B,3,2,http://brightonhovedistrictsnooker.leaguerepublic.com/match/32994046.html
+2022-10-10,22,2,Champion House,Southwick Sports C,3,2,http://brightonhovedistrictsnooker.leaguerepublic.com/match/32994040.html
+2022-10-10,22,2,Hove Deep Sea Anglers,Portslade Sports A,2,3,http://brightonhovedistrictsnooker.leaguerepublic.com/match/32994036.html
+2022-10-10,22,2,Moulsecoomb Club B,N.A.R.C B,5,0,http://brightonhovedistrictsnooker.leaguerepublic.com/match/32994035.html
+2022-10-10,22,2,Portslade Legion,Moulsecoomb Club A,2,3,http://brightonhovedistrictsnooker.leaguerepublic.com/match/32994038.html
+2022-10-10,22,2,Portslade Sports B,St. Matthias B,3,2,http://brightonhovedistrictsnooker.leaguerepublic.com/match/32994037.html
+2022-10-03,22,2,N.A.R.C B,Hove Deep Sea Anglers,1,4,http://brightonhovedistrictsnooker.leaguerepublic.com/match/32994031.html
+2022-10-03,22,2,Portslade Sports A,St. Matthias B,4,1,http://brightonhovedistrictsnooker.leaguerepublic.com/match/32994029.html
+2022-10-03,22,2,Preston Club,Southwick Sports B,3,2,http://brightonhovedistrictsnooker.leaguerepublic.com/match/32994034.html
+2022-10-03,22,2,Southwick Sports A,Champion House,4,1,http://brightonhovedistrictsnooker.leaguerepublic.com/match/32994033.html
+2022-10-03,22,2,Southwick Sports C,Moulsecoomb Club B,3,2,http://brightonhovedistrictsnooker.leaguerepublic.com/match/32994032.html
+2022-09-26,22,2,Champion House,Preston Club,3,2,http://brightonhovedistrictsnooker.leaguerepublic.com/match/32994026.html
+2022-09-26,22,2,Hove Deep Sea Anglers,Southwick Sports C,2,3,http://brightonhovedistrictsnooker.leaguerepublic.com/match/32994028.html
+2022-09-26,22,2,Moulsecoomb Club B,Southwick Sports A,0,5,http://brightonhovedistrictsnooker.leaguerepublic.com/match/32994027.html
+2022-09-26,22,2,Portslade Sports A,N.A.R.C B,5,0,http://brightonhovedistrictsnooker.leaguerepublic.com/match/32994023.html
+2022-09-26,22,2,Southwick Sports B,Moulsecoomb Club A,4,1,http://brightonhovedistrictsnooker.leaguerepublic.com/match/32994025.html
+2022-09-26,22,2,St. Matthias B,Portslade Legion,4,1,http://brightonhovedistrictsnooker.leaguerepublic.com/match/32994024.html
 2022-04-25,21,1,Castle Club C,St. Matthias A,3,3,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31010115.html
 2022-04-25,21,1,St. Matthias C,N.A.R.C A,4,2,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31010120.html
 2022-04-11,21,1,Castle Club G,Castle Club C,3,3,http://brightonhovedistrictsnooker.leaguerepublic.com/match/31010104.html
