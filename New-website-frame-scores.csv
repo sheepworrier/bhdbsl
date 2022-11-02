@@ -372,7 +372,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2015-10-12,15,4,St. Matthias E,Moulsecoomb Club A,889234854,Paul Smith,44,349269645,Barry Thornton,52
 2015-10-12,15,4,St. Matthias E,Moulsecoomb Club A,866506631,Mark Smith,47,736783746,Russell Thornton,36
 2015-10-12,15,4,St. Matthias E,Moulsecoomb Club A,970786910,Kevin Sorrell,63,535728699,Fred Cooper,30
-2015-10-12,15,5,Goldstone Ex Serv. B,Southwick Sports B,294944526,Rob Teanby,58,363402934,Rod Phillippe,37
+2015-10-12,15,5,Goldstone Ex Serv. B,Southwick Sports B,294944526,Robert Teanby,58,363402934,Rod Phillippe,37
 2015-10-12,15,5,Goldstone Ex Serv. B,Southwick Sports B,386517733,Ady Halley,47,293577764,Dave Crosskey,26
 2015-10-12,15,5,Goldstone Ex Serv. B,Southwick Sports B,70159035,Peter Rea,57,426236650,Dave Parrott,20
 2015-10-12,15,5,Goldstone Ex Serv. B,Southwick Sports B,820231590,Alan Rook,45,291198629,Tony Burt,31
@@ -445,7 +445,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2015-10-19,15,4,St. Matthias E,Portslade Legion,866506631,Mark Smith,57,936624299,Peter Gallant,19
 2015-10-19,15,4,St. Matthias E,Portslade Legion,970786910,Kevin Sorrell,66,291816585,Jim Somers,31
 2015-10-19,15,4,St. Matthias E,Portslade Legion,464085958,Gerwyn Bowen,64,417786644,Eddie Collins,36
-2015-10-19,15,5,Goldstone Ex Serv. B,Castle Club J,294944526,Rob Teanby,55,287057630,Darren Hearn,28
+2015-10-19,15,5,Goldstone Ex Serv. B,Castle Club J,294944526,Robert Teanby,55,287057630,Darren Hearn,28
 2015-10-19,15,5,Goldstone Ex Serv. B,Castle Club J,386517733,Ady Halley,16,867613624,Ian Dunhill,45
 2015-10-19,15,5,Goldstone Ex Serv. B,Castle Club J,70159035,Peter Rea,64,254776886,Leighton Cole,12
 2015-10-19,15,5,Goldstone Ex Serv. B,Castle Club J,820231590,Alan Rook,39,32061370,Toby Prince-Iles,35
@@ -525,7 +525,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2015-10-26,15,5,N.A.R.C. B,Moulsecoomb Club B,480154054,Jim Dunstall,50,943667183,John Stone,43
 2015-10-26,15,5,N.A.R.C. B,Moulsecoomb Club B,41461520,Luke Pooley,35,567624732,Dave Brampton,61
 2015-10-26,15,5,Preston Club,Goldstone Ex Serv. B,231445676,Tony Paice,62,820231590,Alan Rook,26
-2015-10-26,15,5,Preston Club,Goldstone Ex Serv. B,856755662,David Marsh,28,294944526,Rob Teanby,45
+2015-10-26,15,5,Preston Club,Goldstone Ex Serv. B,856755662,David Marsh,28,294944526,Robert Teanby,45
 2015-10-26,15,5,Preston Club,Goldstone Ex Serv. B,966905561,Tony Dade,46,70159035,Peter Rea,81
 2015-10-26,15,5,Preston Club,Goldstone Ex Serv. B,401846353,Frank McHugh,34,386517733,Ady Halley,66
 2015-10-26,15,5,Preston Club,Goldstone Ex Serv. B,227209116,Peter Rawlinson,54,745152759,Kevin Jewell,17
@@ -587,7 +587,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2015-11-02,15,5,Castle Club J,N.A.R.C. B,982531289,Rory Griffiths,51,41461520,Luke Pooley,26
 2015-11-02,15,5,Castle Club J,N.A.R.C. B,27255501,Tom Lane,30,223983583,Carl Wentworth,60
 2015-11-02,15,5,Goldstone Ex Serv. B,Moulsecoomb Club B,820231590,Alan Rook,12,123792666,Jamie Thomas,44
-2015-11-02,15,5,Goldstone Ex Serv. B,Moulsecoomb Club B,294944526,Rob Teanby,32,110039677,Mick Miller,41
+2015-11-02,15,5,Goldstone Ex Serv. B,Moulsecoomb Club B,294944526,Robert Teanby,32,110039677,Mick Miller,41
 2015-11-02,15,5,Goldstone Ex Serv. B,Moulsecoomb Club B,386517733,Ady Halley,22,567624732,Dave Brampton,60
 2015-11-02,15,5,Goldstone Ex Serv. B,Moulsecoomb Club B,70159035,Peter Rea,37,579164381,Danny Cattell,41
 2015-11-02,15,5,Goldstone Ex Serv. B,Moulsecoomb Club B,573567936,Steve Marriott,51,649240057,Mike Childs,10
@@ -661,7 +661,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2015-11-09,15,5,Moulsecoomb Club B,Southwick Sports B,943667183,John Stone,56,426236650,Dave Parrott,2
 2015-11-09,15,5,Moulsecoomb Club B,Southwick Sports B,495939788,Tyrone Davis,53,291198629,Tony Burt,60
 2015-11-09,15,5,N.A.R.C. B,Goldstone Ex Serv. B,858283721,Dave Dunstall,58,820231590,Alan Rook,18
-2015-11-09,15,5,N.A.R.C. B,Goldstone Ex Serv. B,41461520,Luke Pooley,25,294944526,Rob Teanby,36
+2015-11-09,15,5,N.A.R.C. B,Goldstone Ex Serv. B,41461520,Luke Pooley,25,294944526,Robert Teanby,36
 2015-11-09,15,5,N.A.R.C. B,Goldstone Ex Serv. B,480154054,Jim Dunstall,44,386517733,Ady Halley,51
 2015-11-09,15,5,N.A.R.C. B,Goldstone Ex Serv. B,223983583,Carl Wentworth,23,70159035,Peter Rea,46
 2015-11-09,15,5,Preston Club,Castle Club J,856755662,David Marsh,59,287057630,Darren Hearn,41
@@ -801,7 +801,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2015-11-23,15,4,Portslade Legion,St. Matthias E,291816585,Jim Somers,10,970786910,Kevin Sorrell,44
 2015-11-23,15,4,Portslade Legion,St. Matthias E,936624299,Peter Gallant,23,788605510,Mark Rose,50
 2015-11-23,15,5,Castle Club J,Goldstone Ex Serv. B,867613624,Ian Dunhill,55,820231590,Alan Rook,30
-2015-11-23,15,5,Castle Club J,Goldstone Ex Serv. B,32061370,Toby Prince-Iles,45,294944526,Rob Teanby,40
+2015-11-23,15,5,Castle Club J,Goldstone Ex Serv. B,32061370,Toby Prince-Iles,45,294944526,Robert Teanby,40
 2015-11-23,15,5,Castle Club J,Goldstone Ex Serv. B,982531289,Rory Griffiths,53,386517733,Ady Halley,30
 2015-11-23,15,5,Castle Club J,Goldstone Ex Serv. B,287057630,Darren Hearn,13,70159035,Peter Rea,62
 2015-11-23,15,5,Castle Club J,Goldstone Ex Serv. B,27255501,Tom Lane,26,573567936,Steve Marriott,61
@@ -868,7 +868,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2015-11-30,15,4,St. Matthias E,Annunciation A,788605510,Mark Rose,10,351143642,Michael Palmer,61
 2015-11-30,15,4,St. Matthias E,Annunciation A,174147986,Lee Cliff,57,953512654,Les Berry,21
 2015-11-30,15,4,St. Matthias E,Annunciation A,866506631,Mark Smith,64,529382351,Greg Foat,37
-2015-11-30,15,5,Goldstone Ex Serv. B,Preston Club,294944526,Rob Teanby,20,856755662,David Marsh,62
+2015-11-30,15,5,Goldstone Ex Serv. B,Preston Club,294944526,Robert Teanby,20,856755662,David Marsh,62
 2015-11-30,15,5,Goldstone Ex Serv. B,Preston Club,386517733,Ady Halley,53,688778183,Dean Paice,51
 2015-11-30,15,5,Goldstone Ex Serv. B,Preston Club,70159035,Peter Rea,70,966905561,Tony Dade,25
 2015-11-30,15,5,Goldstone Ex Serv. B,Preston Club,573567936,Steve Marriott,47,227209116,Peter Rawlinson,33
@@ -1088,7 +1088,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2016-01-04,15,4,St. Matthias E,Portslade Legion,970786910,Kevin Sorrell,65,936624299,Peter Gallant,25
 2016-01-04,15,5,Goldstone Ex Serv. B,Castle Club J,820231590,Alan Rook,53,27255501,Tom Lane,17
 2016-01-04,15,5,Goldstone Ex Serv. B,Castle Club J,386517733,Ady Halley,17,254776886,Leighton Cole,45
-2016-01-04,15,5,Goldstone Ex Serv. B,Castle Club J,294944526,Rob Teanby,50,32061370,Toby Prince-Iles,27
+2016-01-04,15,5,Goldstone Ex Serv. B,Castle Club J,294944526,Robert Teanby,50,32061370,Toby Prince-Iles,27
 2016-01-04,15,5,Goldstone Ex Serv. B,Castle Club J,70159035,Peter Rea,41,287057630,Darren Hearn,32
 2016-01-04,15,5,Goldstone Ex Serv. B,Castle Club J,573567936,Steve Marriott,29,867613624,Ian Dunhill,51
 2016-01-04,15,5,Moulsecoomb Club B,Preston Club,579164381,Danny Cattell,33,856755662,David Marsh,47
@@ -1160,7 +1160,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2016-01-11,15,5,N.A.R.C. B,Moulsecoomb Club B,223983583,Carl Wentworth,57,943667183,John Stone,21
 2016-01-11,15,5,N.A.R.C. B,Moulsecoomb Club B,41461520,Luke Pooley,24,567624732,Dave Brampton,55
 2016-01-11,15,5,Preston Club,Goldstone Ex Serv. B,856755662,David Marsh,37,820231590,Alan Rook,49
-2016-01-11,15,5,Preston Club,Goldstone Ex Serv. B,231445676,Tony Paice,44,294944526,Rob Teanby,63
+2016-01-11,15,5,Preston Club,Goldstone Ex Serv. B,231445676,Tony Paice,44,294944526,Robert Teanby,63
 2016-01-11,15,5,Preston Club,Goldstone Ex Serv. B,966905561,Tony Dade,31,70159035,Peter Rea,66
 2016-01-11,15,5,Preston Club,Goldstone Ex Serv. B,227209116,Peter Rawlinson,35,386517733,Ady Halley,47
 2016-01-11,15,5,Preston Club,Goldstone Ex Serv. B,688778183,Dean Paice,49,573567936,Steve Marriott,11
@@ -1219,7 +1219,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2016-01-18,15,4,Portslade Sports,St. Matthias E,409212679,Mark Chapman,39,889234854,Paul Smith,40
 2016-01-18,15,4,Portslade Sports,St. Matthias E,430890681,Malcolm Cooper,7,970786910,Kevin Sorrell,59
 2016-01-18,15,5,Goldstone Ex Serv. B,Moulsecoomb Club B,820231590,Alan Rook,26,110039677,Mick Miller,41
-2016-01-18,15,5,Goldstone Ex Serv. B,Moulsecoomb Club B,294944526,Rob Teanby,31,579164381,Danny Cattell,39
+2016-01-18,15,5,Goldstone Ex Serv. B,Moulsecoomb Club B,294944526,Robert Teanby,31,579164381,Danny Cattell,39
 2016-01-18,15,5,Goldstone Ex Serv. B,Moulsecoomb Club B,70159035,Peter Rea,66,978156264,Bob Paine,2
 2016-01-18,15,5,Goldstone Ex Serv. B,Moulsecoomb Club B,386517733,Ady Halley,5,567624732,Dave Brampton,48
 2016-01-18,15,5,Goldstone Ex Serv. B,Moulsecoomb Club B,745152759,Kevin Jewell,31,943667183,John Stone,50
@@ -1287,7 +1287,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2016-01-25,15,5,Moulsecoomb Club B,Southwick Sports B,110039677,Mick Miller,59,291198629,Tony Burt,21
 2016-01-25,15,5,Moulsecoomb Club B,Southwick Sports B,943667183,John Stone,13,971308746,Clive Harman,43
 2016-01-25,15,5,N.A.R.C. B,Goldstone Ex Serv. B,223983583,Carl Wentworth,48,820231590,Alan Rook,22
-2016-01-25,15,5,N.A.R.C. B,Goldstone Ex Serv. B,677110925,Jake Dunstall,56,294944526,Rob Teanby,23
+2016-01-25,15,5,N.A.R.C. B,Goldstone Ex Serv. B,677110925,Jake Dunstall,56,294944526,Robert Teanby,23
 2016-01-25,15,5,N.A.R.C. B,Goldstone Ex Serv. B,858283721,Dave Dunstall,40,70159035,Peter Rea,74
 2016-01-25,15,5,N.A.R.C. B,Goldstone Ex Serv. B,41461520,Luke Pooley,53,386517733,Ady Halley,40
 2016-01-25,15,5,Preston Club,Castle Club J,856755662,David Marsh,70,32061370,Toby Prince-Iles,42
@@ -1415,7 +1415,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2016-02-08,15,4,Portslade Legion,St. Matthias E,229719541,Scott Manning,60,464085958,Gerwyn Bowen,50
 2016-02-08,15,4,Portslade Legion,St. Matthias E,954639632,Derek Budde,18,970786910,Kevin Sorrell,49
 2016-02-08,15,5,Castle Club J,Goldstone Ex Serv. B,32061370,Toby Prince-Iles,23,820231590,Alan Rook,50
-2016-02-08,15,5,Castle Club J,Goldstone Ex Serv. B,287057630,Darren Hearn,23,294944526,Rob Teanby,37
+2016-02-08,15,5,Castle Club J,Goldstone Ex Serv. B,287057630,Darren Hearn,23,294944526,Robert Teanby,37
 2016-02-08,15,5,Castle Club J,Goldstone Ex Serv. B,27255501,Tom Lane,45,386517733,Ady Halley,56
 2016-02-08,15,5,Castle Club J,Goldstone Ex Serv. B,867613624,Ian Dunhill,35,70159035,Peter Rea,48
 2016-02-08,15,5,Castle Club J,Goldstone Ex Serv. B,254776886,Leighton Cole,44,573567936,Steve Marriott,19
@@ -1477,7 +1477,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2016-02-15,15,4,St. Matthias E,Annunciation A,788605510,Mark Rose,62,202090738,Alan Head,29
 2016-02-15,15,4,St. Matthias E,Annunciation A,646614924,Norman Moye,47,953512654,Les Berry,28
 2016-02-15,15,5,Goldstone Ex Serv. B,Preston Club,820231590,Alan Rook,16,856755662,David Marsh,53
-2016-02-15,15,5,Goldstone Ex Serv. B,Preston Club,294944526,Rob Teanby,48,231445676,Tony Paice,32
+2016-02-15,15,5,Goldstone Ex Serv. B,Preston Club,294944526,Robert Teanby,48,231445676,Tony Paice,32
 2016-02-15,15,5,Goldstone Ex Serv. B,Preston Club,70159035,Peter Rea,52,266477517,Tony Baxter,10
 2016-02-15,15,5,Goldstone Ex Serv. B,Preston Club,745152759,Kevin Jewell,25,966905561,Tony Dade,55
 2016-02-15,15,5,Goldstone Ex Serv. B,Preston Club,573567936,Steve Marriott,52,227209116,Peter Rawlinson,45
@@ -1538,7 +1538,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2016-02-22,15,4,St. Matthias E,Portslade Sports,889234854,Paul Smith,30,688252012,Sean Cooper,56
 2016-02-22,15,4,St. Matthias E,Portslade Sports,970786910,Kevin Sorrell,75,498330760,Mo Collins,14
 2016-02-22,15,5,Moulsecoomb Club B,Goldstone Ex Serv. B,110039677,Mick Miller,59,820231590,Alan Rook,30
-2016-02-22,15,5,Moulsecoomb Club B,Goldstone Ex Serv. B,579164381,Danny Cattell,43,294944526,Rob Teanby,11
+2016-02-22,15,5,Moulsecoomb Club B,Goldstone Ex Serv. B,579164381,Danny Cattell,43,294944526,Robert Teanby,11
 2016-02-22,15,5,Moulsecoomb Club B,Goldstone Ex Serv. B,567624732,Dave Brampton,56,573567936,Steve Marriott,28
 2016-02-22,15,5,Moulsecoomb Club B,Goldstone Ex Serv. B,943667183,John Stone,57,386517733,Ady Halley,36
 2016-02-22,15,5,Moulsecoomb Club B,Goldstone Ex Serv. B,978156264,Bob Paine,41,745152759,Kevin Jewell,46
@@ -1713,7 +1713,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2016-03-14,15,4,St. Matthias E,Portslade Legion,866506631,Mark Smith,64,936624299,Peter Gallant,36
 2016-03-14,15,5,Goldstone Ex Serv. B,Castle Club J,820231590,Alan Rook,21,287057630,Darren Hearn,37
 2016-03-14,15,5,Goldstone Ex Serv. B,Castle Club J,386517733,Ady Halley,30,982531289,Rory Griffiths,53
-2016-03-14,15,5,Goldstone Ex Serv. B,Castle Club J,294944526,Rob Teanby,41,32061370,Toby Prince-Iles,49
+2016-03-14,15,5,Goldstone Ex Serv. B,Castle Club J,294944526,Robert Teanby,41,32061370,Toby Prince-Iles,49
 2016-03-14,15,5,Goldstone Ex Serv. B,Castle Club J,573567936,Steve Marriott,8,254776886,Leighton Cole,41
 2016-03-14,15,5,Goldstone Ex Serv. B,Castle Club J,745152759,Kevin Jewell,4,867613624,Ian Dunhill,56
 2016-03-14,15,5,Moulsecoomb Club B,Preston Club,110039677,Mick Miller,60,815023707,David Senior,52
@@ -1937,7 +1937,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2016-09-12,16,3,St. Matthias E,Hove D.S. Anglers B,174147986,Lee Cliff,54,612265840,Paul Honeysett,13
 2016-09-12,16,3,St. Matthias E,Hove D.S. Anglers B,889234854,Paul Smith,57,674307680,Neil McCafferty,24
 2016-09-12,16,4,Goldstone Ex Serv. B,Annunciation A,820231590,Alan Rook,12,279543944,Peter Maurice,49
-2016-09-12,16,4,Goldstone Ex Serv. B,Annunciation A,294944526,Rob Teanby,59,529382351,Greg Foat,27
+2016-09-12,16,4,Goldstone Ex Serv. B,Annunciation A,294944526,Robert Teanby,59,529382351,Greg Foat,27
 2016-09-12,16,4,Goldstone Ex Serv. B,Annunciation A,70159035,Peter Rea,36,831214643,Tony Shipley,43
 2016-09-12,16,4,Goldstone Ex Serv. B,Annunciation A,386517733,Ady Halley,33,351143642,Michael Palmer,45
 2016-09-12,16,4,Goldstone Ex Serv. B,Annunciation A,573567936,Steve Marriott,52,953512654,Les Berry,40
@@ -2022,7 +2022,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2016-09-19,16,4,Preston Club,Moulsecoomb Club A,688778183,Dean Paice,58,535728699,Fred Cooper,23
 2016-09-19,16,4,Preston Club,Moulsecoomb Club A,966905561,Tony Dade,29,349269645,Barry Thornton,70
 2016-09-19,16,4,Southwick Sports,Goldstone Ex Serv. B,293577764,Dave Crosskey,56,386517733,Ady Halley,26
-2016-09-19,16,4,Southwick Sports,Goldstone Ex Serv. B,301960429,Brian Collins,55,294944526,Rob Teanby,32
+2016-09-19,16,4,Southwick Sports,Goldstone Ex Serv. B,301960429,Brian Collins,55,294944526,Robert Teanby,32
 2016-09-19,16,4,Southwick Sports,Goldstone Ex Serv. B,426236650,Dave Parrott,5,70159035,Peter Rea,65
 2016-09-19,16,4,Southwick Sports,Goldstone Ex Serv. B,76011459,Kane Harman,60,745152759,Kevin Jewell,48
 2016-09-19,16,4,Southwick Sports,Goldstone Ex Serv. B,971308746,Clive Harman,43,573567936,Steve Marriott,15
@@ -2086,7 +2086,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2016-09-26,16,3,St. Matthias E,N.A.R.C C,889234854,Paul Smith,44,402257815,Jim Cumming,33
 2016-09-26,16,4,Goldstone Ex Serv. B,Moulsecoomb Club B,820231590,Alan Rook,23,649240057,Mike Childs,42
 2016-09-26,16,4,Goldstone Ex Serv. B,Moulsecoomb Club B,386517733,Ady Halley,65,495939788,Tyrone Davis,15
-2016-09-26,16,4,Goldstone Ex Serv. B,Moulsecoomb Club B,294944526,Rob Teanby,63,978156264,Bob Paine,28
+2016-09-26,16,4,Goldstone Ex Serv. B,Moulsecoomb Club B,294944526,Robert Teanby,63,978156264,Bob Paine,28
 2016-09-26,16,4,Goldstone Ex Serv. B,Moulsecoomb Club B,70159035,Peter Rea,14,943667183,John Stone,51
 2016-09-26,16,4,Moulsecoomb Club A,Portslade Legion,392533233,Jack Wright,47,845758589,Charlie James,17
 2016-09-26,16,4,Moulsecoomb Club A,Portslade Legion,349269645,Barry Thornton,50,417786644,Eddie Collins,26
@@ -2237,7 +2237,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2016-10-10,16,4,Annunciation A,Southwick Sports,831214643,Tony Shipley,46,301960429,Brian Collins,49
 2016-10-10,16,4,Annunciation A,Southwick Sports,953512654,Les Berry,55,293577764,Dave Crosskey,30
 2016-10-10,16,4,Moulsecoomb Club A,Goldstone Ex Serv. B,392533233,Jack Wright,52,820231590,Alan Rook,39
-2016-10-10,16,4,Moulsecoomb Club A,Goldstone Ex Serv. B,349269645,Barry Thornton,50,294944526,Rob Teanby,39
+2016-10-10,16,4,Moulsecoomb Club A,Goldstone Ex Serv. B,349269645,Barry Thornton,50,294944526,Robert Teanby,39
 2016-10-10,16,4,Moulsecoomb Club A,Goldstone Ex Serv. B,271464632,Paul Phillips,29,70159035,Peter Rea,57
 2016-10-10,16,4,Moulsecoomb Club A,Goldstone Ex Serv. B,724342701,Nigel Lilley,41,573567936,Steve Marriott,63
 2016-10-10,16,4,Moulsecoomb Club A,Goldstone Ex Serv. B,535728699,Fred Cooper,41,386517733,Ady Halley,60
@@ -2457,7 +2457,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2016-10-31,16,3,Portslade Sports,Champion House C,409212679,Mark Chapman,46,28382047,Steve Harrington,32
 2016-10-31,16,3,Portslade Sports,Champion House C,430890681,Malcolm Cooper,28,929636592,Danny Wilson,57
 2016-10-31,16,4,Annunciation A,Goldstone Ex Serv. B,279543944,Peter Maurice,47,820231590,Alan Rook,33
-2016-10-31,16,4,Annunciation A,Goldstone Ex Serv. B,351143642,Michael Palmer,33,294944526,Rob Teanby,48
+2016-10-31,16,4,Annunciation A,Goldstone Ex Serv. B,351143642,Michael Palmer,33,294944526,Robert Teanby,48
 2016-10-31,16,4,Annunciation A,Goldstone Ex Serv. B,529382351,Greg Foat,36,386517733,Ady Halley,59
 2016-10-31,16,4,Annunciation A,Goldstone Ex Serv. B,953512654,Les Berry,55,573567936,Steve Marriott,32
 2016-10-31,16,4,Annunciation A,Goldstone Ex Serv. B,831214643,Tony Shipley,68,70159035,Peter Rea,75
@@ -2535,7 +2535,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2016-11-07,16,3,St. Matthias E,Portslade Sports,970786910,Kevin Sorrell,51,688252012,Sean Cooper,48
 2016-11-07,16,4,Goldstone Ex Serv. B,Southwick Sports,820231590,Alan Rook,33,971308746,Clive Harman,49
 2016-11-07,16,4,Goldstone Ex Serv. B,Southwick Sports,386517733,Ady Halley,51,171346729,Des Heasman,37
-2016-11-07,16,4,Goldstone Ex Serv. B,Southwick Sports,294944526,Rob Teanby,37,76011459,Kane Harman,48
+2016-11-07,16,4,Goldstone Ex Serv. B,Southwick Sports,294944526,Robert Teanby,37,76011459,Kane Harman,48
 2016-11-07,16,4,Goldstone Ex Serv. B,Southwick Sports,70159035,Peter Rea,42,301960429,Brian Collins,53
 2016-11-07,16,4,Goldstone Ex Serv. B,Southwick Sports,573567936,Steve Marriott,61,293577764,Dave Crosskey,51
 2016-11-07,16,4,Moulsecoomb Club A,Preston Club,535728699,Fred Cooper,50,966905561,Tony Dade,9
@@ -2615,7 +2615,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2016-11-14,16,4,Annunciation A,Preston Club,529382351,Greg Foat,13,856755662,David Marsh,63
 2016-11-14,16,4,Annunciation A,Preston Club,351143642,Michael Palmer,56,258549102,Tony Lee,47
 2016-11-14,16,4,Annunciation A,Preston Club,831214643,Tony Shipley,55,688778183,Dean Paice,45
-2016-11-14,16,4,Moulsecoomb Club B,Goldstone Ex Serv. B,172646809,Robin Powell,47,294944526,Rob Teanby,40
+2016-11-14,16,4,Moulsecoomb Club B,Goldstone Ex Serv. B,172646809,Robin Powell,47,294944526,Robert Teanby,40
 2016-11-14,16,4,Moulsecoomb Club B,Goldstone Ex Serv. B,943667183,John Stone,50,745152759,Kevin Jewell,27
 2016-11-14,16,4,Moulsecoomb Club B,Goldstone Ex Serv. B,567624732,Dave Brampton,41,70159035,Peter Rea,71
 2016-11-14,16,4,Moulsecoomb Club B,Goldstone Ex Serv. B,495939788,Tyrone Davis,15,386517733,Ady Halley,42
@@ -3283,7 +3283,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2017-02-06,16,4,Annunciation A,Southwick Sports,351143642,Michael Palmer,41,971308746,Clive Harman,31
 2017-02-06,16,4,Annunciation A,Southwick Sports,831214643,Tony Shipley,50,426236650,Dave Parrott,33
 2017-02-06,16,4,Moulsecoomb Club A,Goldstone Ex Serv. B,394906196,Mick Mabbitt,50,820231590,Alan Rook,46
-2017-02-06,16,4,Moulsecoomb Club A,Goldstone Ex Serv. B,392533233,Jack Wright,12,294944526,Rob Teanby,41
+2017-02-06,16,4,Moulsecoomb Club A,Goldstone Ex Serv. B,392533233,Jack Wright,12,294944526,Robert Teanby,41
 2017-02-06,16,4,Moulsecoomb Club A,Goldstone Ex Serv. B,535728699,Fred Cooper,48,70159035,Peter Rea,53
 2017-02-06,16,4,Moulsecoomb Club A,Goldstone Ex Serv. B,724342701,Nigel Lilley,52,386517733,Ady Halley,66
 2017-02-06,16,4,Moulsecoomb Club A,Goldstone Ex Serv. B,271464632,Paul Phillips,51,573567936,Steve Marriott,11
@@ -3352,7 +3352,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2017-02-13,16,3,N.A.R.C C,Castle Club G,444350794,Richard Freeman,30,306438070,Martin Stocker,51
 2017-02-13,16,3,N.A.R.C C,Castle Club G,402257815,Jim Cumming,14,83590771,Nick Brayne,45
 2017-02-13,16,4,Goldstone Ex Serv. B,N.A.R.C. B,820231590,Alan Rook,44,41461520,Luke Pooley,26
-2017-02-13,16,4,Goldstone Ex Serv. B,N.A.R.C. B,294944526,Rob Teanby,10,843981340,Mark Glover,50
+2017-02-13,16,4,Goldstone Ex Serv. B,N.A.R.C. B,294944526,Robert Teanby,10,843981340,Mark Glover,50
 2017-02-13,16,4,Goldstone Ex Serv. B,N.A.R.C. B,386517733,Ady Halley,61,858283721,Dave Dunstall,59
 2017-02-13,16,4,Goldstone Ex Serv. B,N.A.R.C. B,70159035,Peter Rea,81,223983583,Carl Wentworth,7
 2017-02-13,16,4,Moulsecoomb Club B,Annunciation A,649240057,Mike Childs,60,279543944,Peter Maurice,35
@@ -3651,7 +3651,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2017-03-13,16,4,Annunciation A,Preston Club,529382351,Greg Foat,35,966905561,Tony Dade,48
 2017-03-13,16,4,Annunciation A,Preston Club,351143642,Michael Palmer,59,688778183,Dean Paice,34
 2017-03-13,16,4,Moulsecoomb Club B,Goldstone Ex Serv. B,495939788,Tyrone Davis,51,820231590,Alan Rook,38
-2017-03-13,16,4,Moulsecoomb Club B,Goldstone Ex Serv. B,649240057,Mike Childs,33,294944526,Rob Teanby,53
+2017-03-13,16,4,Moulsecoomb Club B,Goldstone Ex Serv. B,649240057,Mike Childs,33,294944526,Robert Teanby,53
 2017-03-13,16,4,Moulsecoomb Club B,Goldstone Ex Serv. B,978156264,Bob Paine,23,573567936,Steve Marriott,66
 2017-03-13,16,4,Moulsecoomb Club B,Goldstone Ex Serv. B,567624732,Dave Brampton,30,70159035,Peter Rea,65
 2017-03-13,16,4,Moulsecoomb Club B,Goldstone Ex Serv. B,943667183,John Stone,41,386517733,Ady Halley,42
@@ -3977,7 +3977,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2017-09-11,17,4,Portslade Legion,Goldstone Ex Serv. B,845758589,Charlie James,53,386517733,Ady Halley,20
 2017-09-11,17,4,Portslade Legion,Goldstone Ex Serv. B,291816585,Jim Somers,18,573567936,Steve Marriott,57
 2017-09-11,17,4,Portslade Legion,Goldstone Ex Serv. B,936624299,Peter Gallant,15,70159035,Peter Rea,59
-2017-09-11,17,4,Portslade Legion,Goldstone Ex Serv. B,69745818,Ian Bowles,42,294944526,Rob Teanby,41
+2017-09-11,17,4,Portslade Legion,Goldstone Ex Serv. B,69745818,Ian Bowles,42,294944526,Robert Teanby,41
 2017-09-11,17,4,Preston Club,Champion House B,788364333,Lee Clowes,2,737709582,Tony Browne,63
 2017-09-11,17,4,Preston Club,Champion House B,550135528,Clive Jeffrey,26,880982797,Ray Hunter,35
 2017-09-11,17,4,Preston Club,Champion House B,670870044,David Flanagan,46,929636592,Danny Wilson,16
@@ -4097,7 +4097,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2017-09-25,17,4,Moulsecoomb Club B,Annunciation A,943667183,John Stone,61,351143642,Michael Palmer,25
 2017-09-25,17,4,Moulsecoomb Club B,Annunciation A,495939788,Tyrone Davis,32,831214643,Tony Shipley,51
 2017-09-25,17,4,N.A.R.C. B,Goldstone Ex Serv. B,858283721,Dave Dunstall,54,820231590,Alan Rook,31
-2017-09-25,17,4,N.A.R.C. B,Goldstone Ex Serv. B,444339215,Steve Richards,14,294944526,Rob Teanby,54
+2017-09-25,17,4,N.A.R.C. B,Goldstone Ex Serv. B,444339215,Steve Richards,14,294944526,Robert Teanby,54
 2017-09-25,17,4,N.A.R.C. B,Goldstone Ex Serv. B,843981340,Mark Glover,51,70159035,Peter Rea,24
 2017-09-25,17,4,N.A.R.C. B,Goldstone Ex Serv. B,480154054,Jim Dunstall,24,386517733,Ady Halley,43
 2017-09-25,17,4,N.A.R.C. B,Goldstone Ex Serv. B,223983583,Carl Wentworth,34,745152759,Kevin Jewell,43
@@ -4163,7 +4163,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2017-10-02,17,4,Annunciation A,Preston Club,351143642,Michael Palmer,26,670870044,David Flanagan,49
 2017-10-02,17,4,Annunciation A,Preston Club,288891270,Lewis Copping,60,688778183,Dean Paice,5
 2017-10-02,17,4,Annunciation A,Preston Club,953512654,Les Berry,29,231445676,Tony Paice,54
-2017-10-02,17,4,Goldstone Ex Serv. B,Moulsecoomb Club B,294944526,Rob Teanby,64,172646809,Robin Powell,21
+2017-10-02,17,4,Goldstone Ex Serv. B,Moulsecoomb Club B,294944526,Robert Teanby,64,172646809,Robin Powell,21
 2017-10-02,17,4,Goldstone Ex Serv. B,Moulsecoomb Club B,386517733,Ady Halley,62,495939788,Tyrone Davis,21
 2017-10-02,17,4,Goldstone Ex Serv. B,Moulsecoomb Club B,820231590,Alan Rook,34,978156264,Bob Paine,43
 2017-10-02,17,4,Goldstone Ex Serv. B,Moulsecoomb Club B,70159035,Peter Rea,36,567624732,Dave Brampton,55
@@ -4303,7 +4303,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2017-10-16,17,4,Champion House B,Annunciation A,880982797,Ray Hunter,47,279543944,Peter Maurice,18
 2017-10-16,17,4,Champion House B,Annunciation A,929636592,Danny Wilson,34,351143642,Michael Palmer,61
 2017-10-16,17,4,Champion House B,Annunciation A,39289507,Mick Laughlin,1,831214643,Tony Shipley,57
-2017-10-16,17,4,Goldstone Ex Serv. B,Preston Club,294944526,Rob Teanby,38,670870044,David Flanagan,30
+2017-10-16,17,4,Goldstone Ex Serv. B,Preston Club,294944526,Robert Teanby,38,670870044,David Flanagan,30
 2017-10-16,17,4,Goldstone Ex Serv. B,Preston Club,820231590,Alan Rook,27,304563362,Dan Marchant,47
 2017-10-16,17,4,Goldstone Ex Serv. B,Preston Club,70159035,Peter Rea,62,688778183,Dean Paice,9
 2017-10-16,17,4,Goldstone Ex Serv. B,Preston Club,386517733,Ady Halley,55,788364333,Lee Clowes,26
@@ -4443,7 +4443,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2017-10-30,17,4,Champion House B,Preston Club,852327692,Andy Fletcher,29,688778183,Dean Paice,40
 2017-10-30,17,4,Champion House B,Preston Club,28382047,Steve Harrington,43,231445676,Tony Paice,69
 2017-10-30,17,4,Goldstone Ex Serv. B,Portslade Legion,820231590,Alan Rook,21,229719541,Scott Manning,61
-2017-10-30,17,4,Goldstone Ex Serv. B,Portslade Legion,294944526,Rob Teanby,46,845758589,Charlie James,55
+2017-10-30,17,4,Goldstone Ex Serv. B,Portslade Legion,294944526,Robert Teanby,46,845758589,Charlie James,55
 2017-10-30,17,4,Goldstone Ex Serv. B,Portslade Legion,386517733,Ady Halley,57,291816585,Jim Somers,12
 2017-10-30,17,4,Goldstone Ex Serv. B,Portslade Legion,70159035,Peter Rea,60,69745818,Ian Bowles,14
 2017-10-30,17,4,Goldstone Ex Serv. B,Portslade Legion,573567936,Steve Marriott,25,936624299,Peter Gallant,36
@@ -4520,7 +4520,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2017-11-06,17,4,Southwick Sports B,Goldstone Ex Serv. B,293577764,Dave Crosskey,35,820231590,Alan Rook,49
 2017-11-06,17,4,Southwick Sports B,Goldstone Ex Serv. B,804381932,Ryan Harman,55,573567936,Steve Marriott,29
 2017-11-06,17,4,Southwick Sports B,Goldstone Ex Serv. B,657320021,Brett Strevens,42,386517733,Ady Halley,30
-2017-11-06,17,4,Southwick Sports B,Goldstone Ex Serv. B,216787426,Jack Perrin,37,294944526,Rob Teanby,54
+2017-11-06,17,4,Southwick Sports B,Goldstone Ex Serv. B,216787426,Jack Perrin,37,294944526,Robert Teanby,54
 2017-11-13,17,2,Castle Club D,Annunciation B,484159049,Tommy Wright,6,463709832,Danny Wong,53
 2017-11-13,17,2,Castle Club D,Annunciation B,726498878,Grigory Yashkov,60,490170224,Jamie Matthews,30
 2017-11-13,17,2,Castle Club D,Annunciation B,736672590,Dean Perry,58,326342962,Geoff Randall,41
@@ -4566,7 +4566,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2017-11-13,17,4,Champion House B,Southwick Sports B,929636592,Danny Wilson,57,426236650,Dave Parrott,32
 2017-11-13,17,4,Champion House B,Southwick Sports B,852327692,Andy Fletcher,56,657320021,Brett Strevens,45
 2017-11-13,17,4,Goldstone Ex Serv. B,N.A.R.C. B,820231590,Alan Rook,45,444339215,Steve Richards,59
-2017-11-13,17,4,Goldstone Ex Serv. B,N.A.R.C. B,294944526,Rob Teanby,27,843981340,Mark Glover,51
+2017-11-13,17,4,Goldstone Ex Serv. B,N.A.R.C. B,294944526,Robert Teanby,27,843981340,Mark Glover,51
 2017-11-13,17,4,Goldstone Ex Serv. B,N.A.R.C. B,386517733,Ady Halley,8,677110925,Jake Dunstall,45
 2017-11-13,17,4,Goldstone Ex Serv. B,N.A.R.C. B,70159035,Peter Rea,69,223983583,Carl Wentworth,6
 2017-11-13,17,4,Goldstone Ex Serv. B,N.A.R.C. B,745152759,Kevin Jewell,49,41461520,Luke Pooley,31
@@ -4832,7 +4832,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2018-01-08,17,4,N.A.R.C. B,Moulsecoomb Club B,223983583,Carl Wentworth,42,567624732,Dave Brampton,22
 2018-01-08,17,4,Portslade Legion,Goldstone Ex Serv. B,845758589,Charlie James,39,820231590,Alan Rook,35
 2018-01-08,17,4,Portslade Legion,Goldstone Ex Serv. B,936624299,Peter Gallant,50,745152759,Kevin Jewell,34
-2018-01-08,17,4,Portslade Legion,Goldstone Ex Serv. B,417786644,Eddie Collins,31,294944526,Rob Teanby,61
+2018-01-08,17,4,Portslade Legion,Goldstone Ex Serv. B,417786644,Eddie Collins,31,294944526,Robert Teanby,61
 2018-01-08,17,4,Portslade Legion,Goldstone Ex Serv. B,291816585,Jim Somers,11,573567936,Steve Marriott,45
 2018-01-08,17,4,Portslade Legion,Goldstone Ex Serv. B,69745818,Ian Bowles,68,70159035,Peter Rea,76
 2018-01-08,17,4,Preston Club,Champion House B,966905561,Tony Dade,45,501266206,David Fox,5
@@ -4889,7 +4889,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2018-01-15,17,4,Champion House B,Portslade Legion,929636592,Danny Wilson,45,936624299,Peter Gallant,18
 2018-01-15,17,4,Champion House B,Portslade Legion,880982797,Ray Hunter,37,69745818,Ian Bowles,48
 2018-01-15,17,4,Goldstone Ex Serv. B,Southwick Sports B,820231590,Alan Rook,21,293577764,Dave Crosskey,44
-2018-01-15,17,4,Goldstone Ex Serv. B,Southwick Sports B,294944526,Rob Teanby,36,961176896,Kelvin Strevens,46
+2018-01-15,17,4,Goldstone Ex Serv. B,Southwick Sports B,294944526,Robert Teanby,36,961176896,Kelvin Strevens,46
 2018-01-15,17,4,Goldstone Ex Serv. B,Southwick Sports B,70159035,Peter Rea,51,804381932,Ryan Harman,21
 2018-01-15,17,4,Goldstone Ex Serv. B,Southwick Sports B,386517733,Ady Halley,44,657320021,Brett Strevens,26
 2018-01-15,17,4,Goldstone Ex Serv. B,Southwick Sports B,573567936,Steve Marriott,60,216787426,Jack Perrin,49
@@ -5035,7 +5035,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2018-02-05,17,3,St. Matthias E,Moulsecoomb Club A,788605510,Mark Rose,51,271464632,Paul Phillips,30
 2018-02-05,17,4,Annunciation A,Goldstone Ex Serv. B,279543944,Peter Maurice,54,820231590,Alan Rook,44
 2018-02-05,17,4,Annunciation A,Goldstone Ex Serv. B,351143642,Michael Palmer,26,386517733,Ady Halley,49
-2018-02-05,17,4,Annunciation A,Goldstone Ex Serv. B,529382351,Greg Foat,20,294944526,Rob Teanby,50
+2018-02-05,17,4,Annunciation A,Goldstone Ex Serv. B,529382351,Greg Foat,20,294944526,Robert Teanby,50
 2018-02-05,17,4,Annunciation A,Goldstone Ex Serv. B,288891270,Lewis Copping,45,573567936,Steve Marriott,17
 2018-02-05,17,4,Annunciation A,Goldstone Ex Serv. B,953512654,Les Berry,7,70159035,Peter Rea,72
 2018-02-05,17,4,Moulsecoomb Club B,Champion House B,172646809,Robin Powell,44,501266206,David Fox,9
@@ -5145,7 +5145,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2018-02-19,17,4,Annunciation A,Portslade Legion,351143642,Michael Palmer,42,936624299,Peter Gallant,60
 2018-02-19,17,4,Annunciation A,Portslade Legion,953512654,Les Berry,43,69745818,Ian Bowles,29
 2018-02-19,17,4,Goldstone Ex Serv. B,Champion House B,820231590,Alan Rook,28,880982797,Ray Hunter,44
-2018-02-19,17,4,Goldstone Ex Serv. B,Champion House B,294944526,Rob Teanby,38,39289507,Mick Laughlin,60
+2018-02-19,17,4,Goldstone Ex Serv. B,Champion House B,294944526,Robert Teanby,38,39289507,Mick Laughlin,60
 2018-02-19,17,4,Goldstone Ex Serv. B,Champion House B,386517733,Ady Halley,58,737709582,Tony Browne,42
 2018-02-19,17,4,Goldstone Ex Serv. B,Champion House B,70159035,Peter Rea,51,852327692,Andy Fletcher,14
 2018-02-19,17,4,Goldstone Ex Serv. B,Champion House B,573567936,Steve Marriott,32,929636592,Danny Wilson,49
@@ -5251,7 +5251,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2018-03-05,17,4,Preston Club,Moulsecoomb Club B,670870044,David Flanagan,52,567624732,Dave Brampton,33
 2018-03-05,17,4,Preston Club,Moulsecoomb Club B,688778183,Dean Paice,54,943667183,John Stone,11
 2018-03-05,17,4,Preston Club,Moulsecoomb Club B,231445676,Tony Paice,72,495939788,Tyrone Davis,8
-2018-03-05,17,4,Southwick Sports B,Goldstone Ex Serv. B,804381932,Ryan Harman,43,294944526,Rob Teanby,56
+2018-03-05,17,4,Southwick Sports B,Goldstone Ex Serv. B,804381932,Ryan Harman,43,294944526,Robert Teanby,56
 2018-03-05,17,4,Southwick Sports B,Goldstone Ex Serv. B,216787426,Jack Perrin,32,820231590,Alan Rook,43
 2018-03-05,17,4,Southwick Sports B,Goldstone Ex Serv. B,293577764,Dave Crosskey,40,386517733,Ady Halley,43
 2018-03-05,17,4,Southwick Sports B,Goldstone Ex Serv. B,657320021,Brett Strevens,42,573567936,Steve Marriott,52
@@ -5298,7 +5298,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2018-03-12,17,4,Champion House B,Southwick Sports B,737709582,Tony Browne,18,961176896,Kelvin Strevens,71
 2018-03-12,17,4,Champion House B,Southwick Sports B,929636592,Danny Wilson,61,804381932,Ryan Harman,7
 2018-03-12,17,4,Champion House B,Southwick Sports B,39289507,Mick Laughlin,61,657320021,Brett Strevens,25
-2018-03-12,17,4,Goldstone Ex Serv. B,N.A.R.C. B,294944526,Rob Teanby,54,444339215,Steve Richards,8
+2018-03-12,17,4,Goldstone Ex Serv. B,N.A.R.C. B,294944526,Robert Teanby,54,444339215,Steve Richards,8
 2018-03-12,17,4,Goldstone Ex Serv. B,N.A.R.C. B,386517733,Ady Halley,55,41461520,Luke Pooley,41
 2018-03-12,17,4,Goldstone Ex Serv. B,N.A.R.C. B,820231590,Alan Rook,25,688749133,Dan Hease,64
 2018-03-12,17,4,Goldstone Ex Serv. B,N.A.R.C. B,70159035,Peter Rea,44,223983583,Carl Wentworth,8
@@ -5344,7 +5344,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2018-03-19,17,4,Moulsecoomb Club B,Goldstone Ex Serv. B,495939788,Tyrone Davis,19,820231590,Alan Rook,55
 2018-03-19,17,4,Moulsecoomb Club B,Goldstone Ex Serv. B,649240057,Mike Childs,22,386517733,Ady Halley,24
 2018-03-19,17,4,Moulsecoomb Club B,Goldstone Ex Serv. B,567624732,Dave Brampton,28,70159035,Peter Rea,61
-2018-03-19,17,4,Moulsecoomb Club B,Goldstone Ex Serv. B,978156264,Bob Paine,32,294944526,Rob Teanby,67
+2018-03-19,17,4,Moulsecoomb Club B,Goldstone Ex Serv. B,978156264,Bob Paine,32,294944526,Robert Teanby,67
 2018-03-19,17,4,Moulsecoomb Club B,Goldstone Ex Serv. B,943667183,John Stone,22,573567936,Steve Marriott,51
 2018-03-19,17,4,N.A.R.C. B,Champion House B,41461520,Luke Pooley,38,501266206,David Fox,58
 2018-03-19,17,4,N.A.R.C. B,Champion House B,444339215,Steve Richards,34,852327692,Andy Fletcher,31
@@ -5399,7 +5399,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2018-03-26,17,4,Champion House B,Moulsecoomb Club B,737709582,Tony Browne,59,567624732,Dave Brampton,28
 2018-03-26,17,4,Champion House B,Moulsecoomb Club B,852327692,Andy Fletcher,43,649240057,Mike Childs,5
 2018-03-26,17,4,Champion House B,Moulsecoomb Club B,39289507,Mick Laughlin,56,495939788,Tyrone Davis,8
-2018-03-26,17,4,Goldstone Ex Serv. B,Annunciation A,294944526,Rob Teanby,39,953512654,Les Berry,40
+2018-03-26,17,4,Goldstone Ex Serv. B,Annunciation A,294944526,Robert Teanby,39,953512654,Les Berry,40
 2018-03-26,17,4,Goldstone Ex Serv. B,Annunciation A,820231590,Alan Rook,25,351143642,Michael Palmer,40
 2018-03-26,17,4,Goldstone Ex Serv. B,Annunciation A,386517733,Ady Halley,58,529382351,Greg Foat,33
 2018-03-26,17,4,Goldstone Ex Serv. B,Annunciation A,573567936,Steve Marriott,56,279543944,Peter Maurice,28
@@ -5495,7 +5495,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2018-04-16,17,3,St. Matthias E,Portslade Sports,598846718,Ben Sorrell,26,360777082,Mark Bishop,52
 2018-04-16,17,3,St. Matthias E,Portslade Sports,839313888,Kevin Chrysanthou,23,688252012,Sean Cooper,65
 2018-04-16,17,4,Champion House B,Goldstone Ex Serv. B,852327692,Andy Fletcher,49,820231590,Alan Rook,19
-2018-04-16,17,4,Champion House B,Goldstone Ex Serv. B,929636592,Danny Wilson,51,294944526,Rob Teanby,43
+2018-04-16,17,4,Champion House B,Goldstone Ex Serv. B,929636592,Danny Wilson,51,294944526,Robert Teanby,43
 2018-04-16,17,4,Champion House B,Goldstone Ex Serv. B,737709582,Tony Browne,16,70159035,Peter Rea,76
 2018-04-16,17,4,Champion House B,Goldstone Ex Serv. B,880982797,Ray Hunter,55,386517733,Ady Halley,13
 2018-04-16,17,4,Champion House B,Goldstone Ex Serv. B,39289507,Mick Laughlin,47,573567936,Steve Marriott,27
@@ -5567,7 +5567,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2018-09-10,18,3,Preston Club,Hove D.S. Anglers B,670870044,David Flanagan,59,612265840,Paul Honeysett,26
 2018-09-10,18,3,Preston Club,Hove D.S. Anglers B,231445676,Tony Paice,62,674307680,Neil McCafferty,26
 2018-09-10,18,4,Goldstone Ex Serv. B,Annunciation A,820231590,Alan Rook,32,279543944,Peter Maurice,41
-2018-09-10,18,4,Goldstone Ex Serv. B,Annunciation A,294944526,Rob Teanby,43,351143642,Michael Palmer,21
+2018-09-10,18,4,Goldstone Ex Serv. B,Annunciation A,294944526,Robert Teanby,43,351143642,Michael Palmer,21
 2018-09-10,18,4,Goldstone Ex Serv. B,Annunciation A,745152759,Kevin Jewell,23,529382351,Greg Foat,51
 2018-09-10,18,4,Goldstone Ex Serv. B,Annunciation A,70159035,Peter Rea,47,953512654,Les Berry,28
 2018-09-10,18,4,Goldstone Ex Serv. B,Annunciation A,573567936,Steve Marriott,22,288891270,Lewis Copping,53
@@ -5645,7 +5645,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2018-09-17,18,4,Moulsecoomb Club B,Southwick Sports B,943667183,John Stone,50,216787426,Jack Perrin,39
 2018-09-17,18,4,Moulsecoomb Club B,Southwick Sports B,978156264,Bob Paine,41,804381932,Ryan Harman,36
 2018-09-17,18,4,Moulsecoomb Club B,Southwick Sports B,630748783,Darren Hills,19,152643729,Lew Heath,47
-2018-09-17,18,4,N.A.R.C C,Goldstone Ex Serv. B,833156731,Jez Saunders,21,294944526,Rob Teanby,63
+2018-09-17,18,4,N.A.R.C C,Goldstone Ex Serv. B,833156731,Jez Saunders,21,294944526,Robert Teanby,63
 2018-09-17,18,4,N.A.R.C C,Goldstone Ex Serv. B,411473516,Ray Canham,71,745152759,Kevin Jewell,37
 2018-09-17,18,4,N.A.R.C C,Goldstone Ex Serv. B,733453947,Phil Canham,41,70159035,Peter Rea,56
 2018-09-24,18,1,Annunciation B,St. Matthias C,147556923,Hong Ming Lee,43,617751649,Lee Simpson,62
@@ -5701,7 +5701,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2018-09-24,18,3,Portslade Sports B,Moulsecoomb Club A,567316488,Lee Millyard,59,394906196,Mick Mabbitt,25
 2018-09-24,18,3,Portslade Sports B,Moulsecoomb Club A,183400466,David Wright,31,349269645,Barry Thornton,54
 2018-09-24,18,3,Portslade Sports B,Moulsecoomb Club A,704007508,Alan Muir,3,293122482,Stuart Maplesden,65
-2018-09-24,18,4,Goldstone Ex Serv. B,Champion House B,294944526,Rob Teanby,54,501266206,David Fox,20
+2018-09-24,18,4,Goldstone Ex Serv. B,Champion House B,294944526,Robert Teanby,54,501266206,David Fox,20
 2018-09-24,18,4,Goldstone Ex Serv. B,Champion House B,820231590,Alan Rook,61,880982797,Ray Hunter,34
 2018-09-24,18,4,Goldstone Ex Serv. B,Champion House B,745152759,Kevin Jewell,37,737709582,Tony Browne,61
 2018-09-24,18,4,Goldstone Ex Serv. B,Champion House B,70159035,Peter Rea,67,929636592,Danny Wilson,31
@@ -6183,14 +6183,14 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2018-11-26,18,3,Southwick Sports A,Hove D.S. Anglers B,910809545,Blake Harman,70,612265840,Paul Honeysett,28
 2018-11-19,18,4,Goldstone Ex Serv. B,Portslade Legion,820231590,Alan Rook,38,845758589,Charlie James,49
 2018-11-19,18,4,Goldstone Ex Serv. B,Portslade Legion,386517733,Ady Halley,49,229719541,Scott Manning,13
-2018-11-19,18,4,Goldstone Ex Serv. B,Portslade Legion,294944526,Rob Teanby,50,936624299,Peter Gallant,29
+2018-11-19,18,4,Goldstone Ex Serv. B,Portslade Legion,294944526,Robert Teanby,50,936624299,Peter Gallant,29
 2018-11-19,18,4,Goldstone Ex Serv. B,Portslade Legion,573567936,Steve Marriott,28,69745818,Ian Bowles,52
 2018-11-19,18,4,Goldstone Ex Serv. B,Portslade Legion,70159035,Peter Rea,58,417786644,Eddie Collins,7
 2018-11-12,18,4,Champion House B,Goldstone Ex Serv. B,737709582,Tony Browne,45,820231590,Alan Rook,39
 2018-11-12,18,4,Champion House B,Goldstone Ex Serv. B,39289507,Mick Laughlin,54,386517733,Ady Halley,29
 2018-11-12,18,4,Champion House B,Goldstone Ex Serv. B,501266206,David Fox,29,70159035,Peter Rea,56
 2018-11-12,18,4,Champion House B,Goldstone Ex Serv. B,3508579,John Murray,49,573567936,Steve Marriott,27
-2018-11-12,18,4,Champion House B,Goldstone Ex Serv. B,28382047,Steve Harrington,27,294944526,Rob Teanby,43
+2018-11-12,18,4,Champion House B,Goldstone Ex Serv. B,28382047,Steve Harrington,27,294944526,Robert Teanby,43
 2019-01-14,18,1,Castle Club B,St. Matthias A,825399596,Pat Adams,66,323907964,Russ Hughes,31
 2019-01-14,18,1,Castle Club B,St. Matthias A,426009127,Bav Patel,68,954297832,Pav Sareen,61
 2019-01-14,18,1,Castle Club B,St. Matthias A,26970170,Kai Michael,17,341869673,Nigel Stilwell,56
@@ -6569,7 +6569,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2019-01-28,18,3,Southwick Sports A,Preston Club,171346729,Des Heasman,34,688778183,Dean Paice,59
 2019-01-28,18,3,Southwick Sports A,Preston Club,910809545,Blake Harman,52,231445676,Tony Paice,38
 2019-02-04,18,4,Southwick Sports B,Goldstone Ex Serv. B,114007838,John Paine,36,820231590,Alan Rook,34
-2019-02-04,18,4,Southwick Sports B,Goldstone Ex Serv. B,804381932,Ryan Harman,67,294944526,Rob Teanby,39
+2019-02-04,18,4,Southwick Sports B,Goldstone Ex Serv. B,804381932,Ryan Harman,67,294944526,Robert Teanby,39
 2019-02-04,18,4,Southwick Sports B,Goldstone Ex Serv. B,152643729,Lew Heath,55,70159035,Peter Rea,41
 2019-02-04,18,4,Southwick Sports B,Goldstone Ex Serv. B,216787426,Jack Perrin,53,386517733,Ady Halley,37
 2019-02-04,18,4,Southwick Sports B,Goldstone Ex Serv. B,657320021,Brett Strevens,42,573567936,Steve Marriott,39
@@ -7451,7 +7451,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2019-09-30,19,4,Annunciation A,Southwick Sports B,953512654,Les Berry,47,804381932,Ryan Harman,35
 2019-09-30,19,4,Annunciation A,Southwick Sports B,351143642,Michael Palmer,64,293577764,Dave Crosskey,40
 2019-09-30,19,4,Moulsecoomb Club B,Southwick Sports C,172646809,Robin Powell,23,820231590,Alan Rook,58
-2019-09-30,19,4,Moulsecoomb Club B,Southwick Sports C,495939788,Tyrone Davis,37,294944526,Rob Teanby,73
+2019-09-30,19,4,Moulsecoomb Club B,Southwick Sports C,495939788,Tyrone Davis,37,294944526,Robert Teanby,73
 2019-09-30,19,4,Moulsecoomb Club B,Southwick Sports C,713064363,John Trory,40,386517733,Ady Halley,41
 2019-09-30,19,4,Moulsecoomb Club B,Southwick Sports C,649240057,Mike Childs,35,573567936,Steve Marriott,33
 2019-09-30,19,4,N.A.R.C C,Hove D.S. Anglers B,402257815,Jim Cumming,43,809984729,Neil Scutt,32
@@ -7548,12 +7548,12 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2019-10-07,19,4,N.A.R.C B,Moulsecoomb Club B,968651401,Ryan Grover,52,713064363,John Trory,18
 2019-10-07,19,4,N.A.R.C B,Moulsecoomb Club B,144181207,Jack Yates,57,495939788,Tyrone Davis,27
 2019-10-07,19,4,N.A.R.C B,Moulsecoomb Club B,41461520,Luke Pooley,57,649240057,Mike Childs,23
-2019-10-07,19,4,Southwick Sports B,Southwick Sports C,804381932,Ryan Harman,49,294944526,Rob Teanby,11
+2019-10-07,19,4,Southwick Sports B,Southwick Sports C,804381932,Ryan Harman,49,294944526,Robert Teanby,11
 2019-10-07,19,4,Southwick Sports B,Southwick Sports C,114007838,John Paine,59,386517733,Ady Halley,41
 2019-10-07,19,4,Southwick Sports B,Southwick Sports C,216787426,Jack Perrin,6,70159035,Peter Rea,91
 2019-10-07,19,4,Southwick Sports B,Southwick Sports C,579164381,Danny Cattell,59,573567936,Steve Marriott,29
 2019-10-07,19,4,Southwick Sports B,Southwick Sports C,152643729,Lew Heath,42,45305697,John Barratt,30
-2019-10-02,19,4,Southwick Sports C,Annunciation A,294944526,Rob Teanby,16,351143642,Michael Palmer,53
+2019-10-02,19,4,Southwick Sports C,Annunciation A,294944526,Robert Teanby,16,351143642,Michael Palmer,53
 2019-10-02,19,4,Southwick Sports C,Annunciation A,820231590,Alan Rook,64,953512654,Les Berry,43
 2019-10-02,19,4,Southwick Sports C,Annunciation A,386517733,Ady Halley,48,529382351,Greg Foat,38
 2019-10-02,19,4,Southwick Sports C,Annunciation A,573567936,Steve Marriott,49,279543944,Peter Maurice,23
@@ -7709,7 +7709,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2019-10-28,19,4,Portslade Legion,Southwick Sports B,69745818,Ian Bowles,37,579164381,Danny Cattell,30
 2019-10-28,19,4,Portslade Legion,Southwick Sports B,936624299,Peter Gallant,28,567624732,Dave Brampton,47
 2019-10-21,19,4,Hove D.S. Anglers B,Southwick Sports C,326225304,Ian Raeburn,46,820231590,Alan Rook,38
-2019-10-21,19,4,Hove D.S. Anglers B,Southwick Sports C,598117191,Jerome Fowler,43,294944526,Rob Teanby,6
+2019-10-21,19,4,Hove D.S. Anglers B,Southwick Sports C,598117191,Jerome Fowler,43,294944526,Robert Teanby,6
 2019-10-21,19,4,Hove D.S. Anglers B,Southwick Sports C,213055288,Mike Hartfield,46,386517733,Ady Halley,37
 2019-10-21,19,4,Hove D.S. Anglers B,Southwick Sports C,613893140,Matt Warner,32,70159035,Peter Rea,63
 2019-10-21,19,4,Hove D.S. Anglers B,Southwick Sports C,612265840,Paul Honeysett,26,45305697,John Barratt,51
@@ -7729,7 +7729,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2019-10-14,19,4,N.A.R.C C,Southwick Sports B,733453947,Phil Canham,40,114007838,John Paine,49
 2019-10-14,19,4,Southwick Sports C,N.A.R.C B,820231590,Alan Rook,37,444339215,Steve Richards,57
 2019-10-14,19,4,Southwick Sports C,N.A.R.C B,70159035,Peter Rea,62,144181207,Jack Yates,55
-2019-10-14,19,4,Southwick Sports C,N.A.R.C B,294944526,Rob Teanby,47,968651401,Ryan Grover,14
+2019-10-14,19,4,Southwick Sports C,N.A.R.C B,294944526,Robert Teanby,47,968651401,Ryan Grover,14
 2019-10-14,19,4,Southwick Sports C,N.A.R.C B,745152759,Kevin Jewell,15,223983583,Carl Wentworth,59
 2019-10-14,19,4,Southwick Sports C,N.A.R.C B,45305697,John Barratt,48,41461520,Luke Pooley,34
 2019-11-04,19,1,Castle Club A,St. Matthias C,356397577,David Morgan,50,617751649,Lee Simpson,39
@@ -7791,7 +7791,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2019-11-04,19,4,Southwick Sports B,Hove D.S. Anglers B,567624732,Dave Brampton,43,319057545,Brendan Lambe,16
 2019-11-04,19,4,Southwick Sports C,N.A.R.C C,386517733,Ady Halley,67,833156731,Jez Saunders,57
 2019-11-04,19,4,Southwick Sports C,N.A.R.C C,70159035,Peter Rea,78,295120010,Andy Yarrow,1
-2019-11-04,19,4,Southwick Sports C,N.A.R.C C,294944526,Rob Teanby,67,144776055,Brian Wilkes,7
+2019-11-04,19,4,Southwick Sports C,N.A.R.C C,294944526,Robert Teanby,67,144776055,Brian Wilkes,7
 2019-11-04,19,4,Southwick Sports C,N.A.R.C C,573567936,Steve Marriott,39,733453947,Phil Canham,48
 2019-11-04,19,4,Southwick Sports C,N.A.R.C C,45305697,John Barratt,38,411473516,Ray Canham,28
 2019-11-11,19,1,Castle Club A,St. Matthias A,670256222,Connor Anderson,68,954297832,Pav Sareen,16
@@ -7854,7 +7854,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2019-11-11,19,4,N.A.R.C C,N.A.R.C B,295120010,Andy Yarrow,46,968651401,Ryan Grover,57
 2019-11-11,19,4,N.A.R.C C,N.A.R.C B,144776055,Brian Wilkes,53,41461520,Luke Pooley,13
 2019-11-11,19,4,N.A.R.C C,N.A.R.C B,733453947,Phil Canham,38,223983583,Carl Wentworth,29
-2019-11-11,19,4,Portslade Legion,Southwick Sports C,845758589,Charlie James,20,294944526,Rob Teanby,38
+2019-11-11,19,4,Portslade Legion,Southwick Sports C,845758589,Charlie James,20,294944526,Robert Teanby,38
 2019-11-11,19,4,Portslade Legion,Southwick Sports C,417786644,Eddie Collins,29,386517733,Ady Halley,59
 2019-11-11,19,4,Portslade Legion,Southwick Sports C,69745818,Ian Bowles,29,45305697,John Barratt,67
 2019-11-11,19,4,Portslade Legion,Southwick Sports C,978156264,Bob Paine,43,745152759,Kevin Jewell,30
@@ -8310,7 +8310,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2020-01-13,19,4,Hove D.S. Anglers B,Southwick Sports B,612265840,Paul Honeysett,53,293577764,Dave Crosskey,36
 2020-01-13,19,4,N.A.R.C C,Southwick Sports C,833156731,Jez Saunders,49,386517733,Ady Halley,28
 2020-01-13,19,4,N.A.R.C C,Southwick Sports C,295120010,Andy Yarrow,58,820231590,Alan Rook,32
-2020-01-13,19,4,N.A.R.C C,Southwick Sports C,411473516,Ray Canham,41,294944526,Rob Teanby,15
+2020-01-13,19,4,N.A.R.C C,Southwick Sports C,411473516,Ray Canham,41,294944526,Robert Teanby,15
 2020-01-13,19,4,N.A.R.C C,Southwick Sports C,144776055,Brian Wilkes,32,573567936,Steve Marriott,41
 2020-01-13,19,4,N.A.R.C C,Southwick Sports C,733453947,Phil Canham,55,70159035,Peter Rea,30
 2020-01-13,19,4,Portslade Legion,Moulsecoomb Club B,417786644,Eddie Collins,19,172646809,Robin Powell,39
