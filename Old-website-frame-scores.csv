@@ -8187,7 +8187,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2013-09-16,13,2,Castle Snooker Club D,Preston Club A,379,Jon Fordham,45,232,Dean Paice,34
 2013-09-16,13,2,Castle Snooker Club D,Preston Club A,470,Jules Porreca,63,242,David Senior,29
 2013-09-16,13,2,Champion House B,Portslade Sports Centre A,61,Paul Gander,58,59,Pete Hazell,45
-2013-09-16,13,2,Champion House B,Portslade Sports Centre A,60,Lee Millyard,53,500,Rob Wykes,73
+2013-09-16,13,2,Champion House B,Portslade Sports Centre A,60,Lee Millyard,53,500,Robert Wykes,73
 2013-09-16,13,2,Champion House B,Portslade Sports Centre A,120,Frank Taylor,30,89,Mike Atkins,56
 2013-09-16,13,2,Champion House B,Portslade Sports Centre A,58,Chris Roche,24,87,Dave Gillingham,85
 2013-09-16,13,2,Champion House B,Portslade Sports Centre A,65,Paul Hudson,62,211,Ross Etheridge,25
@@ -8261,7 +8261,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2013-09-23,13,2,Portslade Sports Centre A,Annunciation Club,59,Pete Hazell,54,68,Peter Maurice,17
 2013-09-23,13,2,Portslade Sports Centre A,Annunciation Club,89,Mike Atkins,33,254,Darren Welfare,67
 2013-09-23,13,2,Portslade Sports Centre A,Annunciation Club,87,Dave Gillingham,83,69,Greg Foat,44
-2013-09-23,13,2,Portslade Sports Centre A,Annunciation Club,500,Rob Wykes,66,71,Alan Head,49
+2013-09-23,13,2,Portslade Sports Centre A,Annunciation Club,500,Robert Wykes,66,71,Alan Head,49
 2013-09-23,13,2,Preston Club A,Castle Snooker Club C,492,Malcolm Beal,39,394,Alan Burchell,59
 2013-09-23,13,2,Preston Club A,Castle Snooker Club C,241,Tony Dade,20,16,Mick Beck,57
 2013-09-23,13,2,Preston Club A,Castle Snooker Club C,417,Robin Powell,63,18,Lester Grice,50
@@ -8342,7 +8342,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2013-09-30,13,2,Annunciation Club,Champion House A,67,Tony Shipley,49,108,John Wooller,3
 2013-09-30,13,2,Annunciation Club,Champion House A,69,Greg Foat,21,195,Tony Power,61
 2013-09-30,13,2,Annunciation Club,Champion House A,71,Alan Head,5,106,Ian Smith,60
-2013-09-30,13,2,Castle Snooker Club C,Portslade Sports Centre A,395,Herby Burchell,36,500,Rob Wykes,70
+2013-09-30,13,2,Castle Snooker Club C,Portslade Sports Centre A,395,Herby Burchell,36,500,Robert Wykes,70
 2013-09-30,13,2,Castle Snooker Club C,Portslade Sports Centre A,394,Alan Burchell,43,211,Ross Etheridge,50
 2013-09-30,13,2,Castle Snooker Club C,Portslade Sports Centre A,16,Mick Beck,21,89,Mike Atkins,60
 2013-09-30,13,2,Castle Snooker Club C,Portslade Sports Centre A,18,Lester Grice,21,87,Dave Gillingham,39
@@ -8439,7 +8439,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2013-10-07,13,2,Champion House A,Castle Snooker Club C,106,Ian Smith,30,20,Trevor Pickard,75
 2013-10-07,13,2,Preston Club A,Portslade Sports Centre A,125,Bob Taylor,35,59,Pete Hazell,48
 2013-10-07,13,2,Preston Club A,Portslade Sports Centre A,362,Gary Bottomly,45,211,Ross Etheridge,17
-2013-10-07,13,2,Preston Club A,Portslade Sports Centre A,492,Malcolm Beal,32,500,Rob Wykes,73
+2013-10-07,13,2,Preston Club A,Portslade Sports Centre A,492,Malcolm Beal,32,500,Robert Wykes,73
 2013-10-07,13,2,Preston Club A,Portslade Sports Centre A,233,Tony Paice,66,89,Mike Atkins,43
 2013-10-07,13,2,Preston Club A,Portslade Sports Centre A,232,Dean Paice,55,373,Olly Stewart,44
 2013-10-07,13,3,Champion House C,Castle Snooker Club E,114,John Taylor,16,488,Roger Harrold,49
@@ -8528,7 +8528,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2013-10-14,13,2,Champion House B,Preston Club A,65,Paul Hudson,36,233,Tony Paice,55
 2013-10-14,13,2,Portslade Sports Centre A,Champion House A,211,Ross Etheridge,33,107,Roger Whiteley,48
 2013-10-14,13,2,Portslade Sports Centre A,Champion House A,59,Pete Hazell,38,110,Larry Maloney,21
-2013-10-14,13,2,Portslade Sports Centre A,Champion House A,500,Rob Wykes,63,195,Tony Power,50
+2013-10-14,13,2,Portslade Sports Centre A,Champion House A,500,Robert Wykes,63,195,Tony Power,50
 2013-10-14,13,2,Portslade Sports Centre A,Champion House A,88,Steve Collins,63,109,Ian McKay,28
 2013-10-14,13,2,Portslade Sports Centre A,Champion House A,87,Dave Gillingham,66,106,Ian Smith,3
 2013-10-14,13,3,Castle Snooker Club E,Southwick Sports A,486,"Jim, Jr. Stevens",63,437,Steve Owen,25
@@ -8600,7 +8600,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2013-10-21,13,1,St. Matthias B,Castle Snooker Club A,221,Rodney Moogan,70,13,Steve Stylianou,38
 2013-10-21,13,1,St. Matthias B,Castle Snooker Club A,270,Nathan Brooks,39,325,Ash Bull,75
 2013-10-21,13,2,Castle Snooker Club D,Portslade Sports Centre A,470,Jules Porreca,28,59,Pete Hazell,67
-2013-10-21,13,2,Castle Snooker Club D,Portslade Sports Centre A,425,Pat Adams,31,500,Rob Wykes,65
+2013-10-21,13,2,Castle Snooker Club D,Portslade Sports Centre A,425,Pat Adams,31,500,Robert Wykes,65
 2013-10-21,13,2,Castle Snooker Club D,Portslade Sports Centre A,424,Andy Norman,81,88,Steve Collins,35
 2013-10-21,13,2,Castle Snooker Club D,Portslade Sports Centre A,490,Jake Richardson,51,211,Ross Etheridge,37
 2013-10-21,13,2,Castle Snooker Club D,Portslade Sports Centre A,379,Jon Fordham,20,87,Dave Gillingham,69
@@ -8757,7 +8757,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2013-11-04,13,2,Castle Snooker Club C,Annunciation Club,353,Danny Wong,51,68,Peter Maurice,8
 2013-11-04,13,2,Castle Snooker Club C,Annunciation Club,394,Alan Burchell,65,69,Greg Foat,18
 2013-11-04,13,2,Castle Snooker Club C,Annunciation Club,395,Herby Burchell,36,71,Alan Head,50
-2013-11-04,13,2,Portslade Sports Centre A,Champion House B,500,Rob Wykes,57,58,Chris Roche,33
+2013-11-04,13,2,Portslade Sports Centre A,Champion House B,500,Robert Wykes,57,58,Chris Roche,33
 2013-11-04,13,2,Portslade Sports Centre A,Champion House B,211,Ross Etheridge,16,60,Lee Millyard,51
 2013-11-04,13,2,Portslade Sports Centre A,Champion House B,87,Dave Gillingham,54,61,Paul Gander,41
 2013-11-04,13,2,Portslade Sports Centre A,Champion House B,89,Mike Atkins,64,62,Steve Gardner,10
@@ -8841,7 +8841,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2013-11-11,13,1,St. Matthias C,Shoreham Snooker Club,171,Darren Bell,66,364,James Constable,56
 2013-11-11,13,1,St. Matthias C,Shoreham Snooker Club,170,Mark Johnson,48,54,Dave Jones,61
 2013-11-11,13,2,Annunciation Club,Portslade Sports Centre A,254,Darren Welfare,28,59,Pete Hazell,65
-2013-11-11,13,2,Annunciation Club,Portslade Sports Centre A,472,Ben Welfare,3,500,Rob Wykes,61
+2013-11-11,13,2,Annunciation Club,Portslade Sports Centre A,472,Ben Welfare,3,500,Robert Wykes,61
 2013-11-11,13,2,Annunciation Club,Portslade Sports Centre A,68,Peter Maurice,55,211,Ross Etheridge,69
 2013-11-11,13,2,Annunciation Club,Portslade Sports Centre A,69,Greg Foat,5,87,Dave Gillingham,93
 2013-11-11,13,2,Annunciation Club,Portslade Sports Centre A,71,Alan Head,31,88,Steve Collins,53
@@ -8936,7 +8936,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2013-11-18,13,2,Champion House A,Annunciation Club,109,Ian McKay,58,67,Tony Shipley,70
 2013-11-18,13,2,Portslade Sports Centre A,Castle Snooker Club C,59,Pete Hazell,48,16,Mick Beck,14
 2013-11-18,13,2,Portslade Sports Centre A,Castle Snooker Club C,89,Mike Atkins,54,18,Lester Grice,47
-2013-11-18,13,2,Portslade Sports Centre A,Castle Snooker Club C,500,Rob Wykes,53,394,Alan Burchell,46
+2013-11-18,13,2,Portslade Sports Centre A,Castle Snooker Club C,500,Robert Wykes,53,394,Alan Burchell,46
 2013-11-18,13,2,Portslade Sports Centre A,Castle Snooker Club C,87,Dave Gillingham,64,395,Herby Burchell,9
 2013-11-18,13,2,Portslade Sports Centre A,Castle Snooker Club C,88,Steve Collins,25,20,Trevor Pickard,54
 2013-11-18,13,3,Champion House C,Goldstone Ex-Services Club A,121,Mike Barnett,68,319,John Lojo,54
@@ -9020,7 +9020,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2013-11-25,13,2,Castle Snooker Club C,Champion House A,394,Alan Burchell,7,109,Ian McKay,56
 2013-11-25,13,2,Castle Snooker Club C,Champion House A,395,Herby Burchell,37,195,Tony Power,50
 2013-11-25,13,2,Portslade Sports Centre A,Preston Club A,59,Pete Hazell,66,236,Lee Garland,30
-2013-11-25,13,2,Portslade Sports Centre A,Preston Club A,500,Rob Wykes,79,125,Bob Taylor,28
+2013-11-25,13,2,Portslade Sports Centre A,Preston Club A,500,Robert Wykes,79,125,Bob Taylor,28
 2013-11-25,13,2,Portslade Sports Centre A,Preston Club A,211,Ross Etheridge,27,492,Malcolm Beal,60
 2013-11-25,13,2,Portslade Sports Centre A,Preston Club A,89,Mike Atkins,46,232,Dean Paice,18
 2013-11-25,13,3,Castle Snooker Club E,Champion House C,38,Rob Bowden,33,121,Mike Barnett,59
@@ -9101,7 +9101,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2013-12-09,13,2,Castle Snooker Club D,Castle Snooker Club C,426,Omar Hilton,61,20,Trevor Pickard,53
 2013-12-09,13,2,Castle Snooker Club D,Castle Snooker Club C,490,Jake Richardson,68,17,Tony Funnell,40
 2013-12-09,13,2,Champion House A,Portslade Sports Centre A,195,Tony Power,54,59,Pete Hazell,52
-2013-12-09,13,2,Champion House A,Portslade Sports Centre A,106,Ian Smith,11,500,Rob Wykes,54
+2013-12-09,13,2,Champion House A,Portslade Sports Centre A,106,Ian Smith,11,500,Robert Wykes,54
 2013-12-09,13,2,Champion House A,Portslade Sports Centre A,110,Larry Maloney,5,89,Mike Atkins,37
 2013-12-09,13,2,Champion House A,Portslade Sports Centre A,107,Roger Whiteley,22,87,Dave Gillingham,65
 2013-12-09,13,2,Champion House A,Portslade Sports Centre A,109,Ian McKay,65,88,Steve Collins,7
@@ -9345,7 +9345,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2014-01-13,13,2,Castle Snooker Club D,Preston Club A,490,Jake Richardson,61,232,Dean Paice,55
 2014-01-13,13,2,Champion House B,Portslade Sports Centre A,58,Chris Roche,53,59,Pete Hazell,60
 2014-01-13,13,2,Champion House B,Portslade Sports Centre A,60,Lee Millyard,17,89,Mike Atkins,66
-2014-01-13,13,2,Champion House B,Portslade Sports Centre A,65,Paul Hudson,54,500,Rob Wykes,64
+2014-01-13,13,2,Champion House B,Portslade Sports Centre A,65,Paul Hudson,54,500,Robert Wykes,64
 2014-01-13,13,2,Champion House B,Portslade Sports Centre A,62,Steve Gardner,41,87,Dave Gillingham,64
 2014-01-13,13,3,Goldstone Ex-Services Club A,Castle Snooker Club E,319,John Lojo,43,488,Roger Harrold,63
 2014-01-13,13,3,Goldstone Ex-Services Club A,Castle Snooker Club E,142,Sam Corsby,63,487,"Jim, Sr. Stevens",9
@@ -9508,7 +9508,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2014-01-27,13,2,Annunciation Club,Champion House A,71,Alan Head,54,106,Ian Smith,57
 2014-01-27,13,2,Castle Snooker Club C,Portslade Sports Centre A,18,Lester Grice,50,59,Pete Hazell,23
 2014-01-27,13,2,Castle Snooker Club C,Portslade Sports Centre A,16,Mick Beck,61,211,Ross Etheridge,31
-2014-01-27,13,2,Castle Snooker Club C,Portslade Sports Centre A,20,Trevor Pickard,45,500,Rob Wykes,57
+2014-01-27,13,2,Castle Snooker Club C,Portslade Sports Centre A,20,Trevor Pickard,45,500,Robert Wykes,57
 2014-01-27,13,2,Castle Snooker Club C,Portslade Sports Centre A,17,Tony Funnell,18,88,Steve Collins,52
 2014-01-27,13,2,Castle Snooker Club C,Portslade Sports Centre A,353,Danny Wong,21,87,Dave Gillingham,56
 2014-01-27,13,2,Champion House B,Castle Snooker Club D,60,Lee Millyard,59,380,Adam Buckingham,51
@@ -9598,7 +9598,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2014-02-03,13,2,Champion House A,Castle Snooker Club C,109,Ian McKay,21,18,Lester Grice,57
 2014-02-03,13,2,Preston Club A,Portslade Sports Centre A,533,Trevor Vine,5,59,Pete Hazell,87
 2014-02-03,13,2,Preston Club A,Portslade Sports Centre A,233,Tony Paice,64,89,Mike Atkins,38
-2014-02-03,13,2,Preston Club A,Portslade Sports Centre A,232,Dean Paice,41,500,Rob Wykes,58
+2014-02-03,13,2,Preston Club A,Portslade Sports Centre A,232,Dean Paice,41,500,Robert Wykes,58
 2014-02-03,13,2,Preston Club A,Portslade Sports Centre A,125,Bob Taylor,60,88,Steve Collins,23
 2014-02-03,13,3,Champion House C,Castle Snooker Club E,121,Mike Barnett,9,488,Roger Harrold,52
 2014-02-03,13,3,Champion House C,Castle Snooker Club E,114,John Taylor,40,502,Thomas Reilly,53
@@ -9677,7 +9677,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2014-02-10,13,2,Castle Snooker Club C,Castle Snooker Club D,20,Trevor Pickard,21,380,Adam Buckingham,61
 2014-02-10,13,2,Portslade Sports Centre A,Champion House A,59,Pete Hazell,64,122,David Fox,23
 2014-02-10,13,2,Portslade Sports Centre A,Champion House A,89,Mike Atkins,53,110,Larry Maloney,13
-2014-02-10,13,2,Portslade Sports Centre A,Champion House A,500,Rob Wykes,8,107,Roger Whiteley,85
+2014-02-10,13,2,Portslade Sports Centre A,Champion House A,500,Robert Wykes,8,107,Roger Whiteley,85
 2014-02-10,13,2,Portslade Sports Centre A,Champion House A,88,Steve Collins,59,195,Tony Power,25
 2014-02-10,13,2,Portslade Sports Centre A,Champion House A,87,Dave Gillingham,67,109,Ian McKay,40
 2014-02-10,13,3,Castle Snooker Club E,Southwick Sports A,38,Rob Bowden,32,438,Jack Fielder,46
@@ -9752,7 +9752,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2014-02-17,13,1,St. Matthias B,Castle Snooker Club A,265,Connor Anderson,47,13,Steve Stylianou,57
 2014-02-17,13,1,St. Matthias B,Castle Snooker Club A,266,Kai Michael,46,220,Tony Strange,89
 2014-02-17,13,2,Castle Snooker Club D,Portslade Sports Centre A,470,Jules Porreca,55,211,Ross Etheridge,18
-2014-02-17,13,2,Castle Snooker Club D,Portslade Sports Centre A,425,Pat Adams,60,500,Rob Wykes,18
+2014-02-17,13,2,Castle Snooker Club D,Portslade Sports Centre A,425,Pat Adams,60,500,Robert Wykes,18
 2014-02-17,13,2,Castle Snooker Club D,Portslade Sports Centre A,379,Jon Fordham,20,89,Mike Atkins,52
 2014-02-17,13,2,Castle Snooker Club D,Portslade Sports Centre A,490,Jake Richardson,69,88,Steve Collins,46
 2014-02-17,13,2,Champion House B,Annunciation Club,62,Steve Gardner,39,68,Peter Maurice,28
@@ -9921,7 +9921,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2014-03-03,13,2,Castle Snooker Club C,Annunciation Club,20,Trevor Pickard,42,77,Michael Palmer,49
 2014-03-03,13,2,Castle Snooker Club C,Annunciation Club,17,Tony Funnell,37,71,Alan Head,30
 2014-03-03,13,2,Portslade Sports Centre A,Champion House B,59,Pete Hazell,63,60,Lee Millyard,1
-2014-03-03,13,2,Portslade Sports Centre A,Champion House B,500,Rob Wykes,100,58,Chris Roche,2
+2014-03-03,13,2,Portslade Sports Centre A,Champion House B,500,Robert Wykes,100,58,Chris Roche,2
 2014-03-03,13,2,Portslade Sports Centre A,Champion House B,89,Mike Atkins,18,65,Paul Hudson,51
 2014-03-03,13,2,Portslade Sports Centre A,Champion House B,88,Steve Collins,50,62,Steve Gardner,20
 2014-03-03,13,2,Preston Club A,Castle Snooker Club D,417,Robin Powell,46,379,Jon Fordham,54
@@ -10001,7 +10001,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2014-03-10,13,1,St. Matthias C,Shoreham Snooker Club,261,Freddie Blunden,51,132,Simon Dent,56
 2014-03-10,13,2,Annunciation Club,Portslade Sports Centre A,68,Peter Maurice,29,211,Ross Etheridge,52
 2014-03-10,13,2,Annunciation Club,Portslade Sports Centre A,67,Tony Shipley,72,59,Pete Hazell,27
-2014-03-10,13,2,Annunciation Club,Portslade Sports Centre A,77,Michael Palmer,68,500,Rob Wykes,67
+2014-03-10,13,2,Annunciation Club,Portslade Sports Centre A,77,Michael Palmer,68,500,Robert Wykes,67
 2014-03-10,13,2,Annunciation Club,Portslade Sports Centre A,71,Alan Head,43,88,Steve Collins,37
 2014-03-10,13,2,Castle Snooker Club C,Preston Club A,18,Lester Grice,57,492,Malcolm Beal,16
 2014-03-10,13,2,Castle Snooker Club C,Preston Club A,16,Mick Beck,49,233,Tony Paice,36
@@ -10083,7 +10083,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2014-03-17,13,2,Champion House A,Annunciation Club,109,Ian McKay,52,71,Alan Head,67
 2014-03-17,13,2,Portslade Sports Centre A,Castle Snooker Club C,87,Dave Gillingham,48,17,Tony Funnell,11
 2014-03-17,13,2,Portslade Sports Centre A,Castle Snooker Club C,59,Pete Hazell,60,16,Mick Beck,56
-2014-03-17,13,2,Portslade Sports Centre A,Castle Snooker Club C,500,Rob Wykes,60,18,Lester Grice,63
+2014-03-17,13,2,Portslade Sports Centre A,Castle Snooker Club C,500,Robert Wykes,60,18,Lester Grice,63
 2014-03-17,13,2,Portslade Sports Centre A,Castle Snooker Club C,211,Ross Etheridge,33,353,Danny Wong,39
 2014-03-17,13,2,Portslade Sports Centre A,Castle Snooker Club C,88,Steve Collins,47,20,Trevor Pickard,77
 2014-03-17,13,3,Champion House C,Goldstone Ex-Services Club A,121,Mike Barnett,23,194,Andy Sutton,55
@@ -10165,7 +10165,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2014-03-24,13,2,Portslade Sports Centre A,Preston Club A,211,Ross Etheridge,55,417,Robin Powell,24
 2014-03-24,13,2,Portslade Sports Centre A,Preston Club A,59,Pete Hazell,60,492,Malcolm Beal,45
 2014-03-24,13,2,Portslade Sports Centre A,Preston Club A,87,Dave Gillingham,66,125,Bob Taylor,5
-2014-03-24,13,2,Portslade Sports Centre A,Preston Club A,500,Rob Wykes,63,233,Tony Paice,27
+2014-03-24,13,2,Portslade Sports Centre A,Preston Club A,500,Robert Wykes,63,233,Tony Paice,27
 2014-03-24,13,3,Castle Snooker Club E,Champion House C,42,John Trory,46,121,Mike Barnett,26
 2014-03-24,13,3,Castle Snooker Club E,Champion House C,488,Roger Harrold,40,114,John Taylor,32
 2014-03-24,13,3,Castle Snooker Club E,Champion House C,487,"Jim, Sr. Stevens",56,113,Ray Hunter,23
@@ -10238,7 +10238,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2014-03-31,13,2,Castle Snooker Club D,Castle Snooker Club C,424,Andy Norman,63,17,Tony Funnell,14
 2014-03-31,13,2,Castle Snooker Club D,Castle Snooker Club C,470,Jules Porreca,56,20,Trevor Pickard,32
 2014-03-31,13,2,Champion House A,Portslade Sports Centre A,111,Neil Cutler,24,59,Pete Hazell,53
-2014-03-31,13,2,Champion House A,Portslade Sports Centre A,110,Larry Maloney,12,500,Rob Wykes,47
+2014-03-31,13,2,Champion House A,Portslade Sports Centre A,110,Larry Maloney,12,500,Robert Wykes,47
 2014-03-31,13,2,Champion House A,Portslade Sports Centre A,106,Ian Smith,32,89,Mike Atkins,55
 2014-03-31,13,2,Champion House A,Portslade Sports Centre A,195,Tony Power,54,88,Steve Collins,26
 2014-03-31,13,2,Champion House A,Portslade Sports Centre A,109,Ian McKay,63,87,Dave Gillingham,36
@@ -10319,7 +10319,7 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2014-04-07,13,2,Portslade Sports Centre A,Castle Snooker Club D,87,Dave Gillingham,58,424,Andy Norman,27
 2014-04-07,13,2,Portslade Sports Centre A,Castle Snooker Club D,89,Mike Atkins,76,379,Jon Fordham,38
 2014-04-07,13,2,Portslade Sports Centre A,Castle Snooker Club D,211,Ross Etheridge,50,380,Adam Buckingham,21
-2014-04-07,13,2,Portslade Sports Centre A,Castle Snooker Club D,500,Rob Wykes,39,425,Pat Adams,43
+2014-04-07,13,2,Portslade Sports Centre A,Castle Snooker Club D,500,Robert Wykes,39,425,Pat Adams,43
 2014-04-07,13,3,Champion House C,Hove Deep Sea Anglers A,121,Mike Barnett,42,401,Danny Booker,34
 2014-04-07,13,3,Champion House C,Hove Deep Sea Anglers A,113,Ray Hunter,45,504,Aaron Immerson,37
 2014-04-07,13,3,Champion House C,Hove Deep Sea Anglers A,119,John Murray,45,152,Tony Mulhern,59
