@@ -247,17 +247,18 @@ max_rating <- max(gds_output$`Player Rating`)
 min_rating <- min(gds_output$`Player Rating`)
 upper_bound <- 84
 lower_bound <- -14
-increment <- 7
 
 gds_output <- gds_output %>%
   mutate(`Player Handicap` =
            round((upper_bound - (upper_bound - lower_bound) /
-                    (max_rating - min_rating) * (`Player Rating` - lower_bound)) /
-                   increment, 0) * 7,
+                    (max_rating - min_rating) *
+                    (`Player Rating` - lower_bound)),
+                 1),
          `Opponent Handicap` =
            round((upper_bound - (upper_bound - lower_bound) /
-                    (max_rating - min_rating) * (`Opponent Rating` - lower_bound)) /
-                   increment, 0) * 7) %>%
+                    (max_rating - min_rating) *
+                    (`Opponent Rating` - lower_bound)),
+                 1)) %>%
   select(-c(`Player Rating`, `Opponent Rating`))
 
 write_csv(player_ratings_output, "Player-ratings-output.csv")
