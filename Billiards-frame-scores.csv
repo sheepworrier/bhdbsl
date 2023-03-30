@@ -978,3 +978,51 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2022-12-21,22,1,St. Matthias A,Moulsecoomb B,392836520,Pip Akehurst,189,532826446,Tony Shipley,200
 2022-12-21,22,1,St. Matthias A,Moulsecoomb B,673468954,Micky Sandall,200,104037073,Mike Palmer,148
 2022-12-21,22,1,St. Matthias A,Moulsecoomb B,886456541,Dean Perry,200,546240999,Trevor Cain,197
+2023-03-29,22,1,Moulsecoomb A,Moulsecoomb B,176460812,Robin Powell,200,104037073,Mike Palmer,195
+2023-03-29,22,1,Moulsecoomb A,Moulsecoomb B,423539197,Nigel Lilley,200,138786345,Barry Thornton,199
+2023-03-29,22,1,Moulsecoomb A,Moulsecoomb B,564133408,Paul Phillips,150,532826446,Tony Shipley,200
+2023-03-29,22,1,St. Matthias A,Hassocks A,983276809,David Gillingham,200,283685400,Barry Martin,95
+2023-03-29,22,1,St. Matthias A,Hassocks A,886456541,Dean Perry,200,127285371,Stuart Williamson,115
+2023-03-29,22,1,St. Matthias A,Hassocks A,561705160,Pav Sareen,145,792784781,James Dew,200
+2023-03-22,22,1,Hassocks A,Moulsecoomb A,455660500,Vince Elphick,200,176460812,Robin Powell,176
+2023-03-22,22,1,Hassocks A,Moulsecoomb A,283685400,Barry Martin,130,564133408,Paul Phillips,200
+2023-03-22,22,1,Hassocks A,Moulsecoomb A,127285371,Stuart Williamson,163,423539197,Nigel Lilley,200
+2023-03-22,22,1,St. Matthias B,St. Matthias A,856864967,Mark Lawson,200,392836520,Pip Akehurst,186
+2023-03-22,22,1,St. Matthias B,St. Matthias A,51829191,Nigel Stilwell,129,886456541,Dean Perry,200
+2023-03-22,22,1,St. Matthias B,St. Matthias A,104406518,Terry Bashford,158,561705160,Pav Sareen,200
+2023-03-08,22,1,Moulsecoomb B,St. Matthias B,532826446,Tony Shipley,200,271881781,Lester Grice,159
+2023-03-08,22,1,Moulsecoomb B,St. Matthias B,39704614,Steve Linton,145,104406518,Terry Bashford,200
+2023-03-08,22,1,Moulsecoomb B,St. Matthias B,138786345,Barry Thornton,163,51829191,Nigel Stilwell,200
+2023-03-08,22,1,St. Matthias A,Moulsecoomb A,561705160,Pav Sareen,200,176460812,Robin Powell,164
+2023-03-08,22,1,St. Matthias A,Moulsecoomb A,983276809,David Gillingham,200,564133408,Paul Phillips,152
+2023-03-08,22,1,St. Matthias A,Moulsecoomb A,886456541,Dean Perry,200,409261140,Fred Cooper,192
+2023-03-01,22,1,Moulsecoomb B,St. Matthias A,138786345,Barry Thornton,200,392836520,Pip Akehurst,149
+2023-03-01,22,1,Moulsecoomb B,St. Matthias A,546240999,Trevor Cain,200,673468954,Micky Sandall,184
+2023-03-01,22,1,Moulsecoomb B,St. Matthias A,104037073,Mike Palmer,164,983276809,David Gillingham,200
+2023-03-01,22,1,St. Matthias B,Hassocks A,51829191,Nigel Stilwell,200,127285371,Stuart Williamson,187
+2023-03-01,22,1,St. Matthias B,Hassocks A,271881781,Lester Grice,150,736978195,Jason Alford,200
+2023-03-01,22,1,St. Matthias B,Hassocks A,856864967,Mark Lawson,169,792784781,James Dew,200
+2023-02-22,22,1,Hassocks A,Moulsecoomb B,455660500,Vince Elphick,200,39704614,Steve Linton,184
+2023-02-22,22,1,Hassocks A,Moulsecoomb B,283685400,Barry Martin,200,546240999,Trevor Cain,164
+2023-02-22,22,1,Hassocks A,Moulsecoomb B,127285371,Stuart Williamson,174,138786345,Barry Thornton,200
+2023-02-15,22,1,Moulsecoomb A,St. Matthias B,409261140,Fred Cooper,165,104406518,Terry Bashford,200
+2023-02-15,22,1,Moulsecoomb A,St. Matthias B,176460812,Robin Powell,166,856864967,Mark Lawson,200
+2023-02-15,22,1,Moulsecoomb A,St. Matthias B,564133408,Paul Phillips,200,992886832,Matthew Dumbleton,135
+2023-02-01,22,1,Hassocks A,St. Matthias A,283685400,Barry Martin,200,968064280,John Evans,169
+2023-02-01,22,1,Hassocks A,St. Matthias A,455660500,Vince Elphick,166,886456541,Dean Perry,200
+2023-02-01,22,1,Hassocks A,St. Matthias A,127285371,Stuart Williamson,163,561705160,Pav Sareen,200
+2023-02-01,22,1,Moulsecoomb B,Moulsecoomb A,39704614,Steve Linton,200,176460812,Robin Powell,171
+2023-02-01,22,1,Moulsecoomb B,Moulsecoomb A,138786345,Barry Thornton,200,409261140,Fred Cooper,193
+2023-02-01,22,1,Moulsecoomb B,Moulsecoomb A,546240999,Trevor Cain,192,564133408,Paul Phillips,200
+2023-01-25,22,1,Moulsecoomb A,Hassocks A,409261140,Fred Cooper,200,283685400,Barry Martin,153
+2023-01-25,22,1,Moulsecoomb A,Hassocks A,176460812,Robin Powell,165,127285371,Stuart Williamson,200
+2023-01-25,22,1,Moulsecoomb A,Hassocks A,564133408,Paul Phillips,188,792784781,James Dew,200
+2023-01-25,22,1,St. Matthias A,St. Matthias B,983276809,David Gillingham,200,992886832,Matthew Dumbleton,107
+2023-01-25,22,1,St. Matthias A,St. Matthias B,392836520,Pip Akehurst,200,856864967,Mark Lawson,142
+2023-01-25,22,1,St. Matthias A,St. Matthias B,673468954,Micky Sandall,164,51829191,Nigel Stilwell,200
+2023-01-18,22,1,Moulsecoomb A,St. Matthias A,176460812,Robin Powell,200,392836520,Pip Akehurst,147
+2023-01-18,22,1,Moulsecoomb A,St. Matthias A,409261140,Fred Cooper,200,968064280,John Evans,197
+2023-01-18,22,1,Moulsecoomb A,St. Matthias A,564133408,Paul Phillips,200,673468954,Micky Sandall,166
+2023-01-18,22,1,St. Matthias B,Moulsecoomb B,104406518,Terry Bashford,200,532826446,Tony Shipley,187
+2023-01-18,22,1,St. Matthias B,Moulsecoomb B,856864967,Mark Lawson,200,104037073,Mike Palmer,176
+2023-01-18,22,1,St. Matthias B,Moulsecoomb B,51829191,Nigel Stilwell,200,546240999,Trevor Cain,169
