@@ -10314,3 +10314,435 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2022-12-12,22,1,St. Matthias A,N.A.R.C A,802242736,Stephen Hughes,56,963958265,Rodney Moogan,27
 2022-12-12,22,1,St. Matthias A,N.A.R.C A,748064029,Paul Hughes,41,963958265,Rodney Moogan,30
 2022-12-12,22,1,St. Matthias A,N.A.R.C A,802242736,Stephen Hughes,61,820448676,Chris Lloyd,18
+2023-03-27,22,1,Castle Club C,N.A.R.C A,133207947,Jake Richardson,49,390364577,Mark Bright,13
+2023-03-27,22,1,Castle Club C,N.A.R.C A,506581042,Glen Dartnell,40,963958265,Rodney Moogan,66
+2023-03-27,22,1,Castle Club C,N.A.R.C A,948504778,Jon Fordham,56,121263797,Jim Pelling,33
+2023-03-27,22,1,Castle Club C,N.A.R.C A,212940364,Wayne Jenkinson,19,428102632,Anthony Flynn,49
+2023-03-27,22,1,Castle Club C,N.A.R.C A,133207947,Jake Richardson,41,390364577,Mark Bright,59
+2023-03-27,22,1,St. Matthias D,St. Matthias C,474047799,John Evans,30,617751649,Lee Simpson,96
+2023-03-27,22,1,St. Matthias D,St. Matthias C,736672590,Dean Perry,49,662568995,Robert Wykes,58
+2023-03-27,22,1,St. Matthias D,St. Matthias C,474047799,John Evans,62,278731588,Lester Grice,30
+2023-03-27,22,1,St. Matthias D,St. Matthias C,736672590,Dean Perry,4,754250007,Freddie Blunden,84
+2023-03-20,22,1,N.A.R.C A,St. Matthias C,390364577,Mark Bright,55,617751649,Lee Simpson,51
+2023-03-20,22,1,N.A.R.C A,St. Matthias C,121263797,Jim Pelling,28,278731588,Lester Grice,71
+2023-03-20,22,1,N.A.R.C A,St. Matthias C,428102632,Anthony Flynn,12,617751649,Lee Simpson,67
+2023-03-20,22,1,N.A.R.C A,St. Matthias C,963958265,Rodney Moogan,17,957784480,Harry Banks,60
+2023-03-20,22,1,N.A.R.C A,St. Matthias C,390364577,Mark Bright,40,278731588,Lester Grice,6
+2023-03-20,22,1,N.A.R.C A,St. Matthias C,428102632,Anthony Flynn,42,957784480,Harry Banks,80
+2023-03-20,22,1,St. Matthias A,Castle Club C,323907964,Russ Hughes,69,654650203,Alan O'Sullivan,18
+2023-03-20,22,1,St. Matthias A,Castle Club C,954297832,Pav Sareen,13,133207947,Jake Richardson,53
+2023-03-20,22,1,St. Matthias A,Castle Club C,341869673,Nigel Stilwell,47,654650203,Alan O'Sullivan,58
+2023-03-20,22,1,St. Matthias A,Castle Club C,954297832,Pav Sareen,55,506581042,Glen Dartnell,24
+2023-03-20,22,1,St. Matthias A,Castle Club C,748064029,Paul Hughes,24,133207947,Jake Richardson,55
+2023-03-20,22,1,St. Matthias A,Castle Club C,341869673,Nigel Stilwell,18,212940364,Wayne Jenkinson,65
+2023-03-13,22,1,St. Matthias C,Castle Club C,617751649,Lee Simpson,66,506581042,Glen Dartnell,37
+2023-03-13,22,1,St. Matthias C,Castle Club C,662568995,Robert Wykes,20,212940364,Wayne Jenkinson,58
+2023-03-13,22,1,St. Matthias C,Castle Club C,957784480,Harry Banks,17,133207947,Jake Richardson,71
+2023-03-13,22,1,St. Matthias C,Castle Club C,278731588,Lester Grice,50,212940364,Wayne Jenkinson,67
+2023-03-13,22,1,St. Matthias C,Castle Club C,384960657,Dave Lewney,54,133207947,Jake Richardson,62
+2023-03-13,22,1,St. Matthias C,Castle Club C,754250007,Freddie Blunden,59,506581042,Glen Dartnell,35
+2023-03-13,22,1,St. Matthias D,St. Matthias A,112887737,Pip Akehurst,32,323907964,Russ Hughes,75
+2023-03-13,22,1,St. Matthias D,St. Matthias A,474047799,John Evans,60,748064029,Paul Hughes,12
+2023-03-13,22,1,St. Matthias D,St. Matthias A,112887737,Pip Akehurst,42,802242736,Stephen Hughes,56
+2023-03-13,22,1,St. Matthias D,St. Matthias A,736672590,Dean Perry,9,323907964,Russ Hughes,72
+2023-03-13,22,1,St. Matthias D,St. Matthias A,474047799,John Evans,62,748064029,Paul Hughes,11
+2023-03-13,22,1,St. Matthias D,St. Matthias A,736672590,Dean Perry,58,802242736,Stephen Hughes,35
+2023-03-06,22,1,Castle Club C,St. Matthias D,506581042,Glen Dartnell,71,474047799,John Evans,37
+2023-03-06,22,1,Castle Club C,St. Matthias D,212940364,Wayne Jenkinson,25,753835073,Jason Alford,58
+2023-03-06,22,1,Castle Club C,St. Matthias D,133207947,Jake Richardson,59,474047799,John Evans,5
+2023-03-06,22,1,Castle Club C,St. Matthias D,212940364,Wayne Jenkinson,52,711930170,Rich Webster,12
+2023-03-06,22,1,Castle Club C,St. Matthias D,133207947,Jake Richardson,48,753835073,Jason Alford,57
+2023-03-06,22,1,Castle Club C,St. Matthias D,948504778,Jon Fordham,55,736672590,Dean Perry,32
+2023-03-06,22,1,St. Matthias C,St. Matthias A,617751649,Lee Simpson,62,323907964,Russ Hughes,24
+2023-03-06,22,1,St. Matthias C,St. Matthias A,662568995,Robert Wykes,65,341869673,Nigel Stilwell,37
+2023-03-06,22,1,St. Matthias C,St. Matthias A,278731588,Lester Grice,42,323907964,Russ Hughes,62
+2023-03-06,22,1,St. Matthias C,St. Matthias A,617751649,Lee Simpson,34,341869673,Nigel Stilwell,45
+2023-03-06,22,1,St. Matthias C,St. Matthias A,662568995,Robert Wykes,65,748064029,Paul Hughes,58
+2023-03-06,22,1,St. Matthias C,St. Matthias A,384960657,Dave Lewney,53,802242736,Stephen Hughes,13
+2023-02-27,22,1,St. Matthias D,N.A.R.C A,112887737,Pip Akehurst,12,390364577,Mark Bright,60
+2023-02-27,22,1,St. Matthias D,N.A.R.C A,474047799,John Evans,17,428102632,Anthony Flynn,60
+2023-02-27,22,1,St. Matthias D,N.A.R.C A,711930170,Rich Webster,63,820448676,Chris Lloyd,52
+2023-02-27,22,1,St. Matthias D,N.A.R.C A,112887737,Pip Akehurst,14,390364577,Mark Bright,77
+2023-02-27,22,1,St. Matthias D,N.A.R.C A,474047799,John Evans,13,428102632,Anthony Flynn,75
+2023-02-27,22,1,St. Matthias D,N.A.R.C A,736672590,Dean Perry,59,820448676,Chris Lloyd,36
+2023-02-20,22,1,St. Matthias D,Castle Club C,753835073,Jason Alford,67,133207947,Jake Richardson,30
+2023-02-20,22,1,St. Matthias D,Castle Club C,474047799,John Evans,52,506581042,Glen Dartnell,20
+2023-02-20,22,1,St. Matthias D,Castle Club C,753835073,Jason Alford,72,948504778,Jon Fordham,22
+2023-02-20,22,1,St. Matthias D,Castle Club C,711930170,Rich Webster,1,133207947,Jake Richardson,73
+2023-02-20,22,1,St. Matthias D,Castle Club C,474047799,John Evans,34,948504778,Jon Fordham,75
+2023-02-20,22,1,St. Matthias D,Castle Club C,711930170,Rich Webster,48,212940364,Wayne Jenkinson,58
+2023-02-13,22,1,N.A.R.C A,St. Matthias A,390364577,Mark Bright,68,323907964,Russ Hughes,46
+2023-02-13,22,1,N.A.R.C A,St. Matthias A,428102632,Anthony Flynn,30,748064029,Paul Hughes,63
+2023-02-13,22,1,N.A.R.C A,St. Matthias A,121263797,Jim Pelling,34,802242736,Stephen Hughes,69
+2023-02-13,22,1,N.A.R.C A,St. Matthias A,390364577,Mark Bright,1,323907964,Russ Hughes,81
+2023-02-13,22,1,N.A.R.C A,St. Matthias A,820448676,Chris Lloyd,42,748064029,Paul Hughes,103
+2023-02-13,22,1,N.A.R.C A,St. Matthias A,428102632,Anthony Flynn,57,802242736,Stephen Hughes,11
+2023-02-13,22,1,St. Matthias C,St. Matthias D,617751649,Lee Simpson,62,474047799,John Evans,37
+2023-02-13,22,1,St. Matthias C,St. Matthias D,662568995,Robert Wykes,31,112887737,Pip Akehurst,63
+2023-02-13,22,1,St. Matthias C,St. Matthias D,957784480,Harry Banks,47,711930170,Rich Webster,53
+2023-02-13,22,1,St. Matthias C,St. Matthias D,384960657,Dave Lewney,54,474047799,John Evans,41
+2023-02-13,22,1,St. Matthias C,St. Matthias D,754250007,Freddie Blunden,6,112887737,Pip Akehurst,68
+2023-02-13,22,1,St. Matthias C,St. Matthias D,384960657,Dave Lewney,58,711930170,Rich Webster,53
+2023-02-06,22,1,N.A.R.C A,Castle Club C,390364577,Mark Bright,87,948504778,Jon Fordham,21
+2023-02-06,22,1,N.A.R.C A,Castle Club C,428102632,Anthony Flynn,61,506581042,Glen Dartnell,2
+2023-02-06,22,1,N.A.R.C A,Castle Club C,121263797,Jim Pelling,35,212940364,Wayne Jenkinson,58
+2023-02-06,22,1,N.A.R.C A,Castle Club C,820448676,Chris Lloyd,29,948504778,Jon Fordham,67
+2023-02-06,22,1,N.A.R.C A,Castle Club C,390364577,Mark Bright,54,506581042,Glen Dartnell,68
+2023-02-06,22,1,N.A.R.C A,Castle Club C,428102632,Anthony Flynn,58,212940364,Wayne Jenkinson,48
+2023-02-06,22,1,St. Matthias D,St. Matthias C,112887737,Pip Akehurst,24,662568995,Robert Wykes,49
+2023-02-06,22,1,St. Matthias D,St. Matthias C,474047799,John Evans,82,278731588,Lester Grice,19
+2023-02-06,22,1,St. Matthias D,St. Matthias C,711930170,Rich Webster,16,662568995,Robert Wykes,68
+2023-02-06,22,1,St. Matthias D,St. Matthias C,736672590,Dean Perry,32,957784480,Harry Banks,66
+2023-02-06,22,1,St. Matthias D,St. Matthias C,474047799,John Evans,40,754250007,Freddie Blunden,60
+2023-02-06,22,1,St. Matthias D,St. Matthias C,112887737,Pip Akehurst,67,278731588,Lester Grice,34
+2023-01-30,22,1,Castle Club C,St. Matthias A,948504778,Jon Fordham,33,954297832,Pav Sareen,47
+2023-01-30,22,1,Castle Club C,St. Matthias A,506581042,Glen Dartnell,17,341869673,Nigel Stilwell,51
+2023-01-30,22,1,Castle Club C,St. Matthias A,212940364,Wayne Jenkinson,32,954297832,Pav Sareen,72
+2023-01-30,22,1,Castle Club C,St. Matthias A,948504778,Jon Fordham,20,341869673,Nigel Stilwell,68
+2023-01-30,22,1,Castle Club C,St. Matthias A,212940364,Wayne Jenkinson,63,748064029,Paul Hughes,28
+2023-01-30,22,1,Castle Club C,St. Matthias A,506581042,Glen Dartnell,44,802242736,Stephen Hughes,59
+2023-01-30,22,1,St. Matthias C,N.A.R.C A,617751649,Lee Simpson,54,121263797,Jim Pelling,50
+2023-01-30,22,1,St. Matthias C,N.A.R.C A,957784480,Harry Banks,79,428102632,Anthony Flynn,59
+2023-01-30,22,1,St. Matthias C,N.A.R.C A,278731588,Lester Grice,8,963958265,Rodney Moogan,63
+2023-01-30,22,1,St. Matthias C,N.A.R.C A,617751649,Lee Simpson,72,820448676,Chris Lloyd,62
+2023-01-30,22,1,St. Matthias C,N.A.R.C A,957784480,Harry Banks,73,963958265,Rodney Moogan,42
+2023-01-30,22,1,St. Matthias C,N.A.R.C A,754250007,Freddie Blunden,61,121263797,Jim Pelling,43
+2023-01-23,22,1,Castle Club C,St. Matthias C,133207947,Jake Richardson,28,617751649,Lee Simpson,72
+2023-01-23,22,1,Castle Club C,St. Matthias C,948504778,Jon Fordham,38,662568995,Robert Wykes,56
+2023-01-23,22,1,Castle Club C,St. Matthias C,133207947,Jake Richardson,37,617751649,Lee Simpson,65
+2023-01-23,22,1,Castle Club C,St. Matthias C,506581042,Glen Dartnell,36,754250007,Freddie Blunden,57
+2023-01-23,22,1,Castle Club C,St. Matthias C,212940364,Wayne Jenkinson,61,278731588,Lester Grice,33
+2023-01-23,22,1,Castle Club C,St. Matthias C,506581042,Glen Dartnell,35,754250007,Freddie Blunden,90
+2023-01-23,22,1,St. Matthias A,St. Matthias D,341869673,Nigel Stilwell,37,112887737,Pip Akehurst,51
+2023-01-23,22,1,St. Matthias A,St. Matthias D,748064029,Paul Hughes,16,474047799,John Evans,66
+2023-01-23,22,1,St. Matthias A,St. Matthias D,802242736,Stephen Hughes,48,711930170,Rich Webster,61
+2023-01-23,22,1,St. Matthias A,St. Matthias D,954297832,Pav Sareen,39,112887737,Pip Akehurst,54
+2023-01-23,22,1,St. Matthias A,St. Matthias D,341869673,Nigel Stilwell,59,474047799,John Evans,40
+2023-01-23,22,1,St. Matthias A,St. Matthias D,954297832,Pav Sareen,58,711930170,Rich Webster,18
+2023-01-16,22,1,St. Matthias A,St. Matthias C,323907964,Russ Hughes,42,617751649,Lee Simpson,59
+2023-01-16,22,1,St. Matthias A,St. Matthias C,748064029,Paul Hughes,47,662568995,Robert Wykes,56
+2023-01-16,22,1,St. Matthias A,St. Matthias C,323907964,Russ Hughes,51,278731588,Lester Grice,75
+2023-01-16,22,1,St. Matthias A,St. Matthias C,802242736,Stephen Hughes,6,617751649,Lee Simpson,79
+2023-01-16,22,1,St. Matthias A,St. Matthias C,748064029,Paul Hughes,3,662568995,Robert Wykes,86
+2023-01-16,22,1,St. Matthias A,St. Matthias C,802242736,Stephen Hughes,28,384960657,Dave Lewney,60
+2023-01-09,22,1,N.A.R.C A,St. Matthias D,428102632,Anthony Flynn,42,474047799,John Evans,45
+2023-01-09,22,1,N.A.R.C A,St. Matthias D,390364577,Mark Bright,46,112887737,Pip Akehurst,57
+2023-01-09,22,1,N.A.R.C A,St. Matthias D,121263797,Jim Pelling,47,736672590,Dean Perry,6
+2023-01-09,22,1,N.A.R.C A,St. Matthias D,820448676,Chris Lloyd,53,112887737,Pip Akehurst,47
+2023-01-09,22,1,N.A.R.C A,St. Matthias D,390364577,Mark Bright,45,474047799,John Evans,34
+2023-01-09,22,1,N.A.R.C A,St. Matthias D,121263797,Jim Pelling,52,736672590,Dean Perry,49
+2023-03-27,22,2,Moulsecoomb Club A,Portslade Sports A,172646809,Robin Powell,18,670256222,Connor Anderson,57
+2023-03-27,22,2,Moulsecoomb Club A,Portslade Sports A,276052166,Stacy Smith,27,412256116,Andy Sutton,48
+2023-03-27,22,2,Moulsecoomb Club A,Portslade Sports A,831214643,Tony Shipley,15,360777082,Mark Bishop,64
+2023-03-27,22,2,Moulsecoomb Club A,Portslade Sports A,724342701,Nigel Lilley,29,560540608,Mark Siddle,56
+2023-03-27,22,2,Moulsecoomb Club A,Portslade Sports A,271464632,Paul Phillips,3,835713833,Olly Stewart,71
+2023-03-27,22,2,Portslade Legion,Moulsecoomb Club B,845758589,Charlie James,39,504949622,Jimmy Moseley,49
+2023-03-27,22,2,Portslade Legion,Moulsecoomb Club B,229719541,Scott Manning,42,207592931,(shorty) Gediminas Aleksandravicius,22
+2023-03-27,22,2,Portslade Legion,Moulsecoomb Club B,599868559,Sam Germin,43,287057630,Darren Hearn,28
+2023-03-27,22,2,Portslade Legion,Moulsecoomb Club B,417786644,Eddie Collins,21,867613624,Ian Dunhill,52
+2023-03-27,22,2,Portslade Legion,Moulsecoomb Club B,936624299,Peter Gallant,43,995342186,Jim Smith,18
+2023-03-27,22,2,Portslade Sports B,Hove Deep Sea Anglers,974385564,Danny Booker,46,326225304,Ian Raeburn,44
+2023-03-27,22,2,Portslade Sports B,Hove Deep Sea Anglers,593038759,Graham Jones,35,598117191,Jerome Fowler,55
+2023-03-27,22,2,Portslade Sports B,Hove Deep Sea Anglers,484159049,Tommy Wright,18,732415457,Barry Hall,54
+2023-03-27,22,2,Portslade Sports B,Hove Deep Sea Anglers,515177310,James Da Costa,46,901024459,Paul Charman,7
+2023-03-27,22,2,Portslade Sports B,Hove Deep Sea Anglers,704007508,Alan Muir,35,613893140,Matt Warner,50
+2023-03-27,22,2,Southwick Sports A,Southwick Sports C,910809545,Blake Harman,25,641692362,Bob Taylor,56
+2023-03-27,22,2,Southwick Sports A,Southwick Sports C,493830161,Luke Strevens,46,386517733,Ady Halley,13
+2023-03-27,22,2,Southwick Sports A,Southwick Sports C,171346729,Des Heasman,51,820231590,Alan Rook,37
+2023-03-27,22,2,Southwick Sports A,Southwick Sports C,519169037,Steve Kerr,74,573567936,Steve Marriott,1
+2023-03-27,22,2,Southwick Sports A,Southwick Sports C,971308746,Clive Harman,22,70159035,Peter Rea,57
+2023-03-27,22,2,St. Matthias B,Southwick Sports B,623759180,Paul Rose,16,216787426,Jack Perrin,48
+2023-03-27,22,2,St. Matthias B,Southwick Sports B,124523642,Tom Hayes,3,991443521,Adam Griffiths,57
+2023-03-27,22,2,St. Matthias B,Southwick Sports B,427046178,Micky Sandall,54,804381932,Ryan Harman,26
+2023-03-27,22,2,St. Matthias B,Southwick Sports B,398033519,Luke Ellis,28,579164381,Danny Cattell,60
+2023-03-27,22,2,St. Matthias B,Southwick Sports B,866506631,Mark Smith,28,567624732,Dave Brampton,52
+2023-03-20,22,2,Champion House,Southwick Sports B,737709582,Tony Browne,68,715018961,John Kilgariff,32
+2023-03-20,22,2,Champion House,Southwick Sports B,719124015,Tony Power,37,991443521,Adam Griffiths,57
+2023-03-20,22,2,Champion House,Southwick Sports B,114184042,Ian Smith,37,804381932,Ryan Harman,44
+2023-03-20,22,2,Champion House,Southwick Sports B,39289507,Mick Laughlin,28,579164381,Danny Cattell,62
+2023-03-20,22,2,Champion House,Southwick Sports B,501266206,David Fox,52,567624732,Dave Brampton,26
+2023-03-20,22,2,Hove Deep Sea Anglers,Portslade Legion,901024459,Paul Charman,28,845758589,Charlie James,58
+2023-03-20,22,2,Hove Deep Sea Anglers,Portslade Legion,326225304,Ian Raeburn,58,936624299,Peter Gallant,39
+2023-03-20,22,2,Hove Deep Sea Anglers,Portslade Legion,598117191,Jerome Fowler,61,599868559,Sam Germin,10
+2023-03-20,22,2,Hove Deep Sea Anglers,Portslade Legion,732415457,Barry Hall,61,417786644,Eddie Collins,22
+2023-03-20,22,2,Hove Deep Sea Anglers,Portslade Legion,613893140,Matt Warner,58,229719541,Scott Manning,47
+2023-03-20,22,2,Portslade Sports A,Portslade Sports B,560540608,Mark Siddle,37,974385564,Danny Booker,58
+2023-03-20,22,2,Portslade Sports A,Portslade Sports B,360777082,Mark Bishop,35,484159049,Tommy Wright,54
+2023-03-20,22,2,Portslade Sports A,Portslade Sports B,670256222,Connor Anderson,79,327948141,Ross Etheridge,19
+2023-03-20,22,2,Portslade Sports A,Portslade Sports B,835713833,Olly Stewart,36,515177310,James Da Costa,50
+2023-03-20,22,2,Portslade Sports A,Portslade Sports B,412256116,Andy Sutton,45,593038759,Graham Jones,38
+2023-03-20,22,2,Southwick Sports A,St. Matthias B,493830161,Luke Strevens,7,398033519,Luke Ellis,41
+2023-03-20,22,2,Southwick Sports A,St. Matthias B,519169037,Steve Kerr,72,623759180,Paul Rose,15
+2023-03-20,22,2,Southwick Sports A,St. Matthias B,171346729,Des Heasman,25,788605510,Mark Rose,59
+2023-03-20,22,2,Southwick Sports A,St. Matthias B,971308746,Clive Harman,43,866506631,Mark Smith,35
+2023-03-20,22,2,Southwick Sports C,Preston Club,386517733,Ady Halley,22,146404254,Randall Griffiths,56
+2023-03-20,22,2,Southwick Sports C,Preston Club,820231590,Alan Rook,32,617252199,Jim Griffiths,53
+2023-03-20,22,2,Southwick Sports C,Preston Club,573567936,Steve Marriott,49,805325520,Tom Ardley,47
+2023-03-20,22,2,Southwick Sports C,Preston Club,641692362,Bob Taylor,27,688778183,Dean Paice,68
+2023-03-20,22,2,Southwick Sports C,Preston Club,70159035,Peter Rea,59,670870044,David Flanagan,41
+2023-03-13,22,2,Moulsecoomb Club A,Southwick Sports C,276052166,Stacy Smith,64,805165161,Steve Owen,41
+2023-03-13,22,2,Moulsecoomb Club A,Southwick Sports C,529382351,Greg Foat,51,641692362,Bob Taylor,54
+2023-03-13,22,2,Moulsecoomb Club A,Southwick Sports C,831214643,Tony Shipley,41,820231590,Alan Rook,61
+2023-03-13,22,2,Moulsecoomb Club A,Southwick Sports C,271464632,Paul Phillips,44,573567936,Steve Marriott,51
+2023-03-13,22,2,Moulsecoomb Club A,Southwick Sports C,724342701,Nigel Lilley,19,70159035,Peter Rea,49
+2023-03-13,22,2,Portslade Legion,Portslade Sports A,845758589,Charlie James,53,567316488,Lee Millyard,45
+2023-03-13,22,2,Portslade Legion,Portslade Sports A,229719541,Scott Manning,39,835713833,Olly Stewart,17
+2023-03-13,22,2,Portslade Legion,Portslade Sports A,599868559,Sam Germin,24,360777082,Mark Bishop,60
+2023-03-13,22,2,Portslade Legion,Portslade Sports A,417786644,Eddie Collins,11,560540608,Mark Siddle,58
+2023-03-13,22,2,Portslade Legion,Portslade Sports A,936624299,Peter Gallant,15,412256116,Andy Sutton,43
+2023-03-13,22,2,Preston Club,Southwick Sports A,805325520,Tom Ardley,25,971308746,Clive Harman,64
+2023-03-13,22,2,Preston Club,Southwick Sports A,146404254,Randall Griffiths,15,910809545,Blake Harman,50
+2023-03-13,22,2,Preston Club,Southwick Sports A,670870044,David Flanagan,60,630359340,John Stephens,8
+2023-03-13,22,2,Preston Club,Southwick Sports A,688778183,Dean Paice,76,171346729,Des Heasman,12
+2023-03-13,22,2,Preston Club,Southwick Sports A,617252199,Jim Griffiths,27,493830161,Luke Strevens,58
+2023-03-13,22,2,Southwick Sports B,Moulsecoomb Club B,991443521,Adam Griffiths,48,207592931,(shorty) Gediminas Aleksandravicius,40
+2023-03-13,22,2,Southwick Sports B,Moulsecoomb Club B,579164381,Danny Cattell,64,995342186,Jim Smith,28
+2023-03-13,22,2,Southwick Sports B,Moulsecoomb Club B,804381932,Ryan Harman,48,287057630,Darren Hearn,44
+2023-03-13,22,2,Southwick Sports B,Moulsecoomb Club B,567624732,Dave Brampton,26,288891270,Lewis Copping,63
+2023-03-13,22,2,Southwick Sports B,Moulsecoomb Club B,216787426,Jack Perrin,44,463709832,Danny Wong,53
+2023-03-13,22,2,St. Matthias B,Champion House,124523642,Tom Hayes,49,737709582,Tony Browne,34
+2023-03-13,22,2,St. Matthias B,Champion House,788605510,Mark Rose,48,719124015,Tony Power,39
+2023-03-13,22,2,St. Matthias B,Champion House,398033519,Luke Ellis,63,501266206,David Fox,26
+2023-03-09,22,2,Portslade Sports B,Southwick Sports B,593038759,Graham Jones,38,216787426,Jack Perrin,49
+2023-03-09,22,2,Portslade Sports B,Southwick Sports B,515177310,James Da Costa,51,579164381,Danny Cattell,13
+2023-03-09,22,2,Portslade Sports B,Southwick Sports B,327948141,Ross Etheridge,39,943667183,John Stone,29
+2023-03-09,22,2,Portslade Sports B,Southwick Sports B,484159049,Tommy Wright,52,804381932,Ryan Harman,42
+2023-03-09,22,2,Portslade Sports B,Southwick Sports B,704007508,Alan Muir,62,567624732,Dave Brampton,49
+2023-03-06,22,2,Hove Deep Sea Anglers,Southwick Sports B,598117191,Jerome Fowler,40,216787426,Jack Perrin,60
+2023-03-06,22,2,Hove Deep Sea Anglers,Southwick Sports B,721321839,Matt Peake,47,804381932,Ryan Harman,39
+2023-03-06,22,2,Hove Deep Sea Anglers,Southwick Sports B,732415457,Barry Hall,56,567624732,Dave Brampton,31
+2023-03-06,22,2,Hove Deep Sea Anglers,Southwick Sports B,613893140,Matt Warner,37,579164381,Danny Cattell,68
+2023-03-06,22,2,Hove Deep Sea Anglers,Southwick Sports B,319057545,Brendan Lambe,43,943667183,John Stone,47
+2023-03-06,22,2,Moulsecoomb Club B,Champion House,867613624,Ian Dunhill,54,737709582,Tony Browne,70
+2023-03-06,22,2,Moulsecoomb Club B,Champion House,287057630,Darren Hearn,46,719124015,Tony Power,25
+2023-03-06,22,2,Moulsecoomb Club B,Champion House,463709832,Danny Wong,40,229965090,Paul Mylam,57
+2023-03-06,22,2,Moulsecoomb Club B,Champion House,207592931,(shorty) Gediminas Aleksandravicius,41,858933444,James Tugwell,7
+2023-03-06,22,2,Moulsecoomb Club B,Champion House,288891270,Lewis Copping,22,501266206,David Fox,36
+2023-03-06,22,2,Preston Club,St. Matthias B,805325520,Tom Ardley,62,124523642,Tom Hayes,43
+2023-03-06,22,2,Preston Club,St. Matthias B,617252199,Jim Griffiths,57,398033519,Luke Ellis,78
+2023-03-06,22,2,Preston Club,St. Matthias B,670870044,David Flanagan,81,427046178,Micky Sandall,16
+2023-03-06,22,2,Preston Club,St. Matthias B,146404254,Randall Griffiths,34,788605510,Mark Rose,59
+2023-03-06,22,2,Preston Club,St. Matthias B,688778183,Dean Paice,32,866506631,Mark Smith,67
+2023-03-06,22,2,Southwick Sports A,Moulsecoomb Club A,493830161,Luke Strevens,71,535728699,Fred Cooper,33
+2023-03-06,22,2,Southwick Sports A,Moulsecoomb Club A,519169037,Steve Kerr,62,713064363,John Trory,39
+2023-03-06,22,2,Southwick Sports A,Moulsecoomb Club A,171346729,Des Heasman,44,831214643,Tony Shipley,52
+2023-03-06,22,2,Southwick Sports A,Moulsecoomb Club A,910809545,Blake Harman,15,724342701,Nigel Lilley,64
+2023-03-06,22,2,Southwick Sports A,Moulsecoomb Club A,971308746,Clive Harman,49,271464632,Paul Phillips,42
+2023-03-06,22,2,Southwick Sports C,Portslade Sports B,805165161,Steve Owen,60,484159049,Tommy Wright,28
+2023-03-06,22,2,Southwick Sports C,Portslade Sports B,820231590,Alan Rook,19,515177310,James Da Costa,65
+2023-03-06,22,2,Southwick Sports C,Portslade Sports B,641692362,Bob Taylor,29,593038759,Graham Jones,58
+2023-03-06,22,2,Southwick Sports C,Portslade Sports B,573567936,Steve Marriott,17,974385564,Danny Booker,55
+2023-03-06,22,2,Southwick Sports C,Portslade Sports B,70159035,Peter Rea,57,704007508,Alan Muir,28
+2023-02-27,22,2,Champion House,Hove Deep Sea Anglers,737709582,Tony Browne,49,598117191,Jerome Fowler,61
+2023-02-27,22,2,Champion House,Hove Deep Sea Anglers,719124015,Tony Power,21,326225304,Ian Raeburn,50
+2023-02-27,22,2,Champion House,Hove Deep Sea Anglers,114184042,Ian Smith,13,721321839,Matt Peake,65
+2023-02-27,22,2,Champion House,Hove Deep Sea Anglers,39289507,Mick Laughlin,16,732415457,Barry Hall,51
+2023-02-27,22,2,Champion House,Hove Deep Sea Anglers,501266206,David Fox,55,613893140,Matt Warner,39
+2023-02-27,22,2,Moulsecoomb Club A,Preston Club,831214643,Tony Shipley,30,617252199,Jim Griffiths,57
+2023-02-27,22,2,Moulsecoomb Club A,Preston Club,172646809,Robin Powell,38,231445676,Tony Paice,54
+2023-02-27,22,2,Moulsecoomb Club A,Preston Club,535728699,Fred Cooper,37,146404254,Randall Griffiths,59
+2023-02-27,22,2,Moulsecoomb Club A,Preston Club,271464632,Paul Phillips,18,670870044,David Flanagan,60
+2023-02-27,22,2,Moulsecoomb Club A,Preston Club,724342701,Nigel Lilley,18,688778183,Dean Paice,61
+2023-02-27,22,2,Portslade Legion,Southwick Sports C,845758589,Charlie James,45,641692362,Bob Taylor,57
+2023-02-27,22,2,Portslade Legion,Southwick Sports C,229719541,Scott Manning,58,386517733,Ady Halley,22
+2023-02-27,22,2,Portslade Legion,Southwick Sports C,599868559,Sam Germin,38,820231590,Alan Rook,30
+2023-02-27,22,2,Portslade Legion,Southwick Sports C,417786644,Eddie Collins,29,573567936,Steve Marriott,59
+2023-02-27,22,2,Portslade Legion,Southwick Sports C,936624299,Peter Gallant,30,70159035,Peter Rea,43
+2023-02-27,22,2,Portslade Sports B,Southwick Sports A,327948141,Ross Etheridge,42,910809545,Blake Harman,29
+2023-02-27,22,2,Portslade Sports B,Southwick Sports A,593038759,Graham Jones,30,519169037,Steve Kerr,47
+2023-02-27,22,2,Portslade Sports B,Southwick Sports A,515177310,James Da Costa,48,171346729,Des Heasman,24
+2023-02-27,22,2,Portslade Sports B,Southwick Sports A,484159049,Tommy Wright,25,493830161,Luke Strevens,44
+2023-02-27,22,2,Portslade Sports B,Southwick Sports A,704007508,Alan Muir,35,971308746,Clive Harman,44
+2023-02-27,22,2,Southwick Sports B,Portslade Sports A,991443521,Adam Griffiths,14,670256222,Connor Anderson,61
+2023-02-27,22,2,Southwick Sports B,Portslade Sports A,216787426,Jack Perrin,42,835713833,Olly Stewart,62
+2023-02-27,22,2,Southwick Sports B,Portslade Sports A,804381932,Ryan Harman,12,360777082,Mark Bishop,50
+2023-02-27,22,2,Southwick Sports B,Portslade Sports A,567624732,Dave Brampton,48,567316488,Lee Millyard,50
+2023-02-27,22,2,Southwick Sports B,Portslade Sports A,579164381,Danny Cattell,52,412256116,Andy Sutton,39
+2023-02-27,22,2,St. Matthias B,Moulsecoomb Club B,623759180,Paul Rose,43,463709832,Danny Wong,49
+2023-02-27,22,2,St. Matthias B,Moulsecoomb Club B,427046178,Micky Sandall,48,504949622,Jimmy Moseley,40
+2023-02-27,22,2,St. Matthias B,Moulsecoomb Club B,363684752,John Guzek,49,995342186,Jim Smith,59
+2023-02-27,22,2,St. Matthias B,Moulsecoomb Club B,788605510,Mark Rose,54,867613624,Ian Dunhill,16
+2023-02-27,22,2,St. Matthias B,Moulsecoomb Club B,866506631,Mark Smith,36,288891270,Lewis Copping,64
+2023-02-20,22,2,Hove Deep Sea Anglers,Moulsecoomb Club B,901024459,Paul Charman,34,207592931,(shorty) Gediminas Aleksandravicius,41
+2023-02-20,22,2,Hove Deep Sea Anglers,Moulsecoomb Club B,721321839,Matt Peake,50,504949622,Jimmy Moseley,23
+2023-02-20,22,2,Hove Deep Sea Anglers,Moulsecoomb Club B,598117191,Jerome Fowler,68,287057630,Darren Hearn,20
+2023-02-20,22,2,Hove Deep Sea Anglers,Moulsecoomb Club B,613893140,Matt Warner,42,867613624,Ian Dunhill,54
+2023-02-20,22,2,Hove Deep Sea Anglers,Moulsecoomb Club B,326225304,Ian Raeburn,11,288891270,Lewis Copping,46
+2023-02-20,22,2,Moulsecoomb Club A,St. Matthias B,276052166,Stacy Smith,57,124523642,Tom Hayes,28
+2023-02-20,22,2,Moulsecoomb Club A,St. Matthias B,713064363,John Trory,7,398033519,Luke Ellis,73
+2023-02-20,22,2,Moulsecoomb Club A,St. Matthias B,529382351,Greg Foat,15,427046178,Micky Sandall,52
+2023-02-20,22,2,Moulsecoomb Club A,St. Matthias B,724342701,Nigel Lilley,52,866506631,Mark Smith,22
+2023-02-20,22,2,Moulsecoomb Club A,St. Matthias B,271464632,Paul Phillips,36,788605510,Mark Rose,53
+2023-02-20,22,2,Portslade Sports A,Champion House,670256222,Connor Anderson,104,229965090,Paul Mylam,30
+2023-02-20,22,2,Portslade Sports A,Champion House,360777082,Mark Bishop,50,114184042,Ian Smith,22
+2023-02-20,22,2,Portslade Sports A,Champion House,835713833,Olly Stewart,55,858933444,James Tugwell,13
+2023-02-20,22,2,Portslade Sports A,Champion House,412256116,Andy Sutton,47,719124015,Tony Power,16
+2023-02-20,22,2,Preston Club,Portslade Sports B,805325520,Tom Ardley,8,974385564,Danny Booker,64
+2023-02-20,22,2,Preston Club,Portslade Sports B,670870044,David Flanagan,60,327948141,Ross Etheridge,36
+2023-02-20,22,2,Preston Club,Portslade Sports B,146404254,Randall Griffiths,28,593038759,Graham Jones,57
+2023-02-20,22,2,Preston Club,Portslade Sports B,688778183,Dean Paice,19,515177310,James Da Costa,70
+2023-02-20,22,2,Preston Club,Portslade Sports B,617252199,Jim Griffiths,52,484159049,Tommy Wright,39
+2023-02-20,22,2,Southwick Sports A,Portslade Legion,171346729,Des Heasman,48,845758589,Charlie James,37
+2023-02-20,22,2,Southwick Sports A,Portslade Legion,519169037,Steve Kerr,45,229719541,Scott Manning,60
+2023-02-20,22,2,Southwick Sports A,Portslade Legion,910809545,Blake Harman,45,599868559,Sam Germin,29
+2023-02-20,22,2,Southwick Sports A,Portslade Legion,493830161,Luke Strevens,73,417786644,Eddie Collins,14
+2023-02-20,22,2,Southwick Sports A,Portslade Legion,971308746,Clive Harman,77,936624299,Peter Gallant,11
+2023-02-13,22,2,Moulsecoomb Club B,Portslade Sports A,287057630,Darren Hearn,13,670256222,Connor Anderson,70
+2023-02-13,22,2,Moulsecoomb Club B,Portslade Sports A,504949622,Jimmy Moseley,48,567316488,Lee Millyard,39
+2023-02-13,22,2,Moulsecoomb Club B,Portslade Sports A,207592931,(shorty) Gediminas Aleksandravicius,50,688252012,Sean Cooper,19
+2023-02-13,22,2,Moulsecoomb Club B,Portslade Sports A,995342186,Jim Smith,28,835713833,Olly Stewart,57
+2023-02-13,22,2,Moulsecoomb Club B,Portslade Sports A,463709832,Danny Wong,48,412256116,Andy Sutton,12
+2023-02-13,22,2,Portslade Legion,Preston Club,229719541,Scott Manning,66,670870044,David Flanagan,19
+2023-02-13,22,2,Portslade Legion,Preston Club,599868559,Sam Germin,24,617252199,Jim Griffiths,51
+2023-02-13,22,2,Portslade Legion,Preston Club,845758589,Charlie James,52,146404254,Randall Griffiths,53
+2023-02-13,22,2,Portslade Legion,Preston Club,417786644,Eddie Collins,62,805325520,Tom Ardley,28
+2023-02-13,22,2,Portslade Legion,Preston Club,936624299,Peter Gallant,19,688778183,Dean Paice,58
+2023-02-13,22,2,Portslade Sports B,Moulsecoomb Club A,974385564,Danny Booker,87,535728699,Fred Cooper,14
+2023-02-13,22,2,Portslade Sports B,Moulsecoomb Club A,327948141,Ross Etheridge,58,713064363,John Trory,26
+2023-02-13,22,2,Portslade Sports B,Moulsecoomb Club A,704007508,Alan Muir,23,172646809,Robin Powell,44
+2023-02-13,22,2,Portslade Sports B,Moulsecoomb Club A,515177310,James Da Costa,49,271464632,Paul Phillips,33
+2023-02-13,22,2,Portslade Sports B,Moulsecoomb Club A,593038759,Graham Jones,59,724342701,Nigel Lilley,26
+2023-02-13,22,2,Southwick Sports B,Southwick Sports C,579164381,Danny Cattell,50,641692362,Bob Taylor,33
+2023-02-13,22,2,Southwick Sports B,Southwick Sports C,216787426,Jack Perrin,51,820231590,Alan Rook,12
+2023-02-13,22,2,Southwick Sports B,Southwick Sports C,804381932,Ryan Harman,44,386517733,Ady Halley,7
+2023-02-13,22,2,Southwick Sports B,Southwick Sports C,567624732,Dave Brampton,15,70159035,Peter Rea,75
+2023-02-13,22,2,Southwick Sports B,Southwick Sports C,943667183,John Stone,54,573567936,Steve Marriott,37
+2023-02-13,22,2,St. Matthias B,Hove Deep Sea Anglers,623759180,Paul Rose,53,326225304,Ian Raeburn,60
+2023-02-13,22,2,St. Matthias B,Hove Deep Sea Anglers,398033519,Luke Ellis,52,598117191,Jerome Fowler,38
+2023-02-13,22,2,St. Matthias B,Hove Deep Sea Anglers,363684752,John Guzek,68,732415457,Barry Hall,26
+2023-02-13,22,2,St. Matthias B,Hove Deep Sea Anglers,788605510,Mark Rose,30,721321839,Matt Peake,67
+2023-02-13,22,2,St. Matthias B,Hove Deep Sea Anglers,866506631,Mark Smith,51,613893140,Matt Warner,21
+2023-02-06,22,2,Moulsecoomb Club A,Portslade Legion,172646809,Robin Powell,56,845758589,Charlie James,39
+2023-02-06,22,2,Moulsecoomb Club A,Portslade Legion,276052166,Stacy Smith,42,229719541,Scott Manning,60
+2023-02-06,22,2,Moulsecoomb Club A,Portslade Legion,724342701,Nigel Lilley,70,417786644,Eddie Collins,11
+2023-02-06,22,2,Moulsecoomb Club A,Portslade Legion,271464632,Paul Phillips,69,936624299,Peter Gallant,34
+2023-02-06,22,2,Portslade Sports A,Hove Deep Sea Anglers,360777082,Mark Bishop,58,326225304,Ian Raeburn,31
+2023-02-06,22,2,Portslade Sports A,Hove Deep Sea Anglers,670256222,Connor Anderson,54,598117191,Jerome Fowler,53
+2023-02-06,22,2,Portslade Sports A,Hove Deep Sea Anglers,835713833,Olly Stewart,54,732415457,Barry Hall,51
+2023-02-06,22,2,Portslade Sports A,Hove Deep Sea Anglers,567316488,Lee Millyard,16,721321839,Matt Peake,54
+2023-02-06,22,2,Portslade Sports A,Hove Deep Sea Anglers,412256116,Andy Sutton,19,613893140,Matt Warner,55
+2023-02-06,22,2,Southwick Sports A,Southwick Sports B,171346729,Des Heasman,57,804381932,Ryan Harman,33
+2023-02-06,22,2,Southwick Sports A,Southwick Sports B,519169037,Steve Kerr,54,567624732,Dave Brampton,47
+2023-02-06,22,2,Southwick Sports A,Southwick Sports B,971308746,Clive Harman,38,991443521,Adam Griffiths,46
+2023-02-06,22,2,Southwick Sports A,Southwick Sports B,493830161,Luke Strevens,73,216787426,Jack Perrin,33
+2023-02-06,22,2,Southwick Sports A,Southwick Sports B,910809545,Blake Harman,41,579164381,Danny Cattell,49
+2023-02-06,22,2,Southwick Sports C,Champion House,641692362,Bob Taylor,26,737709582,Tony Browne,50
+2023-02-06,22,2,Southwick Sports C,Champion House,386517733,Ady Halley,33,229965090,Paul Mylam,60
+2023-02-06,22,2,Southwick Sports C,Champion House,820231590,Alan Rook,45,719124015,Tony Power,32
+2023-02-06,22,2,Southwick Sports C,Champion House,70159035,Peter Rea,55,858933444,James Tugwell,25
+2023-02-06,22,2,Southwick Sports C,Champion House,573567936,Steve Marriott,40,114184042,Ian Smith,48
+2023-02-06,22,2,St. Matthias B,Portslade Sports B,124523642,Tom Hayes,15,515177310,James Da Costa,60
+2023-02-06,22,2,St. Matthias B,Portslade Sports B,623759180,Paul Rose,42,327948141,Ross Etheridge,59
+2023-02-06,22,2,St. Matthias B,Portslade Sports B,398033519,Luke Ellis,57,515835780,Craig Marchant Mbe,23
+2023-02-06,22,2,St. Matthias B,Portslade Sports B,427046178,Micky Sandall,41,593038759,Graham Jones,53
+2023-02-06,22,2,St. Matthias B,Portslade Sports B,788605510,Mark Rose,57,484159049,Tommy Wright,19
+2023-01-30,22,2,Champion House,Southwick Sports A,737709582,Tony Browne,42,971308746,Clive Harman,70
+2023-01-30,22,2,Champion House,Southwick Sports A,719124015,Tony Power,38,171346729,Des Heasman,61
+2023-01-30,22,2,Champion House,Southwick Sports A,737709582,Tony Browne,81,630359340,John Stephens,33
+2023-01-30,22,2,Champion House,Southwick Sports A,114184042,Ian Smith,14,910809545,Blake Harman,52
+2023-01-30,22,2,Champion House,Southwick Sports A,501266206,David Fox,21,493830161,Luke Strevens,60
+2023-01-30,22,2,Moulsecoomb Club B,Southwick Sports C,287057630,Darren Hearn,56,820231590,Alan Rook,24
+2023-01-30,22,2,Moulsecoomb Club B,Southwick Sports C,867613624,Ian Dunhill,60,386517733,Ady Halley,28
+2023-01-30,22,2,Moulsecoomb Club B,Southwick Sports C,504949622,Jimmy Moseley,46,573567936,Steve Marriott,44
+2023-01-30,22,2,Moulsecoomb Club B,Southwick Sports C,207592931,(shorty) Gediminas Aleksandravicius,35,641692362,Bob Taylor,60
+2023-01-30,22,2,Moulsecoomb Club B,Southwick Sports C,463709832,Danny Wong,35,70159035,Peter Rea,58
+2023-01-30,22,2,Portslade Sports B,Portslade Legion,593038759,Graham Jones,61,845758589,Charlie James,17
+2023-01-30,22,2,Portslade Sports B,Portslade Legion,515177310,James Da Costa,56,229719541,Scott Manning,34
+2023-01-30,22,2,Portslade Sports B,Portslade Legion,974385564,Danny Booker,65,417786644,Eddie Collins,22
+2023-01-30,22,2,Portslade Sports B,Portslade Legion,327948141,Ross Etheridge,57,936624299,Peter Gallant,21
+2023-01-30,22,2,Southwick Sports B,Preston Club,804381932,Ryan Harman,50,146404254,Randall Griffiths,19
+2023-01-30,22,2,Southwick Sports B,Preston Club,216787426,Jack Perrin,41,805325520,Tom Ardley,13
+2023-01-30,22,2,Southwick Sports B,Preston Club,579164381,Danny Cattell,53,231445676,Tony Paice,58
+2023-01-30,22,2,Southwick Sports B,Preston Club,567624732,Dave Brampton,4,688778183,Dean Paice,58
+2023-01-30,22,2,Southwick Sports B,Preston Club,943667183,John Stone,20,670870044,David Flanagan,59
+2023-01-30,22,2,St. Matthias B,Portslade Sports A,124523642,Tom Hayes,12,670256222,Connor Anderson,62
+2023-01-30,22,2,St. Matthias B,Portslade Sports A,363684752,John Guzek,31,360777082,Mark Bishop,63
+2023-01-30,22,2,St. Matthias B,Portslade Sports A,427046178,Micky Sandall,43,567316488,Lee Millyard,57
+2023-01-30,22,2,St. Matthias B,Portslade Sports A,474047799,John Evans,63,412256116,Andy Sutton,15
+2023-01-30,22,2,St. Matthias B,Portslade Sports A,866506631,Mark Smith,40,835713833,Olly Stewart,49
+2023-01-23,22,2,Moulsecoomb Club A,Southwick Sports B,713064363,John Trory,40,216787426,Jack Perrin,59
+2023-01-23,22,2,Moulsecoomb Club A,Southwick Sports B,535728699,Fred Cooper,41,804381932,Ryan Harman,17
+2023-01-23,22,2,Moulsecoomb Club A,Southwick Sports B,529382351,Greg Foat,53,579164381,Danny Cattell,18
+2023-01-23,22,2,Moulsecoomb Club A,Southwick Sports B,831214643,Tony Shipley,41,943667183,John Stone,15
+2023-01-23,22,2,Moulsecoomb Club A,Southwick Sports B,724342701,Nigel Lilley,60,567624732,Dave Brampton,48
+2023-01-23,22,2,Portslade Legion,St. Matthias B,417786644,Eddie Collins,13,124523642,Tom Hayes,58
+2023-01-23,22,2,Portslade Legion,St. Matthias B,229719541,Scott Manning,60,398033519,Luke Ellis,7
+2023-01-23,22,2,Portslade Legion,St. Matthias B,599868559,Sam Germin,45,363684752,John Guzek,56
+2023-01-23,22,2,Portslade Legion,St. Matthias B,936624299,Peter Gallant,42,427046178,Micky Sandall,40
+2023-01-23,22,2,Preston Club,Champion House,670870044,David Flanagan,53,737709582,Tony Browne,44
+2023-01-23,22,2,Preston Club,Champion House,617252199,Jim Griffiths,53,719124015,Tony Power,52
+2023-01-23,22,2,Preston Club,Champion House,146404254,Randall Griffiths,57,39289507,Mick Laughlin,27
+2023-01-23,22,2,Preston Club,Champion House,805325520,Tom Ardley,55,114184042,Ian Smith,41
+2023-01-23,22,2,Preston Club,Champion House,688778183,Dean Paice,60,501266206,David Fox,21
+2023-01-23,22,2,Southwick Sports A,Moulsecoomb Club B,519169037,Steve Kerr,45,207592931,(shorty) Gediminas Aleksandravicius,59
+2023-01-23,22,2,Southwick Sports A,Moulsecoomb Club B,493830161,Luke Strevens,55,867613624,Ian Dunhill,60
+2023-01-23,22,2,Southwick Sports A,Moulsecoomb Club B,171346729,Des Heasman,52,995342186,Jim Smith,31
+2023-01-23,22,2,Southwick Sports A,Moulsecoomb Club B,971308746,Clive Harman,42,288891270,Lewis Copping,58
+2023-01-23,22,2,Southwick Sports C,Hove Deep Sea Anglers,641692362,Bob Taylor,67,326225304,Ian Raeburn,32
+2023-01-23,22,2,Southwick Sports C,Hove Deep Sea Anglers,386517733,Ady Halley,26,598117191,Jerome Fowler,35
+2023-01-23,22,2,Southwick Sports C,Hove Deep Sea Anglers,820231590,Alan Rook,19,732415457,Barry Hall,55
+2023-01-23,22,2,Southwick Sports C,Hove Deep Sea Anglers,70159035,Peter Rea,62,721321839,Matt Peake,23
+2023-01-23,22,2,Southwick Sports C,Hove Deep Sea Anglers,573567936,Steve Marriott,33,613893140,Matt Warner,45
+2023-01-16,22,2,Champion House,Moulsecoomb Club A,737709582,Tony Browne,63,535728699,Fred Cooper,9
+2023-01-16,22,2,Champion House,Moulsecoomb Club A,719124015,Tony Power,67,713064363,John Trory,39
+2023-01-16,22,2,Champion House,Moulsecoomb Club A,114184042,Ian Smith,60,831214643,Tony Shipley,32
+2023-01-16,22,2,Champion House,Moulsecoomb Club A,39289507,Mick Laughlin,49,724342701,Nigel Lilley,30
+2023-01-16,22,2,Champion House,Moulsecoomb Club A,501266206,David Fox,57,271464632,Paul Phillips,50
+2023-01-16,22,2,Hove Deep Sea Anglers,Southwick Sports A,326225304,Ian Raeburn,43,493830161,Luke Strevens,57
+2023-01-16,22,2,Hove Deep Sea Anglers,Southwick Sports A,732415457,Barry Hall,25,519169037,Steve Kerr,44
+2023-01-16,22,2,Hove Deep Sea Anglers,Southwick Sports A,598117191,Jerome Fowler,51,971308746,Clive Harman,13
+2023-01-16,22,2,Hove Deep Sea Anglers,Southwick Sports A,721321839,Matt Peake,33,171346729,Des Heasman,46
+2023-01-16,22,2,Hove Deep Sea Anglers,Southwick Sports A,613893140,Matt Warner,48,910809545,Blake Harman,16
+2023-01-16,22,2,Moulsecoomb Club B,Preston Club,504949622,Jimmy Moseley,29,146404254,Randall Griffiths,37
+2023-01-16,22,2,Moulsecoomb Club B,Preston Club,867613624,Ian Dunhill,50,617252199,Jim Griffiths,39
+2023-01-16,22,2,Moulsecoomb Club B,Preston Club,207592931,(shorty) Gediminas Aleksandravicius,44,688778183,Dean Paice,35
+2023-01-16,22,2,Moulsecoomb Club B,Preston Club,463709832,Danny Wong,19,670870044,David Flanagan,63
+2023-01-16,22,2,Moulsecoomb Club B,Preston Club,288891270,Lewis Copping,53,805325520,Tom Ardley,24
+2023-01-16,22,2,Portslade Sports A,Southwick Sports C,623613383,Chris Marsh,28,641692362,Bob Taylor,46
+2023-01-16,22,2,Portslade Sports A,Southwick Sports C,360777082,Mark Bishop,44,386517733,Ady Halley,19
+2023-01-16,22,2,Portslade Sports A,Southwick Sports C,835713833,Olly Stewart,41,820231590,Alan Rook,55
+2023-01-16,22,2,Portslade Sports A,Southwick Sports C,412256116,Andy Sutton,60,70159035,Peter Rea,34
+2023-01-16,22,2,Portslade Sports A,Southwick Sports C,567316488,Lee Millyard,42,573567936,Steve Marriott,14
+2023-01-16,22,2,Southwick Sports B,Portslade Sports B,579164381,Danny Cattell,22,974385564,Danny Booker,52
+2023-01-16,22,2,Southwick Sports B,Portslade Sports B,804381932,Ryan Harman,35,327948141,Ross Etheridge,57
+2023-01-16,22,2,Southwick Sports B,Portslade Sports B,216787426,Jack Perrin,44,593038759,Graham Jones,58
+2023-01-16,22,2,Southwick Sports B,Portslade Sports B,567624732,Dave Brampton,33,515177310,James Da Costa,70
+2023-01-16,22,2,Southwick Sports B,Portslade Sports B,943667183,John Stone,12,704007508,Alan Muir,54
+2023-01-09,22,2,Moulsecoomb Club A,Moulsecoomb Club B,535728699,Fred Cooper,57,995342186,Jim Smith,35
+2023-01-09,22,2,Moulsecoomb Club A,Moulsecoomb Club B,713064363,John Trory,41,287057630,Darren Hearn,36
+2023-01-09,22,2,Moulsecoomb Club A,Moulsecoomb Club B,529382351,Greg Foat,45,207592931,(shorty) Gediminas Aleksandravicius,53
+2023-01-09,22,2,Moulsecoomb Club A,Moulsecoomb Club B,831214643,Tony Shipley,61,867613624,Ian Dunhill,9
+2023-01-09,22,2,Moulsecoomb Club A,Moulsecoomb Club B,271464632,Paul Phillips,18,288891270,Lewis Copping,77
+2023-01-09,22,2,Portslade Legion,Southwick Sports B,229719541,Scott Manning,30,991443521,Adam Griffiths,61
+2023-01-09,22,2,Portslade Legion,Southwick Sports B,599868559,Sam Germin,24,579164381,Danny Cattell,64
+2023-01-09,22,2,Portslade Legion,Southwick Sports B,845758589,Charlie James,41,216787426,Jack Perrin,61
+2023-01-09,22,2,Portslade Legion,Southwick Sports B,417786644,Eddie Collins,11,804381932,Ryan Harman,52
+2023-01-09,22,2,Portslade Legion,Southwick Sports B,936624299,Peter Gallant,36,567624732,Dave Brampton,46
+2023-01-09,22,2,Portslade Sports B,Champion House,974385564,Danny Booker,63,737709582,Tony Browne,42
+2023-01-09,22,2,Portslade Sports B,Champion House,593038759,Graham Jones,47,858933444,James Tugwell,46
+2023-01-09,22,2,Portslade Sports B,Champion House,484159049,Tommy Wright,69,114184042,Ian Smith,27
+2023-01-09,22,2,Portslade Sports B,Champion House,515177310,James Da Costa,57,229965090,Paul Mylam,22
+2023-01-09,22,2,Portslade Sports B,Champion House,704007508,Alan Muir,47,719124015,Tony Power,22
+2023-01-09,22,2,Preston Club,Hove Deep Sea Anglers,146404254,Randall Griffiths,29,732415457,Barry Hall,69
+2023-01-09,22,2,Preston Club,Hove Deep Sea Anglers,617252199,Jim Griffiths,57,326225304,Ian Raeburn,22
+2023-01-09,22,2,Preston Club,Hove Deep Sea Anglers,805325520,Tom Ardley,29,721321839,Matt Peake,56
+2023-01-09,22,2,Preston Club,Hove Deep Sea Anglers,670870044,David Flanagan,59,613893140,Matt Warner,12
+2023-01-09,22,2,Southwick Sports A,Portslade Sports A,493830161,Luke Strevens,45,835713833,Olly Stewart,66
+2023-01-09,22,2,Southwick Sports A,Portslade Sports A,971308746,Clive Harman,22,567316488,Lee Millyard,54
+2023-01-09,22,2,Southwick Sports A,Portslade Sports A,630359340,John Stephens,15,360777082,Mark Bishop,58
+2023-01-09,22,2,Southwick Sports A,Portslade Sports A,519169037,Steve Kerr,47,623613383,Chris Marsh,28
+2023-01-09,22,2,Southwick Sports A,Portslade Sports A,910809545,Blake Harman,26,412256116,Andy Sutton,45
+2022-12-19,22,2,Moulsecoomb Club A,Hove Deep Sea Anglers,713064363,John Trory,4,732415457,Barry Hall,56
+2022-12-19,22,2,Moulsecoomb Club A,Hove Deep Sea Anglers,831214643,Tony Shipley,51,326225304,Ian Raeburn,19
+2022-12-19,22,2,Moulsecoomb Club A,Hove Deep Sea Anglers,529382351,Greg Foat,11,598117191,Jerome Fowler,54
+2022-12-19,22,2,Moulsecoomb Club A,Hove Deep Sea Anglers,271464632,Paul Phillips,37,613893140,Matt Warner,28
+2022-12-19,22,2,Moulsecoomb Club A,Hove Deep Sea Anglers,724342701,Nigel Lilley,53,319057545,Brendan Lambe,33
+2022-10-03,22,2,Portslade Legion,Portslade Sports B,417786644,Eddie Collins,2,974385564,Danny Booker,60
+2022-10-03,22,2,Portslade Legion,Portslade Sports B,936624299,Peter Gallant,17,484159049,Tommy Wright,54
+2022-10-03,22,2,Portslade Legion,Portslade Sports B,845758589,Charlie James,62,704007508,Alan Muir,27
+2022-10-03,22,2,Portslade Legion,Portslade Sports B,229719541,Scott Manning,57,593038759,Graham Jones,16
+2022-12-19,22,2,Preston Club,Portslade Sports A,146404254,Randall Griffiths,9,360777082,Mark Bishop,55
+2022-12-19,22,2,Preston Club,Portslade Sports A,617252199,Jim Griffiths,56,567316488,Lee Millyard,25
+2022-12-19,22,2,Preston Club,Portslade Sports A,805325520,Tom Ardley,27,835713833,Olly Stewart,48
+2022-12-19,22,2,Preston Club,Portslade Sports A,670870044,David Flanagan,63,412256116,Andy Sutton,41
+2022-12-19,22,2,Preston Club,Portslade Sports A,688778183,Dean Paice,74,623613383,Chris Marsh,38
