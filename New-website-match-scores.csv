@@ -1,4 +1,5 @@
 fixture_date,season,division,home_team,away_team,home_score,away_score,URLs
+2023-04-03,22,1,St. Matthias A,N.A.R.C A,3,3,http://brightonhovedistrictsnooker.leaguerepublic.com/match/32994007.html
 2023-03-27,22,1,Castle Club C,N.A.R.C A,2,4,http://brightonhovedistrictsnooker.leaguerepublic.com/match/32994005.html
 2023-03-27,22,1,St. Matthias D,St. Matthias C,1,5,http://brightonhovedistrictsnooker.leaguerepublic.com/match/32994008.html
 2023-03-20,22,1,N.A.R.C A,St. Matthias C,2,4,http://brightonhovedistrictsnooker.leaguerepublic.com/match/32994004.html
@@ -38,6 +39,12 @@ fixture_date,season,division,home_team,away_team,home_score,away_score,URLs
 2022-10-03,22,1,St. Matthias C,N.A.R.C A,3,3,http://brightonhovedistrictsnooker.leaguerepublic.com/match/32993959.html
 2022-09-26,22,1,Castle Club C,St. Matthias C,2,4,http://brightonhovedistrictsnooker.leaguerepublic.com/match/32993955.html
 2022-09-26,22,1,St. Matthias A,St. Matthias D,5,1,http://brightonhovedistrictsnooker.leaguerepublic.com/match/32993956.html
+2023-05-06,22,2,Preston Club,Moulsecoomb Club B,2,3,http://brightonhovedistrictsnooker.leaguerepublic.com/match/32994020.html
+2023-04-03,22,2,Champion House,Portslade Legion,3,2,http://brightonhovedistrictsnooker.leaguerepublic.com/match/32994165.html
+2023-04-03,22,2,Hove Deep Sea Anglers,Moulsecoomb Club A,2,3,http://brightonhovedistrictsnooker.leaguerepublic.com/match/32994163.html
+2023-04-03,22,2,Moulsecoomb Club B,Portslade Sports B,4,1,http://brightonhovedistrictsnooker.leaguerepublic.com/match/32994164.html
+2023-04-03,22,2,Portslade Sports A,Preston Club,2,3,http://brightonhovedistrictsnooker.leaguerepublic.com/match/32994162.html
+2023-04-03,22,2,Southwick Sports C,St. Matthias B,3,2,http://brightonhovedistrictsnooker.leaguerepublic.com/match/32994166.html
 2023-03-27,22,2,Moulsecoomb Club A,Portslade Sports A,0,5,http://brightonhovedistrictsnooker.leaguerepublic.com/match/32994158.html
 2023-03-27,22,2,Portslade Legion,Moulsecoomb Club B,3,2,http://brightonhovedistrictsnooker.leaguerepublic.com/match/32994156.html
 2023-03-27,22,2,Portslade Sports B,Hove Deep Sea Anglers,2,3,http://brightonhovedistrictsnooker.leaguerepublic.com/match/32994157.html
