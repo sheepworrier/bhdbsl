@@ -73,6 +73,9 @@ frame_scores_total <- rbind(frame_scores_old, frame_scores_new)
 frame_scores_total <- frame_scores_total %>%
   filter(home_player_id != "" & away_player_id != "")
 
+# Close Selenium session opened in common functions
+remDr$close()
+
 # Write the results to a CSV file for use in the ELO ranking
 write_csv(frame_scores_total, "New-website-frame-scores.csv")
 write_csv(results_new, "New-website-match-scores.csv")

@@ -2,10 +2,21 @@ library(rvest)
 library(httr)
 library(tidyverse)
 library(purrr)
+library(RSelenium)
+
+# Open a selenium session
+remDr <- remoteDriver(
+  remoteServerAddr = "localhost",
+  port = 4445L,
+  browserName = "firefox"
+)
+remDr$open()
 
 get_season_division_results <- function(season, division, url, sport) {
   # Create session
-  session <- read_html(url)
+  remDr$navigate(url)
+  session <- remDr$getPageSource()[[1]] %>%
+    read_html()
   # Read in the number of results pages
   num_pages_nodes <- session %>%
     html_nodes("#hide-container .flex a")
@@ -38,8 +49,10 @@ get_single_results_page <- function(base_url, season, division, page_number,
               "and season", season))
   # Contruct URL for the results page number in question
   results_page_url <- paste0(base_url, "/", page_number, ".html")
-  # Create polite session
-  session <- read_html(results_page_url)
+  # Create session
+  remDr$navigate(results_page_url)
+  session <- remDr$getPageSource()[[1]] %>%
+    read_html()
   # Use rvest to extract the table of up to 20 results into a dataframe
   results_table <- session %>%
     html_nodes("table") %>%
@@ -123,8 +136,10 @@ get_single_results_page <- function(base_url, season, division, page_number,
 scrape_match_page <-
   function(fixture_date, season, division, home_team, away_team, url) {
     print(paste("Scraping", url))
-    # Create polite session
-    session <- read_html(url)
+    # Create session
+    remDr$navigate(url)
+    session <- remDr$getPageSource()[[1]] %>%
+      read_html()
     # Look for the table of frame scores which may or may not exist
     potential_frame_table <- session %>%
       html_nodes(".spacer-bottom table")

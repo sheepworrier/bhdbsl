@@ -1,3 +1,5 @@
+# Run this first in the terminal
+# sudo docker run -d -p 4445:4444 selenium/standalone-firefox:2.53.1
 source("common-functions.R")
 library(assertthat)
 current_season <- 22
@@ -88,6 +90,9 @@ assert_that(all.equal(summed_frame_scores, new_results_to_check),
 frame_scores_total <- rbind(frame_scores_old, frame_scores_new)
 frame_scores_total <- frame_scores_total %>%
   filter(home_player_id != "" & away_player_id != "")
+
+# Close Selenium session opened in common functions
+remDr$close()
 
 # Write the results to a CSV file for use in the ELO ranking
 write_csv(frame_scores_total, "Billiards-frame-scores.csv")
