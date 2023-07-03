@@ -51,7 +51,9 @@ Honorary Treasurer and Honorary Auditor shall be elected at each Annual General 
 ## 8. REGISTRATION OF PLAYERS:
 
 1. Players must be registered at least one clear day before taking part in any League match.  Further registrations may be accepted throughout the season subject to the Management Committee's approval.
-1. Each registered player shall pay the following fees: - £15.00 inclusive - Billiards and Snooker - payable within 30 days of the start of the season. Any subsequent registrations will only be accepted with the fee. Failure to pay will result in Rule 9.7 being instantly applied on the 5th week of the new season. No professional player can be registered with the League.  Registrations are the responsibility of the individual Team Captains and not the Clubs.  No warnings will be given. Cheques to be payable to Brighton, Hove and District Billiard and Snooker League.
+1. Each registered player shall pay the following fees: - £15.00 inclusive - Billiards and Snooker - payable within 30 days of the start of the season. Any subsequent registrations will only be accepted with the full fee in the first half of the season, or £7.50 in the second half of the season. Failure to pay will result in Rule 9.7 being instantly applied on the 5th week of the new season. No professional player can be registered with the League.  Registrations are the responsibility of the individual Team Captains and not the Clubs.  No warnings will be given. Cheques to be payable to Brighton, Hove and District Billiard and Snooker League.
+1. Players who only wish to register to play in individual / pairs competitions and not play in a league team may register for the reduced fee of £5.00.
+1. Players aged under 18 may register for a league team or individual / pairs competitions for no fee.
 1. Billiard players must be registered at least one clear day before taking part in any league match.
 1. The list of registered players must be shown in the room where play takes place. Home team to nominate their player first before the start of each frame.
 1. Any player playing six games for a higher team during the season shall automatically become registered in that team. It is not permissible to play for another team if in the same Division.
@@ -68,7 +70,7 @@ Honorary Treasurer and Honorary Auditor shall be elected at each Annual General 
 1. Individual competition games shall be arranged by home players with visiting players within time allotted for Home advantage as per the Competition. Sheet. Should the home player fail to notify his opponent within that time, the opponent shall be entitled to play the game at his own club. In all cases at least two dates must be offered.
 1. PENALTIES: refer to **COMPETITION RULES**
 1. DRESS: For Semi-Finals, Finals, Inter-League and Representative Games, the wearing of Denims Jeans, with studs around the pockets, T-shirts, trainers or tracksuits are not allowed. The preferred form of dress is white collared shirt, dark trousers and shoes. All wishes of individual Clubs for League nights must be observed by all players at all times. Rule must apply to Home and Away Team. Offenders will forfeit their frames or individual match.
-1. For playing an unregistered player 10 points will be deducted, plus loss of all points earned by the unregistered player.
+1. For playing an unregistered player 2 points will be deducted, plus loss of all points earned by the unregistered player.  A further 8 points will be deducted if the unregistered player is not paid for within 7 days of playing their first match.
 
 ## 10. RESULTS:
 
@@ -101,7 +103,8 @@ All protests must be forwarded to the League Secretary in writing within 21 days
    1. Only 2 1/16" crystallite or amarith balls are to be used in League matches.
    1. For Billiard matches the use of White, Red and Spot White set of balls - the use of White, Red and Yellow set of balls can be used or Red and Multi spotted White and Yellow Balls can be used as agreed by the WPBSA Rules
 
-1. Monday night Snooker matches should start at 7.00pm. If a player is not in attendance to start play at 7.00pm, 10 minutes grace will be allowed. If after 10 minutes there is no player in attendance to start play, the opposing team is entitled to claim that frame.  Following frames will be scheduled to start every half hour after. If no players are in attendance to start play at these times, 10 minutes grace will be allowed. If no players are in attendance, the following frame(s) may be claimed. In the case of Billiards, the players must be ready at the start of the next game. Deadline for last player to be ready to play- 9.10pm for Snooker and 9.25pm for Billiards. A game can only be claimed if the claiming player is in attendance. If a player chooses to forego playing for strategic purposes and the 10 minute grace period elapses, the opposition are entitled to claim that game (unless by mutual agreement of the Captains).
+1. Monday night Snooker matches should start at 7.00pm. If a player is not in attendance to start play at 7.00pm, 10 minutes grace will be allowed. If after 10 minutes there is no player in attendance to start play, the opposing team is entitled to claim that frame.  Following frames will be scheduled to start every half hour after. If no players are in attendance to start play at these times, 10 minutes grace will be allowed. If no players are in attendance, the following frame(s) may be claimed. In the case of Billiards, the players must be ready at the start of the next game. Deadline for last player to be ready to play- 9.10pm for Snooker and 9.25pm for Billiards. A game can only be claimed if the claiming player is in attendance. If a player chooses to forego playing for strategic purposes and the 10 minute grace period elapses, the opposition are entitled to claim that game (unless by mutual agreement of the Captains).  If a team does not show up for their match and do  not notify their opponent they will receive a warning for the first offence and a 2-point points deduction for every subsequent occasion in the same season.
+
 1. Billiards
     1. Teams will be made up of 3 players
     1. All players will have been given individual handicaps and will start their match from that handicap score. The winner will be the first player to reach 200 pts.(Handicaps will be reviewed by the Billiards Committee periodically).
@@ -111,11 +114,13 @@ All protests must be forwarded to the League Secretary in writing within 21 days
 1. All trophies shall remain the property of the League, and may be held by winners only at the discretion of the Management Committee, and shall be returned when requested by the League Secretary. Failure to adhere to this rule carries a £10 penalty, and could affect future registrations with this League. Individual winners are responsible for the safekeeping and insurance of League trophies during the ensuing year. Clubs are responsible for the safekeeping and insurance of team trophies. Trophies not collected at the Presentation by the winner(s) or a representative will be forfeited.
 1. No player may play more than one League match on any one evening.
 
-## 13. The Management Committee have the authority to resolve any circumstances, which are not adequately covered by the foregoing rules. The Management Committee may impose penalties where they consider these appropriate. The decision of the Management Committee is final.
+## 13. The Management Committee have the authority to resolve any circumstances, which are not adequately covered by the foregoing rules. The Management Committee may impose penalties where they consider these appropriate. The decision of the Management Committee is final.  If this is not practical, e.g. a strict time constraint then this can be resolved by UNANIMOUS approval of all remaining participants in the affected league, division or competition at the discretion of the league / competition secretary.
 
-## 14. The League's financial year starts 16th June and ends 15th June annually.
+## 14. Abusive behaviour.  Abuse in person or online will not be tolerated.  If a complaint is made to the management committee and upheld then (depending on the seriousness of the offence) the offending player may receive a warning or suspension for the first offence with suspensions to follow for subsequent offences.  The length of any suspension will be decided by the management committee.
 
-## 15. Websites
+## 15. The League's financial year starts 16th June and ends 15th June annually.
+
+## 16. Websites
 The BHDBSL Websites are to assist in running, displaying and advertising all BHDBSL matters including League matches, Competitions, up to date results and statistics.  The Website can be updated by the following people.
 1. An elected Team Administrator - can log into the Website and upload frame scores, points scored and any break over 25 for snooker / over 30 for billiards. (contact the Website administrator to set yourself up as "Team Administrator”.
 1. *Divisional Administrator (One elected member for each Division) - will upload any results passed to him by teams with no “team Administrator”.
@@ -126,7 +131,7 @@ are not able to upload their own result.
 1. * The Website Administrator - will make general changes and updates, keeping the website up to date with fixtures for League matches and Competition Draws.
 * Contact details for these people are available on the Website under the "Contacts” tab.
 
-## 16. Premier Division format
+## 17. Premier Division format
 
 For the Premier Division, teams are to be made up of a minimum of 5 players, so as to allow entry to the Endeavour Team Cup Competition (see Competition Rules). On league match night, a minimum of 3 and maximum of 6 players from each team will play in any one match. A single player can play 2 frames but not consecutively – unless by prior agreement of the team Captains. Any single player may play every week however may not play 2 frames for every week of the league season. To avoid 3 player teams dominating the season, the permitted number of frames for each player shall not exceed ¾ (three quarters) of the maximum number of frames available in a league season (penalty for exceeding allowed number of frames will be the played frame forfeited).  Frames awarded to a player by virtue of having no opponent shall not count towards this limit.
 
@@ -141,19 +146,21 @@ On completion of the match it will be the winning player's/teams responsibility 
 ## COMPETITION RULES
 
 All Competitions are a free entry to all registered players wherever applicable.
-Where times are agreed, or stated to start, 10 minutes will be allowed. Failure to start, one (1) frame will be forfeited, and a further frame every 20 minutes. For handicap games, after 10 minutes, 50 points will be added to the opponent's score, after 20 minutes a further 50 points will be added. Billiards. As per handicap games.
+Where times are agreed, or stated to start, 10 minutes will be allowed. After this point the late snooker player / pair / team will forefeit one frame for every full 10 minutes they are late.  The equivalent for billiards will be losing 20 points for every full 10 minutes they are late.
 
 ### The Endeavour Team Cup (Handicap)
 
 There will be five players per side, each playing a single frame. Players may only be those registered with the League for that team. The match winners will be those winning most frames i.e. best of five. All players names must be entered on the match card before commencement of the first frame, and played in that order unless changed by mutual agreement of the Captains.
+Optionally, a player may be declared as a standby player at the start of the match who can sub in for a player who was written down on the match card in exceptional circumstances with no change to the other drawn match-ups.
 
 ### The De-Costa Cup (Snooker Handicap)
 
 Handicaps will be decided by the Management Handicapping Committee prior to the start of the Competition and will remain in force for the whole competition.  The competition will be played over the best of three frames up to and inlcuding the semi-final.  The final will be the best of five frames.  The handicap will be on a per frame basis (subject to a maximum of 75).
 
-### The Division 1-3. The Over 50's, Under 25's, Over 70's Championships.
+### The Division 1-3. The Under 18s, Under 50s, and Over 50's Championships.
 
 Will be decided by the best of three frames with the final being played over the best of five frames. The title of "Division 1-3” can be amended dependant on the number of Divisions in the League. In the Age related competitions the players must be under 25, 50 or over and 70 or over on the date of the of the entry closing date.  The Division 1-3 and the Over 50's are handicap competitions; the handicaps being on a per frame basis (subject to a maximum of 75).
+The Division 1-3 competition will be open to any player not registered to a Premier Division snooker team in the current season, nor the previous season (unless the team they were registered with were relegated).
 
 ### The Snooker Pairs Handicap
 
