@@ -52,5 +52,10 @@ overall_list <- current_season_snooker_players %>%
               anti_join(billiards_and_snooker_players,
                         by = c("player_id" = "player_id.billiards")) %>%
               select(player_name, billiards_team = team,
-                     billiards_frames_played = matches_played))
+                     billiards_frames_played = matches_played)) %>%
+  mutate(total_frames_played = if_else(is.na(billiards_frames_played), 0,
+                                       billiards_frames_played) +
+           if_else(is.na(snooker_frames_played), 0,
+                   snooker_frames_played)) %>%
+  arrange(desc(total_frames_played))
 write_csv(overall_list, "all players current season.csv")
