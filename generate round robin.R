@@ -1,13 +1,43 @@
 library(TouRnament)
 library(dplyr)
 library(readr)
-# List of Premier Division teams.  Pretend there are 8 teams to spread out the
-# fixtures with some BYEs and more closely align with Div 1
-prem_teams <- c("St. Matthias A", "St. Matthias C", "St. Matthias D",
-                "Castle Club C", "Castle Club G", "N.A.R.C A", "BYE 1", "BYE 2")
-# Generate an 8-team single round robin
-prem_fixtures <-
-  roundrobin(prem_teams, randomize = FALSE, second_round = FALSE, seed = 1234)
+library(tidyr)
+library(purrr)
+
+# Create a UDF to generate fixtures for any reasonable number of teams
+generate_abstract_divisions <- function(num_teams) {
+  # List of abstract lettered teams
+  teams <- letters[1:num_teams]
+  # Generate an 8-team single round robin
+  fixtures <-
+    roundrobin(teams, randomize = FALSE, second_round = FALSE, seed = 1234)
+  # Cross-tab view
+  fixtures %>%
+    rename(Team = Home) %>%
+    mutate(Location = "Home") %>%
+    select(Matchday, Team, Location) %>%
+    bind_rows(fixtures %>%
+                rename(Team = Away) %>%
+                mutate(Location = "Away") %>%
+                select(Matchday, Team, Location)) %>%
+    pivot_wider(names_from = Matchday, values_from = Location) %>%
+    arrange(Team) %>%
+    write_csv(paste0(num_teams, "-team-grid.csv"))
+  # Fixtures view
+  fixtures %>%
+    write_csv(paste0(num_teams, "-team-fixtures.csv"))  
+}
+# Run the above for 8, 10 and 12
+walk(c(8, 10, 12), generate_abstract_divisions)
+
+# Assign the lettered teams to actual entered teams
+
+# Specify how many rounds of fixtures in the season
+num_rounds <- 2
+# Assign dates to the matchdays
+
+# Create output for uploading to LR using short codes
+
 # List of Div 1 teams
 div1_teams <-
   c("St. Matthias B", "N.A.R.C B", "Portslade Legion", "Portslade Sports A",
