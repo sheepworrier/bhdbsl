@@ -96,7 +96,37 @@ frame_scores_total <- frame_scores_total %>%
 # Close Selenium session opened in common functions
 remDr$close()
 
+# Create a new output for Looker Studio
+looker_output <- frame_scores_total %>%
+  select(fixture_date, season, player_name = home_player_name,
+         player_id = home_player_id, player_handicap = home_player_handicap,
+         player_score = home_score, player_sp = home_player_sp,
+         opponent_name = away_player_name,
+         opponent_handicap = away_player_handicap, opponent_score = away_score,
+         opponent_sp = away_player_sp) %>%
+  bind_rows(frame_scores_total %>%
+              select(fixture_date, season, player_name = away_player_name,
+                     player_id = away_player_id,
+                     player_handicap = away_player_handicap,
+                     player_score = away_score, player_sp = away_player_sp,
+                     opponent_name = home_player_name,
+                     opponent_handicap = home_player_handicap,
+                     opponent_score = home_score,
+                     opponent_sp = home_player_sp)) %>%
+  arrange(player_id, fixture_date) %>%
+  filter(!is.na(player_handicap)) %>%
+  # group_by(player_id) %>%
+  mutate(one = 1,
+         handicap_period = cumsum(player_id != lag(player_id, default = 0) |
+                             player_handicap != lag(player_handicap, default = 200))) %>%
+  group_by(handicap_period) %>%
+  mutate(avg_points_scored_in_period = cumsum(player_score) / cumsum(one)) %>%
+  ungroup() %>%
+  select(-one, -handicap_period)
+
 # Write the results to a CSV file for use in the ELO ranking
 write_csv(frame_scores_total, "Billiards-frame-scores.csv")
 write_csv(results_new, "Billiards-match-scores.csv")
 write_csv(breaks_new, "Billiards-breaks.csv", append = TRUE)
+write_csv(looker_output,
+          "Google Data Studio Outputs/Billiards-player-frame-scores.csv")
