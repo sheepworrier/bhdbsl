@@ -39,7 +39,8 @@ new_results_to_check <- results_new %>%
   select(fixture_date, season, division, home_team, away_team,
          home_score = home_op, away_score = away_op, url)
 new_results_to_scrape <- new_results_to_check %>%
-  select(-c(home_score, away_score))
+  select(-c(home_score, away_score)) %>%
+  mutate(sport = "Billiards")
 new_results_to_check <- new_results_to_check %>%
   select(-c(season, division, url)) %>%
   arrange(fixture_date, home_team, away_team)
@@ -62,7 +63,8 @@ old_results_to_scrape <- results_old %>%
   anti_join(frame_scores_old, by = c("fixture_date", "season", "division",
                                      "home_team", "away_team")) %>%
   filter(season == current_season) %>%
-  select(fixture_date, season, division, home_team, away_team, url)
+  select(fixture_date, season, division, home_team, away_team, url) %>%
+  mutate(sport = "Billiards")
 # Create an empty dataframe
 breaks_new = data.frame(fixture_date = as.Date(character()),
                     season = numeric(),

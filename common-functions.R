@@ -3,6 +3,7 @@ library(httr)
 library(tidyverse)
 library(purrr)
 library(RSelenium)
+library(stringr)
 
 # Open a selenium session
 remDr <- remoteDriver(
@@ -134,7 +135,8 @@ get_single_results_page <- function(base_url, season, division, page_number,
 }
 
 scrape_match_page <-
-  function(fixture_date, season, division, home_team, away_team, url) {
+  function(fixture_date, season, division, home_team, away_team, url,
+           sport = "Snooker") {
     print(paste("Scraping", url))
     # Create session
     remDr$navigate(url)
@@ -177,6 +179,37 @@ scrape_match_page <-
                    stringsAsFactors = FALSE)
       frame_scores$fixture_date <-
         as.Date(frame_scores$fixture_date, origin = "1970-01-01")
+      # For Billiards look at the subsequent tables on scoring points to get the
+      # handicaps used for this match
+      if (sport == "Billiards") {
+        # Scrape the 2-3 stats tables at the bottom of the match page
+        stats_tables <- session %>%
+          html_nodes(".table-scroll table")
+        # Turn the 1st scoring points table into a dataframe
+        sp_home_table <- stats_tables %>%
+          .[[2]] %>%
+          html_table(fill=TRUE) %>%
+          mutate(home_player_name = str_extract(Player, "[^\\[]+") %>%
+                   trimws("right"),
+                 home_player_handicap =
+                   str_match(Player, "\\[(-?\\d+)\\]")[,2] %>%
+                   as.numeric()) %>%
+          select(home_player_name, home_player_handicap, home_player_sp = SPF)
+        # Turn the 2nd scoring points table into a dataframe
+        sp_away_table <- stats_tables %>%
+          .[[3]] %>%
+          html_table(fill=TRUE) %>%
+          mutate(away_player_name = str_extract(Player, "[^\\[]+") %>%
+                   trimws("right"),
+                 away_player_handicap =
+                   str_match(Player, "\\[(-?\\d+)\\]")[,2] %>%
+                   as.numeric()) %>%
+          select(away_player_name, away_player_handicap, away_player_sp = SPF)
+        # Combine into the main frame scores table
+        frame_scores <- frame_scores %>%
+          left_join(sp_home_table) %>%
+          left_join(sp_away_table)
+      }
     } else {
       frame_scores <-
         data.frame(fixture_date = as.Date(character()),
@@ -230,6 +263,9 @@ scrape_match_page <-
         }
       }
     }
+    sleep_time <- rnorm(1, 6, 2) %>% round()
+    print(paste("Sleeping for", sleep_time, "seconds"))
+    Sys.sleep(sleep_time)
     frame_scores
   }
 
