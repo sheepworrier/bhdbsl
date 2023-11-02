@@ -30,7 +30,7 @@ The League shall be governed between one AGM and the next, by a Management Commi
 
 ## 5. OFFICERS:
 
-President, Chairman, Vice-Chairman, Honorary Secretary, Hon. Inter Town Cup Secretaries,
+President, Chairman, Vice-Chairman, Honorary Secretaries, Hon. Inter Town Cup Secretaries, Junior Development Officer,
 Honorary Treasurer and Honorary Auditor shall be elected at each Annual General Meeting Vice-Presidents to be elected at the discretion of the Management Committee.
 
 ## 6. ANNUAL GENERAL MEETING:
@@ -131,9 +131,13 @@ are not able to upload their own result.
 1. * The Website Administrator - will make general changes and updates, keeping the website up to date with fixtures for League matches and Competition Draws.
 * Contact details for these people are available on the Website under the "Contacts” tab.
 
-## 17. Premier Division format
+## 17. Premier Division (snooker) format
 
-For the Premier Division, teams are to be made up of a minimum of 5 players, so as to allow entry to the Endeavour Team Cup Competition (see Competition Rules). On league match night, a minimum of 3 and maximum of 6 players from each team will play in any one match. A single player can play 2 frames but not consecutively – unless by prior agreement of the team Captains. Any single player may play every week however may not play 2 frames for every week of the league season. To avoid 3 player teams dominating the season, the permitted number of frames for each player shall not exceed ¾ (three quarters) of the maximum number of frames available in a league season (penalty for exceeding allowed number of frames will be the played frame forfeited).  Frames awarded to a player by virtue of having no opponent shall not count towards this limit.
+For the Premier Division, teams are to be made up of a minimum of 5 players, so as to allow entry to the Endeavour Team Cup Competition (see Competition Rules). On league match night, a minimum of 3 and maximum of 6 players from each team will play in any one match. **Each player** can play 2 frames but not consecutively – unless by prior agreement of the team Captains.
+
+## 18. Division 1 (snooker) format
+
+For Division 1, teams are to be made up of a minimum of 5 players, so as to allow entry to the Endeavour Team Cup Competition (see Competition Rules). On league match night, a minimum of 4 and maximum of 5 players from each team will play in any one match. In exceptional circumstances and by prior agreeement of both captains **a single player** can play 2 frames but not consecutively – unless by prior agreement of the team Captains.
 
 ## ANNUAL COMPETITION RULES
 
@@ -170,6 +174,10 @@ Handicaps will be decided by the Management Handicapping Committee prior to the 
 
 This competition is open to all registered players. The competition will be played over the best of five frames up to and including the semi-final. The final will be over seven frames.
 
+### The Snooker Ladies Competition
+
+This competition is open to all female players.  There is no entry fee for this competition, but if the player plays in one of the league teams the usual registration feed in section 8 apply.
+
 ### The Billiards Open Championship
 
 The competition is open to all registered players. The competition will be played up to 200 points per match during the earlier rounds. The semi-finals to be played up to 300 The final will be played up to 400 points.
@@ -180,7 +188,7 @@ Handicaps for this event will be decided by the Management Handicapping Committe
 
 ### The Bill Ashdown Memorial Trophy - Billiard Team Handicap
 
-There will be three players per side, the same as a normal league match. Players may only be those registered with the league for that team. Players will play off the same Handicap as that which they play in the League. Each game shall be played over a 50 minute time limit and whichever player has the highest score after 50 minutes will be awarded a 1 point win for their team. In the event of a tie, 5 minutes extra time will be played. Overall points and pts. Won must both be recorded on the card
+There will be three players per side, the same as a normal league match. Players may only be those registered with the league for that team. Players will play off the an adjusted Handicap from that which they play in the League.  Players with a handicap below zero are unchanged; players with a handicap above zero have their handicap adjusted upwards by 20%. Each game shall be played over a 60 minute time limit and whichever player has the highest score after 60 minutes will be awarded a 1 point win for their team. In the event of a tie, 5 minutes extra time will be played. Overall points and pts. Won must both be recorded on the card
  
 The Finals of the League Competitions will be held at a venue and on a date to be decided by the Management Committee. Referees will be provided for these matches and the presentation of all League trophies will normally follow the completion of these matches.
 No Player shall proceed with the Semi-final stage of a Competition, if at the date of the Semi-final, he or they know they are not available to play on the Final Date, which is printed in the handbook.
