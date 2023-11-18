@@ -125,7 +125,7 @@ players <- summary2 %>%
   distinct(player_id, player_name) %>%
   mutate(join_condition = 1)
 player_seasons <- players %>%
-  inner_join(seasons, by = "join_condition") %>%
+  inner_join(seasons, by = "join_condition", relationship = "many-to-many") %>%
   select(player_id, player_name, season)
 player_seasons_majority <- player_seasons %>%
   left_join(summary2, by = c("player_id", "player_name", "season")) %>%
