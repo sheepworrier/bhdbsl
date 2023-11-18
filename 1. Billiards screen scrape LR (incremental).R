@@ -2,7 +2,7 @@
 # sudo docker run -d -p 4445:4444 selenium/standalone-firefox:2.53.1
 source("common-functions.R")
 library(assertthat)
-current_season <- 22
+current_season <- 23
 # Import the reference data containing the results URLs per season per division
 # Only needs updating when a new season is added
 ref_data <- read_csv("Billiards-Results-pages-per-season.csv") %>%
@@ -115,9 +115,8 @@ looker_output <- frame_scores_total %>%
                      opponent_sp = home_player_sp)) %>%
   arrange(player_id, fixture_date) %>%
   filter(!is.na(player_handicap)) %>%
-  # group_by(player_id) %>%
   mutate(one = 1,
-         handicap_period = cumsum(player_id != lag(player_id, default = 0) |
+         handicap_period = cumsum(player_id != lag(player_id, default = "") |
                              player_handicap != lag(player_handicap, default = 200))) %>%
   group_by(handicap_period) %>%
   mutate(avg_points_scored_in_period = cumsum(player_score) / cumsum(one)) %>%
