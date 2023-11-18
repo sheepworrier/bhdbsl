@@ -264,6 +264,7 @@ scrape_match_page <-
       }
     }
     sleep_time <- rnorm(1, 6, 2) %>% round()
+    if(sleep_time < 2) { sleep_time <- 5}
     print(paste("Sleeping for", sleep_time, "seconds"))
     Sys.sleep(sleep_time)
     frame_scores
