@@ -103,7 +103,8 @@ looker_output <- frame_scores_total %>%
          player_score = home_score, player_sp = home_player_sp,
          opponent_name = away_player_name,
          opponent_handicap = away_player_handicap, opponent_score = away_score,
-         opponent_sp = away_player_sp) %>%
+         opponent_sp = away_player_sp, player_team = home_team,
+         opponent_team = away_team) %>%
   bind_rows(frame_scores_total %>%
               select(fixture_date, season, player_name = away_player_name,
                      player_id = away_player_id,
@@ -111,8 +112,8 @@ looker_output <- frame_scores_total %>%
                      player_score = away_score, player_sp = away_player_sp,
                      opponent_name = home_player_name,
                      opponent_handicap = home_player_handicap,
-                     opponent_score = home_score,
-                     opponent_sp = home_player_sp)) %>%
+                     opponent_score = home_score, opponent_sp = home_player_sp,
+                     player_team = away_team, opoonent_team = home_team)) %>%
   arrange(player_id, fixture_date) %>%
   filter(!is.na(player_handicap)) %>%
   mutate(one = 1,
@@ -121,7 +122,10 @@ looker_output <- frame_scores_total %>%
   group_by(handicap_period) %>%
   mutate(avg_points_scored_in_period = cumsum(player_score) / cumsum(one)) %>%
   ungroup() %>%
-  select(-one, -handicap_period)
+  mutate(latest_fixture = max(fixture_date), .by = player_id) %>%
+  mutate(`Latest Match` = if_else(fixture_date == latest_fixture,
+                                  "TRUE", "")) %>%
+  select(-one, -handicap_period, -latest_fixture)
 
 # Write the results to a CSV file for use in the ELO ranking
 write_csv(frame_scores_total, "Billiards-frame-scores.csv")
