@@ -1068,3 +1068,57 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2023-09-13,23,1,St. Matthias B,Moulsecoomb A,104406518,Terry Bashford,200,176460812,Robin Powell,182,110,5,100,4
 2023-09-13,23,1,St. Matthias B,Moulsecoomb A,271881781,Lester Grice,190,514286758,Stacy Smith,200,60,4,100,5
 2023-09-13,23,1,St. Matthias B,Moulsecoomb A,51829191,Nigel Stilwell,200,564133408,Paul Phillips,175,-25,5,100,3
+2024-03-06,23,1,St. Matthias B,St. Matthias A,51829191,Nigel Stilwell,200,564133408,Paul Phillips,155,-25,5,100,2
+2024-03-06,23,1,St. Matthias B,St. Matthias A,271881781,Lester Grice,124,983276809,David Gillingham,200,60,2,-70,5
+2024-03-06,23,1,St. Matthias B,St. Matthias A,104406518,Terry Bashford,177,673468954,Micky Sandall,200,110,3,90,5
+2024-02-28,23,1,Moulsecoomb B,St. Matthias B,546240999,Trevor Cain,200,856864967,Mark Lawson,114,90,5,60,1
+2024-02-28,23,1,Moulsecoomb B,St. Matthias B,104037073,Mike Palmer,198,104406518,Terry Bashford,200,100,4,110,5
+2024-02-28,23,1,Moulsecoomb B,St. Matthias B,532826446,Tony Shipley,200,271881781,Lester Grice,187,70,5,60,4
+2024-02-28,23,1,St. Matthias A,Moulsecoomb A,983276809,David Gillingham,200,514286758,Stacy Smith,166,-70,5,100,3
+2024-02-28,23,1,St. Matthias A,Moulsecoomb A,673468954,Micky Sandall,200,423539197,Nigel Lilley,185,90,5,120,4
+2024-02-28,23,1,St. Matthias A,Moulsecoomb A,561705160,Pav Sareen,200,176460812,Robin Powell,185,10,5,110,4
+2024-02-21,23,1,Moulsecoomb B,St. Matthias A,138786345,Barry Thornton,188,392836520,Pip Akehurst,200,100,4,60,5
+2024-02-21,23,1,Moulsecoomb B,St. Matthias A,104037073,Mike Palmer,187,109334367,Lee Morley,200,100,4,50,5
+2024-02-21,23,1,Moulsecoomb B,St. Matthias A,532826446,Tony Shipley,200,561705160,Pav Sareen,189,70,5,10,4
+2024-02-21,23,1,St. Matthias B,Hassocks A,271881781,Lester Grice,140,127285371,Stuart Williamson,200,60,2,-10,5
+2024-02-21,23,1,St. Matthias B,Hassocks A,104406518,Terry Bashford,193,283685400,Barry Martin,200,110,4,-20,5
+2024-02-21,23,1,St. Matthias B,Hassocks A,992886832,Matthew Dumbleton,176,792784781,James Dew,200,70,4,-45,5
+2024-02-14,23,1,Hassocks A,Moulsecoomb B,455660500,Vince Elphick,180,138786345,Barry Thornton,200,30,4,100,5
+2024-02-14,23,1,Hassocks A,Moulsecoomb B,792784781,James Dew,200,104037073,Mike Palmer,173,-45,5,100,3
+2024-02-14,23,1,Hassocks A,Moulsecoomb B,127285371,Stuart Williamson,200,546240999,Trevor Cain,131,-10,5,90,1
+2024-02-07,23,1,St. Matthias A,St. Matthias B,109334367,Lee Morley,158,51829191,Nigel Stilwell,200,50,3,-25,5
+2024-02-07,23,1,St. Matthias A,St. Matthias B,392836520,Pip Akehurst,200,856864967,Mark Lawson,183,60,5,60,4
+2024-02-07,23,1,St. Matthias A,St. Matthias B,673468954,Micky Sandall,200,271881781,Lester Grice,167,90,5,60,3
+2024-01-31,23,1,Moulsecoomb A,St. Matthias B,514286758,Stacy Smith,191,271881781,Lester Grice,200,100,4,60,5
+2024-01-31,23,1,Moulsecoomb A,St. Matthias B,423539197,Nigel Lilley,152,104406518,Terry Bashford,200,120,2,110,5
+2024-01-31,23,1,Moulsecoomb A,St. Matthias B,409261140,Fred Cooper,181,856864967,Mark Lawson,200,100,4,60,5
+2024-01-24,23,1,Moulsecoomb B,Moulsecoomb A,104037073,Mike Palmer,139,514286758,Stacy Smith,200,100,1,100,5
+2024-01-24,23,1,Moulsecoomb B,Moulsecoomb A,138786345,Barry Thornton,200,176460812,Robin Powell,178,100,5,110,3
+2024-01-24,23,1,Moulsecoomb B,Moulsecoomb A,532826446,Tony Shipley,200,409261140,Fred Cooper,147,70,5,100,2
+2024-01-17,23,1,Moulsecoomb A,Hassocks A,514286758,Stacy Smith,194,792784781,James Dew,200,100,4,-45,5
+2024-01-17,23,1,Moulsecoomb A,Hassocks A,176460812,Robin Powell,200,127285371,Stuart Williamson,114,110,5,-10,2
+2024-01-17,23,1,Moulsecoomb A,Hassocks A,409261140,Fred Cooper,200,283685400,Barry Martin,195,100,5,-20,4
+2024-01-10,23,1,Moulsecoomb A,St. Matthias A,423539197,Nigel Lilley,195,109334367,Lee Morley,200,120,4,50,5
+2024-01-10,23,1,Moulsecoomb A,St. Matthias A,176460812,Robin Powell,200,886456541,Dean Perry,139,110,5,95,2
+2024-01-10,23,1,Moulsecoomb A,St. Matthias A,409261140,Fred Cooper,198,673468954,Micky Sandall,200,100,4,90,5
+2024-01-10,23,1,St. Matthias B,Moulsecoomb B,104406518,Terry Bashford,200,104037073,Mike Palmer,180,110,5,100,4
+2024-01-10,23,1,St. Matthias B,Moulsecoomb B,856864967,Mark Lawson,200,546240999,Trevor Cain,144,60,5,90,2
+2024-01-10,23,1,St. Matthias B,Moulsecoomb B,271881781,Lester Grice,194,532826446,Tony Shipley,200,60,4,70,5
+2023-12-13,23,1,Hassocks A,St. Matthias B,127285371,Stuart Williamson,137,104406518,Terry Bashford,200,-10,3,110,5
+2023-12-13,23,1,Hassocks A,St. Matthias B,455660500,Vince Elphick,188,271881781,Lester Grice,200,30,4,60,5
+2023-12-13,23,1,Hassocks A,St. Matthias B,736978195,Jason Alford,200,856864967,Mark Lawson,172,-10,5,60,4
+2023-12-13,23,1,St. Matthias A,Moulsecoomb B,109334367,Lee Morley,200,104037073,Mike Palmer,176,50,5,100,3
+2023-12-13,23,1,St. Matthias A,Moulsecoomb B,886456541,Dean Perry,200,546240999,Trevor Cain,176,95,5,90,3
+2023-12-13,23,1,St. Matthias A,Moulsecoomb B,673468954,Micky Sandall,152,532826446,Tony Shipley,200,90,2,70,5
+2023-12-06,23,1,Moulsecoomb B,Hassocks A,39704614,Steve Linton,200,127285371,Stuart Williamson,189,80,5,-10,4
+2023-12-06,23,1,Moulsecoomb B,Hassocks A,532826446,Tony Shipley,200,792784781,James Dew,187,70,5,-45,4
+2023-12-06,23,1,Moulsecoomb B,Hassocks A,546240999,Trevor Cain,200,283685400,Barry Martin,197,90,5,-20,4
+2023-12-06,23,1,St. Matthias B,Moulsecoomb A,104406518,Terry Bashford,171,514286758,Stacy Smith,200,110,3,100,5
+2023-12-06,23,1,St. Matthias B,Moulsecoomb A,992886832,Matthew Dumbleton,167,176460812,Robin Powell,200,70,3,110,5
+2023-12-06,23,1,St. Matthias B,Moulsecoomb A,742496187,Chris Lloyd,200,409261140,Fred Cooper,156,120,5,100,2
+2023-11-29,23,1,Moulsecoomb A,Moulsecoomb B,514286758,Stacy Smith,183,104037073,Mike Palmer,200,100,4,100,5
+2023-11-29,23,1,Moulsecoomb A,Moulsecoomb B,176460812,Robin Powell,196,138786345,Barry Thornton,200,100,4,90,5
+2023-11-29,23,1,Moulsecoomb A,Moulsecoomb B,409261140,Fred Cooper,177,39704614,Steve Linton,200,90,3,80,5
+2023-11-29,23,1,St. Matthias A,Hassocks A,392836520,Pip Akehurst,187,127285371,Stuart Williamson,200,60,4,0,5
+2023-11-29,23,1,St. Matthias A,Hassocks A,886456541,Dean Perry,200,736978195,Jason Alford,122,100,5,-10,3
+2023-11-29,23,1,St. Matthias A,Hassocks A,673468954,Micky Sandall,155,792784781,James Dew,200,90,2,-45,5
