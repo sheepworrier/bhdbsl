@@ -113,7 +113,7 @@ looker_output <- frame_scores_total %>%
                      opponent_name = home_player_name,
                      opponent_handicap = home_player_handicap,
                      opponent_score = home_score, opponent_sp = home_player_sp,
-                     player_team = away_team, opoonent_team = home_team)) %>%
+                     player_team = away_team, opponent_team = home_team)) %>%
   arrange(player_id, fixture_date) %>%
   filter(!is.na(player_handicap)) %>%
   mutate(one = 1,
