@@ -13,14 +13,15 @@ remDr <- remoteDriver(
 )
 remDr$open()
 
-get_season_division_results <- function(season, division, url, sport) {
+get_season_division_results <- function(season, division, url, sport,
+                                        league = "Brighton") {
   # Create session
   remDr$navigate(url)
   session <- remDr$getPageSource()[[1]] %>%
     read_html()
   # Read in the number of results pages
   num_pages_nodes <- session %>%
-    html_nodes("#hide-container .flex a")
+    html_nodes("#sn_gg_close , #results .flex a")
   # Handles the case where the season is incomplete or we have less than 5 pages
   # of results
   if (length(num_pages_nodes) == 0) {
@@ -37,14 +38,15 @@ get_season_division_results <- function(season, division, url, sport) {
                    rep(season, num_pages),
                    rep(division, num_pages),
                    seq(1, num_pages),
-                   rep(sport, num_pages))
+                   rep(sport, num_pages),
+                   rep(league, num_pages))
   # Run get_single_results_page successively to populate the result_table
   result_table <- pmap_dfr(arg_list, get_single_results_page)
   result_table
 }
 
 get_single_results_page <- function(base_url, season, division, page_number,
-                                    sport) {
+                                    sport, league = "Brighton") {
   # Print to console to track progress
   print(paste("Scraping page", page_number, "for division", division,
               "and season", season))
@@ -136,7 +138,7 @@ get_single_results_page <- function(base_url, season, division, page_number,
 
 scrape_match_page <-
   function(fixture_date, season, division, home_team, away_team, url,
-           sport = "Snooker") {
+           sport = "Snooker", league = "Brighton") {
     print(paste("Scraping", url))
     # Create session
     remDr$navigate(url)
