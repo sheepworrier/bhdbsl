@@ -19,7 +19,7 @@ results_old <- read_csv("New-website-match-scores.csv",
                           away_score = col_integer(),
                           URLs = col_character())) %>%
   filter(!is.na(home_score))
-# Update results_new to include any results from result_old that are nor from
+# Update results_new to include any results from result_old that are not from
 # the current season
 results_new <- results_new %>%
   bind_rows(results_old %>%
