@@ -57,10 +57,12 @@ if(nrow(unmapped_new_players) > 0) {
 }
 # Update the home / away player_ids and names for the old website frame_scores
 old_frame_scores <- old_frame_scores %>%
-  inner_join(player_id_map, by = c("home_player_id" = "player_id")) %>%
+  inner_join(player_id_map, by = c("home_player_id" = "player_id"),
+             relationship = "many-to-many") %>%
   mutate(home_player_id = new_player_id, home_player_name = full_name) %>%
   select(1:11) %>%
-  inner_join(player_id_map, by = c("away_player_id" = "player_id")) %>%
+  inner_join(player_id_map, by = c("away_player_id" = "player_id"),
+             relationship = "many-to-many") %>%
   mutate(away_player_id = new_player_id, away_player_name = full_name) %>%
   select(1:11)
 # Combine frame scores from the old and the new websites
