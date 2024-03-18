@@ -162,13 +162,12 @@ ui <- dashboardPage(
           ),
           column(
             width = 5,
-            checkboxGroupButtons(
+            selectInput(
               inputId = "seasons",
               label = "Choose seasons to include: ",
-              choices = c(2010:2019),
-              selected = c(2018:2019),
-              justified = TRUE,
-              status = "primary"
+              multiple = TRUE,
+              choices = c(2010:2024),
+              selected = c(2018:2024)
             ),
             checkboxGroupButtons(
               inputId = "divisions",
