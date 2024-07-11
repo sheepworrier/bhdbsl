@@ -74,17 +74,9 @@ Honorary Treasurer and Honorary Auditor shall be elected at each Annual General 
 ## 10. RESULTS:
 
 1. During the match. Score cards should be filled out recording which division, both Home and Away team names, players names, results, breaks (25+ for Snooker, 30+ for Billiards) and the date. The card should be signed by both team captains once all results have been agreed at the end of the match.
-1. After the match - traditional method - Compulsory
+1. After the match
 
-The Home Club shall notify the Secretary of the Result using one of three options:
-Option 1. Result Card scanned and emailed - no need to post card. Option 2. Email result including match scores, individual frame scores and any breaks - followed up by posting the card.
-Option 3. Phone or Text Result & Breaks - followed up by posted result card as in option 2.
-The result of each Snooker Match to be received by the following Thursday by 3pm deadline, failing which, 1 point shall be deducted on the first offence and 2 points deducted for each subsequent offence. Result cards for each Billiards Match to be received by the following Saturday. Failing which 4 scoring points shall be deducted on the first offence and 8 scoring points deducted for each subsequent offence.
-
-1. After the match Website Method - Optional
-   1. Home team captain/player to upload their results to the website or provide their results to the Division Administrator'. Contact details of your Division Administrator can be found on the website under “Contacts” tab.
-   1. Completed cards should be scanned and emailed or posted to the League Secretary as in Rule 10.2
-   1. Results will be stored on the League Website database for future reference
+The Home Club shall notify the Secretary of the Result by sending a photo of the score card to the relevant Division / Competition group on WhatsApp.  If none of the players involved in the match use WhatsApp then they should contact the relevant League or Competition Secretary for an alternative option.
 
 The team in each Division with the highest aggregate number of points at the end of each season shall be adjudged the winner, and trophies will be awarded to the winning teams each division. Where practicable the top team in each division shall be promoted and the bottom team relegated. In the event of a tie, matches won will be counted.
 
