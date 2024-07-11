@@ -137,7 +137,7 @@ For the Premier Division, teams are to be made up of a minimum of 5 players, so 
 
 ## 18. Division 1 (snooker) format
 
-For Division 1, teams are to be made up of a minimum of 5 players, so as to allow entry to the Endeavour Team Cup Competition (see Competition Rules). On league match night, a minimum of 4 and maximum of 5 players from each team will play in any one match. In exceptional circumstances and by prior agreeement of both captains **a single player** can play 2 frames but not consecutively – unless by prior agreement of the team Captains.
+For Division 1, teams are to be made up of a minimum of 5 players, so as to allow entry to the Endeavour Team Cup Competition (see Competition Rules). On league match night, a minimum of 3 and maximum of 5 players from each team will play in any one match. **One or two players** can play 2 frames each but not consecutively – unless by prior agreement of the team Captains.
 
 ## ANNUAL COMPETITION RULES
 
