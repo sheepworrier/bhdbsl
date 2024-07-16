@@ -54,7 +54,6 @@ Honorary Treasurer and Honorary Auditor shall be elected at each Annual General 
 1. Each registered player shall pay the following fees: - £15.00 inclusive - Billiards and Snooker - payable within 30 days of the start of the season. Any subsequent registrations will only be accepted with the full fee in the first half of the season, or £7.50 in the second half of the season. Failure to pay will result in Rule 9.7 being instantly applied on the 5th week of the new season. No professional player can be registered with the League.  Registrations are the responsibility of the individual Team Captains and not the Clubs.  No warnings will be given. Cheques to be payable to Brighton, Hove and District Billiard and Snooker League.
 1. Players who only wish to register to play in individual / pairs competitions and not play in a league team may register for the reduced fee of £5.00.
 1. Players aged under 18 may register for a league team or individual / pairs competitions for no fee.
-1. Billiard players must be registered at least one clear day before taking part in any league match.
 1. The list of registered players must be shown in the room where play takes place. Home team to nominate their player first before the start of each frame.
 1. Any player playing six games for a higher team during the season shall automatically become registered in that team. It is not permissible to play for another team if in the same Division.
 1. No player shall play FOR A TEAM IN A LOWER DIVISION than that in which he played the previous season (except through team relegation), unless sanctioned by the Management Committee.
@@ -75,17 +74,9 @@ Honorary Treasurer and Honorary Auditor shall be elected at each Annual General 
 ## 10. RESULTS:
 
 1. During the match. Score cards should be filled out recording which division, both Home and Away team names, players names, results, breaks (25+ for Snooker, 30+ for Billiards) and the date. The card should be signed by both team captains once all results have been agreed at the end of the match.
-1. After the match - traditional method - Compulsory
+1. After the match
 
-The Home Club shall notify the Secretary of the Result using one of three options:
-Option 1. Result Card scanned and emailed - no need to post card. Option 2. Email result including match scores, individual frame scores and any breaks - followed up by posting the card.
-Option 3. Phone or Text Result & Breaks - followed up by posted result card as in option 2.
-The result of each Snooker Match to be received by the following Thursday by 3pm deadline, failing which, 1 point shall be deducted on the first offence and 2 points deducted for each subsequent offence. Result cards for each Billiards Match to be received by the following Saturday. Failing which 4 scoring points shall be deducted on the first offence and 8 scoring points deducted for each subsequent offence.
-
-1. After the match Website Method - Optional
-   1. Home team captain/player to upload their results to the website or provide their results to the Division Administrator'. Contact details of your Division Administrator can be found on the website under “Contacts” tab.
-   1. Completed cards should be scanned and emailed or posted to the League Secretary as in Rule 10.2
-   1. Results will be stored on the League Website database for future reference
+The Home Club shall notify the Secretary of the Result by sending a photo of the score card to the relevant Division / Competition group on WhatsApp.  If none of the players involved in the match use WhatsApp then they should contact the relevant League or Competition Secretary for an alternative option.
 
 The team in each Division with the highest aggregate number of points at the end of each season shall be adjudged the winner, and trophies will be awarded to the winning teams each division. Where practicable the top team in each division shall be promoted and the bottom team relegated. In the event of a tie, matches won will be counted.
 
@@ -106,7 +97,7 @@ All protests must be forwarded to the League Secretary in writing within 21 days
 1. Monday night Snooker matches should start at 7.00pm. If a player is not in attendance to start play at 7.00pm, 10 minutes grace will be allowed. If after 10 minutes there is no player in attendance to start play, the opposing team is entitled to claim that frame.  Following frames will be scheduled to start every half hour after. If no players are in attendance to start play at these times, 10 minutes grace will be allowed. If no players are in attendance, the following frame(s) may be claimed. In the case of Billiards, the players must be ready at the start of the next game. Deadline for last player to be ready to play- 9.10pm for Snooker and 9.25pm for Billiards. A game can only be claimed if the claiming player is in attendance. If a player chooses to forego playing for strategic purposes and the 10 minute grace period elapses, the opposition are entitled to claim that game (unless by mutual agreement of the Captains).  If a team does not show up for their match and do  not notify their opponent they will receive a warning for the first offence and a 2-point points deduction for every subsequent occasion in the same season.
 
 1. Billiards
-    1. Teams will be made up of 3 players
+    1. Teams will be made up of 2-3 players with **each player** allowed to play two frames but not consecutively – unless by prior agreement of the team Captains.
     1. All players will have been given individual handicaps and will start their match from that handicap score. The winner will be the first player to reach 200 pts.(Handicaps will be reviewed by the Billiards Committee periodically).
     1. Each game is scored to a series of 'Scoring Points', with a maximum of 5 scoring points available to any player in any one game. These scoring points will be divided equally between the players starting score and the finishing target score of 200. (Please see "Billiards League Handicap Chart' for a full breakdown of 'Scoring Points.)
     1. Home Team captains will put their players in the order they will play, on the card. Then the Away captain in the order they will play. Any change must be by mutual consent of the Captains.
@@ -137,7 +128,7 @@ For the Premier Division, teams are to be made up of a minimum of 5 players, so 
 
 ## 18. Division 1 (snooker) format
 
-For Division 1, teams are to be made up of a minimum of 5 players, so as to allow entry to the Endeavour Team Cup Competition (see Competition Rules). On league match night, a minimum of 4 and maximum of 5 players from each team will play in any one match. In exceptional circumstances and by prior agreeement of both captains **a single player** can play 2 frames but not consecutively – unless by prior agreement of the team Captains.
+For Division 1, teams are to be made up of a minimum of 5 players, so as to allow entry to the Endeavour Team Cup Competition (see Competition Rules). On league match night, a minimum of 3 and maximum of 5 players from each team will play in any one match. **One or two players** can play 2 frames each but not consecutively – unless by prior agreement of the team Captains.
 
 ## ANNUAL COMPETITION RULES
 
@@ -188,7 +179,7 @@ Handicaps for this event will be decided by the Management Handicapping Committe
 
 ### The Bill Ashdown Memorial Trophy - Billiard Team Handicap
 
-There will be three players per side, the same as a normal league match. Players may only be those registered with the league for that team. Players will play off an adjusted Handicap from that which they play in the League.  Players with a league handicap below zero are unchanged; players with a league handicap above zero have their handicap adjusted upwards by 20% for this competition. Each game shall be played over a 60 minute time limit and whichever player has the highest score after 60 minutes will be awarded a 1 point win for their team. In the event of a tie, 5 minutes extra time will be played. Overall points and pts. Won must both be recorded on the card
+There will be 2-3 players per side, the same as a normal league match. Players may only be those registered with the league for that team. Players will play off an adjusted Handicap from that which they play in the League.  Players with a league handicap below zero are unchanged; players with a league handicap above zero have their handicap adjusted upwards by 20% for this competition. Each game shall be played over a 60 minute time limit and whichever player has the highest score after 60 minutes will be awarded a 1 point win for their team. In the event of a tie, 5 minutes extra time will be played. Overall points and pts. Won must both be recorded on the card
  
 The Finals of the League Competitions will be held at a venue and on a date to be decided by the Management Committee. Referees will be provided for these matches and the presentation of all League trophies will normally follow the completion of these matches.
 No Player shall proceed with the Semi-final stage of a Competition, if at the date of the Semi-final, he or they know they are not available to play on the Final Date, which is printed in the handbook.
