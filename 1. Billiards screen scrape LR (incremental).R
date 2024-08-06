@@ -136,7 +136,8 @@ looker_output <- frame_scores_total %>%
            if_else(`Latest Match` == "TRUE",
                    as.character(running_matches_played),
                    "")) %>%
-  select(-one, -handicap_period, -latest_fixture, -handicap_period_start)
+  select(-one, -handicap_period, -latest_fixture, -handicap_period_start,
+         -running_matches_played)
 
 # Write the results to a CSV file for use in the ELO ranking
 write_csv(frame_scores_total, "Billiards-frame-scores.csv")
