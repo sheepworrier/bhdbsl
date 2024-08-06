@@ -120,12 +120,23 @@ looker_output <- frame_scores_total %>%
          handicap_period = cumsum(player_id != lag(player_id, default = "") |
                              player_handicap != lag(player_handicap, default = 200))) %>%
   group_by(handicap_period) %>%
-  mutate(avg_points_scored_in_period = cumsum(player_score) / cumsum(one)) %>%
+  mutate(running_matches_played = cumsum(one),
+         avg_points_scored_in_period = cumsum(player_score) / cumsum(one)) %>%
   ungroup() %>%
   mutate(latest_fixture = max(fixture_date), .by = player_id) %>%
+  mutate(handicap_period_start = min(fixture_date),
+         .by = c(player_id, handicap_period)) %>%
   mutate(`Latest Match` = if_else(fixture_date == latest_fixture,
-                                  "TRUE", "")) %>%
-  select(-one, -handicap_period, -latest_fixture)
+                                  "TRUE", ""),
+         `Handicap Change Date` = if_else(`Latest Match` == "TRUE",
+                                          format(handicap_period_start,
+                                                 "%Y-%m-%d"),
+                                          ""),
+         `Matches since handicap change` =
+           if_else(`Latest Match` == "TRUE",
+                   as.character(running_matches_played),
+                   "")) %>%
+  select(-one, -handicap_period, -latest_fixture, -handicap_period_start)
 
 # Write the results to a CSV file for use in the ELO ranking
 write_csv(frame_scores_total, "Billiards-frame-scores.csv")
