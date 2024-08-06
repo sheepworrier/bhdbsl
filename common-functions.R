@@ -21,7 +21,7 @@ get_season_division_results <- function(season, division, url, sport,
     read_html()
   # Read in the number of results pages
   num_pages_nodes <- session %>%
-    html_nodes("#sn_gg_close , #results .flex a")
+    html_nodes(".pagination a")
   # Handles the case where the season is incomplete or we have less than 5 pages
   # of results
   if (length(num_pages_nodes) == 0) {
@@ -34,7 +34,7 @@ get_season_division_results <- function(season, division, url, sport,
   }
   print(paste("There are", num_pages, "pages of results"))
   # Create an argument list to pass through to get_single_results_page
-  arg_list <- list(rep(substr(url, 1, str_length(url) - 5), num_pages),
+  arg_list <- list(rep(substr(url, 1, str_length(url) - 7), num_pages),
                    rep(season, num_pages),
                    rep(division, num_pages),
                    seq(1, num_pages),
@@ -62,17 +62,17 @@ get_single_results_page <- function(base_url, season, division, page_number,
     .[[1]] %>%
     html_table(fill=TRUE)
   # Remove any notes that have been applied to any of the match results
-  if (sport != "Snooker comp") {
-    if (is.na(results_table[1, 1])) {
-      results_table <- results_table[is.na(results_table[, 1]), ]    
-    } else {
-      results_table <- results_table[nchar(results_table[, 1]) == 0, ]
-    }
-  }
+  # if (sport != "Snooker comp") {
+  #   if (is.na(results_table[1, 1])) {
+  #     results_table <- results_table[is.na(results_table[, 1]), ]    
+  #   } else {
+  #     results_table <- results_table[nchar(results_table[, 1]) == 0, ]
+  #   }
+  # }
   # The final column of the above table contains a URL for the match details
   match_detail_urls <- session %>%
-    html_nodes(".right .bold") %>%
-    html_attr("href")
+    html_nodes("tbody tr") %>%
+    html_attr("data-match-href")
 
   # Construct final results table for this match - slightly different format if
   # snooker or billiards
@@ -95,42 +95,63 @@ get_single_results_page <- function(base_url, season, division, page_number,
       filter(!is.na(home_score))
   } else if (sport == "Billiards") {
     print("Gathering Billiards results")
-    # Reformat the scores column to split between home and away, scoring and
-    # overall
-    results_table <- results_table[, c(2, 3, 4, 5)]
-    results_table <- results_table %>%
-      mutate(Score = str_remove_all(Score, "\\(")) %>%
-      mutate(Score = str_remove_all(Score, "\\)")) %>%
-      separate(Score, c("home_score", "away_score"), sep = " - ") %>%
-      separate(home_score, c("home_sp", "home_op"), sep = "-") %>%
-      separate(away_score, c("away_sp", "away_op"), sep = "-") %>%
-      mutate_at(vars(home_sp:away_op), list(as.integer))
+    # Rename the columns without a header
+    colnames(results_table) <- c("Date Time", "Home Team", "Score", "Away Team",
+                                 "Division")
+    if(league == "Brighton") {
+      # Reformat the scores column to split between home and away, scoring and
+      # overall
+      results_table <- results_table %>%
+        mutate(Score = str_remove_all(Score, "\\(")) %>%
+        mutate(Score = str_remove_all(Score, "\\)")) %>%
+        separate(Score, c("home_score", "away_score"), sep = " - ") %>%
+        separate(home_score, c("home_sp", "home_op"), sep = "-") %>%
+        separate(away_score, c("away_sp", "away_op"), sep = "-") %>%
+        mutate_at(vars(home_sp:away_op), list(as.integer))
       
-    final_results_table <- results_table %>%
-      mutate(fixture_date = as.Date(results_table$`Date Time`,
-                                    format = "%d/%m/%y"),
-             season = season,
-             division = division,
-             url =
-               paste0("http://brightonhovedistrictbilliards.leaguerepublic.com",
-                      match_detail_urls)) %>%
-      select(fixture_date, season, division, home_team = `Home Team`,
-             away_team = `Away Team`, home_sp, away_sp, home_op, away_op, url)  %>%
-      filter(!is.na(home_sp))
+      final_results_table <- results_table %>%
+        mutate(fixture_date = as.Date(results_table$`Date Time`,
+                                      format = "%d/%m/%y"),
+               season = season,
+               division = division,
+               url =
+                 paste0("http://brightonhovedistrictbilliards.leaguerepublic.com",
+                        match_detail_urls)) %>%
+        select(fixture_date, season, division, home_team = `Home Team`,
+               away_team = `Away Team`, home_sp, away_sp, home_op, away_op, url)  %>%
+        filter(!is.na(home_sp))
+    } else if (league == "Worthing") {
+      # Reformat the scores column to split between home and away, scoring and
+      # overall
+      results_table <- results_table %>%
+        mutate(Score = str_remove_all(Score, "\\(")) %>%
+        mutate(Score = str_remove_all(Score, "\\)")) %>%
+        separate(Score, c("home_score", "away_score"), sep = " - ") %>%
+        mutate_at(vars(home_score:away_score), list(as.integer))
+      
+      final_results_table <- results_table %>%
+        mutate(fixture_date = as.Date(results_table$`Date Time`,
+                                      format = "%d/%m/%y"),
+               season = season,
+               division = division,
+               url =
+                 paste0("http://brightonhovedistrictbilliards.leaguerepublic.com",
+                        match_detail_urls)) %>%
+        select(fixture_date, season, division, home_team = `Home Team`,
+               away_team = `Away Team`, home_sp, away_sp, home_op, away_op, url)  %>%
+        filter(!is.na(home_score))
+    }
   } else {
     print("Gathering Snooker competition results")
     # Remove empty columns
     # Filter out any walkovers
-    final_results_table <-
-      data.frame(fixture_date = as.Date(results_table$`Date Time`,
-                                        format = "%d/%m/%y"),
-                 season = season,
-                 division = division,
-                 home_team = results_table$`Home Team`,
-                 away_team = results_table$`Away Team`,
-                 home_score = as.integer(substr(results_table$Score, 1, 1)),
-                 away_score = as.integer(substr(results_table$Score, 5, 5)),
-                 stringsAsFactors = FALSE) %>%
+    final_results_table <- results_table %>%
+      mutate(fixture_date = as.Date(results_table$`Date Time`,
+                                    format = "%d/%m/%y"),
+             season = season,
+             division = division) %>%
+      select(fixture_date, season, division, home_team = `Home Team`,
+             away_team = `Away Team`, home_score, away_score) %>%
       filter(!is.na(home_score))
   }
   final_results_table
