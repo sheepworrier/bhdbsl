@@ -1179,3 +1179,15 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2022-05-18,21,1,Moulsecoomb A,Champion House,176460812,Robin Powell,195,578580599,Ian Smith,200,100,4,60,5
 2022-05-18,21,1,Moulsecoomb A,Champion House,564133408,Paul Phillips,195,285715540,Tony Power,200,100,4,100,5
 2022-05-18,21,1,Moulsecoomb A,Champion House,409261140,Fred Cooper,200,297844767,Mick Lott,146,90,5,0,3
+2024-03-06,23,1,Hassocks A,Moulsecoomb A,127285371,Stuart Williamson,144,649511222,Stuart Maplesden,200,-10,3,60,5
+2024-03-06,23,1,Hassocks A,Moulsecoomb A,455660500,Vince Elphick,161,176460812,Robin Powell,200,30,3,110,5
+2024-03-06,23,1,Hassocks A,Moulsecoomb A,792784781,James Dew,200,409261140,Fred Cooper,165,-45,5,100,3
+2024-03-13,23,1,St. Matthias A,Hassocks A,886456541,Dean Perry,158,736978195,Jason Alford,200,95,3,-10,5
+2024-03-13,23,1,St. Matthias A,Hassocks A,673468954,Micky Sandall,200,127285371,Stuart Williamson,185,90,5,-10,4
+2024-03-13,23,1,St. Matthias A,Hassocks A,983276809,David Gillingham,130,792784781,James Dew,200,-70,3,-45,5
+2024-03-20,23,1,Hassocks A,St. Matthias A,127285371,Stuart Williamson,184,886456541,Dean Perry,200,-10,4,95,5
+2024-03-20,23,1,Hassocks A,St. Matthias A,736978195,Jason Alford,171,564133408,Paul Phillips,200,-10,4,100,5
+2024-03-20,23,1,Hassocks A,St. Matthias A,455660500,Vince Elphick,200,983276809,David Gillingham,180,30,5,-70,4
+2024-04-03,23,1,Moulsecoomb A,Moulsecoomb B,176460812,Robin Powell,200,104037073,Mike Palmer,186,110,5,100,4
+2024-04-03,23,1,Moulsecoomb A,Moulsecoomb B,649511222,Stuart Maplesden,192,532826446,Tony Shipley,200,60,4,70,5
+2024-04-03,23,1,Moulsecoomb A,Moulsecoomb B,409261140,Fred Cooper,200,138786345,Barry Thornton,163,100,5,100,3
