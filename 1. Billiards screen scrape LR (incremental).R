@@ -91,7 +91,8 @@ assert_that(all.equal(summed_frame_scores, new_results_to_check),
 # Combine and filter out BYEs
 frame_scores_total <- rbind(frame_scores_old, frame_scores_new)
 frame_scores_total <- frame_scores_total %>%
-  filter(home_player_id != "" & away_player_id != "")
+  filter(home_player_id != "" & away_player_id != "") %>%
+  distinct()
 
 # Close Selenium session opened in common functions
 remDr$close()
