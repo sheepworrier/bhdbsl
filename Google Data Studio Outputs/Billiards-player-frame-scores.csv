@@ -35,7 +35,8 @@ fixture_date,season,player_name,player_id,player_handicap,player_score,player_sp
 2024-01-24,23,Mike Palmer,104037073,100,139,1,Stacy Smith,100,200,5,Moulsecoomb B,Moulsecoomb A,171.91666666666666,
 2024-02-14,23,Mike Palmer,104037073,100,173,3,James Dew,-45,200,5,Moulsecoomb B,Hassocks A,172,
 2024-02-21,23,Mike Palmer,104037073,100,187,4,Lee Morley,50,200,5,Moulsecoomb B,St. Matthias A,173.07142857142858,
-2024-02-28,23,Mike Palmer,104037073,100,198,4,Terry Bashford,110,200,5,Moulsecoomb B,St. Matthias B,174.73333333333332,TRUE
+2024-02-28,23,Mike Palmer,104037073,100,198,4,Terry Bashford,110,200,5,Moulsecoomb B,St. Matthias B,174.73333333333332,
+2024-04-03,23,Mike Palmer,104037073,100,186,4,Robin Powell,110,200,5,Moulsecoomb B,Moulsecoomb A,175.4375,TRUE
 2018-09-19,18,Terry Bashford,104406518,90,200,5,Ian Smith,70,181,4,St. Matthias A,Champion House,200,
 2018-09-26,18,Terry Bashford,104406518,90,181,4,Barry Martin,-20,200,5,St. Matthias A,Annunciation,190.5,
 2018-10-10,18,Terry Bashford,104406518,90,200,5,Barry Thornton,100,184,4,St. Matthias A,Moulsecoomb B,193.66666666666666,
@@ -121,7 +122,10 @@ fixture_date,season,player_name,player_id,player_handicap,player_score,player_sp
 2023-12-13,23,Stuart Williamson,127285371,-10,137,3,Terry Bashford,110,200,5,Hassocks A,St. Matthias B,163,
 2024-01-17,23,Stuart Williamson,127285371,-10,114,2,Robin Powell,110,200,5,Hassocks A,Moulsecoomb A,146.66666666666666,
 2024-02-14,23,Stuart Williamson,127285371,-10,200,5,Trevor Cain,90,131,1,Hassocks A,Moulsecoomb B,160,
-2024-02-21,23,Stuart Williamson,127285371,-10,200,5,Lester Grice,60,140,2,Hassocks A,St. Matthias B,168,TRUE
+2024-02-21,23,Stuart Williamson,127285371,-10,200,5,Lester Grice,60,140,2,Hassocks A,St. Matthias B,168,
+2024-03-06,23,Stuart Williamson,127285371,-10,144,3,Stuart Maplesden,60,200,5,Hassocks A,Moulsecoomb A,164,
+2024-03-13,23,Stuart Williamson,127285371,-10,185,4,Micky Sandall,90,200,5,Hassocks A,St. Matthias A,167,
+2024-03-20,23,Stuart Williamson,127285371,-10,184,4,Dean Perry,95,200,5,Hassocks A,St. Matthias A,169.125,TRUE
 2015-09-16,15,Terry Mills,132292473,30,124,2,Richard Barrett,0,200,5,Annunciation B,Annunciation A,124,
 2015-09-23,15,Terry Mills,132292473,30,200,5,Michael Childs,130,176,3,Annunciation B,Moulsecoomb A,162,
 2015-10-14,15,Terry Mills,132292473,30,200,5,Fred Cooper,100,185,4,Annunciation B,Moulsecoomb B,174.66666666666666,
@@ -270,7 +274,8 @@ fixture_date,season,player_name,player_id,player_handicap,player_score,player_sp
 2023-11-29,23,Barry Thornton,138786345,90,200,5,Robin Powell,100,196,4,Moulsecoomb B,Moulsecoomb A,171.55555555555554,
 2024-01-24,23,Barry Thornton,138786345,100,200,5,Robin Powell,110,178,3,Moulsecoomb B,Moulsecoomb A,200,
 2024-02-14,23,Barry Thornton,138786345,100,200,5,Vince Elphick,30,180,4,Moulsecoomb B,Hassocks A,200,
-2024-02-21,23,Barry Thornton,138786345,100,188,4,Pip Akehurst,60,200,5,Moulsecoomb B,St. Matthias A,196,TRUE
+2024-02-21,23,Barry Thornton,138786345,100,188,4,Pip Akehurst,60,200,5,Moulsecoomb B,St. Matthias A,196,
+2024-04-03,23,Barry Thornton,138786345,100,163,3,Fred Cooper,100,200,5,Moulsecoomb B,Moulsecoomb A,187.75,TRUE
 2023-11-01,23,Elliot Bradley,16319840,10,200,5,Vince Elphick,30,168,4,St. Matthias B,Hassocks A,200,TRUE
 2023-11-01,23,Elliot Bradley,16319840,10,200,5,Vince Elphick,30,168,4,St. Matthias B,Hassocks A,200,TRUE
 2015-09-16,15,Tyrone Davis,165845675,150,200,5,John Da Silva,70,183,4,Moulsecoomb A,St. Mathias,200,
@@ -421,7 +426,9 @@ fixture_date,season,player_name,player_id,player_handicap,player_score,player_sp
 2024-01-10,23,Robin Powell,176460812,110,200,5,Dean Perry,95,139,2,Moulsecoomb A,St. Matthias A,200,
 2024-01-17,23,Robin Powell,176460812,110,200,5,Stuart Williamson,-10,114,2,Moulsecoomb A,Hassocks A,200,
 2024-01-24,23,Robin Powell,176460812,110,178,3,Barry Thornton,100,200,5,Moulsecoomb A,Moulsecoomb B,194.5,
-2024-02-28,23,Robin Powell,176460812,110,185,4,Pav Sareen,10,200,5,Moulsecoomb A,St. Matthias A,192.6,TRUE
+2024-02-28,23,Robin Powell,176460812,110,185,4,Pav Sareen,10,200,5,Moulsecoomb A,St. Matthias A,192.6,
+2024-03-06,23,Robin Powell,176460812,110,200,5,Vince Elphick,30,161,3,Moulsecoomb A,Hassocks A,193.83333333333334,
+2024-04-03,23,Robin Powell,176460812,110,200,5,Mike Palmer,100,186,4,Moulsecoomb A,Moulsecoomb B,194.71428571428572,TRUE
 2015-09-16,15,Nathan Brooks,186254812,70,200,5,Robin Powell,80,179,4,St. Mathias,Moulsecoomb A,200,
 2015-10-07,15,Nathan Brooks,186254812,70,170,3,Fred Cooper,100,200,5,St. Mathias,Moulsecoomb B,185,
 2015-10-21,15,Nathan Brooks,186254812,70,173,3,DON PENALVER,30,200,5,St. Mathias,Annunciation A,181,
@@ -1123,7 +1130,9 @@ fixture_date,season,player_name,player_id,player_handicap,player_score,player_sp
 2024-01-10,23,Fred Cooper,409261140,100,198,4,Micky Sandall,90,200,5,Moulsecoomb A,St. Matthias A,177,
 2024-01-17,23,Fred Cooper,409261140,100,200,5,Barry Martin,-20,195,4,Moulsecoomb A,Hassocks A,184.66666666666666,
 2024-01-24,23,Fred Cooper,409261140,100,147,2,Tony Shipley,70,200,5,Moulsecoomb A,Moulsecoomb B,175.25,
-2024-01-31,23,Fred Cooper,409261140,100,181,4,Mark Lawson,60,200,5,Moulsecoomb A,St. Matthias B,176.4,TRUE
+2024-01-31,23,Fred Cooper,409261140,100,181,4,Mark Lawson,60,200,5,Moulsecoomb A,St. Matthias B,176.4,
+2024-03-06,23,Fred Cooper,409261140,100,165,3,James Dew,-45,200,5,Moulsecoomb A,Hassocks A,174.5,
+2024-04-03,23,Fred Cooper,409261140,100,200,5,Barry Thornton,100,163,3,Moulsecoomb A,Moulsecoomb B,178.14285714285714,TRUE
 2020-01-15,19,Nigel Lilley,423539197,110,200,5,Robert (Bob) Jay,40,199,4,Moulsecoomb A,Champion House,200,
 2020-01-22,19,Nigel Lilley,423539197,110,156,2,Barry Thornton,100,200,5,Moulsecoomb A,Moulsecoomb B,178,
 2020-02-12,19,Nigel Lilley,423539197,110,141,1,Richard Barrett,-25,200,5,Moulsecoomb A,Annunciation,165.66666666666666,
@@ -1149,7 +1158,9 @@ fixture_date,season,player_name,player_id,player_handicap,player_score,player_sp
 2023-11-01,23,Vince Elphick,455660500,30,168,4,Elliot Bradley,10,200,5,Hassocks A,St. Matthias B,183.9090909090909,
 2023-11-22,23,Vince Elphick,455660500,30,200,5,Robin Powell,100,143,2,Hassocks A,Moulsecoomb A,185.25,
 2023-12-13,23,Vince Elphick,455660500,30,188,4,Lester Grice,60,200,5,Hassocks A,St. Matthias B,185.46153846153845,
-2024-02-14,23,Vince Elphick,455660500,30,180,4,Barry Thornton,100,200,5,Hassocks A,Moulsecoomb B,185.07142857142858,TRUE
+2024-02-14,23,Vince Elphick,455660500,30,180,4,Barry Thornton,100,200,5,Hassocks A,Moulsecoomb B,185.07142857142858,
+2024-03-06,23,Vince Elphick,455660500,30,161,3,Robin Powell,110,200,5,Hassocks A,Moulsecoomb A,183.46666666666667,
+2024-03-20,23,Vince Elphick,455660500,30,200,5,David Gillingham,-70,180,4,Hassocks A,St. Matthias A,184.5,TRUE
 2015-09-16,15,Richard Barrett,482444234,0,200,5,Terry Mills,30,124,2,Annunciation A,Annunciation B,200,
 2015-09-23,15,Richard Barrett,482444234,0,200,5,Barry Thornton,90,168,3,Annunciation A,Moulsecoomb B,200,
 2015-09-30,15,Richard Barrett,482444234,0,200,5,Stuart Maplesden,60,133,2,Annunciation A,Moulsecoomb A,200,
@@ -1394,7 +1405,8 @@ fixture_date,season,player_name,player_id,player_handicap,player_score,player_sp
 2024-01-10,23,Tony Shipley,532826446,70,200,5,Lester Grice,60,194,4,Moulsecoomb B,St. Matthias B,189.27777777777777,
 2024-01-24,23,Tony Shipley,532826446,70,200,5,Fred Cooper,100,147,2,Moulsecoomb B,Moulsecoomb A,189.8421052631579,
 2024-02-21,23,Tony Shipley,532826446,70,200,5,Pav Sareen,10,189,4,Moulsecoomb B,St. Matthias A,190.35,
-2024-02-28,23,Tony Shipley,532826446,70,200,5,Lester Grice,60,187,4,Moulsecoomb B,St. Matthias B,190.8095238095238,TRUE
+2024-02-28,23,Tony Shipley,532826446,70,200,5,Lester Grice,60,187,4,Moulsecoomb B,St. Matthias B,190.8095238095238,
+2024-04-03,23,Tony Shipley,532826446,70,200,5,Stuart Maplesden,60,192,4,Moulsecoomb B,Moulsecoomb A,191.22727272727272,TRUE
 2015-10-07,15,Trevor Cain,546240999,80,200,5,John Muzio,70,141,3,Moulsecoomb B,St. Mathias,200,
 2015-10-14,15,Trevor Cain,546240999,80,155,3,Tony Shipley,40,200,5,Moulsecoomb B,Annunciation B,177.5,
 2015-10-21,15,Trevor Cain,546240999,80,160,3,Michael Childs,130,200,5,Moulsecoomb B,Moulsecoomb A,171.66666666666666,
@@ -1642,7 +1654,8 @@ fixture_date,season,player_name,player_id,player_handicap,player_score,player_sp
 2023-10-25,23,Paul Phillips,564133408,100,200,5,Nigel Stilwell,-25,170,4,Moulsecoomb A,St. Matthias B,188.64444444444445,
 2023-11-08,23,Paul Phillips,564133408,100,200,5,Pav Sareen,10,199,4,Moulsecoomb A,St. Matthias A,188.8913043478261,
 2023-11-08,23,Paul Phillips,564133408,100,200,5,Pav Sareen,10,199,4,Moulsecoomb A,St. Matthias A,189.12765957446808,
-2024-03-06,23,Paul Phillips,564133408,100,155,2,Nigel Stilwell,-25,200,5,St. Matthias A,St. Matthias B,188.41666666666666,TRUE
+2024-03-06,23,Paul Phillips,564133408,100,155,2,Nigel Stilwell,-25,200,5,St. Matthias A,St. Matthias B,188.41666666666666,
+2024-03-20,23,Paul Phillips,564133408,100,200,5,Jason Alford,-10,171,4,St. Matthias A,Hassocks A,188.6530612244898,TRUE
 2015-09-23,15,Ian Smith,578580599,70,200,5,John Da Silva,70,169,4,Champion House,St. Mathias,200,
 2015-09-30,15,Ian Smith,578580599,70,200,5,Tony Shipley,40,134,3,Champion House,Annunciation B,200,
 2015-10-07,15,Ian Smith,578580599,70,200,5,Michael Childs,130,189,4,Champion House,Moulsecoomb A,200,
@@ -1855,7 +1868,9 @@ fixture_date,season,player_name,player_id,player_handicap,player_score,player_sp
 2021-11-24,21,Stuart Maplesden,649511222,60,200,5,Ray Hunter,90,175,3,Moulsecoomb A,Champion House,179.3913043478261,
 2022-03-02,21,Stuart Maplesden,649511222,60,191,4,Lester Grice,40,200,5,Moulsecoomb A,St. Matthias B,179.875,
 2022-11-09,22,Stuart Maplesden,649511222,60,200,5,David Gillingham,-50,191,4,Moulsecoomb A,St. Matthias A,180.68,
-2022-11-23,22,Stuart Maplesden,649511222,60,158,3,Stuart Williamson,10,200,5,Moulsecoomb A,Hassocks A,179.80769230769232,TRUE
+2022-11-23,22,Stuart Maplesden,649511222,60,158,3,Stuart Williamson,10,200,5,Moulsecoomb A,Hassocks A,179.80769230769232,
+2024-03-06,23,Stuart Maplesden,649511222,60,200,5,Stuart Williamson,-10,144,3,Moulsecoomb A,Hassocks A,180.55555555555554,
+2024-04-03,23,Stuart Maplesden,649511222,60,192,4,Tony Shipley,70,200,5,Moulsecoomb A,Moulsecoomb B,180.96428571428572,TRUE
 2021-10-06,21,Micky Sandall,673468954,90,172,3,Lester Grice,40,200,5,St. Matthias A,St. Matthias B,172,
 2021-11-10,21,Micky Sandall,673468954,90,171,3,Barry Thornton,100,200,5,St. Matthias A,Moulsecoomb B,171.5,
 2022-01-05,21,Micky Sandall,673468954,90,200,5,Fred Cooper,90,195,4,St. Matthias A,Moulsecoomb A,181,
@@ -1882,7 +1897,8 @@ fixture_date,season,player_name,player_id,player_handicap,player_score,player_sp
 2024-01-10,23,Micky Sandall,673468954,90,200,5,Fred Cooper,100,198,4,St. Matthias A,Moulsecoomb A,184.83333333333334,
 2024-02-07,23,Micky Sandall,673468954,90,200,5,Lester Grice,60,167,3,St. Matthias A,St. Matthias B,185.44,
 2024-02-28,23,Micky Sandall,673468954,90,200,5,Nigel Lilley,120,185,4,St. Matthias A,Moulsecoomb A,186,
-2024-03-06,23,Micky Sandall,673468954,90,200,5,Terry Bashford,110,177,3,St. Matthias A,St. Matthias B,186.5185185185185,TRUE
+2024-03-06,23,Micky Sandall,673468954,90,200,5,Terry Bashford,110,177,3,St. Matthias A,St. Matthias B,186.5185185185185,
+2024-03-13,23,Micky Sandall,673468954,90,200,5,Stuart Williamson,-10,185,4,St. Matthias A,Hassocks A,187,TRUE
 2015-09-16,15,Chris Mason,715839724,0,200,5,Steve Burchett,70,196,4,Annunciation B,Annunciation A,200,
 2015-09-23,15,Chris Mason,715839724,0,200,5,Robin Powell,80,137,2,Annunciation B,Moulsecoomb A,200,
 2015-09-30,15,Chris Mason,715839724,0,200,5,Mick Lott,0,185,4,Annunciation B,Champion House,200,
@@ -1965,7 +1981,9 @@ fixture_date,season,player_name,player_id,player_handicap,player_score,player_sp
 2023-10-18,23,Jason Alford,736978195,-10,200,5,Micky Sandall,90,190,4,Hassocks A,St. Matthias A,183.05882352941177,
 2023-11-24,23,Jason Alford,736978195,-10,200,5,Stacy Smith,100,181,4,Hassocks A,Moulsecoomb A,184,
 2023-11-29,23,Jason Alford,736978195,-10,122,3,Dean Perry,100,200,5,Hassocks A,St. Matthias A,180.73684210526315,
-2023-12-13,23,Jason Alford,736978195,-10,200,5,Mark Lawson,60,172,4,Hassocks A,St. Matthias B,181.7,TRUE
+2023-12-13,23,Jason Alford,736978195,-10,200,5,Mark Lawson,60,172,4,Hassocks A,St. Matthias B,181.7,
+2024-03-13,23,Jason Alford,736978195,-10,200,5,Dean Perry,95,158,3,Hassocks A,St. Matthias A,182.57142857142858,
+2024-03-20,23,Jason Alford,736978195,-10,171,4,Paul Phillips,100,200,5,Hassocks A,St. Matthias A,182.04545454545453,TRUE
 2023-10-25,23,Chris Lloyd,742496187,120,200,5,Robin Powell,100,158,2,St. Matthias B,Moulsecoomb A,200,
 2023-10-25,23,Chris Lloyd,742496187,120,200,5,Robin Powell,100,158,2,St. Matthias B,Moulsecoomb A,200,
 2023-11-08,23,Chris Lloyd,742496187,120,171,3,Trevor Cain,90,200,5,St. Matthias B,Moulsecoomb B,190.33333333333334,
@@ -2035,7 +2053,9 @@ fixture_date,season,player_name,player_id,player_handicap,player_score,player_sp
 2023-12-06,23,James Dew,792784781,-45,187,4,Tony Shipley,70,200,5,Hassocks A,Moulsecoomb B,167.875,
 2024-01-17,23,James Dew,792784781,-45,200,5,Stacy Smith,100,194,4,Hassocks A,Moulsecoomb A,171.44444444444446,
 2024-02-14,23,James Dew,792784781,-45,200,5,Mike Palmer,100,173,3,Hassocks A,Moulsecoomb B,174.3,
-2024-02-21,23,James Dew,792784781,-45,200,5,Matthew Dumbleton,70,176,4,Hassocks A,St. Matthias B,176.63636363636363,TRUE
+2024-02-21,23,James Dew,792784781,-45,200,5,Matthew Dumbleton,70,176,4,Hassocks A,St. Matthias B,176.63636363636363,
+2024-03-06,23,James Dew,792784781,-45,200,5,Fred Cooper,100,165,3,Hassocks A,Moulsecoomb A,178.58333333333334,
+2024-03-13,23,James Dew,792784781,-45,200,5,David Gillingham,-70,130,3,Hassocks A,St. Matthias A,180.23076923076923,TRUE
 2022-09-14,22,Mark Lawson,856864967,50,120,2,Robin Powell,100,200,5,St. Matthias B,Moulsecoomb A,120,
 2022-10-26,22,Mark Lawson,856864967,50,189,4,Fred Cooper,90,200,5,St. Matthias B,Moulsecoomb A,154.5,
 2022-11-09,22,Mark Lawson,856864967,50,192,4,Steve Linton,80,200,5,St. Matthias B,Moulsecoomb B,167,
@@ -2086,7 +2106,9 @@ fixture_date,season,player_name,player_id,player_handicap,player_score,player_sp
 2023-11-22,23,Dean Perry,886456541,100,167,3,Matthew Dumbleton,70,200,5,St. Matthias A,St. Matthias B,189.66666666666666,
 2023-11-29,23,Dean Perry,886456541,100,200,5,Jason Alford,-10,122,3,St. Matthias A,Hassocks A,190.7,
 2023-12-13,23,Dean Perry,886456541,95,200,5,Trevor Cain,90,176,3,St. Matthias A,Moulsecoomb B,200,
-2024-01-10,23,Dean Perry,886456541,95,139,2,Robin Powell,110,200,5,St. Matthias A,Moulsecoomb A,169.5,TRUE
+2024-01-10,23,Dean Perry,886456541,95,139,2,Robin Powell,110,200,5,St. Matthias A,Moulsecoomb A,169.5,
+2024-03-13,23,Dean Perry,886456541,95,158,3,Jason Alford,-10,200,5,St. Matthias A,Hassocks A,165.66666666666666,
+2024-03-20,23,Dean Perry,886456541,95,200,5,Stuart Williamson,-10,184,4,St. Matthias A,Hassocks A,174.25,TRUE
 2015-10-14,15,Ian Fennell,896685756,20,194,4,Chris Mason,0,200,5,Moulsecoomb B,Annunciation B,194,
 2015-10-21,15,Ian Fennell,896685756,20,200,5,Robin Powell,80,129,2,Moulsecoomb B,Moulsecoomb A,197,
 2015-12-02,15,Ian Fennell,896685756,20,140,3,Chris Mason,0,200,5,Moulsecoomb B,Annunciation B,178,
@@ -2315,7 +2337,9 @@ fixture_date,season,player_name,player_id,player_handicap,player_score,player_sp
 2023-11-08,23,David Gillingham,983276809,-60,200,5,Robin Powell,100,193,4,St. Matthias A,Moulsecoomb A,200,
 2023-11-08,23,David Gillingham,983276809,-60,200,5,Robin Powell,100,193,4,St. Matthias A,Moulsecoomb A,200,
 2024-02-28,23,David Gillingham,983276809,-70,200,5,Stacy Smith,100,166,3,St. Matthias A,Moulsecoomb A,200,
-2024-03-06,23,David Gillingham,983276809,-70,200,5,Lester Grice,60,124,2,St. Matthias A,St. Matthias B,200,TRUE
+2024-03-06,23,David Gillingham,983276809,-70,200,5,Lester Grice,60,124,2,St. Matthias A,St. Matthias B,200,
+2024-03-13,23,David Gillingham,983276809,-70,130,3,James Dew,-45,200,5,St. Matthias A,Hassocks A,176.66666666666666,
+2024-03-20,23,David Gillingham,983276809,-70,180,4,Vince Elphick,30,200,5,St. Matthias A,Hassocks A,177.5,TRUE
 2018-09-26,18,Matthew Dumbleton,992886832,40,160,3,Michael Childs,140,200,5,St. Matthias B,Moulsecoomb A,160,
 2018-12-12,18,Matthew Dumbleton,992886832,40,107,2,Barry Thornton,100,200,5,St. Matthias B,Moulsecoomb B,133.5,
 2019-01-16,18,Matthew Dumbleton,992886832,40,98,1,Barry Martin,-20,200,5,St. Matthias B,Annunciation,121.66666666666667,
