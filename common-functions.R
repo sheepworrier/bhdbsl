@@ -78,7 +78,10 @@ get_single_results_page <- function(base_url, season, division, page_number,
   # snooker or billiards
   if (sport == "Snooker") {
     print("Gathering Snooker results")
-    # Remove empty columns and process strings to give final results table
+    # Rename the columns without a header
+    colnames(results_table) <- c("Date Time", "Home Team", "Score", "Away Team",
+                                 "Division")
+    # Process strings to give final results table
     final_results_table <-
       data.frame(fixture_date = as.Date(results_table$`Date Time`,
                                         format = "%d/%m/%y"),
