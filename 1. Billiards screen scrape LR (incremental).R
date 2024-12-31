@@ -2,7 +2,7 @@
 # sudo docker run -d -p 4445:4444 selenium/standalone-firefox:2.53.1
 source("common-functions.R")
 library(assertthat)
-current_season <- 23
+current_season <- 24
 # Import the reference data containing the results URLs per season per division
 # Only needs updating when a new season is added
 ref_data <- read_csv("Billiards-Results-pages-per-season.csv") %>%
@@ -37,9 +37,9 @@ new_results_to_check <- results_new %>%
                    "away_team", "home_sp", "away_sp", "home_op", "away_op",
                    "url")) %>%
   select(fixture_date, season, division, home_team, away_team,
-         home_score = home_op, away_score = away_op, url)
+         home_sp, away_sp, url)
 new_results_to_scrape <- new_results_to_check %>%
-  select(-c(home_score, away_score)) %>%
+  select(-c(home_sp, away_sp)) %>%
   mutate(sport = "Billiards")
 new_results_to_check <- new_results_to_check %>%
   select(-c(season, division, url)) %>%
@@ -78,16 +78,30 @@ frame_scores_new <-
   pmap_dfr(unname(new_results_to_scrape %>%
                     bind_rows(old_results_to_scrape)),
            scrape_match_page)
-# Sum the frame scores for comparing with the match scores
-summed_frame_scores <- frame_scores_new %>%
-  group_by(fixture_date, home_team, away_team) %>%
-  summarise(home_score = sum(home_score),
-            away_score = sum(away_score)) %>%
-  ungroup() %>%
+# Check that the scoring points have been calculated correctly per frame
+assert_that(frame_scores_new |>
+              mutate(calculated_home_sp = floor((home_score - home_player_handicap)
+                                                / (200 - home_player_handicap) * 5),
+                     calculated_away_sp = floor((away_score - away_player_handicap)
+                                                / (200 - away_player_handicap) * 5)) |>
+              filter(home_player_sp != calculated_home_sp |
+                       away_player_sp != calculated_away_sp) |>
+              nrow() == 0,
+              msg = "ERROR: scoring points were miscalculated")
+# Sum the frame scores for updating the match scores
+summed_frame_scores <- frame_scores_new |>
+  summarise(home_op = sum(home_score),
+            away_op = sum(away_score),
+            home_sp = sum(home_player_sp),
+            away_sp = sum(away_player_sp),
+            .by = c(fixture_date, home_team, away_team)) |>
   arrange(fixture_date, home_team, away_team)
 # Check that the sum of the frame scores equals the overall match score
-assert_that(all.equal(summed_frame_scores, new_results_to_check),
-            msg = "ERROR: scores don't add up")
+assert_that(summed_frame_scores |>
+              select(-home_op, -away_op) |>
+              anti_join(new_results_to_check) |>
+              nrow() == 0,
+            msg = "ERROR: scoring points don't add up")
 # Combine and filter out BYEs
 frame_scores_total <- rbind(frame_scores_old, frame_scores_new)
 frame_scores_total <- frame_scores_total %>%
@@ -96,6 +110,14 @@ frame_scores_total <- frame_scores_total %>%
 
 # Close Selenium session opened in common functions
 remDr$close()
+
+# Update results_new with overall points summed from frame scores
+results_new <- results_new |>
+  filter(is.na(home_op)) |>
+  select(-c(home_op, away_op)) |>
+  inner_join(summed_frame_scores) |>
+  bind_rows(results_new |>
+              filter(!is.na(home_op)))
 
 # Create a new output for Looker Studio
 looker_output <- frame_scores_total %>%
