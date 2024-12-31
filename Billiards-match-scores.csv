@@ -1,414 +1,426 @@
-fixture_date,season,division,home_team,away_team,home_sp,away_sp,home_op,away_op,url
-2023-09-13,23,1,Moulsecoomb B,Hassocks A,11,14,529,583,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410860.html
-2023-09-13,23,1,St. Matthias B,Moulsecoomb A,14,12,590,557,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410861.html
-2023-09-20,23,1,Hassocks A,St. Matthias B,15,12,600,570,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410862.html
-2023-09-20,23,1,St. Matthias A,Moulsecoomb B,14,11,596,532,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410863.html
-2023-09-27,23,1,Moulsecoomb A,St. Matthias A,9,15,504,600,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410865.html
-2023-09-27,23,1,St. Matthias B,Moulsecoomb B,10,15,493,600,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410864.html
-2023-10-04,23,1,St. Matthias A,St. Matthias B,13,11,574,491,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410867.html
-2023-10-18,23,1,Hassocks A,St. Matthias A,15,12,600,537,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410869.html
-2023-10-18,23,1,Moulsecoomb B,Moulsecoomb A,10,14,515,597,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410868.html
-2023-10-25,23,1,Hassocks A,Moulsecoomb B,15,8,600,478,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410870.html
-2023-10-25,23,1,Moulsecoomb A,St. Matthias B,12,13,558,549,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410871.html
-2023-11-01,23,1,Moulsecoomb B,St. Matthias A,10,14,504,596,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410873.html
-2023-11-01,23,1,St. Matthias B,Hassocks A,13,10,569,446,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410872.html
-2023-11-08,23,1,Moulsecoomb B,St. Matthias B,14,12,587,539,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410875.html
-2023-11-08,23,1,St. Matthias A,Moulsecoomb A,14,11,599,548,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410874.html
-2023-11-22,23,1,Hassocks A,Moulsecoomb A,15,8,600,491,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410877.html
-2023-11-22,23,1,St. Matthias B,St. Matthias A,15,10,600,502,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410876.html
-2023-11-24,23,1,Moulsecoomb A,Hassocks A,8,15,473,600,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410866.html
-2023-11-29,23,1,Moulsecoomb A,Moulsecoomb B,11,15,556,600,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410879.html
-2023-11-29,23,1,St. Matthias A,Hassocks A,11,13,542,522,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410878.html
-2023-12-06,23,1,Moulsecoomb B,Hassocks A,15,12,600,573,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410881.html
-2023-12-06,23,1,St. Matthias B,Moulsecoomb A,11,12,538,556,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410880.html
-2023-12-13,23,1,Hassocks A,St. Matthias B,12,14,525,572,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410883.html
-2023-12-13,23,1,St. Matthias A,Moulsecoomb B,12,11,552,552,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410882.html
-2024-01-10,23,1,Moulsecoomb A,St. Matthias A,13,12,593,539,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410885.html
-2024-01-10,23,1,St. Matthias B,Moulsecoomb B,14,11,594,524,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410884.html
-2024-01-17,23,1,Moulsecoomb A,Hassocks A,14,11,594,509,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410887.html
-2024-01-24,23,1,Moulsecoomb B,Moulsecoomb A,11,10,539,525,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410889.html
-2024-01-31,23,1,Moulsecoomb A,St. Matthias B,10,15,524,600,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410890.html
-2024-02-07,23,1,St. Matthias A,St. Matthias B,13,12,558,550,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410886.html
-2024-02-14,23,1,Hassocks A,Moulsecoomb B,14,9,580,504,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410891.html
-2024-02-21,23,1,Moulsecoomb B,St. Matthias A,13,14,575,589,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410893.html
-2024-02-21,23,1,St. Matthias B,Hassocks A,10,15,509,600,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410892.html
-2024-02-28,23,1,Moulsecoomb B,St. Matthias B,14,10,598,501,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410895.html
-2024-02-28,23,1,St. Matthias A,Moulsecoomb A,15,11,600,536,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410894.html
-2024-03-06,23,1,Hassocks A,Moulsecoomb A,11,13,505,565,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410896.html
-2024-03-06,23,1,St. Matthias B,St. Matthias A,10,12,501,555,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410897.html
-2024-03-13,23,1,St. Matthias A,Hassocks A,11,14,488,585,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410899.html
-2024-03-20,23,1,Hassocks A,St. Matthias A,13,14,555,580,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410888.html
-2024-04-03,23,1,Moulsecoomb A,Moulsecoomb B,14,12,592,549,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410898.html
-2022-05-18,21,1,Moulsecoomb A,Champion House,13,13,590,546,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002173.html
-2022-04-13,21,1,St. Matthias A,Champion House,15,11,600,522,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002186.html
-2022-04-13,21,1,St. Matthias A,Champion House,14,10,599,453,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002165.html
-2022-03-30,21,1,Moulsecoomb A,Moulsecoomb B,10,15,543,600,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002185.html
-2022-03-23,21,1,Champion House,Moulsecoomb A,12,13,559,577,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002184.html
-2022-03-23,21,1,St. Matthias B,St. Matthias A,7,14,390,561,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002183.html
-2022-03-16,21,1,Moulsecoomb B,St. Matthias B,13,14,567,598,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002181.html
-2022-03-16,21,1,St. Matthias A,Moulsecoomb A,13,10,566,525,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002182.html
-2022-03-09,21,1,Moulsecoomb B,St. Matthias A,11,14,537,573,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002179.html
-2022-03-09,21,1,St. Matthias B,Champion House,12,11,527,515,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002180.html
-2022-03-08,21,1,Moulsecoomb B,Champion House,14,12,595,542,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002167.html
-2022-03-02,21,1,Champion House,Moulsecoomb B,12,13,506,558,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002177.html
-2022-03-02,21,1,Moulsecoomb A,St. Matthias B,13,12,576,560,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002178.html
-2022-02-09,21,1,Champion House,St. Matthias A,12,13,531,532,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002175.html
-2022-02-09,21,1,Moulsecoomb B,Moulsecoomb A,11,13,538,572,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002176.html
-2022-02-02,21,1,St. Matthias A,St. Matthias B,15,9,600,465,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002174.html
-2022-01-26,21,1,Moulsecoomb A,St. Matthias A,11,12,538,526,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002171.html
-2022-01-26,21,1,St. Matthias B,Moulsecoomb B,10,14,486,586,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002172.html
-2022-01-19,21,1,St. Matthias A,Moulsecoomb B,14,13,570,570,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002169.html
-2022-01-12,21,1,St. Matthias B,Moulsecoomb A,14,13,582,583,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002168.html
-2022-01-05,21,1,St. Matthias A,Moulsecoomb A,15,10,600,538,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002162.html
-2021-12-01,21,1,Moulsecoomb A,Moulsecoomb B,11,13,540,566,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002166.html
-2021-11-24,21,1,Champion House,Moulsecoomb A,9,15,488,600,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002163.html
-2021-11-24,21,1,St. Matthias B,St. Matthias A,11,14,518,578,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002164.html
-2021-11-17,21,1,Moulsecoomb B,St. Matthias B,15,7,600,459,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002161.html
-2021-11-10,21,1,Moulsecoomb B,St. Matthias A,12,13,534,571,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002159.html
-2021-11-10,21,1,St. Matthias B,Champion House,15,10,600,494,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002160.html
-2021-11-09,21,1,Champion House,Moulsecoomb B,8,15,404,600,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002158.html
-2021-11-03,21,1,Moulsecoomb A,St. Matthias B,13,12,567,552,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002157.html
-2021-10-27,21,1,Moulsecoomb B,Champion House,13,12,570,540,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002147.html
-2021-10-13,21,1,Champion House,St. Matthias A,10,14,441,592,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002155.html
-2021-10-13,21,1,Moulsecoomb B,Moulsecoomb A,13,12,575,557,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002156.html
-2021-10-06,21,1,Moulsecoomb A,Champion House,14,11,588,514,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002153.html
-2021-10-06,21,1,St. Matthias A,St. Matthias B,12,13,545,531,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002154.html
-2021-09-29,21,1,Moulsecoomb A,St. Matthias A,15,9,600,431,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002152.html
-2021-09-29,21,1,St. Matthias B,Moulsecoomb B,11,14,514,597,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002151.html
-2021-09-22,21,1,Champion House,St. Matthias B,13,12,567,512,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002150.html
-2021-09-22,21,1,St. Matthias A,Moulsecoomb B,14,13,580,557,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002149.html
-2021-09-15,21,1,St. Matthias B,Moulsecoomb A,9,15,466,600,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002148.html
-2023-03-29,22,1,Moulsecoomb A,Moulsecoomb B,12,13,550,594,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054325.html
-2023-03-29,22,1,St. Matthias A,Hassocks A,13,9,545,410,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054326.html
-2023-03-22,22,1,Hassocks A,Moulsecoomb A,12,13,493,576,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054323.html
-2023-03-22,22,1,St. Matthias B,St. Matthias A,10,14,487,586,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054324.html
-2023-03-08,22,1,Moulsecoomb B,St. Matthias B,10,13,508,559,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054321.html
-2023-03-08,22,1,St. Matthias A,Moulsecoomb A,15,9,600,508,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054322.html
-2023-03-01,22,1,Moulsecoomb B,St. Matthias A,13,12,564,533,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054320.html
-2023-03-01,22,1,St. Matthias B,Hassocks A,11,14,519,587,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054319.html
-2023-02-22,22,1,Hassocks A,Moulsecoomb B,14,12,574,548,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054318.html
-2023-02-15,22,1,Moulsecoomb A,St. Matthias B,11,12,531,535,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054317.html
-2023-02-01,22,1,Hassocks A,St. Matthias A,13,13,529,569,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054316.html
-2023-02-01,22,1,Moulsecoomb B,Moulsecoomb A,14,12,592,564,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054315.html
-2023-01-25,22,1,Moulsecoomb A,Hassocks A,12,13,553,553,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054314.html
-2023-01-25,22,1,St. Matthias A,St. Matthias B,13,8,564,449,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054313.html
-2023-01-18,22,1,Moulsecoomb A,St. Matthias A,15,10,600,510,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054311.html
-2023-01-18,22,1,St. Matthias B,Moulsecoomb B,15,10,600,532,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054312.html
-2022-12-21,22,1,Hassocks A,St. Matthias B,14,10,581,506,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054309.html
-2022-12-21,22,1,St. Matthias A,Moulsecoomb B,14,11,589,545,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054310.html
-2022-12-07,22,1,Moulsecoomb B,Hassocks A,12,12,549,514,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054307.html
-2022-12-07,22,1,St. Matthias B,Moulsecoomb A,14,11,585,539,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054308.html
-2022-11-30,22,1,Moulsecoomb A,Moulsecoomb B,12,15,565,600,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054306.html
-2022-11-30,22,1,St. Matthias A,Hassocks A,14,11,590,498,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054305.html
-2022-11-23,22,1,Hassocks A,Moulsecoomb A,14,12,563,540,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054303.html
-2022-11-23,22,1,St. Matthias B,St. Matthias A,12,14,562,597,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054304.html
-2022-11-15,22,1,St. Matthias B,Moulsecoomb B,12,15,541,600,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054292.html
-2022-11-09,22,1,Moulsecoomb B,St. Matthias B,14,13,591,587,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054301.html
-2022-11-09,22,1,St. Matthias A,Moulsecoomb A,13,14,586,595,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054302.html
-2022-11-02,22,1,Moulsecoomb B,St. Matthias A,11,13,532,568,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054300.html
-2022-11-02,22,1,St. Matthias B,Hassocks A,11,14,529,593,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054299.html
-2022-10-26,22,1,Hassocks A,Moulsecoomb B,14,10,586,518,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054298.html
-2022-10-26,22,1,Moulsecoomb A,St. Matthias B,14,13,596,578,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054297.html
-2022-10-19,22,1,Hassocks A,St. Matthias A,15,10,600,470,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054295.html
-2022-10-19,22,1,Moulsecoomb B,Moulsecoomb A,15,9,600,514,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054296.html
-2022-10-05,22,1,Moulsecoomb A,Hassocks A,10,15,525,600,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054294.html
-2022-10-05,22,1,St. Matthias A,St. Matthias B,13,12,543,525,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054293.html
-2022-09-28,22,1,Moulsecoomb A,St. Matthias A,12,14,584,597,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054291.html
-2022-09-21,22,1,Hassocks A,St. Matthias B,12,12,506,511,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054290.html
-2022-09-21,22,1,St. Matthias A,Moulsecoomb B,11,15,522,600,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054289.html
-2022-09-14,22,1,Moulsecoomb B,Hassocks A,12,13,555,552,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054287.html
-2022-09-14,22,1,St. Matthias B,Moulsecoomb A,9,14,482,589,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054288.html
-2020-02-19,19,1,Champion House,Annunciation,13,13,586,557,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130237.html
-2020-02-19,19,1,Moulsecoomb B,St. Matthias B,8,15,494,600,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130239.html
-2020-02-19,19,1,St. Matthias A,Moulsecoomb A,15,11,600,538,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130238.html
-2020-02-12,19,1,Annunciation,Moulsecoomb A,15,8,600,497,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130235.html
-2020-02-12,19,1,Moulsecoomb B,St. Matthias A,11,13,524,575,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130234.html
-2020-02-12,19,1,St. Matthias B,Champion House,12,14,522,576,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130236.html
-2020-02-05,19,1,Champion House,Moulsecoomb B,13,12,546,549,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130233.html
-2020-02-05,19,1,Moulsecoomb A,St. Matthias B,14,13,576,565,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130232.html
-2020-02-05,19,1,St. Matthias A,Annunciation,12,13,541,544,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130231.html
-2020-01-22,19,1,Champion House,St. Matthias A,14,11,582,483,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130228.html
-2020-01-22,19,1,Moulsecoomb B,Moulsecoomb A,15,8,600,499,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130230.html
-2020-01-22,19,1,St. Matthias B,Annunciation,14,8,561,420,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130229.html
-2020-01-15,19,1,Annunciation,Moulsecoomb B,15,10,600,528,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130226.html
-2020-01-15,19,1,Moulsecoomb A,Champion House,15,11,600,565,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130225.html
-2020-01-15,19,1,St. Matthias A,St. Matthias B,13,12,573,508,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130227.html
-2019-12-11,19,1,Annunciation,Champion House,13,11,555,509,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130222.html
-2019-12-11,19,1,Moulsecoomb A,St. Matthias A,10,13,520,557,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130223.html
-2019-12-11,19,1,St. Matthias B,Moulsecoomb B,12,11,507,557,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130224.html
-2019-11-20,19,1,Champion House,St. Matthias B,7,13,329,556,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130221.html
-2019-11-20,19,1,Moulsecoomb A,Annunciation,15,10,600,476,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130220.html
-2019-11-20,19,1,St. Matthias A,Moulsecoomb B,15,9,600,486,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130219.html
-2019-11-13,19,1,Annunciation,St. Matthias A,13,11,572,500,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130216.html
-2019-11-13,19,1,Moulsecoomb B,Champion House,15,9,600,479,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130218.html
-2019-11-13,19,1,St. Matthias B,Moulsecoomb A,9,15,427,600,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130217.html
-2019-11-06,19,1,Annunciation,St. Matthias B,6,15,307,600,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130214.html
-2019-11-06,19,1,Moulsecoomb A,Moulsecoomb B,10,15,499,600,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130215.html
-2019-11-06,19,1,St. Matthias A,Champion House,14,12,574,564,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130213.html
-2019-10-23,19,1,Champion House,Moulsecoomb A,12,12,526,561,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130210.html
-2019-10-23,19,1,Moulsecoomb B,Annunciation,14,10,599,440,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130211.html
-2019-10-23,19,1,St. Matthias B,St. Matthias A,15,9,600,463,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130212.html
-2019-10-16,19,1,Champion House,Annunciation,14,13,591,572,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130207.html
-2019-10-16,19,1,Moulsecoomb B,St. Matthias B,15,12,600,580,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130209.html
-2019-10-16,19,1,St. Matthias A,Moulsecoomb A,14,9,572,505,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130208.html
-2019-10-09,19,1,Annunciation,Moulsecoomb A,13,13,547,575,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130205.html
-2019-10-09,19,1,Moulsecoomb B,St. Matthias A,12,13,560,572,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130204.html
-2019-10-09,19,1,St. Matthias B,Champion House,14,10,570,470,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130206.html
-2019-09-25,19,1,Champion House,Moulsecoomb B,9,15,442,600,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130203.html
-2019-09-25,19,1,Moulsecoomb A,St. Matthias B,11,15,564,600,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130202.html
-2019-09-25,19,1,St. Matthias A,Annunciation,13,12,563,537,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130201.html
-2019-09-18,19,1,Champion House,St. Matthias A,12,14,545,586,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130198.html
-2019-09-18,19,1,Moulsecoomb B,Moulsecoomb A,12,13,552,597,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130200.html
-2019-09-18,19,1,St. Matthias B,Annunciation,11,13,513,523,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130199.html
-2019-09-11,19,1,Annunciation,Moulsecoomb B,11,14,484,585,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130196.html
-2019-09-11,19,1,Moulsecoomb A,Champion House,15,7,600,360,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130195.html
-2019-09-11,19,1,St. Matthias A,St. Matthias B,11,14,526,593,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130197.html
-2015-01-07,14,1,Annunciation A,Champion House,13,11,548,496,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18529612.html
-2015-01-07,14,1,Moulsecoomb A,Moulsecoomb B,15,12,600,579,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18529614.html
-2014-11-26,14,1,Annunciation A,N.A.R.C.,13,12,543,536,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18529607.html
-2014-11-26,14,1,Champion House,Moulsecoomb B,12,11,525,524,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18529608.html
-2014-11-26,14,1,Moulsecoomb A,Annunciation B,14,12,585,531,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18529606.html
-2014-11-19,14,1,Annunciation B,Champion House,14,12,585,521,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18529605.html
-2014-11-19,14,1,Moulsecoomb B,Annunciation A,12,14,530,572,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18529604.html
-2014-11-19,14,1,N.A.R.C.,Moulsecoomb A,14,11,588,558,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18529603.html
-2014-11-12,14,1,Annunciation A,Annunciation B,13,12,554,534,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18529602.html
-2014-11-12,14,1,Moulsecoomb A,Champion House,11,10,510,466,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18529600.html
-2014-11-12,14,1,N.A.R.C.,Moulsecoomb B,12,14,548,593,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18529601.html
-2014-10-22,14,1,Annunciation B,N.A.R.C.,13,13,570,565,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18529598.html
-2014-10-22,14,1,Champion House,Annunciation A,12,14,533,573,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18529597.html
-2014-10-22,14,1,Moulsecoomb B,Moulsecoomb A,11,14,528,593,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18529599.html
-2014-10-15,14,1,Annunciation B,Moulsecoomb B,13,13,551,563,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18529596.html
-2014-10-15,14,1,Champion House,N.A.R.C.,11,14,512,598,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18529594.html
-2014-10-15,14,1,Moulsecoomb A,Annunciation A,9,15,505,600,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18529595.html
-2014-10-08,14,1,Annunciation B,Moulsecoomb A,13,10,537,520,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18529591.html
-2014-10-08,14,1,Moulsecoomb B,Champion House,10,13,501,556,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18529593.html
-2014-10-08,14,1,N.A.R.C.,Annunciation A,13,13,551,569,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18529592.html
-2014-09-24,14,1,Annunciation A,Moulsecoomb B,12,12,500,541,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18529589.html
-2014-09-24,14,1,Champion House,Annunciation B,10,12,422,541,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18529590.html
-2014-09-24,14,1,Moulsecoomb A,N.A.R.C.,10,15,530,600,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18529588.html
-2014-09-17,14,1,Annunciation B,Annunciation A,10,15,474,600,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18529587.html
-2014-09-17,14,1,Champion House,Moulsecoomb A,13,12,578,557,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18529585.html
-2014-09-17,14,1,Moulsecoomb B,N.A.R.C.,9,15,450,600,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18529586.html
-2014-09-10,14,1,Annunciation A,Champion House,13,12,553,499,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18529582.html
-2014-09-10,14,1,Moulsecoomb A,Moulsecoomb B,12,13,568,538,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18529584.html
-2014-09-10,14,1,N.A.R.C.,Annunciation B,13,13,530,556,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18529583.html
-2016-04-06,15,1,Annunciation B,St. Mathias,13,11,558,510,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18799024.html
-2016-04-06,15,1,Champion House,Moulsecoomb B,13,12,559,550,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18799023.html
-2016-03-30,15,1,Annunciation A,St. Mathias,13,11,545,537,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18799021.html
-2016-03-30,15,1,Moulsecoomb B,Moulsecoomb A,13,13,593,588,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18799022.html
-2016-03-23,15,1,Annunciation B,Moulsecoomb B,11,11,495,513,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18799020.html
-2016-03-23,15,1,Champion House,Annunciation A,8,15,434,600,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18799019.html
-2016-03-23,15,1,Moulsecoomb A,St. Mathias,13,13,569,565,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18798996.html
-2016-03-16,15,1,Champion House,Moulsecoomb A,12,11,516,507,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18799017.html
-2016-03-16,15,1,Moulsecoomb B,St. Mathias,14,12,579,548,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18799018.html
-2016-03-09,15,1,Annunciation B,Champion House,14,12,584,491,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18799016.html
-2016-03-09,15,1,Moulsecoomb A,Annunciation A,6,15,462,600,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18799015.html
-2016-03-02,15,1,Annunciation A,Moulsecoomb B,15,9,600,482,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18799012.html
-2016-03-02,15,1,Champion House,St. Mathias,14,12,576,548,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18799014.html
-2016-03-02,15,1,Moulsecoomb A,Annunciation B,12,14,582,592,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18799013.html
-2016-02-24,15,1,Annunciation B,Annunciation A,7,15,380,600,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18799010.html
-2016-02-24,15,1,St. Mathias,Moulsecoomb A,11,14,513,579,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18799011.html
-2016-02-17,15,1,Moulsecoomb B,Champion House,14,9,584,412,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18799008.html
-2016-02-17,15,1,St. Mathias,Annunciation B,9,15,431,600,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18799009.html
-2016-02-10,15,1,Moulsecoomb A,Moulsecoomb B,12,12,574,547,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18799007.html
-2016-02-10,15,1,St. Mathias,Annunciation A,10,14,490,582,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18799006.html
-2016-02-03,15,1,Annunciation A,Champion House,14,11,587,472,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18799004.html
-2016-02-03,15,1,Moulsecoomb B,Annunciation B,9,13,509,559,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18799005.html
-2016-01-27,15,1,Moulsecoomb A,Champion House,8,15,494,600,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18799002.html
-2016-01-27,15,1,St. Mathias,Moulsecoomb B,14,12,580,556,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18799003.html
-2016-01-20,15,1,Annunciation A,Moulsecoomb A,14,11,575,532,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18799000.html
-2016-01-20,15,1,Champion House,Annunciation B,11,14,491,596,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18799001.html
-2016-01-13,15,1,Annunciation B,Moulsecoomb A,14,13,576,590,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18798998.html
-2016-01-13,15,1,Moulsecoomb B,Annunciation A,12,14,552,593,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18798997.html
-2016-01-13,15,1,St. Mathias,Champion House,14,13,593,583,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18798999.html
-2016-01-06,15,1,Annunciation A,Annunciation B,12,12,514,507,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18798995.html
-2015-12-16,15,1,Annunciation B,St. Mathias,15,7,600,384,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18798994.html
-2015-12-16,15,1,Champion House,Moulsecoomb B,14,10,586,509,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18798993.html
-2015-12-09,15,1,Annunciation A,St. Mathias,13,12,589,547,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18798991.html
-2015-12-09,15,1,Moulsecoomb B,Moulsecoomb A,12,12,539,528,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18798992.html
-2015-12-02,15,1,Annunciation B,Moulsecoomb B,10,13,482,540,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18798990.html
-2015-12-02,15,1,Champion House,Annunciation A,12,12,513,505,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18798989.html
-2015-11-25,15,1,Champion House,Moulsecoomb A,11,14,522,592,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18798987.html
-2015-11-25,15,1,Moulsecoomb B,St. Mathias,14,11,587,520,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18798988.html
-2015-11-18,15,1,Annunciation B,Champion House,13,11,523,527,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18798986.html
-2015-11-18,15,1,Moulsecoomb A,Annunciation A,10,14,552,596,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18798985.html
-2015-11-11,15,1,Annunciation A,Moulsecoomb B,10,11,481,519,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18798982.html
-2015-11-11,15,1,Champion House,St. Mathias,14,12,595,532,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18798984.html
-2015-11-11,15,1,Moulsecoomb A,Annunciation B,7,15,473,600,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18798983.html
-2015-11-04,15,1,Annunciation B,Annunciation A,12,12,549,518,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18798980.html
-2015-11-04,15,1,St. Mathias,Moulsecoomb A,14,13,570,590,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18798981.html
-2015-10-28,15,1,Moulsecoomb B,Champion House,12,13,558,558,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18798978.html
-2015-10-28,15,1,St. Mathias,Annunciation B,12,14,534,598,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18798979.html
-2015-10-21,15,1,Moulsecoomb A,Moulsecoomb B,12,12,529,544,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18798977.html
-2015-10-21,15,1,St. Mathias,Annunciation A,7,15,429,600,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18798976.html
-2015-10-14,15,1,Annunciation A,Champion House,13,11,555,447,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18798974.html
-2015-10-14,15,1,Moulsecoomb B,Annunciation B,11,15,534,600,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18798975.html
-2015-10-07,15,1,Moulsecoomb A,Champion House,11,13,514,534,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18798972.html
-2015-10-07,15,1,St. Mathias,Moulsecoomb B,11,14,511,592,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18798973.html
-2015-09-30,15,1,Annunciation A,Moulsecoomb A,15,7,600,452,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18799025.html
-2015-09-30,15,1,Champion House,Annunciation B,12,13,543,534,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18799026.html
-2015-09-23,15,1,Annunciation B,Moulsecoomb A,12,10,543,513,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18783970.html
-2015-09-23,15,1,Moulsecoomb B,Annunciation A,13,13,568,556,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18783969.html
-2015-09-23,15,1,St. Mathias,Champion House,12,14,511,586,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18783971.html
-2015-09-16,15,1,Annunciation A,Annunciation B,13,12,591,524,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18729501.html
-2015-09-16,15,1,Moulsecoomb A,St. Mathias,14,12,579,541,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18729502.html
-2017-04-12,16,1,Annunciation,Champion House,15,9,600,450,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350372.html
-2017-04-12,16,1,Moulsecoomb B,St. Matthias B,8,15,484,600,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350374.html
-2017-04-12,16,1,St. Matthias A,Moulsecoomb A,13,12,562,525,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350373.html
-2017-03-29,16,1,Champion House,Moulsecoomb B,12,13,516,560,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350371.html
-2017-03-29,16,1,Moulsecoomb A,St. Matthias B,11,14,559,582,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350369.html
-2017-03-29,16,1,St. Matthias A,Annunciation,10,12,505,518,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350370.html
-2017-03-15,16,1,Annunciation,Moulsecoomb A,12,13,535,575,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350366.html
-2017-03-15,16,1,Moulsecoomb B,St. Matthias A,10,15,479,600,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350367.html
-2017-03-15,16,1,St. Matthias B,Champion House,13,13,556,587,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350368.html
-2017-03-08,16,1,Annunciation,Moulsecoomb B,14,13,592,569,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350364.html
-2017-03-08,16,1,Moulsecoomb A,Champion House,13,14,592,598,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350363.html
-2017-03-08,16,1,St. Matthias A,St. Matthias B,11,12,537,506,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350365.html
-2017-02-15,16,1,Champion House,St. Matthias A,13,10,549,506,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350360.html
-2017-02-15,16,1,Moulsecoomb B,Moulsecoomb A,12,12,547,573,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350362.html
-2017-02-15,16,1,St. Matthias B,Annunciation,12,11,520,453,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350361.html
-2017-02-08,16,1,Champion House,Annunciation,10,14,481,598,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350357.html
-2017-02-08,16,1,Moulsecoomb A,St. Matthias A,12,13,570,569,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350358.html
-2017-02-08,16,1,St. Matthias B,Moulsecoomb B,13,12,564,554,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350359.html
-2017-02-01,16,1,Annunciation,St. Matthias A,12,11,538,527,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350355.html
-2017-02-01,16,1,Moulsecoomb B,Champion House,12,12,572,507,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350356.html
-2017-02-01,16,1,St. Matthias B,Moulsecoomb A,15,9,600,552,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350354.html
-2017-01-18,16,1,Champion House,St. Matthias B,14,12,575,533,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350353.html
-2017-01-18,16,1,Moulsecoomb A,Annunciation,9,15,485,600,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350351.html
-2017-01-18,16,1,St. Matthias A,Moulsecoomb B,11,12,539,544,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350352.html
-2017-01-11,16,1,Champion House,Moulsecoomb A,13,10,564,509,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350348.html
-2017-01-11,16,1,Moulsecoomb B,Annunciation,9,13,474,547,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350349.html
-2017-01-11,16,1,St. Matthias B,St. Matthias A,8,15,406,600,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350350.html
-2017-01-04,16,1,Annunciation,St. Matthias B,14,8,581,363,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350346.html
-2017-01-04,16,1,Moulsecoomb A,Moulsecoomb B,12,12,583,534,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350347.html
-2017-01-04,16,1,St. Matthias A,Champion House,14,13,592,562,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350345.html
-2016-12-14,16,1,Annunciation,Champion House,13,11,544,477,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350342.html
-2016-12-14,16,1,Moulsecoomb B,St. Matthias B,12,14,555,586,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350344.html
-2016-12-14,16,1,St. Matthias A,Moulsecoomb A,13,11,555,566,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350343.html
-2016-11-23,16,1,Champion House,Moulsecoomb B,14,13,588,578,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350341.html
-2016-11-23,16,1,Moulsecoomb A,St. Matthias B,14,12,595,549,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350339.html
-2016-11-23,16,1,St. Matthias A,Annunciation,8,13,431,553,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350340.html
-2016-11-16,16,1,Annunciation,Moulsecoomb A,13,12,535,572,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350336.html
-2016-11-16,16,1,Moulsecoomb B,St. Matthias A,14,12,583,558,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350337.html
-2016-11-16,16,1,St. Matthias B,Champion House,12,12,544,512,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350338.html
-2016-11-09,16,1,Annunciation,Moulsecoomb B,15,12,600,573,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350334.html
-2016-11-09,16,1,Moulsecoomb A,Champion House,15,11,600,495,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350333.html
-2016-11-09,16,1,St. Matthias A,St. Matthias B,10,15,483,600,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350335.html
-2016-10-26,16,1,Champion House,St. Matthias A,12,13,526,569,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350330.html
-2016-10-26,16,1,Moulsecoomb B,Moulsecoomb A,13,14,583,597,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350332.html
-2016-10-26,16,1,St. Matthias B,Annunciation,15,10,600,443,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350331.html
-2016-10-19,16,1,Champion House,Annunciation,13,13,563,533,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350327.html
-2016-10-19,16,1,Moulsecoomb A,St. Matthias A,11,14,569,584,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350328.html
-2016-10-19,16,1,St. Matthias B,Moulsecoomb B,12,11,523,531,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350329.html
-2016-10-12,16,1,Annunciation,St. Matthias A,10,15,488,600,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350325.html
-2016-10-12,16,1,Moulsecoomb B,Champion House,15,12,600,527,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350326.html
-2016-10-12,16,1,St. Matthias B,Moulsecoomb A,15,9,600,508,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350324.html
-2016-09-28,16,1,Champion House,St. Matthias B,12,14,523,594,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350323.html
-2016-09-28,16,1,Moulsecoomb A,Annunciation,14,11,597,496,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350321.html
-2016-09-28,16,1,St. Matthias A,Moulsecoomb B,13,14,582,599,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350322.html
-2016-09-21,16,1,Champion House,Moulsecoomb A,12,12,555,572,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20278422.html
-2016-09-21,16,1,Moulsecoomb B,Annunciation,11,12,546,491,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20278339.html
-2016-09-21,16,1,St. Matthias B,St. Matthias A,11,15,549,600,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20278340.html
-2016-09-14,16,1,Annunciation,St. Matthias B,13,10,548,499,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20278334.html
-2016-09-14,16,1,Moulsecoomb A,Moulsecoomb B,11,12,569,548,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20278335.html
-2016-09-14,16,1,St. Matthias A,Champion House,12,13,573,545,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20278336.html
-2018-04-04,17,1,Annunciation,Champion House,12,13,511,551,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649523.html
-2018-04-04,17,1,Moulsecoomb A,St. Mathias,11,15,562,600,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649524.html
-2018-03-28,17,1,Moulsecoomb A,Annunciation,12,14,548,575,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649522.html
-2018-03-28,17,1,St. Mathias,Moulsecoomb B,14,12,596,547,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649521.html
-2018-03-14,17,1,Annunciation,St. Mathias,13,11,533,488,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649519.html
-2018-03-14,17,1,Moulsecoomb B,Champion House,11,13,536,572,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649520.html
-2018-03-07,17,1,Moulsecoomb A,Moulsecoomb B,13,14,588,579,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649518.html
-2018-03-07,17,1,St. Mathias,Champion House,13,9,550,366,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649517.html
-2018-02-21,17,1,Champion House,Moulsecoomb A,14,13,575,587,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649515.html
-2018-02-21,17,1,Moulsecoomb B,Annunciation,13,14,573,574,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649516.html
-2018-02-14,17,1,Champion House,Annunciation,11,15,538,600,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649513.html
-2018-02-14,17,1,St. Mathias,Moulsecoomb A,14,12,597,565,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649514.html
-2018-01-31,17,1,Annunciation,Moulsecoomb A,13,13,582,567,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649512.html
-2018-01-31,17,1,Moulsecoomb B,St. Mathias,13,11,573,550,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649511.html
-2018-01-24,17,1,Champion House,Moulsecoomb B,12,12,499,560,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649510.html
-2018-01-24,17,1,St. Mathias,Annunciation,12,13,536,535,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649509.html
-2018-01-10,17,1,Champion House,St. Mathias,13,11,551,484,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649507.html
-2018-01-10,17,1,Moulsecoomb B,Moulsecoomb A,12,13,527,591,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649508.html
-2018-01-03,17,1,Annunciation,Moulsecoomb B,15,7,600,376,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649506.html
-2018-01-03,17,1,Moulsecoomb A,Champion House,13,12,582,520,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649505.html
-2017-12-13,17,1,Annunciation,Champion House,13,12,548,553,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649503.html
-2017-12-13,17,1,Moulsecoomb A,St. Mathias,5,15,441,600,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649504.html
-2017-12-06,17,1,Moulsecoomb A,Annunciation,13,11,541,472,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649502.html
-2017-12-06,17,1,St. Mathias,Moulsecoomb B,14,12,576,560,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649501.html
-2017-11-22,17,1,Annunciation,St. Mathias,12,14,511,580,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649499.html
-2017-11-22,17,1,Moulsecoomb B,Champion House,10,12,477,518,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649500.html
-2017-11-15,17,1,Moulsecoomb A,Moulsecoomb B,13,14,578,583,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649498.html
-2017-11-15,17,1,St. Mathias,Champion House,15,11,600,505,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649497.html
-2017-11-01,17,1,Champion House,Moulsecoomb A,14,11,590,555,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649495.html
-2017-11-01,17,1,Moulsecoomb B,Annunciation,10,15,530,600,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649496.html
-2017-10-25,17,1,Champion House,Annunciation,9,14,422,595,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649493.html
-2017-10-25,17,1,St. Mathias,Moulsecoomb A,14,10,597,510,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649494.html
-2017-10-11,17,1,Annunciation,Moulsecoomb A,14,12,593,540,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649492.html
-2017-10-11,17,1,Moulsecoomb B,St. Mathias,14,12,598,514,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649491.html
-2017-10-04,17,1,Champion House,Moulsecoomb B,11,14,521,581,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649490.html
-2017-10-04,17,1,St. Mathias,Annunciation,14,11,596,493,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649489.html
-2017-09-20,17,1,Champion House,St. Mathias,13,11,522,541,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649487.html
-2017-09-20,17,1,Moulsecoomb B,Moulsecoomb A,15,10,600,549,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649488.html
-2017-09-13,17,1,Annunciation,Moulsecoomb B,15,9,600,503,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649486.html
-2017-09-13,17,1,Moulsecoomb A,Champion House,10,14,498,590,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649485.html
-2019-04-17,18,1,Annunciation,Champion House,13,11,547,519,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979869.html
-2019-04-17,18,1,Moulsecoomb A,St. Matthias A,13,11,575,536,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979870.html
-2019-04-17,18,1,St. Matthias B,Moulsecoomb B,11,11,498,551,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979871.html
-2019-04-03,18,1,Champion House,St. Matthias B,11,14,485,586,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979868.html
-2019-04-03,18,1,Moulsecoomb A,Annunciation,12,13,541,526,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979867.html
-2019-04-03,18,1,St. Matthias A,Moulsecoomb B,15,10,600,526,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979866.html
-2019-03-20,18,1,Annunciation,St. Matthias A,11,11,477,541,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979863.html
-2019-03-20,18,1,Moulsecoomb B,Champion House,14,11,592,510,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979865.html
-2019-03-20,18,1,St. Matthias B,Moulsecoomb A,13,12,558,577,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979864.html
-2019-03-13,18,1,Annunciation,St. Matthias B,15,12,600,532,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979861.html
-2019-03-13,18,1,Moulsecoomb A,Moulsecoomb B,13,12,552,562,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979862.html
-2019-03-13,18,1,St. Matthias A,Champion House,10,15,507,600,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979860.html
-2019-02-20,18,1,Champion House,Moulsecoomb A,11,13,502,570,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979857.html
-2019-02-20,18,1,Moulsecoomb B,Annunciation,11,14,518,571,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979858.html
-2019-02-20,18,1,St. Matthias B,St. Matthias A,15,9,600,476,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979859.html
-2019-02-13,18,1,Champion House,Annunciation,12,13,540,552,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979854.html
-2019-02-13,18,1,Moulsecoomb B,St. Matthias B,11,13,532,560,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979856.html
-2019-02-13,18,1,St. Matthias A,Moulsecoomb A,15,9,600,515,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979855.html
-2019-02-06,18,1,Annunciation,Moulsecoomb A,14,12,570,571,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979852.html
-2019-02-06,18,1,Moulsecoomb B,St. Matthias A,14,12,576,537,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979851.html
-2019-02-06,18,1,St. Matthias B,Champion House,13,10,542,475,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979853.html
-2019-01-23,18,1,Champion House,Moulsecoomb B,13,12,572,562,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979850.html
-2019-01-23,18,1,Moulsecoomb A,St. Matthias B,12,13,564,557,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979849.html
-2019-01-23,18,1,St. Matthias A,Annunciation,12,14,542,571,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979848.html
-2019-01-16,18,1,Champion House,St. Matthias A,14,9,573,523,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979845.html
-2019-01-16,18,1,Moulsecoomb B,Moulsecoomb A,10,15,518,600,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979847.html
-2019-01-16,18,1,St. Matthias B,Annunciation,10,13,483,548,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979846.html
-2019-01-09,18,1,Annunciation,Moulsecoomb B,15,10,600,511,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979843.html
-2019-01-09,18,1,Moulsecoomb A,Champion House,12,13,560,553,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979842.html
-2019-01-09,18,1,St. Matthias A,St. Matthias B,13,11,588,468,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979844.html
-2018-12-12,18,1,Annunciation,Champion House,12,13,506,562,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979839.html
-2018-12-12,18,1,Moulsecoomb A,St. Matthias A,12,13,543,581,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979840.html
-2018-12-12,18,1,St. Matthias B,Moulsecoomb B,10,13,448,571,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979841.html
-2018-11-21,18,1,Champion House,St. Matthias B,14,12,592,525,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979838.html
-2018-11-21,18,1,Moulsecoomb A,Annunciation,12,14,584,590,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979837.html
-2018-11-21,18,1,St. Matthias A,Moulsecoomb B,9,14,499,596,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979836.html
-2018-11-14,18,1,Annunciation,St. Matthias A,13,12,554,538,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979833.html
-2018-11-14,18,1,Moulsecoomb B,Champion House,14,13,584,555,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979835.html
-2018-11-14,18,1,St. Matthias B,Moulsecoomb A,15,11,600,567,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979834.html
-2018-11-07,18,1,Annunciation,St. Matthias B,13,11,520,523,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979831.html
-2018-11-07,18,1,Moulsecoomb A,Moulsecoomb B,15,9,600,487,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979832.html
-2018-11-07,18,1,St. Matthias A,Champion House,13,14,570,566,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979830.html
-2018-10-24,18,1,Champion House,Moulsecoomb A,13,13,570,580,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979827.html
-2018-10-24,18,1,Moulsecoomb B,Annunciation,12,15,546,600,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979828.html
-2018-10-24,18,1,St. Matthias B,St. Matthias A,12,12,526,539,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979829.html
-2018-10-17,18,1,Champion House,Annunciation,11,15,511,600,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979824.html
-2018-10-17,18,1,Moulsecoomb B,St. Matthias B,13,10,568,465,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979826.html
-2018-10-17,18,1,St. Matthias A,Moulsecoomb A,14,12,577,560,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979825.html
-2018-10-10,18,1,Annunciation,Moulsecoomb A,15,10,600,556,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979822.html
-2018-10-10,18,1,Moulsecoomb B,St. Matthias A,11,15,515,600,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979821.html
-2018-10-10,18,1,St. Matthias B,Champion House,15,11,600,514,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979823.html
-2018-09-26,18,1,Champion House,Moulsecoomb B,8,15,405,600,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979820.html
-2018-09-26,18,1,Moulsecoomb A,St. Matthias B,11,13,550,560,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979819.html
-2018-09-26,18,1,St. Matthias A,Annunciation,12,14,553,589,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979818.html
-2018-09-19,18,1,Champion House,St. Matthias A,14,11,581,509,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979815.html
-2018-09-19,18,1,Moulsecoomb B,Moulsecoomb A,9,15,496,600,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979817.html
-2018-09-19,18,1,St. Matthias B,Annunciation,10,12,449,516,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979816.html
-2018-09-12,18,1,Annunciation,Moulsecoomb B,15,9,600,494,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979813.html
-2018-09-12,18,1,Moulsecoomb A,Champion House,14,10,588,470,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979812.html
-2018-09-12,18,1,St. Matthias A,St. Matthias B,11,14,546,591,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979814.html
+fixture_date,season,division,home_team,away_team,home_sp,away_sp,url,home_op,away_op
+2024-09-25,24,1,Moulsecoomb A,Moulsecoomb B,10,15,http://brightonhovedistrictbilliards.leaguerepublic.com/match/38226471.html,543,600
+2024-09-25,24,1,St. Matthias B,St. Matthias A,15,9,http://brightonhovedistrictbilliards.leaguerepublic.com/match/38226472.html,600,475
+2024-10-02,24,1,Moulsecoomb B,St. Matthias B,14,13,http://brightonhovedistrictbilliards.leaguerepublic.com/match/38226474.html,599,580
+2024-10-02,24,1,St. Matthias A,Moulsecoomb A,10,13,http://brightonhovedistrictbilliards.leaguerepublic.com/match/38226473.html,504,564
+2024-10-23,24,1,Moulsecoomb A,St. Matthias B,15,11,http://brightonhovedistrictbilliards.leaguerepublic.com/match/38226475.html,600,549
+2024-10-23,24,1,St. Matthias A,Moulsecoomb B,13,13,http://brightonhovedistrictbilliards.leaguerepublic.com/match/38226476.html,580,570
+2024-10-30,24,1,Moulsecoomb B,Moulsecoomb A,13,13,http://brightonhovedistrictbilliards.leaguerepublic.com/match/38226477.html,576,564
+2024-10-30,24,1,St. Matthias A,St. Matthias B,12,14,http://brightonhovedistrictbilliards.leaguerepublic.com/match/38226478.html,537,599
+2024-11-20,24,1,Moulsecoomb A,St. Matthias A,14,11,http://brightonhovedistrictbilliards.leaguerepublic.com/match/38226479.html,587,532
+2024-11-20,24,1,St. Matthias B,Moulsecoomb B,12,13,http://brightonhovedistrictbilliards.leaguerepublic.com/match/38226480.html,516,571
+2024-11-27,24,1,Moulsecoomb B,St. Matthias A,10,15,http://brightonhovedistrictbilliards.leaguerepublic.com/match/38226482.html,512,600
+2024-11-27,24,1,St. Matthias B,Moulsecoomb A,9,14,http://brightonhovedistrictbilliards.leaguerepublic.com/match/38226481.html,496,591
+2023-09-13,23,1,Moulsecoomb B,Hassocks A,11,14,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410860.html,529,583
+2023-09-13,23,1,St. Matthias B,Moulsecoomb A,14,12,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410861.html,590,557
+2023-09-20,23,1,Hassocks A,St. Matthias B,15,12,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410862.html,600,570
+2023-09-20,23,1,St. Matthias A,Moulsecoomb B,14,11,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410863.html,596,532
+2023-09-27,23,1,Moulsecoomb A,St. Matthias A,9,15,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410865.html,504,600
+2023-09-27,23,1,St. Matthias B,Moulsecoomb B,10,15,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410864.html,493,600
+2023-10-04,23,1,St. Matthias A,St. Matthias B,13,11,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410867.html,574,491
+2023-10-18,23,1,Hassocks A,St. Matthias A,15,12,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410869.html,600,537
+2023-10-18,23,1,Moulsecoomb B,Moulsecoomb A,10,14,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410868.html,515,597
+2023-10-25,23,1,Hassocks A,Moulsecoomb B,15,8,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410870.html,600,478
+2023-10-25,23,1,Moulsecoomb A,St. Matthias B,12,13,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410871.html,558,549
+2023-11-01,23,1,Moulsecoomb B,St. Matthias A,10,14,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410873.html,504,596
+2023-11-01,23,1,St. Matthias B,Hassocks A,13,10,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410872.html,569,446
+2023-11-08,23,1,Moulsecoomb B,St. Matthias B,14,12,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410875.html,587,539
+2023-11-08,23,1,St. Matthias A,Moulsecoomb A,14,11,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410874.html,599,548
+2023-11-22,23,1,Hassocks A,Moulsecoomb A,15,8,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410877.html,600,491
+2023-11-22,23,1,St. Matthias B,St. Matthias A,15,10,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410876.html,600,502
+2023-11-24,23,1,Moulsecoomb A,Hassocks A,8,15,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410866.html,473,600
+2023-11-29,23,1,Moulsecoomb A,Moulsecoomb B,11,15,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410879.html,556,600
+2023-11-29,23,1,St. Matthias A,Hassocks A,11,13,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410878.html,542,522
+2023-12-06,23,1,Moulsecoomb B,Hassocks A,15,12,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410881.html,600,573
+2023-12-06,23,1,St. Matthias B,Moulsecoomb A,11,12,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410880.html,538,556
+2023-12-13,23,1,Hassocks A,St. Matthias B,12,14,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410883.html,525,572
+2023-12-13,23,1,St. Matthias A,Moulsecoomb B,12,11,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410882.html,552,552
+2024-01-10,23,1,Moulsecoomb A,St. Matthias A,13,12,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410885.html,593,539
+2024-01-10,23,1,St. Matthias B,Moulsecoomb B,14,11,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410884.html,594,524
+2024-01-17,23,1,Moulsecoomb A,Hassocks A,14,11,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410887.html,594,509
+2024-01-24,23,1,Moulsecoomb B,Moulsecoomb A,11,10,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410889.html,539,525
+2024-01-31,23,1,Moulsecoomb A,St. Matthias B,10,15,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410890.html,524,600
+2024-02-07,23,1,St. Matthias A,St. Matthias B,13,12,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410886.html,558,550
+2024-02-14,23,1,Hassocks A,Moulsecoomb B,14,9,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410891.html,580,504
+2024-02-21,23,1,Moulsecoomb B,St. Matthias A,13,14,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410893.html,575,589
+2024-02-21,23,1,St. Matthias B,Hassocks A,10,15,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410892.html,509,600
+2024-02-28,23,1,Moulsecoomb B,St. Matthias B,14,10,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410895.html,598,501
+2024-02-28,23,1,St. Matthias A,Moulsecoomb A,15,11,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410894.html,600,536
+2024-03-06,23,1,Hassocks A,Moulsecoomb A,11,13,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410896.html,505,565
+2024-03-06,23,1,St. Matthias B,St. Matthias A,10,12,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410897.html,501,555
+2024-03-13,23,1,St. Matthias A,Hassocks A,11,14,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410899.html,488,585
+2024-03-20,23,1,Hassocks A,St. Matthias A,13,14,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410888.html,555,580
+2024-04-03,23,1,Moulsecoomb A,Moulsecoomb B,14,12,http://brightonhovedistrictbilliards.leaguerepublic.com/match/35410898.html,592,549
+2022-05-18,21,1,Moulsecoomb A,Champion House,13,13,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002173.html,590,546
+2022-04-13,21,1,St. Matthias A,Champion House,15,11,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002186.html,600,522
+2022-04-13,21,1,St. Matthias A,Champion House,14,10,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002165.html,599,453
+2022-03-30,21,1,Moulsecoomb A,Moulsecoomb B,10,15,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002185.html,543,600
+2022-03-23,21,1,Champion House,Moulsecoomb A,12,13,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002184.html,559,577
+2022-03-23,21,1,St. Matthias B,St. Matthias A,7,14,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002183.html,390,561
+2022-03-16,21,1,Moulsecoomb B,St. Matthias B,13,14,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002181.html,567,598
+2022-03-16,21,1,St. Matthias A,Moulsecoomb A,13,10,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002182.html,566,525
+2022-03-09,21,1,Moulsecoomb B,St. Matthias A,11,14,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002179.html,537,573
+2022-03-09,21,1,St. Matthias B,Champion House,12,11,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002180.html,527,515
+2022-03-08,21,1,Moulsecoomb B,Champion House,14,12,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002167.html,595,542
+2022-03-02,21,1,Champion House,Moulsecoomb B,12,13,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002177.html,506,558
+2022-03-02,21,1,Moulsecoomb A,St. Matthias B,13,12,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002178.html,576,560
+2022-02-09,21,1,Champion House,St. Matthias A,12,13,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002175.html,531,532
+2022-02-09,21,1,Moulsecoomb B,Moulsecoomb A,11,13,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002176.html,538,572
+2022-02-02,21,1,St. Matthias A,St. Matthias B,15,9,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002174.html,600,465
+2022-01-26,21,1,Moulsecoomb A,St. Matthias A,11,12,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002171.html,538,526
+2022-01-26,21,1,St. Matthias B,Moulsecoomb B,10,14,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002172.html,486,586
+2022-01-19,21,1,St. Matthias A,Moulsecoomb B,14,13,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002169.html,570,570
+2022-01-12,21,1,St. Matthias B,Moulsecoomb A,14,13,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002168.html,582,583
+2022-01-05,21,1,St. Matthias A,Moulsecoomb A,15,10,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002162.html,600,538
+2021-12-01,21,1,Moulsecoomb A,Moulsecoomb B,11,13,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002166.html,540,566
+2021-11-24,21,1,Champion House,Moulsecoomb A,9,15,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002163.html,488,600
+2021-11-24,21,1,St. Matthias B,St. Matthias A,11,14,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002164.html,518,578
+2021-11-17,21,1,Moulsecoomb B,St. Matthias B,15,7,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002161.html,600,459
+2021-11-10,21,1,Moulsecoomb B,St. Matthias A,12,13,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002159.html,534,571
+2021-11-10,21,1,St. Matthias B,Champion House,15,10,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002160.html,600,494
+2021-11-09,21,1,Champion House,Moulsecoomb B,8,15,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002158.html,404,600
+2021-11-03,21,1,Moulsecoomb A,St. Matthias B,13,12,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002157.html,567,552
+2021-10-27,21,1,Moulsecoomb B,Champion House,13,12,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002147.html,570,540
+2021-10-13,21,1,Champion House,St. Matthias A,10,14,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002155.html,441,592
+2021-10-13,21,1,Moulsecoomb B,Moulsecoomb A,13,12,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002156.html,575,557
+2021-10-06,21,1,Moulsecoomb A,Champion House,14,11,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002153.html,588,514
+2021-10-06,21,1,St. Matthias A,St. Matthias B,12,13,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002154.html,545,531
+2021-09-29,21,1,Moulsecoomb A,St. Matthias A,15,9,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002152.html,600,431
+2021-09-29,21,1,St. Matthias B,Moulsecoomb B,11,14,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002151.html,514,597
+2021-09-22,21,1,Champion House,St. Matthias B,13,12,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002150.html,567,512
+2021-09-22,21,1,St. Matthias A,Moulsecoomb B,14,13,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002149.html,580,557
+2021-09-15,21,1,St. Matthias B,Moulsecoomb A,9,15,http://brightonhovedistrictbilliards.leaguerepublic.com/match/31002148.html,466,600
+2023-03-29,22,1,Moulsecoomb A,Moulsecoomb B,12,13,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054325.html,550,594
+2023-03-29,22,1,St. Matthias A,Hassocks A,13,9,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054326.html,545,410
+2023-03-22,22,1,Hassocks A,Moulsecoomb A,12,13,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054323.html,493,576
+2023-03-22,22,1,St. Matthias B,St. Matthias A,10,14,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054324.html,487,586
+2023-03-08,22,1,Moulsecoomb B,St. Matthias B,10,13,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054321.html,508,559
+2023-03-08,22,1,St. Matthias A,Moulsecoomb A,15,9,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054322.html,600,508
+2023-03-01,22,1,Moulsecoomb B,St. Matthias A,13,12,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054320.html,564,533
+2023-03-01,22,1,St. Matthias B,Hassocks A,11,14,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054319.html,519,587
+2023-02-22,22,1,Hassocks A,Moulsecoomb B,14,12,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054318.html,574,548
+2023-02-15,22,1,Moulsecoomb A,St. Matthias B,11,12,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054317.html,531,535
+2023-02-01,22,1,Hassocks A,St. Matthias A,13,13,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054316.html,529,569
+2023-02-01,22,1,Moulsecoomb B,Moulsecoomb A,14,12,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054315.html,592,564
+2023-01-25,22,1,Moulsecoomb A,Hassocks A,12,13,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054314.html,553,553
+2023-01-25,22,1,St. Matthias A,St. Matthias B,13,8,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054313.html,564,449
+2023-01-18,22,1,Moulsecoomb A,St. Matthias A,15,10,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054311.html,600,510
+2023-01-18,22,1,St. Matthias B,Moulsecoomb B,15,10,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054312.html,600,532
+2022-12-21,22,1,Hassocks A,St. Matthias B,14,10,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054309.html,581,506
+2022-12-21,22,1,St. Matthias A,Moulsecoomb B,14,11,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054310.html,589,545
+2022-12-07,22,1,Moulsecoomb B,Hassocks A,12,12,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054307.html,549,514
+2022-12-07,22,1,St. Matthias B,Moulsecoomb A,14,11,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054308.html,585,539
+2022-11-30,22,1,Moulsecoomb A,Moulsecoomb B,12,15,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054306.html,565,600
+2022-11-30,22,1,St. Matthias A,Hassocks A,14,11,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054305.html,590,498
+2022-11-23,22,1,Hassocks A,Moulsecoomb A,14,12,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054303.html,563,540
+2022-11-23,22,1,St. Matthias B,St. Matthias A,12,14,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054304.html,562,597
+2022-11-15,22,1,St. Matthias B,Moulsecoomb B,12,15,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054292.html,541,600
+2022-11-09,22,1,Moulsecoomb B,St. Matthias B,14,13,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054301.html,591,587
+2022-11-09,22,1,St. Matthias A,Moulsecoomb A,13,14,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054302.html,586,595
+2022-11-02,22,1,Moulsecoomb B,St. Matthias A,11,13,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054300.html,532,568
+2022-11-02,22,1,St. Matthias B,Hassocks A,11,14,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054299.html,529,593
+2022-10-26,22,1,Hassocks A,Moulsecoomb B,14,10,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054298.html,586,518
+2022-10-26,22,1,Moulsecoomb A,St. Matthias B,14,13,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054297.html,596,578
+2022-10-19,22,1,Hassocks A,St. Matthias A,15,10,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054295.html,600,470
+2022-10-19,22,1,Moulsecoomb B,Moulsecoomb A,15,9,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054296.html,600,514
+2022-10-05,22,1,Moulsecoomb A,Hassocks A,10,15,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054294.html,525,600
+2022-10-05,22,1,St. Matthias A,St. Matthias B,13,12,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054293.html,543,525
+2022-09-28,22,1,Moulsecoomb A,St. Matthias A,12,14,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054291.html,584,597
+2022-09-21,22,1,Hassocks A,St. Matthias B,12,12,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054290.html,506,511
+2022-09-21,22,1,St. Matthias A,Moulsecoomb B,11,15,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054289.html,522,600
+2022-09-14,22,1,Moulsecoomb B,Hassocks A,12,13,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054287.html,555,552
+2022-09-14,22,1,St. Matthias B,Moulsecoomb A,9,14,http://brightonhovedistrictbilliards.leaguerepublic.com/match/33054288.html,482,589
+2020-02-19,19,1,Champion House,Annunciation,13,13,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130237.html,586,557
+2020-02-19,19,1,Moulsecoomb B,St. Matthias B,8,15,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130239.html,494,600
+2020-02-19,19,1,St. Matthias A,Moulsecoomb A,15,11,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130238.html,600,538
+2020-02-12,19,1,Annunciation,Moulsecoomb A,15,8,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130235.html,600,497
+2020-02-12,19,1,Moulsecoomb B,St. Matthias A,11,13,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130234.html,524,575
+2020-02-12,19,1,St. Matthias B,Champion House,12,14,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130236.html,522,576
+2020-02-05,19,1,Champion House,Moulsecoomb B,13,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130233.html,546,549
+2020-02-05,19,1,Moulsecoomb A,St. Matthias B,14,13,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130232.html,576,565
+2020-02-05,19,1,St. Matthias A,Annunciation,12,13,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130231.html,541,544
+2020-01-22,19,1,Champion House,St. Matthias A,14,11,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130228.html,582,483
+2020-01-22,19,1,Moulsecoomb B,Moulsecoomb A,15,8,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130230.html,600,499
+2020-01-22,19,1,St. Matthias B,Annunciation,14,8,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130229.html,561,420
+2020-01-15,19,1,Annunciation,Moulsecoomb B,15,10,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130226.html,600,528
+2020-01-15,19,1,Moulsecoomb A,Champion House,15,11,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130225.html,600,565
+2020-01-15,19,1,St. Matthias A,St. Matthias B,13,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130227.html,573,508
+2019-12-11,19,1,Annunciation,Champion House,13,11,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130222.html,555,509
+2019-12-11,19,1,Moulsecoomb A,St. Matthias A,10,13,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130223.html,520,557
+2019-12-11,19,1,St. Matthias B,Moulsecoomb B,12,11,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130224.html,507,557
+2019-11-20,19,1,Champion House,St. Matthias B,7,13,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130221.html,329,556
+2019-11-20,19,1,Moulsecoomb A,Annunciation,15,10,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130220.html,600,476
+2019-11-20,19,1,St. Matthias A,Moulsecoomb B,15,9,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130219.html,600,486
+2019-11-13,19,1,Annunciation,St. Matthias A,13,11,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130216.html,572,500
+2019-11-13,19,1,Moulsecoomb B,Champion House,15,9,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130218.html,600,479
+2019-11-13,19,1,St. Matthias B,Moulsecoomb A,9,15,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130217.html,427,600
+2019-11-06,19,1,Annunciation,St. Matthias B,6,15,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130214.html,307,600
+2019-11-06,19,1,Moulsecoomb A,Moulsecoomb B,10,15,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130215.html,499,600
+2019-11-06,19,1,St. Matthias A,Champion House,14,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130213.html,574,564
+2019-10-23,19,1,Champion House,Moulsecoomb A,12,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130210.html,526,561
+2019-10-23,19,1,Moulsecoomb B,Annunciation,14,10,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130211.html,599,440
+2019-10-23,19,1,St. Matthias B,St. Matthias A,15,9,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130212.html,600,463
+2019-10-16,19,1,Champion House,Annunciation,14,13,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130207.html,591,572
+2019-10-16,19,1,Moulsecoomb B,St. Matthias B,15,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130209.html,600,580
+2019-10-16,19,1,St. Matthias A,Moulsecoomb A,14,9,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130208.html,572,505
+2019-10-09,19,1,Annunciation,Moulsecoomb A,13,13,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130205.html,547,575
+2019-10-09,19,1,Moulsecoomb B,St. Matthias A,12,13,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130204.html,560,572
+2019-10-09,19,1,St. Matthias B,Champion House,14,10,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130206.html,570,470
+2019-09-25,19,1,Champion House,Moulsecoomb B,9,15,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130203.html,442,600
+2019-09-25,19,1,Moulsecoomb A,St. Matthias B,11,15,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130202.html,564,600
+2019-09-25,19,1,St. Matthias A,Annunciation,13,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130201.html,563,537
+2019-09-18,19,1,Champion House,St. Matthias A,12,14,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130198.html,545,586
+2019-09-18,19,1,Moulsecoomb B,Moulsecoomb A,12,13,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130200.html,552,597
+2019-09-18,19,1,St. Matthias B,Annunciation,11,13,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130199.html,513,523
+2019-09-11,19,1,Annunciation,Moulsecoomb B,11,14,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130196.html,484,585
+2019-09-11,19,1,Moulsecoomb A,Champion House,15,7,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130195.html,600,360
+2019-09-11,19,1,St. Matthias A,St. Matthias B,11,14,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/27130197.html,526,593
+2015-01-07,14,1,Annunciation A,Champion House,13,11,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18529612.html,548,496
+2015-01-07,14,1,Moulsecoomb A,Moulsecoomb B,15,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18529614.html,600,579
+2014-11-26,14,1,Annunciation A,N.A.R.C.,13,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18529607.html,543,536
+2014-11-26,14,1,Champion House,Moulsecoomb B,12,11,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18529608.html,525,524
+2014-11-26,14,1,Moulsecoomb A,Annunciation B,14,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18529606.html,585,531
+2014-11-19,14,1,Annunciation B,Champion House,14,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18529605.html,585,521
+2014-11-19,14,1,Moulsecoomb B,Annunciation A,12,14,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18529604.html,530,572
+2014-11-19,14,1,N.A.R.C.,Moulsecoomb A,14,11,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18529603.html,588,558
+2014-11-12,14,1,Annunciation A,Annunciation B,13,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18529602.html,554,534
+2014-11-12,14,1,Moulsecoomb A,Champion House,11,10,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18529600.html,510,466
+2014-11-12,14,1,N.A.R.C.,Moulsecoomb B,12,14,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18529601.html,548,593
+2014-10-22,14,1,Annunciation B,N.A.R.C.,13,13,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18529598.html,570,565
+2014-10-22,14,1,Champion House,Annunciation A,12,14,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18529597.html,533,573
+2014-10-22,14,1,Moulsecoomb B,Moulsecoomb A,11,14,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18529599.html,528,593
+2014-10-15,14,1,Annunciation B,Moulsecoomb B,13,13,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18529596.html,551,563
+2014-10-15,14,1,Champion House,N.A.R.C.,11,14,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18529594.html,512,598
+2014-10-15,14,1,Moulsecoomb A,Annunciation A,9,15,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18529595.html,505,600
+2014-10-08,14,1,Annunciation B,Moulsecoomb A,13,10,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18529591.html,537,520
+2014-10-08,14,1,Moulsecoomb B,Champion House,10,13,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18529593.html,501,556
+2014-10-08,14,1,N.A.R.C.,Annunciation A,13,13,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18529592.html,551,569
+2014-09-24,14,1,Annunciation A,Moulsecoomb B,12,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18529589.html,500,541
+2014-09-24,14,1,Champion House,Annunciation B,10,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18529590.html,422,541
+2014-09-24,14,1,Moulsecoomb A,N.A.R.C.,10,15,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18529588.html,530,600
+2014-09-17,14,1,Annunciation B,Annunciation A,10,15,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18529587.html,474,600
+2014-09-17,14,1,Champion House,Moulsecoomb A,13,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18529585.html,578,557
+2014-09-17,14,1,Moulsecoomb B,N.A.R.C.,9,15,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18529586.html,450,600
+2014-09-10,14,1,Annunciation A,Champion House,13,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18529582.html,553,499
+2014-09-10,14,1,Moulsecoomb A,Moulsecoomb B,12,13,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18529584.html,568,538
+2014-09-10,14,1,N.A.R.C.,Annunciation B,13,13,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18529583.html,530,556
+2016-04-06,15,1,Annunciation B,St. Mathias,13,11,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18799024.html,558,510
+2016-04-06,15,1,Champion House,Moulsecoomb B,13,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18799023.html,559,550
+2016-03-30,15,1,Annunciation A,St. Mathias,13,11,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18799021.html,545,537
+2016-03-30,15,1,Moulsecoomb B,Moulsecoomb A,13,13,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18799022.html,593,588
+2016-03-23,15,1,Annunciation B,Moulsecoomb B,11,11,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18799020.html,495,513
+2016-03-23,15,1,Champion House,Annunciation A,8,15,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18799019.html,434,600
+2016-03-23,15,1,Moulsecoomb A,St. Mathias,13,13,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18798996.html,569,565
+2016-03-16,15,1,Champion House,Moulsecoomb A,12,11,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18799017.html,516,507
+2016-03-16,15,1,Moulsecoomb B,St. Mathias,14,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18799018.html,579,548
+2016-03-09,15,1,Annunciation B,Champion House,14,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18799016.html,584,491
+2016-03-09,15,1,Moulsecoomb A,Annunciation A,6,15,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18799015.html,462,600
+2016-03-02,15,1,Annunciation A,Moulsecoomb B,15,9,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18799012.html,600,482
+2016-03-02,15,1,Champion House,St. Mathias,14,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18799014.html,576,548
+2016-03-02,15,1,Moulsecoomb A,Annunciation B,12,14,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18799013.html,582,592
+2016-02-24,15,1,Annunciation B,Annunciation A,7,15,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18799010.html,380,600
+2016-02-24,15,1,St. Mathias,Moulsecoomb A,11,14,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18799011.html,513,579
+2016-02-17,15,1,Moulsecoomb B,Champion House,14,9,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18799008.html,584,412
+2016-02-17,15,1,St. Mathias,Annunciation B,9,15,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18799009.html,431,600
+2016-02-10,15,1,Moulsecoomb A,Moulsecoomb B,12,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18799007.html,574,547
+2016-02-10,15,1,St. Mathias,Annunciation A,10,14,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18799006.html,490,582
+2016-02-03,15,1,Annunciation A,Champion House,14,11,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18799004.html,587,472
+2016-02-03,15,1,Moulsecoomb B,Annunciation B,9,13,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18799005.html,509,559
+2016-01-27,15,1,Moulsecoomb A,Champion House,8,15,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18799002.html,494,600
+2016-01-27,15,1,St. Mathias,Moulsecoomb B,14,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18799003.html,580,556
+2016-01-20,15,1,Annunciation A,Moulsecoomb A,14,11,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18799000.html,575,532
+2016-01-20,15,1,Champion House,Annunciation B,11,14,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18799001.html,491,596
+2016-01-13,15,1,Annunciation B,Moulsecoomb A,14,13,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18798998.html,576,590
+2016-01-13,15,1,Moulsecoomb B,Annunciation A,12,14,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18798997.html,552,593
+2016-01-13,15,1,St. Mathias,Champion House,14,13,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18798999.html,593,583
+2016-01-06,15,1,Annunciation A,Annunciation B,12,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18798995.html,514,507
+2015-12-16,15,1,Annunciation B,St. Mathias,15,7,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18798994.html,600,384
+2015-12-16,15,1,Champion House,Moulsecoomb B,14,10,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18798993.html,586,509
+2015-12-09,15,1,Annunciation A,St. Mathias,13,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18798991.html,589,547
+2015-12-09,15,1,Moulsecoomb B,Moulsecoomb A,12,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18798992.html,539,528
+2015-12-02,15,1,Annunciation B,Moulsecoomb B,10,13,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18798990.html,482,540
+2015-12-02,15,1,Champion House,Annunciation A,12,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18798989.html,513,505
+2015-11-25,15,1,Champion House,Moulsecoomb A,11,14,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18798987.html,522,592
+2015-11-25,15,1,Moulsecoomb B,St. Mathias,14,11,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18798988.html,587,520
+2015-11-18,15,1,Annunciation B,Champion House,13,11,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18798986.html,523,527
+2015-11-18,15,1,Moulsecoomb A,Annunciation A,10,14,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18798985.html,552,596
+2015-11-11,15,1,Annunciation A,Moulsecoomb B,10,11,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18798982.html,481,519
+2015-11-11,15,1,Champion House,St. Mathias,14,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18798984.html,595,532
+2015-11-11,15,1,Moulsecoomb A,Annunciation B,7,15,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18798983.html,473,600
+2015-11-04,15,1,Annunciation B,Annunciation A,12,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18798980.html,549,518
+2015-11-04,15,1,St. Mathias,Moulsecoomb A,14,13,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18798981.html,570,590
+2015-10-28,15,1,Moulsecoomb B,Champion House,12,13,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18798978.html,558,558
+2015-10-28,15,1,St. Mathias,Annunciation B,12,14,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18798979.html,534,598
+2015-10-21,15,1,Moulsecoomb A,Moulsecoomb B,12,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18798977.html,529,544
+2015-10-21,15,1,St. Mathias,Annunciation A,7,15,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18798976.html,429,600
+2015-10-14,15,1,Annunciation A,Champion House,13,11,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18798974.html,555,447
+2015-10-14,15,1,Moulsecoomb B,Annunciation B,11,15,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18798975.html,534,600
+2015-10-07,15,1,Moulsecoomb A,Champion House,11,13,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18798972.html,514,534
+2015-10-07,15,1,St. Mathias,Moulsecoomb B,11,14,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18798973.html,511,592
+2015-09-30,15,1,Annunciation A,Moulsecoomb A,15,7,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18799025.html,600,452
+2015-09-30,15,1,Champion House,Annunciation B,12,13,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18799026.html,543,534
+2015-09-23,15,1,Annunciation B,Moulsecoomb A,12,10,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18783970.html,543,513
+2015-09-23,15,1,Moulsecoomb B,Annunciation A,13,13,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18783969.html,568,556
+2015-09-23,15,1,St. Mathias,Champion House,12,14,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18783971.html,511,586
+2015-09-16,15,1,Annunciation A,Annunciation B,13,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18729501.html,591,524
+2015-09-16,15,1,Moulsecoomb A,St. Mathias,14,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/18729502.html,579,541
+2017-04-12,16,1,Annunciation,Champion House,15,9,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350372.html,600,450
+2017-04-12,16,1,Moulsecoomb B,St. Matthias B,8,15,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350374.html,484,600
+2017-04-12,16,1,St. Matthias A,Moulsecoomb A,13,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350373.html,562,525
+2017-03-29,16,1,Champion House,Moulsecoomb B,12,13,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350371.html,516,560
+2017-03-29,16,1,Moulsecoomb A,St. Matthias B,11,14,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350369.html,559,582
+2017-03-29,16,1,St. Matthias A,Annunciation,10,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350370.html,505,518
+2017-03-15,16,1,Annunciation,Moulsecoomb A,12,13,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350366.html,535,575
+2017-03-15,16,1,Moulsecoomb B,St. Matthias A,10,15,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350367.html,479,600
+2017-03-15,16,1,St. Matthias B,Champion House,13,13,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350368.html,556,587
+2017-03-08,16,1,Annunciation,Moulsecoomb B,14,13,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350364.html,592,569
+2017-03-08,16,1,Moulsecoomb A,Champion House,13,14,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350363.html,592,598
+2017-03-08,16,1,St. Matthias A,St. Matthias B,11,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350365.html,537,506
+2017-02-15,16,1,Champion House,St. Matthias A,13,10,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350360.html,549,506
+2017-02-15,16,1,Moulsecoomb B,Moulsecoomb A,12,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350362.html,547,573
+2017-02-15,16,1,St. Matthias B,Annunciation,12,11,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350361.html,520,453
+2017-02-08,16,1,Champion House,Annunciation,10,14,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350357.html,481,598
+2017-02-08,16,1,Moulsecoomb A,St. Matthias A,12,13,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350358.html,570,569
+2017-02-08,16,1,St. Matthias B,Moulsecoomb B,13,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350359.html,564,554
+2017-02-01,16,1,Annunciation,St. Matthias A,12,11,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350355.html,538,527
+2017-02-01,16,1,Moulsecoomb B,Champion House,12,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350356.html,572,507
+2017-02-01,16,1,St. Matthias B,Moulsecoomb A,15,9,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350354.html,600,552
+2017-01-18,16,1,Champion House,St. Matthias B,14,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350353.html,575,533
+2017-01-18,16,1,Moulsecoomb A,Annunciation,9,15,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350351.html,485,600
+2017-01-18,16,1,St. Matthias A,Moulsecoomb B,11,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350352.html,539,544
+2017-01-11,16,1,Champion House,Moulsecoomb A,13,10,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350348.html,564,509
+2017-01-11,16,1,Moulsecoomb B,Annunciation,9,13,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350349.html,474,547
+2017-01-11,16,1,St. Matthias B,St. Matthias A,8,15,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350350.html,406,600
+2017-01-04,16,1,Annunciation,St. Matthias B,14,8,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350346.html,581,363
+2017-01-04,16,1,Moulsecoomb A,Moulsecoomb B,12,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350347.html,583,534
+2017-01-04,16,1,St. Matthias A,Champion House,14,13,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350345.html,592,562
+2016-12-14,16,1,Annunciation,Champion House,13,11,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350342.html,544,477
+2016-12-14,16,1,Moulsecoomb B,St. Matthias B,12,14,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350344.html,555,586
+2016-12-14,16,1,St. Matthias A,Moulsecoomb A,13,11,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350343.html,555,566
+2016-11-23,16,1,Champion House,Moulsecoomb B,14,13,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350341.html,588,578
+2016-11-23,16,1,Moulsecoomb A,St. Matthias B,14,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350339.html,595,549
+2016-11-23,16,1,St. Matthias A,Annunciation,8,13,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350340.html,431,553
+2016-11-16,16,1,Annunciation,Moulsecoomb A,13,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350336.html,535,572
+2016-11-16,16,1,Moulsecoomb B,St. Matthias A,14,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350337.html,583,558
+2016-11-16,16,1,St. Matthias B,Champion House,12,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350338.html,544,512
+2016-11-09,16,1,Annunciation,Moulsecoomb B,15,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350334.html,600,573
+2016-11-09,16,1,Moulsecoomb A,Champion House,15,11,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350333.html,600,495
+2016-11-09,16,1,St. Matthias A,St. Matthias B,10,15,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350335.html,483,600
+2016-10-26,16,1,Champion House,St. Matthias A,12,13,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350330.html,526,569
+2016-10-26,16,1,Moulsecoomb B,Moulsecoomb A,13,14,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350332.html,583,597
+2016-10-26,16,1,St. Matthias B,Annunciation,15,10,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350331.html,600,443
+2016-10-19,16,1,Champion House,Annunciation,13,13,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350327.html,563,533
+2016-10-19,16,1,Moulsecoomb A,St. Matthias A,11,14,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350328.html,569,584
+2016-10-19,16,1,St. Matthias B,Moulsecoomb B,12,11,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350329.html,523,531
+2016-10-12,16,1,Annunciation,St. Matthias A,10,15,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350325.html,488,600
+2016-10-12,16,1,Moulsecoomb B,Champion House,15,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350326.html,600,527
+2016-10-12,16,1,St. Matthias B,Moulsecoomb A,15,9,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350324.html,600,508
+2016-09-28,16,1,Champion House,St. Matthias B,12,14,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350323.html,523,594
+2016-09-28,16,1,Moulsecoomb A,Annunciation,14,11,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350321.html,597,496
+2016-09-28,16,1,St. Matthias A,Moulsecoomb B,13,14,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20350322.html,582,599
+2016-09-21,16,1,Champion House,Moulsecoomb A,12,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20278422.html,555,572
+2016-09-21,16,1,Moulsecoomb B,Annunciation,11,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20278339.html,546,491
+2016-09-21,16,1,St. Matthias B,St. Matthias A,11,15,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20278340.html,549,600
+2016-09-14,16,1,Annunciation,St. Matthias B,13,10,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20278334.html,548,499
+2016-09-14,16,1,Moulsecoomb A,Moulsecoomb B,11,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20278335.html,569,548
+2016-09-14,16,1,St. Matthias A,Champion House,12,13,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/20278336.html,573,545
+2018-04-04,17,1,Annunciation,Champion House,12,13,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649523.html,511,551
+2018-04-04,17,1,Moulsecoomb A,St. Mathias,11,15,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649524.html,562,600
+2018-03-28,17,1,Moulsecoomb A,Annunciation,12,14,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649522.html,548,575
+2018-03-28,17,1,St. Mathias,Moulsecoomb B,14,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649521.html,596,547
+2018-03-14,17,1,Annunciation,St. Mathias,13,11,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649519.html,533,488
+2018-03-14,17,1,Moulsecoomb B,Champion House,11,13,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649520.html,536,572
+2018-03-07,17,1,Moulsecoomb A,Moulsecoomb B,13,14,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649518.html,588,579
+2018-03-07,17,1,St. Mathias,Champion House,13,9,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649517.html,550,366
+2018-02-21,17,1,Champion House,Moulsecoomb A,14,13,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649515.html,575,587
+2018-02-21,17,1,Moulsecoomb B,Annunciation,13,14,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649516.html,573,574
+2018-02-14,17,1,Champion House,Annunciation,11,15,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649513.html,538,600
+2018-02-14,17,1,St. Mathias,Moulsecoomb A,14,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649514.html,597,565
+2018-01-31,17,1,Annunciation,Moulsecoomb A,13,13,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649512.html,582,567
+2018-01-31,17,1,Moulsecoomb B,St. Mathias,13,11,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649511.html,573,550
+2018-01-24,17,1,Champion House,Moulsecoomb B,12,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649510.html,499,560
+2018-01-24,17,1,St. Mathias,Annunciation,12,13,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649509.html,536,535
+2018-01-10,17,1,Champion House,St. Mathias,13,11,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649507.html,551,484
+2018-01-10,17,1,Moulsecoomb B,Moulsecoomb A,12,13,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649508.html,527,591
+2018-01-03,17,1,Annunciation,Moulsecoomb B,15,7,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649506.html,600,376
+2018-01-03,17,1,Moulsecoomb A,Champion House,13,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649505.html,582,520
+2017-12-13,17,1,Annunciation,Champion House,13,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649503.html,548,553
+2017-12-13,17,1,Moulsecoomb A,St. Mathias,5,15,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649504.html,441,600
+2017-12-06,17,1,Moulsecoomb A,Annunciation,13,11,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649502.html,541,472
+2017-12-06,17,1,St. Mathias,Moulsecoomb B,14,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649501.html,576,560
+2017-11-22,17,1,Annunciation,St. Mathias,12,14,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649499.html,511,580
+2017-11-22,17,1,Moulsecoomb B,Champion House,10,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649500.html,477,518
+2017-11-15,17,1,Moulsecoomb A,Moulsecoomb B,13,14,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649498.html,578,583
+2017-11-15,17,1,St. Mathias,Champion House,15,11,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649497.html,600,505
+2017-11-01,17,1,Champion House,Moulsecoomb A,14,11,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649495.html,590,555
+2017-11-01,17,1,Moulsecoomb B,Annunciation,10,15,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649496.html,530,600
+2017-10-25,17,1,Champion House,Annunciation,9,14,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649493.html,422,595
+2017-10-25,17,1,St. Mathias,Moulsecoomb A,14,10,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649494.html,597,510
+2017-10-11,17,1,Annunciation,Moulsecoomb A,14,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649492.html,593,540
+2017-10-11,17,1,Moulsecoomb B,St. Mathias,14,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649491.html,598,514
+2017-10-04,17,1,Champion House,Moulsecoomb B,11,14,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649490.html,521,581
+2017-10-04,17,1,St. Mathias,Annunciation,14,11,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649489.html,596,493
+2017-09-20,17,1,Champion House,St. Mathias,13,11,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649487.html,522,541
+2017-09-20,17,1,Moulsecoomb B,Moulsecoomb A,15,10,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649488.html,600,549
+2017-09-13,17,1,Annunciation,Moulsecoomb B,15,9,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649486.html,600,503
+2017-09-13,17,1,Moulsecoomb A,Champion House,10,14,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/22649485.html,498,590
+2019-04-17,18,1,Annunciation,Champion House,13,11,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979869.html,547,519
+2019-04-17,18,1,Moulsecoomb A,St. Matthias A,13,11,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979870.html,575,536
+2019-04-17,18,1,St. Matthias B,Moulsecoomb B,11,11,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979871.html,498,551
+2019-04-03,18,1,Champion House,St. Matthias B,11,14,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979868.html,485,586
+2019-04-03,18,1,Moulsecoomb A,Annunciation,12,13,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979867.html,541,526
+2019-04-03,18,1,St. Matthias A,Moulsecoomb B,15,10,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979866.html,600,526
+2019-03-20,18,1,Annunciation,St. Matthias A,11,11,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979863.html,477,541
+2019-03-20,18,1,Moulsecoomb B,Champion House,14,11,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979865.html,592,510
+2019-03-20,18,1,St. Matthias B,Moulsecoomb A,13,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979864.html,558,577
+2019-03-13,18,1,Annunciation,St. Matthias B,15,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979861.html,600,532
+2019-03-13,18,1,Moulsecoomb A,Moulsecoomb B,13,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979862.html,552,562
+2019-03-13,18,1,St. Matthias A,Champion House,10,15,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979860.html,507,600
+2019-02-20,18,1,Champion House,Moulsecoomb A,11,13,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979857.html,502,570
+2019-02-20,18,1,Moulsecoomb B,Annunciation,11,14,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979858.html,518,571
+2019-02-20,18,1,St. Matthias B,St. Matthias A,15,9,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979859.html,600,476
+2019-02-13,18,1,Champion House,Annunciation,12,13,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979854.html,540,552
+2019-02-13,18,1,Moulsecoomb B,St. Matthias B,11,13,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979856.html,532,560
+2019-02-13,18,1,St. Matthias A,Moulsecoomb A,15,9,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979855.html,600,515
+2019-02-06,18,1,Annunciation,Moulsecoomb A,14,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979852.html,570,571
+2019-02-06,18,1,Moulsecoomb B,St. Matthias A,14,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979851.html,576,537
+2019-02-06,18,1,St. Matthias B,Champion House,13,10,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979853.html,542,475
+2019-01-23,18,1,Champion House,Moulsecoomb B,13,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979850.html,572,562
+2019-01-23,18,1,Moulsecoomb A,St. Matthias B,12,13,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979849.html,564,557
+2019-01-23,18,1,St. Matthias A,Annunciation,12,14,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979848.html,542,571
+2019-01-16,18,1,Champion House,St. Matthias A,14,9,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979845.html,573,523
+2019-01-16,18,1,Moulsecoomb B,Moulsecoomb A,10,15,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979847.html,518,600
+2019-01-16,18,1,St. Matthias B,Annunciation,10,13,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979846.html,483,548
+2019-01-09,18,1,Annunciation,Moulsecoomb B,15,10,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979843.html,600,511
+2019-01-09,18,1,Moulsecoomb A,Champion House,12,13,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979842.html,560,553
+2019-01-09,18,1,St. Matthias A,St. Matthias B,13,11,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979844.html,588,468
+2018-12-12,18,1,Annunciation,Champion House,12,13,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979839.html,506,562
+2018-12-12,18,1,Moulsecoomb A,St. Matthias A,12,13,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979840.html,543,581
+2018-12-12,18,1,St. Matthias B,Moulsecoomb B,10,13,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979841.html,448,571
+2018-11-21,18,1,Champion House,St. Matthias B,14,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979838.html,592,525
+2018-11-21,18,1,Moulsecoomb A,Annunciation,12,14,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979837.html,584,590
+2018-11-21,18,1,St. Matthias A,Moulsecoomb B,9,14,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979836.html,499,596
+2018-11-14,18,1,Annunciation,St. Matthias A,13,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979833.html,554,538
+2018-11-14,18,1,Moulsecoomb B,Champion House,14,13,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979835.html,584,555
+2018-11-14,18,1,St. Matthias B,Moulsecoomb A,15,11,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979834.html,600,567
+2018-11-07,18,1,Annunciation,St. Matthias B,13,11,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979831.html,520,523
+2018-11-07,18,1,Moulsecoomb A,Moulsecoomb B,15,9,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979832.html,600,487
+2018-11-07,18,1,St. Matthias A,Champion House,13,14,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979830.html,570,566
+2018-10-24,18,1,Champion House,Moulsecoomb A,13,13,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979827.html,570,580
+2018-10-24,18,1,Moulsecoomb B,Annunciation,12,15,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979828.html,546,600
+2018-10-24,18,1,St. Matthias B,St. Matthias A,12,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979829.html,526,539
+2018-10-17,18,1,Champion House,Annunciation,11,15,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979824.html,511,600
+2018-10-17,18,1,Moulsecoomb B,St. Matthias B,13,10,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979826.html,568,465
+2018-10-17,18,1,St. Matthias A,Moulsecoomb A,14,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979825.html,577,560
+2018-10-10,18,1,Annunciation,Moulsecoomb A,15,10,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979822.html,600,556
+2018-10-10,18,1,Moulsecoomb B,St. Matthias A,11,15,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979821.html,515,600
+2018-10-10,18,1,St. Matthias B,Champion House,15,11,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979823.html,600,514
+2018-09-26,18,1,Champion House,Moulsecoomb B,8,15,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979820.html,405,600
+2018-09-26,18,1,Moulsecoomb A,St. Matthias B,11,13,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979819.html,550,560
+2018-09-26,18,1,St. Matthias A,Annunciation,12,14,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979818.html,553,589
+2018-09-19,18,1,Champion House,St. Matthias A,14,11,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979815.html,581,509
+2018-09-19,18,1,Moulsecoomb B,Moulsecoomb A,9,15,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979817.html,496,600
+2018-09-19,18,1,St. Matthias B,Annunciation,10,12,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979816.html,449,516
+2018-09-12,18,1,Annunciation,Moulsecoomb B,15,9,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979813.html,600,494
+2018-09-12,18,1,Moulsecoomb A,Champion House,14,10,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979812.html,588,470
+2018-09-12,18,1,St. Matthias A,St. Matthias B,11,14,http://brightonhovedistrictbilliards.leaguerepublic.com/l/match/24979814.html,546,591
