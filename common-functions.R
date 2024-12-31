@@ -107,10 +107,10 @@ get_single_results_page <- function(base_url, season, division, page_number,
       results_table <- results_table %>%
         mutate(Score = str_remove_all(Score, "\\(")) %>%
         mutate(Score = str_remove_all(Score, "\\)")) %>%
-        separate(Score, c("home_score", "away_score"), sep = " - ") %>%
-        separate(home_score, c("home_sp", "home_op"), sep = "-") %>%
-        separate(away_score, c("away_sp", "away_op"), sep = "-") %>%
-        mutate_at(vars(home_sp:away_op), list(as.integer))
+        separate(Score, c("home_sp", "away_sp"), sep = " - ") %>%
+        # separate(home_score, c("home_sp", "home_op"), sep = "-") %>%
+        # separate(away_score, c("away_sp", "away_op"), sep = "-") %>%
+        mutate_at(vars(home_sp:away_sp), list(as.integer))
       
       final_results_table <- results_table %>%
         mutate(fixture_date = as.Date(results_table$`Date Time`,
@@ -121,7 +121,7 @@ get_single_results_page <- function(base_url, season, division, page_number,
                  paste0("http://brightonhovedistrictbilliards.leaguerepublic.com",
                         match_detail_urls)) %>%
         select(fixture_date, season, division, home_team = `Home Team`,
-               away_team = `Away Team`, home_sp, away_sp, home_op, away_op, url)  %>%
+               away_team = `Away Team`, home_sp, away_sp, url)  %>%
         filter(!is.na(home_sp))
     } else if (league == "Worthing") {
       # Reformat the scores column to split between home and away, scoring and
