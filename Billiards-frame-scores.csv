@@ -1182,3 +1182,39 @@ fixture_date,season,division,home_team,away_team,home_player_id,home_player_name
 2024-11-27,24,1,St. Matthias B,Moulsecoomb A,886456541,Dean Perry,176,176460812,Robin Powell,200,90,3,100,5
 2024-11-27,24,1,St. Matthias B,Moulsecoomb A,742496187,Chris Lloyd,120,409261140,Fred Cooper,200,100,1,100,5
 2024-11-27,24,1,St. Matthias B,Moulsecoomb A,271881781,Lester Grice,200,564133408,Paul Phillips,191,70,5,100,4
+2025-01-15,24,1,Moulsecoomb B,St. Matthias B,532826446,Tony Shipley,200,622820041,Russ Hughes,132,60,5,0,3
+2025-01-15,24,1,Moulsecoomb B,St. Matthias B,546240999,Trevor Cain,200,271881781,Lester Grice,183,100,5,70,4
+2025-01-15,24,1,Moulsecoomb B,St. Matthias B,39704614,Steve Linton,129,886456541,Dean Perry,200,70,2,90,5
+2025-01-15,24,1,St. Matthias A,Moulsecoomb A,775430029,Kevin Tytherleigh,200,176460812,Robin Powell,192,120,5,100,4
+2025-01-15,24,1,St. Matthias A,Moulsecoomb A,955982550,Phil Ancell,158,409261140,Fred Cooper,200,90,3,100,5
+2025-01-15,24,1,St. Matthias A,Moulsecoomb A,392836520,Pip Akehurst,200,564133408,Paul Phillips,157,60,5,100,2
+2025-01-29,24,1,Moulsecoomb A,Moulsecoomb B,176460812,Robin Powell,179,138786345,Barry Thornton,200,100,3,100,5
+2025-01-29,24,1,Moulsecoomb A,Moulsecoomb B,564133408,Paul Phillips,175,532826446,Tony Shipley,200,100,3,60,5
+2025-01-29,24,1,Moulsecoomb A,Moulsecoomb B,409261140,Fred Cooper,159,104037073,Mike Palmer,200,100,2,110,5
+2025-01-29,24,1,St. Matthias B,St. Matthias A,780126766,Rob Wykes,200,955982550,Phil Ancell,192,50,5,90,4
+2025-01-29,24,1,St. Matthias B,St. Matthias A,886456541,Dean Perry,179,775430029,Kevin Tytherleigh,200,90,4,120,5
+2025-01-29,24,1,St. Matthias B,St. Matthias A,271881781,Lester Grice,185,673468954,Micky Sandall,200,70,4,90,5
+2025-02-05,24,1,Moulsecoomb A,St. Matthias B,176460812,Robin Powell,160,271881781,Lester Grice,200,100,3,70,5
+2025-02-05,24,1,Moulsecoomb A,St. Matthias B,564133408,Paul Phillips,192,886456541,Dean Perry,200,100,4,90,5
+2025-02-05,24,1,Moulsecoomb A,St. Matthias B,409261140,Fred Cooper,164,561705160,Pav Sareen,200,100,3,10,5
+2025-02-05,24,1,St. Matthias A,Moulsecoomb B,775430029,Kevin Tytherleigh,200,138786345,Barry Thornton,180,120,5,100,4
+2025-02-05,24,1,St. Matthias A,Moulsecoomb B,673468954,Micky Sandall,193,104037073,Mike Palmer,200,90,4,110,5
+2025-02-05,24,1,St. Matthias A,Moulsecoomb B,955982550,Phil Ancell,170,532826446,Tony Shipley,200,90,3,60,5
+2025-02-12,24,1,Moulsecoomb B,Moulsecoomb A,138786345,Barry Thornton,186,176460812,Robin Powell,200,100,4,100,5
+2025-02-12,24,1,Moulsecoomb B,Moulsecoomb A,532826446,Tony Shipley,181,564133408,Paul Phillips,200,60,4,100,5
+2025-02-12,24,1,Moulsecoomb B,Moulsecoomb A,104037073,Mike Palmer,191,409261140,Fred Cooper,200,110,4,100,5
+2025-02-12,24,1,St. Matthias A,St. Matthias B,392836520,Pip Akehurst,200,622820041,Russ Hughes,127,60,5,0,3
+2025-02-12,24,1,St. Matthias A,St. Matthias B,955982550,Phil Ancell,200,271881781,Lester Grice,164,90,5,70,3
+2025-02-12,24,1,St. Matthias A,St. Matthias B,673468954,Micky Sandall,200,886456541,Dean Perry,196,90,5,90,4
+2025-03-05,24,1,Moulsecoomb A,St. Matthias A,176460812,Robin Powell,198,955982550,Phil Ancell,200,100,4,90,5
+2025-03-05,24,1,Moulsecoomb A,St. Matthias A,564133408,Paul Phillips,200,673468954,Micky Sandall,186,100,5,90,4
+2025-03-05,24,1,Moulsecoomb A,St. Matthias A,409261140,Fred Cooper,200,775430029,Kevin Tytherleigh,175,100,5,120,3
+2025-03-05,24,1,St. Matthias B,Moulsecoomb B,271881781,Lester Grice,200,138786345,Barry Thornton,196,70,5,100,4
+2025-03-05,24,1,St. Matthias B,Moulsecoomb B,780126766,Rob Wykes,200,104037073,Mike Palmer,122,50,5,110,0
+2025-03-05,24,1,St. Matthias B,Moulsecoomb B,886456541,Dean Perry,200,532826446,Tony Shipley,159,90,5,60,3
+2025-03-12,24,1,Moulsecoomb B,St. Matthias A,39704614,Steve Linton,200,673468954,Micky Sandall,191,70,5,90,4
+2025-03-12,24,1,Moulsecoomb B,St. Matthias A,138786345,Barry Thornton,168,392836520,Pip Akehurst,200,100,3,60,5
+2025-03-12,24,1,Moulsecoomb B,St. Matthias A,532826446,Tony Shipley,200,955982550,Phil Ancell,161,60,5,90,3
+2025-03-12,24,1,St. Matthias B,Moulsecoomb A,886456541,Dean Perry,200,176460812,Robin Powell,159,90,5,100,2
+2025-03-12,24,1,St. Matthias B,Moulsecoomb A,780126766,Rob Wykes,200,409261140,Fred Cooper,157,50,5,100,2
+2025-03-12,24,1,St. Matthias B,Moulsecoomb A,271881781,Lester Grice,200,564133408,Paul Phillips,176,70,5,100,3
