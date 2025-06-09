@@ -27,15 +27,15 @@ results_old <- read_csv("Billiards-match-scores.csv",
 # the current season
 results_new <- results_new %>%
   bind_rows(results_old %>%
-              filter(!season %in% results_new$season))
+              filter(!season %in% results_new$season)) |>
+  select(-c(home_op, away_op))
 
 # Will definitely scrape any new results, plus any old results that we didn't
 # have frame details for
 new_results_to_check <- results_new %>%
   anti_join(results_old,
             by = c("fixture_date", "season", "division", "home_team",
-                   "away_team", "home_sp", "away_sp", "home_op", "away_op",
-                   "url")) %>%
+                   "away_team", "home_sp", "away_sp", "url")) %>%
   select(fixture_date, season, division, home_team, away_team,
          home_sp, away_sp, url)
 new_results_to_scrape <- new_results_to_check %>%
@@ -79,15 +79,16 @@ frame_scores_new <-
                     bind_rows(old_results_to_scrape)),
            scrape_match_page)
 # Check that the scoring points have been calculated correctly per frame
-assert_that(frame_scores_new |>
-              mutate(calculated_home_sp = floor((home_score - home_player_handicap)
-                                                / (200 - home_player_handicap) * 5),
-                     calculated_away_sp = floor((away_score - away_player_handicap)
-                                                / (200 - away_player_handicap) * 5)) |>
-              filter(home_player_sp != calculated_home_sp |
-                       away_player_sp != calculated_away_sp) |>
-              nrow() == 0,
-              msg = "ERROR: scoring points were miscalculated")
+assert_that(
+  frame_scores_new |>
+    mutate(calculated_home_sp = floor((home_score - home_player_handicap)
+                                      / (200 - home_player_handicap) * 5),
+           calculated_away_sp = floor((away_score - away_player_handicap)
+                                      / (200 - away_player_handicap) * 5)) |>
+    filter(home_player_sp != calculated_home_sp |
+             away_player_sp != calculated_away_sp) |>
+    nrow() == 0,
+  msg = "ERROR: scoring points were miscalculated")
 # Sum the frame scores for updating the match scores
 summed_frame_scores <- frame_scores_new |>
   summarise(home_op = sum(home_score),
@@ -113,11 +114,8 @@ remDr$close()
 
 # Update results_new with overall points summed from frame scores
 results_new <- results_new |>
-  filter(is.na(home_op)) |>
-  select(-c(home_op, away_op)) |>
   inner_join(summed_frame_scores) |>
-  bind_rows(results_new |>
-              filter(!is.na(home_op)))
+  bind_rows(results_old)
 
 # Create a new output for Looker Studio
 looker_output <- frame_scores_total %>%
