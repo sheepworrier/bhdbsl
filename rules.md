@@ -21,7 +21,7 @@ All Clubs within a radius of seven miles of the Clock Tower, Brighton, having fu
 
 ## 3. MANAGEMENT COMMITTEE:
 
-The League shall be governed between one AGM and the next, by a Management Committee to be elected at each AGM, and consist of 11 members, and not more than three from any Club, with power to co-opt as required. Any Committee Member not attending at least 2 meetings in a year can be removed from the Committee. All officers shall be ex-officio members of the Management Committee. A quorum shall comprise a minimum of two officers together with a minimum of four members.
+The League shall be governed between one AGM and the next, by a Management Committee to be elected at each AGM, and consist of 11 members, and not more than three from any Club, with power to co-opt as required. The Management Committee may meet physically or remotely, utilising communication technology. All officers shall be ex-officio members of the Management Committee. A quorum shall comprise a minimum of two officers together with a minimum of four members.
 
 ## 4. SUB-COMMITTEES:
 
@@ -46,7 +46,7 @@ Honorary Treasurer and Honorary Auditor shall be elected at each Annual General 
 
 1. The League shall consist of such Divisions and Sections as the Management Committee may decide.
 1. Clubs shall be placed in such Divisions and Sections respectively as the Management Committee, at their discretion, shall decide at their first meeting after the Annual General Meeting of the League.
-1. Clubs with one table may enter two teams and Clubs with two tables may enter four | teams for both Billiards and Snooker.
+1. Clubs may enter up to two Snooker and / or two Billiards teams per table used for league matches at their club.
 
 ## 8. REGISTRATION OF PLAYERS:
 
@@ -114,26 +114,26 @@ All protests must be forwarded to the League Secretary in writing within 21 days
 ## 16. Websites
 The BHDBSL Websites are to assist in running, displaying and advertising all BHDBSL matters including League matches, Competitions, up to date results and statistics.  The Website can be updated by the following people.
 1. An elected Team Administrator - can log into the Website and upload frame scores, points scored and any break over 25 for snooker / over 30 for billiards. (contact the Website administrator to set yourself up as "Team Administrator”.
-1. *Divisional Administrator (One elected member for each Division) - will upload any results passed to him by teams with no “team Administrator”.
+1. *Divisional Administrator* (One elected member for each Division) - will upload any results passed to him by teams with no “team Administrator”.
 1. Individual Players - can log in and update any Singles / Doubles match results (Contact the Website Administrator to set your access accordingly).
-1. *The Competition Secretary - will update any Singles / Doubles matches that have been played where “Individual Players"
+1. *The Competition Secretary* - will update any Singles / Doubles matches that have been played where “Individual Players"
 are not able to upload their own result.
-1. *The League Secretary - Should there be a dispute over results recorded, the League Secretary will amend any results after any successful appeal.
-1. * The Website Administrator - will make general changes and updates, keeping the website up to date with fixtures for League matches and Competition Draws.
-* Contact details for these people are available on the Website under the "Contacts” tab.
+1. *The League Secretary* - Should there be a dispute over results recorded, the League Secretary will amend any results after any successful appeal.
+1. *The Website Administrator* - will make general changes and updates, keeping the website up to date with fixtures for League matches and Competition Draws.
+Contact details for these people are available on the Website under the "Contacts” tab.
 
 ## 17. Premier Division (snooker) format
 
-For the Premier Division, teams are to be made up of a minimum of 5 players, so as to allow entry to the Endeavour Team Cup Competition (see Competition Rules). On league match night, a minimum of 3 and maximum of 6 players from each team will play in any one match. **Each player** can play 2 frames but not consecutively – unless by prior agreement of the team Captains.
+For the Premier Division, teams are to be made up of a minimum of 5 players, so as to allow entry to the Endeavour Team Cup Competition (see Competition Rules). On league match night, a minimum of 2 and maximum of 6 players from each team will play in any one match. **Each player** can play 2 frames but not consecutively – unless by prior agreement of the team Captains.  Captains must declare if they only have 2 players at the start of the match, or ideally in advance to avoid wasted travel by their opponents.
 
 ## 18. Division 1 (snooker) format
 
-For Division 1, teams are to be made up of a minimum of 5 players, so as to allow entry to the Endeavour Team Cup Competition (see Competition Rules). On league match night, a minimum of 3 and maximum of 5 players from each team will play in any one match. **One or two players** can play 2 frames each but not consecutively – unless by prior agreement of the team Captains.
+For Division 1, teams are to be made up of a minimum of 5 players, so as to allow entry to the Endeavour Team Cup Competition (see Competition Rules). On league match night, a minimum of 2 and maximum of 5 players from each team will play in any one match. **One or two players** can play 2 frames each but not consecutively – unless by prior agreement of the team Captains.  Captains must declare if they only have 2 players at the start of the match, or ideally in advance to avoid wasted travel by their opponents.
 
 ## ANNUAL COMPETITION RULES
 
 The following Rules will apply to all Competitions, whether Team or Individual, organised by the above League. They should be read in conjunction with, and in addition to, any other Rules published in the League handbook.
-All competitions shall be played under the current WPBSA rules for the games of Snooker and Billiards, (as published September 2011)
+All competitions shall be played under the current WPBSA rules for the games of Snooker and Billiards.
 General Rules covering all competitions are as follows. (For "player” read “team" or "side” wherever applicable):-
 Only players registered for a team in the above League may compete in these competitions.  Any team withdrawing from the League will automatically be withdrawn from appropriate Team competitions.  Players entered in individual or pairs Competitions will not be affected.  The draw for all stages of all competitions will be carried out by the Competitions Secretary (normally the League Secretary). The draw will be despatched to all concerned clubs - both home and away - giving the date of despatch and the date by which the matches should be played. The first named player will be the home player and on receipt of the notification of the match it will be the home player's responsibility to contact the other player within the time laid down for the Home Advantage to arrange the date, time and venue for the match to be played. If the home player does not contact the away player within the specified period for whatever reason, the away player shall then have the choice of venue and date. Failure to play the match by the date laid down by the Competition Secretary may result in the exclusion of both players from the competition. With the exception of the semi-finals and finals it will be the responsibility of the home player to provide a referee. This may, by agreement, be one of the players concerned.
 On completion of the match it will be the winning player's/teams responsibility to notify the result to the Competition Secretary not later than the closing date. Failure to do so will result in the exclusion of the winner from further progress in the Competition.
@@ -147,19 +147,20 @@ Where times are agreed, or stated to start, 10 minutes will be allowed. After th
 
 There will be five players per side, each playing a single frame. Players may only be those registered with the League for that team. The match winners will be those winning most frames i.e. best of five. All players names must be entered on the match card before commencement of the first frame, and played in that order unless changed by mutual agreement of the Captains.
 Optionally, a player may be declared as a standby player at the start of the match who can sub in for a player who was written down on the match card in exceptional circumstances with no change to the other drawn match-ups.
+The handicap will be on a per frame basis (subject to a maximum of 70).
 
 ### The De-Costa Cup (Snooker Handicap)
 
-Handicaps will be decided by the Management Handicapping Committee prior to the start of the Competition and will remain in force for the whole competition.  The competition will be played over the best of three frames up to and inlcuding the semi-final.  The final will be the best of five frames.  The handicap will be on a per frame basis (subject to a maximum of 75).
+Handicaps will be decided by the Management Handicapping Committee prior to the start of the Competition and will remain in force for the whole competition.  The competition will be played over the best of three frames up to and inlcuding the semi-final.  The final will be the best of five frames.  The handicap will be on a per frame basis (subject to a maximum of 70).
 
-### The Division 1-3. The Under 18s, Under 50s, and Over 50's Championships.
+### The Division 1-3. The Under 18s, Under 50s, and Over 50's Championships
 
-Will be decided by the best of three frames with the final being played over the best of five frames. The title of "Division 1-3” can be amended dependant on the number of Divisions in the League. In the Age related competitions the players must be under 25, 50 or over and 70 or over on the date of the of the entry closing date.  The Division 1-3 and the Over 50's are handicap competitions; the handicaps being on a per frame basis (subject to a maximum of 75).
+Will be decided by the best of three frames with the final being played over the best of five frames. The title of "Division 1-3” can be amended dependant on the number of Divisions in the League. In the Age related competitions the players must be under 18, under 25, under 50 or 50 and over on the date of the of the entry closing date.  The Division 1-3 and the Over 50's are handicap competitions; the handicaps being on a per frame basis (subject to a maximum of 70).
 The Division 1-3 competition will be open to any player not registered to a Premier Division snooker team in the current season, nor the previous season (unless the team they were registered with were relegated).
 
 ### The Snooker Pairs Handicap
 
-Handicaps will be decided by the Management Handicapping Committee prior to the start of the competition and will remain in force for the whole competition. No change to the composition of the pair can be allowed i.e. no substitute will be permitted. Both players must be registered with the same club. The competition will be played over the best of three frames up to and including the smi-final.  The final will be played over the best of five frames.  The handicap will be on a per frame basis (subject to a maximum of 75).
+Handicaps will be decided by the Management Handicapping Committee prior to the start of the competition and will remain in force for the whole competition. No change to the composition of the pair can be allowed i.e. no substitute will be permitted. Both players must be registered with the same club. The competition will be played over the best of three frames up to and including the semi-final.  The final will be played over the best of five frames.  The handicap will be on a per frame basis (subject to a maximum of 70).
 
 ### The Snooker Open Championship
 
