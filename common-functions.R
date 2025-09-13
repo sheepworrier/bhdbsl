@@ -8,12 +8,12 @@ library(RSelenium)
 library(stringr)
 
 # Open a selenium session
-remDr <- remoteDriver(
-  remoteServerAddr = "localhost",
-  port = 4445L,
-  browserName = "firefox"
-)
-remDr$open()
+# remDr <- remoteDriver(
+#   remoteServerAddr = "localhost",
+#   port = 4445L,
+#   browserName = "firefox"
+# )
+# remDr$open()
 
 get_season_division_results <- function(season, division, url, sport,
                                         league = "Brighton") {
@@ -59,10 +59,23 @@ get_single_results_page <- function(base_url, season, division, page_number,
   session <- remDr$getPageSource()[[1]] %>%
     read_html()
   # Use rvest to extract the table of up to 20 results into a dataframe
-  results_table <- session %>%
-    html_nodes("table") %>%
-    .[[1]] %>%
-    html_table(fill=TRUE)
+  results_table <- tryCatch({
+      session %>%
+      html_nodes("table") %>%
+      .[[1]] %>%
+      html_table(fill=TRUE)}, error = function(e) {
+        message("Error occurred: ", e$message)
+        # You can add code here to inspect the 'session' object
+        # For example, print its structure or specific attributes:
+        print(session)
+        # print(class(session))
+        return(NULL) # Or some other indicator of failure
+      })
+  
+  # After the block, you can check if results_table is NULL (or your chosen failure indicator)
+  if (is.null(results_table)) {
+    message("Failed to retrieve results_table. Debugging information was printed above.")
+  }
   # Remove any notes that have been applied to any of the match results
   # if (sport != "Snooker comp") {
   #   if (is.na(results_table[1, 1])) {

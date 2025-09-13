@@ -1,4 +1,3 @@
-library(stringdist)
 library(zoo)
 library(dplyr)
 library(googlesheets4)
@@ -28,33 +27,6 @@ unmapped_new_players <- new_frame_scores %>%
 # player
 unmapped_old_players <- player_id_map %>%
   filter(player_id == new_player_id)
-# Check if there are any new players to map
-if(nrow(unmapped_new_players) > 0) {
-  # Calculate  Jaro Winckler string distance between old names and new
-  dist <- stringdistmatrix(unmapped_old_players$full_name,
-                           unmapped_new_players$player_name,
-                           method = "jw")
-  row.names(dist) <- as.character(unmapped_old_players$full_name)
-  colnames(dist) <- as.character(unmapped_new_players$player_name)
-  # Select the closest match for each (old) player
-  output <-
-    data.frame(
-      unmapped_old_players,
-      word_close = unmapped_new_players[as.numeric(apply(dist,
-                                                         1, which.min)),
-                                        "player_name"],
-      dist_min = apply(dist, 1, min, na.rm = TRUE))
-  colnames(output) <- c("player_id", "first_name", "last_name", "full_name",
-                        "new_full_name", "distance")
-  # Manually add matches to player-id.csv, then reload into a dataframe
-  player_id_map <- read_csv("player-id-map.csv")
-  # Any players on the new website that are not already mapped can be discounted
-  # next time
-  still_unmapped_new_players <- unmapped_new_players %>%
-    anti_join(player_id_map, by = c("player_id" = "new_player_id"))
-  # Write to CSV file for use next iteration to exclude from fuzzy matching
-  write_csv(still_unmapped_new_players, "New-website-players-unmapped.csv") 
-}
 # Update the home / away player_ids and names for the old website frame_scores
 old_frame_scores <- old_frame_scores %>%
   inner_join(player_id_map, by = c("home_player_id" = "player_id"),
