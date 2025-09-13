@@ -11,7 +11,7 @@ match_scores <-
                  away_team, home_score, away_score),
         read_csv("New-website-match-scores.csv") %>%
           mutate(fixture_date = as.Date(fixture_date, "%d/%m/%Y")) %>%
-          select(-URLs))
+          select(-URLs, -fixtureID))
 frame_scores <- read_csv("Frame-scores.csv") %>%
   mutate(fixture_date = as.Date(fixture_date))
 # Perform an anti-join to derive missing scorecards
