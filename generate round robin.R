@@ -29,14 +29,14 @@ generate_abstract_divisions <- function(num_teams) {
     write_csv(paste0(num_teams, "-team-fixtures.csv"))  
 }
 # Run the above for 8, 10 and 12
-walk(c(6, 8, 10, 12), generate_abstract_divisions)
+# walk(c(6, 8, 10, 12), generate_abstract_divisions)
 
 # Assign the lettered teams to actual entered teams
-billiards_teams <- c("MCA", "MCB", "SMA", "SMB")
-prem_snooker <- c("SMA", "SMD", "SMC", "SME", "SMF", "PSA", "SSA", "CCA", "CCB",
-                  "CCC", "PC")
-div1_snooker <- c("CH", "HDS", "MCA", "MCB", "MCC", "SMB", "PSB", "SSB", "PSC",
-                  "SSC")
+# billiards_teams <- c("MCA", "MCB", "SMA", "SMB")
+prem_snooker <- c("SMA", "SMD", "SMC", "SME", "PSA", "SSA",
+                  "CCA", "CCB", "PC", "BYE")
+div1_snooker <- c("HDSA", "HDSB", "MCA", "MCB", "MCC", "SMB",
+                  "PSB", "PSC", "SSB", "SSC", "CH", "BYE")
 # Create 1st round of fixtures without dates
 create_fixtures_round <- function(short_codes, name) {
   # Calculate division size (even numbers)
@@ -60,40 +60,39 @@ create_fixtures_round <- function(short_codes, name) {
   # Store in environment
   assign(paste0(name, "_fixtures"), fixtures, .GlobalEnv)
 }
-create_fixtures_round(billiards_teams, "billiards")
+# create_fixtures_round(billiards_teams, "billiards")
 create_fixtures_round(prem_snooker, "prem")
 create_fixtures_round(div1_snooker, "div1")
 # Assign dates to the matchdays
-billiards_dates <- c(as.Date('2024-09-25'),
-                     as.Date('2024-10-02'),
-                     as.Date('2024-10-23'),
-                     as.Date('2024-10-30'),
-                     as.Date('2024-11-20'),
-                     as.Date('2024-11-27'),
-                     as.Date('2025-01-08'),
-                     as.Date('2025-01-15'),
-                     as.Date('2025-02-05'),
-                     as.Date('2025-02-12'),
-                     as.Date('2025-03-05'),
-                     as.Date('2025-03-12'))
-prem_dates <- c(seq.Date(as.Date('2024-09-23'),
-                         as.Date('2024-10-28'),
+# billiards_dates <- c(as.Date('2024-09-25'),
+#                      as.Date('2024-10-02'),
+#                      as.Date('2024-10-23'),
+#                      as.Date('2024-10-30'),
+#                      as.Date('2024-11-20'),
+#                      as.Date('2024-11-27'),
+#                      as.Date('2025-01-08'),
+#                      as.Date('2025-01-15'),
+#                      as.Date('2025-02-05'),
+#                      as.Date('2025-02-12'),
+#                      as.Date('2025-03-05'),
+#                      as.Date('2025-03-12'))
+prem_dates <- c(seq.Date(as.Date('2025-09-22'),
+                         as.Date('2025-11-24'),
                          by = "weeks"),
-                seq.Date(as.Date('2024-11-11'),
-                         as.Date('2024-12-02'),
+                as.Date('2025-12-08'),
+                as.Date('2025-12-15'),
+                seq.Date(as.Date('2026-01-05'),
+                         as.Date('2026-01-26'),
                          by = "weeks"),
-                as.Date('2024-12-16'),
-                seq.Date(as.Date('2025-01-06'),
-                         as.Date('2025-01-27'),
+                seq.Date(as.Date('2026-02-09'),
+                         as.Date('2026-03-30'),
                          by = "weeks"),
-                seq.Date(as.Date('2025-02-10'),
-                         as.Date('2025-03-10'),
-                         by = "weeks"),
-                as.Date('2025-03-24'),
-                as.Date('2025-03-31'))
+                seq.Date(as.Date('2026-04-13'),
+                         as.Date('2026-04-27'),
+                         by = "weeks"))
 div1_dates <- data.frame(fixtures = prem_dates) |>
-  filter(!fixtures %in% c(as.Date('2024-12-02'), as.Date('2024-12-16'),
-                          as.Date('2025-03-24'), as.Date('2025-03-31'))) %>%
+  filter(fixtures != as.Date('2025-09-22'),
+         fixtures <= as.Date('2026-03-23')) %>%
   pull(fixtures)
 # UDF to greate a mirror image of a round of fixtures
 reverse_fixtures <- function(fixtures_df, round) {
@@ -132,7 +131,7 @@ create_full_division_fixtures <- function(name, num_rounds) {
                 filter(days_between < 0) |>
                 nrow() == 0,
               msg = "Dates are not in ascending order")
-  # Generate full season fixtures by matchday
+  # Generate full season fixtures by matchday (defaulting to 2 rounds)
   full_season <- team_fixtures |>
     bind_rows(reverse_fixtures(team_fixtures, 2))
   if(num_rounds == 4) {
@@ -141,11 +140,15 @@ create_full_division_fixtures <- function(name, num_rounds) {
                   mutate(Matchday = Matchday + max(full_season$Matchday)))
   } else if(num_rounds == 2) {
     # continue
+  } else if(num_rounds == 3) {
+    full_season <- full_season |>
+      bind_rows(team_fixtures |>
+                  mutate(Matchday = Matchday + max(full_season$Matchday)))
   } else {
     stop(paste("No if branch to handle", num_rounds, "of fixtures"))
   }
   # Generate the full season fixtures with dates
-  full_season |>
+  full_season_with_byes <- full_season |>
     inner_join(date_fixtures,
                join_by(Matchday)) |>
     mutate(`Date dd/mm/yyyy` = format(Date, "%d/%m/%Y"),
@@ -154,11 +157,18 @@ create_full_division_fixtures <- function(name, num_rounds) {
                                 .default = "Division 1"),
            Venue = "", Pitch = "", `Home Score` = "", `Away Score` = "") |>
     select(`Date dd/mm/yyyy`, `Time HH:MM`, Division, `Home Team` = home,
-           `Away Team` = away, Venue, Pitch, `Home Score`, `Away Score`) |>
-    write_csv(paste0(name, "_upload.csv"))
+           `Away Team` = away, Venue, Pitch, `Home Score`, `Away Score`)
+    # Save the BYEs to a dataframe
+    byes <- full_season_with_byes |>
+      filter(`Home Team` == "BYE" | `Away Team` == "BYE")
+    assign(paste0(name, "_byes"), byes, .GlobalEnv)
+    # Write the CSV for uploading to LR
+    full_season_with_byes |>
+      filter(`Home Team` != "BYE", `Away Team` != "BYE") |>
+      write_csv(paste0(name, "_upload.csv"))
 }
-create_full_division_fixtures("billiards", 4)
-create_full_division_fixtures("prem", 2)
+# create_full_division_fixtures("billiards", 4)
+create_full_division_fixtures("prem", 3)
 create_full_division_fixtures("div1", 2)
 # Check matches per venue
 library(stringr)
@@ -174,8 +184,20 @@ fixtures |>
                      venue == "PS" & n <= 2 ~ FALSE,
                      venue == "MC" & n <= 2 ~ FALSE,
                      venue == "CC" & n <= 8 ~ FALSE,
+                     venue == "HD" & n <= 1 ~ FALSE,
                      .default = TRUE)) |>
   filter(n > 1, issue)
+# Pair up BYEs
+bye_matches <- prem_byes |>
+  select(`Date dd/mm/yyyy`, `Home Team`, `Away Team`) |>
+  inner_join(div1_byes |>
+               select(`Date dd/mm/yyyy`, `Home Team`, `Away Team`),
+             join_by(`Date dd/mm/yyyy`)) |>
+  mutate(`Home Team` = if_else(`Home Team.x` == "BYE", `Home Team.y`,
+                               `Home Team.x`),
+         `Away Team` = if_else(`Away Team.x` == "BYE", `Away Team.y`,
+                               `Away Team.x`)) |>
+  select(`Date dd/mm/yyyy`, `Home Team`, `Away Team`)
 # Create CSV for importing into Google Calendar
 fixtures |>
   filter(`Home Team` == "SMD" | `Away Team` == "SMD") |>
